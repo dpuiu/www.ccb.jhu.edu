@@ -22,7 +22,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
+html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 html_title = 'Center for Computational Biology'
 html_theme = 'furo' # alabaster'
 html_static_path = ['_static']
