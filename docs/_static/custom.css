@@ -1,0 +1,12 @@
+/* .sd-card {    background-color: #e8f3ff; } */
+
+/* Highlight search matches */
+mark,
+.highlighted,
+.search li em,
+span.highlight {
+    background: #ffeb3b !important;
+    color: black !important;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
