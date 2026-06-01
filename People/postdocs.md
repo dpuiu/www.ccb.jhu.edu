@@ -1,8 +1,8 @@
-# Postdocs
+## Postdocs
 
 ---
 
-## Ales Varabyou, Ph.D
+### Ales Varabyou, Ph.D
 
 ```{grid} 1 1 3 3 
 
@@ -27,7 +27,7 @@
 
 ---
 
-## Courtney Hall, Ph.D
+### Courtney Hall, Ph.D
 
 
 ```{grid} 1 1 3 3 

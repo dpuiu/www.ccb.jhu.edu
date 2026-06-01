@@ -1,7 +1,18 @@
 # People
 
+```{include} faculty.md 
+```
+
+```{include} postdocs.md 
+```
+
+```{include} students.md 
+```
+
+----
+
 ```{toctree}
-:maxdepth: 1
+:maxdepth: 2
 :hidden:
 :caption: People
 

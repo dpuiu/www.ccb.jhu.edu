@@ -1,8 +1,8 @@
-# Students
+## Students
 
 ---
 
-## David Bass
+### David Bass
 
 ```{grid} 1 1 3 3 
 
@@ -26,7 +26,7 @@
 
 ---
 
-## Kalen Clifton
+### Kalen Clifton
 
 ```{grid} 1 1 3 3 
 

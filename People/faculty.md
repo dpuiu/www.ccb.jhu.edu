@@ -1,8 +1,8 @@
-# Faculty
+## Faculty
 
 ---
 
-## Steven L. Salzberg, Ph.D.
+### Steven L. Salzberg, Ph.D.
 
 ```{grid} 1 1 3 3 
 
@@ -30,7 +30,7 @@
 
 ---
 
-## Dan Arking, Ph.D.
+### Dan Arking, Ph.D.
 
 
 ```{grid} 1 1 3 3 
@@ -57,7 +57,7 @@
 
 ---
 
-##  Joel Bader, Ph.D.
+###  Joel Bader, Ph.D.
 
 ```{grid} 1 1 3 3 
 
