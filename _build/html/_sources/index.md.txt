@@ -10,4 +10,6 @@
 About/index
 People/index
 Software/index
+Education/index
+CBCC/index
 ```

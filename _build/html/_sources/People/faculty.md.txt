@@ -16,7 +16,7 @@
 - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
 - **Director, Center for Computational Biology**  
 - [Lab homepage](http://salzberg-lab.org) 
-- salzberg@jhu.edu
+- [salzberg@jhu.edu](mailto:salzberg@jhu.edu)
 
 :::
 
@@ -44,7 +44,7 @@
 :::{grid-item-card}
 - **Professor**
 - [Profile(https://www.hopkinsmedicine.org/profiles/details/dan-arking)
-- arking@jhmi.edu
+- [arking@jhmi.edu](mailto:arking@jhmi.edu)
 :::
 
 :::{grid-item-card}
@@ -70,7 +70,7 @@
 :::{grid-item-card}
 - **Professor**
 - [Lab homepage](http://www.baderzone.org/)
-- joel.baderjhu.edu
+- [joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)
 :::
 
 :::{grid-item-card}

@@ -20,5 +20,7 @@ faculty
 postdocs
 staff
 students
+alumni
+colab
 
 ```

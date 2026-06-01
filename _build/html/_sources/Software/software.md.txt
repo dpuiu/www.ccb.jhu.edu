@@ -1,8 +1,8 @@
-# Packages
+## Packages
 
 **If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess](http://ccb.jhu.edu/chess)**
 
-## Next-generation sequence alignment software
+### Next-generation sequence alignment software
 
 [**Arioc**](https://github.com/rwilton/arioc)
 
@@ -142,7 +142,7 @@ Cufflinks, does not allow spliced alignments. It also handles
 overlapping genes, a common phenomenon in bacteria that is largely
 absent in eukaryotes.
 
-## Metagenomics Classification, Abundance Estimation and Visualization
+### Metagenomics Classification, Abundance Estimation and Visualization
 
 [**How to Choose a Metagenomics Classifier**](/software/choosing-a-metagenomics-classifier/)
 
@@ -200,7 +200,7 @@ sequences from a metagenomics sample.
 Pavian is a web application for exploring metagenomics classification
 results, with a special focus on infectious disease diagnosis.
 
-## Computational Gene Finding
+### Computational Gene Finding
 
 [**Glimmer**](/software/glimmer/index.shtml)
 
@@ -247,7 +247,7 @@ A program that predicts gene models using the output from multiple
 sources of evidence, including other gene finders, Blast searches, and
 other alignment data.
 
-## Genome assembly and large-scale genome alignment
+### Genome assembly and large-scale genome alignment
 
 [**MUMmer**](http://mummer.sourceforge.net/)
 
@@ -349,7 +349,7 @@ assembly and chromatogram data from Sanger (1st generation) reads. On
 average, AutoEditor corrects 80% of erroneous base calls, with an
 accuracy of 99.99%.
 
-## Other sequence analysis tools
+### Other sequence analysis tools
 
 [**BRCA gene testing**](http://ccb.jhu.edu/software/BRCA-diagnostic/index.shtml)
 
@@ -435,7 +435,7 @@ A highly accurate program that finds rho-independent transcription
 terminators in bacterial genomes. The site includes a database with
 pre-computed predictions for hundreds of species.
 
-## Variant Analysis Tools
+### Variant Analysis Tools
 
 [**CHASM and SNVBox**](http://wiki.chasmsoftware.org/)
 
