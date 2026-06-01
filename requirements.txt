@@ -1,0 +1,5 @@
+#sphinx-rtd-theme
+furo
+myst-parser
+#sphinx-copybutton
+sphinx-design
