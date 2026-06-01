@@ -38,7 +38,7 @@
 
 :::{grid-item-card}
 - ME GR Grad Student in Fan Lab
-- kclifto2@jh.edu
+- [kclifto2@jh.edu](mailto:kclifto2@jh.edu)
 :::
 
 :::{grid-item-card}

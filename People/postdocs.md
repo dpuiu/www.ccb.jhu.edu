@@ -14,7 +14,7 @@
 
 :::{grid-item-card}	
 - Postdoc in the Pertea Lab
-- [ales.varabyoujhu.edu](mailto:ales.varabyoujhu.edu)
+- [ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu)
 :::
 
 :::{grid-item-card}

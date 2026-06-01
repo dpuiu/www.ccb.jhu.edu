@@ -47,3 +47,17 @@ pandoc -f html -t markdown -o md/students.md -i students.shtml
 pandoc -f html -t markdown -o md/courses.md -i courses.shtml
 pandoc -f html -t markdown -o md/internship.md -i internship.shtml
 pandoc -f html -t markdown -o md/cbcc.md -i cbcc.shtml
+
+
+############
+
+
+git status
+git add .
+git commit -m 'multiple updates'
+git push
+
+cp _build/html docs
+make clean
+make html 
+rm -r docs
