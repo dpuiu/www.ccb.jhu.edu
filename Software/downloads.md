@@ -1,0 +1,13 @@
+# Older Assembly Projects
+
+## Genome Projects
+...
+
+## GAGE
+...
+
+## Drosophila (fruit fly) endosymbionts
+...
+
+## Older Bacterial Genomes (pre-2006)
+...
