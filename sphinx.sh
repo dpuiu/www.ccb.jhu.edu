@@ -51,13 +51,21 @@ pandoc -f html -t markdown -o md/cbcc.md -i cbcc.shtml
 
 ############
 
+convert jhu-wse-logo-white.png -resize x45 jhu-wse-logo-white_50.png
+convert ccbtext_wbg.png -resize x45 ccbtext_wbg_50.png
+convert ccblogo_wbg.png -resize x45 ccblogo_wbg_50.png
+convert ccblogo_wbg_50.png ccbtext_wbg_50.png +append ccblogotext_wbg_50.png
+
+make clean
+make html 
+rm -r docs
+cp -r _build/html docs
+
+
 
 git status
 git add .
 git commit -m 'multiple updates'
 git push
 
-cp _build/html docs
-make clean
-make html 
-rm -r docs
+python -m py_compile conf.py

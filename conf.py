@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'CCB'
-copyright = '2026, Daniela Puiu'
+copyright = 'The Center for Computational Biology at Johns Hopkins University'
 author = 'Daniela Puiu'
 release = '2026'
 
@@ -27,8 +27,23 @@ html_title = 'Center for Computational Biology'
 html_theme = 'furo' # alabaster'
 html_static_path = ['_static']
 html_js_files = ["custom.js"]
-html_css_files = [ 'custom.css', ]
-html_theme_options = { 'announcement': '<div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;"><img src="/www.ccb.jhu.edu/_static/ccblogotext_wbg_50.png"><img src="/www.ccb.jhu.edu/_static/jhu-wse-logo-white_50.png"></div>'}
+html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
+#html_css_files = [ "custom.css", ]
+html_theme_options = { 
+	'announcement': '''
+		<div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;">
+			 <div style="display:flex;gap:15px;">
+				<img src="/www.ccb.jhu.edu/_static/ccblogotext_wbg_50.png" alt="CCB">
+                                <img src="/www.ccb.jhu.edu/_static/jhmilogo_wbg_50.png" alt="JHMI">
+			</div>
+
+			<div>
+				<a href="https://engineering.jhu.edu/" alt="JHU WSE"><img src="/www.ccb.jhu.edu/_static/jhu-wse-logo-white_50.png"  alt="WSE"></a>
+				<img src="/www.ccb.jhu.edu/_static/jhsphlogo_wbg_50.png" alt="JHSPH">
+			</div>
+		</div>
+	'''
+}
 html_extra_path = ['_static/.nojekyll']
 
 html_use_index = True
