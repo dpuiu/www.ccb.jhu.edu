@@ -1,4 +1,4 @@
-# Open positions at CCB
+# Open Positions
 
 Most of the CCB faculty members describe job openings on their
 individual websites. See the [People menu](http://ccb.jhu.edu/people.php) for those sites.

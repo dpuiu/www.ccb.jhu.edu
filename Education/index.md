@@ -8,9 +8,10 @@
 ```{toctree}
 :maxdepth: 2
 :hidden:
-:caption: People
+:caption: Education
 
-information
-courses
-internship
+Information <information>
+Sample Courses  <sample_courses>
+Courses <courses>
+Internship <internship>
 ```

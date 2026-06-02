@@ -9,7 +9,8 @@
 :hidden:
 
 software
+other
 Current Assembly Projects <https://salzberg-lab.org/genome-projects/>
-older_assembly_projects
+downloads
 eupathdb
 ```

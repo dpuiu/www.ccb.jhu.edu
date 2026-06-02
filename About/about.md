@@ -38,13 +38,13 @@ Science](http://www.cs.jhu.edu/) in the Whiting School of Engineering,
 and (3) the [Department of Biostatistics](http://www.biostat.jhsph.edu/)
 in the Bloomberg School of Public Health.
 
-## Leadership
+### Leadership
 
 The Director of CCB is Prof. Steven Salzberg, and the Associate Director
 is Prof. Mihaela Pertea. See the [people
 page](http://ccb.jhu.edu/people.php) for a complete list of our faculty.
 
-## Computing infrastructure
+### Computing infrastructure
 
 CCB has a high-performance computing facility operated jointly with the
 [Institute for Data-Intensive Engineering and
@@ -55,7 +55,7 @@ multiple large-memory compute servers. CCB also relies on the
 campus-wide [ARCH center](https://www.arch.jhu.edu/), a computing grid
 with over 34,000 core processors and 13 petabytes of storage.
 
-## Directions
+### Directions
 
 Since January 2020, CCB has been headquartered in the Wyman Park
 Building at the Homewood Campus.
