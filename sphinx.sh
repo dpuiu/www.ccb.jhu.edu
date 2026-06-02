@@ -51,10 +51,13 @@ pandoc -f html -t markdown -o md/cbcc.md -i cbcc.shtml
 
 ############
 
-convert jhu-wse-logo-white.png -resize x45 jhu-wse-logo-white_50.png
-convert ccbtext_wbg.png -resize x45 ccbtext_wbg_50.png
-convert ccblogo_wbg.png -resize x45 ccblogo_wbg_50.png
+convert jhu-wse-logo-white.png -resize x40 jhu-wse-logo-white_50.png
+convert ccbtext_wbg.png -resize x40 ccbtext_wbg_50.png
+convert ccblogo_wbg.png -resize x40 ccblogo_wbg_50.png
 convert ccblogo_wbg_50.png ccbtext_wbg_50.png +append ccblogotext_wbg_50.png
+convert jhsphlogo_wbg.png  -resize x40 jhsphlogo_wbg_50.png
+convert jhmilogo_wbg.png -resize x40 jhmilogo_wbg_50.png
+
 
 make clean
 make html 
