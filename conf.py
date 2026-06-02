@@ -34,12 +34,12 @@ html_theme_options = {
 		<div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;">
 			 <div style="display:flex;gap:15px;">
 				<img src="/www.ccb.jhu.edu/_static/ccblogotext_wbg_50.png" alt="CCB">
-                                <img src="/www.ccb.jhu.edu/_static/jhmilogo_wbg_50.png" alt="JHMI">
+                                <img src="/www.ccb.jhu.edu/_static/jhmilogo_wbg_50.png" alt="JHMI" class="hide-mobile">
 			</div>
 
 			<div>
 				<a href="https://engineering.jhu.edu/" alt="JHU WSE"><img src="/www.ccb.jhu.edu/_static/jhu-wse-logo-white_50.png"  alt="WSE"></a>
-				<img src="/www.ccb.jhu.edu/_static/jhsphlogo_wbg_50.png" alt="JHSPH">
+				<img src="/www.ccb.jhu.edu/_static/jhsphlogo_wbg_50.png" alt="JHSPH" class="hide-mobile">
 			</div>
 		</div>
 	'''
