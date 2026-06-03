@@ -1,5 +1,7 @@
+#git pull
+
 make clean
-make html 
+make html
 rm -r docs
 cp -r _build/html docs
 
