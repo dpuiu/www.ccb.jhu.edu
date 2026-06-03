@@ -630,7 +630,7 @@
 :::{grid-item-card}
 - Research Scientist
 - [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)
-- [Lab homepage](http://ccb.jhu.edu/people/alekseyz)
+- <a href="../People/alekseyz/">Lab homepage</a>
 :::
 
 :::{grid-item-card}

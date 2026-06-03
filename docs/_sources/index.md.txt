@@ -10,6 +10,7 @@
 About/index
 People/index
 Software/index
+Data/index
 Education/index
 Consulting Core <CBCC/index>
 ```
