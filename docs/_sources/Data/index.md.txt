@@ -5,8 +5,7 @@
 ```
 
 ```{toctree}
-:maxdepth: 1
-:hidden:
+:maxdepth: 2
 
 Current Assembly Projects <https://salzberg-lab.org/genome-projects/>
 downloads

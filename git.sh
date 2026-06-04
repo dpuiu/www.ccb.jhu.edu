@@ -1,9 +1,9 @@
 #git pull
 
-make clean
 make html
 rm -r docs
 cp -r _build/html docs
+make clean
 
 
 git status

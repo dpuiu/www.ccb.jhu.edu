@@ -1,16 +1,26 @@
 # People
 
-```{include} people.md 
+```{include} faculty.md 
+```
+
+```{include} postdocs.md 
+```
+
+```{include} staff.md 
+```
+
+```{include} students.md 
 ```
 
 ----
 
 ```{toctree}
 :maxdepth: 2
-:hidden:
-:caption: People
 
-people
+faculty
+postdocs
+staff
+students
 alumni
 collab
 

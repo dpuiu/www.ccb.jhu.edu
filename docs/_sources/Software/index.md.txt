@@ -1,13 +1,37 @@
 # Software
 
-```{include} software.md 
-
+```{note}
+If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess](http://ccb.jhu.edu/chess)
 ```
 
-```{toctree}
-:maxdepth: 1
-:hidden:
+```{include} software_alignment.md
+```
 
-software
+```{include} software_metagenomics.md
+```
+
+```{include} software_gene_finding.md
+```
+
+```{include} software_assembly.md
+```
+
+```{include} software_other_tools.md
+```
+
+```{include} software_variants.md
+```
+
+
+```{toctree}
+:maxdepth: 2
+
+Alignment <software_alignment>
+Metagenomics <software_metagenomics>
+Gene Finding <software_gene_finding>
+Assembly <software_assembly>
+Other Tools <software_other_tools>
+Variant Analysis <software_variants>
+
 other
 ```

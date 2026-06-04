@@ -57,7 +57,11 @@ convert ccblogo_wbg.png -resize x40 ccblogo_wbg_50.png
 convert ccblogo_wbg_50.png ccbtext_wbg_50.png +append ccblogotext_wbg_50.png
 convert jhsphlogo_wbg.png  -resize x40 jhsphlogo_wbg_50.png
 convert jhmilogo_wbg.png -resize x40 jhmilogo_wbg_50.png
-
+convert ccblogo_wbg.png ccbtext_wbg.png +append ccblogotext_wbg.png
+convert ccbtext_wbg.png -resize x100 ccbtext_wbg_100.png
+convert ccblogo_wbg.png -resize x100 ccblogo_wbg_100.png
+convert ccblogo_wbg_100.png ccbtext_wbg_100.png +append ccblogotext_wbg_100.png
+convert ccblogo_wbg.png ccbtext_wbg.png +append ccblogotext_wbg.png
 
 make clean
 make html 
@@ -115,4 +119,5 @@ cut -f6 collab.tsv   > collab.md.laburl
  
 paste collab.md.name collab.md.photo collab.md.position collab.md.email collab.md.affiliation collab.md.laburl > collab.tsv
 cat collab.tsv | ./people2grid.pl   | sed 's|<br>|\n- |g'
->>>>>>> 40a710321e758535e15e8d40ed688e445f64a798
+
+

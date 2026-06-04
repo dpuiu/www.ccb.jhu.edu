@@ -3,7 +3,7 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="Packages" href="software.html"><link rel="prev" title="Collaborations" href="../People/collab.html">
+<link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="Next-generation sequence alignment software" href="software_alignment.html"><link rel="prev" title="Collaborations" href="../People/collab.html">
         <link rel="canonical" href="https://dpuiu.github.io/www.ccb.jhu.edu/Software/index.html">
         <link rel="prefetch" href="../_static/logo.png" as="image">
 
@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=9cc048f5" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8a1cffa6" />
     
     
 
@@ -222,16 +222,21 @@
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../People/index.html">People</a><input aria-label="Toggle navigation of People" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../People/people.html">Faculty</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../People/people.html#postdocs">Postdocs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../People/people.html#staff">Staff</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../People/people.html#students">Students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../People/faculty.html">Faculty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../People/postdocs.html">Postdocs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../People/staff.html">Staff</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../People/students.html">Students</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../People/alumni.html">Alumni</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../People/collab.html">Collaborations</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Software</a><input aria-label="Toggle navigation of Software" checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="software.html">Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html">Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html">Metagenomics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html">Gene Finding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html">Assembly</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html">Other Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_variants.html">Variant Analysis</a></li>
 <li class="toctree-l2"><a class="reference internal" href="other.html">Web Servers and Databases</a></li>
 </ul>
 </li>
@@ -289,24 +294,30 @@
         <article role="main" id="furo-main-content">
           <section id="software">
 <h1>Software<a class="headerlink" href="#software" title="Link to this heading">¶</a></h1>
-<section id="packages">
-<h2>Packages<a class="headerlink" href="#packages" title="Link to this heading">¶</a></h2>
-<p><strong>If you’re looking for the CHESS human gene database, it is at <a class="reference external" href="http://ccb.jhu.edu/chess">ccb.jhu.edu/chess</a></strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you’re looking for the CHESS human gene database, it is at <a class="reference external" href="http://ccb.jhu.edu/chess">ccb.jhu.edu/chess</a></p>
+</div>
 <section id="next-generation-sequence-alignment-software">
-<h3>Next-generation sequence alignment software<a class="headerlink" href="#next-generation-sequence-alignment-software" title="Link to this heading">¶</a></h3>
-<p><a class="reference external" href="https://github.com/rwilton/arioc"><strong>Arioc</strong></a></p>
+<h2>Next-generation sequence alignment software<a class="headerlink" href="#next-generation-sequence-alignment-software" title="Link to this heading">¶</a></h2>
+<section id="arioc">
+<h3><a class="reference external" href="https://github.com/rwilton/arioc">Arioc</a><a class="headerlink" href="#arioc" title="Link to this heading">¶</a></h3>
 <p>Arioc is a GPU-accelerated DNA short-read aligner for WGS and WGBS
 reads. With high throughput (~1.5 to 2 million reads per second with
 the human reference genome in a 4-GPU computer), it is well suited to
 large-scale NGS data processing.</p>
-<p><a class="reference external" href="http://bowtie-bio.sf.net"><strong>Bowtie</strong></a></p>
+</section>
+<section id="bowtie">
+<h3><a class="reference external" href="http://bowtie-bio.sf.net">Bowtie</a><a class="headerlink" href="#bowtie" title="Link to this heading">¶</a></h3>
 <p>An ultrafast, memory-efficient short read aligner that aligns short DNA
 sequences to the human genome at a rate of about 25 million reads per
 hour on a typical desktop computer. Bowtie indexes the genome with a
 Burrows-Wheeler index to keep its memory footprint small: 2.3 GB for the
 human genome. Bowtie and Bowtie2 were developed by Ben Langmead and are
 actively supported by his lab.</p>
-<p><a class="reference internal" href="#/software/tophat"><span class="xref myst"><strong>TopHat</strong></span></a></p>
+</section>
+<section id="tophat">
+<h3><a class="reference internal" href="tophat/index.html"><span class="doc std std-doc">Tophat</span></a><a class="headerlink" href="#tophat" title="Link to this heading">¶</a></h3>
 <p>A spliced alignment system for RNA-seq experiments. TopHat finds known
 and novel exon-exon splice junctions and is extremely fast due to its
 use of the Bowtie2 aligner. The last release, TopHat2, runs with either
@@ -314,12 +325,16 @@ Bowtie1 or Bowtie2 and includes algorithms that significant enhance
 TopHat’s sensitivity, particularly in the presence of pseudogenes.
 TopHat2 includes TopHat-Fusion as an option.
 TopHat2 includes TopHat-Fusion as an option.</p>
-<p><a class="reference external" href="http://tophat-fusion.sourceforge.net"><strong>TopHat-Fusion</strong></a></p>
+</section>
+<section id="tophat-fusion">
+<h3><a class="reference external" href="http://tophat-fusion.sourceforge.net">TopHat-Fusion</a><a class="headerlink" href="#tophat-fusion" title="Link to this heading">¶</a></h3>
 <p>TopHat-Fusion is an enhanced version of TopHat with the ability to align
 reads across fusion points, which results from the breakage and
 re-joining of two different chromosomes, or from rearrangements within a
 chromosome.</p>
-<p><a class="reference internal" href="#/software/hisat"><span class="xref myst"><strong>HISAT</strong></span></a></p>
+</section>
+<section id="hisat">
+<h3><a class="reference internal" href="#/hisat/index"><span class="xref myst">HISAT</span></a><a class="headerlink" href="#hisat" title="Link to this heading">¶</a></h3>
 <p>HISAT is a highly efficient system for aligning RNA-seq reads. HISAT
 uses a novel indexing scheme, hierarchical indexing, which is inherently
 well-suited for aligning across introns. It employs two types of indexes
@@ -327,14 +342,18 @@ for alignment: (1) a whole-genome FM index to anchor each alignment, and
 (2) numerous local FM indexes for very rapid extensions of these
 alignments. HISAT supports genomes of any size, including those larger
 than 4 billion bases.</p>
-<p><a class="reference internal" href="#/software/hisat2"><span class="xref myst"><strong>HISAT2</strong></span></a></p>
+</section>
+<section id="hisat2">
+<h3><a class="reference internal" href="#/hisat2/index"><span class="xref myst">HISAT2</span></a><a class="headerlink" href="#hisat2" title="Link to this heading">¶</a></h3>
 <p>HISAT2 is a new, rapid and accurate system for aligning NGS reads (both
 DNA and RNA) against a population of genomes. HISAT2 is a successor to
 both HISAT and TopHat2. HISAT2 extends the Burrows-Wheeler transform
 (BWT) and the Ferragina-Manzini (FM) index to incorporate genomic
 differences among individuals into the reference genome. HISAT2 is
 currently maintained at <a class="reference external" href="https://kim-lab.org/">kim-lab.org</a>.</p>
-<p><a class="reference internal" href="#hisat-genotype"><span class="xref myst"><strong>HISAT-genotype</strong></span></a></p>
+</section>
+<section id="hisat-genotype">
+<h3><a class="reference internal" href="#/hisat-genotype/index"><span class="xref myst">HISAT-genotype</span></a><a class="headerlink" href="#hisat-genotype" title="Link to this heading">¶</a></h3>
 <p>HISAT-genotype is a next-generation platform that enables rapid and
 accurate genomic analysis of our genomes using next-generation
 sequencing data on a desktop within a few hours. The platform currently
@@ -342,44 +361,58 @@ supports HLA typing, discovery of novel HLA alleles, DNA fingerprinting
 analysis, and other functionalities. All HISAT programs were developed
 by Daehwan Kim and they are currently maintained at
 <a class="reference external" href="https://kim-lab.org/">kim-lab.org</a>.</p>
-<p><a class="reference external" href="http://cole-trapnell-lab.github.io/cufflinks/"><strong>Cufflinks</strong></a></p>
+</section>
+<section id="cufflinks">
+<h3><a class="reference external" href="http://cole-trapnell-lab.github.io/cufflinks/">Cufflinks</a><a class="headerlink" href="#cufflinks" title="Link to this heading">¶</a></h3>
 <p>A transcript assembler and abundance estimator for RNA-seq data.
 Cufflinks assembles transcripts from the alignments produced by TopHat,
 including novel isoforms, and quantitates those transcripts. Cufflinks
 was originally developed by Cole Trapnell and is supported by his lab at
 the University of Washington.</p>
-<p><a class="reference external" href="http://ccb.jhu.edu/software/stringtie"><strong>StringTie</strong></a></p>
+</section>
+<section id="stringtie">
+<h3><a class="reference internal" href="#stringtie/index"><span class="xref myst">StringTie</span></a><a class="headerlink" href="#stringtie" title="Link to this heading">¶</a></h3>
 <p>A fast and accurate transcript assembler and abundance estimator for
 RNA-seq data. Designed as a successor to Cufflinks, StringTie assembles
 transcripts from the alignments produced by TopHat2, HISAT, or other
 spliced aligners, and quantitates those transcripts.</p>
-<p><a class="reference external" href="https://github.com/alevar/tiebrush"><strong>TieBrush</strong></a></p>
+</section>
+<section id="tiebrush">
+<h3><a class="reference external" href="https://github.com/alevar/tiebrush">TieBrush</a><a class="headerlink" href="#tiebrush" title="Link to this heading">¶</a></h3>
 <p>A utility for efficient merging redundant information from multiple
 alignment files designed to enable rapid manupulation of extremely large
 datasets (RNA-seq, whole genome, exome, etc.). Data representations
 built with TieBrush and TieCov can be used for easier programmatic and
 visual analysis and comparison of groups within large sequencing
 datasets.</p>
-<p><a class="reference external" href="https://ccb.jhu.edu/eastr/"><strong>EASTR</strong></a></p>
+</section>
+<section id="eastr">
+<h3><a class="reference internal" href="#/eastr/index"><span class="xref myst">EASTR</span></a><a class="headerlink" href="#eastr" title="Link to this heading">¶</a></h3>
 <p>EASTR is a tool for detecting spuriously spliced alignments and
 junctions in RNA-seq datasets and reference annotations. It improves the
 accuracy of downstream analyses, such as transcriptome assembly, by
 dentifying and removing misaligned spliced alignments. The tool can
 process GTF, BED, and BAM files as input.</p>
-<p><a class="reference external" href="https://github.com/alyssafrazee/ballgown"><strong>Ballgown</strong></a></p>
+</section>
+<section id="ballgown">
+<h3><a class="reference external" href="https://github.com/alyssafrazee/ballgown">Ballgown</a><a class="headerlink" href="#ballgown" title="Link to this heading">¶</a></h3>
 <p>A program for computing differentially expressed genes in two or more
 RNA-seq experiments, using the output of StringTie or Cufflinks. The
 Ballgown package provides functions to organize, visualize, and analyze
 expression measurements. Ballgown is written in R and is part of
 Bioconductor.</p>
-<p><a class="reference external" href="http://cloudburst-bio.sf.net"><strong>CloudBurst</strong></a></p>
+</section>
+<section id="cloudburst">
+<h3><a class="reference external" href="http://cloudburst-bio.sf.net">CloudBurst</a><a class="headerlink" href="#cloudburst" title="Link to this heading">¶</a></h3>
 <p>An older program for highly sensitive short read mapping using
 MapReduce. CloudBurst, developed by Michael Schatz (now a faculty member
 at JHU Computer Science) uses <a class="reference external" href="http://hadoop.apache.org">Hadoop</a> to
 efficiently parallelize the short read mapping problem to dozens or
 hundreds of computers. This enables CloudBurst to execute highly
 sensitive read mappings with any number of mutations or indels.</p>
-<p><a class="reference external" href="http://bowtie-bio.sf.net/crossbow"><strong>Crossbow</strong></a></p>
+</section>
+<section id="crossbow">
+<h3><a class="reference external" href="http://bowtie-bio.sf.net/crossbow">Crossbow</a><a class="headerlink" href="#crossbow" title="Link to this heading">¶</a></h3>
 <p>Crossbow is an early scalable software pipeline for whole genome
 resequencing analysis. It combines <a class="reference external" href="http://bowtie-bio.sf.net">Bowtie</a>,
 an ultrafast and memory efficient short read aligner, and
@@ -389,35 +422,45 @@ accelerate the computation with many nodes. In <a class="reference external" hre
 paper</a>, we used it to analyze
 35x coverage of a human genome in 3 hours for about $100 using a
 40-node, 320-core cluster rented from <a class="reference external" href="http://aws.amazon.com">Amazon’s EC2</a> utility computing service.</p>
-<p><a class="reference internal" href="#/software/diamund/index.shtml"><span class="xref myst"><strong>Diamund</strong></span></a></p>
+</section>
+<section id="diamund">
+<h3><a class="reference internal" href="#/diamund/index"><span class="xref myst">Diamund</span></a><a class="headerlink" href="#diamund" title="Link to this heading">¶</a></h3>
 <p>Diamund is an efficient algorithm for variant detection in family trios
 or pairs of closely related exome or whole-genome sequencing samples. It
 compares DNA sequences directly to one another, without aligning them to
 the reference genome.</p>
-<p><a class="reference internal" href="#/software/EDGE-pro/index.shtml"><span class="xref myst"><strong>EDGE-pro</strong></span></a></p>
+</section>
+<section id="edge-pro">
+<h3><a class="reference internal" href="#/EDGE-pro/index"><span class="xref myst">EDGE-pro</span></a><a class="headerlink" href="#edge-pro" title="Link to this heading">¶</a></h3>
 <p>EDGE-pro is a program for estimating gene expression from prokaryotic
 RNA-seq. EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and
 Cufflinks, does not allow spliced alignments. It also handles
 overlapping genes, a common phenomenon in bacteria that is largely
 absent in eukaryotes.</p>
 </section>
+</section>
 <section id="metagenomics-classification-abundance-estimation-and-visualization">
-<h3>Metagenomics Classification, Abundance Estimation and Visualization<a class="headerlink" href="#metagenomics-classification-abundance-estimation-and-visualization" title="Link to this heading">¶</a></h3>
-<p><a class="reference internal" href="#/software/choosing-a-metagenomics-classifier/"><span class="xref myst"><strong>How to Choose a Metagenomics Classifier</strong></span></a></p>
+<h2>Metagenomics Classification, Abundance Estimation and Visualization<a class="headerlink" href="#metagenomics-classification-abundance-estimation-and-visualization" title="Link to this heading">¶</a></h2>
+<section id="how-to-choose-a-metagenomics-classifier">
+<h3><a class="reference internal" href="#/choosing-a-metagenomics-classifier/index"><span class="xref myst">How to Choose a Metagenomics Classifier</span></a><a class="headerlink" href="#how-to-choose-a-metagenomics-classifier" title="Link to this heading">¶</a></h3>
 <p>Kraken, KrakenUniq, Kraken2, and Centrifuge are all metagenomic
 classifiers developed by researchers in the Center for Computational
 Biology. To help users choose the best tool for their project, we
 provide this linked page as an explanation and comparison between tools
 along with descriptions of each author and their roles in the software
 development.</p>
-<p><a class="reference internal" href="#/software/kraken/"><span class="xref myst"><strong>Kraken</strong></span></a></p>
+</section>
+<section id="kraken">
+<h3><a class="reference internal" href="#/kraken/index"><span class="xref myst">Kraken</span></a><a class="headerlink" href="#kraken" title="Link to this heading">¶</a></h3>
 <p>Kraken is a very fast system for taxonomic classification of short or
 long DNA sequences from a microbiome or metagenomic sample. <a class="reference external" href="http://genomebiology.com/2014/15/3/R46/abstract">See the
 2014 Genome Biology paper
 here</a>. NOTE: KrakenUniq
 is a newer, more capable version of Kraken1, and we strongly recommend
 that users upgrade to KrakenUniq or else Kraken2.</p>
-<p><a class="reference external" href="https://github.com/fbreitwieser/krakenuniq"><strong>KrakenUniq</strong></a></p>
+</section>
+<section id="krakenuniq">
+<h3><a class="reference external" href="https://github.com/fbreitwieser/krakenuniq">KrakenUniq</a><a class="headerlink" href="#krakenuniq" title="Link to this heading">¶</a></h3>
 <p>KrakenUniq is update to Kraken 1 that runs as fast as Kraken and can
 work with the same databases, but additionally counts the number of
 unique k-mers using the stream sketching algorithm HyperLogLog. Using
@@ -427,97 +470,139 @@ KrakenUniq has a new version developed by Christopher Pockrandt that can
 run on low-memory machines, including laptops, even with a huge database
 (hundreds of GB). It’s also available for installation using bioconda,
 at <a class="reference external" href="https://anaconda.org/bioconda/krakenuniq">https://anaconda.org/bioconda/krakenuniq</a>.</p>
-<p><a class="reference internal" href="#/software/kraken2/"><span class="xref myst"><strong>Kraken2</strong></span></a></p>
+</section>
+<section id="kraken2">
+<h3><a class="reference internal" href="#/kraken2/index"><span class="xref myst">Kraken2</span></a><a class="headerlink" href="#kraken2" title="Link to this heading">¶</a></h3>
 <p>Kraken2 is an improved version of Kraken, using the same classification
 algorithm but with improvements in speed and memory. Specifically,
 Kraken 2 have faster database build times, smaller database sizes, and
 faster classification speeds. Additional details are explained on the
 Kraken 2 webpage.</p>
-<p><a class="reference internal" href="#/software/centrifuge/"><span class="xref myst"><strong>Centrifuge</strong></span></a></p>
+</section>
+<section id="centrifuge">
+<h3><a class="reference internal" href="#/centrifuge/index"><span class="xref myst">Centrifuge</span></a><a class="headerlink" href="#centrifuge" title="Link to this heading">¶</a></h3>
 <p>Centrifuge is a very rapid and memory-efficient system for the
 classification of DNA sequences from microbial samples, with better
 sensitivity than and comparable accuracy to other leading systems.
 Centrifuge requires a relatively small index (e.g., 4.3 GB for ~4,100
 bacterial genomes).</p>
-<p><a class="reference internal" href="#/software/bracken/"><span class="xref myst"><strong>Bracken</strong></span></a></p>
+</section>
+<section id="bracken">
+<h3><a class="reference internal" href="#/bracken/index"><span class="xref myst">Bracken</span></a><a class="headerlink" href="#bracken" title="Link to this heading">¶</a></h3>
 <p>Bracken statistical method that computes the abundance of species in DNA
 sequences from a metagenomics sample.</p>
-<p><a class="reference internal" href="#/software/pavian/"><span class="xref myst"><strong>Pavian</strong></span></a></p>
+</section>
+<section id="pavian">
+<h3><a class="reference internal" href="#/pavian/index"><span class="xref myst">Pavian</span></a><a class="headerlink" href="#pavian" title="Link to this heading">¶</a></h3>
 <p>Pavian is a web application for exploring metagenomics classification
 results, with a special focus on infectious disease diagnosis.</p>
 </section>
+</section>
 <section id="computational-gene-finding">
-<h3>Computational Gene Finding<a class="headerlink" href="#computational-gene-finding" title="Link to this heading">¶</a></h3>
-<p><a class="reference internal" href="#/software/glimmer/index.shtml"><span class="xref myst"><strong>Glimmer</strong></span></a></p>
+<h2>Computational Gene Finding<a class="headerlink" href="#computational-gene-finding" title="Link to this heading">¶</a></h2>
+<section id="glimmer">
+<h3><a class="reference internal" href="#/glimmer/index"><span class="xref myst">Glimmer</span></a><a class="headerlink" href="#glimmer" title="Link to this heading">¶</a></h3>
 <p>A system that uses interpolated Markov models to find genes in microbial
 DNA. Used to annotate hundreds (possibly thousands) of bacterial,
 archaeal, and viral genomes. Current version is 3.02.</p>
-<p><a class="reference internal" href="#/software/glimmerhmm/"><span class="xref myst"><strong>GlimmerHMM</strong></span></a></p>
+</section>
+<section id="glimmerhmm">
+<h3><a class="reference internal" href="#/glimmerhmm/index"><span class="xref myst">GlimmerHMM</span></a><a class="headerlink" href="#glimmerhmm" title="Link to this heading">¶</a></h3>
 <p>A Generalized Hidden Markov Model gene-finder which makes use of the
 techniques implemented previously by GlimmerM.</p>
-<p><a class="reference internal" href="#/software/glimmerhmm/"><span class="xref myst"><strong>Glimmer-MG</strong></span></a></p>
+</section>
+<section id="glimmer-mg">
+<h3><a class="reference internal" href="#/glimmerhmm/index"><span class="xref myst">Glimmer-MG</span></a><a class="headerlink" href="#glimmer-mg" title="Link to this heading">¶</a></h3>
 <p>Glimmer-MG is a older system for finding genes in metagenomic shotgun
 DNA sequences, using the Glimmer algorithm plus the SCIMM system for
 clustering metagenomics data, and the now-outdated Phymm system for
 phylogenetic labeling.</p>
-<p><a class="reference internal" href="#/software/genesplicer/"><span class="xref myst"><strong>GeneSplicer</strong></span></a></p>
+</section>
+<section id="genesplicer">
+<h3><a class="reference internal" href="#/genesplicer/index"><span class="xref myst">GeneSplicer</span></a><a class="headerlink" href="#genesplicer" title="Link to this heading">¶</a></h3>
 <p>A fast system for detecting splice sites in genomic DNA of various
 eukaryotes.</p>
-<p><a class="reference internal" href="#/software/sim4cc/"><span class="xref myst"><strong>SIM4CC</strong></span></a></p>
+</section>
+<section id="sim4cc">
+<h3><a class="reference internal" href="#/sim4cc/index"><span class="xref myst">SIM4CC</span></a><a class="headerlink" href="#sim4cc" title="Link to this heading">¶</a></h3>
 <p>An accurate and efficient program to align cDNA sequences (mRNAs, ESTs)
 to genomic sequences, specifically designed for cross-species alignment.</p>
-<p><a class="reference external" href="http://sourceforge.net/projects/kmer/"><strong>sim4db / leaff</strong></a></p>
+</section>
+<section id="sim4db-leaff">
+<h3><a class="reference external" href="http://sourceforge.net/projects/kmer/">sim4db/leaff</a><a class="headerlink" href="#sim4db-leaff" title="Link to this heading">¶</a></h3>
 <p>Fast high-throughput <a class="reference external" href="http://bioinformatics.oxfordjournals.org/content/27/13/1869">spliced
 alignment</a>
 (sim4, sim4cc) and sequence indexing.</p>
-<p><a class="reference internal" href="#/software/ASprofile/index.shtml"><span class="xref myst"><strong>ASprofile</strong></span></a></p>
+</section>
+<section id="asprofile">
+<h3><a class="reference internal" href="#/ASprofile/index"><span class="xref myst">ASprofile</span></a><a class="headerlink" href="#asprofile" title="Link to this heading">¶</a></h3>
 <p>A suite of programs for extracting, quantifying and comparing
 alternative splicing (AS) events from RNA-seq data.</p>
-<p><a class="reference internal" href="#/software/jigsaw/index.shtml"><span class="xref myst"><strong>JIGSAW</strong></span></a></p>
+</section>
+<section id="jigsaw">
+<h3><a class="reference internal" href="#/jigsaw/index"><span class="xref myst">JIGSAW</span></a><a class="headerlink" href="#jigsaw" title="Link to this heading">¶</a></h3>
 <p>A program that predicts gene models using the output from multiple
 sources of evidence, including other gene finders, Blast searches, and
 other alignment data.</p>
 </section>
+</section>
 <section id="genome-assembly-and-large-scale-genome-alignment">
-<h3>Genome assembly and large-scale genome alignment<a class="headerlink" href="#genome-assembly-and-large-scale-genome-alignment" title="Link to this heading">¶</a></h3>
-<p><a class="reference external" href="http://mummer.sourceforge.net/"><strong>MUMmer</strong></a></p>
+<h2>Genome assembly and large-scale genome alignment<a class="headerlink" href="#genome-assembly-and-large-scale-genome-alignment" title="Link to this heading">¶</a></h2>
+<section id="mummer">
+<h3><a class="reference external" href="http://mummer.sourceforge.net/">MUMmer</a><a class="headerlink" href="#mummer" title="Link to this heading">¶</a></h3>
 <p>A system for aligning whole genomes, chromosomes, and other very long
 DNA sequences. MUMmer is also widely used for comparing genome
 assemblies. NOTE: MUMmer has been at sourceforge since the early
 2000’s, but was moved to Github with the release of MUMmer4 in 2017.</p>
-<p><a class="reference external" href="http://mummergpu.sourceforge.net/"><strong>MUMmerGPU</strong></a></p>
+</section>
+<section id="mummergpu">
+<h3><a class="reference external" href="http://mummergpu.sourceforge.net/">MUMmerGPU</a><a class="headerlink" href="#mummergpu" title="Link to this heading">¶</a></h3>
 <p>An early attempt to use GPUs for alignment, MUMmerGPU uses a technique
 called general-purpose GPU programming (GPGPU programming) to harness
 the extreme parallelism of GPUs for non-graphics tasks.</p>
-<p><a class="reference external" href="http://gage.cbcb.umd.edu/"><strong>GAGE</strong></a></p>
+</section>
+<section id="gage">
+<h3><a class="reference external" href="http://gage.cbcb.umd.edu/">GAGE</a><a class="headerlink" href="#gage" title="Link to this heading">¶</a></h3>
 <p>A realistic assessment of genome assembly software in a rapidly changing
 field of next-generation sequencing.</p>
-<p><a class="reference external" href="http://ccb.jhu.edu/gage_b/"><strong>GAGE-B</strong></a></p>
+</section>
+<section id="gage-b">
+<h3><a class="reference external" href="http://ccb.jhu.edu/gage_b/">GAGE-B</a><a class="headerlink" href="#gage-b" title="Link to this heading">¶</a></h3>
 <p>An evaluation of contiguity and accuracy of assemblies of bacterial
 organisms that are generated by some of most commonly used genome
 assemblers. GAGE-B follows the standards set by GAGE.</p>
-<p><a class="reference external" href="http://masurca.blogspot.com/"><strong>MaSuRCA</strong></a></p>
+</section>
+<section id="masurca">
+<h3><a class="reference external" href="http://masurca.blogspot.com/">MaSuRCA</a><a class="headerlink" href="#masurca" title="Link to this heading">¶</a></h3>
 <p>MaSuRCA is a whole-genome assembler developed originally at the
 University of Maryland by James Yorke, Aleksey Zimin, and their
 colleagues. Ongoing development is a joint effort between JHU and UMD,
 and with recent modules designed to create hybrid assemblies using both
 short reads (Illumina) and long reads (PacBio/Oxford Nanopore).</p>
-<p><a class="reference external" href="http://amos.sourceforge.net/"><strong>AMOS Assembler project</strong></a></p>
+</section>
+<section id="amos-assembler-project">
+<h3><a class="reference external" href="http://amos.sourceforge.net/">AMOS Assembler project</a><a class="headerlink" href="#amos-assembler-project" title="Link to this heading">¶</a></h3>
 <p>This is a set of tools, libraries, and freestanding genome assemblers,
 all open source. AMOS is an open consortium started at The Institute for
 Genomic Research (TIGR) that grew to include the University of Maryland,
 Johns Hopkins University, The Karolinska Institutet, the Marine
 Biological Laboratory, and others</p>
-<p><a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/AMOScmp.html"><strong>AMOScmp</strong></a></p>
+</section>
+<section id="amoscmp">
+<h3><a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/AMOScmp.html">AMOScmp</a><a class="headerlink" href="#amoscmp" title="Link to this heading">¶</a></h3>
 <p>Is a comparative genome assembler, which uses one genome as a reference
 on which to assemble another, closely related species.  See the
 <a class="reference external" href="http://ccb.jhu.edu/people/salzberg/docs/AMOScmp-reprint.pdf">journal paper here</a>.</p>
-<p><a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/minimus.html"><strong>MINIMUS</strong></a></p>
+</section>
+<section id="minimus">
+<h3><a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/minimus.html">MINIMUS</a><a class="headerlink" href="#minimus" title="Link to this heading">¶</a></h3>
 <p>A small, lightweight assembler for small jobs such as assembling a viral
 genome, assembling a set of reads that match a single gene, or other
 tasks that don’t require the complex infrastructure of a large-genome
 assembler.</p>
-<p><a class="reference external" href="http://amos.sourceforge.net/hawkeye/"><strong>Hawkeye</strong></a></p>
+</section>
+<section id="hawkeye">
+<h3><a class="reference external" href="http://amos.sourceforge.net/hawkeye/">Hawkeye</a><a class="headerlink" href="#hawkeye" title="Link to this heading">¶</a></h3>
 <p>A visual analytics tool for genome assembly analysis and validation,
 designed to aid in identifying and correcting assembly errors. All
 levels of the assembly data hierarchy are made accessible to users,
@@ -526,108 +611,249 @@ component guides investigation towards likely mis-assemblies or
 interesting features to support the task at hand. Can be used to
 interactively analyze assemblies from many popular assemblers on your
 desktop computer. <a class="reference external" href="http://genomebiology.com/2007/8/3/R34">See the journal paper here.</a></p>
-<p><a class="reference internal" href="#/software/quake/index.shtml"><span class="xref myst"><strong>Quake</strong></span></a></p>
+</section>
+<section id="quake">
+<h3><a class="reference internal" href="#/quake/index"><span class="xref myst">Quake</span></a><a class="headerlink" href="#quake" title="Link to this heading">¶</a></h3>
 <p>A software package to detect and correct substitution sequencing errors
 in WGS data sets with deep coverage.</p>
-<p><a class="reference external" href="http://ccb.jhu.edu/software/FLASH/index.shtml"><strong>FLASH</strong></a></p>
+</section>
+<section id="flash">
+<h3><a class="reference internal" href="#/FLASH/index"><span class="xref myst">FLASH</span></a><a class="headerlink" href="#flash" title="Link to this heading">¶</a></h3>
 <p>A fast, accurate program to increase the length of reads by overlapping
 and merging paired reads from fragments shorter than twice the length of
 reads. Primarily designed to merge Illumina paired reads.</p>
-<p><a class="reference external" href="http://wgs-assembler.sourceforge.net"><strong>Celera Assembler</strong></a></p>
+</section>
+<section id="celera-assembler">
+<h3><a class="reference external" href="http://wgs-assembler.sourceforge.net">Celera Assembler</a><a class="headerlink" href="#celera-assembler" title="Link to this heading">¶</a></h3>
 <p>A whole genome assembler originally developed at Celera Genomics for the
 assembly of the human genome.  CeleraAssembler is an open-source project
 at SourceForge.  The code has been actively maintained since 2005 by
 researchers at <a class="reference external" href="http://www.cbcb.umd.edu">CBCB</a> and the <a class="reference external" href="http://www.venterscience.org">Venter
 Institute</a> (formerly known as TIGR, The
 Institute for Genomic Research).</p>
-<p><a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/abba.html"><strong>ABBA</strong></a></p>
+</section>
+<section id="abba">
+<h3><a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/abba.html">ABBA</a><a class="headerlink" href="#abba" title="Link to this heading">¶</a></h3>
 <p><strong>A</strong>ssembly <strong>B</strong>oosted <strong>B</strong>y <strong>A</strong>mino acid sequence is a comparative
 gene assembler, which uses amino acid sequences from predicted proteins
 to help build a better assembly.  See the <a class="reference external" href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000186">journal
 paper.</a>
 <a class="reference external" href="http://amos.sourceforge.net/docs/pipeline/abba.html">Link for installation and more
 information.</a>.</p>
-<p><a class="reference external" href="http://sourceforge.net/apps/mediawiki/amos/index.php?title=AutoEditor"><strong>AutoEditor</strong></a></p>
+</section>
+<section id="autoeditor">
+<h3><a class="reference external" href="http://sourceforge.net/apps/mediawiki/amos/index.php?title=AutoEditor">AutoEditor</a><a class="headerlink" href="#autoeditor" title="Link to this heading">¶</a></h3>
 <p>A tool for correcting sequencing and basecaller errors using sequence
 assembly and chromatogram data from Sanger (1st generation) reads. On
 average, AutoEditor corrects 80% of erroneous base calls, with an
 accuracy of 99.99%.</p>
 </section>
+</section>
 <section id="other-sequence-analysis-tools">
-<h3>Other sequence analysis tools<a class="headerlink" href="#other-sequence-analysis-tools" title="Link to this heading">¶</a></h3>
-<p><a class="reference external" href="http://ccb.jhu.edu/software/BRCA-diagnostic/index.shtml"><strong>BRCA gene testing</strong></a></p>
+<h2>Other sequence analysis tools<a class="headerlink" href="#other-sequence-analysis-tools" title="Link to this heading">¶</a></h2>
+<section id="brca-gene-testing">
+<h3><a class="reference internal" href="#/BRCA-diagnostic/index"><span class="xref myst">BRCA gene testing</span></a><a class="headerlink" href="#brca-gene-testing" title="Link to this heading">¶</a></h3>
 <p>A computational screening test that takes the raw DNA sequence data from
 a whole-genome sequence of an individual human and tests for each of 68
 known mutations in the BRCA1 and BRCA2 genes.</p>
-<p><a class="reference internal" href="#/software/dive/index.shtml"><span class="xref myst"><strong>DivE</strong></span></a></p>
+</section>
+<section id="dive">
+<h3><a class="reference internal" href="#/dive/index"><span class="xref myst">DivE</span></a><a class="headerlink" href="#dive" title="Link to this heading">¶</a></h3>
 <p>A software to find regions that evolve at a slower or faster rate than
 the neutral evolution rate in any clade of a phylogeny of a set of very
 closely related species.</p>
-<p><a class="reference internal" href="#/software/duplocut/index.shtml"><span class="xref myst"><strong>DupLoCut</strong></span></a></p>
+</section>
+<section id="duplocut">
+<h3><a class="reference internal" href="#/duplocut/index"><span class="xref myst">DupLoCut</span></a><a class="headerlink" href="#duplocut" title="Link to this heading">¶</a></h3>
 <p>A software which computes ancestral gene orders under the
 duplication-loss evolutionary model.</p>
-<p><a class="reference external" href="http://ccb.jhu.edu/software/ELPH/index.shtml"><strong>ELPH</strong></a></p>
+</section>
+<section id="elph">
+<h3><a class="reference internal" href="#/ELPH/index"><span class="xref myst">ELPH</span></a><a class="headerlink" href="#elph" title="Link to this heading">¶</a></h3>
 <p>A motif finder based on Gibbs sampling that can find ribosome binding
 sites, exon splicing enhancers, or regulatory sites.</p>
-<p><a class="reference internal" href="#/software/fqtrim/index.shtml"><span class="xref myst"><strong>fqtrim</strong></span></a></p>
+</section>
+<section id="fqtrim">
+<h3><a class="reference internal" href="#/fqtrim/index"><span class="xref myst">fqtrim</span></a><a class="headerlink" href="#fqtrim" title="Link to this heading">¶</a></h3>
 <p>A software utility for filtering and trimming high-throughput next-gen
 reads.</p>
-<p><a class="reference internal" href="#/software/stringtie/gff.shtml"><span class="xref myst"><strong>GFF utilities</strong></span></a></p>
-<p><a class="reference internal" href="#/software/stringtie/gff.shtml#gffread"><span class="xref myst">gffread</span></a>:</p>
-<p>A program for filtering, converting and manipulating GFF files</p>
-<div class="docutils">
-<p><a class="reference internal" href="#/software/stringtie/gffcompare.shtml"><span class="xref myst">gffcompare</span></a>: a program for
-comparing, annotating, merging and tracking transcripts in GFF files</p>
-</div>
-<p><a class="reference external" href="http://insignia.cbcb.umd.edu/"><strong>Insignia</strong></a></p>
+</section>
+<section id="gff-utilities">
+<h3><a class="reference internal" href="#/stringtie/gff"><span class="xref myst">GFF utilities</span></a><a class="headerlink" href="#gff-utilities" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="#/stringtie/gff"><span class="xref myst">gffread</span></a> : A program for filtering, converting and manipulating GFF files</p></li>
+<li><p><a class="reference internal" href="#/stringtie/gffcompare"><span class="xref myst">gffcompare</span></a>: A program for comparing, annotating, merging and tracking transcripts in GFF files</p></li>
+</ul>
+</section>
+<section id="insignia">
+<h3><a class="reference external" href="http://insignia.cbcb.umd.edu/">Insignia</a><a class="headerlink" href="#insignia" title="Link to this heading">¶</a></h3>
 <p>A comprehensive system for finding unique DNA sequences that can be used
 to identify any bacterial or virus species or strain. Currently has over
 13,000 species and strains in its database..</p>
-<p><a class="reference internal" href="#/software/kraken/"><span class="xref myst"><strong>Kraken</strong></span></a></p>
+</section>
+<section id="id1">
+<h3><a class="reference internal" href="#/kraken/index"><span class="xref myst">Kraken</span></a><a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
 <p>A fast system for taxonomic classification of short or long metagenomic
 DNA sequences.</p>
-<p><a class="reference internal" href="#/software/centrifuge/"><span class="xref myst"><strong>Centrifuge</strong></span></a></p>
+</section>
+<section id="id2">
+<h3><a class="reference internal" href="#/software/centrifuge/"><span class="xref myst">Centrifuge</span></a><a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
 <p>A very rapid and memory-efficient system for the classification of DNA
 sequences from microbial samples.</p>
-<p><a class="reference internal" href="#/software/phymmbl/index.shtml"><span class="xref myst"><strong>PhymmBL</strong></span></a></p>
+</section>
+<section id="phymmbl">
+<h3><a class="reference internal" href="#/software/phymmbl/index.shtml"><span class="xref myst">PhymmBL</span></a><a class="headerlink" href="#phymmbl" title="Link to this heading">¶</a></h3>
 <p>A one-stop system for taxonomically classifying metagenomic short reads.</p>
-<p><a class="reference external" href="http://ccb.jhu.edu/software/rddChecker/index.shtml"><strong>rddChecker</strong></a></p>
+</section>
+<section id="rddchecker">
+<h3><a class="reference external" href="http://ccb.jhu.edu/software/rddChecker/index.shtml">rddChecker</a><a class="headerlink" href="#rddchecker" title="Link to this heading">¶</a></h3>
 <p>A program for determining sites of RNA-DNA differences (RDDs) and
 candidate RNA editing sites from RNA-seq data.</p>
-<p><a class="reference external" href="http://www.cbcb.umd.edu/software/RepeatFinder/"><strong>RepeatFinder</strong></a></p>
+</section>
+<section id="repeatfinder">
+<h3><a class="reference external" href="http://www.cbcb.umd.edu/software/RepeatFinder/">RepeatFinder</a><a class="headerlink" href="#repeatfinder" title="Link to this heading">¶</a></h3>
 <p>an older system for finding and characterizing repetitive sequences in
 complete and partial genomes.</p>
-<p><a class="reference external" href="http://www.cbcb.umd.edu/software/scimm"><strong>Scimm</strong></a></p>
+</section>
+<section id="scimm">
+<h3><a class="reference external" href="http://www.cbcb.umd.edu/software/scimm">Scimm</a><a class="headerlink" href="#scimm" title="Link to this heading">¶</a></h3>
 <p>A tool for unsupervised clustering of metagenomic sequences using
 interpolated Markov models.</p>
-<p><a class="reference external" href="http://ccb.jhu.edu/software/SeeEse/index.shtml"><strong>SEE ESE</strong></a></p>
+</section>
+<section id="see-ese">
+<h3><a class="reference internal" href="#/SeeEse/index"><span class="xref myst">SEE ESE</span></a><a class="headerlink" href="#see-ese" title="Link to this heading">¶</a></h3>
 <p>an online tool for identifying exon splicing enhancers (ESEs) in
 Arabidopsis and Drosophila.</p>
-<p><a class="reference external" href="http://transterm.ccb.jhu.edu/"><strong>TransTermHP</strong></a></p>
+</section>
+<section id="transtermhp">
+<h3><a class="reference external" href="http://transterm.ccb.jhu.edu/">TransTermHP</a><a class="headerlink" href="#transtermhp" title="Link to this heading">¶</a></h3>
 <p>A highly accurate program that finds rho-independent transcription
 terminators in bacterial genomes. The site includes a database with
 pre-computed predictions for hundreds of species.</p>
 </section>
+</section>
 <section id="variant-analysis-tools">
-<h3>Variant Analysis Tools<a class="headerlink" href="#variant-analysis-tools" title="Link to this heading">¶</a></h3>
-<p><a class="reference external" href="http://wiki.chasmsoftware.org/"><strong>CHASM and SNVBox</strong></a></p>
+<h2>Variant Analysis Tools<a class="headerlink" href="#variant-analysis-tools" title="Link to this heading">¶</a></h2>
+<section id="chasm-and-snvbox">
+<h3><a class="reference external" href="http://wiki.chasmsoftware.org/">CHASM and SNVBox</a><a class="headerlink" href="#chasm-and-snvbox" title="Link to this heading">¶</a></h3>
 <p>Software to predict the functional sigificance of somatic missense
 mutations observed in the genomes of cancer cells, and a database of
 pre-computed features of all possible amino acid substitutions at every
 position of the annotated human exome.</p>
-<p><a class="reference external" href="http://www.cravat.us/"><strong>CRAVAT</strong></a></p>
+</section>
+<section id="cravat">
+<h3><a class="reference external" href="http://www.cravat.us/">CRAVAT</a><a class="headerlink" href="#cravat" title="Link to this heading">¶</a></h3>
 <p>Cancer-related analysis of variants toolkit. Web tool for functional
 predictions and annotations of both somatic and germline variants.</p>
-<p><a class="reference external" href="https://bitbucket.org/baderlab/fast/wiki/Home"><strong>FAST</strong></a></p>
+</section>
+<section id="fast">
+<h3><a class="reference external" href="https://bitbucket.org/baderlab/fast/wiki/Home">FAST</a><a class="headerlink" href="#fast" title="Link to this heading">¶</a></h3>
 <p>An application for genome-wide studies by efficiently running several
 gene based analysis methods simultaneously on the same data set.</p>
-<p><a class="reference external" href="http://ls-snp.icm.jhu.edu/"><strong>LS-SNP/PDB</strong></a></p>
+</section>
+<section id="ls-snp-pdb">
+<h3><a class="reference external" href="http://ls-snp.icm.jhu.edu/">LS-SNP/PDB</a><a class="headerlink" href="#ls-snp-pdb" title="Link to this heading">¶</a></h3>
 <p>Web tool for structural annotations and visualizations of missense
 variants in dbSNP.</p>
-<p><a class="reference external" href="http://mupit.icm.jhu.edu/"><strong>muPIT</strong></a></p>
+</section>
+<section id="mupit">
+<h3><a class="reference external" href="http://mupit.icm.jhu.edu/">muPIT</a><a class="headerlink" href="#mupit" title="Link to this heading">¶</a></h3>
 <p>Web tool for interactive structural annotations and visualizations of
 non-synonymous variation/mutation on proeins.</p>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="software_alignment.html">Alignment</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#arioc">Arioc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#bowtie">Bowtie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#tophat"><span class="xref myst">Tophat</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#tophat-fusion">TopHat-Fusion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#hisat"><span class="xref myst">HISAT</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#hisat2"><span class="xref myst">HISAT2</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#hisat-genotype"><span class="xref myst">HISAT-genotype</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#cufflinks">Cufflinks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#stringtie"><span class="xref myst">StringTie</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#tiebrush">TieBrush</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#eastr"><span class="xref myst">EASTR</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#ballgown">Ballgown</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#cloudburst">CloudBurst</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#crossbow">Crossbow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#diamund"><span class="xref myst">Diamund</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_alignment.html#edge-pro"><span class="xref myst">EDGE-pro</span></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software_metagenomics.html">Metagenomics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#how-to-choose-a-metagenomics-classifier"><span class="xref myst">How to Choose a Metagenomics Classifier</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#kraken"><span class="xref myst">Kraken</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#krakenuniq">KrakenUniq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#kraken2"><span class="xref myst">Kraken2</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#centrifuge"><span class="xref myst">Centrifuge</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#bracken"><span class="xref myst">Bracken</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_metagenomics.html#pavian"><span class="xref myst">Pavian</span></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software_gene_finding.html">Gene Finding</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#glimmer"><span class="xref myst">Glimmer</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#glimmerhmm"><span class="xref myst">GlimmerHMM</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#glimmer-mg"><span class="xref myst">Glimmer-MG</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#genesplicer"><span class="xref myst">GeneSplicer</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#sim4cc"><span class="xref myst">SIM4CC</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#sim4db-leaff">sim4db/leaff</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#asprofile"><span class="xref myst">ASprofile</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_gene_finding.html#jigsaw"><span class="xref myst">JIGSAW</span></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software_assembly.html">Assembly</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#mummer">MUMmer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#mummergpu">MUMmerGPU</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#gage">GAGE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#gage-b">GAGE-B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#masurca">MaSuRCA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#amos-assembler-project">AMOS Assembler project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#amoscmp">AMOScmp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#minimus">MINIMUS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#hawkeye">Hawkeye</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#quake"><span class="xref myst">Quake</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#flash"><span class="xref myst">FLASH</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#celera-assembler">Celera Assembler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#abba">ABBA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_assembly.html#autoeditor">AutoEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software_other_tools.html">Other Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#brca-gene-testing"><span class="xref myst">BRCA gene testing</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#dive"><span class="xref myst">DivE</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#duplocut"><span class="xref myst">DupLoCut</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#elph"><span class="xref myst">ELPH</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#fqtrim"><span class="xref myst">fqtrim</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#gff-utilities"><span class="xref myst">GFF utilities</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#insignia">Insignia</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#kraken"><span class="xref myst">Kraken</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#centrifuge"><span class="xref myst">Centrifuge</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#phymmbl"><span class="xref myst">PhymmBL</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#rddchecker">rddChecker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#repeatfinder">RepeatFinder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#scimm">Scimm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#see-ese"><span class="xref myst">SEE ESE</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_other_tools.html#transtermhp">TransTermHP</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software_variants.html">Variant Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software_variants.html#chasm-and-snvbox">CHASM and SNVBox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_variants.html#cravat">CRAVAT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_variants.html#fast">FAST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_variants.html#ls-snp-pdb">LS-SNP/PDB</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_variants.html#mupit">muPIT</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">Web Servers and Databases</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="other.html#chess"><strong>CHESS</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#t2t-chm13-annotation"><strong>T2T-CHM13 Annotation</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#ardb"><strong>ARDB</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#enterix"><strong>EnteriX</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#a-collection-of-links-now-very-old-to-external-sequence-analysis-programs">A collection of links (now very old) to external sequence analysis programs.</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </section>
 </section>
@@ -638,12 +864,12 @@ non-synonymous variation/mutation on proeins.</p>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="software.html">
+          <a class="next-page" href="software_alignment.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Packages</div>
+                <div class="title">Next-generation sequence alignment software</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -689,13 +915,87 @@ non-synonymous variation/mutation on proeins.</p>
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Software</a><ul>
-<li><a class="reference internal" href="#packages">Packages</a><ul>
-<li><a class="reference internal" href="#next-generation-sequence-alignment-software">Next-generation sequence alignment software</a></li>
-<li><a class="reference internal" href="#metagenomics-classification-abundance-estimation-and-visualization">Metagenomics Classification, Abundance Estimation and Visualization</a></li>
-<li><a class="reference internal" href="#computational-gene-finding">Computational Gene Finding</a></li>
-<li><a class="reference internal" href="#genome-assembly-and-large-scale-genome-alignment">Genome assembly and large-scale genome alignment</a></li>
-<li><a class="reference internal" href="#other-sequence-analysis-tools">Other sequence analysis tools</a></li>
-<li><a class="reference internal" href="#variant-analysis-tools">Variant Analysis Tools</a></li>
+<li><a class="reference internal" href="#next-generation-sequence-alignment-software">Next-generation sequence alignment software</a><ul>
+<li><a class="reference internal" href="#arioc">Arioc</a></li>
+<li><a class="reference internal" href="#bowtie">Bowtie</a></li>
+<li><a class="reference internal" href="#tophat"><span class="xref myst">Tophat</span></a></li>
+<li><a class="reference internal" href="#tophat-fusion">TopHat-Fusion</a></li>
+<li><a class="reference internal" href="#hisat"><span class="xref myst">HISAT</span></a></li>
+<li><a class="reference internal" href="#hisat2"><span class="xref myst">HISAT2</span></a></li>
+<li><a class="reference internal" href="#hisat-genotype"><span class="xref myst">HISAT-genotype</span></a></li>
+<li><a class="reference internal" href="#cufflinks">Cufflinks</a></li>
+<li><a class="reference internal" href="#stringtie"><span class="xref myst">StringTie</span></a></li>
+<li><a class="reference internal" href="#tiebrush">TieBrush</a></li>
+<li><a class="reference internal" href="#eastr"><span class="xref myst">EASTR</span></a></li>
+<li><a class="reference internal" href="#ballgown">Ballgown</a></li>
+<li><a class="reference internal" href="#cloudburst">CloudBurst</a></li>
+<li><a class="reference internal" href="#crossbow">Crossbow</a></li>
+<li><a class="reference internal" href="#diamund"><span class="xref myst">Diamund</span></a></li>
+<li><a class="reference internal" href="#edge-pro"><span class="xref myst">EDGE-pro</span></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#metagenomics-classification-abundance-estimation-and-visualization">Metagenomics Classification, Abundance Estimation and Visualization</a><ul>
+<li><a class="reference internal" href="#how-to-choose-a-metagenomics-classifier"><span class="xref myst">How to Choose a Metagenomics Classifier</span></a></li>
+<li><a class="reference internal" href="#kraken"><span class="xref myst">Kraken</span></a></li>
+<li><a class="reference internal" href="#krakenuniq">KrakenUniq</a></li>
+<li><a class="reference internal" href="#kraken2"><span class="xref myst">Kraken2</span></a></li>
+<li><a class="reference internal" href="#centrifuge"><span class="xref myst">Centrifuge</span></a></li>
+<li><a class="reference internal" href="#bracken"><span class="xref myst">Bracken</span></a></li>
+<li><a class="reference internal" href="#pavian"><span class="xref myst">Pavian</span></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#computational-gene-finding">Computational Gene Finding</a><ul>
+<li><a class="reference internal" href="#glimmer"><span class="xref myst">Glimmer</span></a></li>
+<li><a class="reference internal" href="#glimmerhmm"><span class="xref myst">GlimmerHMM</span></a></li>
+<li><a class="reference internal" href="#glimmer-mg"><span class="xref myst">Glimmer-MG</span></a></li>
+<li><a class="reference internal" href="#genesplicer"><span class="xref myst">GeneSplicer</span></a></li>
+<li><a class="reference internal" href="#sim4cc"><span class="xref myst">SIM4CC</span></a></li>
+<li><a class="reference internal" href="#sim4db-leaff">sim4db/leaff</a></li>
+<li><a class="reference internal" href="#asprofile"><span class="xref myst">ASprofile</span></a></li>
+<li><a class="reference internal" href="#jigsaw"><span class="xref myst">JIGSAW</span></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#genome-assembly-and-large-scale-genome-alignment">Genome assembly and large-scale genome alignment</a><ul>
+<li><a class="reference internal" href="#mummer">MUMmer</a></li>
+<li><a class="reference internal" href="#mummergpu">MUMmerGPU</a></li>
+<li><a class="reference internal" href="#gage">GAGE</a></li>
+<li><a class="reference internal" href="#gage-b">GAGE-B</a></li>
+<li><a class="reference internal" href="#masurca">MaSuRCA</a></li>
+<li><a class="reference internal" href="#amos-assembler-project">AMOS Assembler project</a></li>
+<li><a class="reference internal" href="#amoscmp">AMOScmp</a></li>
+<li><a class="reference internal" href="#minimus">MINIMUS</a></li>
+<li><a class="reference internal" href="#hawkeye">Hawkeye</a></li>
+<li><a class="reference internal" href="#quake"><span class="xref myst">Quake</span></a></li>
+<li><a class="reference internal" href="#flash"><span class="xref myst">FLASH</span></a></li>
+<li><a class="reference internal" href="#celera-assembler">Celera Assembler</a></li>
+<li><a class="reference internal" href="#abba">ABBA</a></li>
+<li><a class="reference internal" href="#autoeditor">AutoEditor</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-sequence-analysis-tools">Other sequence analysis tools</a><ul>
+<li><a class="reference internal" href="#brca-gene-testing"><span class="xref myst">BRCA gene testing</span></a></li>
+<li><a class="reference internal" href="#dive"><span class="xref myst">DivE</span></a></li>
+<li><a class="reference internal" href="#duplocut"><span class="xref myst">DupLoCut</span></a></li>
+<li><a class="reference internal" href="#elph"><span class="xref myst">ELPH</span></a></li>
+<li><a class="reference internal" href="#fqtrim"><span class="xref myst">fqtrim</span></a></li>
+<li><a class="reference internal" href="#gff-utilities"><span class="xref myst">GFF utilities</span></a></li>
+<li><a class="reference internal" href="#insignia">Insignia</a></li>
+<li><a class="reference internal" href="#id1"><span class="xref myst">Kraken</span></a></li>
+<li><a class="reference internal" href="#id2"><span class="xref myst">Centrifuge</span></a></li>
+<li><a class="reference internal" href="#phymmbl"><span class="xref myst">PhymmBL</span></a></li>
+<li><a class="reference internal" href="#rddchecker">rddChecker</a></li>
+<li><a class="reference internal" href="#repeatfinder">RepeatFinder</a></li>
+<li><a class="reference internal" href="#scimm">Scimm</a></li>
+<li><a class="reference internal" href="#see-ese"><span class="xref myst">SEE ESE</span></a></li>
+<li><a class="reference internal" href="#transtermhp">TransTermHP</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#variant-analysis-tools">Variant Analysis Tools</a><ul>
+<li><a class="reference internal" href="#chasm-and-snvbox">CHASM and SNVBox</a></li>
+<li><a class="reference internal" href="#cravat">CRAVAT</a></li>
+<li><a class="reference internal" href="#fast">FAST</a></li>
+<li><a class="reference internal" href="#ls-snp-pdb">LS-SNP/PDB</a></li>
+<li><a class="reference internal" href="#mupit">muPIT</a></li>
 </ul>
 </li>
 </ul>

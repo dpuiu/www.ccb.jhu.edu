@@ -5,7 +5,6 @@
 
 ```{toctree} 
 :maxdepth: 2
-:hidden:
 
 About/index
 People/index
