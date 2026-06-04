@@ -1,9 +1,9 @@
 # Center for Computational Biology
 
-```{include} About/about.md 
+```{include} About/about.md
 ```
 
-```{toctree} 
+```{toctree}
 :maxdepth: 2
 
 About/index

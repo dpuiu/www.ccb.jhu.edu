@@ -121,3 +121,13 @@ paste collab.md.name collab.md.photo collab.md.position collab.md.email collab.m
 cat collab.tsv | ./people2grid.pl   | sed 's|<br>|\n- |g'
 
 
+#####
+
+csplit software.md /"^### "/ '{*}' -f software_
+
+#####
+
+sudo npm install -g markdownlint-cli
+
+markdownlint *.md
+markdownlint --fix *.md
