@@ -72,3 +72,8 @@ git commit -m 'multiple updates'
 git push
 
 python -m py_compile conf.py
+
+##########
+
+cat people.md1 | grep -B 1 ^$ | perl -lane 'print $1 if(/(\wiki.+)\)/);' > people.md1.pics
+

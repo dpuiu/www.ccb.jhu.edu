@@ -6,30 +6,32 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'CCB'
-copyright = 'The Center for Computational Biology at Johns Hopkins University'
 author = 'Daniela Puiu'
+copyright = 'The Center for Computational Biology at Johns Hopkins University'
+project = 'CCB'
 release = '2026'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
 extensions = [ "myst_parser","sphinx_design","sphinx.ext.githubpages"]
+master_doc = "index"
 myst_enable_extensions = ["colon_fence"]
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
-
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
-html_title = 'Center for Computational Biology'
-html_theme = 'furo' # alabaster'
-html_static_path = ['_static']
-html_js_files = ["custom.js"]
 html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
-#html_css_files = [ "custom.css", ]
-html_theme_options = { 
+html_extra_path = ['_static/.nojekyll']
+html_js_files = ["custom.js"]
+html_logo = "_static/logo.png"
+html_search_language = "en"
+html_search = True
+html_static_path = ["_static"]
+html_theme = "furo"
+html_theme_options = {
 	'announcement': '''
 		<div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;">
 			 <div style="display:flex;gap:15px;">
@@ -44,8 +46,5 @@ html_theme_options = {
 		</div>
 	'''
 }
-html_extra_path = ['_static/.nojekyll']
-
+html_title = "Center for Computational Biology"
 html_use_index = True
-html_search_language = "en"
-html_search = True
