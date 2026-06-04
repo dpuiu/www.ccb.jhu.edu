@@ -1,12 +1,6 @@
 # People
 
-```{include} faculty.md 
-```
-
-```{include} postdocs.md 
-```
-
-```{include} students.md 
+```{include} people.md 
 ```
 
 ----
@@ -16,11 +10,8 @@
 :hidden:
 :caption: People
 
-faculty
-postdocs
-staff
-students
+people
 alumni
-colab
+collab
 
 ```

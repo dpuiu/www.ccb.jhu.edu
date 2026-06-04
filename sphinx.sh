@@ -64,8 +64,6 @@ make html
 rm -r docs
 cp -r _build/html docs
 
-
-
 git status
 git add .
 git commit -m 'multiple updates'
@@ -73,7 +71,48 @@ git push
 
 python -m py_compile conf.py
 
+<<<<<<< HEAD
 ##########
 
 cat people.md1 | grep -B 1 ^$ | perl -lane 'print $1 if(/(\wiki.+)\)/);' > people.md1.pics
 
+=======
+#################
+
+cat people.md | grep name | sed 's|{{#ccbp: \|name=||' > people.md.name
+cat people.md | grep photo | sed 's|\|photo=||' > people.md.photo
+cat people.md | grep position| sed 's|\|position=||' | sed 's|<br/>|<br>|g' > people.md.position
+cat people.md | grep email| sed 's|\|email=||' | sed 's|}}||' > people.md.email
+cat people.md | grep affiliation| sed 's|\|affiliation=||' | \
+ sed 's|{{IGM}}|Department of Genetic Medicine|' |\
+ sed 's|{{SPH}}|School of Public Health|'  |\
+ sed 's|{{JHU}}|Johns Hopkins University|' |\
+ sed 's|}}||' | sed 's|<br/>|<br>|g' > people.md.affiliation
+cat people.md | grep "url" | egrep -v 'laburl|xurl' | sed 's|\|url=||' | sed 's|}}||' > people.md.url
+cat people.md | grep "laburl" | sed 's|\|laburl=||' | sed 's|}}||'  > people.md.laburl
+
+find wiki/uploads/ | grep -i -f people.md.photo | grep -v thumb > people.md.photo+ # on salz
+cat People/people.md.photo+| perl -ane 'print "scp dpuiu\@dslogin01.pha.jhu.edu:/home/dpuiu/www.ccb.jhu.edu.html/$F[0] _static/People\n";' | bash
+paste People/people.md.name  People/people.md.photo  People/people.md.position   People/people.md.email People/people.md.affiliation People/people.md.url People/people.md.laburl  > People/people.tsv 
+cat People/people.tsv|   ./people2grid.pl   | sed 's|<br>|\n- |g' > People/people.md 
+#25,4,3,7
+head -1 people.tsv 
+name  photo  position   email affiliation url laburl  
+
+
+
+#####
+
+
+
+cat collab.csv  | sed "s|', '|\t|g" | sed "s|','|\t|g" | sed "s|'||g"  > collab.tsv
+cut -f1 collab.tsv   > collab.md.name
+cut -f2 collab.tsv   > collab.md.position
+cut -f3 collab.tsv   > collab.md.photo
+cut -f4 collab.tsv   | sed 's|Currently:||' | sed 's|<br/>|<br>|g' | sed 's|</br>|<br>|g' | sed 's|<br><br>|<br>|g'> collab.md.affiliation
+cut -f5 collab.tsv   > collab.md.email
+cut -f6 collab.tsv   > collab.md.laburl
+ 
+paste collab.md.name collab.md.photo collab.md.position collab.md.email collab.md.affiliation collab.md.laburl > collab.tsv
+cat collab.tsv | ./people2grid.pl   | sed 's|<br>|\n- |g'
+>>>>>>> 40a710321e758535e15e8d40ed688e445f64a798

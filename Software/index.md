@@ -10,7 +10,4 @@
 
 software
 other
-Current Assembly Projects <https://salzberg-lab.org/genome-projects/>
-downloads
-eupathdb
 ```
