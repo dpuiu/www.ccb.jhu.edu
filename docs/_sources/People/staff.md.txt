@@ -1,73 +1,90 @@
-## Staff
+## Staff 
 
+(rebeccakeener)=
 ### Rebecca Keener, Ph.D.
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/R_keener.jpg
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/R_keener.jpg
 :width: 240px
 :alt: Rebecca Keener, Ph.D.
 :::
 
-:::{grid-item-card}
-- Assistant Research Scientist, Battle Lab
-- [rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- Whiting School of Engineering
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**Assistant Research Scientist, Battle Lab**  
+  
+Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns Hopkins University  
+  
+&#9993; [rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
+::::
+
+`````
 
 ---
 
+(danielapuiu)=
 ### Daniela Puiu, M.S.
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Daniela_puiu.jpg
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Daniela_puiu.jpg
 :width: 240px
 :alt: Daniela Puiu, M.S.
 :::
 
-:::{grid-item-card}
-- Bioinformatics Engineer &amp; Senior Software Engineer
-- [dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- Johns Hopkins University School of Medicine
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**Bioinformatics Engineer &amp; Senior Software Engineer**  
+  
+Department of Biomedical Engineering<br>Johns Hopkins University School of Medicine  
+  
+&#9993; [dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
+::::
+
+`````
 
 ---
 
+(sarahbailey)=
 ### Sarah Bailey
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/S_bailey.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/S_bailey.png
 :width: 240px
 :alt: Sarah Bailey
 :::
 
-:::{grid-item-card}
-- Sr. Administrative Coordinator
-- [sande125@jhu.edu](mailto:sande125@jhu.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**Sr. Administrative Coordinator**  
+  
+Department of Biomedical Engineering<br>Johns Hopkins University  
+  
+&#9993; [sande125@jhu.edu](mailto:sande125@jhu.edu)  
+::::
+
+`````
 

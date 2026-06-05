@@ -38,7 +38,9 @@ myst_enable_extensions = [
     "attrs_inline"
 ]
 myst_substitutions = {
-    "CCB": "[**Center for Computational Biology**](https://ccb.jhu.edu/)",
+    "CCB": "[Center for Computational Biology](https://ccb.jhu.edu/)",
+    "BME": "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
+    "WSE": "[Whiting School of Engineering](https://engineering.jhu.edu/)"
 }
 
 

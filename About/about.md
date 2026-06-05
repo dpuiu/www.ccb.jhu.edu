@@ -1,11 +1,11 @@
 ## A Joint Research Center 
 
-Based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences,
+Based in the {{WSE}}, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences,
 The Center for Computational Biology (CCB) is a multidisciplinary center
 dedicated to research on genomics, genetics, DNA sequencing technology,
 and computational methods for DNA and RNA sequence analysis. Established
-in 2019 within the [Department of Biomedical
-Engineering](https://www.bme.jhu.edu/), CCB brings together scientists
+in 2019 within the {{BME}}
+, CCB brings together scientists
 and engineers from many fields, including biomedical engineering,
 computer science, biostatistics, genomics, genetics, molecular biology,
 physics, and mathematics, all of whom share a common interest in gaining
@@ -61,6 +61,6 @@ Since January 2020, CCB has been headquartered in the Wyman Park
 Building at the Homewood Campus.
 
 A visitor map of the Johns Hopkins Homewood Campus is available:
-[Homewood Campus map (PDF)](https://www.jhu.edu/assets/uploads/2014/10/homewood_campus_map.pdf).
+[Homewood Campus map (PDF)](https://www.jhu.edu/assets/uploads/2014/10/homewood_campus_map.pdf)  
 A visitor map of the Johns Hopkins Medical Campus is also available:
 [Medical Campus map (PDF)](img/JHH_Visitors_Guide_map_only.pdf).

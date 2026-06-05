@@ -1,175 +1,210 @@
-## Students
+## Students 
 
+(davidbass)=
 ### David Bass
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/David_Bass.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/David_Bass.png
 :width: 240px
 :alt: David Bass
 :::
 
-:::{grid-item-card}
-- AE GR Graduate Student in Salzberg Lab
-- [dbass13@jh.edu](mailto:dbass13@jh.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biology
-- Krieger School of Arts and Sciences
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**AE GR Graduate Student in Salzberg Lab**  
+  
+Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins University  
+  
+&#9993; [dbass13@jh.edu](mailto:dbass13@jh.edu)  
+::::
+
+`````
 
 ---
 
+(kalenclifton)=
 ### Kalen Clifton
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Kalen_Clifton.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Kalen_Clifton.png
 :width: 240px
 :alt: Kalen Clifton
 :::
 
-:::{grid-item-card}
-- ME GR Grad Student in Fan Lab
-- [kclifto2@jh.edu](mailto:kclifto2@jh.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- School of Medicine
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**ME GR Grad Student in Fan Lab**  
+  
+Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+  
+&#9993; [kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
+::::
+
+`````
 
 ---
 
+(calebhallinan)=
 ### Caleb Hallinan
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Caleb_Hallinan.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Caleb_Hallinan.png
 :width: 240px
 :alt: Caleb Hallinan
 :::
 
-:::{grid-item-card}
-- ME GR Grad Student in Fan Lab
-- [challin1@jh.edu](mailto:challin1@jh.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- School of Medicine
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**ME GR Grad Student in Fan Lab**  
+  
+Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+  
+&#9993; [challin1@jh.edu](mailto:challin1@jh.edu)  
+::::
+
+`````
 
 ---
 
+(celinehoh)=
 ### Celine Hoh
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Celine_Hoh.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Celine_Hoh.png
 :width: 240px
 :alt: Celine Hoh
 :::
 
-:::{grid-item-card}
-- AE GR Graduate Student in Salzberg Lab
-- [choh1@jhu.edu](mailto:choh1@jhu.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Computer Science
-- Whiting School of Engineering
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**AE GR Graduate Student in Salzberg Lab**  
+  
+Department of Computer Science<br>Whiting School of Engineering<br>Johns Hopkins University  
+  
+&#9993; [choh1@jhu.edu](mailto:choh1@jhu.edu)  
+::::
+
+`````
 
 ---
 
+(radhikajangi)=
 ### Radhika Jangi
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Radhika_Jangi.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Radhika_Jangi.png
 :width: 240px
 :alt: Radhika Jangi
 :::
 
-:::{grid-item-card}
-- AE GR Graduate Student in Battle Lab
-- [rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biology
-- Krieger School of Arts and Sciences
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**AE GR Graduate Student in Battle Lab**  
+  
+Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins University  
+  
+&#9993; [rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
+::::
+
+`````
 
 ---
 
+(zoecatherinerudnick)=
 ### Zoe Catherine Rudnick
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Zoe_Rudnick.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Zoe_Rudnick.png
 :width: 240px
 :alt: Zoe Catherine Rudnick
 :::
 
-:::{grid-item-card}
-- ME GR Grad Student in Pertea Lab
-- [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- School of Medicine
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**ME GR Grad Student in Pertea Lab**  
+  
+Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+  
+&#9993; [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
+::::
+
+`````
 
 ---
 
+(rafaeldossantospeixoto)=
 ### Rafael dos Santos Peixoto
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Rafael_dos_Santos_Peixoto_25pc.png
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Rafael_dos_Santos_Peixoto_25pc.png
 :width: 240px
 :alt: Rafael dos Santos Peixoto
 :::
 
-:::{grid-item-card}
-- ME GR Grad Student in Fan Lab
-- [rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering
-- School of Medicine
-- Johns Hopkins University
-:::
+::::{grid-item-card}
+:columns: 12 12 9 9
 
-```
+**ME GR Grad Student in Fan Lab**  
+  
+Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+  
+&#9993; [rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
+::::
+
+`````
 

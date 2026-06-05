@@ -25,9 +25,9 @@ Software/index
 
 ---
 
-# Welcome Page
+# Substritution
 
-Welcome to {{CCB}}
+{{WSE}}
 
 ---
 
@@ -64,7 +64,7 @@ GitHub
 
 ### External
 
-Visit the [JHU CCB](https://ccb.jhu.edu/){rel="nofollow"} website.
+[JHU CCB](https://ccb.jhu.edu/){rel="nofollow"}
 
 ### Download
 .  
@@ -276,17 +276,17 @@ Windows content here
 
 ````{card-carousel} 3
 
-```{card} Linux
+:::{card} Linux
 Linux instructions
-```
+:::
 
-```{card} Mac
+:::{card} Mac
 Mac instructions
-```
+:::
 
-```{card} Windows
+:::{card} Windows
 Windows instructions
-```
+:::
 
 ````
 
@@ -297,5 +297,4 @@ Windows instructions
 ```{mermaid}
 graph TD
     A[Start] --> B[Build]
-    B --> C[Deploy]
 ```

@@ -15,8 +15,20 @@ release = '2026'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
-extensions = [ "myst_parser","sphinx_design","sphinx.ext.githubpages","sphinx_sitemap"]
 master_doc = "index"
+
+extensions = [
+    "myst_parser",
+    "sphinx_design",
+    "sphinx.ext.githubpages",
+    "sphinx_sitemap",
+    "sphinx_copybutton",
+    "sphinxcontrib.mermaid",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.mathjax",
+]
 
 myst_enable_extensions = [
     "colon_fence",
@@ -26,7 +38,9 @@ myst_enable_extensions = [
     "attrs_inline"
 ]
 myst_substitutions = {
-    "CCB": "[**Center for Computational Biology**](https://ccb.jhu.edu/)",
+    "CCB": "[Center for Computational Biology](https://ccb.jhu.edu/)",
+    "BME": "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
+    "WSE": "[https://engineering.jhu.edu/](https://engineering.jhu.edu/)"
 }
 
 
