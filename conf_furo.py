@@ -28,8 +28,20 @@ extensions = [
     "sphinx.ext.mathjax",
 ]
 
+
 master_doc = "index"
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = [
+    "colon_fence",
+    "dollarmath",
+    "amsmath",
+    "substitution",
+    "attrs_inline"
+]
+myst_substitutions = {
+    "CCB": "[**Center for Computational Biology**](https://ccb.jhu.edu/)",
+}
+
+
 templates_path = ['_templates']
 
 # -- Options for HTML output -------------------------------------------------
@@ -60,3 +72,4 @@ html_theme_options = {
 }
 html_title = "Center for Computational Biology"
 html_use_index = True
+

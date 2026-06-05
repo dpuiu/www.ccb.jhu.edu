@@ -148,31 +148,18 @@ Hidden information appears here.
 
 ## Includes
 
-```{include} include.md
+```{include} About/contact.md
 ```
 
 ---
 
-## Images
-
-![CCB Logo](_static/logo.png)
+## Image 
 
 ```{image} _static/logo.png
 :width: 300px
 :align: center
 :alt: Figure
 ```
-
-
----
-
-## Tables
-
-| Name | Role |
-|------|------|
-| Alice | Faculty |
-| Bob | Student |
-| Carol | Staff |
 
 ---
 
@@ -194,6 +181,16 @@ Term 2
 
 ---
 
+## Tables
+
+| Name | Role |
+|------|------|
+| Alice | Faculty |
+| Bob | Student |
+| Carol | Staff |
+
+---
+
 ## List table
 
 :::{list-table}
@@ -207,106 +204,37 @@ Term 2
 
 ---
 
-## Grid
+## CSV Table
 
-`````{grid} 1 1 3 3
+```{csv-table}
+:file: People/collab.head.tsv
+:header-rows: 1
+:widths: 25 25 25 25
+:delim: tab
+```
 
-::::{grid-item-card}
-Install using apt on Ubuntu/Debian systems.
-::::
 
-::::{grid-item-card}
-:::{list-table}
-:header-rows: 0
-* - Alice
-* - Bob
-* - Carol
-:::
-::::
+## Grid_Equal
 
-::::{grid-item-card}
-Install using pip in PowerShell or CMD.
-::::
-
-`````
-
----
-
-## Grid_4_4_4
-
-````{grid} 12
+````{grid} 1 1 3 3
 
 :::{grid-item-card}
-:columns: 4
-
-This card takes 1 thrird.
-:::
-
-
-:::{grid-item-card}
-:columns: 4
-
-This card takes 1 thrird.
-:::
-
-:::{grid-item-card}
-:columns: 4
-
-This card takes 1 thrird.
-:::
-
-````
-
----
-
-## Grid_8_4
-
-````{grid} 12
-
-:::{grid-item-card}
-:columns: 8
-
-This card takes 1 thrird.
-:::
-
-:::{grid-item-card}
-:columns: 4
-
-This card takes two thirds.
-:::
-
-````
-
----
-
-## Grid_4_4_4_adjust
-
-
-````{grid} 12
-
-:::{grid-item-card}
-:columns: 12 6 4 4
-
 Install using apt on Ubuntu/Debian systems.
 :::
 
 :::{grid-item-card}
-:columns: 12 6 4 4
-
-Alice / Bob / Carol table
+Install using pip in PowerShell.
 :::
 
 :::{grid-item-card}
-:columns: 12 6 4 4
-
-Install using pip in PowerShell or CMD.
+Install using pip in CMD.
 :::
 
 ````
 
 ---
 
-## Grid_4_8_adjust
+## Grid_Diff
 
 ````{grid} 12
 
@@ -323,32 +251,7 @@ This card takes two thirds.
 :::
 
 ````
-
 ---
-
-## Grid_8_2_2
-
-````{grid} 12
-
-:::{grid-item-card}
-:columns: 8
-
-This card takes half the row.
-:::
-
-:::{grid-item-card}
-:columns: 2
-
-This card takes one quarter.
-:::
-
-:::{grid-item-card}
-:columns: 2
-
-This card takes one quarter.
-:::
-
-````
 
 ## Tabset
 
@@ -369,22 +272,7 @@ Windows content here
 
 ````
 
-
-::::{tab-set}
-
-:::{tab-item} Linux
-Linux content here
-:::
-
-:::{tab-item} Mac
-Mac content here
-:::
-
-:::{tab-item} Windows
-Windows content here
-:::
-
-::::
+## Carousel
 
 ````{card-carousel} 3
 
@@ -403,24 +291,7 @@ Windows instructions
 ````
 
 ---
-
-## CSV
-
-```{csv-table}
-:file: people.csv
-:header-rows: 1
-:widths: 10 40 20 30
-```
-
----
-
-## Mermaid
-
-
-Better than plain images when you want numbering and captions.
-
----
-
+	
 ## Mermaid Diagrams
 
 ```{mermaid}

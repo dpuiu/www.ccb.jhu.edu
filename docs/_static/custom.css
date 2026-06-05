@@ -3,8 +3,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* .sd-card {    background-color: #e8f3ff; } */
-
 /* Highlight search matches */
 mark,
 .highlighted,
@@ -16,13 +14,15 @@ span.highlight {
     border-radius: 3px;
 }
 
-/* Hide right columns */
+/*--------------------------------------*/
+/* Hide on mobile */
 @media (max-width: 768px) {
     .hide-mobile {
         display: none !important;
     }
 }
 
+/* Hide table columns 4,5 */
 @media (max-width: 768px) {
   table.responsive-table th:nth-child(4),
   table.responsive-table td:nth-child(4),
@@ -32,14 +32,8 @@ span.highlight {
   }
 }
 
-/*h3 {
-    background-color: #1D4475;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 6px;
-}*/
-
-/* Alternate row colors */
+/*--------------------------------------*/
+/* Alternate table row colors */
 table.docutils tr:nth-child(even) {
     background-color: #d6d8da;
 }
@@ -48,20 +42,28 @@ table.docutils tr:nth-child(odd) {
     background-color: white;
 }
 
-/* Grid elements */
-/*.grid .card {
-    border: 1px solid #e5e7eb;
-    box-shadow: none;
-    padding: 0.5rem;
-    font-size: 0.7rem;
+table.docutils {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    text-align: left;
 }
 
-.grid .sd-card * {
-    font-size: 0.7rem !important;
+table.docutils td,
+table.docutils th {
+    text-align: left;
 }
-*/
 
+/*--------------------------------------*/
+/* Smaller text in grid */
 .sd-card-text,
 .sd-card-text p {
     font-size: 0.9rem !important;
 }
+
+/* Background
+.sd-card {    
+    background-color: #e8f3ff; 
+} 
+*/
+	
+/*--------------------------------------*/

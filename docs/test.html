@@ -306,9 +306,9 @@
 <div class="toctree-wrapper compound">
 </div>
 <hr class="docutils" />
-<section id="welcome-page">
+<section class="tex2jax_ignore mathjax_ignore" id="welcome-page">
 <h1>Welcome Page<a class="headerlink" href="#welcome-page" title="Link to this heading">¶</a></h1>
-<p>Welcome to {{CCB}}</p>
+<p>Welcome to <a class="reference external" href="https://ccb.jhu.edu/"><strong>Center for Computational Biology</strong></a></p>
 <hr class="docutils" />
 <section id="basic-markdown">
 <h2>Basic Markdown<a class="headerlink" href="#basic-markdown" title="Link to this heading">¶</a></h2>
@@ -336,7 +336,7 @@
 <span id="id1"></span><h2>Links<a class="headerlink" href="#links" title="Link to this heading">¶</a></h2>
 <section id="external">
 <h3>External<a class="headerlink" href="#external" title="Link to this heading">¶</a></h3>
-<p>Visit the <a class="reference external" href="https://ccb.jhu.edu/">JHU CCB</a>{rel=”nofollow”} website.</p>
+<p>Visit the <a class="reference external" href="https://ccb.jhu.edu/" rel="nofollow">JHU CCB</a> website.</p>
 </section>
 <section id="download">
 <h3>Download<a class="headerlink" href="#download" title="Link to this heading">¶</a></h3>
@@ -367,11 +367,14 @@
 <section id="mathematics">
 <h2>Mathematics<a class="headerlink" href="#mathematics" title="Link to this heading">¶</a></h2>
 <p>Inline math:</p>
-<p>$E = mc^2$</p>
+<p><span class="math notranslate nohighlight">\(E = mc^2\)</span></p>
 <p>Display math:</p>
-<p>$$
+<div class="math-wrapper docutils container">
+<div class="math notranslate nohighlight">
+\[
 \int_{0}^{1} x^2 dx = \frac{1}{3}
-$$</p>
+\]</div>
+</div>
 </section>
 <hr class="docutils" />
 <section id="code-blocks">
@@ -414,12 +417,41 @@ git<span class="w"> </span>status
 <section id="includes">
 <h2>Includes<a class="headerlink" href="#includes" title="Link to this heading">¶</a></h2>
 </section>
+<section id="contact-us">
+<h2>Contact Us<a class="headerlink" href="#contact-us" title="Link to this heading">¶</a></h2>
+<p>If you have any questions about CCB please contact:</p>
+<p><strong>Sarah Anderson</strong>
+Administrative Coordinator, Center for Computational Biology<br />
+3100 Wyman Park Drive<br />
+Wyman Park Building, Room S220<br />
+Baltimore, MD 21211<br />
+Telephone: (410) 516-7685<br />
+Email: <a class="reference external" href="mailto:sande125&#37;&#52;&#48;jhu&#46;edu">sande125<span>&#64;</span>jhu<span>&#46;</span>edu</a></p>
+<p>For a visitor map of the Johns Hopkins Homewood Campus, please <a class="reference external" href="https://www.jhu.edu/assets/uploads/2014/10/homewood_campus_map.pdf">click here</a>.<br />
+CCB is located on the second floor of the Wyman Park Building.</p>
+</section>
 <hr class="docutils" />
-<section id="images">
-<h2>Images<a class="headerlink" href="#images" title="Link to this heading">¶</a></h2>
-<p><img alt="CCB Logo" src="_images/ccblogotext_wbg_100.png" /></p>
+<section id="image">
+<h2>Image<a class="headerlink" href="#image" title="Link to this heading">¶</a></h2>
 <a class="reference internal image-reference" href="_images/ccblogotext_wbg_100.png"><img alt="Figure" class="align-center" src="_images/ccblogotext_wbg_100.png" style="width: 300px;" />
 </a>
+</section>
+<hr class="docutils" />
+<section id="definition-lists">
+<h2>Definition Lists<a class="headerlink" href="#definition-lists" title="Link to this heading">¶</a></h2>
+<p>Term 1
+: Definition of term 1</p>
+<p>Term 2
+: Definition of term 2</p>
+</section>
+<hr class="docutils" />
+<section id="task-lists">
+<h2>Task Lists<a class="headerlink" href="#task-lists" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>[x] Install Sphinx</p></li>
+<li><p>[x] Install MyST</p></li>
+<li><p>[ ] Publish website</p></li>
+</ul>
 </section>
 <hr class="docutils" />
 <section id="tables">
@@ -446,23 +478,6 @@ git<span class="w"> </span>status
 </div>
 </section>
 <hr class="docutils" />
-<section id="definition-lists">
-<h2>Definition Lists<a class="headerlink" href="#definition-lists" title="Link to this heading">¶</a></h2>
-<p>Term 1
-: Definition of term 1</p>
-<p>Term 2
-: Definition of term 2</p>
-</section>
-<hr class="docutils" />
-<section id="task-lists">
-<h2>Task Lists<a class="headerlink" href="#task-lists" title="Link to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>[x] Install Sphinx</p></li>
-<li><p>[x] Install MyST</p></li>
-<li><p>[ ] Publish website</p></li>
-</ul>
-</section>
-<hr class="docutils" />
 <section id="list-table">
 <h2>List table<a class="headerlink" href="#list-table" title="Link to this heading">¶</a></h2>
 <div class="table-wrapper docutils container">
@@ -483,8 +498,45 @@ git<span class="w"> </span>status
 </div>
 </section>
 <hr class="docutils" />
-<section id="grid">
-<h2>Grid<a class="headerlink" href="#grid" title="Link to this heading">¶</a></h2>
+<section id="csv-table">
+<h2>CSV Table<a class="headerlink" href="#csv-table" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>name</p></th>
+<th class="head"><p>photo</p></th>
+<th class="head"><p>position</p></th>
+<th class="head"><p>email</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Rafael Irizarry, Ph.D.</p></td>
+<td><p>IRIZARRY8.jpg</p></td>
+<td><p>Professor</p></td>
+<td><p>rafa&#64;jhu.edu</p></td>
+</tr>
+<tr class="row-odd"><td><p>Martin Steinegger, Ph.D.</p></td>
+<td><p>martin_steinegger.png</p></td>
+<td><p>Assistant Professor</p></td>
+<td><p>martin.steinegger&#64;snu.ac.kr</p></td>
+</tr>
+<tr class="row-even"><td><p>Stephan Pabinger, Ph.D.</p></td>
+<td><p>stephan_pabinger2.jpg</p></td>
+<td><p>Postdoctoral Research Fellow</p></td>
+<td><p>stephan.pabinger&#64;i-med.ac.at</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="grid-equal">
+<h2>Grid_Equal<a class="headerlink" href="#grid-equal" title="Link to this heading">¶</a></h2>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -497,25 +549,14 @@ git<span class="w"> </span>status
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<div class="table-wrapper docutils container">
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p class="sd-card-text">Alice</p></td>
-</tr>
-<tr class="row-even"><td><p class="sd-card-text">Bob</p></td>
-</tr>
-<tr class="row-odd"><td><p class="sd-card-text">Carol</p></td>
-</tr>
-</tbody>
-</table>
-</div>
+<p class="sd-card-text">Install using pip in PowerShell.</p>
 </div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
-<p class="sd-card-text">Install using pip in PowerShell or CMD.</p>
+<p class="sd-card-text">Install using pip in CMD.</p>
 </div>
 </div>
 </div>
@@ -523,88 +564,8 @@ git<span class="w"> </span>status
 </div>
 </section>
 <hr class="docutils" />
-<section id="grid-4-4-4">
-<h2>Grid_4_4_4<a class="headerlink" href="#grid-4-4-4" title="Link to this heading">¶</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-12 sd-row-cols-xs-12 sd-row-cols-sm-12 sd-row-cols-md-12 sd-row-cols-lg-12 docutils">
-<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes 1 thrird.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes 1 thrird.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes 1 thrird.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<hr class="docutils" />
-<section id="grid-8-4">
-<h2>Grid_8_4<a class="headerlink" href="#grid-8-4" title="Link to this heading">¶</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-12 sd-row-cols-xs-12 sd-row-cols-sm-12 sd-row-cols-md-12 sd-row-cols-lg-12 docutils">
-<div class="sd-col sd-d-flex-row sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes 1 thrird.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes two thirds.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<hr class="docutils" />
-<section id="grid-4-4-4-adjust">
-<h2>Grid_4_4_4_adjust<a class="headerlink" href="#grid-4-4-4-adjust" title="Link to this heading">¶</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-12 sd-row-cols-xs-12 sd-row-cols-sm-12 sd-row-cols-md-12 sd-row-cols-lg-12 docutils">
-<div class="sd-col sd-d-flex-row sd-col-12 sd-col-xs-12 sd-col-sm-6 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Install using apt on Ubuntu/Debian systems.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-12 sd-col-xs-12 sd-col-sm-6 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Alice / Bob / Carol table</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-12 sd-col-xs-12 sd-col-sm-6 sd-col-md-4 sd-col-lg-4 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">Install using pip in PowerShell or CMD.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<hr class="docutils" />
-<section id="grid-4-8-adjust">
-<h2>Grid_4_8_adjust<a class="headerlink" href="#grid-4-8-adjust" title="Link to this heading">¶</a></h2>
+<section id="grid-diff">
+<h2>Grid_Diff<a class="headerlink" href="#grid-diff" title="Link to this heading">¶</a></h2>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-12 sd-row-cols-xs-12 sd-row-cols-sm-12 sd-row-cols-md-12 sd-row-cols-lg-12 docutils">
 <div class="sd-col sd-d-flex-row sd-col-12 sd-col-xs-12 sd-col-sm-12 sd-col-md-4 sd-col-lg-4 docutils">
@@ -625,34 +586,6 @@ git<span class="w"> </span>status
 </div>
 </section>
 <hr class="docutils" />
-<section id="grid-8-2-2">
-<h2>Grid_8_2_2<a class="headerlink" href="#grid-8-2-2" title="Link to this heading">¶</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-12 sd-row-cols-xs-12 sd-row-cols-sm-12 sd-row-cols-md-12 sd-row-cols-lg-12 docutils">
-<div class="sd-col sd-d-flex-row sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes half the row.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes one quarter.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<p class="sd-card-text">This card takes one quarter.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 <section id="tabset">
 <h2>Tabset<a class="headerlink" href="#tabset" title="Link to this heading">¶</a></h2>
 <div class="sd-tab-set docutils">
@@ -672,23 +605,9 @@ Windows</label><div class="sd-tab-content docutils">
 <p>Windows content here</p>
 </div>
 </div>
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-3">
-Linux</label><div class="sd-tab-content docutils">
-<p>Linux content here</p>
-</div>
-<input id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-4">
-Mac</label><div class="sd-tab-content docutils">
-<p>Mac content here</p>
-</div>
-<input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-5">
-Windows</label><div class="sd-tab-content docutils">
-<p>Windows content here</p>
-</div>
-</div>
+</section>
+<section id="carousel">
+<h2>Carousel<a class="headerlink" href="#carousel" title="Link to this heading">¶</a></h2>
 <div class="sd-sphinx-override sd-cards-carousel sd-card-cols-3 docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
@@ -712,15 +631,6 @@ Windows</div>
 </div>
 </div>
 </div>
-</section>
-<hr class="docutils" />
-<section id="csv">
-<h2>CSV<a class="headerlink" href="#csv" title="Link to this heading">¶</a></h2>
-</section>
-<hr class="docutils" />
-<section id="mermaid">
-<h2>Mermaid<a class="headerlink" href="#mermaid" title="Link to this heading">¶</a></h2>
-<p>Better than plain images when you want numbering and captions.</p>
 </section>
 <hr class="docutils" />
 <section id="mermaid-diagrams">
@@ -777,6 +687,8 @@ Windows</div>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
     <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.12.1/dist/mermaid.esm.min.mjs";
 

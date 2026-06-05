@@ -17,7 +17,19 @@ release = '2026'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
 extensions = [ "myst_parser","sphinx_design","sphinx.ext.githubpages","sphinx_sitemap"]
 master_doc = "index"
-myst_enable_extensions = ["colon_fence"]
+
+myst_enable_extensions = [
+    "colon_fence",
+    "dollarmath",
+    "amsmath",
+    "substitution",
+    "attrs_inline"
+]
+myst_substitutions = {
+    "CCB": "[**Center for Computational Biology**](https://ccb.jhu.edu/)",
+}
+
+
 templates_path = ['_templates']
 
 # -- Options for HTML output -------------------------------------------------
