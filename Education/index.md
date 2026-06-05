@@ -10,6 +10,7 @@
 
 Information <information>
 Sample Courses  <sample_courses>
-Courses <courses>
+course_selection
+course_description
 Internship <internship>
 ```

@@ -3,28 +3,35 @@
 (label-stevenlsalzberg)=
 ### [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org/)
 
-```{grid} 1 1 3 3
+`````{grid} 12
+:gutter: 1
 
-:::{grid-item-card}
-:::{figure} /_static/People/Steven_salzberg_250x331.jpg
+::::{grid-item-card}
+:columns: 12 12 4 4
+
+:::{image} /_static/People/Steven_salzberg_250x331.jpg
 :width: 240px
 :alt: Steven L. Salzberg, Ph.D.
 :::
 
-:::{grid-item-card}
-- Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
-- Director, Center for Computational Biology
-- [salzberg@jhu.edu](mailto:salzberg@jhu.edu)
-- [Lab homepage](http://salzberg-lab.org)
-:::
+::::
 
-:::{grid-item-card}
-- Department of Biomedical Engineering, School of Medicine
-- Department of Computer Science, Whiting School of Engineering
-- Department of Biostatistics, Bloomberg School of Public Health
-:::
+::::{grid-item-card}
+:columns: 12 12 8 8
+ 
+**Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
+Director, Center for Computational Biology  
+  
+Department of Biomedical Engineering, School of Medicine  
+Department of Computer Science, Whiting School of Engineering  
+Department of Biostatistics, Bloomberg School of Public Health  
 
-```
+[Lab homepage](http://salzberg-lab.org)  
+&#9993; [salzberg@jhu.edu](mailto:salzberg@jhu.edu)   
+
+::::
+
+`````
 
 ### [Dan Arking, Ph.D.](https://www.hopkinsmedicine.org/profiles/details/dan-arking)
 

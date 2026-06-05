@@ -1,222 +1,56 @@
 Running Sphinx v9.1.0
 loading translations [en]... done
-loading pickled environment... The configuration has changed (2 options: 'html_static_path', 'pygments_dark_style')
+loading pickled environment... The configuration has changed (4 options: 'html_css_files', 'html_js_files', 'html_static_path', 'pygments_dark_style')
 done
-myst v5.0.0: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=set(), disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_sort=True, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
+myst v5.0.0: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions={'colon_fence'}, disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_sort=True, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
 building [mo]: targets for 0 po files that are out of date
 writing output... 
 building [html]: targets for 0 source files that are out of date
-updating environment: 0 added, 4 changed, 0 removed
-reading sources... [ 25%] People/postdocs
-reading sources... [ 50%] People/staff
-reading sources... [ 75%] People/students
-reading sources... [100%] people
+updating environment: 0 added, 2 changed, 0 removed
+reading sources... [ 50%] Data/index
+reading sources... [100%] test
 
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:5: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:265: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:297: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:322: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:7: WARNING: image file not readable: wiki/uploads/thumb/e/ef/Steven_salzberg_250x331.jpg/106px-Steven_salzberg_250x331.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:19: WARNING: image file not readable: wiki/uploads/5/52/DonArking.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:29: WARNING: image file not readable: wiki/uploads/thumb/2/23/Joel_bader.jpg/104px-Joel_bader.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:39: WARNING: image file not readable: wiki/uploads/3/37/Alexis-Battle-149x180.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:51: WARNING: image file not readable: wiki/uploads/5/5b/MikeBeer.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:61: WARNING: image file not readable: wiki/uploads/6/67/U_chitra.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:71: WARNING: image file not readable: wiki/uploads/7/77/JeanFan_132px.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:81: WARNING: image file not readable: wiki/uploads/c/c7/Florea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:92: WARNING: image file not readable: wiki/uploads/6/6f/Jjgray.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:103: WARNING: image file not readable: wiki/uploads/thumb/0/0e/KasperHansen250x264.jpg/133px-KasperHansen250x264.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:113: WARNING: image file not readable: wiki/uploads/c/c4/S_hicks.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:124: WARNING: image file not readable: wiki/uploads/f/f0/HongkaiJi.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:134: WARNING: image file not readable: wiki/uploads/6/65/Rachel09Head.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:145: WARNING: image file not readable: wiki/uploads/9/9e/Ben_h140.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:155: WARNING: image file not readable: wiki/uploads/thumb/e/e5/D_lipman.png/140px-D_lipman.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:165: WARNING: image file not readable: wiki/uploads/b/b9/R_mccoy.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:175: WARNING: image file not readable: wiki/uploads/thumb/c/c6/Pertea.jpg/117px-Pertea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:186: WARNING: image file not readable: wiki/uploads/thumb/5/54/A_phillippy.png/140px-A_phillippy.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:196: WARNING: image file not readable: wiki/uploads/8/84/Suchi_saria.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:207: WARNING: image file not readable: wiki/uploads/a/ae/Rscharp1.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:217: WARNING: image file not readable: wiki/uploads/b/b8/Mike_Schatz.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:227: WARNING: image file not readable: wiki/uploads/thumb/1/13/Margaret250x312.jpg/112px-Margaret250x312.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:236: WARNING: image file not readable: wiki/uploads/c/c7/JamesTaylor.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:243: WARNING: image file not readable: wiki/uploads/8/89/Winston_timp.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:253: WARNING: image file not readable: wiki/uploads/a/a2/Aleksey.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:267: WARNING: image file not readable: wiki/uploads/1/1c/Avaraby.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:274: WARNING: image file not readable: wiki/uploads/6/6d/C_hall.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:281: WARNING: image file not readable: wiki/uploads/c/c4/Harun_Mustafa.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:288: WARNING: image file not readable: wiki/uploads/6/64/Ssingh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:299: WARNING: image file not readable: wiki/uploads/9/97/R_keener.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:306: WARNING: image file not readable: wiki/uploads/d/d5/Daniela_puiu.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:313: WARNING: image file not readable: wiki/uploads/8/87/S_bailey.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:324: WARNING: image file not readable: wiki/uploads/5/56/David_Bass.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:331: WARNING: image file not readable: wiki/uploads/7/71/Kalen_Clifton.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:338: WARNING: image file not readable: wiki/uploads/9/9c/Caleb_Hallinan.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:345: WARNING: image file not readable: wiki/uploads/e/ea/Celine_Hoh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:352: WARNING: image file not readable: wiki/uploads/7/72/Radhika_Jangi.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:359: WARNING: image file not readable: wiki/uploads/c/cc/Zoe_Rudnick.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/postdocs.md:366: WARNING: image file not readable: wiki/uploads/9/9c/Rafael_dos_Santos_Peixoto_25pc.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:5: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:265: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:297: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:322: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:7: WARNING: image file not readable: wiki/uploads/thumb/e/ef/Steven_salzberg_250x331.jpg/106px-Steven_salzberg_250x331.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:19: WARNING: image file not readable: wiki/uploads/5/52/DonArking.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:29: WARNING: image file not readable: wiki/uploads/thumb/2/23/Joel_bader.jpg/104px-Joel_bader.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:39: WARNING: image file not readable: wiki/uploads/3/37/Alexis-Battle-149x180.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:51: WARNING: image file not readable: wiki/uploads/5/5b/MikeBeer.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:61: WARNING: image file not readable: wiki/uploads/6/67/U_chitra.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:71: WARNING: image file not readable: wiki/uploads/7/77/JeanFan_132px.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:81: WARNING: image file not readable: wiki/uploads/c/c7/Florea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:92: WARNING: image file not readable: wiki/uploads/6/6f/Jjgray.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:103: WARNING: image file not readable: wiki/uploads/thumb/0/0e/KasperHansen250x264.jpg/133px-KasperHansen250x264.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:113: WARNING: image file not readable: wiki/uploads/c/c4/S_hicks.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:124: WARNING: image file not readable: wiki/uploads/f/f0/HongkaiJi.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:134: WARNING: image file not readable: wiki/uploads/6/65/Rachel09Head.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:145: WARNING: image file not readable: wiki/uploads/9/9e/Ben_h140.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:155: WARNING: image file not readable: wiki/uploads/thumb/e/e5/D_lipman.png/140px-D_lipman.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:165: WARNING: image file not readable: wiki/uploads/b/b9/R_mccoy.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:175: WARNING: image file not readable: wiki/uploads/thumb/c/c6/Pertea.jpg/117px-Pertea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:186: WARNING: image file not readable: wiki/uploads/thumb/5/54/A_phillippy.png/140px-A_phillippy.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:196: WARNING: image file not readable: wiki/uploads/8/84/Suchi_saria.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:207: WARNING: image file not readable: wiki/uploads/a/ae/Rscharp1.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:217: WARNING: image file not readable: wiki/uploads/b/b8/Mike_Schatz.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:227: WARNING: image file not readable: wiki/uploads/thumb/1/13/Margaret250x312.jpg/112px-Margaret250x312.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:236: WARNING: image file not readable: wiki/uploads/c/c7/JamesTaylor.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:243: WARNING: image file not readable: wiki/uploads/8/89/Winston_timp.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:253: WARNING: image file not readable: wiki/uploads/a/a2/Aleksey.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:267: WARNING: image file not readable: wiki/uploads/1/1c/Avaraby.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:274: WARNING: image file not readable: wiki/uploads/6/6d/C_hall.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:281: WARNING: image file not readable: wiki/uploads/c/c4/Harun_Mustafa.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:288: WARNING: image file not readable: wiki/uploads/6/64/Ssingh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:299: WARNING: image file not readable: wiki/uploads/9/97/R_keener.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:306: WARNING: image file not readable: wiki/uploads/d/d5/Daniela_puiu.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:313: WARNING: image file not readable: wiki/uploads/8/87/S_bailey.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:324: WARNING: image file not readable: wiki/uploads/5/56/David_Bass.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:331: WARNING: image file not readable: wiki/uploads/7/71/Kalen_Clifton.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:338: WARNING: image file not readable: wiki/uploads/9/9c/Caleb_Hallinan.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:345: WARNING: image file not readable: wiki/uploads/e/ea/Celine_Hoh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:352: WARNING: image file not readable: wiki/uploads/7/72/Radhika_Jangi.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:359: WARNING: image file not readable: wiki/uploads/c/cc/Zoe_Rudnick.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/staff.md:366: WARNING: image file not readable: wiki/uploads/9/9c/Rafael_dos_Santos_Peixoto_25pc.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:5: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:265: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:297: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:322: WARNING: Document or section may not begin with a transition. [docutils]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:7: WARNING: image file not readable: wiki/uploads/thumb/e/ef/Steven_salzberg_250x331.jpg/106px-Steven_salzberg_250x331.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:19: WARNING: image file not readable: wiki/uploads/5/52/DonArking.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:29: WARNING: image file not readable: wiki/uploads/thumb/2/23/Joel_bader.jpg/104px-Joel_bader.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:39: WARNING: image file not readable: wiki/uploads/3/37/Alexis-Battle-149x180.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:51: WARNING: image file not readable: wiki/uploads/5/5b/MikeBeer.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:61: WARNING: image file not readable: wiki/uploads/6/67/U_chitra.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:71: WARNING: image file not readable: wiki/uploads/7/77/JeanFan_132px.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:81: WARNING: image file not readable: wiki/uploads/c/c7/Florea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:92: WARNING: image file not readable: wiki/uploads/6/6f/Jjgray.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:103: WARNING: image file not readable: wiki/uploads/thumb/0/0e/KasperHansen250x264.jpg/133px-KasperHansen250x264.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:113: WARNING: image file not readable: wiki/uploads/c/c4/S_hicks.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:124: WARNING: image file not readable: wiki/uploads/f/f0/HongkaiJi.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:134: WARNING: image file not readable: wiki/uploads/6/65/Rachel09Head.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:145: WARNING: image file not readable: wiki/uploads/9/9e/Ben_h140.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:155: WARNING: image file not readable: wiki/uploads/thumb/e/e5/D_lipman.png/140px-D_lipman.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:165: WARNING: image file not readable: wiki/uploads/b/b9/R_mccoy.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:175: WARNING: image file not readable: wiki/uploads/thumb/c/c6/Pertea.jpg/117px-Pertea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:186: WARNING: image file not readable: wiki/uploads/thumb/5/54/A_phillippy.png/140px-A_phillippy.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:196: WARNING: image file not readable: wiki/uploads/8/84/Suchi_saria.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:207: WARNING: image file not readable: wiki/uploads/a/ae/Rscharp1.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:217: WARNING: image file not readable: wiki/uploads/b/b8/Mike_Schatz.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:227: WARNING: image file not readable: wiki/uploads/thumb/1/13/Margaret250x312.jpg/112px-Margaret250x312.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:236: WARNING: image file not readable: wiki/uploads/c/c7/JamesTaylor.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:243: WARNING: image file not readable: wiki/uploads/8/89/Winston_timp.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:253: WARNING: image file not readable: wiki/uploads/a/a2/Aleksey.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:267: WARNING: image file not readable: wiki/uploads/1/1c/Avaraby.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:274: WARNING: image file not readable: wiki/uploads/6/6d/C_hall.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:281: WARNING: image file not readable: wiki/uploads/c/c4/Harun_Mustafa.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:288: WARNING: image file not readable: wiki/uploads/6/64/Ssingh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:299: WARNING: image file not readable: wiki/uploads/9/97/R_keener.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:306: WARNING: image file not readable: wiki/uploads/d/d5/Daniela_puiu.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:313: WARNING: image file not readable: wiki/uploads/8/87/S_bailey.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:324: WARNING: image file not readable: wiki/uploads/5/56/David_Bass.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:331: WARNING: image file not readable: wiki/uploads/7/71/Kalen_Clifton.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:338: WARNING: image file not readable: wiki/uploads/9/9c/Caleb_Hallinan.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:345: WARNING: image file not readable: wiki/uploads/e/ea/Celine_Hoh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:352: WARNING: image file not readable: wiki/uploads/7/72/Radhika_Jangi.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:359: WARNING: image file not readable: wiki/uploads/c/cc/Zoe_Rudnick.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/People/students.md:366: WARNING: image file not readable: wiki/uploads/9/9c/Rafael_dos_Santos_Peixoto_25pc.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md.rst:810: WARNING: Non-consecutive header level increase; H2 to H4 [myst.header]
-/home/dpuiu/projects/sphinx.ccb/people.md.rst:947: WARNING: Non-consecutive header level increase; H2 to H4 [myst.header]
-/home/dpuiu/projects/sphinx.ccb/people.md.rst:1044: WARNING: Non-consecutive header level increase; H2 to H4 [myst.header]
-/home/dpuiu/projects/sphinx.ccb/people.md:14: WARNING: image file not readable: wiki/uploads/5/52/DonArking.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:21: WARNING: image file not readable: wiki/uploads/thumb/2/23/Joel_bader.jpg/104px-Joel_bader.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:53: WARNING: image file not readable: wiki/uploads/thumb/3/37/Alexis-Battle-149x180.jpg/116px-Alexis-Battle-149x180.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:90: WARNING: image file not readable: wiki/uploads/thumb/5/5b/MikeBeer.jpg/123px-MikeBeer.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:125: WARNING: image file not readable: wiki/uploads/thumb/6/67/U_chitra.png/140px-U_chitra.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:160: WARNING: image file not readable: wiki/uploads/7/77/JeanFan_132px.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:193: WARNING: image file not readable: wiki/uploads/thumb/c/c7/Florea.jpg/117px-Florea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:229: WARNING: image file not readable: wiki/uploads/6/6f/Jjgray.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:262: WARNING: image file not readable: wiki/uploads/thumb/0/0e/KasperHansen250x264.jpg/133px-KasperHansen250x264.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:297: WARNING: image file not readable: wiki/uploads/c/c4/S_hicks.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:334: WARNING: image file not readable: wiki/uploads/f/f0/HongkaiJi.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:366: WARNING: image file not readable: wiki/uploads/6/65/Rachel09Head.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:400: WARNING: image file not readable: wiki/uploads/9/9e/Ben_h140.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:433: WARNING: image file not readable: wiki/uploads/thumb/e/e5/D_lipman.png/140px-D_lipman.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:467: WARNING: image file not readable: wiki/uploads/b/b9/R_mccoy.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:500: WARNING: image file not readable: wiki/uploads/thumb/c/c6/Pertea.jpg/117px-Pertea.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:536: WARNING: image file not readable: wiki/uploads/thumb/5/54/A_phillippy.png/140px-A_phillippy.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:573: WARNING: image file not readable: wiki/uploads/thumb/8/84/Suchi_saria.jpg/150px-Suchi_saria.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:609: WARNING: image file not readable: wiki/uploads/thumb/a/ae/Rscharp1.jpg/100px-Rscharp1.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:643: WARNING: image file not readable: wiki/uploads/thumb/b/b8/Mike_Schatz.jpg/93px-Mike_Schatz.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:677: WARNING: image file not readable: wiki/uploads/thumb/1/13/Margaret250x312.jpg/112px-Margaret250x312.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:711: WARNING: image file not readable: wiki/uploads/thumb/c/c7/JamesTaylor.jpg/157px-JamesTaylor.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:740: WARNING: image file not readable: wiki/uploads/thumb/8/89/Winston_timp.jpg/93px-Winston_timp.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:775: WARNING: image file not readable: wiki/uploads/thumb/a/a2/Aleksey.jpg/106px-Aleksey.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:812: WARNING: image file not readable: wiki/uploads/thumb/1/1c/Avaraby.png/139px-Avaraby.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:845: WARNING: image file not readable: wiki/uploads/thumb/6/6d/C_hall.png/140px-C_hall.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:879: WARNING: image file not readable: wiki/uploads/thumb/c/c4/Harun_Mustafa.png/140px-Harun_Mustafa.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:913: WARNING: image file not readable: wiki/uploads/thumb/6/64/Ssingh.png/140px-Ssingh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:949: WARNING: image file not readable: wiki/uploads/9/97/R_keener.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:980: WARNING: image file not readable: wiki/uploads/d/d5/Daniela_puiu.jpg [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1010: WARNING: image file not readable: wiki/uploads/thumb/8/87/S_bailey.png/140px-S_bailey.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1046: WARNING: image file not readable: wiki/uploads/thumb/5/56/David_Bass.png/151px-David_Bass.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1080: WARNING: image file not readable: wiki/uploads/thumb/7/71/Kalen_Clifton.png/140px-Kalen_Clifton.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1114: WARNING: image file not readable: wiki/uploads/thumb/9/9c/Caleb_Hallinan.png/150px-Caleb_Hallinan.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1148: WARNING: image file not readable: wiki/uploads/thumb/e/ea/Celine_Hoh.png/140px-Celine_Hoh.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1182: WARNING: image file not readable: wiki/uploads/thumb/7/72/Radhika_Jangi.png/93px-Radhika_Jangi.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1216: WARNING: image file not readable: wiki/uploads/thumb/c/cc/Zoe_Rudnick.png/140px-Zoe_Rudnick.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1250: WARNING: image file not readable: wiki/uploads/thumb/9/9c/Rafael_dos_Santos_Peixoto_25pc.png/175px-Rafael_dos_Santos_Peixoto_25pc.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1289: WARNING: image file not readable: img/jhmilogo_wbg.png [image.not_readable]
-/home/dpuiu/projects/sphinx.ccb/people.md:1289: WARNING: image file not readable: img/jhsphlogo_wbg.png [image.not_readable]
+/home/dpuiu/projects/www.ccb.jhu.edu/Data/index.md:3: CRITICAL: Directive "include": file not found: '/home/dpuiu/projects/www.ccb.jhu.edu/Data/data.md' [docutils]
+/home/dpuiu/projects/www.ccb.jhu.edu/test.md:151: CRITICAL: Directive "include": file not found: '/home/dpuiu/projects/www.ccb.jhu.edu/include.md' [docutils]
+/home/dpuiu/projects/www.ccb.jhu.edu/test.md:409: CRITICAL: Problems with "csv-table" directive path:
+[Errno 2] No such file or directory: 'people.csv'. [docutils]
 looking for now-outdated files... none found
 pickling environment... done
-checking consistency... /home/dpuiu/projects/sphinx.ccb/cbcc.md: WARNING: document isn't included in any toctree [toc.not_included]
-/home/dpuiu/projects/sphinx.ccb/ccb_courses_include.md: WARNING: document isn't included in any toctree [toc.not_included]
-/home/dpuiu/projects/sphinx.ccb/downloads.md: WARNING: document isn't included in any toctree [toc.not_included]
-/home/dpuiu/projects/sphinx.ccb/internship.md: WARNING: document isn't included in any toctree [toc.not_included]
-/home/dpuiu/projects/sphinx.ccb/people.md: WARNING: document isn't included in any toctree [toc.not_included]
-/home/dpuiu/projects/sphinx.ccb/students.md: WARNING: document isn't included in any toctree [toc.not_included]
+checking consistency... /home/dpuiu/projects/www.ccb.jhu.edu/Education/courses.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/projects/www.ccb.jhu.edu/People/alekseyz/about.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/projects/www.ccb.jhu.edu/People/alekseyz/research.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/projects/www.ccb.jhu.edu/Software/software.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/projects/www.ccb.jhu.edu/Software/tophat/index.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/projects/www.ccb.jhu.edu/test.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/projects/www.ccb.jhu.edu/About/index.md: document is referenced in multiple toctrees: ['index', 'test'], selecting: test <- About/index
+/home/dpuiu/projects/www.ccb.jhu.edu/People/index.md: document is referenced in multiple toctrees: ['index', 'test'], selecting: test <- People/index
+/home/dpuiu/projects/www.ccb.jhu.edu/Software/index.md: document is referenced in multiple toctrees: ['index', 'test'], selecting: test <- Software/index
 done
 preparing documents... done
 copying assets... 
 copying static files... 
-Writing evaluated template result to /home/dpuiu/projects/sphinx.ccb/_build/html/_static/documentation_options.js
-Writing evaluated template result to /home/dpuiu/projects/sphinx.ccb/_build/html/_static/basic.css
-Writing evaluated template result to /home/dpuiu/projects/sphinx.ccb/_build/html/_static/language_data.js
+Writing evaluated template result to /home/dpuiu/projects/www.ccb.jhu.edu/_build/html/_static/documentation_options.js
+Writing evaluated template result to /home/dpuiu/projects/www.ccb.jhu.edu/_build/html/_static/basic.css
+Writing evaluated template result to /home/dpuiu/projects/www.ccb.jhu.edu/_build/html/_static/language_data.js
+Writing evaluated template result to /home/dpuiu/projects/www.ccb.jhu.edu/_build/html/_static/copybutton.js
 copying static files: done
 copying extra files... 
 copying extra files: done
 copying assets: done
-writing output... [ 20%] People/index
-writing output... [ 40%] People/postdocs
-writing output... [ 60%] People/staff
-writing output... [ 80%] People/students
-writing output... [100%] people
+writing output... [ 33%] Data/index
+writing output... [ 67%] index
+writing output... [100%] test
 
-/home/dpuiu/projects/sphinx.ccb/people.md:5: WARNING: 'myst' cross-reference target not found: '/wiki/uploads/thumb/e/ef/Steven_salzberg_250x331.jpg/106px-Steven_salzberg_250x331.jpg' [myst.xref_missing]
-/home/dpuiu/projects/sphinx.ccb/people.md:1299: WARNING: 'myst' cross-reference target not found: '/index.shtml' [myst.xref_missing]
-/home/dpuiu/projects/sphinx.ccb/people.md:1300: WARNING: 'myst' cross-reference target not found: '/publications.shtml' [myst.xref_missing]
-/home/dpuiu/projects/sphinx.ccb/people.md:1301: WARNING: 'myst' cross-reference target not found: '/contact.shtml' [myst.xref_missing]
+/home/dpuiu/projects/www.ccb.jhu.edu/About/about.md:64: WARNING: 'myst' cross-reference target not found: 'img/JHH_Visitors_Guide_map_only.pdf' [myst.xref_missing]
+/home/dpuiu/projects/www.ccb.jhu.edu/test.md:82: WARNING: 'myst' cross-reference target not found: '_static/sample.pdf' [myst.xref_missing]
 generating indices... genindex done
+highlighting module code... 
 writing additional pages... search done
+copying images... [100%] _static/ccblogotext_wbg_100.png
+
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 182 warnings.
+sphinx-sitemap: sitemap.xml was generated for URL https://dpuiu.github.io/www.ccb.jhu.edu/ in /home/dpuiu/projects/www.ccb.jhu.edu/_build/html/sitemap.xml
+build succeeded, 11 warnings.
 
 The HTML pages are in _build/html.

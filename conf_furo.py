@@ -15,7 +15,19 @@ release = '2026'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
-extensions = [ "myst_parser","sphinx_design","sphinx.ext.githubpages","sphinx_sitemap"]
+extensions = [ 
+    "myst_parser",
+    "sphinx_design",
+    "sphinx.ext.githubpages",
+    "sphinx_sitemap",
+    "sphinx_copybutton",
+    "sphinxcontrib.mermaid",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.mathjax",
+]
+
 master_doc = "index"
 myst_enable_extensions = ["colon_fence"]
 templates_path = ['_templates']

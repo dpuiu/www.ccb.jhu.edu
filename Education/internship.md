@@ -116,7 +116,7 @@ Magoc](http://genomics.jhu.edu/people.html) \| [Daniela
 Puiu](http://ccb.jhu.edu/people.php) \| [Rob
 Scharpf](http://www.biostat.jhsph.edu/~rscharpf/rs.html) \]
 
-#### Other information
+## Other information
 
 You can read more about the genomics and bioinformatics research and
 activities at the JHU Center for Computational Biology on our website
@@ -130,7 +130,7 @@ Questions? See the Summer Research Expeditions site for more
 information. If you have questions about the CCB internships in
 particular, you can contact Ann Vukelich at avukeli1@jhmi.edu.\
 
-#### Other related opportunities
+## Other related opportunities
 
 Summer undergraduate internships in bioinformatics at the University of
 Maryland\'s [CBCB](http://www.cbcb.umd.edu/summer-internships).

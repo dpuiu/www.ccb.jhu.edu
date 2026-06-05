@@ -16,6 +16,7 @@ span.highlight {
     border-radius: 3px;
 }
 
+/* Hide right columns */
 @media (max-width: 768px) {
     .hide-mobile {
         display: none !important;
@@ -37,3 +38,30 @@ span.highlight {
     padding: 10px 15px;
     border-radius: 6px;
 }*/
+
+/* Alternate row colors */
+table.docutils tr:nth-child(even) {
+    background-color: #d6d8da;
+}
+
+table.docutils tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Grid elements */
+/*.grid .card {
+    border: 1px solid #e5e7eb;
+    box-shadow: none;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.grid .sd-card * {
+    font-size: 0.7rem !important;
+}
+*/
+
+.sd-card-text,
+.sd-card-text p {
+    font-size: 0.9rem !important;
+}
