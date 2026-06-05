@@ -7,7 +7,7 @@
 :gutter: 1
 
 ::::{grid-item-card}
-:columns: 12 12 4 4
+:columns: 12 12 3 3
 
 :::{image} /_static/People/Steven_salzberg_250x331.jpg
 :width: 240px
@@ -17,7 +17,7 @@
 ::::
 
 ::::{grid-item-card}
-:columns: 12 12 8 8
+:columns: 12 12 9 9
  
 **Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
 Director, Center for Computational Biology  
