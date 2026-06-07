@@ -28,7 +28,7 @@ assembly polishers, and SAMBA scaffolder. Most recently the focus of my
 research has encompassed transcriptome assembly, protein alignment and
 genome annotation algorithms.My most
 recent work includes a novel automated genome annotation package called
-[EviAnn](http://github.com/alekseyzimin/EviAnn_release/), which
+[EviAnn](https://github.com/alekseyzimin/EviAnn_release/), which
 surpasses all published annotation software when tested with the same
 input data.
 

@@ -2,8 +2,8 @@
 
 The Computational Biology Consulting Core (CBCC) was created to offer state-of-the-art computational biology services 
 to biomedical researchers at the Johns Hopkins University. The Core is under the direction 
-of [Liliana Florea](http://ccb.jhu.edu/people/florea). It builds on the 
-expertise of faculty in the [Center for Computational Biology](http://ccb.jhu.edu),
+of [Liliana Florea](https://ccb.jhu.edu/people/florea). It builds on the 
+expertise of faculty in the [Center for Computational Biology](https://ccb.jhu.edu),
 using best practices and the latest validated technologies to design solutions targeted to researchers' needs.
 
 

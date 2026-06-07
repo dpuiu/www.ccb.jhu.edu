@@ -92,7 +92,7 @@ significant programming projects.
 EN.600.639, EN.601.447, EN.601.647.
 
 (label-en601350)=
-### [EN.601.350 Genomic Data Science](http://www.cs.jhu.edu/spring21/index.html)
+### [EN.601.350 Genomic Data Science](https://www.cs.jhu.edu/spring21/index.html)
 
 This course will use a project-based approach to introduce
 undergraduates to research in computational biology and genomics. During
@@ -110,7 +110,7 @@ Knowledge of the Unix operating system and programming expertise in a
 language such as Perl or Python.
 
 (label-en601446)=
-### [EN.601.446/646 Sketching & Indexing for Sequences](http://www.cs.jhu.edu/spring21/index.html)
+### [EN.601.446/646 Sketching & Indexing for Sequences](https://www.cs.jhu.edu/spring21/index.html)
 
 Many of the world's largest and fastest-growing datasets are text, e.g.
 DNA sequencing data, web pages, logs and social media posts. Such
@@ -163,7 +163,7 @@ probability and statistics, linear algebra or calculus.
 EN.600.638, EN.601.448, EN.601.648.
 
 (label-en601749)=
-### [EN.601.749 Computational Genomics: Applied Comparative Genomics](http://www.cs.jhu.edu/spring21/index.html)
+### [EN.601.749 Computational Genomics: Applied Comparative Genomics](https://www.cs.jhu.edu/spring21/index.html)
 
 The goal of this course is to study the leading computational and
 quantitative approaches for comparing and analyzing genomes starting
@@ -212,7 +212,7 @@ Differential Equations, or EN.553.292 Linear Algebra and Differential
 Equations.
 
 (label-en580488)=
-### [EN.580.488/688 Foundations of Computational Biology and Bioinformatics](http://www.cs.jhu.edu/spring21/index.html)
+### [EN.580.488/688 Foundations of Computational Biology and Bioinformatics](https://www.cs.jhu.edu/spring21/index.html)
 
 This course is designed to give students a foundation in the basics of
 statistical and algorithmic approaches developed in computational

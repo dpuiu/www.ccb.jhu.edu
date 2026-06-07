@@ -14,7 +14,7 @@ development.
 Kraken is a very fast system for taxonomic classification of short or
 long DNA sequences from a microbiome or metagenomic sample. [See the
 2014 Genome Biology paper
-here](http://genomebiology.com/2014/15/3/R46/abstract). NOTE: KrakenUniq
+here](https://genomebiology.com/2014/15/3/R46/abstract). NOTE: KrakenUniq
 is a newer, more capable version of Kraken1, and we strongly recommend
 that users upgrade to KrakenUniq or else Kraken2.
 

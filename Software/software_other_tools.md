@@ -32,7 +32,7 @@ reads.
 - [gffread](/stringtie/gff) : A program for filtering, converting and manipulating GFF files
 - [gffcompare](/stringtie/gffcompare): A program for comparing, annotating, merging and tracking transcripts in GFF files
 
-### [Insignia](http://insignia.cbcb.umd.edu/)
+### [Insignia](https://insignia.cbcb.umd.edu/)
 
 A comprehensive system for finding unique DNA sequences that can be used
 to identify any bacterial or virus species or strain. Currently has over
@@ -52,17 +52,17 @@ sequences from microbial samples.
 
 A one-stop system for taxonomically classifying metagenomic short reads.
 
-### [rddChecker](http://ccb.jhu.edu/software/rddChecker/index.shtml)
+### [rddChecker](https://ccb.jhu.edu/software/rddChecker/index.shtml)
 
 A program for determining sites of RNA-DNA differences (RDDs) and
 candidate RNA editing sites from RNA-seq data.
 
-### [RepeatFinder](http://www.cbcb.umd.edu/software/RepeatFinder/)
+### [RepeatFinder](https://www.cbcb.umd.edu/software/RepeatFinder/)
 
 an older system for finding and characterizing repetitive sequences in
 complete and partial genomes.
 
-### [Scimm](http://www.cbcb.umd.edu/software/scimm)
+### [Scimm](https://www.cbcb.umd.edu/software/scimm)
 
 A tool for unsupervised clustering of metagenomic sequences using
 interpolated Markov models.
@@ -72,7 +72,7 @@ interpolated Markov models.
 an online tool for identifying exon splicing enhancers (ESEs) in
 Arabidopsis and Drosophila.
 
-### [TransTermHP](http://transterm.ccb.jhu.edu/)
+### [TransTermHP](https://transterm.ccb.jhu.edu/)
 
 A highly accurate program that finds rho-independent transcription
 terminators in bacterial genomes. The site includes a database with

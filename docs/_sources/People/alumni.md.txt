@@ -3,7 +3,7 @@
 **Former Faculty**
 
 (rafaelirizarry)=
-### [Rafael Irizarry, Ph.D.](http://rafalab.dfci.harvard.edu/)
+### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
 `````{grid} 12
 :gutter: 1
@@ -25,7 +25,7 @@
   
 JHU Biostatistics (until June 2013)<br>Dana Farber Cancer Institute<br>Harvard University  
   
-[Lab homepage](http://rafalab.dfci.harvard.edu/)  
+[Lab homepage](https://rafalab.dfci.harvard.edu/)  
 &#9993; [rafa@jhu.edu](mailto:rafa@jhu.edu)  
 ::::
 
@@ -69,7 +69,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>Biology department<br>Seoul National Uni
 **Former Students**
 
 (stephanpabinger)=
-### [Stephan Pabinger, Ph.D.](http://pabinger.site44.com)
+### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 `````{grid} 12
 :gutter: 1
@@ -91,7 +91,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>Biology department<br>Seoul National Uni
   
 McKusick-Nathans Institute of Genetic Medicine<br><a href=https://www.aldicareers.com.au/>Aldi</a>  
   
-[Lab homepage](http://pabinger.site44.com)  
+[Lab homepage](https://pabinger.site44.com)  
 &#9993; [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
 ::::
 
@@ -131,7 +131,7 @@ CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br><a href="h
 ---
 
 (hilaryparker)=
-### [Hilary Parker](http://biostat.jhsph.edu/~hiparker/)
+### [Hilary Parker](https://biostat.jhsph.edu/~hiparker/)
 
 `````{grid} 12
 :gutter: 1
@@ -153,7 +153,7 @@ CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br><a href="h
   
 Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health  
   
-[Lab homepage](http://biostat.jhsph.edu/~hiparker/)  
+[Lab homepage](https://biostat.jhsph.edu/~hiparker/)  
 &#9993; [hilary@jhu.edu](mailto:hilary@jhu.edu)  
 ::::
 
@@ -162,7 +162,7 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 ---
 
 (alyssafrazee)=
-### [Alyssa Frazee, Ph. D](http://alyssafrazee.com )
+### [Alyssa Frazee, Ph. D](https://alyssafrazee.com )
 
 `````{grid} 12
 :gutter: 1
@@ -182,7 +182,7 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 
 <a href="https://stripe.com">Stripe</a>  
   
-[Lab homepage](http://alyssafrazee.com )  
+[Lab homepage](https://alyssafrazee.com )  
 &#9993; [alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com)  
 ::::
 

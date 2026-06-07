@@ -28,10 +28,10 @@ eukaryotes.
 An accurate and efficient program to align cDNA sequences (mRNAs, ESTs)
 to genomic sequences, specifically designed for cross-species alignment.
 
-### [sim4db/leaff](http://sourceforge.net/projects/kmer/)
+### [sim4db/leaff](https://sourceforge.net/projects/kmer/)
 
 Fast high-throughput [spliced
-alignment](http://bioinformatics.oxfordjournals.org/content/27/13/1869)
+alignment](https://bioinformatics.oxfordjournals.org/content/27/13/1869)
 (sim4, sim4cc) and sequence indexing.
 
 ### [ASprofile](/ASprofile/index)

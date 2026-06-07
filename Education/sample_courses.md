@@ -2,18 +2,18 @@
 
 **Sample Course Offerings for Ph.D. students in Computational Biology**
 
-See <a href="http://ccb.jhu.edu/courses.shtml">this page</a> for a list of current courses in computational biology offered by our faculty across multiple departments. Many of these courses count towards the Ph.D. programs in BME, CS, Biology, and others
+See <a href="https://ccb.jhu.edu/courses.shtml">this page</a> for a list of current courses in computational biology offered by our faculty across multiple departments. Many of these courses count towards the Ph.D. programs in BME, CS, Biology, and others
 
 ### Department of Biomedical Engineering, Whiting School of Engineering
 
 The Johns Hopkins Department of Biomedical Engineering (BME), widely regarded as the top program of 
-its kind in the world and <a href="http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings">
+its kind in the world and <a href="https://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings">
 ranked #1 in the nation by U.S. News</a>, is dedicated to solving important scientific problems
 at the intersection of multiple disciplines and that have the potential to make a significant
 impact on medicine and health. At the 
 intersection of inquiry and discovery, the department integrates biology, medicine, 
 and engineering and draws upon the considerable strengths and talents of the Johns Hopkins 
-Schools of Engineering and Medicine. See <a href="http://www.bme.jhu.edu/graduate/phd/prospective-students">the
+Schools of Engineering and Medicine. See <a href="https://www.bme.jhu.edu/graduate/phd/prospective-students">the
 BME Ph.D. program website</a> for many details.   
 
 A unique feature of the Hopkins BME program is that students may also opt
@@ -23,7 +23,7 @@ with the students in Hopkins' highly-ranked M.D. program.
 
 ### Department of Computer Science, Whiting School of Engineering
 
-<a href="http://www.cs.jhu.edu">Computer Science at
+<a href="https://www.cs.jhu.edu">Computer Science at
 Johns Hopkins University</a> is a diverse, collaborative, and
 intensely research-focused department. In 2015, the Department moved into
 a brand new, state-of-the-art research building, Malone Hall, designed
@@ -43,9 +43,9 @@ and Natural Language Processing.
 #### Ph.D. program
 
 A total of 8 courses are required, and a typical load is 3 courses per semester. See 
-<a href="http://www.cs.jhu.edu/graduate-studies/">the CS Department website</a>
+<a href="https://www.cs.jhu.edu/graduate-studies/">the CS Department website</a>
 for details. For a look at courses that might be included in Ph.D. training, see
-<a href="http://ccb.jhu.edu/courses.shtml">this page</a>, though note that it is
+<a href="https://ccb.jhu.edu/courses.shtml">this page</a>, though note that it is
 not a comprehensive list.  
 
 *For the Computer Science Ph.D., 2 out of the required 8 classes can be taken outside the Department.*
@@ -62,7 +62,7 @@ in the nation by U.S. News</a>.
 
 At least 18 credits required outside the Dept of Biostatistics, 
 at least 9 of these in the School of Public Health. See 
-<a href="http://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd">the Department website</a>
+<a href="https://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd">the Department website</a>
  for details.  
 
 All students in the Biostatistics Ph.D. program have to complete the core requirements:

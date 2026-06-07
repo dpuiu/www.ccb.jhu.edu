@@ -52,7 +52,7 @@ Ray and Stephanie Lane Center for Computational Biology<br><a href="https://king
 
 **Postdoctoral Research Fellow**  
   
-<a href="http://www.hepdata.com/">HEP Development</a>  
+<a href="https://www.hepdata.com/">HEP Development</a>  
   
 [Lab homepage](https://idr.ufhealth.org/profile/magoc-tanja/)  
 &#9993; [t.magoc@gmail.com](mailto:t.magoc@gmail.com)  
@@ -83,7 +83,7 @@ Ray and Stephanie Lane Center for Computational Biology<br><a href="https://king
 
 **Director and Senior Investigator<br>Center for Genomics and Data Science Research**  
   
-<a href="http://bnbi.org">National Biodefense Analysis and Countermeasures Center</a><br><a href="https://www.genome.gov/">NHGRI</a>  
+<a href="https://bnbi.org">National Biodefense Analysis and Countermeasures Center</a><br><a href="https://www.genome.gov/">NHGRI</a>  
   
 [Lab homepage](https://www.genome.gov/staff/Adam-M-Phillippy-PhD)  
 &#9993; [adam.phillippy@nih.gov](mailto:adam.phillippy@nih.gov)  
@@ -114,7 +114,7 @@ Ray and Stephanie Lane Center for Computational Biology<br><a href="https://king
 
 **Professor, Department of Computer Science<br>Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)**  
   
-<a href="http://cbcb.umd.edu/">CBCB</a><br>University of Maryland  
+<a href="https://cbcb.umd.edu/">CBCB</a><br>University of Maryland  
   
 [Lab homepage](https://pop-lab.org/)  
 &#9993; [mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
@@ -125,7 +125,7 @@ Ray and Stephanie Lane Center for Computational Biology<br><a href="https://king
 ---
 
 (najibel-sayed)=
-### [Najib El-Sayed, Ph.D.](http://www.najibelsayed.org/)
+### [Najib El-Sayed, Ph.D.](https://www.najibelsayed.org/)
 
 `````{grid} 12
 :gutter: 1
@@ -147,7 +147,7 @@ Ray and Stephanie Lane Center for Computational Biology<br><a href="https://king
   
 Department of Cell Biology and Molecular Genetics<br>University of Maryland  
   
-[Lab homepage](http://www.najibelsayed.org/)  
+[Lab homepage](https://www.najibelsayed.org/)  
 &#9993; [nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)  
 ::::
 
@@ -156,7 +156,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 ---
 
 (coletrapnell)=
-### [Cole Trapnell, Ph.D.](http://cole-trapnell-lab.github.io/)
+### [Cole Trapnell, Ph.D.](https://cole-trapnell-lab.github.io/)
 
 `````{grid} 12
 :gutter: 1
@@ -176,9 +176,9 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 
 **Associate Professor of Genome Sciences**  
   
-<a href="http://www.rinnlab.com">John Rinn Lab</a><br>The Broad Institute of MIT and Harvard<br>UW Genome Sciences  
+<a href="https://www.rinnlab.com">John Rinn Lab</a><br>The Broad Institute of MIT and Harvard<br>UW Genome Sciences  
   
-[Lab homepage](http://cole-trapnell-lab.github.io/)  
+[Lab homepage](https://cole-trapnell-lab.github.io/)  
 &#9993; [coletrap@uw.edu](mailto:coletrap@uw.edu)  
 ::::
 
@@ -187,7 +187,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 ---
 
 (jamesayorke)=
-### [James A. Yorke, Ph.D.](http://yorke.umd.edu/)
+### [James A. Yorke, Ph.D.](https://yorke.umd.edu/)
 
 `````{grid} 12
 :gutter: 1
@@ -209,7 +209,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
   
 Institute for Physical Sciences and Technology<br>UMCP<br>University of Maryland  
   
-[Lab homepage](http://yorke.umd.edu/)  
+[Lab homepage](https://yorke.umd.edu/)  
 &#9993; [yorke@umd.edu](mailto:yorke@umd.edu)  
 ::::
 

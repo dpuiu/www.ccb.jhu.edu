@@ -1,7 +1,7 @@
 # Software
 
 ```{note}
-If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess](http://ccb.jhu.edu/chess)
+If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess](https://ccb.jhu.edu/chess)
 ```
 
 ```{include} software_alignment.md

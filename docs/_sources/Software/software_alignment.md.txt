@@ -7,7 +7,7 @@ reads. With high throughput (~1.5 to 2 million reads per second with
 the human reference genome in a 4-GPU computer), it is well suited to
 large-scale NGS data processing.
 
-### [Bowtie](http://bowtie-bio.sf.net)
+### [Bowtie](https://bowtie-bio.sf.net)
 
 An ultrafast, memory-efficient short read aligner that aligns short DNA
 sequences to the human genome at a rate of about 25 million reads per
@@ -26,7 +26,7 @@ TopHat's sensitivity, particularly in the presence of pseudogenes.
 TopHat2 includes TopHat-Fusion as an option.
 TopHat2 includes TopHat-Fusion as an option.
 
-### [TopHat-Fusion](http://tophat-fusion.sourceforge.net)
+### [TopHat-Fusion](https://tophat-fusion.sourceforge.net)
 
 TopHat-Fusion is an enhanced version of TopHat with the ability to align
 reads across fusion points, which results from the breakage and
@@ -62,7 +62,7 @@ analysis, and other functionalities. All HISAT programs were developed
 by Daehwan Kim and they are currently maintained at
 [kim-lab.org](https://kim-lab.org/).
 
-### [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/)
+### [Cufflinks](https://cole-trapnell-lab.github.io/cufflinks/)
 
 A transcript assembler and abundance estimator for RNA-seq data.
 Cufflinks assembles transcripts from the alignments produced by TopHat,
@@ -102,26 +102,26 @@ Ballgown package provides functions to organize, visualize, and analyze
 expression measurements. Ballgown is written in R and is part of
 Bioconductor.
 
-### [CloudBurst](http://cloudburst-bio.sf.net)
+### [CloudBurst](https://cloudburst-bio.sf.net)
 
 An older program for highly sensitive short read mapping using
 MapReduce. CloudBurst, developed by Michael Schatz (now a faculty member
-at JHU Computer Science) uses [Hadoop](http://hadoop.apache.org) to
+at JHU Computer Science) uses [Hadoop](https://hadoop.apache.org) to
 efficiently parallelize the short read mapping problem to dozens or
 hundreds of computers. This enables CloudBurst to execute highly
 sensitive read mappings with any number of mutations or indels.
 
-### [Crossbow](http://bowtie-bio.sf.net/crossbow)
+### [Crossbow](https://bowtie-bio.sf.net/crossbow)
 
 Crossbow is an early scalable software pipeline for whole genome
-resequencing analysis. It combines [Bowtie](http://bowtie-bio.sf.net),
+resequencing analysis. It combines [Bowtie](https://bowtie-bio.sf.net),
 an ultrafast and memory efficient short read aligner, and
-[SoapSNP](http://soap.genomics.org.cn/soapsnp.html), an accurate
-genotyper, within [Hadoop](http://hadoop.apache.org) to distribute and
+[SoapSNP](https://soap.genomics.org.cn/soapsnp.html), an accurate
+genotyper, within [Hadoop](https://hadoop.apache.org) to distribute and
 accelerate the computation with many nodes. In [the CrossBow
-paper](http://genomebiology.com/2009/10/11/R134), we used it to analyze
+paper](https://genomebiology.com/2009/10/11/R134), we used it to analyze
 35x coverage of a human genome in 3 hours for about $100 using a
-40-node, 320-core cluster rented from [Amazon's EC2](http://aws.amazon.com) utility computing service.
+40-node, 320-core cluster rented from [Amazon's EC2](https://aws.amazon.com) utility computing service.
 
 ### [Diamund](/diamund/index)
 

@@ -1,6 +1,6 @@
 ## Web Servers and Databases
 
-### [**CHESS**](http://ccb.jhu.edu/chess/)
+### [**CHESS**](https://ccb.jhu.edu/chess/)
 
 A new catalog of human genes based on nearly 10,000 RNA sequencing
 experiments. For a full description of chess, see the paper in *Genome
@@ -10,12 +10,12 @@ Biology*, [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059
 
 RefSeq annotation of the CHM13 genome created using the Liftoff program
 
-### [**ARDB**](http://ardb.cbcb.umd.edu/)
+### [**ARDB**](https://ardb.cbcb.umd.edu/)
 
 **New in early 2009** Antibiotic Resistance Genes Database
 
-### [**EnteriX**](http://enterix.cbcb.umd.edu/)
+### [**EnteriX**](https://enterix.cbcb.umd.edu/)
 
 Web servers for displaying alignments and annotations of bacterial genomes. 
 
-### [A collection of links (now very old) to external sequence analysis programs.](http://cbcb.umd.edu/%7Esalzberg/appendixa.html)
+### [A collection of links (now very old) to external sequence analysis programs.](https://cbcb.umd.edu/%7Esalzberg/appendixa.html)
