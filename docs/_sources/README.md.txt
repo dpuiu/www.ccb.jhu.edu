@@ -57,7 +57,7 @@ www.ccb.jhu.edu/
 
 ## 5. Edit Website Content
 
-Most website pages are written in Markdown (`.md`) files.
+The website pages are written using the [https://www.markdownguide.org/basic-syntax](Markdown) [https://dpuiu.github.io/www.ccb.jhu.edu/Examples/index.html](MyST) extension(`.md`) .
 
 Examples:
 
@@ -66,10 +66,13 @@ About/about.md
 People/faculty.md
 People/students.md
 Software/index.md
-Research/index.md
 ```
 
 Make the desired updates using your favorite text editor.
+
+Tested elements:
+[/_sources/Examples/index.md.txt](index.md) &
+[/Examples/index.html](index.html)
 
 ## 6. Commit Your Changes
 

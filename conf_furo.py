@@ -68,7 +68,7 @@ myst_substitutions = {
     "SOM":  "[SOM](https://www.hopkinsmedicine.org/som)",
     "sph":  "[Bloomberg School of Public Health](https://publichealth.jhu.edu/)",
     "SPH":  "[SPH](https://publichealth.jhu.edu/)",
-    "wse":  "[Whiting School of Engineering)](https://engineering.jhu.edu/)",
+    "wse":  "[Whiting School of Engineering](https://engineering.jhu.edu/)",
     "WSE":  "[WSE](https://engineering.jhu.edu/)"
 }
 
