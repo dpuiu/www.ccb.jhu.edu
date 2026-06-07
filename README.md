@@ -48,7 +48,7 @@ www.ccb.jhu.edu/
 ├── Data/             # Databases developed by CCB	
 ├── Education/        # The Ph.D. program, courses
 ├── Consulting Core/  # Consulting   
-├── Examples/         # Markdown examples
+├── Examples/         # Markdown/MyST examples
 ├── _static/          # Images, logos, PDFs, and other static files
 ├── conf.py           # Sphinx configuration
 ├── index.md          # Website home page
@@ -57,7 +57,7 @@ www.ccb.jhu.edu/
 
 ## 5. Edit Website Content
 
-The website pages are written using the [https://www.markdownguide.org/basic-syntax](Markdown) [https://dpuiu.github.io/www.ccb.jhu.edu/Examples/index.html](MyST) extension(`.md`) .
+The website pages are written using the [Markdown](https://www.markdownguide.org) [MyST](https://mystmd.org/) extension(`.md`) .
 
 Examples:
 
@@ -71,12 +71,12 @@ Software/index.md
 Make the desired updates using your favorite text editor.
 
 Tested elements:
-[/_sources/Examples/index.md.txt](index.md) &
-[/Examples/index.html](index.html)
+[index.md](/_sources/Examples/index.md.txt) =>
+[index.html](/Examples/index.html])
 
 ## 6. Commit Your Changes
 
-```bash
+```bash]
 git add .
 git commit -m "Update website content"
 ```
