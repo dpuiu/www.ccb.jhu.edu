@@ -131,3 +131,33 @@ sudo npm install -g markdownlint-cli
 
 markdownlint *.md
 markdownlint --fix *.md
+
+######
+
+echo "## Faculty" > People/faculty.md
+echo >> People/faculty.md 
+grep -v ^# People/people.tsv| head -25| ./people2grid.pl   >> People/faculty.md
+
+echo "## Postdocs" > People/postdocs.md
+echo >> People/postdocs.md
+grep -v ^# People/people.tsv| head -29 | tail -n 4 | ./people2grid.pl   >> People/postdocs.md
+
+
+echo "## Staff" > People/staff.md
+echo >> People/staff.md
+grep -v ^# People/people.tsv| head -32 | tail -n 3 | ./people2grid.pl   >> People/staff.md
+
+echo "## Students" > People/students.md
+echo >> People/students.md
+grep -v ^# People/people.tsv| head -39 | tail -n 7 | ./people2grid.pl   >> People/students.md
+
+
+echo "## Alumni" > People/alumni.md
+echo >> People/alumni.md
+grep -v ^# People/people.tsv| head -45 | tail -n 6 | ./people2grid.pl   >> People/alumni.md
+
+echo "## Collaborations" > People/collab.md
+echo >> People/collab.md
+tail -n 9 People/people.tsv | ./people2grid.pl   >> People/collab.md
+
+#25,4,3,7, 6,9

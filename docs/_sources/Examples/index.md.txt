@@ -1,10 +1,10 @@
 ---
-title: MyST Markdown Showcase
+title: MyST Markdown Examples
 author: Daniela Puiu
 myst:
   html_meta:
-    "keywords": "bioinformatics1"
-    "description": "bioinformatics2"
+    "keywords": "CCB, WSE, JHU"
+    "description": "Center for Computational Biology"
     "robots": "index, follow"
 ---
 
@@ -17,6 +17,7 @@ myst:
 ```{toctree}
 :maxdepth: 2
 :hidden:
+:caption: Examples
 
 About/index
 People/index
@@ -25,9 +26,12 @@ Software/index
 
 ---
 
-# Substritution
+# Examples
 
-{{WSE}}
+## Substritution
+
+{{CCB}}  
+{{ccb}}
 
 ---
 
@@ -39,22 +43,22 @@ Software/index
 
 `inline code`
 
-- Item 1
-- Item 2
-- Item 3
+- JHU
+- WSE
+- CCB
 
-1. First
-2. Second
-3. Third
+1. JHU
+2. WSE
+3. CCB
 
 ---
 
 ## Buttons
 
-```{button-link} https://github.com
+```{button-link} https://jhu.edu
 :color: primary
 
-GitHub
+JHU
 ```
 
 ---
@@ -62,27 +66,21 @@ GitHub
 (links)=
 ## Links
 
-### External
+### External Page
 
-[JHU CCB](https://ccb.jhu.edu/){rel="nofollow"}
+[CCB](https://ccb.jhu.edu/){rel="nofollow"}  
 
-### Download
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+### Internal Page
 
-[Download PDF](_static/sample.pdf)
+{doc}`About </About/about>`
 
-### Reference
+### Section
+
 Jump to {ref}`links`.
+
+### File Download
+
+[Download PDF](_static/logo.pdf)
 
 ---
 
@@ -148,14 +146,14 @@ Hidden information appears here.
 
 ## Includes
 
-```{include} About/contact.md
+```{include} /About/contact.md
 ```
 
 ---
 
 ## Image 
 
-```{image} _static/logo.png
+```{image} /_static/logo.png
 :width: 300px
 :align: center
 :alt: Figure
@@ -195,10 +193,9 @@ Term 2
 
 :::{list-table}
 :header-rows: 1
-* - Name
-* - Alice
-* - Bob
-* - Carol
+* - CCB
+* - WSE
+* - JHU
 
 :::
 
@@ -207,7 +204,7 @@ Term 2
 ## CSV Table
 
 ```{csv-table}
-:file: People/collab.head.tsv
+:file: /People/collab.head.tsv
 :header-rows: 1
 :widths: 25 25 25 25
 :delim: tab
@@ -219,15 +216,15 @@ Term 2
 ````{grid} 1 1 3 3
 
 :::{grid-item-card}
-Install using apt on Ubuntu/Debian systems.
+{{ccb}}
 :::
 
 :::{grid-item-card}
-Install using pip in PowerShell.
+{{wse}}
 :::
 
 :::{grid-item-card}
-Install using pip in CMD.
+{{jhu}}
 :::
 
 ````
@@ -240,14 +237,12 @@ Install using pip in CMD.
 
 :::{grid-item-card}
 :columns: 12 12 4 4
-
-This card takes 1 thrird.
+{{ccb}}
 :::
 
 :::{grid-item-card}
 :columns: 12 12 8 8
-
-This card takes two thirds.
+{{wse}}
 :::
 
 ````
@@ -258,16 +253,16 @@ This card takes two thirds.
 
 ````{tab-set}
 
-:::{tab-item} Linux
-Linux content here
+:::{tab-item} CCB
+{{CCB}}
 :::
 
-:::{tab-item} Mac
-Mac content here
+:::{tab-item} WSE
+{{WSE}}
 :::
 
-:::{tab-item} Windows
-Windows content here
+:::{tab-item} JHU
+{{JHU}}
 :::
 
 ````
@@ -276,16 +271,16 @@ Windows content here
 
 ````{card-carousel} 3
 
-:::{card} Linux
-Linux instructions
+:::{card} CCB
+{{CCB}}
 :::
 
-:::{card} Mac
-Mac instructions
+:::{card} WSE
+{{wse}}
 :::
 
-:::{card} Windows
-Windows instructions
+:::{card} JHU
+{{jhu}}
 :::
 
 ````
@@ -296,5 +291,5 @@ Windows instructions
 
 ```{mermaid}
 graph TD
-    A[Start] --> B[Build]
+    JHU[JHU] --> WSE[WSE] 
 ```

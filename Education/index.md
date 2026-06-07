@@ -1,8 +1,5 @@
 # Education
 
-```{include} information.md 
-```
-
 ----
 
 ```{toctree}

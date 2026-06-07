@@ -5,6 +5,7 @@
 
 ```{toctree}
 :maxdepth: 2
+:hidden:
 
 About/index
 People/index
@@ -12,4 +13,5 @@ Software/index
 Data/index
 Education/index
 Consulting Core <CBCC/index>
+Examples/index
 ```

@@ -180,8 +180,6 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**NA**  
-  
 <a href="https://stripe.com">Stripe</a>  
   
 [Lab homepage](http://alyssafrazee.com )  

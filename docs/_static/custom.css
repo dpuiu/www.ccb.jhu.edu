@@ -67,3 +67,11 @@ table.docutils th {
 */
 	
 /*--------------------------------------*/
+.mermaid svg {
+    max-width: 400px;
+    height: auto;
+}
+
+.bd-sidebar .reference.internal {
+    pointer-events: none;
+}

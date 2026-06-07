@@ -44,10 +44,8 @@ while(<>)
 	print 	"::::{grid-item-card}\n";
         print   ":columns: 12 12 9 9\n\n";
 	
-        print   "**$position**  \n";
-        print   "  \n";
-        print   "$affiliation  \n";
-        print   "  \n";
+        print   "**$position**  \n  \n" if($position ne "NA");
+        print   "$affiliation  \n  \n";
         print   "\[Lab homepage\]($laburl)  \n" if($laburl ne "NA");
         print   "&#9993; \[$email\](mailto:$email)  \n" if($email ne "NA");
         print   "::::\n\n";

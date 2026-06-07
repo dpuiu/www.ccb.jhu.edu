@@ -5,3 +5,4 @@ myst-parser
 sphinx-design
 pydata-sphinx-theme
 sphinx-sitemap
+sphinx_reredirects
