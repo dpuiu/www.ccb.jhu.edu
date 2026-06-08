@@ -6,11 +6,10 @@
 :maxdepth: 2
 :hidden:
 
-faculty
+Faculty/index
 postdocs
 staff
 students
 alumni
 collab
-
-```
+````

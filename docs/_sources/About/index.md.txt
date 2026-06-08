@@ -1,8 +1,5 @@
 # About
 
-<!--```{include} about.md -->
-<!--```-->
-
 ```{toctree}
 :maxdepth: 2
 :hidden:

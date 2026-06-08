@@ -161,3 +161,11 @@ echo >> People/collab.md
 tail -n 9 People/people.tsv | ./people2grid.pl   >> People/collab.md
 
 #25,4,3,7, 6,9
+
+######
+
+pip install -r requirements.txt  --break-system-package
+
+pandoc "https://ccb.jhu.edu/people/alekseyz/index.shtml?t=papers"   -f html   -t markdown   --wrap=none   --strip-comments   --to=plain >> publications.md 
+pandoc "https://ccb.jhu.edu/people/alekseyz/index.shtml?t=software"  -f html   -t markdown   --wrap=none   --strip-comments   --to=plain >> software.md 
+

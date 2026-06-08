@@ -1,4 +1,6 @@
 OLD/
+NEW/
 _build/
 **/OLD/
 make.log
+*.swp

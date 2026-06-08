@@ -1,4 +1,4 @@
-## Faculty 
+## Faculty List
 
 (stevenlsalzberg)=
 ### [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
@@ -740,7 +740,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 ---
 
 (alekseyzimin)=
-### [Aleksey Zimin, Ph.D.](https://ccb.jhu.edu/people/alekseyz)
+### [Aleksey Zimin, Ph.D.](/People/alekseyz/index)
 
 `````{grid} 12
 :gutter: 1
@@ -762,8 +762,8 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
   
 Department of Biomedical Engineering<br>Whiting School of Engineering  
   
-[Lab homepage](https://ccb.jhu.edu/people/alekseyz)  
-&#9993; [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)  
+[Lab homepage](/People/alekseyz/index)    
+&#9993; [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)    
 ::::
 
 `````

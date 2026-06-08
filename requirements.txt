@@ -1,8 +1,8 @@
 #sphinx-rtd-theme
 furo
 myst-parser
-#sphinx-copybutton
+sphinx-copybutton
 sphinx-design
 pydata-sphinx-theme
 sphinx-sitemap
-sphinx_reredirects
+sphinx-reredirects

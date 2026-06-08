@@ -2,7 +2,7 @@
 
 To register for courses, visit JHU's [SIS](https://sis.jhu.edu/sswf/default.aspx) site.
 
-**[EN.601.447/647 Computational Genomics:Sequences](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
+### [EN.601.447/647 Computational Genomics:Sequences](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
 Your genome is the blueprint for the molecules in your body. It's also
 a string of letters (A, C, G and T) about 3 billion letters long. How
@@ -21,7 +21,7 @@ EN.600.639, EN.601.447, EN.601.647.
 
 ---
 
-**[EN.601.350 Genomic Data Science](https://www.cs.jhu.edu/spring21/index.html)
+### [EN.601.350 Genomic Data Science](https://www.cs.jhu.edu/spring21/index.html)
 
 This course will use a project-based approach to introduce
 undergraduates to research in computational biology and genomics. During
@@ -40,7 +40,7 @@ language such as Perl or Python.
 
 ----
 
-**[EN.601.446/646 Sketching & Indexing for Sequences](https://www.cs.jhu.edu/spring21/index.html)
+###  [EN.601.446/646 Sketching & Indexing for Sequences](https://www.cs.jhu.edu/spring21/index.html)
 
 Many of the world's largest and fastest-growing datasets are text, e.g.
 DNA sequencing data, web pages, logs and social media posts. Such
@@ -58,7 +58,7 @@ The course will involve significant programming projects.
 
 ------------------------------------------------------------------------
 
-**[EN.580.743 Advanced Topics in Genome Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
+### [EN.580.743 Advanced Topics in Genome Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
 Genomic data is becoming available in large quantities, but
 understanding how genetics contributes to human disease and other traits
@@ -77,7 +77,7 @@ coursework in data science or machine learning.
 
 ---
 
-**[EN.601.448/649 Computational Genomics: Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
+### [EN.601.448/649 Computational Genomics: Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
 Genomic data has the potential to reveal causes of disease, novel drug
 targets, and relationships among genes and pathways in our cells.
@@ -96,7 +96,7 @@ EN.600.638, EN.601.448, EN.601.648.
 
 ---
 
-**[EN.601.749 Computational Genomics: Applied Comparative Genomics](https://www.cs.jhu.edu/spring21/index.html)
+### [EN.601.749 Computational Genomics: Applied Comparative Genomics](https://www.cs.jhu.edu/spring21/index.html)
 
 The goal of this course is to study the leading computational and
 quantitative approaches for comparing and analyzing genomes starting
@@ -112,11 +112,11 @@ programming.
 
 ---
 
-**ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease**
+### ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease**
 
 ---
 
-**[EN.580.244 Nonlinear Dynamics of Biological Systems](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
+### [EN.580.244 Nonlinear Dynamics of Biological Systems](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
 
 Analysis and simulation of nonlinear behavior in biological systems:
 bifurcations (cell-fate decision), limit cycles (cell-cycle, neuronal
@@ -129,7 +129,7 @@ Equations.
 
 ---
 
-**[EN.601.452 / AS.020.415 Computational Biomedical Research & Advanced Biomedical Research](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
+### [EN.601.452 / AS.020.415 Computational Biomedical Research & Advanced Biomedical Research](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
 This course for advanced undergraduates includes classroom instruction
 in interdisciplinary research approaches and lab work on an independent
@@ -148,7 +148,7 @@ Equations.
 
 ---
 
-**[EN.580.488/688 Foundations of Computational Biology and Bioinformatics](https://www.cs.jhu.edu/spring21/index.html)
+### [EN.580.488/688 Foundations of Computational Biology and Bioinformatics](https://www.cs.jhu.edu/spring21/index.html)
 
 This course is designed to give students a foundation in the basics of
 statistical and algorithmic approaches developed in computational
@@ -164,7 +164,7 @@ Genome" is required.
 
 ---
 
-**[EN 580.458/658 Computing the Transcriptome]
+### [EN 580.458/658 Computing the Transcriptome]
 
 This course will introduce computational tools used in the field of
 transcriptomics to analyze the genes and transcripts expressed in a
@@ -183,7 +183,7 @@ in R
 
 ---
 
-**[EN.580.248 Systems Biology of the Cell](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
+### [EN.580.248 Systems Biology of the Cell](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
 
 Cellular systems biology provides a theoretical and quantitative
 understanding of the interactions between DNA, RNA, and proteins that
@@ -202,7 +202,7 @@ instabilities leading to cell fate specification.
 
 ---
 
-**[EN.580.454 Methods in Nucleic Acid Sequencing](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
+### [EN.580.454 Methods in Nucleic Acid Sequencing](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
 
 Sequencing technology is a rapidly progressing field that requires
 experience in both wet (molecular biology) and dry (computational
@@ -217,7 +217,7 @@ sequencing, metagenomic sequencing and genome assembly.
 
 ---
 
-**[ME.800.806 BCMB Computational Biology Bootcamp](https://bcmb.bs.jhmi.edu/first-year-requirements/)
+### [ME.800.806 BCMB Computational Biology Bootcamp](https://bcmb.bs.jhmi.edu/first-year-requirements/)
 
 This intensive one week course is meant to immerse student in
 computation, and to provide them with the foundational tools to be able

@@ -26,7 +26,7 @@ Software/index
 
 ---
 
-# Examples
+# Ex
 
 ## Substritution
 

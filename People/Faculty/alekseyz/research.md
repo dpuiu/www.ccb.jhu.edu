@@ -1,6 +1,6 @@
-## Research
+# Research
 
-### My Research
+## My Research
 
 I have been working in the field of Bioinformatics since 2002,
 beginning with my collaborations with The Institute for Genomic Research
@@ -32,7 +32,7 @@ recent work includes a novel automated genome annotation package called
 surpasses all published annotation software when tested with the same
 input data.
 
-### Funding
+## Funding
 
 My research is currently supported by NIH grants R01-HG006677 (PI Steven
 Salzberg) and R35-GM130151 (PI Steven Salzberg).

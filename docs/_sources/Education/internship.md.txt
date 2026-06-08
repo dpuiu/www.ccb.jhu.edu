@@ -119,7 +119,7 @@ Scharpf](https://www.biostat.jhsph.edu/~rscharpf/rs.html) \]
 ## Other information
 
 You can read more about the genomics and bioinformatics research and
-activities at the JHU Center for Computational Biology on our website
+activities at the JHU {{ccb}} on our website
 [here](https://ccb.jhu.edu).\
 
 [Frequent

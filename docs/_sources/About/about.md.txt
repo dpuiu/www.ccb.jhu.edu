@@ -54,6 +54,7 @@ Since January 2020, {{CCB}} has been headquartered in the Wyman Park
 Building at the Homewood Campus.
 
 A visitor map of the Johns Hopkins Homewood Campus is available:
-[Homewood Campus map (PDF)](https://www.jhu.edu/assets/uploads/2014/10/homewood_campus_map.pdf)  
+<a href="/_static/Maps/homewood_campus_map.pdf" target="_blank">Homewood Campus map (PDF)</a>
+
 A visitor map of the Johns Hopkins Medical Campus is also available:
-[Medical Campus map (PDF)](https://ccb.jhu.edu/img/JHH_Visitors_Guide_map_only.pdf)  
+<a href="/_static/Maps/JHH_Visitors_Guide_map_only.pdf" target="_blank">Homewood Campus map (PDF)</a>

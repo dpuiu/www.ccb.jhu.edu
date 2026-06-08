@@ -1,18 +1,7 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 author = 'Daniela Puiu'
 copyright = 'The Center for Computational Biology at Johns Hopkins University'
 project = 'CCB'
 release = '2026'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
 extensions = [ 
@@ -30,11 +19,13 @@ extensions = [
 ]
 
 redirects = {
+    "index" : "About/about.html",
     "About/index": "about.html",
-    "People/index": "faculty.html",
+    "People/index": "Faculty/faculty.html",
+    "People/Faculty/index": "faculty.html",
     "Software/index": "software_alignment.html",
     "Data/index": "data.html",
-    "Education/index" : "information.html"
+    "Education/index" : "information.html",
 }
 
 master_doc = "index"
@@ -75,13 +66,11 @@ myst_substitutions = {
 
 templates_path = ['_templates']
 
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
 html_extra_path = ['_static/.nojekyll']
 html_js_files = ["custom.js"]
-html_logo = "_static/logo.png"
+html_logo = "_static/Logos/logo.png"
 html_search_language = "en"
 html_search = True
 html_static_path = ["_static"]
@@ -90,13 +79,13 @@ html_theme_options = {
 	'announcement': '''
 		<div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;">
 			 <div style="display:flex;gap:15px;">
-				<a href="https://ccb.jhu.edu/" alt="CCB"><img src="/_static/ccblogotext_wbg_50.png" alt="CCB"></a>
+				<a href="https://ccb.jhu.edu/" alt="CCB"><img src="_static/Logos/ccblogotext_wbg_50.png" alt="CCB"></a>
 			</div>
 
 			<div>
-                                <a href="http://www.hopkinsmedicine.org/som/" alt="JHMI"><img src="/_static/jhmilogo_wbg_50.png" alt="JHMI" class="hide-mobile"></a>
-                                <a href="https://ccb.jhu.edu/img/jhsphlogo_wbg.png" alt="JHSPH"><img src="/_static/jhsphlogo_wbg_50.png" alt="JHSPH" class="hide-mobile"></a>
-				<a href="https://engineering.jhu.edu/" alt="WSE"><img src="/_static/jhu-wse-logo-white_50.png"  alt="WSE"></a>
+                                <a href="http://www.hopkinsmedicine.org/som/" alt="JHMI"><img src="_static/Logos/jhmilogo_wbg_50.png" alt="JHMI" class="hide-mobile"></a>
+                                <a href="https://ccb.jhu.edu/img/jhsphlogo_wbg.png" alt="JHSPH"><img src="_static/Logos/jhsphlogo_wbg_50.png" alt="JHSPH" class="hide-mobile"></a>
+				<a href="https://engineering.jhu.edu/" alt="WSE"><img src="_static/Logos/jhu-wse-logo-white_50.png"  alt="WSE"></a>
 			</div>
 		</div>
 	'''

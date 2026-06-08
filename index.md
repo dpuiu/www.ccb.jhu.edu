@@ -1,8 +1,5 @@
 # Center for Computational Biology
 
-```{include} About/about.md
-```
-
 ```{toctree}
 :maxdepth: 2
 :hidden:
@@ -12,6 +9,5 @@ People/index
 Software/index
 Data/index
 Education/index
-Consulting Core <CBCC/index>
-Examples/index
+Core <CBCC/index>
 ```

@@ -1,9 +1,9 @@
 ## Information for prospective Ph.D. Students in Computational Biology or Bioinformatics
 
 *Note: every year, many students send applications directly to faculty members, but faculty members cannot accept
-students directly in any of our programs at Hopkins. You must apply to the Ph.D. programs through the Department websites given below*  
+students directly in any of our programs at {{h}. You must apply to the Ph.D. programs through the Department websites given below*  
 
-The Ph.D. programs in Computational Biology at Johns Hopkins University span four 
+The Ph.D. programs in Computational Biology at {{jhu}} span four 
 Departments and a wide range of research topics. Our programs provide interdisciplinary
 training in computational and quantitative approaches to scientific problems that
 include questions in genomics, medicine, genome engineering, sequencing technology, molecular
