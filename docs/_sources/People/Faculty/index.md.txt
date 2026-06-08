@@ -7,5 +7,5 @@
 :hidden:
 
 faculty
-alekseyz/index
+Aleksey V. Zimin <alekseyz/index>
 ````
