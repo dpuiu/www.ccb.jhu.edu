@@ -80,7 +80,7 @@ Jump to {ref}`links`.
 
 ### File Download
 
-[Download PDF](_static/logo.pdf)
+[Download PNG](/_static/logo.png)
 
 ---
 
@@ -192,7 +192,7 @@ Term 2
 ## List table
 
 :::{list-table}
-:header-rows: 1
+:header-rows: 0
 * - CCB
 * - WSE
 * - JHU

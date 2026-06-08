@@ -1,8 +1,7 @@
 #git pull
 
 make html
-rm -r docs
-cp -r _build/html docs
+rsync -av --delete _build/html/ docs/
 make clean
 
 
