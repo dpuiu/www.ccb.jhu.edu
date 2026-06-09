@@ -6,10 +6,13 @@
 #git check-ignore -v OLD
 #git check-ignore -v */OLD
 
-make html
+make html theme=furo
+make html theme=pydata
+
 #rm -r docs
 #cp -r _build/html docs
-rsync -a _build/html/ docs/
+rsync -a _build/furo/ docs/
+rsync -a _build/pydata/ docs/pydata
 make clean
 
 
