@@ -2,7 +2,7 @@
 
 This repository contains the source files for the **Center for Computational Biology (CCB)** website:
 
-https://www.ccb.jhu.edu
+https://ccb.jhu.edu/
 
 Contributions are welcome. If you would like to update content on the website, you can edit the Markdown (`.md`) files in this repository and submit your changes for review. Once approved, a CCB maintainer will merge your changes and publish them to the website.
 
@@ -47,7 +47,7 @@ www.ccb.jhu.edu/
 ├── Software/         # Software developed by CCB
 ├── Data/             # Databases developed by CCB	
 ├── Education/        # The Ph.D. program, courses
-├── Consulting Core/  # Consulting   
+├── CBCC/             # Consulting Core  
 ├── Examples/         # Markdown/MyST examples
 ├── _static/          # Images, logos, PDFs, and other static files
 ├── conf.py           # Sphinx configuration
