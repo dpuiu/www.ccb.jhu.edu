@@ -8,12 +8,6 @@ myst:
     "robots": "index, follow"
 ---
 
-<!--```{contents}
-:local:
-:depth: 2
-```
---- -->
-
 ```{toctree}
 :maxdepth: 2
 :hidden:
@@ -26,7 +20,7 @@ Software/index
 
 ---
 
-# Ex
+# Examples
 
 ## Substritution
 
@@ -267,29 +261,11 @@ Term 2
 
 ````
 
-## Carousel
-
-````{card-carousel} 3
-
-:::{card} CCB
-{{CCB}}
-:::
-
-:::{card} WSE
-{{wse}}
-:::
-
-:::{card} JHU
-{{jhu}}
-:::
-
-````
-
 ---
 	
 ## Mermaid Diagrams
 
 ```{mermaid}
 graph TD
-    JHU[JHU] --> WSE[WSE] 
+    JHU[JHU] --> WSE[WSE] --> CCB[CCB]
 ```
