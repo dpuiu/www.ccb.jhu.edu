@@ -1,0 +1,11 @@
+
+default	true → enable all markdownlint rules by default
+MD007	{ indent: 2 } → nested list indentation uses 2 spaces
+MD009	false → allow trailing spaces at end of lines
+MD013	{ line_length: 1000, tables: false } → disable line-length limits (except ignore tables rule tweaks)
+MD025	{ front_matter_title: false } → allow duplicate H1 when front matter exists
+MD033	false → allow raw HTML in Markdown
+MD034	false → allow bare URLs without < >
+MD041	false → first line does not need to be an H1 heading
+MD059   true descriptive-link-text Link text should be descriptive [Context: "[click here]"] 
+MD026	true no-trailing-punctuation Trailing punctuation in heading [Punctuation: ':']

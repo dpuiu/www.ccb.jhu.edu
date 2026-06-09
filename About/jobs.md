@@ -8,7 +8,7 @@ individual websites. See the {doc}`/People/faculty` page for those sites.
 The {{cs}} is recruiting tenure-track faculty
 members at all levels, with a special interest in the area of
 computational biology this year (2020-21). For more information on how
-to apply, see the {{CS}} Department's announcement at [Employment Opportunities](https://www.cs.jhu.edu/about/employment-opportunities). 
+to apply, see the {{CS}} Department's announcement at [Employment Opportunities](https://www.cs.jhu.edu/about/employment-opportunities/). 
 Click on "Tenure-Track faculty" at that site for details.
 
 ## Postdoctoral fellow openings
@@ -25,7 +25,7 @@ Most of the {{CCB}} faculty are looking for new Ph.D. students this year and
 every year. Much more information about our work can be found at
 individual lab pages.
 
-## How to Apply as a Ph.D. student:
+## How to Apply as a Ph.D. student
 
 Many students write to us directly asking if they can join the lab.
 While we appreciate your interest, this is not how Ph.D. applications

@@ -12,7 +12,7 @@ All changes are reviewed before being merged and published.
 
 ---
 
-# Workflow Overview
+## Workflow Overview
 
 1. Fork the repository  
 2. Clone your fork locally  
@@ -25,14 +25,14 @@ All changes are reviewed before being merged and published.
 
 ---
 
-# 1. Fork the Repository
+## 1. Fork the Repository
 
 Create your own fork of:  
   https://github.com/dpuiu/www.ccb.jhu.edu
 
 ---
 
-# 2. Clone Your Fork
+## 2. Clone Your Fork
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu.git
@@ -41,7 +41,7 @@ cd www.ccb.jhu.edu
 
 ---
 
-# 3. Create a Branch
+## 3. Create a Branch
 
 Always work on a separate branch (do not commit directly to main):
 
@@ -51,11 +51,11 @@ git checkout -b update-my-page
 
 ---
 
-# 4. Repository Structure
+## 4. Repository Structure
 
 The repository is organized by website section. Most content is written in Markdown (`.md`) using MyST.
 
-```
+```text
 www.ccb.jhu.edu/
 ├── index.md          # Website home page
 ├── conf.py           # Sphinx configuration
@@ -65,7 +65,7 @@ www.ccb.jhu.edu/
 ├── About/            # About CCB, Publications, Contact
 ├── People/           # Faculty, staff, postdocs, students, alumni
 ├── Software/         # Software developed by CCB
-├── Data/             # Databases developed by CCB	
+├── Data/             # Databases developed by CCB
 ├── Education/        # The Ph.D. program, courses
 ├── CBCC/             # Consulting Core  
  
@@ -74,14 +74,14 @@ www.ccb.jhu.edu/
 
 ---
 
-# 5. Edit Website Content
+## 5. Edit Website Content
 
 Pages are written in Markdown using MyST:  
 https://mystmd.org/
 
 Example files:
 
-```
+```text
 About/about.md
 People/Faculty/faculty.md
 People/students.md
@@ -92,10 +92,9 @@ Tested elements:
   [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)        # Furo theme  
   [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/pydata/Examples/) # PyData theme
 
-
 ---
 
-# 6. Commit Your Changes
+## 6. Commit Your Changes
 
 ```bash
 git add .
@@ -104,7 +103,7 @@ git commit -m "Update website content"
 
 ---
 
-# 7. Push Your Branch
+## 7. Push Your Branch
 
 ```bash
 git push origin update-my-page
@@ -112,7 +111,7 @@ git push origin update-my-page
 
 ---
 
-# 8. GitHub Actions (Automatic Deployment)
+## 8. GitHub Actions (Automatic Deployment)
 
 This project uses GitHub Actions to build the website automatically.
 
@@ -124,17 +123,16 @@ https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions
 
 ---
 
-# 9. Website Deployment
+## 9. Website Deployment
 
 After merging into main, the site is published automatically:
 
 https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/  
 https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/pydata/
 
-
 ---
 
-# 10. Open a Pull Request
+## 10. Open a Pull Request
 
 If happy with the edits, open a PR here:  
 https://github.com/dpuiu/www.ccb.jhu.edu/pulls
@@ -143,18 +141,19 @@ Include a short description of your changes.
 
 ---
 
-# 11. Review Process
+## 11. Review Process
 
 All changes are reviewed by maintainers.
 
 They may:
+
 - Approve and merge
 - Request changes
 - Suggest improvements
 
 ---
 
-# 12. Cleanup (Recommended)
+## 12. Cleanup (Recommended)
 
 After merge:
 
@@ -162,4 +161,3 @@ After merge:
 git branch -d update-my-page
 git push origin --delete update-my-page
 ```
-

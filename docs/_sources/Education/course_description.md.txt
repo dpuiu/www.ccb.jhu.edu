@@ -38,9 +38,9 @@ controversial results. [Applications] Recommended Course Background:
 Knowledge of the Unix operating system and programming expertise in a
 language such as Perl or Python.
 
-----
+---
 
-###  [EN.601.446/646 Sketching & Indexing for Sequences](https://www.cs.jhu.edu/spring21/index.html)
+### [EN.601.446/646 Sketching & Indexing for Sequences](https://www.cs.jhu.edu/spring21/index.html)
 
 Many of the world's largest and fastest-growing datasets are text, e.g.
 DNA sequencing data, web pages, logs and social media posts. Such
@@ -56,7 +56,7 @@ The course will involve significant programming projects.
 
 **Prerequisite(s):** EN.601.220 AND EN.601.226
 
-------------------------------------------------------------------------
+---
 
 ### [EN.580.743 Advanced Topics in Genome Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
@@ -223,4 +223,3 @@ This intensive one week course is meant to immerse student in
 computation, and to provide them with the foundational tools to be able
 to apply modern computational techniques and appropriate statistics to
 their data.
-

@@ -29,8 +29,7 @@ include analysis of high-throughput DNA sequence data, analysis of RNA
 sequencing experiments, studies of the human microbiome, assembly of
 whole-genome shotgun data from various species, and the development of
 new computational and statistical methods for genome analysis problems.
-You can browse a list of past internship projects
-[here](./past_projects.shtml).
+You can browse the [list of past internship projects](./past_projects.shtml).
 
 The program involves full-time research for 10 weeks between May and
 late July. In 2017 the program ran from **May 22rd** to **July 28nd**;
@@ -77,50 +76,60 @@ faculty members who serve as mentors in the program.
 
 ## Faculty mentors
 
-2016:
-Steven Salzberg, Ben Langmead, Jeff Leek, Liliana Florea, Mihaela
-Pertea, Alexis Battle, Daehwan Kim, Daniela Puiu, Dan Arking, Geo
-Pertea, Joel Bader  
+2016:  
+{ref}`stevenlsalzberg`,
+{ref}`benlangmead`,
+Jeff Leek,
+{ref}`lilianaflorea`,
+{ref}`mihaelapertea`,
+{ref}`alexisbattle`,
+{ref}`daehwankim`,
+{ref}`danielapuiu`,
+{ref}`danarking`,
+Geo Pertea,
+{ref}`joelbader`
 
-2015:
-James Taylor, Steven Salzberg, Ben Langmead, Jeff Leek, Daehwan Kim,
-Daniela Puiu, Dan Arking, Florian Breitwieser, Liliana Florea
+2015:  
+{ref}`jamestaylor`,
+{ref}`stevenlsalzberg`,
+{ref}`benlangmead`,
+Jeff Leek,
+{ref}`daehwankim`,
+{ref}`danielapuiu`,
+{ref}`danarking`,
+{ref}`florianbreitwieser`,
+{ref}`lilianaflorea`
 
-2014:
-[Steven Salzberg](https://salzberg-lab.org),
-[Liliana Florea](https://ccb.jhu.edu/people/florea), 
-[Dan Arking](https://www.hopkinsmedicine.org/geneticmedicine/People/Faculty/Arking.html),
-[Joel Bader](https://baderlab.wordpress.com),
-[Hongkai Ji](https://www.biostat.jhsph.edu/~hji/index.htm),
-[Ben Langmead](https://www.cs.jhu.edu/~langmea/),
-[Andy McCallion],
-[Daniela Puiu](https://ccb.jhu.edu/people.php), 
-[James Taylor](https://taylorlab.org) 
+2014:  
+{ref}`stevenlsalzberg`,
+{ref}`lilianaflorea`,
+{ref}`danarking`,
+{ref}`joelbader`,
+{ref}`hongkaiji`,
+{ref}`benlangmead`,
+{ref}`danielapuiu`,
+{ref}`jamestaylor`
 
-2013:\
-\[[Steven
-Salzberg](https://ccb.jhu.edu/people/salzberg/Salzberg/Salzberg_Lab_Home.html)
-\| [Liliana Florea](https://ccb.jhu.edu/people/florea) \| [Dan
-Arking](https://www.hopkinsmedicine.org/geneticmedicine/People/Faculty/Arking.html)
-\| [Ben Langmead](https://www.cs.jhu.edu/~langmea/) \| [Ben
-Langmead](https://www.cs.jhu.edu/~langmea/) \| [Daniela
-Puiu](https://ccb.jhu.edu/people.php) \]\
+2013:  
+{ref}`stevenlsalzberg`,
+{ref}`lilianaflorea`,
+{ref}`danarking`,
+{ref}`benlangmead`,
+{ref}`danielapuiu`,
 
-2012:\
-\[[Steven
-Salzberg](https://ccb.jhu.edu/people/salzberg/Salzberg/Salzberg_Lab_Home.html)
-\| [Liliana Florea](https://ccb.jhu.edu/people/florea) \| [Dan
-Arking](https://www.hopkinsmedicine.org/geneticmedicine/People/Faculty/Arking.html)
-\| [Hongkai Ji](https://www.biostat.jhsph.edu/~hji/index.htm) \| [Tanja
-Magoc](https://genomics.jhu.edu/people.html) \| [Daniela
-Puiu](https://ccb.jhu.edu/people.php) \| [Rob
-Scharpf](https://www.biostat.jhsph.edu/~rscharpf/rs.html) \]
+2012:  
+{ref}`stevenlsalzberg`,
+{ref}`lilianaflorea`,
+{ref}`danarking`,
+{ref}`hongkaiji`,
+{ref}`tanjamagoc`,
+{ref}`danielapuiu`,
+{ref}`robertscharpf`
 
 ## Other information
 
 You can read more about the genomics and bioinformatics research and
-activities at the JHU {{ccb}} on our website
-[here](https://ccb.jhu.edu).\
+activities at the JHU {{ccb}} on [our website](https://ccb.jhu.edu).
 
 [Frequent
 shuttle](https://www.parking.jhu.edu/shuttles_jhmi_homewood.html) service
@@ -128,7 +137,7 @@ is available between Homewood (and Peabody) and JHMI.
 
 Questions? See the Summer Research Expeditions site for more
 information. If you have questions about the CCB internships in
-particular, you can contact Ann Vukelich at avukeli1@jhmi.edu.\
+particular, you can contact Ann Vukelich at avukeli1@jhmi.edu.
 
 ## Other related opportunities
 

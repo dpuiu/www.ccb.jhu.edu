@@ -5,6 +5,7 @@
 I have been working in the field of Bioinformatics since 2002,
 beginning with my collaborations with The Institute for Genomic Research
 (TIGR) and Celera Genomics. The main goals of my research are:
+
 - Developing algorithms and software for *de novo* genome
 assembly and annotation for the latest generation sequencing data, and\
 - Applying the software to produce high quality annotated assemblies

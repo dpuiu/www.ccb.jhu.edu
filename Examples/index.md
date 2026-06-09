@@ -31,9 +31,9 @@ Software/index
 
 ## Basic Markdown
 
-**Bold**
+bold **Bold**
 
-*Italic*
+italic *Italic*
 
 `inline code`
 
@@ -58,6 +58,7 @@ JHU
 ---
 
 (links)=
+
 ## Links
 
 ### External Page
@@ -81,7 +82,7 @@ Jump to {ref}`links`.
 ## Footnotes
 
 MyST supports footnotes.[^1]
-	
+ 
 [^1]: This is a footnote.
 
 ---
@@ -175,11 +176,11 @@ Term 2
 
 ## Tables
 
-| Name | Role |
-|------|------|
+| Name  | Role    |
+|-------|---------|
 | Alice | Faculty |
-| Bob | Student |
-| Carol | Staff |
+| Bob   | Student |
+| Carol | Staff   |
 
 ---
 
@@ -187,9 +188,10 @@ Term 2
 
 :::{list-table}
 :header-rows: 0
-* - CCB
-* - WSE
-* - JHU
+
+- - CCB
+- - WSE
+- - JHU
 
 :::
 
@@ -203,7 +205,6 @@ Term 2
 :widths: 25 25 25 25
 :delim: tab
 ```
-
 
 ## Grid_Equal
 
@@ -240,10 +241,10 @@ Term 2
 :::
 
 ````
+
 ---
 
 ## Tabset
-
 
 ````{tab-set}
 
@@ -262,7 +263,7 @@ Term 2
 ````
 
 ---
-	
+ 
 ## Mermaid Diagrams
 
 ```{mermaid}

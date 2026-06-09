@@ -3,8 +3,8 @@
 ### [**CHESS**](https://ccb.jhu.edu/chess/)
 
 A new catalog of human genes based on nearly 10,000 RNA sequencing
-experiments. For a full description of chess, see the paper in *Genome
-Biology*, [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1590-2).
+experiments. For a full description of chess, see the paper in 
+[Genome Biology*](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1590-2).
 
 ### [**T2T-CHM13 Annotation**](https://ccb.jhu.edu/T2T.shtml)
 

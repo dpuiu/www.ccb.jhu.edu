@@ -1,7 +1,8 @@
 ## Postdocs 
 
 (alesvarabyou)=
-### Ales Varabyou, Ph.D.
+
+### Ales Varabyou, Ph.D
 
 `````{grid} 12
 :gutter: 1
@@ -31,7 +32,8 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 ---
 
 (courtneyhall)=
-### Courtney Hall, Ph.D.
+
+### Courtney Hall, Ph.D
 
 `````{grid} 12
 :gutter: 1
@@ -61,7 +63,8 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 ---
 
 (harunmustafa)=
-### Harun Mustafa, Ph.D.
+
+### Harun Mustafa, Ph.D
 
 `````{grid} 12
 :gutter: 1
@@ -91,7 +94,8 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 ---
 
 (srujansingh)=
-### Srujan Singh, Ph.D.
+
+### Srujan Singh, Ph.D
 
 `````{grid} 12
 :gutter: 1
@@ -117,4 +121,3 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 ::::
 
 `````
-

@@ -1,4 +1,4 @@
-## About us	
+## About us 
 
 The Computational Biology Consulting Core (CBCC) was created to offer state-of-the-art computational biology services 
 to biomedical researchers at the Johns Hopkins University. The Core is under the direction 
@@ -6,11 +6,11 @@ of [Liliana Florea](https://ccb.jhu.edu/people/florea). It builds on the
 expertise of faculty in the [Center for Computational Biology](https://ccb.jhu.edu),
 using best practices and the latest validated technologies to design solutions targeted to researchers' needs.
 
-
 ## Analytical Services
 
 We offer comprehensive analyses of sequencing data for a variety of genomics and other sequencing-based experiments, some of which are listed below. We can handle most types of sequencing data, including Illumina, PacBio, 454, and Sanger reads, and we have experience with a variety of sequencing protocols (RNA-seq, Chip-seq, whole-genome sequencing, whole-exome sequencing, etc). We use the very latest software, and we can work with you to design custom algorithms and analyses as needed.</p>
 Examples of analyses:
+
 - transcriptome assembly (RNA-seq)
 - differential expression and differential splicing
 - SNP and structural variant detection

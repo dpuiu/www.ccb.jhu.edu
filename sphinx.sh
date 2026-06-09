@@ -168,4 +168,21 @@ pip install -r requirements.txt  --break-system-package
 
 pandoc "https://ccb.jhu.edu/people/alekseyz/index.shtml?t=papers"   -f html   -t markdown   --wrap=none   --strip-comments   --to=plain >> publications.md 
 pandoc "https://ccb.jhu.edu/people/alekseyz/index.shtml?t=software"  -f html   -t markdown   --wrap=none   --strip-comments   --to=plain >> software.md 
+######
 
+markdownlint People/*md 2>&1 | grep -f .markdownlint.ids
+
+markdownlint --fix . 
+markdown lint .
+
+markdownlint . 2>&1  | sed 's| |\t|g' | cut -f3 | sort | uniq -c | sort -nr
+
+###
+
+#URL check
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+cargo install lychee
+
+lychee .
+lychee About/ --skip-missing=true --insecure=true --exclude mailto: -vv

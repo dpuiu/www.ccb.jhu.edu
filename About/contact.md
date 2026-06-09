@@ -10,5 +10,5 @@ Baltimore, MD 21211
 Telephone: (410) 516-7685  
 Email: [sande125@jhu.edu](mailto:sande125@jhu.edu)  
 
-For a visitor map of the Johns Hopkins Homewood Campus, please [click here](https://www.jhu.edu/assets/uploads/2014/10/homewood_campus_map.pdf).  
+For a visitor map of the Johns Hopkins Homewood Campus, please see the [Homewood Campus visitor map (PDF)](https://www.jhu.edu/assets/uploads/2014/10/homewood_campus_map.pdf).
 CCB is located on the second floor of the Wyman Park Building.

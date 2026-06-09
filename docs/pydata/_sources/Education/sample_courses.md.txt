@@ -1,6 +1,6 @@
 ## Sample Courses
 
-**Sample Course Offerings for Ph.D. students in Computational Biology**
+Below is a list of **Sample Course Offerings for Ph.D. students in Computational Biology**
 
 See <a href="https://ccb.jhu.edu/courses.shtml">this page</a> for a list of current courses in computational biology offered by our faculty across multiple departments. Many of these courses count towards the Ph.D. programs in BME, CS, Biology, and others
 
@@ -40,7 +40,7 @@ Computational Biology and Medicine, Information Security,
 Machine Learning, Data Intensive Computing, Computer-Integrated Surgery, 
 and Natural Language Processing.  
 
-#### Ph.D. program
+Ph.D. program  
 
 A total of 8 courses are required, and a typical load is 3 courses per semester. See 
 <a href="https://www.cs.jhu.edu/graduate-studies/">the CS Department website</a>
@@ -58,7 +58,7 @@ it was
 <a href="https://www.usnews.com/best-graduate-schools/top-science-schools/biostatistics-rankings?_sort=rank-asc">ranked #1
 in the nation by U.S. News</a>.
 
-#### Ph.D. program
+Ph.D. program  
 
 At least 18 credits required outside the Dept of Biostatistics, 
 at least 9 of these in the School of Public Health. See 
@@ -66,11 +66,13 @@ at least 9 of these in the School of Public Health. See
  for details.  
 
 All students in the Biostatistics Ph.D. program have to complete the core requirements:
+
 - A two-year sequence on biostatistical methodology (140.751-756)
 - A two-year sequence on probability and the foundations and theory of statistical science (550.620-621, 140.673-674, 140.771-772)
 - Principles of Epidemiology (340.601)
 
 In addition, students in computational biology might take:
+
 - [140.776.01 Statistical Computing](https://www.jhsph.edu/courses/course/18994/2014/140.776.01/statistical-computing) (3 credits)
 - [140.638.01 Analysis of Biological Sequences](https://www.jhsph.edu/courses/course/19246/2014/140.638.01/analysis-of-biological-sequences) (3 credits)
 - [140.644.01 Statistica machine learning: methods, theory, and applications](https://www.jhsph.edu/courses/course/20026/2014/140.644.01/statistical-machine-learning-methods-theory-and-ap) (4 credits)
@@ -96,7 +98,7 @@ of our core courses - Graduate Biophysical Chemistry and
 Genomes and Development -
 each have an associated computational lab component. 
 
-#### Ph.D. in Cell, Molecular, Developmental Biology, and Biophysics (CMDB):
+Ph.D. in Cell, Molecular, Developmental Biology, and Biophysics (CMDB)
 
 The CMDB core includes the following courses:
 
@@ -107,6 +109,7 @@ The CMDB core includes the following courses:
 - 020.668 Advanced Molecular Biology
 
 Electives include courses such as:
+
 - 020.606 Molecular Evolution
 - 020.620 Stem Cells
 - 020.630 Human Genetics

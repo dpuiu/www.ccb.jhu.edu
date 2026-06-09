@@ -22,4 +22,3 @@ I am not the original author of KrakenUniq. I helped with developing version 0.7
 ## My github repositories
 
 All software titles that I develop and maintain are publicly available under an open-source license. They are available from my [github account](https://github.com/alekseyzimin).
-

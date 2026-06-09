@@ -1,9 +1,10 @@
 ## Alumni
 
-**Former Faculty**
+### Former Faculty
 
 (rafaelirizarry)=
-### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
+
+#### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
 `````{grid} 12
 :gutter: 1
@@ -33,10 +34,11 @@ JHU Biostatistics (until June 2013)<br>Dana Farber Cancer Institute<br>Harvard U
 
 ---
 
-**Former Postdocs**
-	
+### Former Postdocs
+ 
 (martinsteinegger)=
-### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
+
+#### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
 
 `````{grid} 12
 :gutter: 1
@@ -66,10 +68,11 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>Biology department<br>Seoul National Uni
 
 ---
 
-**Former Students**
+### Former Students
 
 (stephanpabinger)=
-### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
+
+#### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 `````{grid} 12
 :gutter: 1
@@ -100,7 +103,8 @@ McKusick-Nathans Institute of Genetic Medicine<br><a href=https://www.aldicareer
 ---
 
 (toddjtreangen)=
-### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
+
+#### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
 
 `````{grid} 12
 :gutter: 1
@@ -131,7 +135,8 @@ CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br><a href="h
 ---
 
 (hilaryparker)=
-### [Hilary Parker](https://biostat.jhsph.edu/~hiparker/)
+
+#### [Hilary Parker](https://biostat.jhsph.edu/~hiparker/)
 
 `````{grid} 12
 :gutter: 1
@@ -162,7 +167,8 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 ---
 
 (alyssafrazee)=
-### [Alyssa Frazee, Ph. D](https://alyssafrazee.com )
+
+#### [Alyssa Frazee, Ph. D](https://alyssafrazee.com )
 
 `````{grid} 12
 :gutter: 1
@@ -188,3 +194,29 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 
 `````
 
+(daehwankim)=
+
+#### [Daehwan Kim](https://kim-lab.org/)
+
+`````{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Daehwan_Kim.jpeg
+:width: 240px
+:alt: Daehwan Kim, Ph. D
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+University of Toronto<
+  
+[Lab homepage](kim-lab.org)  
+::::
+
+`````
