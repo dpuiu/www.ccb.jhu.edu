@@ -4,108 +4,159 @@ This repository contains the source files for the **Center for Computational Bio
 
 https://ccb.jhu.edu/
 
-Contributions are welcome. If you would like to update content on the website, you can edit the Markdown (`.md`) files in this repository and submit your changes for review. Once approved, a CCB maintainer will merge your changes and publish them to the website.
+We welcome contributions from collaborators and lab members. You can improve the website by editing Markdown (`.md`) files and submitting a Pull Request. All changes are reviewed before being merged and published.
 
-## Workflow Overview
+---
 
-1. Fork the repository.
-2. Clone your fork.
-3. Edit the appropriate Markdown files.
-4. Commit and push your changes.
-5. Submit a Pull Request.
-6. A CCB maintainer will review and merge approved changes.
+# Workflow Overview
 
-## 1. Fork the Repository
+1. Fork the repository  
+2. Clone your fork locally  
+3. Create a new branch  
+4. Make your changes  
+5. Commit and push your branch  
+6. Open a Pull Request  
+7. A CCB maintainer reviews and merges your changes  
+8. The website is automatically rebuilt and deployed  
+
+---
+
+# 1. Fork the Repository
 
 Create your own fork of:
 
-```text
 https://github.com/dpuiu/www.ccb.jhu.edu
-```
 
-## 2. Clone Your Fork
+---
+
+# 2. Clone Your Fork
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu.git
 cd www.ccb.jhu.edu
 ```
 
-## 3. Create a Branch
+---
+
+# 3. Create a Branch
+
+Always work on a separate branch (do not commit directly to main):
 
 ```bash
 git checkout -b update-my-page
 ```
 
-## 4. Repository Structure
+---
 
-The repository is organized by website section. Most content is stored in Markdown (`.md`) files.
+# 4. Repository Structure
 
-```text
+The repository is organized by website section. Most content is written in Markdown (`.md`) using MyST.
+
+```
 www.ccb.jhu.edu/
-├── About/            # About CCB, Publications, Contact
-├── People/           # Faculty, staff, postdocs, students, alumni
-├── Software/         # Software developed by CCB
-├── Data/             # Databases developed by CCB	
-├── Education/        # The Ph.D. program, courses
-├── CBCC/             # Consulting Core  
-├── Examples/         # Markdown/MyST examples
-├── _static/          # Images, logos, PDFs, and other static files
-├── conf.py           # Sphinx configuration
-├── index.md          # Website home page
-└── README.md         # This file
+├── About/
+├── People/
+├── Software/
+├── Data/
+├── Education/
+├── CBCC/
+├── Examples/
+├── _static/
+├── conf.py
+├── index.md
+└── README.md
 ```
 
-## 5. Edit Website Content
+---
 
-The website pages are written using the [Markdown](https://www.markdownguide.org) [MyST](https://mystmd.org/) extension(`.md`) .
+# 5. Edit Website Content
 
-Examples:
+Pages are written in Markdown using MyST:
 
-```text
+https://mystmd.org/
+
+Example files:
+
+```
 About/about.md
 People/faculty.md
 People/students.md
-Software/index.md
 ```
 
-Make the desired updates using your favorite text editor.
+---
 
-Tested elements:
-[index.md](/_sources/Examples/index.md.txt) =>
-[index.html](/Examples/index.html])
+# 6. Commit Your Changes
 
-## 6. Commit Your Changes
-
-```bash]
+```bash
 git add .
 git commit -m "Update website content"
 ```
 
-## 7. Push Your Branch
+---
+
+# 7. Push Your Branch
 
 ```bash
 git push origin update-my-page
 ```
 
-## 8. Submit a Pull Request
+---
 
-Open a Pull Request from your branch to the main repository:
+# 8. GitHub Actions (Automatic Deployment)
 
-```text
+This project uses GitHub Actions to build the website automatically.
+
+- Pull Requests trigger test builds
+- Merges into main trigger deployment
+
+Monitor builds:
+https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions
+
+---
+
+# 9. Website Deployment
+
+After merging into main, the site is published automatically:
+
+https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
+
+---
+
+# 10. Open a Pull Request
+
+Open a PR here:
+
 https://github.com/dpuiu/www.ccb.jhu.edu
+
+Include a short description of your changes.
+
+---
+
+# 11. Review Process
+
+All changes are reviewed by maintainers.
+
+They may:
+- Approve and merge
+- Request changes
+- Suggest improvements
+
+---
+
+# 12. Cleanup (Recommended)
+
+After merge:
+
+```bash
+git branch -d update-my-page
+git push origin --delete update-my-page
 ```
 
-Please include a brief description of your changes.
+---
 
-## 9. Review and Merge
+# Summary
 
-All changes are reviewed before publication.
-
-A CCB maintainer may:
-
-* Approve and merge your changes.
-* Request revisions.
-* Discuss suggested improvements.
-
-Once merged, your updates will become part of the CCB website and will be published during the next website deployment.
-
+- Edit Markdown files
+- Use feature branches
+- Submit Pull Requests
+- GitHub Actions builds and deploys automatically
