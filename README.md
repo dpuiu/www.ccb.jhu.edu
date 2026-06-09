@@ -1,8 +1,9 @@
 # Contributing to the CCB Website
 
-This repository contains the source files for the Center for Computational Biology (CCB) website draft (Shpinx Furo Theme):
+This repository contains the source files for the Center for Computational Biology (CCB) website draft (Sphinx Furo[default] or PyData Themes):
   https://dpuiu.github.io/www.ccb.jhu.edu/
-
+  https://dpuiu.github.io/www.ccb.jhu.edu/pydata/
+ 
 Official website:
   https://ccb.jhu.edu/
 
@@ -89,7 +90,10 @@ People/students.md
 ```
 
 Tested elements:  
-[MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)
+[MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => 
+  [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)        # Furo theme  
+  [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/pydata/Examples/) # PyData theme
+
 
 ---
 
@@ -126,7 +130,9 @@ https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions
 
 After merging into main, the site is published automatically:
 
-https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
+https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/  
+https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/pydata/
+
 
 ---
 
