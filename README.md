@@ -1,10 +1,13 @@
 # Contributing to the CCB Website
 
-This repository contains the source files for the **Center for Computational Biology (CCB)** website:
+This repository contains the source files for the Center for Computational Biology (CCB) website draft:
+  https://dpuiu.github.io/www.ccb.jhu.edu/
 
-https://ccb.jhu.edu/
+Official website:
+  https://ccb.jhu.edu/
 
-We welcome contributions from collaborators and lab members. You can improve the website by editing Markdown (`.md`) files and submitting a Pull Request. All changes are reviewed before being merged and published.
+We welcome contributions from collaborators and lab members. You can improve the website by editing Markdown (`.md`) files and submitting a Pull Request.   
+All changes are reviewed before being merged and published.
 
 ---
 
