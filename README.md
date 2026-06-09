@@ -69,7 +69,7 @@ www.ccb.jhu.edu/
 ├── Education/        # The Ph.D. program, courses
 ├── CBCC/             # Consulting Core  
  
-├── Examples/         # Markdown/MyST examples : [MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)
+├── Examples/         # Markdown/MyST tested examples (tables,grids,images,layouts...)
 ```
 
 ---
@@ -87,6 +87,9 @@ About/about.md
 People/Faculty/faculty.md
 People/students.md
 ```
+
+Tested elements:  
+[MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)
 
 ---
 
