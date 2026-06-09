@@ -6,3 +6,4 @@ sphinx-design
 pydata-sphinx-theme
 sphinx-sitemap
 sphinx-reredirects
+sphinxcontrib-mermaid
