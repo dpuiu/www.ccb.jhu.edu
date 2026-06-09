@@ -30,12 +30,17 @@ jobs:
 
       - name: Build Sphinx site
         run: |
-          make html
+          make html theme=furo
+          make html theme=pydata
+
+          mkdir -p docs/pydata
+          cp -a _build/furo/. docs/
+          cp -a _build/pydata/. docs/pydata/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/html
+          path: docs
 
   deploy:
     needs: build
@@ -44,6 +49,9 @@ jobs:
     permissions:
       pages: write
       id-token: write
+
+    environment:
+      name: github-pages
 
     steps:
       - name: Deploy to GitHub Pages
