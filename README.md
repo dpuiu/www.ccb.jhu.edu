@@ -79,7 +79,7 @@ Example files:
 
 ```
 About/about.md
-People/faculty.md
+People/Faculty/faculty.md
 People/students.md
 ```
 
@@ -124,7 +124,7 @@ https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
 
 # 10. Open a Pull Request
 
-Open a PR here:
+If happy with the edits, open a PR here:
 
 https://github.com/dpuiu/www.ccb.jhu.edu
 
@@ -152,11 +152,3 @@ git branch -d update-my-page
 git push origin --delete update-my-page
 ```
 
----
-
-# Summary
-
-- Edit Markdown files
-- Use feature branches
-- Submit Pull Requests
-- GitHub Actions builds and deploys automatically
