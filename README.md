@@ -1,6 +1,6 @@
 # Contributing to the CCB Website
 
-This repository contains the source files for the Center for Computational Biology (CCB) website draft:
+This repository contains the source files for the Center for Computational Biology (CCB) website draft (Shpinx Furo Theme):
   https://dpuiu.github.io/www.ccb.jhu.edu/
 
 Official website:
@@ -57,17 +57,19 @@ The repository is organized by website section. Most content is written in Markd
 
 ```
 www.ccb.jhu.edu/
-├── About/
-├── People/
-├── Software/
-├── Data/
-├── Education/
-├── CBCC/
-├── Examples/
-├── _static/
-├── conf.py
-├── index.md
-└── README.md
+├── index.md          # Website home page
+├── conf.py           # Sphinx configuration
+├── _static/          # Images, logos, PDFs, and other static files
+└── README.md         # This file
+ 
+├── About/            # About CCB, Publications, Contact
+├── People/           # Faculty, staff, postdocs, students, alumni
+├── Software/         # Software developed by CCB
+├── Data/             # Databases developed by CCB	
+├── Education/        # The Ph.D. program, courses
+├── CBCC/             # Consulting Core  
+ 
+├── Examples/         # Markdown/MyST examples : [MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)
 ```
 
 ---

@@ -194,7 +194,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
       </label>
     </div>
@@ -301,112 +301,147 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
           </label>
         </div>
         <article role="main" id="furo-main-content">
           <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-the-ccb-website">
 <h1>Contributing to the CCB Website<a class="headerlink" href="#contributing-to-the-ccb-website" title="Link to this heading">¶</a></h1>
-<p>This repository contains the source files for the <strong>Center for Computational Biology (CCB)</strong> website:</p>
-<p>https://ccb.jhu.edu/</p>
-<p>Contributions are welcome. If you would like to update content on the website, you can edit the Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) files in this repository and submit your changes for review. Once approved, a CCB maintainer will merge your changes and publish them to the website.</p>
-<section id="workflow-overview">
-<h2>Workflow Overview<a class="headerlink" href="#workflow-overview" title="Link to this heading">¶</a></h2>
+<p>This repository contains the source files for the Center for Computational Biology (CCB) website draft (Shpinx Furo Theme):
+https://dpuiu.github.io/www.ccb.jhu.edu/</p>
+<p>Official website:
+https://ccb.jhu.edu/</p>
+<p>We welcome contributions from collaborators and lab members. You can improve the website by editing Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) files and submitting a Pull Request.<br />
+All changes are reviewed before being merged and published.</p>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="workflow-overview">
+<h1>Workflow Overview<a class="headerlink" href="#workflow-overview" title="Link to this heading">¶</a></h1>
 <ol class="arabic simple">
-<li><p>Fork the repository.</p></li>
-<li><p>Clone your fork.</p></li>
-<li><p>Edit the appropriate Markdown files.</p></li>
-<li><p>Commit and push your changes.</p></li>
-<li><p>Submit a Pull Request.</p></li>
-<li><p>A CCB maintainer will review and merge approved changes.</p></li>
+<li><p>Fork the repository</p></li>
+<li><p>Clone your fork locally</p></li>
+<li><p>Create a new branch</p></li>
+<li><p>Make your changes</p></li>
+<li><p>Commit and push your branch</p></li>
+<li><p>Open a Pull Request</p></li>
+<li><p>A CCB maintainer reviews and merges your changes</p></li>
+<li><p>The website is automatically rebuilt and deployed</p></li>
 </ol>
 </section>
-<section id="fork-the-repository">
-<h2>1. Fork the Repository<a class="headerlink" href="#fork-the-repository" title="Link to this heading">¶</a></h2>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="fork-the-repository">
+<h1>1. Fork the Repository<a class="headerlink" href="#fork-the-repository" title="Link to this heading">¶</a></h1>
 <p>Create your own fork of:</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>https://github.com/dpuiu/www.ccb.jhu.edu
-</pre></div>
-</div>
+<p>https://github.com/dpuiu/www.ccb.jhu.edu</p>
 </section>
-<section id="clone-your-fork">
-<h2>2. Clone Your Fork<a class="headerlink" href="#clone-your-fork" title="Link to this heading">¶</a></h2>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="clone-your-fork">
+<h1>2. Clone Your Fork<a class="headerlink" href="#clone-your-fork" title="Link to this heading">¶</a></h1>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu.git
 <span class="nb">cd</span><span class="w"> </span>www.ccb.jhu.edu
 </pre></div>
 </div>
 </section>
-<section id="create-a-branch">
-<h2>3. Create a Branch<a class="headerlink" href="#create-a-branch" title="Link to this heading">¶</a></h2>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="create-a-branch">
+<h1>3. Create a Branch<a class="headerlink" href="#create-a-branch" title="Link to this heading">¶</a></h1>
+<p>Always work on a separate branch (do not commit directly to main):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>update-my-page
 </pre></div>
 </div>
 </section>
-<section id="repository-structure">
-<h2>4. Repository Structure<a class="headerlink" href="#repository-structure" title="Link to this heading">¶</a></h2>
-<p>The repository is organized by website section. Most content is stored in Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) files.</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>www.ccb.jhu.edu/
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="repository-structure">
+<h1>4. Repository Structure<a class="headerlink" href="#repository-structure" title="Link to this heading">¶</a></h1>
+<p>The repository is organized by website section. Most content is written in Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) using MyST.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>www.ccb.jhu.edu/
+├── index.md          # Website home page
+├── conf.py           # Sphinx configuration
+├── _static/          # Images, logos, PDFs, and other static files
+└── README.md         # This file
+ 
 ├── About/            # About CCB, Publications, Contact
 ├── People/           # Faculty, staff, postdocs, students, alumni
 ├── Software/         # Software developed by CCB
 ├── Data/             # Databases developed by CCB	
 ├── Education/        # The Ph.D. program, courses
 ├── CBCC/             # Consulting Core  
-├── Examples/         # Markdown/MyST examples
-├── _static/          # Images, logos, PDFs, and other static files
-├── conf.py           # Sphinx configuration
-├── index.md          # Website home page
-└── README.md         # This file
+ 
+├── Examples/         # Markdown/MyST examples : [MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) =&gt; [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)
 </pre></div>
 </div>
 </section>
-<section id="edit-website-content">
-<h2>5. Edit Website Content<a class="headerlink" href="#edit-website-content" title="Link to this heading">¶</a></h2>
-<p>The website pages are written using the <a class="reference external" href="https://www.markdownguide.org">Markdown</a> <a class="reference external" href="https://mystmd.org/">MyST</a> extension(<code class="docutils literal notranslate"><span class="pre">.md</span></code>) .</p>
-<p>Examples:</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>About/about.md
-People/faculty.md
-People/students.md
-Software/index.md
-</pre></div>
-</div>
-<p>Make the desired updates using your favorite text editor.</p>
-<p>Tested elements:
-<a class="reference internal" href="#/_sources/Examples/index.md.txt"><span class="xref myst">index.md</span></a> =&gt;
-<a class="reference internal" href="#/Examples/index.html%5D"><span class="xref myst">index.html</span></a></p>
-</section>
-<section id="commit-your-changes">
-<h2>6. Commit Your Changes<a class="headerlink" href="#commit-your-changes" title="Link to this heading">¶</a></h2>
-<div class="highlight-bash] notranslate"><div class="highlight"><pre><span></span>git add .
-git commit -m &quot;Update website content&quot;
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="edit-website-content">
+<h1>5. Edit Website Content<a class="headerlink" href="#edit-website-content" title="Link to this heading">¶</a></h1>
+<p>Pages are written in Markdown using MyST:</p>
+<p>https://mystmd.org/</p>
+<p>Example files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">About</span><span class="o">/</span><span class="n">about</span><span class="o">.</span><span class="n">md</span>
+<span class="n">People</span><span class="o">/</span><span class="n">Faculty</span><span class="o">/</span><span class="n">faculty</span><span class="o">.</span><span class="n">md</span>
+<span class="n">People</span><span class="o">/</span><span class="n">students</span><span class="o">.</span><span class="n">md</span>
 </pre></div>
 </div>
 </section>
-<section id="push-your-branch">
-<h2>7. Push Your Branch<a class="headerlink" href="#push-your-branch" title="Link to this heading">¶</a></h2>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="commit-your-changes">
+<h1>6. Commit Your Changes<a class="headerlink" href="#commit-your-changes" title="Link to this heading">¶</a></h1>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Update website content&quot;</span>
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="push-your-branch">
+<h1>7. Push Your Branch<a class="headerlink" href="#push-your-branch" title="Link to this heading">¶</a></h1>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>update-my-page
 </pre></div>
 </div>
 </section>
-<section id="submit-a-pull-request">
-<h2>8. Submit a Pull Request<a class="headerlink" href="#submit-a-pull-request" title="Link to this heading">¶</a></h2>
-<p>Open a Pull Request from your branch to the main repository:</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>https://github.com/dpuiu/www.ccb.jhu.edu
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="github-actions-automatic-deployment">
+<h1>8. GitHub Actions (Automatic Deployment)<a class="headerlink" href="#github-actions-automatic-deployment" title="Link to this heading">¶</a></h1>
+<p>This project uses GitHub Actions to build the website automatically.</p>
+<ul class="simple">
+<li><p>Pull Requests trigger test builds</p></li>
+<li><p>Merges into main trigger deployment</p></li>
+</ul>
+<p>Monitor builds:
+https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions</p>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="website-deployment">
+<h1>9. Website Deployment<a class="headerlink" href="#website-deployment" title="Link to this heading">¶</a></h1>
+<p>After merging into main, the site is published automatically:</p>
+<p>https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/</p>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="open-a-pull-request">
+<h1>10. Open a Pull Request<a class="headerlink" href="#open-a-pull-request" title="Link to this heading">¶</a></h1>
+<p>If happy with the edits, open a PR here:</p>
+<p>https://github.com/dpuiu/www.ccb.jhu.edu</p>
+<p>Include a short description of your changes.</p>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="review-process">
+<h1>11. Review Process<a class="headerlink" href="#review-process" title="Link to this heading">¶</a></h1>
+<p>All changes are reviewed by maintainers.</p>
+<p>They may:</p>
+<ul class="simple">
+<li><p>Approve and merge</p></li>
+<li><p>Request changes</p></li>
+<li><p>Suggest improvements</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="cleanup-recommended">
+<h1>12. Cleanup (Recommended)<a class="headerlink" href="#cleanup-recommended" title="Link to this heading">¶</a></h1>
+<p>After merge:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>update-my-page
+git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>--delete<span class="w"> </span>update-my-page
 </pre></div>
 </div>
-<p>Please include a brief description of your changes.</p>
-</section>
-<section id="review-and-merge">
-<h2>9. Review and Merge<a class="headerlink" href="#review-and-merge" title="Link to this heading">¶</a></h2>
-<p>All changes are reviewed before publication.</p>
-<p>A CCB maintainer may:</p>
-<ul class="simple">
-<li><p>Approve and merge your changes.</p></li>
-<li><p>Request revisions.</p></li>
-<li><p>Discuss suggested improvements.</p></li>
-</ul>
-<p>Once merged, your updates will become part of the CCB website and will be published during the next website deployment.</p>
-</section>
 </section>
 
         </article>
@@ -434,36 +469,8 @@ git commit -m &quot;Update website content&quot;
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">Contributing to the CCB Website</a><ul>
-<li><a class="reference internal" href="#workflow-overview">Workflow Overview</a></li>
-<li><a class="reference internal" href="#fork-the-repository">1. Fork the Repository</a></li>
-<li><a class="reference internal" href="#clone-your-fork">2. Clone Your Fork</a></li>
-<li><a class="reference internal" href="#create-a-branch">3. Create a Branch</a></li>
-<li><a class="reference internal" href="#repository-structure">4. Repository Structure</a></li>
-<li><a class="reference internal" href="#edit-website-content">5. Edit Website Content</a></li>
-<li><a class="reference internal" href="#commit-your-changes">6. Commit Your Changes</a></li>
-<li><a class="reference internal" href="#push-your-branch">7. Push Your Branch</a></li>
-<li><a class="reference internal" href="#submit-a-pull-request">8. Submit a Pull Request</a></li>
-<li><a class="reference internal" href="#review-and-merge">9. Review and Merge</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
