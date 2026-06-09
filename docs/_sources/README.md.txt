@@ -119,7 +119,7 @@ This project uses GitHub Actions to build the website automatically.
 - Pull Requests trigger test builds
 - Merges into main trigger deployment
 
-Monitor builds:
+Monitor builds:  
 https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions
 
 ---
@@ -136,9 +136,8 @@ https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/pydata/
 
 # 10. Open a Pull Request
 
-If happy with the edits, open a PR here:
-
-https://github.com/dpuiu/www.ccb.jhu.edu
+If happy with the edits, open a PR here:  
+https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 
 Include a short description of your changes.
 
