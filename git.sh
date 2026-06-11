@@ -13,9 +13,9 @@
 #cp -r _build/html docs
 #rsync -a _build/furo/ docs/
 #rsync -a _build/pydata/ docs/pydata
-#make clean
+make clean
 
-rm -fr _build docs/
+#rm -fr _build docs/
 
 git status
 git add .
