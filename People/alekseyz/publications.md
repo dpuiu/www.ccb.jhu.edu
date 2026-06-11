@@ -1,6 +1,8 @@
 # Publications
 
+```{note}
 73 total, 21 first or senior author; Google Scholar citations: 20,583, h-index:44
+```
 
 1. Badger JH, Giordano R, **Zimin A**, Wappel R, Eskipehlivan SM, Muller S, Donthu R, Soto-Adames F, Vieira P, Zasada I, Goodwin S. Direct sequencing of insect symbionts via nanopore adaptive sampling. Current Opinion in Insect Science. 2023 Nov 4:101135.
 
@@ -26,7 +28,7 @@
 
 12. Sork VL, Cokus SJ, Fitz-Gibbon ST, **Zimin AV**, Puiu D, Garcia JA, Gugger PF, Henriquez CL, Zhen Y, Lohmueller KE, Pellegrini M. High-quality genome and methylomes illustrate features underlying evolutionary success of oaks. Nature Communications. 2022 Apr 19;13(1):1-5.
 
-1. Neale DB, **Zimin AV**, Zaman S, Scott AD, Shrestha B, Workman RE, Puiu D, Allen BJ, Moore ZJ, Sekhwal MK, De La Torre AR. Assembled and annotated 26.5 Gbp coast redwood genome: a resource for estimating evolutionary adaptive potential and investigating hexaploid origin. G3: Genes, Genomes, Genetics. 2022 Jan;12(1):jkab380.
+13. Neale DB, **Zimin AV**, Zaman S, Scott AD, Shrestha B, Workman RE, Puiu D, Allen BJ, Moore ZJ, Sekhwal MK, De La Torre AR. Assembled and annotated 26.5 Gbp coast redwood genome: a resource for estimating evolutionary adaptive potential and investigating hexaploid origin. G3: Genes, Genomes, Genetics. 2022 Jan;12(1):jkab380.
 
 14. **Zimin AV**, Salzberg SL. The SAMBA tool uses long reads to improve the contiguity of genome assemblies. PLoS Computational Biology. 2022 Feb 4;18(2):e1009860.
 
@@ -60,7 +62,7 @@
 
 29. Breitwieser FP, Pertea M, **Zimin AV**, Salzberg SL. Human contamination in bacterial genomes has created thousands of spurious proteins. Genome Research. 2019 Jun 1;29(6):954-60.
 
-1. Martinez-Viaud KA, Lawley CT, …[11 authors]…., Zimin AV. New de novo assembly of the Atlantic bottlenose dolphin (Tursiops truncatus) improves genome completeness and provides haplotype phasing. GigaScience. 2019 Jan 29;8(3):giy168.
+30. Martinez-Viaud KA, Lawley CT, …[11 authors]…., Zimin AV. New de novo assembly of the Atlantic bottlenose dolphin (Tursiops truncatus) improves genome completeness and provides haplotype phasing. GigaScience. 2019 Jan 29;8(3):giy168.
 
 31. Marçais G, Delcher AL, Phillippy AM, Coston R, Salzberg SL, Zimin A. MUMmer4: A fast and versatile genome alignment system. PLoS Computational Biology. 2018 Jan 26;14(1):e1005944.
 
@@ -136,7 +138,7 @@ NOTE: The first author is a student co-advised by Zimin
 
 66. Ott E, Hunt BR, Szunyogh I, **Zimin AV**, Kostelich EJ, Corazza M, Kalnay E, Patil DJ, Yorke JA. A local ensemble Kalman filter for atmospheric data assimilation. Tellus A. 2004 Oct 1;56(5):415-28.
 
-1. Ott E, Hunt BR, Szunyogh I, **Zimin AV**, Kostelich EJ, Corazza M, Kalnay E, Patil DJ, Yorke JA. Estimating the state of large spatio-temporally chaotic systems. Physics Letters A. 2004 Sep 27;330(5):365-70.
+67. Ott E, Hunt BR, Szunyogh I, **Zimin AV**, Kostelich EJ, Corazza M, Kalnay E, Patil DJ, Yorke JA. Estimating the state of large spatio-temporally chaotic systems. Physics Letters A. 2004 Sep 27;330(5):365-70.
 
 68. Hunt BR, Kalnay E, Kostelich EJ, Ott E, Patil DJ, Sauer T, Szunyogh I, Yorke JA, Zimin AV. Four‐dimensional ensemble Kalman filtering. Tellus A. 2004 Aug 1;56(4):273-7.
 
