@@ -88,8 +88,8 @@ People/faculty.md
 People/students.md
 ```
 
-Tested elements:  
-[MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)    
+Tested elements:  [MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) => [HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)    
+
 ---
 
 ## 6. Commit Your Changes
@@ -126,7 +126,6 @@ https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions
 After merging into main, the site is published automatically:
 
 https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/  
-https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/pydata/
 
 ---
 
