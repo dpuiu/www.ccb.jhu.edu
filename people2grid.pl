@@ -34,7 +34,7 @@ while(<>)
 	print 	"::::{grid-item-card}\n";
         print   ":columns: 12 12 3 3\n\n";
 
-	print 	":::{image} /_static/People/".ucfirst($photo)."\n";
+	print 	":::{image} _static/People/".ucfirst($photo)."\n";
 	print	":width: 240px\n";
 	print	":alt: $name\n";
 	print 	":::\n\n";
