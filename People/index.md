@@ -6,7 +6,7 @@
 :maxdepth: 2
 :hidden:
 
-Faculty/index
+faculty
 postdocs
 staff
 students

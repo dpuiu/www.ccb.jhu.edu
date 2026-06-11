@@ -15,7 +15,6 @@ rsync -a _build/furo/ docs/
 rsync -a _build/pydata/ docs/pydata
 make clean
 
-
 git status
 git add .
 git commit -m 'multiple updates'

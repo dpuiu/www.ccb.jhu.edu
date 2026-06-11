@@ -75,3 +75,17 @@ table.docutils th {
 /*.bd-sidebar .reference.internal {
     pointer-events: none;
 }*/
+
+/* Header color: navy blue ; JHU navy blue #2E568F */
+.bd-header-announcement {
+    background-color: #1D4475 !important;
+    color: white !important;
+}
+
+
+/* Header menu text: bold  */
+.bd-navbar-elements .nav-link,
+.nav-item.current .nav-link,
+.nav-item.active .nav-link {
+    font-weight: 1000;
+}

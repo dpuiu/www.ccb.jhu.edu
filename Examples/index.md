@@ -8,16 +8,11 @@ myst:
     "robots": "index, follow"
 ---
 
-```{toctree}
-:maxdepth: 2
+```{contents}
+:local:
+:depth: 2
 :hidden:
-:caption: Examples
-
-About/index
-People/index
-Software/index
 ```
-
 ---
 
 # Examples
@@ -75,7 +70,7 @@ Jump to {ref}`links`.
 
 ### File Download
 
-[Download PNG](/_static/logo.png)
+[Download PNG](/_static/Logos/logo.png)
 
 ---
 
@@ -148,7 +143,7 @@ Hidden information appears here.
 
 ## Image 
 
-```{image} /_static/logo.png
+```{image} /_static/Logos/logo.png
 :width: 300px
 :align: center
 :alt: Figure

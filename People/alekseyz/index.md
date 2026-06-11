@@ -21,7 +21,7 @@ Baltimore, MD 21211
 
 ```{contents}
 :local:
-:depth: 2
+:depth: 1
 :hidden:
 ```
 

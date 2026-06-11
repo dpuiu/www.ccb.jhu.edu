@@ -186,3 +186,22 @@ cargo install lychee
 
 lychee .
 lychee About/ --skip-missing=true --insecure=true --exclude mailto: -vv
+
+
+#####
+
+find _static/Logos/ | xargs identify  | egrep 'ccblogo_breathable_50.png|jhmilogo_wbg_50.png|jhsphlogo_wbg_50.png|jhu-wse-logo-white_50.png' 
+_static/Logos/ccblogo_breathable_50.png PNG 166x60 166x60+0+0 8-bit sRGB 9709B 0.000u 0:00.000
+
+_static/Logos/jhmilogo_wbg_50.png       PNG 196x75 196x75+0+0 8-bit sRGB 10068B 0.000u 0:00.000
+_static/Logos/jhu-wse-logo-white_50.png PNG 208x60 208x60+0+0 8-bit sRGB 8070B 0.000u 0:00.000
+_static/Logos/jhsphlogo_wbg_50.png      PNG 193x60 193x60+0+0 8-bit sRGB 12988B 0.000u 0:00.000
+
+
+#ln ccblogotext_wbg_100.png logo.png
+ln ccblogo_breathable.png  logo.png
+
+ convert ccblogo_breathable.png -resize x60  ccblogo_breathable_50.png
+ convert jhmilogo_wbg.png  -resize x60 jhmilogo_wbg_50.pn
+
+

@@ -42,8 +42,7 @@ extensions = [
 redirects = {
     "index" : "About/about.html",
     "About/index": "about.html",
-    "People/index": "Faculty/faculty.html",
-    "People/Faculty/index": "faculty.html",
+    "People/index": "faculty.html",
     "Software/index": "software_alignment.html",
     "Data/index": "data.html",
     "Education/index" : "information.html",
@@ -91,38 +90,37 @@ html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
 html_extra_path = ['_static/.nojekyll']
 html_js_files = ["custom.js"]
-html_logo = "_static/Logos/logo.png"
+#html_logo = "_static/Logos/logo.png"
 html_search_language = "en"
 html_search = True
 html_static_path = ["_static"]
 
-if THEME == "pydata":
+if THEME != "pydata":
     html_theme = "pydata_sphinx_theme"
-    html_theme_options = {
-        'announcement': "Welcome 2026 Summer Interns!!!"
-    }
 else:
     html_theme = "furo"
-    html_theme_options = {
-	'announcement': '''
-		<div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;">
-			 <div style="display:flex;gap:15px;">
-				<a href="https://ccb.jhu.edu/" alt="CCB"><img src="_static/Logos/ccblogotext_wbg_50.png" alt="CCB"></a>
-			</div>
 
-			<div>
-                                <a href="http://www.hopkinsmedicine.org/som/" alt="JHMI"><img src="_static/Logos/jhmilogo_wbg_50.png" alt="JHMI" class="hide-mobile"></a>
-                                <a href="https://ccb.jhu.edu/img/jhsphlogo_wbg.png" alt="JHSPH"><img src="_static/Logos/jhsphlogo_wbg_50.png" alt="JHSPH" class="hide-mobile"></a>
-				<a href="https://engineering.jhu.edu/" alt="WSE"><img src="_static/Logos/jhu-wse-logo-white_50.png"  alt="WSE"></a>
-			</div>
-		</div>
-	'''
-    }
+html_theme_options = {
+        'header_links_before_dropdown': 10,
+        'announcement': '''
+                <div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;padding:0px;">
+                         <div style="display:flex;gap:15px;">
+                                <a href="index.html" alt="CCB"><img src="/_static/Logos/ccblogo_breathable_50.png" alt="CCB"></a>
+                        </div>
 
+                        <div>
+                                <a href="http://www.hopkinsmedicine.org/som/" alt="SOM"><img src="/_static/Logos/jhmilogo_wbg_50.png" alt="SOM" class="hide-mobile"></a>
+                                <a href="https://publichealth.jhu.edu/" alt="SPH"><img src="/_static/Logos/jhsphlogo_wbg_50.png" alt="SPH" class="hide-mobile"></a>
+                                <a href="https://engineering.jhu.edu/" alt="WSE"><img src="/_static/Logos/jhu-wse-logo-white_50.png"  alt="WSE"></a>
+                        </div>
+                </div>
+        '''    
+}
 
 
 html_title = "Center for Computational Biology"
 html_use_index = True
 
+#        'announcement': "Welcome 2026 Summer Interns!!!"
 
 

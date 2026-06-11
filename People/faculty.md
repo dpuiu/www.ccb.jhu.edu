@@ -1,4 +1,4 @@
-## Faculty List
+## Faculty
 
 (stevenlsalzberg)=
 
