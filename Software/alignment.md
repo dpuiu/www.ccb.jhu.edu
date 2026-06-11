@@ -1,4 +1,4 @@
-## Next-generation sequence alignment software
+## Next-generation Sequence Alignment Software
 
 ### [Arioc](https://github.com/rwilton/arioc)
 

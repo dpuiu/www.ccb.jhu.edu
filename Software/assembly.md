@@ -1,4 +1,4 @@
-## Genome assembly and large-scale genome alignment
+## Genome Assembly and Large-scale Genome Alignment
 
 ### [MUMmer](https://mummer.sourceforge.net/)
 

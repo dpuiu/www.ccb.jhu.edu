@@ -1,6 +1,6 @@
-make html theme=furo
-make html theme=pydata
+make html html_theme=furo
+make html html_theme=pydata_sphinx_theme
 
-rsync -a  _build/furo/ docs/
-rsync -a  _build/pydata/ docs/pydata
-make clean
+rsync -a  _build/pydata_sphinx_theme/ docs/
+rsync -a  _build/furo/ docs/pydata
+#make clean

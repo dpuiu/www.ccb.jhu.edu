@@ -8,11 +8,10 @@ If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess
 :maxdepth: 2
 :hidden:
 
-Alignment <software_alignment>
-Metagenomics <software_metagenomics>
-Gene Finding <software_gene_finding>
-Assembly <software_assembly>
-Other Tools <software_other_tools>
-Variant Analysis <software_variants>
-other
+Alignment <alignment>
+Metagenomics <metagenomics>
+Gene Finding <gene_finding>
+Assembly <assembly>
+Other Tools <other_tools>
+Variant Analysis <variant_analysis>
 ```

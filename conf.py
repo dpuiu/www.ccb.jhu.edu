@@ -1,22 +1,7 @@
 import os
 
-THEME = os.environ.get("SPHINX_THEME", "furo")
-
-
-#if THEME == "pydata":
-#    html_theme = "pydata_sphinx_theme"
-#    html_theme_options = {
-#        "navbar_background": "white",
-#    }
-#else:
-#    html_theme = "furo"
-#    html_theme_options = {
-#        "light_css_variables": {
-#            "color-brand-primary": "#005b96",
-#        }
-#    }
-
-##################################
+#html_theme = os.environ.get("html_theme", "furo")
+html_theme = os.environ.get("html_theme")
 
 
 author = 'Daniela Puiu'
@@ -95,10 +80,10 @@ html_search_language = "en"
 html_search = True
 html_static_path = ["_static"]
 
-if THEME != "pydata":
-    html_theme = "pydata_sphinx_theme"
-else:
-    html_theme = "furo"
+#if theme != "pydata":
+#    theme = "pydata_sphinx_theme"
+#else:
+#    theme = "furo"
 
 html_theme_options = {
         'header_links_before_dropdown': 10,
@@ -121,6 +106,5 @@ html_theme_options = {
 html_title = "Center for Computational Biology"
 html_use_index = True
 
-#        'announcement': "Welcome 2026 Summer Interns!!!"
 
 

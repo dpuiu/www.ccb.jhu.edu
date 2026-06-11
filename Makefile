@@ -7,7 +7,7 @@ theme ?= furo
 .PHONY: html clean
 
 html:
-	SPHINX_THEME=$(theme) $(SPHINXBUILD) $(SOURCEDIR) $(BUILDDIR)/$(theme)
+	html_theme=$(html_theme) $(SPHINXBUILD) $(SOURCEDIR) $(BUILDDIR)/$(html_theme)
 
 clean:
 	rm -rf $(BUILDDIR)/*

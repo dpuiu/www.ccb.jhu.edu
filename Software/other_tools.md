@@ -1,4 +1,4 @@
-## Other sequence analysis tools
+## Other Sequence Analysis Tools
 
 ### [BRCA gene testing](/BRCA-diagnostic/index)
 

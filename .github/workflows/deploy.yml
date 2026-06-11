@@ -30,12 +30,12 @@ jobs:
 
       - name: Build Sphinx site
         run: |
-          make html theme=furo
-          make html theme=pydata
+          make html html_theme=furo
+          make html html_theme=pydata_sphinx_theme
 
           mkdir -p docs/pydata
-          cp -a _build/furo/. docs/
-          cp -a _build/pydata/. docs/pydata/
+          cp -a _build/pydata_sphinx_theme/. docs/
+          cp -a _build/furo/. docs/pydata/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
