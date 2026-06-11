@@ -89,3 +89,12 @@ table.docutils th {
 .nav-item.active .nav-link {
     font-weight: 1000;
 }
+
+/* Justified text */
+@media (min-width: 1200px) {
+  .bd-content p {
+    text-align: justify;
+  }
+}
+
+
