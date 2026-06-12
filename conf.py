@@ -10,7 +10,7 @@ project = 'CCB'
 release = '2026'
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
-extensions = [ 
+extensions = [
     "myst_parser",
     "sphinx_design",
     "sphinx_reredirects",
@@ -80,13 +80,9 @@ html_search_language = "en"
 html_search = True
 html_static_path = ["_static"]
 
-#if theme != "pydata":
-#    theme = "pydata_sphinx_theme"
-#else:
-#    theme = "furo"
-
 html_theme_options = {
         'header_links_before_dropdown': 10,
+        'announcement': "Welcome 2026 Summer Interns!!!"
         'announcement': '''
                 <div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;padding:0px;">
                          <div>
@@ -101,7 +97,6 @@ html_theme_options = {
                 </div>
         '''    
 }
-
 
 html_title = "Center for Computational Biology"
 html_use_index = True
