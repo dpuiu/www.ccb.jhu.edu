@@ -52,6 +52,7 @@ with over 34,000 core processors and 13 petabytes of storage.
 
 Since January 2020, {{CCB}} has been headquartered in the Wyman Park Building at the Homewood Campus.  
 
+
 `````{grid} 2
 :gutter: 1
 
