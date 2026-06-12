@@ -83,19 +83,6 @@ html_static_path = ["_static"]
 html_theme_options = {
         'header_links_before_dropdown': 10,
         'announcement': "Welcome 2026 Summer Interns!!!"
-        'announcement': '''
-                <div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;padding:0px;">
-                         <div>
-                                <a href="index.html" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/ccblogo_breathable_transparent_100.png" alt="CCB"></a>
-                        </div>
-
-                        <div>
-                                <a href="https://www.hopkinsmedicine.org/som/" alt="SOM"><img  src="/www.ccb.jhu.edu/_static/Logos/SOM.logo.rgb_vertical.white_100.png"  alt="SOM" class="hide-mobile"></a>
-                                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="/www.ccb.jhu.edu/_static/Logos/BSPH.logo.rgb_vertical.white_100.png" alt="BSPH"class="hide-mobile"></a>
-                                <a href="https://engineering.jhu.edu/" alt="WSE"><img  src="/www.ccb.jhu.edu/_static/Logos/WSE.logo.rgb_vertical.white_100.png"  alt="WSE"></a>
-                        </div>
-                </div>
-        '''    
 }
 
 html_title = "Center for Computational Biology"
