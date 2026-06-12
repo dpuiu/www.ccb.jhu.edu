@@ -59,12 +59,6 @@ table.docutils th {
 .sd-card-text p {
     font-size: 0.9rem !important;
 }
-
-/* Background
-.sd-card {    
-    background-color: #e8f3ff; 
-} 
-*/
 	
 /*--------------------------------------*/
 .mermaid svg {
@@ -72,13 +66,11 @@ table.docutils th {
     height: auto;
 }
 
-/*.bd-sidebar .reference.internal {
-    pointer-events: none;
-}*/
+/*--------------------------------------*/
 
-/* Header color: navy blue ; JHU navy blue #2E568F */
+/* Header announcements color: light blue*/
 .bd-header-announcement {
-    background-color: #1D4475 !important;
+    background-color: #68ACE5 !important;
     color: white !important;
 }
 
@@ -90,6 +82,8 @@ table.docutils th {
     font-weight: 1000;
 }
 
+/*--------------------------------------*/
+
 /* Justified text */
 @media (min-width: 1200px) {
   .bd-content p {
@@ -97,4 +91,24 @@ table.docutils th {
   }
 }
 
+/*-------------------------*/
 
+.site-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background: #002D72 !important ;
+    color: white !important;
+    padding: 10px 20px !important;
+    margin-top: 2rem !important;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #002D72;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 2rem;
+}
