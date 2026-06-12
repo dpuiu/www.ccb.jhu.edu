@@ -51,12 +51,23 @@ with over 34,000 core processors and 13 petabytes of storage.
 ### Directions
 
 Since January 2020, {{CCB}} has been headquartered in the Wyman Park Building at the Homewood Campus.  
+
+
+`````{grid} 2
+:gutter: 1
+
+````{grid-item}
 ```{button-link} ../_static/Maps/homewood_campus_map.pdf
 :target: _blank
-Johns Hopkins Homewood Campus map (PDF)
+Homewood Campus Map (PDF)
 ```
+````
 
+````{grid-item}
 ```{button-link} ../_static/Maps/JHH_Visitors_Guide_map_only.pdf
 :target: _blank
-Johns Hopkins Medical Campus Campus map (PDF)
+Medical Campus Map (PDF)
 ```
+````
+
+`````

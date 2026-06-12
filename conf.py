@@ -89,14 +89,14 @@ html_theme_options = {
         'header_links_before_dropdown': 10,
         'announcement': '''
                 <div style="display:flex;justify-content:space-between;align-items:center;background:#1D4475;color:white;padding:0px;">
-                         <div style="display:flex;gap:15px;">
-                                <a href="index.html" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/ccblogo_breathable_50.png", 1) }}" alt="CCB"></a>
+                         <div>
+                                <a href="index.html" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/ccblogo_breathable_transparent_100.png" alt="CCB"></a>
                         </div>
 
                         <div>
-                                <a href="http://www.hopkinsmedicine.org/som/" alt="SOM"><img src="/www.ccb.jhu.edu/_static/Logos/jhmilogo_wbg_50.png" alt="SOM" class="hide-mobile"></a>
-                                <a href="https://publichealth.jhu.edu/" alt="SPH"><img src="/www.ccb.jhu.edu/_static/Logos/jhsphlogo_wbg_50.png" alt="SPH" class="hide-mobile"></a>
-                                <a href="https://engineering.jhu.edu/" alt="WSE"><img src="/www.ccb.jhu.edu/_static/Logos/jhu-wse-logo-white_50.png"  alt="WSE"></a>
+                                <a href="https://www.hopkinsmedicine.org/som/" alt="SOM"><img  src="/www.ccb.jhu.edu/_static/Logos/SOM.logo.rgb_vertical.white_100.png"  alt="SOM" class="hide-mobile"></a>
+                                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="/www.ccb.jhu.edu/_static/Logos/BSPH.logo.rgb_vertical.white_100.png" alt="BSPH"class="hide-mobile"></a>
+                                <a href="https://engineering.jhu.edu/" alt="WSE"><img  src="/www.ccb.jhu.edu/_static/Logos/WSE.logo.rgb_vertical.white_100.png"  alt="WSE"></a>
                         </div>
                 </div>
         '''    

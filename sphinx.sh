@@ -204,4 +204,31 @@ ln ccblogo_breathable.png  logo.png
  convert ccblogo_breathable.png -resize x60  ccblogo_breathable_50.png
  convert jhmilogo_wbg.png  -resize x60 jhmilogo_wbg_50.pn
 
+#########
+#git checkout -b picture-update
+cd _static/Logos/
 
+#color histogram
+convert ccblogo_breathable_50.png -format %c histogram:info: | sort -nr | head
+          2716: (22,65,117,255) #164175FF srgba(22,65,117,1)
+          1024: (55,94,153,255) #375E99FF srgba(55,94,153,1)
+           284: (21,64,116,255) #154074FF srgba(21,64,116,1)
+           151: (30,72,125,255) #1E487DFF srgba(30,72,125,1)
+
+
+convert ccblogo_breathable_50.png  -fuzz 15% -transparent "#164175FF"   ccblogo_breathable_50_transparent.png 
+
+#####
+
+find /home/dpuiu/Downloads/Logos | grep -i white |  grep horizontal | grep -v MAC | grep SVG
+/home/dpuiu/Downloads/Logos/Johns Hopkins University Logos/RGB (Digital)/SVG/JHU.logo_horizontal.white.svg
+/home/dpuiu/Downloads/Logos/School of Medicine Logos/RGB (Digital)/SVG/SOM.logos.rgb_horizontal.white.svg
+/home/dpuiu/Downloads/Logos/Bloomberg School of Public Health Logos/RGB (Digital)/SVG/BSPH.logo.rgb_horizontal.white.svg
+
+find /home/dpuiu/Downloads/Logos | grep -i white |  grep horizontal | grep -v MAC | grep PNG
+/home/dpuiu/Downloads/Logos/Johns Hopkins University Logos/RGB (Digital)/PNG/JHU.logo_horizontal.white.png
+/home/dpuiu/Downloads/Logos/School of Medicine Logos/RGB (Digital)/PNG/SOM.logos.rgb_horizontal.white.png
+/home/dpuiu/Downloads/Logos/Bloomberg School of Public Health Logos/RGB (Digital)/PNG/BSPH.logo.rgb_horizontal.white.png
+
+
+convert JHU.logo_horizontal.white.png -resize x130 JHU.logo_horizontal.white_130.png
