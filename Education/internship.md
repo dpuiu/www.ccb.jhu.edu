@@ -1,7 +1,7 @@
 # CCB Summer Internships
 
 ```{note}
-For 2018 and After
+For 2018 and after
 
 We no longer accept applications through CCB for summer interns. Some
 individual labs *may* be hiring student interns on an individual basis

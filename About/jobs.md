@@ -1,4 +1,4 @@
-# Open Positions
+# Open Positions at CCB
 
 Most of the {{CCB}} faculty members describe job openings on their
 individual websites. See the {doc}`/People/faculty` page for those sites.
@@ -32,7 +32,7 @@ While we appreciate your interest, this is not how Ph.D. applications
 are considered at Hopkins. Instead, you should apply directly to the
 Ph.D. program through one of the Departments that the faculty belong to.
 These include the {{bme}} ({{WSE}} and {{SOM}}),
- ({{WSE}}), Biostatistics ({{BSPH}}), Genetic Engineering ({{SOM}}),
+Computer Science ({{WSE}}), Biostatistics ({{BSPH}}), Genetic Engineering ({{SOM}}),
 and Biology ({{KSAS}}). Make sure to specify on your application the name of
 the specific faculty member (or members) with whom you are interested in
 studying, which will ensure that those professors see your application.

@@ -112,3 +112,9 @@ table.docutils th {
     padding: 10px 20px;
     margin-top: 2rem;
 }
+
+
+h1 { font-size: 1.85rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.1rem; }
