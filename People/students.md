@@ -1,10 +1,10 @@
-## Students 
+## Students
 
 (davidbass)=
 
 ### David Bass
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -27,15 +27,15 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 &#9993; [dbass13@jh.edu](mailto:dbass13@jh.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (kalenclifton)=
 
 ### Kalen Clifton
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -58,15 +58,15 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 &#9993; [kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (calebhallinan)=
 
 ### Caleb Hallinan
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -89,15 +89,15 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 &#9993; [challin1@jh.edu](mailto:challin1@jh.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (celinehoh)=
 
 ### Celine Hoh
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -120,15 +120,15 @@ Department of Computer Science<br>Whiting School of Engineering<br>Johns Hopkins
 &#9993; [choh1@jhu.edu](mailto:choh1@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (radhikajangi)=
 
 ### Radhika Jangi
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -151,15 +151,15 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 &#9993; [rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (zoecatherinerudnick)=
 
 ### Zoe Catherine Rudnick
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -182,15 +182,15 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 &#9993; [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (rafaeldossantospeixoto)=
 
 ### Rafael dos Santos Peixoto
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -213,4 +213,4 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 &#9993; [rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
 ::::
 
-`````
+```

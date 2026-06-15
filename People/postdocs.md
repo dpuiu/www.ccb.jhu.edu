@@ -1,10 +1,10 @@
-## Postdocs 
+## Postdocs
 
 (alesvarabyou)=
 
 ### Ales Varabyou, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -27,15 +27,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 &#9993; [ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (courtneyhall)=
 
 ### Courtney Hall, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -58,15 +58,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 &#9993; [chall106@jh.edu](mailto:chall106@jh.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (harunmustafa)=
 
 ### Harun Mustafa, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -89,15 +89,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 &#9993; [hmustaf6@jh.edu](mailto:hmustaf6@jh.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (srujansingh)=
 
 ### Srujan Singh, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -120,4 +120,4 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 &#9993; [ssingh95@jhu.edu](mailto:ssingh95@jhu.edu)  
 ::::
 
-`````
+```

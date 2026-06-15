@@ -4,7 +4,7 @@
 
 ### [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -28,15 +28,15 @@ Department of Biomedical Engineering, School of Medicine<br>Department of Comput
 &#9993; [salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (danarking)=
 
 ### Dan Arking, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -59,15 +59,15 @@ Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology
 &#9993; [arking@jhmi.edu](mailto:arking@jhmi.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (joelbader)=
 
 ### [Joel Bader, Ph.D.](https://www.baderzone.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -91,15 +91,15 @@ Department of Biomedical Engineering
 &#9993; [joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (alexisbattle)=
 
 ### [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -123,15 +123,15 @@ Department of Biomedical Engineering<br>Department of Computer Science, by court
 &#9993; [ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (michaelbeer)=
 
 ### [Michael Beer, Ph.D.](https://www.beerlab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -155,15 +155,15 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 &#9993; [mbeer@jhu.edu](mailto:mbeer@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (uthsavchitra)=
 
 ### [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -187,15 +187,15 @@ Department of Computer Science<br>Whiting School of Engineering
 &#9993; [uthsav@jhu.edu](mailto:uthsav@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (jeanfan)=
 
 ### [Jean Fan, Ph.D.](https://jef.works)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -219,15 +219,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 &#9993; [jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (lilianaflorea)=
 
 ### [Liliana Florea, Ph.D.](https://florealab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -251,15 +251,15 @@ Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins Univer
 &#9993; [florea@jhu.edu](mailto:florea@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (jeffreyjgray)=
 
 ### [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -283,15 +283,15 @@ Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Comp
 &#9993; [jgray@jhu.edu](mailto:jgray@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (kasperdhansen)=
 
 ### [Kasper D. Hansen, Ph.D.](https://www.hansenlab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -315,15 +315,15 @@ Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins S
 &#9993; [kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (stephaniehicks)=
 
 ### [Stephanie Hicks, Ph.D.](https://www.stephaniehicks.com)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -347,15 +347,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Departm
 &#9993; [shicks19@jhu.edu](mailto:shicks19@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (hongkaiji)=
 
 ### [Hongkai Ji, Ph.D.](https://jilab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -379,15 +379,15 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 &#9993; [hji@jhsph.edu](mailto:hji@jhsph.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (rachelkarchin)=
 
 ### [Rachel Karchin, Ph.D.](https://www.karchinlab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -411,15 +411,15 @@ Department of Biomedical Engineering<br>Institute for Computational Medicine<br>
 &#9993; [karchin@jhu.edu](mailto:karchin@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (benlangmead)=
 
 ### [Ben Langmead, Ph.D.](https://langmead-lab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -443,15 +443,15 @@ Department of Computer Science<br>Johns Hopkins University
 &#9993; [langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (davidjlipman)=
 
 ### David J. Lipman, M.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -474,15 +474,15 @@ Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor f
 &#9993; [dlipman4@jh.edu](mailto:dlipman4@jh.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (rajivmccoy)=
 
 ### [Rajiv McCoy, Ph.D.](https://mccoy-lab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -506,15 +506,15 @@ Department of Biology<br>Johns Hopkins University
 &#9993; [rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (mihaelapertea)=
 
 ### [Mihaela Pertea, Ph.D.](https://pertealab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -538,15 +538,15 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 &#9993; [mpertea@jhu.edu](mailto:mpertea@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (adamphillippy)=
 
 ### [Adam Phillippy, Ph.D.](https://genomeinformatics.github.io)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -570,15 +570,15 @@ Department of Computer Science<br>Department of Biomedical Engineering<br>Depart
 &#9993; [aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (suchisaria)=
 
 ### Suchi Saria, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -601,15 +601,15 @@ Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer 
 &#9993; [ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (robertscharpf)=
 
 ### [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -633,15 +633,15 @@ Department of Oncology<br>Johns Hopkins University School of Medicine
 &#9993; [rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (michaelschatz)=
 
 ### [Michael Schatz, Ph.D.](https://schatz-lab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -665,15 +665,15 @@ Department of Computer Science
 &#9993; [mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (margarettaub)=
 
 ### [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -697,15 +697,15 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 &#9993; [mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (jamestaylor)=
 
 ### James Taylor, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -727,15 +727,15 @@ Department of Biology<br>Krieger School of Arts and Sciences
   
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (winstontimp)=
 
 ### [Winston Timp, Ph.D.](https://www.timplab.org)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -759,15 +759,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 &#9993; [wtimp@jhu.edu](mailto:wtimp@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (alekseyzimin)=
 
 ### [Aleksey Zimin, Ph.D.](/People/alekseyz/index)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -791,4 +791,4 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 &#9993; [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)    
 ::::
 
-`````
+```

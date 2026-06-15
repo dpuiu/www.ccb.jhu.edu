@@ -113,8 +113,16 @@ table.docutils th {
     margin-top: 2rem;
 }
 
-
+/* Decrease H1 from 2rem to 1.85 ren */
 h1 { font-size: 1.85rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.25rem; }
 h4 { font-size: 1.1rem; }
+
+/* make announcement yellow */
+.bd-header-announcement__content,
+.announcement {
+  color: yellow;
+}
+
+

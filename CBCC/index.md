@@ -1,4 +1,4 @@
 # Computational Biology Consulting Core
 
-```{include} about.md 
+```{include} about.md
 ```

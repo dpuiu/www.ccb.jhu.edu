@@ -1,6 +1,6 @@
 # Alexey(Aleksey) V. Zimin
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -32,9 +32,9 @@ Baltimore, MD 21211
 &#9993; [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)  
 ::::
 
-`````
+```
 
-----
+______________________________________________________________________
 
 ```{contents}
 :local:
@@ -42,7 +42,7 @@ Baltimore, MD 21211
 :hidden:
 ```
 
-----
+______________________________________________________________________
 
 ```{include} research.md
 ```

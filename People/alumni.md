@@ -6,7 +6,7 @@
 
 #### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -30,17 +30,17 @@ JHU Biostatistics (until June 2013)<br>Dana Farber Cancer Institute<br>Harvard U
 &#9993; [rafa@jhu.edu](mailto:rafa@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 ### Former Postdocs
- 
+
 (martinsteinegger)=
 
 #### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -64,9 +64,9 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>Biology department<br>Seoul National Uni
 &#9993; [martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 ### Former Students
 
@@ -74,7 +74,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>Biology department<br>Seoul National Uni
 
 #### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -98,15 +98,15 @@ McKusick-Nathans Institute of Genetic Medicine<br><a href=https://www.aldicareer
 &#9993; [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (toddjtreangen)=
 
 #### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -130,15 +130,15 @@ CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br><a href="h
 &#9993; [treangen@gmail.com](mailto:treangen@gmail.com)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (hilaryparker)=
 
 #### [Hilary Parker](https://biostat.jhsph.edu/~hiparker/)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -162,15 +162,15 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 &#9993; [hilary@jhu.edu](mailto:hilary@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (alyssafrazee)=
 
-#### [Alyssa Frazee, Ph. D](https://alyssafrazee.com )
+#### [Alyssa Frazee, Ph. D](https://alyssafrazee.com)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -192,13 +192,13 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 &#9993; [alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com)  
 ::::
 
-`````
+```
 
 (daehwankim)=
 
 #### [Daehwan Kim](https://kim-lab.org/)
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -219,4 +219,4 @@ University of Toronto<
 [Lab homepage](kim-lab.org)  
 ::::
 
-`````
+```

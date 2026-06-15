@@ -1,10 +1,10 @@
-## Staff 
+## Staff
 
 (rebeccakeener)=
 
 ### Rebecca Keener, Ph.D
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -27,15 +27,15 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 &#9993; [rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (danielapuiu)=
 
 ### Daniela Puiu, M.S
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -58,15 +58,15 @@ Department of Biomedical Engineering<br>Johns Hopkins University School of Medic
 &#9993; [dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
 ::::
 
-`````
+```
 
----
+______________________________________________________________________
 
 (sarahbailey)=
 
 ### Sarah Bailey
 
-`````{grid} 12
+```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
@@ -89,4 +89,4 @@ Department of Biomedical Engineering<br>Johns Hopkins University
 &#9993; [sande125@jhu.edu](mailto:sande125@jhu.edu)  
 ::::
 
-`````
+```
