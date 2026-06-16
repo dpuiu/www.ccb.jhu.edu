@@ -74,12 +74,6 @@ downstream analyses, such as transcriptome assembly, by dentifying and removing
 misaligned spliced alignments. The tool can process GTF, BED, and BAM files as
 input.
 
-### [Ballgown](https://github.com/alyssafrazee/ballgown)
-
-A program for computing differentially expressed genes in two or more RNA-seq
-experiments, using the output of StringTie or Cufflinks. The Ballgown package
-provides functions to organize, visualize, and analyze expression measurements.
-Ballgown is written in R and is part of Bioconductor.
 
 ### [CloudBurst](https://cloudburst-bio.sf.net)
 
