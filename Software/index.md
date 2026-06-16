@@ -11,7 +11,8 @@ If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess
 Alignment <alignment>
 Metagenomics <metagenomics>
 Gene Finding <gene_finding>
-Assembly <assembly>
-Other Tools <other_tools>
+Genome Assembly <genome_assembly>
+Transcriptome Assembly <transcriptome_assembly>
 Variant Analysis <variant_analysis>
+Other Tools <other_tools>
 ```

@@ -3,7 +3,6 @@ import os
 #html_theme = os.environ.get("html_theme", "furo")
 html_theme = os.environ.get("html_theme")
 
-
 author = 'Daniela Puiu'
 copyright = 'The Center for Computational Biology at Johns Hopkins University'
 project = 'CCB'
@@ -67,7 +66,6 @@ myst_substitutions = {
     "wse":  "[Whiting School of Engineering](https://engineering.jhu.edu/)",
     "WSE":  "[WSE](https://engineering.jhu.edu/)"
 }
-
 
 templates_path = ['_templates']
 

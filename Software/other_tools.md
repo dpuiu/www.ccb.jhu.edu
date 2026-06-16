@@ -78,3 +78,10 @@ Drosophila.
 A highly accurate program that finds rho-independent transcription terminators
 in bacterial genomes. The site includes a database with pre-computed predictions
 for hundreds of species.
+
+### [Ballgown](https://github.com/alyssafrazee/ballgown)
+
+A program for computing differentially expressed genes in two or more RNA-seq
+experiments, using the output of StringTie or Cufflinks. The Ballgown package
+provides functions to organize, visualize, and analyze expression measurements.
+Ballgown is written in R and is part of Bioconductor.

@@ -232,3 +232,9 @@ find /home/dpuiu/Downloads/Logos | grep -i white |  grep horizontal | grep -v MA
 
 
 convert JHU.logo_horizontal.white.png -resize x130 JHU.logo_horizontal.white_130.png
+
+#########
+
+pip install mdformat mdformat-gfm mdformat-frontmatter --break-system-packages
+mdformat .
+mdformat --wrap 80  .
