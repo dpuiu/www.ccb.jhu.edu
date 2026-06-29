@@ -71,7 +71,7 @@ Jump to {ref}`links`.
 
 ### File Download
 
-[Download PNG](/_static/Logos/logo.png)
+[Download WEBP](/_static/Logos/logo.webp)
 
 ______________________________________________________________________
 
@@ -132,7 +132,7 @@ ______________________________________________________________________
 
 ## Image
 
-```{image} /_static/Logos/logo.png
+```{image} /_static/logo.webp
 :width: 300px
 :align: center
 :alt: Figure
