@@ -787,7 +787,7 @@ ______________________________________________________________________
   
 Department of Biomedical Engineering<br>Whiting School of Engineering  
   
-[Lab homepage](/People/alekseyz/index)    
+{doc}`/People/alekseyz/index`
 &#9993; [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)    
 ::::
 

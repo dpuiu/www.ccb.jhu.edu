@@ -6,7 +6,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Aleksey.jpg
+:::{image} /_static/People/Aleksey.webp
 :width: 240px
 :alt: Aleksey Zimin, Ph.D.
 :::

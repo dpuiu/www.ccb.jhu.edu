@@ -13,16 +13,15 @@ molecular biology, genetics, and others.
 
 Our students are actively involved in high-profile research, and have developed
 very widely-used bioinformatics software systems such as
-<a href="https://bowtie-bio.sourceforge.net">Bowtie</a>,
-<a href="https://ccb.jhu.edu/software/tophat">Tophat</a>, and
-<a href="https://cufflinks.cbcb.umd.edu">Cufflinks</a>.
+[Bowtie](https://bowtie-bio.sourceforge.net),
+[Tophat](https://ccb.jhu.edu/software/tophat), and
+[Cufflinks](https://cufflinks.cbcb.umd.edu).
 
 and the more-recent systems
-<a href="https://ccb.jhu.edu/software/hisat2">HISAT</a> and
-<a href="https://ccb.jhu.edu/software/stringtie">Stringtie</a> (for RNA-seq
-alignment and assembly) and
-<a herf="https://ccb.jhu.edu/software/kraken/">Kraken</a> (for metagenomic
-sequence analysis). The work they do with Hopkins faculty prepares them to go on
+[HISAT](https://ccb.jhu.edu/software/hisat2) and
+[StringTie](https://ccb.jhu.edu/software/stringtie) (for RNA-seq alignment and assembly) and
+[Kraken](https://ccb.jhu.edu/software/kraken/) (for metagenomic sequence analysis)
+The work they do with Hopkins faculty prepares them to go on
 to postdoctoral and tenure track faculty positions at top-ranked universities
 including (in recent years) Harvard, the University of Washington, Carnegie
 Mellon, the University of Maryland, and Brown.

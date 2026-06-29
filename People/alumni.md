@@ -92,7 +92,8 @@ ______________________________________________________________________
 
 **Postdoctoral Research Fellow**  
   
-McKusick-Nathans Institute of Genetic Medicine<br><a href=https://www.aldicareers.com.au/>Aldi</a>  
+McKusick-Nathans Institute of Genetic Medicine<br>
+[Aldi](https://www.aldicareers.com.au/)
   
 [Lab homepage](https://pabinger.site44.com)  
 &#9993; [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
@@ -124,7 +125,8 @@ ______________________________________________________________________
 
 **Senior Bioinformatics Scientist**  
   
-CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br><a href="https://profiles.rice.edu/faculty/todd-treangen">Rice University</a>  
+CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br>
+[Rice University](https://profiles.rice.edu/faculty/todd-treangen)
   
 [Lab homepage](https://profiles.rice.edu/faculty/todd-treangen)  
 &#9993; [treangen@gmail.com](mailto:treangen@gmail.com)  
@@ -186,7 +188,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-<a href="https://stripe.com">Stripe</a>  
+[Stripe](https://stripe.com)
   
 [Lab homepage](https://alyssafrazee.com )  
 &#9993; [alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com)  
@@ -204,7 +206,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Daehwan_Kim.jpeg
+:::{image} /_static/People/Daehwan_Kim.webp
 :width: 240px
 :alt: Daehwan Kim, Ph. D
 :::
@@ -214,7 +216,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-University of Toronto<
+University of Toronto
   
 [Lab homepage](kim-lab.org)  
 ::::

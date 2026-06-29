@@ -22,8 +22,9 @@
 
 **Professor of Computer Science**  
   
-Ray and Stephanie Lane Center for Computational Biology<br><a href="https://kingsfordlab.cbd.cmu.edu/">Carnegie Mellon University</a>  
-  
+Ray and Stephanie Lane Center for Computational Biology<br>
+[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/) 
+ 
 [Lab homepage](https://kingsfordlab.cbd.cmu.edu/)  
 &#9993; [carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)  
 ::::
@@ -54,7 +55,7 @@ ______________________________________________________________________
 
 **Postdoctoral Research Fellow**  
   
-<a href="https://www.hepdata.com/">HEP Development</a>  
+[HEPData](https://www.hepdata.com/)
   
 [Lab homepage](https://idr.ufhealth.org/profile/magoc-tanja/)  
 &#9993; [t.magoc@gmail.com](mailto:t.magoc@gmail.com)  
@@ -86,7 +87,8 @@ ______________________________________________________________________
 
 **Professor, Department of Computer Science<br>Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)**  
   
-<a href="https://cbcb.umd.edu/">CBCB</a><br>University of Maryland  
+[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/) 
+University of Maryland
   
 [Lab homepage](https://pop-lab.org/)  
 &#9993; [mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
@@ -116,7 +118,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Principal Inverstigator**  
+**Principal Investigator**  
   
 Department of Cell Biology and Molecular Genetics<br>University of Maryland  
   
@@ -150,7 +152,7 @@ ______________________________________________________________________
 
 **Associate Professor of Genome Sciences**  
   
-<a href="https://www.rinnlab.com">John Rinn Lab</a><br>The Broad Institute of MIT and Harvard<br>UW Genome Sciences  
+[Rinn Lab](https://www.rinnlab.com)<br>The Broad Institute of MIT and Harvard<br>UW Genome Sciences  
   
 [Lab homepage](https://cole-trapnell-lab.github.io/)  
 &#9993; [coletrap@uw.edu](mailto:coletrap@uw.edu)  
