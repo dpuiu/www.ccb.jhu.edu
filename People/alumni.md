@@ -12,7 +12,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/IRIZARRY8.jpg
+:::{image} /_static/People/IRIZARRY8.webp
 :width: 240px
 :alt: Rafael Irizarry, Ph.D.
 :::
@@ -46,7 +46,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Martin_steinegger.png
+:::{image} /_static/People/Martin_steinegger.webp
 :width: 240px
 :alt: Martin Steinegger, Ph.D.
 :::
@@ -80,7 +80,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Stephan_pabinger2.jpg
+:::{image} /_static/People/Stephan_pabinger2.webp
 :width: 240px
 :alt: Stephan Pabinger, Ph.D.
 :::
@@ -112,7 +112,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Treangen.jpg
+:::{image} /_static/People/Treangen.webp
 :width: 240px
 :alt: Todd J. Treangen, Ph.D.
 :::
@@ -144,7 +144,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Hilary.jpg
+:::{image} /_static/People/Hilary.webp
 :width: 240px
 :alt: Hilary Parker
 :::
@@ -176,7 +176,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Frazee.jpg
+:::{image} /_static/People/Frazee.webp
 :width: 240px
 :alt: Alyssa Frazee, Ph. D
 :::

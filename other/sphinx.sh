@@ -243,3 +243,6 @@ convert JHU.logo_horizontal.white.png -resize x130 JHU.logo_horizontal.white_130
 pip install mdformat mdformat-gfm mdformat-frontmatter --break-system-packages
 mdformat .
 mdformat --wrap 80  .
+
+/_static/People$ ls | perl -lane '/(.+)\./; print "convert $F[0] $1.webp";' | bash
+cat OLD/people.tsv | sed -E 's/\.(gif|jpg|png)/.webp/' | cut -f2 > people.tsv

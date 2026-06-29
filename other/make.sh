@@ -1,3 +1,6 @@
+#clean
+rm -r docs/ _build/
+
 #using pydata_sphinx_theme (default)
 make html html_theme=pydata_sphinx_theme
 rsync -a  _build/pydata_sphinx_theme/ docs/

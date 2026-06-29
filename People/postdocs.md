@@ -10,7 +10,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Avaraby.png
+:::{image} /_static/People/Avaraby.webp
 :width: 240px
 :alt: Ales Varabyou, Ph.D.
 :::
@@ -41,7 +41,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/C_hall.png
+:::{image} /_static/People/C_hall.webp
 :width: 240px
 :alt: Courtney Hall, Ph.D.
 :::
@@ -72,7 +72,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Harun_Mustafa.png
+:::{image} /_static/People/Harun_Mustafa.webp
 :width: 240px
 :alt: Harun Mustafa, Ph.D.
 :::
@@ -103,7 +103,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Ssingh.png
+:::{image} /_static/People/Ssingh.webp
 :width: 240px
 :alt: Srujan Singh, Ph.D.
 :::

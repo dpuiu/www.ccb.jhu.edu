@@ -10,7 +10,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/David_Bass.png
+:::{image} /_static/People/David_Bass.webp
 :width: 240px
 :alt: David Bass
 :::
@@ -41,7 +41,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Kalen_Clifton.png
+:::{image} /_static/People/Kalen_Clifton.webp
 :width: 240px
 :alt: Kalen Clifton
 :::
@@ -72,7 +72,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Caleb_Hallinan.png
+:::{image} /_static/People/Caleb_Hallinan.webp
 :width: 240px
 :alt: Caleb Hallinan
 :::
@@ -103,7 +103,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Celine_Hoh.png
+:::{image} /_static/People/Celine_Hoh.webp
 :width: 240px
 :alt: Celine Hoh
 :::
@@ -134,7 +134,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Radhika_Jangi.png
+:::{image} /_static/People/Radhika_Jangi.webp
 :width: 240px
 :alt: Radhika Jangi
 :::
@@ -165,7 +165,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Zoe_Rudnick.png
+:::{image} /_static/People/Zoe_Rudnick.webp
 :width: 240px
 :alt: Zoe Catherine Rudnick
 :::
@@ -196,7 +196,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rafael_dos_Santos_Peixoto_25pc.png
+:::{image} /_static/People/Rafael_dos_Santos_Peixoto_25pc.webp
 :width: 240px
 :alt: Rafael dos Santos Peixoto
 :::

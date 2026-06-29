@@ -10,7 +10,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Steven_salzberg_250x331.jpg
+:::{image} /_static/People/Steven_salzberg_250x331.webp
 :width: 240px
 :alt: Steven L. Salzberg, Ph.D.
 :::
@@ -42,7 +42,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/DonArking.jpg
+:::{image} /_static/People/DonArking.webp
 :width: 240px
 :alt: Dan Arking, Ph.D.
 :::
@@ -73,7 +73,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Joel_bader.jpg
+:::{image} /_static/People/Joel_bader.webp
 :width: 240px
 :alt: Joel Bader, Ph.D.
 :::
@@ -105,7 +105,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Alexis-Battle-149x180.jpg
+:::{image} /_static/People/Alexis-Battle-149x180.webp
 :width: 240px
 :alt: Alexis Battle, Ph.D.
 :::
@@ -137,7 +137,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/MikeBeer.jpg
+:::{image} /_static/People/MikeBeer.webp
 :width: 240px
 :alt: Michael Beer, Ph.D.
 :::
@@ -169,7 +169,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/U_chitra.png
+:::{image} /_static/People/U_chitra.webp
 :width: 240px
 :alt: Uthsav Chitra, Ph.D.
 :::
@@ -201,7 +201,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/JeanFan_132px.jpg
+:::{image} /_static/People/JeanFan_132px.webp
 :width: 240px
 :alt: Jean Fan, Ph.D.
 :::
@@ -233,7 +233,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Florea.jpg
+:::{image} /_static/People/Florea.webp
 :width: 240px
 :alt: Liliana Florea, Ph.D.
 :::
@@ -265,7 +265,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Jjgray.jpg
+:::{image} /_static/People/Jjgray.webp
 :width: 240px
 :alt: Jeffrey J. Gray, Ph.D.
 :::
@@ -297,7 +297,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/KasperHansen250x264.jpg
+:::{image} /_static/People/KasperHansen250x264.webp
 :width: 240px
 :alt: Kasper D. Hansen, Ph.D.
 :::
@@ -329,7 +329,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/S_hicks.jpg
+:::{image} /_static/People/S_hicks.webp
 :width: 240px
 :alt: Stephanie Hicks, Ph.D.
 :::
@@ -361,7 +361,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/HongkaiJi.jpg
+:::{image} /_static/People/HongkaiJi.webp
 :width: 240px
 :alt: Hongkai Ji, Ph.D.
 :::
@@ -393,7 +393,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rachel09Head.jpg
+:::{image} /_static/People/Rachel09Head.webp
 :width: 240px
 :alt: Rachel Karchin, Ph.D.
 :::
@@ -425,7 +425,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Ben_h140.jpg
+:::{image} /_static/People/Ben_h140.webp
 :width: 240px
 :alt: Ben Langmead, Ph.D.
 :::
@@ -457,7 +457,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/D_lipman.png
+:::{image} /_static/People/D_lipman.webp
 :width: 240px
 :alt: David J. Lipman, M.D.
 :::
@@ -488,7 +488,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/R_mccoy.jpg
+:::{image} /_static/People/R_mccoy.webp
 :width: 240px
 :alt: Rajiv McCoy, Ph.D.
 :::
@@ -520,7 +520,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Pertea.jpg
+:::{image} /_static/People/Pertea.webp
 :width: 240px
 :alt: Mihaela Pertea, Ph.D.
 :::
@@ -552,7 +552,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/A_phillippy.png
+:::{image} /_static/People/A_phillippy.webp
 :width: 240px
 :alt: Adam Phillippy, Ph.D.
 :::
@@ -584,7 +584,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Suchi_saria.jpg
+:::{image} /_static/People/Suchi_saria.webp
 :width: 240px
 :alt: Suchi Saria, Ph.D.
 :::
@@ -615,7 +615,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rscharp1.jpg
+:::{image} /_static/People/Rscharp1.webp
 :width: 240px
 :alt: Robert Scharpf, Ph.D.
 :::
@@ -647,7 +647,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Mike_Schatz.jpg
+:::{image} /_static/People/Mike_Schatz.webp
 :width: 240px
 :alt: Michael Schatz, Ph.D.
 :::
@@ -679,7 +679,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Margaret250x312.jpg
+:::{image} /_static/People/Margaret250x312.webp
 :width: 240px
 :alt: Margaret Taub, Ph.D.
 :::
@@ -711,7 +711,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/JamesTaylor.jpg
+:::{image} /_static/People/JamesTaylor.webp
 :width: 240px
 :alt: James Taylor, Ph.D.
 :::
@@ -741,7 +741,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Winston_timp.jpg
+:::{image} /_static/People/Winston_timp.webp
 :width: 240px
 :alt: Winston Timp, Ph.D.
 :::
@@ -773,7 +773,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Aleksey.jpg
+:::{image} /_static/People/Aleksey.webp
 :width: 240px
 :alt: Aleksey Zimin, Ph.D.
 :::

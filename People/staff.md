@@ -10,7 +10,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/R_keener.jpg
+:::{image} /_static/People/R_keener.webp
 :width: 240px
 :alt: Rebecca Keener, Ph.D.
 :::
@@ -41,7 +41,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Daniela_puiu.jpg
+:::{image} /_static/People/Daniela_puiu.webp
 :width: 240px
 :alt: Daniela Puiu, M.S.
 :::
@@ -72,7 +72,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/S_bailey.png
+:::{image} /_static/People/S_bailey.webp
 :width: 240px
 :alt: Sarah Bailey
 :::

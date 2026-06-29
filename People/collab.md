@@ -10,7 +10,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Carlk.jpg
+:::{image} /_static/People/Carlk.webp
 :width: 240px
 :alt: Carl Kingsford, Ph.D.
 :::
@@ -42,7 +42,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Tmagoc.jpg
+:::{image} /_static/People/Tmagoc.webp
 :width: 240px
 :alt: Tanja Magoc, Ph.D.
 :::
@@ -74,7 +74,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Amp.jpg
+:::{image} /_static/People/Amp.webp
 :width: 240px
 :alt: Adam Phillippy, Ph.D.
 :::
@@ -106,7 +106,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Mpop.jpg
+:::{image} /_static/People/Mpop.webp
 :width: 240px
 :alt: Mihai Pop, Ph.D.
 :::
@@ -138,7 +138,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Najib.jpg
+:::{image} /_static/People/Najib.webp
 :width: 240px
 :alt: Najib El-Sayed, Ph.D.
 :::
@@ -170,7 +170,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Cole.jpg
+:::{image} /_static/People/Cole.webp
 :width: 240px
 :alt: Cole Trapnell, Ph.D.
 :::
@@ -202,7 +202,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Jyorke.jpg
+:::{image} /_static/People/Jyorke.webp
 :width: 240px
 :alt: James A. Yorke, Ph.D.
 :::
@@ -234,7 +234,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Elana122x140.gif
+:::{image} /_static/People/Elana122x140.webp
 :width: 240px
 :alt: Elana Fertig, Ph.D.
 :::
@@ -268,7 +268,7 @@ ______________________________________________________________________
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Pinerefseq.jpg
+:::{image} /_static/People/Pinerefseq.webp
 :width: 240px
 :alt: The Pine Genome Project
 :::
