@@ -2,7 +2,7 @@ SPHINXBUILD = sphinx-build
 SOURCEDIR = .
 BUILDDIR = _build
 
-theme ?= furo
+html_theme ?= pydata_sphinx_theme
 
 .PHONY: html clean
 

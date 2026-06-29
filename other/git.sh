@@ -6,16 +6,13 @@
 #git check-ignore -v OLD
 #git check-ignore -v */OLD
 
-#make html theme=furo
-#make html theme=pydata
+rm -r  _build docs
+#make clean
+make html html_theme=pydata_sphinx_theme
+#make html html_theme=furo
 
-#rm -r docs
-#cp -r _build/html docs
-#rsync -a _build/furo/ docs/
-#rsync -a _build/pydata/ docs/pydata
-make clean
-
-#rm -fr _build docs/
+rsync -a _build/pydata_sphinx_theme/ docs/
+#rsync -a _build/furo/ docs/furo
 
 git status
 git add .

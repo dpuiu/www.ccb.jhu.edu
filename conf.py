@@ -3,12 +3,12 @@ import os
 #html_theme = os.environ.get("html_theme", "furo")
 html_theme = os.environ.get("html_theme")
 
-author = 'Daniela Puiu'
-copyright = 'The Center for Computational Biology at Johns Hopkins University'
-project = 'CCB'
-release = '2026'
+author = "Daniela Puiu"
+copyright = "The Center for Computational Biology at Johns Hopkins University"
+project = "CCB"
+release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other']
 extensions = [
     "myst_parser",
     "sphinx_design",
@@ -71,9 +71,9 @@ templates_path = ['_templates']
 
 html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
-html_extra_path = ['_static/.nojekyll']
+html_extra_path = ['_static/.nojekyll', '_static/google5ed79d6dabf65a2d.html', '_static/robots.txt']
 html_js_files = ["custom.js"]
-#html_logo = "_static/Logos/logo.png"
+html_logo = "_static/Logos/logo.png"
 html_search_language = "en"
 html_search = True
 html_static_path = ["_static"]
@@ -85,6 +85,5 @@ html_theme_options = {
 
 html_title = "Center for Computational Biology"
 html_use_index = True
-
-
+html_favicon = "_static/Logos/favicon.ico"
 
