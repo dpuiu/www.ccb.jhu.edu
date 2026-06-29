@@ -64,38 +64,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-(adamphillippy)=
-
-### [Adam Phillippy, Ph.D.](https://www.genome.gov/staff/Adam-M-Phillippy-PhD)
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/People/Amp.webp
-:width: 240px
-:alt: Adam Phillippy, Ph.D.
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Director and Senior Investigator<br>Center for Genomics and Data Science Research**  
-  
-<a href="https://bnbi.org">National Biodefense Analysis and Countermeasures Center</a><br><a href="https://www.genome.gov/">NHGRI</a>  
-  
-[Lab homepage](https://www.genome.gov/staff/Adam-M-Phillippy-PhD)  
-&#9993; [adam.phillippy@nih.gov](mailto:adam.phillippy@nih.gov)  
-::::
-
-```
-
-______________________________________________________________________
-
 (mihaipop)=
 
 ### [Mihai Pop, Ph.D.](https://pop-lab.org/)

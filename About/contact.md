@@ -7,10 +7,8 @@ If you have any questions about CCB please contact:
 
 **Sarah Anderson**
 Administrative Coordinator, Center for Computational Biology  
-3100 Wyman Park Drive  
-Wyman Park Building, Room S220  
-Baltimore, MD 21211  
-Telephone: (410) 516-7685  
+[3100 Wyman Park Drive, Room S220, Baltimore, MD 21211](https://www.google.com/maps/search/?api=1&query=3100+Wyman+Park+Drive+Baltimore+MD+21211)
+Telephone: [ (410) 516-7685 ](tel:+14105167685) 
 Email: [sande125@jhu.edu](mailto:sande125@jhu.edu)  
 ```
 

@@ -48,7 +48,8 @@ over 34,000 core processors and 13 petabytes of storage.
 
 ## Directions
 
-Since January 2020, {{CCB}} has been headquartered in the Wyman Park Building at
+Since January 2020, {{CCB}} has been headquartered in the 
+[Wyman Park Building](https://www.google.com/maps/search/?api=1&query=3100+Wyman+Park+Drive+Baltimore+MD+21211) at 
 the Homewood Campus.
 
 `````{grid} 2
