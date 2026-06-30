@@ -251,12 +251,13 @@ cat OLD/people.tsv | sed -E 's/\.(gif|jpg|png)/.webp/' | cut -f2 > people.tsv
 
 #check title
 find docs/ -name "*html" | xargs grep -c "<title"  | grep -v ":1"
-docs/google5ed79d6dabf65a2d.html:0
-docs/Education/index.html:0
-docs/About/index.html:0
-docs/Data/index.html:0
-docs/People/index.html:0
-docs/_static/google5ed79d6dabf65a2d.html:0
-docs/_static/webpack-macros.html:0
-docs/Software/index.html:0
+find docs/ -name "*html" | xargs grep -c "<h1"  | grep -v ":1"
+
+find docs/ -name "*html" | xargs grep -c -P "<h1"    > other/h1
+find docs/ -name "*html" | xargs grep -c -P "<h2"    > other/h2
+find docs/ -name "*html" | xargs grep -c -P "<h3"    > other/h3
+find docs/ -name "*html" | xargs grep -c -P "<h4"    > other/h4
+
+paste other/h? | sed 's|:|\t|g' | perl -ane 'print if($F[1]==0 and $F[3]>0);'
+paste other/h? | sed 's|:|\t|g' | perl -ane 'print if($F[3]==0 and $F[5]>0);'
 

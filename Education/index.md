@@ -8,8 +8,7 @@ ______________________________________________________________________
 
 Information <information>
 Sample Courses  <sample_courses>
-course_selection
-course_description
+courses
 Internship <internship>
 ```
 
