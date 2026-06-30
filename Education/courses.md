@@ -74,7 +74,6 @@ To register for courses, visit JHU's
 [SIS](https://sis.jhu.edu/sswf/default.aspx) site.
 
 (CCB_Courses-647)=
-
 ### [EN.601.447/647 Computational Genomics:Sequences](https://e-catalogue.jhu.edu/search/?search=EN.601.647)
 
 Your genome is the blueprint for the molecules in your body. It's also a string
@@ -91,10 +90,7 @@ involve significant programming projects.
 Students may receive credit for only one of EN.600.439, EN.600.639, EN.601.447,
 EN.601.647.
 
-______________________________________________________________________
-
 (CCB_Courses-350)=
-
 ### [EN.601.350 Genomic Data Science](https://e-catalogue.jhu.edu/search/?search=EN.601.350)
 
 This course will use a project-based approach to introduce undergraduates to
@@ -110,10 +106,7 @@ high-profile research papers that generated groundbreaking or controversial
 results. [Applications] Recommended Course Background: Knowledge of the Unix
 operating system and programming expertise in a language such as Perl or Python.
 
-______________________________________________________________________
-
 (CCB_Courses-646)=
-
 ### [EN.601.446/646 Sketching & Indexing for Sequences](https://e-catalogue.jhu.edu/search/?search=EN.601.646)
 
 Many of the world's largest and fastest-growing datasets are text, e.g. DNA
@@ -129,10 +122,7 @@ texts. The course will involve significant programming projects.
 
 **Prerequisite(s):** EN.601.220 AND EN.601.226
 
-______________________________________________________________________
-
 (CCB_Courses-743)=
-
 ### [EN.580.743 Advanced Topics in Genome Data Analysis](https://e-catalogue.jhu.edu/search/?search=EN.601.743)
 
 Genomic data is becoming available in large quantities, but understanding how
@@ -149,10 +139,7 @@ project component with the opportunity to explore publicly available genomic
 data. Recommended Course Background: coursework in data science or machine
 learning.
 
-______________________________________________________________________
-
 (CCB_Courses-649)=
-
 ### [EN.601.448/649 Computational Genomics: Data Analysis](https://e-catalogue.jhu.edu/search/?search=EN.601.649)
 
 Genomic data has the potential to reveal causes of disease, novel drug targets,
@@ -168,11 +155,8 @@ reconstruction. There will be some programming and a project component.
 statistics, linear algebra or calculus. \*\*Note:\*\*Students may receive credit
 for only one of EN.600.438, EN.600.638, EN.601.448, EN.601.648.
 
-______________________________________________________________________
-
-(CCB_Courses-749)=
-
-### [EN.601.749 Computational Genomics: Applied Comparative Genomics](https://e-catalogue.jhu.edu/search/?search=EN.601.449)
+(CCB_Courses-449)=
+### [EN.601.449 Computational Genomics: Applied Comparative Genomics](https://e-catalogue.jhu.edu/search/?search=EN.601.449)
 
 The goal of this course is to study the leading computational and quantitative
 approaches for comparing and analyzing genomes starting from raw sequencing
@@ -185,16 +169,11 @@ midterm & final exam, class presentations, and a significant class project.
 [Applications] Expected course background: familiarity with UNIX scripting
 and/or programming.
 
-______________________________________________________________________
-
 (CCB_Courses-744)=
-
 ### [ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease](https://e-catalogue.jhu.edu/search/?search=ME.710.744)
-
-______________________________________________________________________
+...
 
 (CCB_Courses-244)=
-
 ### [EN.580.244 Nonlinear Dynamics of Biological Systems](https://e-catalogue.jhu.edu/search/?search=EN.580.244)
 
 Analysis and simulation of nonlinear behavior in biological systems:
@@ -205,10 +184,7 @@ motivate nonlinear analytic tools and stability analysis.
 **Recommended course background:** AS.110.201 Linear Algebra, AS.110.302
 Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
 
-______________________________________________________________________
-
 (CCB_Courses-452)=
-
 ### [EN.601.452 / AS.020.415 Computational Biomedical Research & Advanced Biomedical Research](https://e-catalogue.jhu.edu/search/?search=EN.610.452)
 
 This course for advanced undergraduates includes classroom instruction in
@@ -224,10 +200,7 @@ work at a symposium at the end of the semester.
 **Recommended course background:** AS.110.201 Linear Algebra, AS.110.302
 Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
 
-______________________________________________________________________
-
 (CCB_Courses-688)=
-
 ### [EN.580.488/688 Foundations of Computational Biology and Bioinformatics](https://e-catalogue.jhu.edu/search/?search=EN.580.688)
 
 This course is designed to give students a foundation in the basics of
@@ -241,10 +214,7 @@ section "Annotate Your Genome" is required.
 
 **Prerequisite(s):** EN.601.220
 
-______________________________________________________________________
-
 (CCB_Courses-658)=
-
 ### [EN.580.458/658 Computing the Transcriptome](https://e-catalogue.jhu.edu/search/?search=EN.580.658)
 
 This course will introduce computational tools used in the field of
@@ -260,10 +230,7 @@ between different RNA-seq datasets?
 **Prerequisite(s):** (1) Familiarity with Python or Perl, (2) the Unix
 command-line environment, and (3) a basic understanding of programming in R
 
-______________________________________________________________________
-
 (CCB_Courses-248)=
-
 ### [EN.580.248 Systems Biology of the Cell](https://e-catalogue.jhu.edu/search/?search=EN.580.248)
 
 Cellular systems biology provides a theoretical and quantitative understanding
@@ -281,10 +248,7 @@ instabilities leading to cell fate specification.
 **Recommended Course Background:** Linear Algebra, Systems and Controls and
 programming.
 
-______________________________________________________________________
-
 (CCB_Courses-454)=
-
 ### [EN.580.454 Methods in Nucleic Acid Sequencing](https://e-catalogue.jhu.edu/search/?search=EN.580.454)
 
 Sequencing technology is a rapidly progressing field that requires experience in
@@ -298,10 +262,7 @@ sequencing, metagenomic sequencing and genome assembly.
 **Prerequisite(s):** Students must have completed Lab Safety training prior to
 registering for this class.
 
-______________________________________________________________________
-
 (CCB_Courses-806)=
-
 ### [ME.800.806 BCMB Computational Biology Bootcamp](https://e-catalogue.jhu.edu/search/?search=ME.800.806)
 
 This intensive one week course is meant to immerse student in computation, and

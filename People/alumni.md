@@ -3,7 +3,6 @@
 ### Former Faculty
 
 (rafaelirizarry)=
-
 #### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
 ```{grid} 12
@@ -32,12 +31,9 @@ JHU Biostatistics (until June 2013)<br>Dana Farber Cancer Institute<br>Harvard U
 
 ```
 
-______________________________________________________________________
-
 ### Former Postdocs
 
 (martinsteinegger)=
-
 #### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
 
 ```{grid} 12
@@ -66,12 +62,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>Biology department<br>Seoul National Uni
 
 ```
 
-______________________________________________________________________
-
-### Former Students
-
 (stephanpabinger)=
-
 #### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 ```{grid} 12
@@ -101,10 +92,7 @@ McKusick-Nathans Institute of Genetic Medicine<br>
 
 ```
 
-______________________________________________________________________
-
 (toddjtreangen)=
-
 #### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
 
 ```{grid} 12
@@ -134,10 +122,9 @@ CCB UMD<br>National Biodefense Analysis and Countermeasures Center<br>
 
 ```
 
-______________________________________________________________________
+### Former Students
 
 (hilaryparker)=
-
 #### [Hilary Parker](https://biostat.jhsph.edu/~hiparker/)
 
 ```{grid} 12
@@ -166,10 +153,7 @@ Department of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health
 
 ```
 
-______________________________________________________________________
-
 (alyssafrazee)=
-
 #### [Alyssa Frazee, Ph. D](https://alyssafrazee.com)
 
 ```{grid} 12
@@ -197,7 +181,6 @@ ______________________________________________________________________
 ```
 
 (daehwankim)=
-
 #### [Daehwan Kim](https://kim-lab.org/)
 
 ```{grid} 12

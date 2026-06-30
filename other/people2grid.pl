@@ -16,7 +16,7 @@ while(<>)
         $label=~s/,ms//;
         $label=~s/,md//;
 
-	print "---\n\n" if($.>1);
+	#print "---\n\n" if($.>1);
 	
         print   "($label)=\n";
 

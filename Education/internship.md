@@ -29,7 +29,7 @@ sequence data, analysis of RNA sequencing experiments, studies of the human
 microbiome, assembly of whole-genome shotgun data from various species, and the
 development of new computational and statistical methods for genome analysis
 problems. You can browse the
-[list of past internship projects](./past_projects.shtml).
+{doc}`list of past internship projects <past_projects>`
 
 The program involves full-time research for 10 weeks between May and late July.
 In 2017 the program ran from **May 22rd** to **July 28nd**; high school students
@@ -58,7 +58,8 @@ prior to your internship.
 We have been running internship programs since 2012 at Hopkins, and prior to
 that since 2006 at the
 [University of Maryland's CBCB](https://cbcb.umd.edu/summer-internships). You
-can view [a list of past student projects here](./past_projects.shtml).
+can view 
+{doc}`a list of past student projects here <past_projects>`.
 
 ## How to apply
 

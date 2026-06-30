@@ -1,7 +1,5 @@
 # People
 
-______________________________________________________________________
-
 ```{toctree}
 :maxdepth: 2
 :hidden:
@@ -14,5 +12,5 @@ alumni
 collab
 ```
 
-```{include} /People/faculty.md
+```{include} faculty.md
 ```

@@ -1,7 +1,6 @@
 ## Faculty
 
 (stevenlsalzberg)=
-
 ### [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 
 ```{grid} 12
@@ -30,10 +29,7 @@ Department of Biomedical Engineering, School of Medicine<br>Department of Comput
 
 ```
 
-______________________________________________________________________
-
 (danarking)=
-
 ### Dan Arking, Ph.D
 
 ```{grid} 12
@@ -61,10 +57,7 @@ Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology
 
 ```
 
-______________________________________________________________________
-
 (joelbader)=
-
 ### [Joel Bader, Ph.D.](https://www.baderzone.org)
 
 ```{grid} 12
@@ -93,10 +86,7 @@ Department of Biomedical Engineering
 
 ```
 
-______________________________________________________________________
-
 (alexisbattle)=
-
 ### [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
 
 ```{grid} 12
@@ -125,10 +115,7 @@ Department of Biomedical Engineering<br>Department of Computer Science, by court
 
 ```
 
-______________________________________________________________________
-
 (michaelbeer)=
-
 ### [Michael Beer, Ph.D.](https://www.beerlab.org)
 
 ```{grid} 12
@@ -157,10 +144,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 
 ```
 
-______________________________________________________________________
-
 (uthsavchitra)=
-
 ### [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
 
 ```{grid} 12
@@ -189,10 +173,7 @@ Department of Computer Science<br>Whiting School of Engineering
 
 ```
 
-______________________________________________________________________
-
 (jeanfan)=
-
 ### [Jean Fan, Ph.D.](https://jef.works)
 
 ```{grid} 12
@@ -221,10 +202,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 
 ```
 
-______________________________________________________________________
-
 (lilianaflorea)=
-
 ### [Liliana Florea, Ph.D.](https://florealab.org)
 
 ```{grid} 12
@@ -253,10 +231,7 @@ Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins Univer
 
 ```
 
-______________________________________________________________________
-
 (jeffreyjgray)=
-
 ### [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
 
 ```{grid} 12
@@ -285,10 +260,7 @@ Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Comp
 
 ```
 
-______________________________________________________________________
-
 (kasperdhansen)=
-
 ### [Kasper D. Hansen, Ph.D.](https://www.hansenlab.org)
 
 ```{grid} 12
@@ -317,10 +289,7 @@ Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins S
 
 ```
 
-______________________________________________________________________
-
 (stephaniehicks)=
-
 ### [Stephanie Hicks, Ph.D.](https://www.stephaniehicks.com)
 
 ```{grid} 12
@@ -349,10 +318,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Departm
 
 ```
 
-______________________________________________________________________
-
 (hongkaiji)=
-
 ### [Hongkai Ji, Ph.D.](https://jilab.org)
 
 ```{grid} 12
@@ -381,10 +347,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 
 ```
 
-______________________________________________________________________
-
 (rachelkarchin)=
-
 ### [Rachel Karchin, Ph.D.](https://www.karchinlab.org)
 
 ```{grid} 12
@@ -413,10 +376,7 @@ Department of Biomedical Engineering<br>Institute for Computational Medicine<br>
 
 ```
 
-______________________________________________________________________
-
 (benlangmead)=
-
 ### [Ben Langmead, Ph.D.](https://langmead-lab.org)
 
 ```{grid} 12
@@ -445,10 +405,7 @@ Department of Computer Science<br>Johns Hopkins University
 
 ```
 
-______________________________________________________________________
-
 (davidjlipman)=
-
 ### David J. Lipman, M.D
 
 ```{grid} 12
@@ -476,10 +433,7 @@ Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor f
 
 ```
 
-______________________________________________________________________
-
 (rajivmccoy)=
-
 ### [Rajiv McCoy, Ph.D.](https://mccoy-lab.org)
 
 ```{grid} 12
@@ -508,10 +462,7 @@ Department of Biology<br>Johns Hopkins University
 
 ```
 
-______________________________________________________________________
-
 (mihaelapertea)=
-
 ### [Mihaela Pertea, Ph.D.](https://pertealab.org)
 
 ```{grid} 12
@@ -540,10 +491,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 
 ```
 
-______________________________________________________________________
-
 (adamphillippy)=
-
 ### [Adam Phillippy, Ph.D.](https://genomeinformatics.github.io)
 
 ```{grid} 12
@@ -572,10 +520,7 @@ Department of Computer Science<br>Department of Biomedical Engineering<br>Depart
 
 ```
 
-______________________________________________________________________
-
 (suchisaria)=
-
 ### Suchi Saria, Ph.D
 
 ```{grid} 12
@@ -603,10 +548,7 @@ Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer 
 
 ```
 
-______________________________________________________________________
-
 (robertscharpf)=
-
 ### [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
 
 ```{grid} 12
@@ -635,10 +577,7 @@ Department of Oncology<br>Johns Hopkins University School of Medicine
 
 ```
 
-______________________________________________________________________
-
 (michaelschatz)=
-
 ### [Michael Schatz, Ph.D.](https://schatz-lab.org)
 
 ```{grid} 12
@@ -667,10 +606,7 @@ Department of Computer Science
 
 ```
 
-______________________________________________________________________
-
 (margarettaub)=
-
 ### [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
 
 ```{grid} 12
@@ -699,10 +635,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 
 ```
 
-______________________________________________________________________
-
 (jamestaylor)=
-
 ### James Taylor, Ph.D
 
 ```{grid} 12
@@ -729,10 +662,7 @@ Department of Biology<br>Krieger School of Arts and Sciences
 
 ```
 
-______________________________________________________________________
-
 (winstontimp)=
-
 ### [Winston Timp, Ph.D.](https://www.timplab.org)
 
 ```{grid} 12
@@ -761,10 +691,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 
 ```
 
-______________________________________________________________________
-
 (alekseyzimin)=
-
 ### [Aleksey Zimin, Ph.D.](/People/alekseyz/index)
 
 ```{grid} 12

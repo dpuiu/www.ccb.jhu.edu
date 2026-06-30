@@ -1,16 +1,14 @@
 # Education
 
-______________________________________________________________________
-
 ```{toctree}
 :maxdepth: 2
 :hidden:
 
 Information <information>
 Sample Courses  <sample_courses>
-courses
+Courses <courses>
 Internship <internship>
 ```
 
-```{include} /Education/information.md
+```{include} information.md
 ```

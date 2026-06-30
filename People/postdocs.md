@@ -1,7 +1,6 @@
 ## Postdocs
 
 (alesvarabyou)=
-
 ### Ales Varabyou, Ph.D
 
 ```{grid} 12
@@ -29,10 +28,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 
 ```
 
-______________________________________________________________________
-
 (courtneyhall)=
-
 ### Courtney Hall, Ph.D
 
 ```{grid} 12
@@ -60,10 +56,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 
 ```
 
-______________________________________________________________________
-
 (harunmustafa)=
-
 ### Harun Mustafa, Ph.D
 
 ```{grid} 12
@@ -91,10 +84,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 
 ```
 
-______________________________________________________________________
-
 (srujansingh)=
-
 ### Srujan Singh, Ph.D
 
 ```{grid} 12

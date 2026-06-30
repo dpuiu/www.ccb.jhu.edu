@@ -57,14 +57,12 @@ the Homewood Campus.
 
 ````{grid-item}
 ```{button-link} ../_static/Maps/homewood_campus_map.pdf
-:target: _blank
 Homewood Campus Map (PDF)
 ```
 ````
 
 ````{grid-item}
 ```{button-link} ../_static/Maps/JHH_Visitors_Guide_map_only.pdf
-:target: _blank
 Medical Campus Map (PDF)
 ```
 ````

@@ -1,7 +1,6 @@
 ## Staff
 
 (rebeccakeener)=
-
 ### Rebecca Keener, Ph.D
 
 ```{grid} 12
@@ -29,10 +28,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 
 ```
 
-______________________________________________________________________
-
 (danielapuiu)=
-
 ### Daniela Puiu, M.S
 
 ```{grid} 12
@@ -60,10 +56,7 @@ Department of Biomedical Engineering<br>Johns Hopkins University School of Medic
 
 ```
 
-______________________________________________________________________
-
 (sarahbailey)=
-
 ### Sarah Bailey
 
 ```{grid} 12

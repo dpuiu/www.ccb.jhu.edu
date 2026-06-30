@@ -15,7 +15,7 @@ typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
 to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
 Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
 
-### [Tophat](/_/legacy/tophat/index.html)
+### [Tophat](/_static/Legacy/tophat/index.html)
 
 A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
 exon-exon splice junctions and is extremely fast due to its use of the Bowtie2

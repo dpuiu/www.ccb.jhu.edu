@@ -1,7 +1,6 @@
 ## Students
 
 (davidbass)=
-
 ### David Bass
 
 ```{grid} 12
@@ -29,10 +28,7 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 
 ```
 
-______________________________________________________________________
-
 (kalenclifton)=
-
 ### Kalen Clifton
 
 ```{grid} 12
@@ -60,10 +56,7 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 
 ```
 
-______________________________________________________________________
-
 (calebhallinan)=
-
 ### Caleb Hallinan
 
 ```{grid} 12
@@ -91,10 +84,7 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 
 ```
 
-______________________________________________________________________
-
 (celinehoh)=
-
 ### Celine Hoh
 
 ```{grid} 12
@@ -122,10 +112,7 @@ Department of Computer Science<br>Whiting School of Engineering<br>Johns Hopkins
 
 ```
 
-______________________________________________________________________
-
 (radhikajangi)=
-
 ### Radhika Jangi
 
 ```{grid} 12
@@ -153,10 +140,7 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 
 ```
 
-______________________________________________________________________
-
 (zoecatherinerudnick)=
-
 ### Zoe Catherine Rudnick
 
 ```{grid} 12
@@ -184,10 +168,7 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 
 ```
 
-______________________________________________________________________
-
 (rafaeldossantospeixoto)=
-
 ### Rafael dos Santos Peixoto
 
 ```{grid} 12

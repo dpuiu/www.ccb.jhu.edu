@@ -1,7 +1,6 @@
 ## Collaborations
 
 (carlkingsford)=
-
 ### [Carl Kingsford, Ph.D.](https://kingsfordlab.cbd.cmu.edu/)
 
 ```{grid} 12
@@ -31,10 +30,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 
 ```
 
-______________________________________________________________________
-
 (tanjamagoc)=
-
 ### [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
 
 ```{grid} 12
@@ -63,10 +59,7 @@ ______________________________________________________________________
 
 ```
 
-______________________________________________________________________
-
 (mihaipop)=
-
 ### [Mihai Pop, Ph.D.](https://pop-lab.org/)
 
 ```{grid} 12
@@ -96,10 +89,7 @@ University of Maryland
 
 ```
 
-______________________________________________________________________
-
 (najibel-sayed)=
-
 ### [Najib El-Sayed, Ph.D.](https://www.najibelsayed.org/)
 
 ```{grid} 12
@@ -128,10 +118,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 
 ```
 
-______________________________________________________________________
-
 (coletrapnell)=
-
 ### [Cole Trapnell, Ph.D.](https://cole-trapnell-lab.github.io/)
 
 ```{grid} 12
@@ -160,10 +147,7 @@ ______________________________________________________________________
 
 ```
 
-______________________________________________________________________
-
 (jamesayorke)=
-
 ### [James A. Yorke, Ph.D.](https://yorke.umd.edu/)
 
 ```{grid} 12
@@ -192,10 +176,7 @@ Institute for Physical Sciences and Technology<br>UMCP<br>University of Maryland
 
 ```
 
-______________________________________________________________________
-
 (elanafertig)=
-
 ### [Elana Fertig, Ph.D.](https://fertiglab.com/)
 
 ```{grid} 12
@@ -224,12 +205,9 @@ Director of the Institute for Genome Sciences at the University of Maryland Scho
 
 ```
 
-______________________________________________________________________
-
 ### Collaboration Projects
 
 (thepinegenomeproject)=
-
 #### [The Pine Genome Project](https://pinegenome.org/pinerefseq/)
 
 ```{grid} 12
