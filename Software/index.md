@@ -17,5 +17,5 @@ Other Tools <other_tools>
 If you're looking for the CHESS human gene database, it is at [ccb.jhu.edu/chess](https://ccb.jhu.edu/chess)
 ```
 
-```{include} /Software/alignment
+```{include} /Software/alignment.md
 ```
