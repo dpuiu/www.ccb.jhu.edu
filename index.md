@@ -2,7 +2,7 @@
 :maxdepth: 2
 :hidden:
 
-About/index
+About <About/index>
 People/index
 Software/index
 Data/index

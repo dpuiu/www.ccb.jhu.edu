@@ -3,8 +3,7 @@
 Below is a list of **Sample Course Offerings for Ph.D. students in Computational
 Biology**
 
-See 
-<a href="https://ccb.jhu.edu/courses.shtml">this page</a> 
+See [this page](https://ccb.jhu.edu/courses.shtml)
 for a list of current courses in computational biology offered by our faculty across multiple
 departments. Many of these courses count towards the Ph.D. programs in BME, CS,
 Biology, and others
@@ -12,15 +11,15 @@ Biology, and others
 ### Department of Biomedical Engineering, Whiting School of Engineering
 
 The Johns Hopkins Department of Biomedical Engineering (BME), widely regarded as
-the top program of its kind in the world and
-<a href="https://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings"> ranked #1 in the nation by U.S. News</a>
+the top program of its kind in the world and 
+[ranked #1 in the nation by U.S. News](https://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings)
 , is dedicated to solving important
 scientific problems at the intersection of multiple disciplines and that have
 the potential to make a significant impact on medicine and health. At the
 intersection of inquiry and discovery, the department integrates biology,
 medicine, and engineering and draws upon the considerable strengths and talents
 of the Johns Hopkins Schools of Engineering and Medicine. See
-<a href="https://www.bme.jhu.edu/graduate/phd/prospective-students">the BME Ph.D. program website</a> 
+[the BME Ph.D. program website](https://www.bme.jhu.edu/graduate/phd/prospective-students)
 for many details.
 
 A unique feature of the Hopkins BME program is that students may also opt to
@@ -30,12 +29,12 @@ with the students in Hopkins' highly-ranked M.D. program.
 
 ### Department of Computer Science, Whiting School of Engineering
 
-<a href="https://www.cs.jhu.edu">Computer Science at Johns Hopkins University</a> 
+[Computer Science at Johns Hopkins University](https://www.cs.jhu.edu)
 is a diverse, collaborative, and intensely research-focused
 department. In 2015, the Department moved into a brand new, state-of-the-art
 research building, Malone Hall, designed around the needs of students and
 faculty.
-<a href="https://www.youtube.com/watch?v=1-b996AEkJg&feature=youtu.be">See the video highlighting the new building and some of our students</a> 
+[See the video highlighting the new building and some of our students](https://www.youtube.com/watch?v=1-b996AEkJg&feature=youtu.be)
 here.
 
 The Department was recently ranked 20th in the nation among Computer Science
@@ -50,10 +49,10 @@ Ph.D. program
 
 A total of 8 courses are required, and a typical load is 3 courses per semester.
 See 
-<a href="https://www.cs.jhu.edu/graduate-studies/">the CS Department website</a> 
+[the CS Department website](https://www.cs.jhu.edu/graduate-studies/)
 for details. For a look at courses that might be included in Ph.D.
 training, see 
-<a href="https://ccb.jhu.edu/courses.shtml">this page</a>
+[this page](https://ccb.jhu.edu/courses.shtml)
 , though note that it is not a comprehensive list.
 
 *For the Computer Science Ph.D., 2 out of the required 8 classes can be taken
@@ -64,14 +63,13 @@ Biostatistics, and Biology programs listed on this page.
 
 Johns Hopkins Biostatistics is the oldest department of its kind in the world
 and has long been considered as one of the best. In 2022, it was
-<a href="https://www.usnews.com/best-graduate-schools/top-science-schools/biostatistics-rankings?_sort=rank-asc">ranked #1 in the nation by U.S. News</a>
-.
+[ranked #1 in the nation by U.S. News](https://www.usnews.com/best-graduate-schools/top-science-schools/biostatistics-rankings?_sort=rank-asc).
 
 Ph.D. program
 
 At least 18 credits required outside the Dept of Biostatistics, at least 9 of
 these in the School of Public Health. See
-<a href="https://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd">the Department website</a> 
+[the Department website](https://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd)
 for details.
 
 All students in the Biostatistics Ph.D. program have to complete the core
@@ -98,7 +96,7 @@ The Hopkins Biology Graduate Program, founded in 1876, is the oldest Biology
 graduate school in the country. People like Thomas Morgan, E. B. Wilson, Edwin
 Conklin and Ross Harrison, were part of the initial graduate classes when the
 program was first founded. Hopkins is
-<a href="https://www.usnews.com/best-graduate-schools/top-science-schools/biological-sciences-rankings?_sort=rank-asc">ranked #6 in the nation in Biological Sciences by U.S. News</a>
+[ranked #6 in the nation in Biological Sciences by U.S. News](https://www.usnews.com/best-graduate-schools/top-science-schools/biological-sciences-rankings?_sort=rank-asc)
 
 Quantitative and computational biology are an integral part of the CMDB training
 program. During the first semester students attend Quantitative Biology
