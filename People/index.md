@@ -13,3 +13,6 @@ students
 alumni
 collab
 ```
+
+```{include} /People/faculty.md
+```

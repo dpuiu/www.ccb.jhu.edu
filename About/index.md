@@ -1,5 +1,3 @@
-# About
-
 ```{toctree}
 :maxdepth: 2
 :hidden:
@@ -9,4 +7,7 @@ Publications <https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+
 jobs
 contact
 
+```
+
+```{include} /About/about.md
 ```

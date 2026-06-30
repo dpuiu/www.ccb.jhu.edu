@@ -12,3 +12,6 @@ course_selection
 course_description
 Internship <internship>
 ```
+
+```{include} /Education/information.md
+```

@@ -44,14 +44,14 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-```{include} research.md
+```{include} /People/alekseyz/research.md
 ```
 
-```{include} publications.md
+```{include} /People/alekseyz/publications.md
 ```
 
-```{include} software.md
+```{include} /People/alekseyz/software.md
 ```
 
-```{include} about.md
+```{include} /People/alekseyz/about.md
 ```

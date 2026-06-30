@@ -1,12 +1,12 @@
 # Older Assembly Projects
 
-```{include} genome_projects.md
+```{include} /Data/genome_projects.md
 ```
 
-```{include} gage.md
+```{include} /Data/gage.md
 ```
 
-```{include} drosophila.md
+```{include} /Data/drosophila.md
 ```
 
 ## Older Bacterial Genomes (pre-2006)

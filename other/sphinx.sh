@@ -246,3 +246,17 @@ mdformat --wrap 80  .
 
 /_static/People$ ls | perl -lane '/(.+)\./; print "convert $F[0] $1.webp";' | bash
 cat OLD/people.tsv | sed -E 's/\.(gif|jpg|png)/.webp/' | cut -f2 > people.tsv
+
+##########
+
+#check title
+find docs/ -name "*html" | xargs grep -c "<title"  | grep -v ":1"
+docs/google5ed79d6dabf65a2d.html:0
+docs/Education/index.html:0
+docs/About/index.html:0
+docs/Data/index.html:0
+docs/People/index.html:0
+docs/_static/google5ed79d6dabf65a2d.html:0
+docs/_static/webpack-macros.html:0
+docs/Software/index.html:0
+

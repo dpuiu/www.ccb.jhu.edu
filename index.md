@@ -10,5 +10,5 @@ Education/index
 Core <CBCC/index>
 ```
 
-```{include} About/about.md
+```{include} /About/about.md
 ```

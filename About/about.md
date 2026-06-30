@@ -1,6 +1,6 @@
 # The Center for Computational Biology
 
-## A joint research center based in the {{wse}}, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences
+## A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences
 
 The {{ccb}} (CCB) is a multidisciplinary center dedicated to research on
 genomics, genetics, DNA sequencing technology, and computational methods for DNA

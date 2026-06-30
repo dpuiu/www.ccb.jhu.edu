@@ -1,6 +1,6 @@
-# About
+## About
 
-## Biography
+### Biography
 
 I was born in the Soviet Union (now Russian Federation) in 1975.\
 In 1992 I graduated from highschool and attended Tver State University in Tver,
@@ -21,7 +21,7 @@ I enjoy solving challenging scientific problems, and designing useful software
 tools for the research community. I am proficient in C/C++, Perl, Matlab,
 familiar with Python and R.
 
-## Hobbies
+### Hobbies
 
 I like to travel and enjoy nature, especially the ocean coasts with my wife and
 daughter. I enjoy learning new skills and doing home improvement projects and

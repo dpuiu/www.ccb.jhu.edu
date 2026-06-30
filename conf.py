@@ -23,13 +23,14 @@ extensions = [
     "sphinx.ext.mathjax",
 ]
 
-redirects = {
-    "About/index": "about.html",
-    "People/index": "faculty.html",
-    "Software/index": "alignment.html",
-    "Data/index": "data.html",
-    "Education/index" : "information.html",
-}
+#redirects = {
+#    "index": "About/about.html",
+#    "About/index": "about.html",
+#    "People/index": "faculty.html",
+#    "Software/index": "alignment.html",
+#    "Data/index": "data.html",
+#    "Education/index" : "information.html",
+#}
 
 master_doc = "index"
 
