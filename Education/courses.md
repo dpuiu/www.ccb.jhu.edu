@@ -1,4 +1,4 @@
-#CCB Courses
+# CCB Courses
 
 ## Selected Hopkins Courses in Genomics and Bioinformatics
 
@@ -16,55 +16,55 @@
   - EN.601.447/647
   - {ref}`benlangmead`
 * - Spring
-  - [Genomic Data Science](#CCB_Courses#350)
+  - [Genomic Data Science](#CCB_Courses-350)
   - EN.601.350
   - {ref}`stevenlsalzberg`
 * - Spring
-  - [Sketching & Indexing for Sequences](#CCB_Courses#646)
+  - [Sketching & Indexing for Sequences](#CCB_Courses-646)
   - EN.601.446/646
   - {ref}`benlangmead`
 * - Spring
-  - [Advanced Topics in Genome Data Analysis](#CCB_Courses#743)
+  - [Advanced Topics in Genome Data Analysis](#CCB_Courses-743)
   - EN.580.743
   - {ref}`alexisbattle`
 * - Spring
-  - [Computational Genomics: Data Analysis](#CCB_Courses#649)
+  - [Computational Genomics: Data Analysis](#CCB_Courses-649)
   - EN.601.448/649
   - {ref}`alexisbattle`
 * - Spring
-  - [Computational Genomics: Applied Comparative Genomics](#CCB_Courses#749)
+  - [Computational Genomics: Applied Comparative Genomics](#CCB_Courses-749)
   - EN.601.749
   - {ref}`michaelschatz`
 * - Spring
-  - [Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease](#CCB_Courses#744)
+  - [Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease](#CCB_Courses-744)
   - ME.710.744
   - {ref}`michaelbeer`
 * - Spring
-  - [Nonlinear Dynamics of Biological Systems](#CCB_Courses#244)
+  - [Nonlinear Dynamics of Biological Systems](#CCB_Courses-244)
   - EN.580.244
   - {ref}`michaelbeer`
 * - Fall
-  - [Computational Biomedical Research & Advanced Biomedical Research](#CCB_Courses#452)
+  - [Computational Biomedical Research & Advanced Biomedical Research](#CCB_Courses-452)
   - EN.601.452 / AS.020.415
   - {ref}`michaelschatz`
 * - Spring
-  - [Foundations of Computational Biology and Bioinformatics](#CCB_Courses#688)
+  - [Foundations of Computational Biology and Bioinformatics](#CCB_Courses-688)
   - EN.580.488/688
   - {ref}`rachelkarchin`
 * - Spring
-  - [Computing the Transcriptome](#CCB_Courses#658)
+  - [Computing the Transcriptome](#CCB_Courses-658)
   - EN.580.458/658
   - {ref}`mihaelapertea`
 * - Spring (2nd half)
-  - [Systems Biology of the Cell](#CCB_Courses#248)
+  - [Systems Biology of the Cell](#CCB_Courses-248)
   - EN.580.248
   - {ref}`joelbader`
 * - Spring (2nd half)
-  - [Methods in Nucleic Acid Sequencing](#CCB_Courses#454)
+  - [Methods in Nucleic Acid Sequencing](#CCB_Courses-454)
   - EN.580.454
   - {ref}`winstontimp`
 * - Summer (1 week)
-  - [BCMB Computational Biology Bootcamp](#CCB_Courses#806)
+  - [BCMB Computational Biology Bootcamp](#CCB_Courses-806)
   - ME.800.806
   - {ref}`winstontimp`
 ```
@@ -93,6 +93,7 @@ EN.601.647.
 
 ______________________________________________________________________
 
+(CCB_Courses-350)=
 ### [EN.601.350 Genomic Data Science](https://www.cs.jhu.edu/spring21/index.html)
 
 This course will use a project-based approach to introduce undergraduates to
@@ -110,6 +111,8 @@ operating system and programming expertise in a language such as Perl or Python.
 
 ______________________________________________________________________
 
+(CCB_Courses-646)=
+
 ### [EN.601.446/646 Sketching & Indexing for Sequences](https://www.cs.jhu.edu/spring21/index.html)
 
 Many of the world's largest and fastest-growing datasets are text, e.g. DNA
@@ -126,6 +129,8 @@ texts. The course will involve significant programming projects.
 **Prerequisite(s):** EN.601.220 AND EN.601.226
 
 ______________________________________________________________________
+
+(CCB_Courses-743)=
 
 ### [EN.580.743 Advanced Topics in Genome Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
@@ -145,6 +150,8 @@ learning.
 
 ______________________________________________________________________
 
+(CCB_Courses-649)=
+
 ### [EN.601.448/649 Computational Genomics: Data Analysis](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
 Genomic data has the potential to reveal causes of disease, novel drug targets,
@@ -162,6 +169,8 @@ for only one of EN.600.438, EN.600.638, EN.601.448, EN.601.648.
 
 ______________________________________________________________________
 
+(CCB_Courses-749)=
+
 ### [EN.601.749 Computational Genomics: Applied Comparative Genomics](https://www.cs.jhu.edu/spring21/index.html)
 
 The goal of this course is to study the leading computational and quantitative
@@ -177,9 +186,13 @@ and/or programming.
 
 ______________________________________________________________________
 
+(CCB_Courses-744)=
+
 ### ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease\*\*
 
 ______________________________________________________________________
+
+(CCB_Courses-244)=
 
 ### [EN.580.244 Nonlinear Dynamics of Biological Systems](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
 
@@ -192,6 +205,8 @@ motivate nonlinear analytic tools and stability analysis.
 Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
 
 ______________________________________________________________________
+
+(CCB_Courses-452)=
 
 ### [EN.601.452 / AS.020.415 Computational Biomedical Research & Advanced Biomedical Research](https://e-catalogue.jhu.edu/course-descriptions/computer_science_601/)
 
@@ -210,6 +225,8 @@ Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
 
 ______________________________________________________________________
 
+(CCB_Courses-688)=
+
 ### [EN.580.488/688 Foundations of Computational Biology and Bioinformatics](https://www.cs.jhu.edu/spring21/index.html)
 
 This course is designed to give students a foundation in the basics of
@@ -224,6 +241,8 @@ section "Annotate Your Genome" is required.
 **Prerequisite(s):** EN.601.220
 
 ______________________________________________________________________
+
+(CCB_Courses-658)=
 
 ### [EN 580.458/658 Computing the Transcriptome]
 
@@ -241,6 +260,8 @@ between different RNA-seq datasets?
 command-line environment, and (3) a basic understanding of programming in R
 
 ______________________________________________________________________
+
+(CCB_Courses-248)=
 
 ### [EN.580.248 Systems Biology of the Cell](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
 
@@ -261,6 +282,8 @@ programming.
 
 ______________________________________________________________________
 
+(CCB_Courses-454)=
+
 ### [EN.580.454 Methods in Nucleic Acid Sequencing](https://e-catalogue.jhu.edu/course-descriptions/biomedical_engineering/)
 
 Sequencing technology is a rapidly progressing field that requires experience in
@@ -275,6 +298,8 @@ sequencing, metagenomic sequencing and genome assembly.
 registering for this class.
 
 ______________________________________________________________________
+
+(CCB_Courses-806)=
 
 ### [ME.800.806 BCMB Computational Biology Bootcamp](https://bcmb.bs.jhmi.edu/first-year-requirements/)
 
