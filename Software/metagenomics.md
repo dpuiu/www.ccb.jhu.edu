@@ -27,7 +27,7 @@ Christopher Pockrandt that can run on low-memory machines, including laptops,
 even with a huge database (hundreds of GB). It's also available for installation
 using bioconda, at <https://anaconda.org/bioconda/krakenuniq>.
 
-### [Kraken2](/kraken2/index)
+### [Kraken2](/software/kraken2/index)
 
 Kraken2 is an improved version of Kraken, using the same classification
 algorithm but with improvements in speed and memory. Specifically, Kraken 2 have

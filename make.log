@@ -2,46 +2,47 @@ html_theme=pydata_sphinx_theme sphinx-build . _build/pydata_sphinx_theme
 Running Sphinx v8.2.3
 loading translations [en]... done
 making output directory... done
-myst v5.1.0: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions={'dollarmath', 'substitution', 'amsmath', 'attrs_inline', 'colon_fence'}, disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_sort=True, footnote_transition=True, words_per_minute=200, substitutions={ARCH: ..., bme: ..., BME: ..., bsph: ..., BSPH: ..., ccb: ..., CCB: ..., cs: ..., CS: ..., dsai: ..., DSAI: ..., igs: ..., IGS: ..., jhu: ..., JHU: ..., ksas: ..., KSAS: ..., som: ..., SOM: ..., sph: ..., SPH: ..., wse: ..., WSE: ...}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, strikethrough_single_tilde=False, colon_fence_exact_match=False, suppress_warnings=[], highlight_code_blocks=True)
+myst v5.1.0: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions={'substitution', 'dollarmath', 'colon_fence', 'attrs_inline', 'amsmath'}, disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_sort=True, footnote_transition=True, words_per_minute=200, substitutions={ARCH: ..., bme: ..., BME: ..., bsph: ..., BSPH: ..., ccb: ..., CCB: ..., cs: ..., CS: ..., dsai: ..., DSAI: ..., igs: ..., IGS: ..., jhu: ..., JHU: ..., ksas: ..., KSAS: ..., som: ..., SOM: ..., sph: ..., SPH: ..., wse: ..., WSE: ...}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, strikethrough_single_tilde=False, colon_fence_exact_match=False, suppress_warnings=[], highlight_code_blocks=True)
 building [mo]: targets for 0 po files that are out of date
 writing output... 
-building [html]: targets for 41 source files that are out of date
-updating environment: [new config] 41 added, 0 changed, 0 removed
+building [html]: targets for 42 source files that are out of date
+updating environment: [new config] 42 added, 0 changed, 0 removed
 reading sources... [  2%] About/about
 reading sources... [  5%] About/contact
 reading sources... [  7%] About/index
 reading sources... [ 10%] About/jobs
 reading sources... [ 12%] CBCC/index
-reading sources... [ 15%] Data/data
+reading sources... [ 14%] Data/data
 reading sources... [ 17%] Data/downloads
-reading sources... [ 20%] Data/drosophila
-reading sources... [ 22%] Data/eupathdb
+reading sources... [ 19%] Data/drosophila
+reading sources... [ 21%] Data/eupathdb
 reading sources... [ 24%] Data/gage
-reading sources... [ 27%] Data/genome_projects
+reading sources... [ 26%] Data/genome_projects
 reading sources... [ 29%] Data/index
-reading sources... [ 32%] Education/courses
-reading sources... [ 34%] Education/index
-reading sources... [ 37%] Education/information
-reading sources... [ 39%] Education/internship
-reading sources... [ 41%] Education/sample_courses
-reading sources... [ 44%] Examples/index
-reading sources... [ 46%] People/alekseyz/about
-reading sources... [ 49%] People/alekseyz/index
-reading sources... [ 51%] People/alekseyz/publications
-reading sources... [ 54%] People/alekseyz/research
-reading sources... [ 56%] People/alekseyz/software
-reading sources... [ 59%] People/alumni
-reading sources... [ 61%] People/collab
-reading sources... [ 63%] People/faculty
-reading sources... [ 66%] People/index
-reading sources... [ 68%] People/postdocs
+reading sources... [ 31%] Education/courses
+reading sources... [ 33%] Education/index
+reading sources... [ 36%] Education/information
+reading sources... [ 38%] Education/internship
+reading sources... [ 40%] Education/past_projects
+reading sources... [ 43%] Education/sample_courses
+reading sources... [ 45%] Examples/index
+reading sources... [ 48%] People/alekseyz/about
+reading sources... [ 50%] People/alekseyz/index
+reading sources... [ 52%] People/alekseyz/publications
+reading sources... [ 55%] People/alekseyz/research
+reading sources... [ 57%] People/alekseyz/software
+reading sources... [ 60%] People/alumni
+reading sources... [ 62%] People/collab
+reading sources... [ 64%] People/faculty
+reading sources... [ 67%] People/index
+reading sources... [ 69%] People/postdocs
 reading sources... [ 71%] People/staff
-reading sources... [ 73%] People/students
+reading sources... [ 74%] People/students
 reading sources... [ 76%] README
-reading sources... [ 78%] Software/alignment
-reading sources... [ 80%] Software/gene_finding
+reading sources... [ 79%] Software/alignment
+reading sources... [ 81%] Software/gene_finding
 reading sources... [ 83%] Software/genome_assembly
-reading sources... [ 85%] Software/index
+reading sources... [ 86%] Software/index
 reading sources... [ 88%] Software/metagenomics
 reading sources... [ 90%] Software/other_tools
 reading sources... [ 93%] Software/tophat/index
@@ -55,8 +56,6 @@ reading sources... [100%] index
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Data/genome_projects.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/information.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/sample_courses.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
-/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Examples/index.md:148: CRITICAL: Problems with "csv-table" directive path:
-[Errno 2] No such file or directory: 'People/collab.head.tsv'. [docutils]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/People/alekseyz/about.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/People/alekseyz/publications.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/People/alekseyz/research.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
@@ -103,7 +102,8 @@ reading sources... [100%] index
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/variant_analysis.md:1: WARNING: Document headings start at H2, not H1 [myst.header]
 looking for now-outdated files... none found
 pickling environment... done
-checking consistency... /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Examples/index.md: WARNING: document isn't included in any toctree [toc.not_included]
+checking consistency... /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/past_projects.md: WARNING: document isn't included in any toctree [toc.not_included]
+/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Examples/index.md: WARNING: document isn't included in any toctree [toc.not_included]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/People/alekseyz/index.md: WARNING: document isn't included in any toctree [toc.not_included]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/README.md: WARNING: document isn't included in any toctree [toc.not_included]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/tophat/index.md: WARNING: document isn't included in any toctree [toc.not_included]
@@ -126,36 +126,37 @@ writing output... [  5%] About/contact
 writing output... [  7%] About/index
 writing output... [ 10%] About/jobs
 writing output... [ 12%] CBCC/index
-writing output... [ 15%] Data/data
+writing output... [ 14%] Data/data
 writing output... [ 17%] Data/downloads
-writing output... [ 20%] Data/drosophila
-writing output... [ 22%] Data/eupathdb
+writing output... [ 19%] Data/drosophila
+writing output... [ 21%] Data/eupathdb
 writing output... [ 24%] Data/gage
-writing output... [ 27%] Data/genome_projects
+writing output... [ 26%] Data/genome_projects
 writing output... [ 29%] Data/index
-writing output... [ 32%] Education/courses
-writing output... [ 34%] Education/index
-writing output... [ 37%] Education/information
-writing output... [ 39%] Education/internship
-writing output... [ 41%] Education/sample_courses
-writing output... [ 44%] Examples/index
-writing output... [ 46%] People/alekseyz/about
-writing output... [ 49%] People/alekseyz/index
-writing output... [ 51%] People/alekseyz/publications
-writing output... [ 54%] People/alekseyz/research
-writing output... [ 56%] People/alekseyz/software
-writing output... [ 59%] People/alumni
-writing output... [ 61%] People/collab
-writing output... [ 63%] People/faculty
-writing output... [ 66%] People/index
-writing output... [ 68%] People/postdocs
+writing output... [ 31%] Education/courses
+writing output... [ 33%] Education/index
+writing output... [ 36%] Education/information
+writing output... [ 38%] Education/internship
+writing output... [ 40%] Education/past_projects
+writing output... [ 43%] Education/sample_courses
+writing output... [ 45%] Examples/index
+writing output... [ 48%] People/alekseyz/about
+writing output... [ 50%] People/alekseyz/index
+writing output... [ 52%] People/alekseyz/publications
+writing output... [ 55%] People/alekseyz/research
+writing output... [ 57%] People/alekseyz/software
+writing output... [ 60%] People/alumni
+writing output... [ 62%] People/collab
+writing output... [ 64%] People/faculty
+writing output... [ 67%] People/index
+writing output... [ 69%] People/postdocs
 writing output... [ 71%] People/staff
-writing output... [ 73%] People/students
+writing output... [ 74%] People/students
 writing output... [ 76%] README
-writing output... [ 78%] Software/alignment
-writing output... [ 80%] Software/gene_finding
+writing output... [ 79%] Software/alignment
+writing output... [ 81%] Software/gene_finding
 writing output... [ 83%] Software/genome_assembly
-writing output... [ 85%] Software/index
+writing output... [ 86%] Software/index
 writing output... [ 88%] Software/metagenomics
 writing output... [ 90%] Software/other_tools
 writing output... [ 93%] Software/tophat/index
@@ -163,11 +164,9 @@ writing output... [ 95%] Software/transcriptome_assembly
 writing output... [ 98%] Software/variant_analysis
 writing output... [100%] index
 
-/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/internship.md:23: WARNING: 'myst' cross-reference target not found: './past_projects.shtml' [myst.xref_missing]
-/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/internship.md:58: WARNING: 'myst' cross-reference target not found: './past_projects.shtml' [myst.xref_missing]
-/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/internship.md:83: WARNING: undefined label: 'florianbreitwieser' [ref.ref]
+/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Education/internship.md:84: WARNING: undefined label: 'florianbreitwieser' [ref.ref]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/People/alumni.md:205: WARNING: 'myst' cross-reference target not found: 'kim-lab.org' [myst.xref_missing]
-/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:18: WARNING: 'myst' cross-reference target not found: '/_/legacy/tophat/index.html' [myst.xref_missing]
+/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:18: WARNING: 'myst' cross-reference target not found: '/_static/legacy/tophat/index.html' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:33: WARNING: 'myst' cross-reference target not found: '/hisat/index' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:42: WARNING: 'myst' cross-reference target not found: '/hisat2/index' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:51: WARNING: 'myst' cross-reference target not found: '/hisat-genotype/index' [myst.xref_missing]
@@ -183,7 +182,7 @@ writing output... [100%] index
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/gene_finding.md:40: WARNING: 'myst' cross-reference target not found: '/jigsaw/index' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/genome_assembly.md:65: WARNING: 'myst' cross-reference target not found: '/quake/index' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/genome_assembly.md:70: WARNING: 'myst' cross-reference target not found: '/FLASH/index' [myst.xref_missing]
-/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:19: WARNING: 'myst' cross-reference target not found: '/_/legacy/tophat/index.html' [myst.xref_missing]
+/home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:19: WARNING: 'myst' cross-reference target not found: '/_static/legacy/tophat/index.html' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:34: WARNING: 'myst' cross-reference target not found: '/hisat/index' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:43: WARNING: 'myst' cross-reference target not found: '/hisat2/index' [myst.xref_missing]
 /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/Software/alignment.md:52: WARNING: 'myst' cross-reference target not found: '/hisat-genotype/index' [myst.xref_missing]
@@ -290,6 +289,6 @@ copying images... [100%] _static/People/Rafael_dos_Santos_Peixoto_25pc.webp
 dumping search index in English (code: en)... done
 dumping object inventory... done
 sphinx-sitemap: sitemap.xml was generated for URL https://dpuiu.github.io/www.ccb.jhu.edu/ in /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/_build/pydata_sphinx_theme/sitemap.xml
-build succeeded, 120 warnings.
+build succeeded, 118 warnings.
 
 The HTML pages are in _build/pydata_sphinx_theme.

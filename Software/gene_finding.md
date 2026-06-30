@@ -32,7 +32,7 @@ Fast high-throughput
 [spliced alignment](https://bioinformatics.oxfordjournals.org/content/27/13/1869)
 (sim4, sim4cc) and sequence indexing.
 
-### [ASprofile](/ASprofile/index)
+### [ASprofile](/software/ASprofile/index)
 
 A suite of programs for extracting, quantifying and comparing alternative
 splicing (AS) events from RNA-seq data.

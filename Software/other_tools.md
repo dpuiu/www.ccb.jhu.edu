@@ -39,16 +39,6 @@ A comprehensive system for finding unique DNA sequences that can be used to
 identify any bacterial or virus species or strain. Currently has over 13,000
 species and strains in its database..
 
-### [Kraken](/kraken/index)
-
-A fast system for taxonomic classification of short or long metagenomic DNA
-sequences.
-
-### [Centrifuge](/software/centrifuge/)
-
-A very rapid and memory-efficient system for the classification of DNA sequences
-from microbial samples.
-
 ### [PhymmBL](/software/phymmbl/index.shtml)
 
 A one-stop system for taxonomically classifying metagenomic short reads.

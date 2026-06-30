@@ -15,7 +15,7 @@ typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
 to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
 Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
 
-### [Tophat](/_static/Legacy/tophat/index.html)
+### [Tophat](/_static/legacy/tophat/index.html)
 
 A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
 exon-exon splice junctions and is extremely fast due to its use of the Bowtie2
@@ -39,7 +39,7 @@ a whole-genome FM index to anchor each alignment, and (2) numerous local FM
 indexes for very rapid extensions of these alignments. HISAT supports genomes of
 any size, including those larger than 4 billion bases.
 
-### [HISAT2](/hisat2/index)
+### [HISAT2](https://daehwankimlab.github.io/hisat2/)
 
 HISAT2 is a new, rapid and accurate system for aligning NGS reads (both DNA and
 RNA) against a population of genomes. HISAT2 is a successor to both HISAT and
@@ -48,7 +48,7 @@ Ferragina-Manzini (FM) index to incorporate genomic differences among
 individuals into the reference genome. HISAT2 is currently maintained at
 [kim-lab.org](https://kim-lab.org/).
 
-### [HISAT-genotype](/hisat-genotype/index)
+### [HISAT-genotype](https://daehwankimlab.github.io/hisat-genotype/)
 
 HISAT-genotype is a next-generation platform that enables rapid and accurate
 genomic analysis of our genomes using next-generation sequencing data on a
