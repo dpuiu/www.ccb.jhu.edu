@@ -46,14 +46,20 @@ specific needs and analyses.
 
 ## Contact us
 
-For more information or to submit a request for analytical services please
-contact:\
-**Liliana Florea, Ph.D.**\
-Faculty Manager, CBCC\
-Associate Professor\
-Email: [florea@jhu.edu](mailto:florea@jhu.edu)\
-Phone: (443)287-5624\
-McKusick-Nathans Institute of Genetic Medicine\
-1900 E. Monument St., Welch Medical Library 113\
-Johns Hopkins University School of Medicine\
-Baltimore, MD 21205
+For more information or to submit a request for analytical services please contact:
+
+```{admonition} Primary Contact
+:class: tip
+
+**Liliana Florea, Ph.D.**  
+Faculty Manager, CBCC  
+Associate Professor  
+McKusick-Nathans Institute of Genetic Medicine  
+Johns Hopkins University School of Medicine  
+
+**Address**: Room 113, Welch Medical Library, 
+[1900 E. Monument St., Baltimore, MD 21205](https://www.google.com/maps/place/1900+E+Monument+Street+Baltimore+MD+21205)
+
+**Telephone**: <a href="tel:+14432875624">(443)287-5624</a>  
+**Email**: [florea@jhu.edu](mailto:florea@jhu.edu)  
+```

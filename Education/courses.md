@@ -32,7 +32,7 @@
   - EN.601.448/649
   - {ref}`alexisbattle`
 * - Spring
-  - [Computational Genomics: Applied Comparative Genomics](#CCB_Courses-749)
+  - [Computational Genomics: Applied Comparative Genomics](#CCB_Courses-449)
   - EN.601.749
   - {ref}`michaelschatz`
 * - Spring
@@ -172,7 +172,7 @@ ______________________________________________________________________
 
 (CCB_Courses-749)=
 
-### [EN.601.749 Computational Genomics: Applied Comparative Genomics](https://e-catalogue.jhu.edu/search/?search=EN.601.749)
+### [EN.601.749 Computational Genomics: Applied Comparative Genomics](https://e-catalogue.jhu.edu/search/?search=EN.601.449)
 
 The goal of this course is to study the leading computational and quantitative
 approaches for comparing and analyzing genomes starting from raw sequencing
@@ -189,7 +189,7 @@ ______________________________________________________________________
 
 (CCB_Courses-744)=
 
-### [ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease]https://e-catalogue.jhu.edu/search/?search=ME.710.744)
+### [ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease](https://e-catalogue.jhu.edu/search/?search=ME.710.744)
 
 ______________________________________________________________________
 
