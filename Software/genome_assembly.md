@@ -32,6 +32,16 @@ development is a joint effort between JHU and UMD, and with recent modules
 designed to create hybrid assemblies using both short reads (Illumina) and long
 reads (PacBio/Oxford Nanopore).
 
+### [FLASH](/FLASH/index)
+
+A fast, accurate program to increase the length of reads by overlapping and
+merging paired reads from fragments shorter than twice the length of reads.
+Primarily designed to merge Illumina paired reads.
+
+--- 
+
+## Older Software
+
 ### [AMOS Assembler project](https://amos.sourceforge.net/)
 
 This is a set of tools, libraries, and freestanding genome assemblers, all open
@@ -67,12 +77,6 @@ computer. [See the journal paper here.](https://genomebiology.com/2007/8/3/R34)
 A software package to detect and correct substitution sequencing errors in WGS
 data sets with deep coverage.
 
-### [FLASH](/FLASH/index)
-
-A fast, accurate program to increase the length of reads by overlapping and
-merging paired reads from fragments shorter than twice the length of reads.
-Primarily designed to merge Illumina paired reads.
-
 ### [Celera Assembler](https://wgs-assembler.sourceforge.net)
 
 A whole genome assembler originally developed at Celera Genomics for the
@@ -95,3 +99,4 @@ a better assembly.  See the
 A tool for correcting sequencing and basecaller errors using sequence assembly
 and chromatogram data from Sanger (1st generation) reads. On average, AutoEditor
 corrects 80% of erroneous base calls, with an accuracy of 99.99%.
+

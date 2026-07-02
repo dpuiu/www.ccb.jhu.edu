@@ -12,11 +12,6 @@ A software to find regions that evolve at a slower or faster rate than the
 neutral evolution rate in any clade of a phylogeny of a set of very closely
 related species.
 
-### [DupLoCut](/duplocut/index)
-
-A software which computes ancestral gene orders under the duplication-loss
-evolutionary model.
-
 ### [ELPH](/ELPH/index)
 
 A motif finder based on Gibbs sampling that can find ribosome binding sites,
@@ -36,11 +31,6 @@ species and strains in its database..
 
 A one-stop system for taxonomically classifying metagenomic short reads.
 
-### [rddChecker](https://ccb.jhu.edu/software/rddChecker/index.shtml)
-
-A program for determining sites of RNA-DNA differences (RDDs) and candidate RNA
-editing sites from RNA-seq data.
-
 ### [RepeatFinder](https://www.cbcb.umd.edu/software/RepeatFinder/)
 
 an older system for finding and characterizing repetitive sequences in complete
@@ -50,11 +40,6 @@ and partial genomes.
 
 A tool for unsupervised clustering of metagenomic sequences using interpolated
 Markov models.
-
-### [SEE ESE](/SeeEse/index)
-
-an online tool for identifying exon splicing enhancers (ESEs) in Arabidopsis and
-Drosophila.
 
 ### [TransTermHP](https://transterm.ccb.jhu.edu/)
 

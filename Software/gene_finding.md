@@ -1,10 +1,20 @@
 ## Computational Gene Finding
 
+### [EviAnn](https://github.com/alekseyzimin/EviAnn_release)
+
+A novel genome annotation software package based entirely on experimental evidence. 
+It derives protein-coding gene and long non-coding RNA (lncRNA) annotations from RNA-seq 
+data and/or transcript sequences, together with alignments of proteins from related species.
+
 ### [Glimmer](/glimmer/index)
 
 A system that uses interpolated Markov models to find genes in microbial DNA.
 Used to annotate hundreds (possibly thousands) of bacterial, archaeal, and viral
 genomes. Current version is 3.02.
+
+--- 
+
+## Older Software
 
 ### [GlimmerHMM](/glimmerhmm/index)
 
@@ -20,22 +30,6 @@ metagenomics data, and the now-outdated Phymm system for phylogenetic labeling.
 ### [GeneSplicer](/genesplicer/index)
 
 A fast system for detecting splice sites in genomic DNA of various eukaryotes.
-
-### [SIM4CC](/sim4cc/index)
-
-An accurate and efficient program to align cDNA sequences (mRNAs, ESTs) to
-genomic sequences, specifically designed for cross-species alignment.
-
-### [sim4db/leaff](https://sourceforge.net/projects/kmer/)
-
-Fast high-throughput
-[spliced alignment](https://bioinformatics.oxfordjournals.org/content/27/13/1869)
-(sim4, sim4cc) and sequence indexing.
-
-### [ASprofile](/software/ASprofile/index)
-
-A suite of programs for extracting, quantifying and comparing alternative
-splicing (AS) events from RNA-seq data.
 
 ### [JIGSAW](/jigsaw/index)
 
