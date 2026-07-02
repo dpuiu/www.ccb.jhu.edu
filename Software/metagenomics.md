@@ -8,7 +8,7 @@ choose the best tool for their project, we provide this linked page as an
 explanation and comparison between tools along with descriptions of each author
 and their roles in the software development.
 
-### [Kraken](https://github.com/DerrickWood/kraken/wiki)
+### [Kraken](https://github.com/dpuiu/kraken/wiki) <!--(https://github.com/DerrickWood/kraken/wiki)-->
 
 Kraken is a very fast system for taxonomic classification of short or long DNA
 sequences from a microbiome or metagenomic sample.
