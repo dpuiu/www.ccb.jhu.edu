@@ -1,4 +1,4 @@
-## Next-generation Sequence Alignment Software
+## Alignment
 
 ### [Bowtie](https://bowtie-bio.sf.net)
 
