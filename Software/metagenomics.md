@@ -1,6 +1,6 @@
 ## Metagenomics Classification, Abundance Estimation and Visualization
 
-### [How to Choose a Metagenomics Classifier](/choosing-a-metagenomics-classifier/index)
+### [How to Choose a Metagenomics Classifier](https://github.com/dpuiu/choosing-a-metagenomics-classifier/wiki)
 
 Kraken, KrakenUniq, Kraken2, and Centrifuge are all metagenomic classifiers
 developed by researchers in the Center for Computational Biology. To help users
@@ -15,7 +15,7 @@ sequences from a microbiome or metagenomic sample.
 [See the 2014 Genome Biology paper here](https://genomebiology.com/2014/15/3/R46/abstract).
 NOTE: KrakenUniq is a newer, more capable version of Kraken1, and we strongly
 recommend that users upgrade to KrakenUniq or else Kraken2.
-
+	
 ### [KrakenUniq](https://github.com/fbreitwieser/krakenuniq/wiki)
 
 KrakenUniq is update to Kraken 1 that runs as fast as Kraken and can work with
@@ -34,7 +34,7 @@ algorithm but with improvements in speed and memory. Specifically, Kraken 2 have
 faster database build times, smaller database sizes, and faster classification
 speeds. Additional details are explained on the Kraken 2 webpage.
 
-### [Centrifuge](https://github.com/infphilo/centrifuge/wiki)
+### [Centrifuge](https://github.com/dpuiu/centrifuge/wiki) <!--(https://github.com/DaehwanKimLab/centrifuge/wiki)-->
 
 Centrifuge is a very rapid and memory-efficient system for the classification of
 DNA sequences from microbial samples, with better sensitivity than and
@@ -46,7 +46,12 @@ small index (e.g., 4.3 GB for ~4,100 bacterial genomes).
 Bracken statistical method that computes the abundance of species in DNA
 sequences from a metagenomics sample.
 
-### [Pavian](https://github.com/fbreitwieser/pavian/wiki)
+### [Pavian](https://github.com/dpuiu/pavian/wiki) <!--(https://github.com/fbreitwieser/pavian/wiki)-->
 
 Pavian is a web application for exploring metagenomics classification results,
 with a special focus on infectious disease diagnosis.
+
+### [KrakenTools](https://github.com/dpuiu/krakentools/wiki) <!--https://github.com/jenniferlu717/KrakenTools-->
+
+KrakenTools is a suite of scripts to be used alongside the Kraken, KrakenUniq, Kraken 2, or Bracken programs. 
+These scripts are designed to help Kraken users with downstream analysis of Kraken results.

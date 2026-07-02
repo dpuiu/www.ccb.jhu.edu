@@ -15,7 +15,7 @@ files designed to enable rapid manupulation of extremely large datasets
 and TieCov can be used for easier programmatic and visual analysis and
 comparison of groups within large sequencing datasets.
 
-### [EASTR](/eastr/index)
+### [EASTR](https://github.com/dpuiu/EASTR/wiki) <!--(https://github.com/dpuiu/EASTR/wiki)-->
 
 EASTR is a tool for detecting spuriously spliced alignments and junctions in
 RNA-seq datasets and reference annotations. It improves the accuracy of

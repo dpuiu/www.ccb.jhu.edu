@@ -310,24 +310,94 @@ salz:
 cd /home/dpuiu/www.ccb.jhu.edu.html/md
 
 #eastr : ida (already have the MD files)
-pandoc ../software/eastr/settings/index.html  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq | more
+cd md/software/eastr
+pandoc ../../../software/eastr/index.html           -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/eastr/settings/index.html  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
 
+######### 
 #bracken: jen
 cd md/software/bracken
+
 ll ../../../software/bracken/*shtml | sort -k5,5nr
 -rw-rw-r--. 1 jlu26 salzberg_ifx 14700 Oct  3  2022 ../software/bracken/home.shtml
 -rw-rw-r--. 1 jlu26 salzberg_ifx 14514 Oct  7  2019 ../software/bracken/manual.shtml
 -rw-rw-r--. 1 jlu26 salzberg_ifx  1729 Oct 11  2018 ../software/bracken/index.shtml
--rw-rw-r--. 1 jlu26 salzberg_ifx   390 Apr  6  2016 ../software/bracken/example.shtml
+#-rw-rw-r--. 1 jlu26 salzberg_ifx   390 Apr  6  2016 ../software/bracken/example.shtml
 
-pandoc ../../../software/bracken/home.shtm   l   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" | uniq > home.md1
-pandoc ../../../software/bracken/manual.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" | uniq > manual.md1
-pandoc ../../../software/bracken/example.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" | uniq > example.md1
+pandoc ../../../software/bracken/home.shtml      -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/bracken/manual.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
+pandoc ../../../software/bracken/example.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > example.md0
 
-cat home.md1 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed  > home.md2
-cat manual.md1 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed  > manual.md2
-cat examople.md1 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed  > example.md2
+nano *0
+grep ccb *0
+grep "www.ccb" *0
+grep "http:" *0
+grep shtml *0
+grep -n "\[" *.md0  | grep -v "\]"
+grep -n "](" *.md0  | grep -v "\["
+grep -n "(#"  *.md0 
+chmod a-w *0
+
+cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+cat example.md0 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > example.md2
+grep  "^#" home.md2  | perl -pe 'if (/^(#+)\s+(.*)$/){$t=$2;$id=lc$t;$id=~s/[^a-z0-9]+/-/g;$id=~s/^-|-$//g;$_="$id\n"}' # get header ids
+
+nano *2
+grep ccb *2
+grep "http:" *2
+grep -n "](" *.md2  | grep -v "\["
+grep -n "](" *.md2  | grep -v "\]"
+grep -n "(#"  *.md2 
+paste home.md?   | grep ccb
+paste manual.md? | grep ccb
 
 
 #######
+#kraken : derick
+cd md/software/kraken
 
+
+ll ../../../software/kraken/*html
+-rw-rw-r--. 1 salzberg salzberg_ifx  9537 Sep 29  2022 ../../../software/kraken/index.shtml
+#-rw-rw-r--. 1 jlu26    salzberg_ifx 43060 Oct 17  2017 ../../../software/kraken/MANUAL_2016.html
+-rw-rw-r--. 1 gpertea  salzberg_ifx 46202 Oct 29  2018 ../../../software/kraken/MANUAL.html
+
+pandoc ../../../software/kraken/index.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/kraken/MANUAL.html    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
+
+cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+
+#######
+#krakentools : jen
+cd md/software/krakentools
+ll ../../../software/krakentools/*html
+
+
+ll ../../../software/krakentools/*html
+-rw-rw-r--. 1 jlu26 salzberg_ifx 11459 Dec 10  2020 ../../../software/krakentools/extractreads.shtml
+-rw-rw-r--. 1 jlu26 salzberg_ifx  4568 Oct  3  2022 ../../../software/krakentools/home.shtml
+
+pandoc ../../../software/krakentools/home.shtml         -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/krakentools/extractreads.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
+
+cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+####
+
+#centrifuge: daewan
+cd md/software/centrifuge
+ll ../../../software/centrifuge/*html | sort -k5,5nr
+-rw-rw-r--. 1 infphilo salzberg_ifx 84288 Feb  8  2017 ../../../software/centrifuge/manual.html
+-rw-rw-r--. 1 infphilo salzberg_ifx 64136 Jun  6  2018 ../../../software/centrifuge/manual.inc.html
+-rw-rw-r--. 1 infphilo salzberg_ifx  7099 Jun  8  2020 ../../../software/centrifuge/index.shtml
+
+pandoc ../../../software/centrifuge/manual.inc.html -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > manual.md0
+pandoc ../../../software/centrifuge/index.shtml     -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > home.md0
+pandoc ../../../software/centrifuge/_sidebar.inc.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > _sidebar.md0
+
+
+cat home.md0    | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat manual.md0  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+cat _sidebar.md0 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > _sidebar.md2
