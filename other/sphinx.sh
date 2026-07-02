@@ -238,6 +238,22 @@ find /home/dpuiu/Downloads/Logos | grep -i white |  grep horizontal | grep -v MA
 
 convert JHU.logo_horizontal.white.png -resize x130 JHU.logo_horizontal.white_130.png
 
+
+#cd _build/html
+#python3 -m http.server 8000
+######
+
+git switch main
+git merge update-my-page
+git pull
+###
+
+python3 -m http.server 8000 --directory docs/
+####
+ls *100* | perl -ane '/(.+)_100/; print "convert $1.png -resize x75 ${1}_100.png\n";' | bash
+find . -name "*md" | xargs cat | grep ^####
+
+	
 #########
 
 pip install mdformat mdformat-gfm mdformat-frontmatter --break-system-packages
@@ -261,3 +277,48 @@ find docs/ -name "*html" | xargs grep -c -P "<h4"    > other/h4
 paste other/h? | sed 's|:|\t|g' | perl -ane 'print if($F[1]==0 and $F[3]>0);'
 paste other/h? | sed 's|:|\t|g' | perl -ane 'print if($F[3]==0 and $F[5]>0);'
 
+############
+
+#software
+
+ cat software.txt   | perl -ane ' print "$1\n" if(/github.+\/(.+)\//); print "\n";'  | grep -v ^$ | sort | uniq -c | nl
+     1	      1 cole-trapnell-lab
+     2	      1 DaehwanKimLab
+     3	      2 DerrickWood
+     4	      1 dstreett
+     5	      1 edwardsLab
+     6	      1 fbreitwieser
+     7	      1 gmes-glimmer
+     8	      2 gpertea
+     9	      1 infphilo
+    10	      2 jenniferlu717
+    11	      1 mdozmorov
+    12	      1 salzberg-lab
+    13	      1 yandell-lab
+
+cat software.txt   | perl -ane 'chomp; print $_; print " : $1" if(/github.+\/(.+)\//); print "\n";'
+
+#######
+
+#convert software pages
+#pandoc ../software/eastr/settings/index.html  -f html  -t markdown   --wrap=auto  --columns=100  -o software/easter/settings.md --strip-comments   --from=html-native_divs
+#pandoc ../software/eastr/index.html           -f html  -t markdown   --wrap=auto  --columns=100  -o software/easter/index.md    --strip-comments   --from=html-native_divs
+
+salz:
+cd /home/dpuiu/www.ccb.jhu.edu.html/md
+
+#eastr : ida (already have the MD files)
+pandoc ../software/eastr/settings/index.html  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq | more
+
+#bracken: jen
+ll ../software/bracken/*shtml | sort -k5,5nr
+-rw-rw-r--. 1 jlu26 salzberg_ifx 14700 Oct  3  2022 ../software/bracken/home.shtml
+-rw-rw-r--. 1 jlu26 salzberg_ifx 14514 Oct  7  2019 ../software/bracken/manual.shtml
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1729 Oct 11  2018 ../software/bracken/index.shtml
+-rw-rw-r--. 1 jlu26 salzberg_ifx   390 Apr  6  2016 ../software/bracken/example.shtml
+
+pandoc ../software/bracken/manual.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq > software/bracken/manual.md
+pandoc ../software/bracken/home.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq > software/bracken/home.md
+pandoc ../software/bracken/example.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq > software/bracken/example.md
+
+cat software.txt2  | grep git | perl -ane 'print "s|$F[3]|$F[5]/wiki|\n"' > software.sed

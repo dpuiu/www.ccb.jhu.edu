@@ -57,24 +57,6 @@ discovery of novel HLA alleles, DNA fingerprinting analysis, and other
 functionalities. All HISAT programs were developed by Daehwan Kim and they are
 currently maintained at [kim-lab.org](https://kim-lab.org/).
 
-
-### [TieBrush](https://github.com/alevar/tiebrush)
-
-A utility for efficient merging redundant information from multiple alignment
-files designed to enable rapid manupulation of extremely large datasets
-(RNA-seq, whole genome, exome, etc.). Data representations built with TieBrush
-and TieCov can be used for easier programmatic and visual analysis and
-comparison of groups within large sequencing datasets.
-
-### [EASTR](/eastr/index)
-
-EASTR is a tool for detecting spuriously spliced alignments and junctions in
-RNA-seq datasets and reference annotations. It improves the accuracy of
-downstream analyses, such as transcriptome assembly, by dentifying and removing
-misaligned spliced alignments. The tool can process GTF, BED, and BAM files as
-input.
-
-
 ### [CloudBurst](https://cloudburst-bio.sf.net)
 
 An older program for highly sensitive short read mapping using MapReduce.
@@ -103,10 +85,3 @@ Diamund is an efficient algorithm for variant detection in family trios or pairs
 of closely related exome or whole-genome sequencing samples. It compares DNA
 sequences directly to one another, without aligning them to the reference
 genome.
-
-### [EDGE-pro](/EDGE-pro/index)
-
-EDGE-pro is a program for estimating gene expression from prokaryotic RNA-seq.
-EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks, does not
-allow spliced alignments. It also handles overlapping genes, a common phenomenon
-in bacteria that is largely absent in eukaryotes.
