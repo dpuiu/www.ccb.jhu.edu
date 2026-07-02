@@ -1,13 +1,13 @@
-# Transcriptome Assembly
+## Transcriptome Assembly
 
-## [StringTie](stringtie/index)
+### [StringTie](stringtie/index)
 
 A fast and accurate transcript assembler and abundance estimator for RNA-seq
 data. Designed as a successor to Cufflinks, StringTie assembles transcripts from
 the alignments produced by TopHat2, HISAT, or other spliced aligners, and
 quantitates those transcripts.
 
-## [TieBrush](https://github.com/alevar/tiebrush)
+### [TieBrush](https://github.com/alevar/tiebrush)
 
 A utility for efficient merging redundant information from multiple alignment
 files designed to enable rapid manupulation of extremely large datasets
@@ -15,7 +15,7 @@ files designed to enable rapid manupulation of extremely large datasets
 and TieCov can be used for easier programmatic and visual analysis and
 comparison of groups within large sequencing datasets.
 
-## [EASTR](/eastr/index)
+### [EASTR](/eastr/index)
 
 EASTR is a tool for detecting spuriously spliced alignments and junctions in
 RNA-seq datasets and reference annotations. It improves the accuracy of
@@ -23,7 +23,7 @@ downstream analyses, such as transcriptome assembly, by dentifying and removing
 misaligned spliced alignments. The tool can process GTF, BED, and BAM files as
 input.
 
-## [GFF utilities](/stringtie/gff)
+### [GFF utilities](/stringtie/gff)
 
 - [gffread](/stringtie/gff) : A program for filtering, converting and
   manipulating GFF files

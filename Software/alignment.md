@@ -1,12 +1,5 @@
 ## Next-generation Sequence Alignment Software
 
-### [Arioc](https://github.com/rwilton/arioc)
-
-Arioc is a GPU-accelerated DNA short-read aligner for WGS and WGBS reads. With
-high throughput (~1.5 to 2 million reads per second with the human reference
-genome in a 4-GPU computer), it is well suited to large-scale NGS data
-processing.
-
 ### [Bowtie](https://bowtie-bio.sf.net)
 
 An ultrafast, memory-efficient short read aligner that aligns short DNA
@@ -14,21 +7,6 @@ sequences to the human genome at a rate of about 25 million reads per hour on a
 typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
 to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
 Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
-
-### [Tophat](/_static/legacy/tophat/index.html)
-
-A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
-exon-exon splice junctions and is extremely fast due to its use of the Bowtie2
-aligner. The last release, TopHat2, runs with either Bowtie1 or Bowtie2 and
-includes algorithms that significant enhance TopHat's sensitivity, particularly
-in the presence of pseudogenes. TopHat2 includes TopHat-Fusion as an option.
-TopHat2 includes TopHat-Fusion as an option.
-
-### [TopHat-Fusion](https://tophat-fusion.sourceforge.net)
-
-TopHat-Fusion is an enhanced version of TopHat with the ability to align reads
-across fusion points, which results from the breakage and re-joining of two
-different chromosomes, or from rearrangements within a chromosome.
 
 ### [HISAT](/hisat/index)
 
@@ -56,6 +34,32 @@ desktop within a few hours. The platform currently supports HLA typing,
 discovery of novel HLA alleles, DNA fingerprinting analysis, and other
 functionalities. All HISAT programs were developed by Daehwan Kim and they are
 currently maintained at [kim-lab.org](https://kim-lab.org/).
+
+---
+
+## Older Software
+
+### [Arioc](https://github.com/rwilton/arioc)
+
+Arioc is a GPU-accelerated DNA short-read aligner for WGS and WGBS reads. With
+high throughput (~1.5 to 2 million reads per second with the human reference
+genome in a 4-GPU computer), it is well suited to large-scale NGS data
+processing.
+
+### [Tophat](/_static/legacy/tophat/index.html)
+
+A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
+exon-exon splice junctions and is extremely fast due to its use of the Bowtie2
+aligner. The last release, TopHat2, runs with either Bowtie1 or Bowtie2 and
+includes algorithms that significant enhance TopHat's sensitivity, particularly
+in the presence of pseudogenes. TopHat2 includes TopHat-Fusion as an option.
+TopHat2 includes TopHat-Fusion as an option.
+
+### [TopHat-Fusion](https://tophat-fusion.sourceforge.net)
+
+TopHat-Fusion is an enhanced version of TopHat with the ability to align reads
+across fusion points, which results from the breakage and re-joining of two
+different chromosomes, or from rearrangements within a chromosome.
 
 ### [CloudBurst](https://cloudburst-bio.sf.net)
 
