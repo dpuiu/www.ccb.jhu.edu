@@ -296,8 +296,10 @@ paste other/h? | sed 's|:|\t|g' | perl -ane 'print if($F[3]==0 and $F[5]>0);'
     12	      1 salzberg-lab
     13	      1 yandell-lab
 
-cat software.txt   | perl -ane 'chomp; print $_; print " : $1" if(/github.+\/(.+)\//); print "\n";'
-
+cat software.txt | perl -ane 'chomp; print $_; print " : $1" if(/github.+\/(.+)\//); print "\n";' > software.txt2
+cat software.txt2  | grep git | perl -ane 'print "s|$F[3]|$F[5]/wiki|\n"' > software.sed1  # original
+cat software.sed1  | sed 's|\||\t|g'   | p 'print "s\|$F[2]|$F[2]|\n";' > software.sed2    # dpuiu forks
+cat software.sed2  | sed 's|\||\t|g'   | p 'print "s\|$F[2]|$F[1]|\n";' > software.sed3    # back to original
 #######
 
 #convert software pages
@@ -311,14 +313,21 @@ cd /home/dpuiu/www.ccb.jhu.edu.html/md
 pandoc ../software/eastr/settings/index.html  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq | more
 
 #bracken: jen
-ll ../software/bracken/*shtml | sort -k5,5nr
+cd md/software/bracken
+ll ../../../software/bracken/*shtml | sort -k5,5nr
 -rw-rw-r--. 1 jlu26 salzberg_ifx 14700 Oct  3  2022 ../software/bracken/home.shtml
 -rw-rw-r--. 1 jlu26 salzberg_ifx 14514 Oct  7  2019 ../software/bracken/manual.shtml
 -rw-rw-r--. 1 jlu26 salzberg_ifx  1729 Oct 11  2018 ../software/bracken/index.shtml
 -rw-rw-r--. 1 jlu26 salzberg_ifx   390 Apr  6  2016 ../software/bracken/example.shtml
 
-pandoc ../software/bracken/manual.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq > software/bracken/manual.md
-pandoc ../software/bracken/home.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq > software/bracken/home.md
-pandoc ../software/bracken/example.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=clean.lua | grep -v "div" | uniq > software/bracken/example.md
+pandoc ../../../software/bracken/home.shtm   l   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" | uniq > home.md1
+pandoc ../../../software/bracken/manual.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" | uniq > manual.md1
+pandoc ../../../software/bracken/example.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" | uniq > example.md1
 
-cat software.txt2  | grep git | perl -ane 'print "s|$F[3]|$F[5]/wiki|\n"' > software.sed
+cat home.md1 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed  > home.md2
+cat manual.md1 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed  > manual.md2
+cat examople.md1 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed  > example.md2
+
+
+#######
+

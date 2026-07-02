@@ -8,7 +8,7 @@ choose the best tool for their project, we provide this linked page as an
 explanation and comparison between tools along with descriptions of each author
 and their roles in the software development.
 
-### [Kraken](/kraken/index)
+### [Kraken](https://github.com/DerrickWood/kraken/wiki)
 
 Kraken is a very fast system for taxonomic classification of short or long DNA
 sequences from a microbiome or metagenomic sample.
@@ -16,7 +16,7 @@ sequences from a microbiome or metagenomic sample.
 NOTE: KrakenUniq is a newer, more capable version of Kraken1, and we strongly
 recommend that users upgrade to KrakenUniq or else Kraken2.
 
-### [KrakenUniq](https://github.com/fbreitwieser/krakenuniq)
+### [KrakenUniq](https://github.com/fbreitwieser/krakenuniq/wiki)
 
 KrakenUniq is update to Kraken 1 that runs as fast as Kraken and can work with
 the same databases, but additionally counts the number of unique k-mers using
@@ -27,26 +27,26 @@ Christopher Pockrandt that can run on low-memory machines, including laptops,
 even with a huge database (hundreds of GB). It's also available for installation
 using bioconda, at <https://anaconda.org/bioconda/krakenuniq>.
 
-### [Kraken2](/software/kraken2/index)
+### [Kraken2](https://github.com/DerrickWood/kraken2/wiki)
 
 Kraken2 is an improved version of Kraken, using the same classification
 algorithm but with improvements in speed and memory. Specifically, Kraken 2 have
 faster database build times, smaller database sizes, and faster classification
 speeds. Additional details are explained on the Kraken 2 webpage.
 
-### [Centrifuge](/centrifuge/index)
+### [Centrifuge](https://github.com/infphilo/centrifuge/wiki)
 
 Centrifuge is a very rapid and memory-efficient system for the classification of
 DNA sequences from microbial samples, with better sensitivity than and
 comparable accuracy to other leading systems. Centrifuge requires a relatively
 small index (e.g., 4.3 GB for ~4,100 bacterial genomes).
 
-### [Bracken](/bracken/index)
+### [Bracken](https://github.com/dpuiu/Bracken/wiki) <!--(https://github.com/jenniferlu717/Bracken/wiki)-->
 
 Bracken statistical method that computes the abundance of species in DNA
 sequences from a metagenomics sample.
 
-### [Pavian](/pavian/index)
+### [Pavian](https://github.com/fbreitwieser/pavian/wiki)
 
 Pavian is a web application for exploring metagenomics classification results,
 with a special focus on infectious disease diagnosis.
