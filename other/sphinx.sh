@@ -309,6 +309,9 @@ cat software.sed2  | sed 's|\||\t|g'   | p 'print "s\|$F[2]|$F[1]|\n";' > softwa
 salz:
 cd /home/dpuiu/www.ccb.jhu.edu.html/md
 
+######
+#kraken2
+######
 #eastr : ida (already have the MD files)
 cd md/software/eastr
 pandoc ../../../software/eastr/index.html           -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
@@ -329,9 +332,9 @@ pandoc ../../../software/bracken/manual.shtml    -f html  -t gfm   --wrap=auto  
 pandoc ../../../software/bracken/example.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > example.md0
 
 nano *0
-grep ccb *0
 grep "www.ccb" *0
 grep "http:" *0
+grep ccb *0
 grep shtml *0
 grep -n "\[" *.md0  | grep -v "\]"
 grep -n "](" *.md0  | grep -v "\["
@@ -401,3 +404,60 @@ pandoc ../../../software/centrifuge/_sidebar.inc.shtml -f html  -t gfm   --wrap=
 cat home.md0    | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
 cat manual.md0  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
 cat _sidebar.md0 | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > _sidebar.md2
+
+#####
+
+# pavian: florian
+
+ll ../../../software/pavian/*html | sort -k5,5nr
+-rw-rw-r--. 1 fbreitwieser salzberg_ifx 2824 Oct 14  2020 ../../../software/pavian/home.shtml
+-rw-rw-r--. 1 fbreitwieser salzberg_ifx  438 Jan  4  2017 ../../../software/pavian/manual.shtml
+
+pandoc ../../../software/pavian/home.shtml     -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > home.md0
+pandoc ../../../software/pavian/manual.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > manual.md0
+
+######
+
+#choosing-a-metagenomics-classifier
+pandoc ../../../software/choosing-a-metagenomics-classifier/index.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > home.md0
+
+######
+
+#stringtie & gffcompare & gffread
+ll ../../../software/stringtie/*html | sort -k5,5nr
+-rw-rw-r--. 1 gpertea  salzberg_ifx 49304 Jun  5 11:42 ../../../software/stringtie/manual.shtml
+-rw-rw-rw-. 1 gpertea  salzberg_ifx 39459 Apr 10  2017 ../../../software/stringtie/newman.shtml
+-rw-rw-r--. 1 dmiller  salzberg_ifx 39029 Jun 16  2017 ../../../software/stringtie/dman.shtml
+-rw-rw-r--. 1 mpertea  salzberg_ifx 38193 Apr 22  2020 ../../../software/stringtie/manual-prev3.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx 36781 Apr 10 15:18 ../../../software/stringtie/gffcompare.shtml
+-rw-rw-r--. 1 dmiller  salzberg_ifx 34811 Jun 16  2017 ../../../software/stringtie/manual-prev2.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx 27119 Nov 14  2025 ../../../software/stringtie/history.shtml 
+-rw-rw-r--. 1 jysohn23 salzberg_ifx 27007 Feb  4  2017 ../../../software/stringtie/manual2.html
+-rw-rw-r--. 1 mpertea  salzberg_ifx 25955 Mar  3  2017 ../../../software/stringtie/manual-prev.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx 17106 Apr 10 15:18 ../../../software/stringtie/gff.shtml
+-rw-rw-r--. 1 mpertea  salzberg_ifx 10490 Nov  3  2025 ../../../software/stringtie/home.prev.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx  9449 Nov 14  2025 ../../../software/stringtie/home.shtml
+-rw-r--r--. 1 avaraby1 salzberg_ifx  9055 Jun 16  2017 ../../../software/stringtie/variation.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx  9052 Mar 12  2020 ../../../software/stringtie/faq.shtml
+-rw-rw-r--. 1 mpertea  salzberg_ifx  8510 Apr 22  2020 ../../../software/stringtie/home-prev.shtml
+-rw-rw-r--. 1 mpertea  salzberg_ifx  6663 Jun  3  2014 ../../../software/stringtie/index.old.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx  6125 Feb 22  2015 ../../../software/stringtie/stringtie.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx  5670 Apr  6  2016 ../../../software/stringtie/example.shtml
+-rw-rw-r--. 1 gpertea  salzberg_ifx  1818 Jun 27  2017 ../../../software/stringtie/index.shtml
+
+pandoc ../../../software/stringtie/manual.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
+pandoc ../../../software/stringtie/home.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/stringtie/faq.shtml     -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > faq.md0
+pandoc ../../../software/stringtie/gffcompare.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"    > gffcompare.md0
+pandoc ../../../software/stringtie/gff.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"    > gff.md0
+
+cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+cat faq.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > faq.md2
+cat gffcompare.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > gffcompare.md2
+cat gff.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > gff.md2
+
+#issue:
+du -hs dl/lung.bam 
+571M	dl/lung.bam
+

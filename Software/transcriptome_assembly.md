@@ -1,6 +1,6 @@
 ## Transcriptome Assembly
 
-### [StringTie](stringtie/index)
+### [StringTie](https://github.com/dpuiu/stringtie/wiki) <!--(https://github.com/gpertea/stringtie/wiki) -->
 
 A fast and accurate transcript assembler and abundance estimator for RNA-seq
 data. Designed as a successor to Cufflinks, StringTie assembles transcripts from
@@ -23,12 +23,14 @@ downstream analyses, such as transcriptome assembly, by dentifying and removing
 misaligned spliced alignments. The tool can process GTF, BED, and BAM files as
 input.
 
-### [GFF utilities](/stringtie/gff)
+### [GffRead](https://github.com/dpuiu/gffread/wiki) <!--(https://github.com/gpertea/gffread/wiki) -->
 
-- [gffread](/stringtie/gff) : A program for filtering, converting and
-  manipulating GFF files
-- [gffcompare](/stringtie/gffcompare): A program for comparing, annotating,
-  merging and tracking transcripts in GFF files
+A program for filtering, converting and manipulating GFF files
+
+### [GffCompare](https://github.com/dpuiu/gffcompare/wiki) <!--(https://github.com/gpertea/gffcompare/wiki) -->
+
+A program for comparing, annotating, merging and tracking transcripts in GFF files
+
 
 ---
 
