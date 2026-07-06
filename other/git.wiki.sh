@@ -7,6 +7,9 @@
 #stringtie
 #git clone https://github.com/dpuiu/stringtie.wiki.git
 
+#hisat
+#git clone https://github.com/dpuiu/stringtie.wiki.git
+
 ##########
 
 git add .

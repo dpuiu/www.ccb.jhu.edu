@@ -461,3 +461,42 @@ cat gff.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/ww
 du -hs dl/lung.bam 
 571M	dl/lung.bam
 
+
+########
+# hisat -daewan
+
+ll ../../../software/hisat/*html | sort -k5,5nr
+-rw-rw-r--. 1 infphilo salzberg_ifx 84288 Sep  8  2015 ../../../software/hisat/manual.html
+-rw-rw-r--. 1 infphilo salzberg_ifx 83899 Sep  8  2015 ../../../software/hisat/manual.inc.html
+-rw-rw-r--. 1 gpertea  salzberg_ifx 82776 Jul 29  2014 ../../../software/hisat/manual.in.prev.html
+-rw-rw-r--. 1 infphilo salzberg_ifx  5588 Sep  8  2015 ../../../software/hisat/index.shtml
+-rw-rwxr--. 1 infphilo salzberg_ifx  4949 Jun 12  2014 ../../../software/hisat/right_side.shtml
+-rw-rw-r--. 1 infphilo salzberg_ifx  4197 Oct 14  2017 ../../../software/hisat/sidebar.inc.shtml
+-rw-rw-r--. 1 infphilo salzberg_ifx  1175 Sep  8  2015 ../../../software/hisat/faq.shtml
+-rw-rw-r--. 1 infphilo salzberg_ifx  1080 Sep  8  2015 ../../../software/hisat/manual.shtml
+-rw-rw-r--. 1 infphilo salzberg_ifx   786 Jun 30  2014 ../../../software/hisat/topbar.inc.shtml
+-rw-rw-r--. 1 infphilo salzberg_ifx   423 Sep  8  2015 ../../../software/hisat/footer.inc.html
+-rw-rw-r--. 1 infphilo salzberg_ifx   375 Jun 12  2014 ../../../software/hisat/tutorial.html
+-rw-rw-r--. 1 infphilo salzberg_ifx   366 Jun 12  2014 ../../../software/hisat/index.html
+-rw-rw-r--. 1 infphilo salzberg_ifx   360 Jun 12  2014 ../../../software/hisat/faq.html
+
+pandoc ../../../software/hisat/manual.html  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
+pandoc ../../../software/hisat/index.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/hisat/sidebar.inc.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > _sidebar.md0
+
+cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+cat _sidebar.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > _sidebar.md2
+
+#######
+
+#tophat
+
+cat home.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat faq.md0       | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > faq.md2
+cat igenomes.md0  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > igenomes.md2
+cat manual.md0    | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+cat sidebar.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > sidebar.md2
+cat tutorial.md0  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > tutorial.md2
+
+
