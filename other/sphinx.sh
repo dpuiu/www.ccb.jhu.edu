@@ -310,7 +310,13 @@ salz:
 cd /home/dpuiu/www.ccb.jhu.edu.html/md
 
 ######
-#kraken2
+#4. kraken2
+
+cloned kraken2 and kraken2.wiki
+
+Updated Kraken2 paper link: http://genomebiology with doi
+RDP: https://github.com/rdpstaff/classifier
+
 ######
 #eastr : ida (already have the MD files)
 cd md/software/eastr
@@ -318,7 +324,7 @@ pandoc ../../../software/eastr/index.html           -f html  -t gfm   --wrap=aut
 pandoc ../../../software/eastr/settings/index.html  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
 
 ######### 
-#bracken: jen
+#5. bracken: jen
 cd md/software/bracken
 
 ll ../../../software/bracken/*shtml | sort -k5,5nr
@@ -356,10 +362,35 @@ paste home.md?   | grep ccb
 paste manual.md? | grep ccb
 
 
-#######
-#kraken : derick
-cd md/software/kraken
+###
+ll ~/www.ccb.jhu.edu.html/software/bracken/dl/
+total 24478
+-rw-rw-r--. 1 jlu26 salzberg_ifx    21764 Oct 31  2017 bracken_v1.0.tgz			del
+-rw-rw-r--. 1 jlu26 salzberg_ifx  4995859 Nov  3  2017 minibracken_files.tgz
+drwxrwsr-x. 2 jlu26 salzberg_ifx        5 Jan 24  2019 minikraken2_v1
+drwxrwsr-x. 2 jlu26 salzberg_ifx       10 Jan 30  2019 minikraken2_v2
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1900931 Oct 31  2017 minikraken_4GB_100mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1873689 Feb 10  2018 minikraken_4GB_125mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  3381014 Feb 10  2018 minikraken_4GB_125mers.kraken_cnts del
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1772782 Nov  1  2017 minikraken_4GB_200mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1918043 Nov  3  2017 minikraken_4GB_75mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1918404 Oct 31  2017 minikraken_8GB_100mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1848247 Feb 10  2018 minikraken_8GB_125mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  3319270 Feb 10  2018 minikraken_8GB_125mers.kraken_cnts del
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1664875 Nov  1  2017 minikraken_8GB_200mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx  1980005 Nov  3  2017 minikraken_8GB_75mers_distrib.txt
+-rw-rw-r--. 1 jlu26 salzberg_ifx 11360854 Nov 15  2017 seqid2taxid.map
 
+
+also copied software to 
+  salz:/ccb/salz7-data/ftp.ccb/pub/software/bracken/ !!! =>
+  ftp://ftp.ccb.jhu.edu/pub/software/bracken/
+
+sed 's|dl|ftp://ftp.ccb.jhu.edu/pub/software/bracken/|
+
+#######
+#2. kraken : derick
+cd md/software/kraken
 
 ll ../../../software/kraken/*html
 -rw-rw-r--. 1 salzberg salzberg_ifx  9537 Sep 29  2022 ../../../software/kraken/index.shtml
@@ -371,6 +402,11 @@ pandoc ../../../software/kraken/MANUAL.html    -f html  -t gfm   --wrap=auto  --
 
 cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
 cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
+
+also copied software to 
+  salz:/ccb/salz7-data/ftp.ccb/pub/software/kraken/ !!! =>
+  ftp://ftp.ccb.jhu.edu/pub/software/kraken/
+
 
 #######
 #krakentools : jen
@@ -418,7 +454,7 @@ pandoc ../../../software/pavian/manual.shtml   -f html  -t gfm   --wrap=auto  --
 
 ######
 
-#choosing-a-metagenomics-classifier
+#1. choosing-a-metagenomics-classifier
 pandoc ../../../software/choosing-a-metagenomics-classifier/index.shtml   -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > home.md0
 
 ######
@@ -572,3 +608,6 @@ ll ../../../software/diamund/*html
 -rw-rw-r--. 1 canton salzberg_ifx 8971 Aug 18  2018 ../../../software/diamund/index.shtml
 
 pandoc ../../../software/diamund/index.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > home.md0
+
+######
+ls | grep wiki | perl -ane 'print "lychee $F[0] > $F[0]log 2>&1\n";' > ../other/lychess.all.sh 
