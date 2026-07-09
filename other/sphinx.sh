@@ -500,3 +500,75 @@ cat sidebar.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/w
 cat tutorial.md0  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > tutorial.md2
 
 
+#######
+
+#edgo-pro
+ll ../../../software/EDGE-pro/*html
+-rw-rw-r--. 1 salzberg salzberg_ifx 3278 Jul 25  2013 ../../../software/EDGE-pro/index.shtml
+
+pandoc ../../../software/EDGE-pro/index.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+
+########
+
+# elph
+
+ll ../../../software/ELPH/*html
+-rw-rw-r--. 1 gpertea salzberg_ifx 216623 Feb 11  2013 ../../../software/ELPH/arabidopsis.matrices.html
+-rw-rw-r--. 1 gpertea salzberg_ifx 225923 Feb 11  2013 ../../../software/ELPH/arab_table_matrices.html
+-rw-rw-r--. 1 gpertea salzberg_ifx   5325 Feb 11  2013 ../../../software/ELPH/Artistic_license.html
+-rw-rw-r--. 1 gpertea salzberg_ifx   3695 Feb 11  2013 ../../../software/ELPH/background9rm.html
+-rw-rw-r--. 1 gpertea salzberg_ifx  13556 Feb 11  2013 ../../../software/ELPH/background.html
+-rw-rw-r--. 1 gpertea salzberg_ifx  88374 Feb 11  2013 ../../../software/ELPH/drosophila.matrices.html
+-rw-rw-r--. 1 gpertea salzberg_ifx  16881 Feb 11  2013 ../../../software/ELPH/eseF9rm.html
+-rw-rw-r--. 1 gpertea salzberg_ifx  12682 Feb 11  2013 ../../../software/ELPH/eseF.html
+-rw-rw-r--. 1 gpertea salzberg_ifx   2499 Feb 11  2013 ../../../software/ELPH/ESEfinder.html
+-rw-rw-r--. 1 gpertea salzberg_ifx   3560 Feb 11  2013 ../../../software/ELPH/index.html
+-rw-rw-r--. 1 gpertea salzberg_ifx   3186 Mar 29  2013 ../../../software/ELPH/index.shtml
+-rw-rw-r--. 1 gpertea salzberg_ifx   5340 Feb 11  2013 ../../../software/ELPH/info_candidates.html
+-rw-rw-r--. 1 gpertea salzberg_ifx  10673 Feb 11  2013 ../../../software/ELPH/man.shtml
+
+pandoc ../../../software/ELPH/index.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/ELPH/man.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua  | grep -v "div"  > manual.md0
+
+########
+
+# quake
+ll ../../../software/quake/*shtml
+-rw-rw-r--. 1 canton salzberg_ifx 8718 Jun 17  2013 ../../../software/quake/faq.shtml
+-rwxrwxr-x. 1 canton salzberg_ifx 5301 Jun 17  2013 ../../../software/quake/index.shtml
+-rw-rw-r--. 1 canton salzberg_ifx 6849 Jun 17  2013 ../../../software/quake/manual.shtml
+
+pandoc ../../../software/quake/index.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/quake/manual.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
+pandoc ../../../software/quake/faq.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > faq.md0
+
+###########
+#BRCA-diagnostic
+ll ../../../software/BRCA-diagnostic/*.shtml
+-rw-rw-r--. 1 canton salzberg_ifx 3064 Mar 29  2013 ../../../software/BRCA-diagnostic/index.shtml
+
+pandoc ../../../software/BRCA-diagnostic/index.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div" > home.md0
+
+##########
+
+#jigsaw
+
+ll ../../../software/jigsaw/*.shtml
+-rw-rw-r--. 1 canton salzberg_ifx 14037 Aug 27  2013 ../../../software/jigsaw/index.shtml
+-rw-rw-r--. 1 canton salzberg_ifx 14831 Aug 27  2013 ../../../software/jigsaw/README_tutorial.shtml
+
+pandoc ../../../software/jigsaw/index.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/jigsaw/README_tutorial.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  
+
+#dive
+ll ../../../software/dive/*html
+-rw-rw-r--. 1 gpertea salzberg_ifx 3064 May 28  2013 ../../../software/dive/index.shtml
+
+pandoc ../../../software/dive/index.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+
+#diamund
+
+ll ../../../software/diamund/*html
+-rw-rw-r--. 1 canton salzberg_ifx 8971 Aug 18  2018 ../../../software/diamund/index.shtml
+
+pandoc ../../../software/diamund/index.shtml -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"   > home.md0

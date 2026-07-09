@@ -1,0 +1,16 @@
+git clone https://github.com/dpuiu/choosing-a-metagenomics-classifier.wiki.git
+git clone https://github.com/dpuiu/kraken.wiki.git
+git clone https://github.com/dpuiu/Bracken.wiki.git
+git clone https://github.com/dpuiu/krakentools.wiki.git
+git clone https://github.com/dpuiu/EASTR.wiki.git
+git clone https://github.com/dpuiu/centrifuge.wiki.git
+git clone https://github.com/dpuiu/stringtie.wiki.git
+git clone https://github.com/dpuiu/gffread.wiki.git
+git clone https://github.com/dpuiu/gffcompare.wiki.git
+git clone https://github.com/dpuiu/hisat2.wiki.git
+git clone https://github.com/dpuiu/tophat.wiki.git
+git clone https://github.com/dpuiu/glimmer.wiki.git
+git clone https://github.com/dpuiu/glimmerhmm.wiki.git
+git clone https://github.com/dpuiu/glimmerm.wiki.git
+git clone https://github.com/dpuiu/flash.wiki.git
+git clone https://github.com/dpuiu/fqtrim.wiki.git

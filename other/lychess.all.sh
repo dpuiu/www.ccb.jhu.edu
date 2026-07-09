@@ -1,0 +1,16 @@
+lychee choosing-a-metagenomics-classifier.wiki > choosing-a-metagenomics-classifier.wiki.log 2>&1
+lychee kraken.wiki > kraken.wiki.log 2>&1
+lychee Bracken.wiki > Bracken.wiki.log 2>&1
+lychee krakentools.wiki > krakentools.wiki.log 2>&1
+lychee EASTR.wiki > EASTR.wiki.log 2>&1
+lychee centrifuge.wiki > centrifuge.wiki.log 2>&1
+lychee stringtie.wiki > stringtie.wiki.log 2>&1
+lychee gffread.wiki > gffread.wiki.log 2>&1
+lychee gffcompare.wiki > gffcompare.wiki.log 2>&1
+lychee hisat2.wiki > hisat2.wiki.log 2>&1
+lychee tophat.wiki > tophat.wiki.log 2>&1
+lychee glimmer.wiki > glimmer.wiki.log 2>&1
+lychee glimmerhmm.wiki > glimmerhmm.wiki.log 2>&1
+lychee glimmerm.wiki > glimmerm.wiki.log 2>&1
+lychee flash.wiki > flash.wiki.log 2>&1
+lychee fqtrim.wiki > fqtrim.wiki.log 2>&1
