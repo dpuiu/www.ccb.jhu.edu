@@ -483,11 +483,13 @@ ll ../../../software/stringtie/*html | sort -k5,5nr
 
 pandoc ../../../software/stringtie/manual.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > manual.md0
 pandoc ../../../software/stringtie/home.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > home.md0
+pandoc ../../../software/stringtie/history.shtml    -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > history.md0
 pandoc ../../../software/stringtie/faq.shtml     -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > faq.md0
 pandoc ../../../software/stringtie/gffcompare.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"    > gffcompare.md0
 pandoc ../../../software/stringtie/gff.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"    > gff.md0
 
 cat home.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
+cat history.md0     | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > history.md2
 cat manual.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > manual.md2
 cat faq.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > faq.md2
 cat gffcompare.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > gffcompare.md2
@@ -527,6 +529,11 @@ cat _sidebar.md0   | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/
 #######
 
 #tophat
+
+pandoc ../../../software/tophat/fusion_index.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > fusion_index.md0
+pandoc ../../../software/tophat/fusion_tutorial.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > fusion_tutorial.md0
+pandoc ../../../software/tophat/fusion_manual.shtml  -f html  -t gfm   --wrap=auto  --columns=100   --strip-comments  --lua-filter=../../clean.lua | grep -v "div"  > fusion_manual.md0
+
 
 cat home.md0      | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > home.md2
 cat faq.md0       | sed -f ~/www.ccb.jhu.edu.html/md/software.sed1  | sed -f ~/www.ccb.jhu.edu.html/md/software.sed2 > faq.md2
@@ -611,3 +618,23 @@ pandoc ../../../software/diamund/index.shtml -f html  -t gfm   --wrap=auto  --co
 
 ######
 ls | grep wiki | perl -ane 'print "lychee $F[0] > $F[0]log 2>&1\n";' > ../other/lychess.all.sh 
+
+########
+
+ll
+total 164
+drwxrwxr-x  4 dpuiu dpuiu  4096 Jul 14 12:10 ./
+drwxrwxr-x 37 dpuiu dpuiu  4096 Jul 14 10:27 ../
+drwxrwxr-x  2 dpuiu dpuiu  4096 Jul  8 17:53 downloads/
+-rw-rw-r--  1 dpuiu dpuiu  4697 Jul 14 10:56 FAQ.md
+-rw-rw-r-- 10 dpuiu dpuiu   276 Jul 14 11:05 _Footer.md
+-rw-rw-r--  1 dpuiu dpuiu  3946 Jul 14 12:09 Fusion-Home.md
+-rw-rw-r--  1 dpuiu dpuiu  7897 Jul 14 12:09 Fusion-Manual.md
+-rw-rw-r--  1 dpuiu dpuiu  8758 Jul 14 11:54 Fusion-Tutorial.md
+drwxrwxr-x  8 dpuiu dpuiu  4096 Jul 14 12:03 .git/
+-rw-rw-r--  1 dpuiu dpuiu 45913 Jul 14 11:05 Home.md
+-rw-rw-r--  1 dpuiu dpuiu 10150 Jul 14 10:15 Igenomes.md
+-rw-rw-r--  1 dpuiu dpuiu 34236 Jul 14 10:09 Manual.md
+-rw-rw-r--  1 dpuiu dpuiu  3345 Jul 14 12:05 _Sidebar.md
+-rw-rw-r--  1 dpuiu dpuiu 11568 Jul 14 10:57 Tutorial.md
+	

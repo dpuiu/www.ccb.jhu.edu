@@ -1,0 +1,188 @@
+#Kuan-Hao
+
+OpenSpliceAI provides an efficient modular implementation of SpliceAI enabling easy retraining across nonhuman species 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12575001/
+https://github.com/Kuanhao-Chao/OpenSpliceAI
+
+#Kuan-Hao
+
+Combining DNA and protein alignments to improve genome annotation with LiftOn
+https://pubmed.ncbi.nlm.nih.gov/38798552/
+https://github.com/Kuanhao-Chao/LiftOn/
+
+#Kuan-Hao
+
+Splam: a deep-learning-based splice site predictor that improves spliced alignments
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11406845/
+https://github.com/Kuanhao-Chao/splam
+https://github.com/Kuanhao-Chao/splam-analysis-results
+https://pypi.org/project/splam/
+https://ccb.jhu.edu/splam/	!!! documentation
+
+#Kuan-Hao
+WGT: Tools and algorithms for recognizing, visualizing, and generating Wheeler graphs
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10415921/
+https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit
+https://doi.org/10.5281/zenodo.7937689
+
+########
+
+# markus
+
+PSAURON: a tool for assessing protein annotation across a broad range of species
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11704789/
+https://github.com/salzberg-lab/PSAURON
+http://doi.org/10.5281/zenodo.14532182
+
+# markus (website database)
+3D-Beacons: decreasing the gap between protein sequences and structures through a federated network of protein structure data resources
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9709962/
+
+#markus
+Balrog: A universal protein model for prokaryotic gene prediction
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7946324/
+https://github.com/salzberg-lab/Balrog
+
+########
+
+#ales(data)
+
+Comprehensive Transcriptome Annotation of Thousands of HIV-1 Genomes
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12485963/
+https://github.com/alevar/HIV_Atlas_Experiments
+HIV atlas 
+
+https://ccb.jhu.edu/HIV_Atlas/	!!!
+
+https://alevar.github.io/homepage/#/projects
+https://pypi.org/project/vira-av/
+https://pypi.org/project/iris-av/
+https://pypi.org/project/snapper-av/
+
+#ales(database)
+CHESS 3: an improved, comprehensive catalog of human genes and transcripts based on large-scale expression data, phylogenetic analysis, and protein structure
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10614308/
+http://ccb.jhu.edu/chess !!!
+http://github.com/chess-genome/chess !!!
+https://doi.org/10.5281/zenodo.10005789
+https://github.com/alevar/chess3_construction
+https://doi.org/10.5281/zenodo.8381932
+
+#ales
+Investigating Open Reading Frames in Known and Novel Transcripts using ORFanage
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10718564/
+https://github.com/alevar/ORFanage
+https://github.com/alevar/ORFanage_tests
+https://doi.org/10.5281/zenodo.8102912
+
+#ales
+Rapid detection of inter-clade recombination in SARS-CoV-2 with Bolotie
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8194586/
+https://github.com/salzberg-lab/bolotie
+
+#####
+
+#aleksey
+
+Efficient evidence-based genome annotation with EviAnn
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12132231/
+https://github.com/alekseyzimin/EviAnn_release
+
+#aleksey
+The SAMBA tool uses long reads to improve the contiguity of genome assemblies; MaSUrCA
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8849508/
+https://github.com/alekseyzimin/masurca
+#######
+
+#hayden
+
+Enhancing transcriptome expression quantification through accurate assignment of long RNA sequencing reads with TranSigner
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11343119/
+https://github.com/haydenji0731/transigner
+https://zenodo.org/records/14940529
+https://ftp.ccb.jhu.edu/pub/data/NA12878_simulated_ONT/
+
+Upstream open reading frames may contain hundreds of novel human exons
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11578521/
+https://github.com/haydenji0731/uORF_explorer
+https://zenodo.org/doi/10.5281/zenodo.10854712
+
+##########
+
+#beryl
+Isoswitching drives the aging process in human brains	
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12132231/
+https://doi.org/10.5281/zenodo.15335237
+
+#beryl
+Detecting differential transcript usage in complex diseases with SPIT
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10985272/
+https://github.com/berilerdogdu/SPIT
+https://colab.research.google.com/drive/1u3NpleqcAfNz_0EAgO2UHItozd9PsF1w?usp=sharing
+https://doi.org/10.5281/zenodo.10695079
+
+#########
+
+#celine
+Discovering Intron Gain Events in Humans Through Large-Scale Evolutionary Comparisons
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12132231/
+
+#######
+
+#ilia(data)
+
+Conservation assessment of human splice site annotation based on a 470-genome alignment
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11928937/
+https://github.com/iminkin/splice-sites-conservation
+https://doi.org/10.5281/zenodo.14893716
+
+#######
+
+#peter(data)
+
+Comprehensive analysis of microbial content in whole-genome sequencing samples from The Cancer Genome Atlas project
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11275966/
+https://github.com/yge15/TCGA_Microbial_Content
+
+# peter(data)
+Major data analysis errors invalidate cancer microbiome findings
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10653788/
+https://github.com/yge15/Cancer_Microbiome_Reanalyzed
+
+########
+
+#jackob(data)
+Novel metagenomics analysis of stony coral tissue loss disease
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11304949/
+https://github.com/jheinz27/coral_results/
+
+########
+
+#alina
+JASPER: A fast genome polishing tool that improves accuracy of genome assemblies
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10096238/
+https://github.com/alguoo314/JASPER
+
+#######
+
+#Christopher
+PhyloCSF++: a fast and user-friendly implementation of PhyloCSF with annotation tools
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9991890/
+https://github.com/cpockrandt/PhyloCSFpp
+http://ftp//ftp.ccb.jhu.edu/pub/software/phylocsfpp/
+
+######
+
+#alaina
+
+Liftoff: accurate mapping of gene annotations
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8289374/
+https://github.com/agshumate/Liftoff
+
+#######
+
+#marteen
+Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7218494/
+https://github.com/martin-steinegger/conterminator
+https://zenodo.org/record/3750825

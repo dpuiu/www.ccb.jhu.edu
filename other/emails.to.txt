@@ -1,0 +1,56 @@
+     10 ​Aleksey Zimin <aleksey.zimin@gmail.com>
+      6 Steven Salzberg <salzberg@jhu.edu> <steven.salzberg@gmail.com>
+      6 ​Markus Sommer <markusjsommer@gmail.com>
+      5 ​Ilia Minkin <ivminkin@gmail.com>
+      5 Ales Varabyou <ales.varabyou@jhu.edu>
+      4 ​Kuan-Hao Chao <kuanhao.chao@gmail.com>
+      4 Hyun Joo Ji <hji20@jh.edu>
+      4 ​Corina Antonescu <corina.antonescu@jhu.edu>
+      4 Alaina Shumate <ashumat2@jhmi.edu> <ashumate@alumni.stanford.edu>
+      3 ​Natalia Rincon <nrincon7896@gmail.com>
+      3 ​Mihaela Pertea <elapertea@gmail.com>
+      3 ​Florian Breitwieser <florian.bw@gmail.com>
+      3 ​Daehwan Kim <infphilo@gmail.com>
+      3 ​Celine Hoh <celinehohzm@gmail.com>
+      3 Beril Erdogdu <berdogd1@jhu.edu>
+      2 ​Zoe Rudnick <zoe.rudnick@yahoo.com>
+      2 ​Valentin Antonescu <valentin@jhu.edu> <valentin.antonescu@jhu.edu>​
+      2 ​Rebekah Rogers <rebekah.rogers@gmail.com>
+      2 Rachel Sherman <rsherman@jhu.edu>
+      2 Peter Ge <yge15@jhmi.edu>
+      2 ​Li Song <lsong10@jhu.edu>
+      2 ​Liliana Florea <florea@jhu.edu>
+      2 Jen Lu <jlu26@jhmi.edu> <jennifer.lu717@gmail.com>
+      2 ​Geo Pertea <gpertea@jhu.edu>
+      2 ​Daniela Puiu <dpuiu@jhu.edu>
+      2 ​Daehwan Kim <infphilo@umiacs.umd.edu>
+      2 ​Christopher Pockrandt <christopher.pockrandt@fu-berlin.de>
+      2 ​Bowen Chen <bowencccc@gmail.com>
+      2 ​Arthur Delcher <aldelcher@gmail.com>
+      2 Alan Mao <smao10@jhu.edu>
+      1 ​Tanja Magoc <tmagoc1@jhmi.edu>
+      1 ​Taher Mun <tahermun@gmail.com>​
+      1 Tad Berkery <tberker2@jhu.edu>
+      1 ​Stephan Pabinger <pabinger@jhu.edu>
+      1 ​Martin Steinegger <themartinsteinegger@gmail.com> 
+      1 ​Stefan Canzar <canzar@jhu.edu>
+      1 Samuel Kovaka <skovaka1@jhu.edu>
+      1 ​Samarjeet <ssamarj1@jhmi.edu>​
+      1 ​Rebecca Yu <yu.rebecca.a@gmail.com>
+      1 ​Nikola Zadorozhny <nikola.zadorozhny@gmail.com>
+      1 Mingyuan Li <mli163@jhu.edu>
+      1 Jitong Xian <jxian1@jhu.edu>
+      1 Ida Shinder <ishinde1@jhmi.edu>
+      1 ​Harun Mustafa <harun.hm@gmail.com>
+      1 Sarah Anderson <sande125@jhu.edu>
+      1 ​Fnu Samarjeet <ssamarj1@jhu.edu>
+      1 ​Fay Wong <faywong@jhmi.edu>
+      1 ​Derrick Wood <dwood@cs.umd.edu>
+      1 ​Chandrima Bhattacharya <chandrima.004@gmail.com>
+      1 Brandon Wong <bwong19@jhu.edu>
+      1 ​Arthur Delcher <aldelcher@gmail.com>
+      1 Arshana Welivita <awelivi1@jhu.edu>
+      1 ​Ann Vukelich <avukeli1@jhmi.edu>
+      1 Alina Guo <jguo54@jhu.edu>
+      1 Abby Liu <aliu62@jhu.edu>
+      1 Jakob Heinz <jheinz3@jhu.edu>
