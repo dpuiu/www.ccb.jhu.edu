@@ -68,6 +68,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Principal Software Engineer**<br>
 [SOPHiA GENETICS](https://www.sophiagenetics.com/)<br>
+
 &#9993; [florian.bw@gmail.com](mailto:florian.bw@gmail.com)  
 ::::
 
@@ -94,7 +95,9 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 Salzberg Lab @ JHU (until 2025)<br>
 
+Postdoctoral Associate<br>
 [Broad Institute](https://www.broadinstitute.org)<br>
+
 &#9993; [iminkin@broadinstitute.org](mailto:iminkin@broadinstitute.org)  
 ::::
 
@@ -124,6 +127,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 **Assistant Professor**<br>
 [Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)<br>  
 [Lab homepage](https://steineggerlab.com)<br>
+
 &#9993; [martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)  
 ::::
 
@@ -150,8 +154,8 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Professor**<br>
 [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)<br>
-[Lab Homepage](https://canzarlab.com/)<br>
 
+[Lab Homepage](https://canzarlab.com/)<br>
 &#9993; [stefan.canzar​@ur.de](mailto:stefan.canzar​@ur.de)  
 ::::
 
@@ -178,8 +182,8 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Postdoctoral Research Fellow**<br>
 McKusick-Nathans Institute of Genetic Medicine<br>
-[Aldi](https://www.aldicareers.com.au/)<br>
 
+[Aldi](https://www.aldicareers.com.au/)<br>
 &#9993; [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
 ::::
 
@@ -271,7 +275,7 @@ National Biodefense Analysis and Countermeasures Center<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Research Scientist**
+**Research Scientist**<br>
 [Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)    
   
 &#9993; [ashumate@alumni.stanford.edu](mailto:ashumate@alumni.stanford.edu)
@@ -298,13 +302,10 @@ National Biodefense Analysis and Countermeasures Center<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Postdoc in the Pertea Lab**  
-  
-Department of Biomedical Engineering<br>
-Whiting School of Engineering<br>
-Johns Hopkins University<br>
-[PacBio](https://www.pacb.com/)
+**Graduate Stydent and Postdoc in the Pertea Lab (until 2026)<br>
 
+**Genomics Scientist and Engineer**<br>  
+[PacBio](https://www.pacb.com/)
   
 &#9993; [ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu)  
 ::::
@@ -332,7 +333,6 @@ Johns Hopkins University<br>
 
 [Stripe](https://stripe.com)
   
-[Homepage](https://alyssafrazee.com )  
 &#9993; [alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com)  
 ::::
 
@@ -385,7 +385,7 @@ University of Toronto<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Founder**
+**Founder**<br>
 [Blackjack Biotechnologies](https://www.blackjackbiotech.com/)    
   
 &#9993; [dwood@cs.umd.edu](mailto:dwood@cs.umd.edu)
@@ -442,8 +442,9 @@ Johns Hopkins Bloomberg School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Staff Engineer**
+**Staff Engineer**<br>
 [Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)
+
 &#9993; [jennifer.lu717@gmail.com](mailto:jennifer.lu717@gmail.com)  
 ::::
 
@@ -473,10 +474,9 @@ Johns Hopkins Bloomberg School of Public Health
 
 Salzberg Lab @ JHU (until 2025)<br>
 
-**Senior Deep Learning Scientist**
+**Senior Deep Learning Scientist**<br>
 [Illumina AI Lab](https://www.illumina.com/)
   
-[Homepage](https://khchao.com/)
 &#9993; [kuanhao.chao@gmail.com](mailto:kuanhao.chao@gmail.com)  
 ::::
 
@@ -506,7 +506,6 @@ Florea Lab @ JHU (until 2018)<br>
 **Assistant Professor**
 [Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)
   
-[Homepage](https://mourisl.github.io/)
 &#9993; [Li.Song@dartmouth.edu](mailto:Li.Song@dartmouth.edu)  
 ::::
 
@@ -568,7 +567,6 @@ Salzberg Lab @ JHU (until 2020)<br>
 **Staff Bioinformatics Support Scientist**<br>
 [Illumina](https://www.illumina.com/)
   
-
 &#9993; [rachel.sherman@illumina.com](mailto:rachel.sherman@illumina.com)  
 ::::
 
