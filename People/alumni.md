@@ -46,7 +46,7 @@ Salzberg Lab @ JHU (until Feb. 2022)
 
 
 (florianbreitwieser)=
-#### [Florian Breitwieser, Ph.D.]
+#### Florian Breitwieser, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -67,8 +67,7 @@ Salzberg Lab @ JHU (until Feb. 2022)
 Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Principal Software Engineer**<br>
-[SOPHiA GENETICS](https://www.sophiagenetics.com/)
-  
+[SOPHiA GENETICS](https://www.sophiagenetics.com/)<br>
 &#9993; [florian.bw@gmail.com](mailto:florian.bw@gmail.com)  
 ::::
 
@@ -95,9 +94,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 Salzberg Lab @ JHU (until 2025)<br>
 
-[Broad Institute](https://www.broadinstitute.org)
-  
-[Homepage](https://iminkin.github.io/)
+[Broad Institute](https://www.broadinstitute.org)<br>
 &#9993; [iminkin@broadinstitute.org](mailto:iminkin@broadinstitute.org)  
 ::::
 
@@ -112,7 +109,7 @@ Salzberg Lab @ JHU (until 2025)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Martin_Steinegger.webp
+:::{image} /_static/People/Martin_steinegger.webp
 :width: 240px
 :alt: Martin Steinegger, Ph.D.
 :::
@@ -126,7 +123,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Assistant Professor**<br>
 [Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)<br>  
-[Lab homepage](https://steineggerlab.com)  
+[Lab homepage](https://steineggerlab.com)<br>
 &#9993; [martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)  
 ::::
 
@@ -154,6 +151,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 **Professor**<br>
 [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)<br>
 [Lab Homepage](https://canzarlab.com/)<br>
+
 &#9993; [stefan.canzar​@ur.de](mailto:stefan.canzar​@ur.de)  
 ::::
 
@@ -180,9 +178,8 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Postdoctoral Research Fellow**<br>
 McKusick-Nathans Institute of Genetic Medicine<br>
-[Aldi](https://www.aldicareers.com.au/)
-  
-[Homepage](https://pabinger.site44.com)  
+[Aldi](https://www.aldicareers.com.au/)<br>
+
 &#9993; [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
 ::::
 
@@ -211,8 +208,9 @@ McKusick-Nathans Institute of Genetic Medicine<br>
   
 [HEPData](https://www.hepdata.com/)<br>
 
-Associate Director, AI/QI Program, Quality and Patient Safety Initiative (QPSi)<br>
+Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
 [University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)<br>
+
 &#9993; [t.magoc@gmail.com](mailto:t.magoc@gmail.com)  
 ::::
 
@@ -243,8 +241,7 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative (QPSi)<
 CCB UMD<br>
 National Biodefense Analysis and Countermeasures Center<br>
 [Rice University](https://profiles.rice.edu/faculty/todd-treangen)
-  
-[Lab homepage](https://profiles.rice.edu/faculty/todd-treangen)  
+
 &#9993; [treangen@gmail.com](mailto:treangen@gmail.com)  
 ::::
 
@@ -275,7 +272,6 @@ National Biodefense Analysis and Countermeasures Center<br>
 :columns: 12 12 9 9
 
 **Research Scientist**
-
 [Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)    
   
 &#9993; [ashumate@alumni.stanford.edu](mailto:ashumate@alumni.stanford.edu)
