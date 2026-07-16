@@ -1,5 +1,9 @@
 ## Students
 
+### Beril Erdogdu 
+
+&#9993; [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
+
 (davidbass)=
 ### David Bass
 
@@ -27,6 +31,11 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 ::::
 
 ```
+
+### Hyun Joo Ji
+
+&#9993; [hji20@jh.edu](mailto:hji20@jh.edu)
+
 
 (kalenclifton)=
 ### Kalen Clifton
@@ -112,6 +121,15 @@ Department of Computer Science<br>Whiting School of Engineering<br>Johns Hopkins
 
 ```
 
+### Nikola Zadorozhny 
+
+&#9993; [nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)
+
+### Peter Ge 
+
+&#9993; [yge15@jhmi.edu](mailto:yge15@jhmi.edu)
+
+
 (radhikajangi)=
 ### Radhika Jangi
 
@@ -136,34 +154,6 @@ Department of Computer Science<br>Whiting School of Engineering<br>Johns Hopkins
 Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins University  
   
 &#9993; [rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
-::::
-
-```
-
-(zoecatherinerudnick)=
-### Zoe Catherine Rudnick
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/People/Zoe_Rudnick.webp
-:width: 240px
-:alt: Zoe Catherine Rudnick
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**ME GR Grad Student in Pertea Lab**  
-  
-Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
-  
-&#9993; [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
 ::::
 
 ```
@@ -194,4 +184,31 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 &#9993; [rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
 ::::
 
+```
+
+zoecatherinerudnick)=
+### Zoe Catherine Rudnick
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Zoe_Rudnick.webp
+:width: 240px
+:alt: Zoe Catherine Rudnick
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**ME GR Grad Student in Pertea Lab**  
+  
+Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+  
+&#9993; [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
+::::
 ```

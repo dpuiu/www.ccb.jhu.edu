@@ -126,8 +126,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Assistant Professor**<br>
 [Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)<br>  
-[Lab homepage](https://steineggerlab.com)<br>
-
+[Lab homepage](https://steineggerlab.com)
 &#9993; [martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)  
 ::::
 
@@ -154,7 +153,6 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Professor**<br>
 [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)<br>
-
 [Lab Homepage](https://canzarlab.com/)<br>
 &#9993; [stefan.canzar​@ur.de](mailto:stefan.canzar​@ur.de)  
 ::::
@@ -182,8 +180,8 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 **Postdoctoral Research Fellow**<br>
 McKusick-Nathans Institute of Genetic Medicine<br>
+[Aldi](https://www.aldicareers.com.au/)
 
-[Aldi](https://www.aldicareers.com.au/)<br>
 &#9993; [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
 ::::
 
@@ -213,7 +211,7 @@ McKusick-Nathans Institute of Genetic Medicine<br>
 [HEPData](https://www.hepdata.com/)<br>
 
 Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
-[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)<br>
+[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)
 
 &#9993; [t.magoc@gmail.com](mailto:t.magoc@gmail.com)  
 ::::
@@ -242,8 +240,10 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
 
 **Senior Bioinformatics Scientist**  
   
-CCB UMD<br>
-National Biodefense Analysis and Countermeasures Center<br>
+CCB UMD
+
+National Biodefense Analysis and Countermeasures Center
+
 [Rice University](https://profiles.rice.edu/faculty/todd-treangen)
 
 &#9993; [treangen@gmail.com](mailto:treangen@gmail.com)  
@@ -302,9 +302,9 @@ National Biodefense Analysis and Countermeasures Center<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Graduate Stydent and Postdoc in the Pertea Lab (until 2026)<br>
+**Graduate Stydent and Postdoc in the Pertea Lab (until 2026)**
 
-**Genomics Scientist and Engineer**<br>  
+**Genomics Scientist and Engineer**<br>
 [PacBio](https://www.pacb.com/)
   
 &#9993; [ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu)  
@@ -357,10 +357,12 @@ National Biodefense Analysis and Countermeasures Center<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-University of Toronto<br>
+University of Toronto
+
 [OMPHALOS Lifesciences](https://omphaloslifesci.com/)    
   
 [Lab homepage]((https://kim-lab.org)  
+
 &#9993; [infphilo@gmail.com](mailto:infphilo@gmail.com)
 ::::
 
@@ -420,9 +422,6 @@ Johns Hopkins Bloomberg School of Public Health
 
 ```
 
-
-***
-
 (jenniferlu)=
 #### Jennifer Lu, Ph.D.
 
@@ -449,8 +448,16 @@ Johns Hopkins Bloomberg School of Public Health
 ::::
 
 ```
-***
 
+
+### Ida Shinder 
+
+&#9993; [ishinde1@jhmi.edu](mailto:ishinde1@jhmi.edu)
+
+
+### Jakob Heinz 
+
+&#9993; [jheinz3@jhu.edu](mailto:jheinz3@jhu.edu)
 
 
 (kuanhaochao)=
@@ -503,7 +510,7 @@ Salzberg Lab @ JHU (until 2025)<br>
 
 Florea Lab @ JHU (until 2018)<br>
 
-**Assistant Professor**
+**Assistant Professor**<br>
 [Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)
   
 &#9993; [Li.Song@dartmouth.edu](mailto:Li.Song@dartmouth.edu)  
@@ -571,4 +578,3 @@ Salzberg Lab @ JHU (until 2020)<br>
 ::::
 
 ```
-	
