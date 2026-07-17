@@ -638,3 +638,17 @@ drwxrwxr-x  8 dpuiu dpuiu  4096 Jul 14 12:03 .git/
 -rw-rw-r--  1 dpuiu dpuiu  3345 Jul 14 12:05 _Sidebar.md
 -rw-rw-r--  1 dpuiu dpuiu 11568 Jul 14 10:57 Tutorial.md
 	
+
+##########################
+#openspliceai
+git clone https://github.com/dpuiu/OpenSpliceAI
+git clone https://github.com/dpuiu/OpenSpliceAI.wiki
+
+pandoc /home/dpuiu/www.ccb.jhu.edu.html/openspliceai/index.html -f html   -t markdown   --markdown-headings=atx   --wrap=none > Home.md1
+pandoc ../OpenSpliceAI/docs/source/index.rst -f rst  -t markdown   --markdown-headings=atx   --wrap=none  >Home.md2
+
+pip install rst-to-myst --break-system-packages
+/home/dpuiu/.local/bin/rst2myst convert ../OpenSpliceAI/docs/source/index.rst 
+#=>../OpenSpliceAI/docs/source/index.md 
+
+#pandoc -f html -t myst
