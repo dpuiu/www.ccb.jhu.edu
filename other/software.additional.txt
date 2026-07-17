@@ -3,6 +3,7 @@
 OpenSpliceAI provides an efficient modular implementation of SpliceAI enabling easy retraining across nonhuman species 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC12575001/
 https://github.com/Kuanhao-Chao/OpenSpliceAI
+https://ccb.jhu.edu/openspliceai/
 
 #Kuan-Hao
 
@@ -158,10 +159,10 @@ https://github.com/jheinz27/coral_results/
 
 ########
 
-#alina
-JASPER: A fast genome polishing tool that improves accuracy of genome assemblies
-https://pmc.ncbi.nlm.nih.gov/articles/PMC10096238/
-https://github.com/alguoo314/JASPER
+#alina: added to Genome Assembly, Newer Software
+#JASPER: A fast genome polishing tool that improves accuracy of genome assemblies
+#https://pmc.ncbi.nlm.nih.gov/articles/PMC10096238/
+#https://github.com/alguoo314/JASPER
 
 #######
 
@@ -186,3 +187,10 @@ Terminating contamination: large-scale search identifies more than 2,000,000 con
 https://pmc.ncbi.nlm.nih.gov/articles/PMC7218494/
 https://github.com/martin-steinegger/conterminator
 https://zenodo.org/record/3750825
+
+####
+
+https://ccb.jhu.edu/gage_b/ !!! to move
+https://ccb.jhu.edu/chess/
+https://ccb.jhu.edu/splam/
+https://ccb.jhu.edu/HIV_Atlas

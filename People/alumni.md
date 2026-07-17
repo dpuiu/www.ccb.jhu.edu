@@ -284,7 +284,7 @@ National Biodefense Analysis and Countermeasures Center
 ```
 
 (alesvarabyou)=
-#### Ales Varabyou, Ph.D.
+#### [Ales Varabyou, Ph.D.](https://alevar.github.io/)
 
 ```{grid} 12
 :gutter: 1
