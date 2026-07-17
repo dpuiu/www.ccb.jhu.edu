@@ -19,8 +19,8 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg/Pertea Lab<br>
-Biomedical Engineering<br>
+**Salzberg/Pertea Lab**<br>
+{{bme}}<br>
 
 [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
 ::::
@@ -47,7 +47,8 @@ Biomedical Engineering<br>
 :columns: 12 12 9 9
 
 **Salzberg Lab**<br>
-Cell, Molecular, Developmental Biology, and Biophysics (CMDB)
+Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
+{{ksas}}
   
 [dbass13@jh.edu](mailto:dbass13@jh.edu)  
 ::::
@@ -73,7 +74,8 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Computer Science
+**Salzberg Lab**<br>
+{{cs}}
 
 [hji20@jh.edu](mailto:hji20@jh.edu)
 ::::
