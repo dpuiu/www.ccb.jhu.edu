@@ -21,10 +21,7 @@
 
 **{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
 
-{{bme}}<br>
-{{wse}}<br>
-{{som}}<br>
-{{jhu}}
+{{bme}}
 
 [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
 ::::
@@ -50,12 +47,9 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Fan Lab**  
+**{ref}`Fan <jeanfan>` Lab**
   
-{{bme}}<br>
-{{wse}}<br>
-{{som}}<br>
-{{jhu}}
+{{bme}}
   
 [challin1@jh.edu](mailto:challin1@jh.edu)  
 ::::
@@ -83,9 +77,7 @@
 
 **{ref}`Salzberg <stevenlsalzberg>` Lab**
   
-{{cs}}<br>
-{{wse}}<br>
-{{jhu}}
+{{cs}}
   
 [choh1@jhu.edu](mailto:choh1@jhu.edu)  
 ::::
@@ -113,8 +105,7 @@
 
 **{ref}`Salzberg <stevenlsalzberg>` Lab**
 
-Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
-{{ksas}}
+[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)
   
 [dbass13@jh.edu](mailto:dbass13@jh.edu)  
 ::::
@@ -142,9 +133,7 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 
 **{ref}`Salzberg <stevenlsalzberg>` Lab**
 
-{{cs}}<br>
-{{wse}}<br>
-{{jhu}}
+{{cs}}
 
 [hji20@jh.edu](mailto:hji20@jh.edu)
 ::::
@@ -171,12 +160,9 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Fan Lab**  
+**{ref}`Fan <jeanfan>` Lab**
   
-{{bme}}<br>
-{{wse}}<br>
-{{som}}<br>
-{{jhu}}
+{{bme}}
   
 [kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
 ::::
@@ -204,9 +190,7 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 
 **{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
 
-{{cs}}<br>
-{{wse}}<br>
-{{jhu}}
+{{cs}}
 
 [nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)
 ::::
@@ -233,11 +217,10 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Battle Lab**  
+**{ref}`Battle <alexisbattle>` Lab**
+
   
-{{bio}}<br>
-{{ksas}}<br>
-{{jhu}}  
+{{bio}}
   
 [rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
 ::::
@@ -263,12 +246,9 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Fan Lab**  
+**{ref}`Fan <jeanfan>` Lab**
   
-{{bme}}<br>
-{{wse}}<br>
-{{som}}<br>
-{{jhu}}
+{{bme}}
   
 [rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
 ::::
@@ -295,10 +275,7 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 
 **{ref}`Salzberg <stevenlsalzberg>` Lab**
 
-{{bme}}<br>
-{{wse}}<br>
-{{som}}<br>
-{{jhu}}
+{{bme}}
 
 [yge15@jhmi.edu](mailto:yge15@jhmi.edu)
 ::::
@@ -326,10 +303,7 @@ Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
 
 **{ref}`Pertea <mihaelapertea>` Lab**
   
-{{bme}}<br>
-{{wse}}<br>
-{{som}}<br>
-{{jhu}}
+{{bme}}
   
 [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
 ::::
