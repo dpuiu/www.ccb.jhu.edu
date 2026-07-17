@@ -19,102 +19,20 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Salzberg/Pertea Lab**<br>
 **{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
+
 {{bme}}<br>
+{{wse}}<br>
+{{som}}<br>
+{{jhu}}
 
 [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
-
-```
-
-(davidbass)=
-### David Bass, Ph.D. student
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/People/David_Bass.webp
-:width: 240px
-:alt: David Bass
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Salzberg Lab**<br>
-Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
-{{ksas}}
-  
-[dbass13@jh.edu](mailto:dbass13@jh.edu)  
-::::
-
-```
-
-(hyunjooji)=
-### Hyun Joo Ji, Ph.D. student 
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/People/Hayden_Ji.webp
-:width: 240px
-:alt: Hyun Joo Ji
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Salzberg Lab**<br>
-{{cs}}
-
-[hji20@jh.edu](mailto:hji20@jh.edu)
-::::
-
-```
-
-
-(kalenclifton)=
-### Kalen Clifton
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/People/Kalen_Clifton.webp
-:width: 240px
-:alt: Kalen Clifton
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Fan Lab**  
-  
-Department of Biomedical Engineering<br>
-School of Medicine<br>
-Johns Hopkins University  
-  
-&#9993; [kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
 ::::
 
 ```
 
 (calebhallinan)=
-### Caleb Hallinan
+### Caleb Hallinan, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -134,11 +52,12 @@ Johns Hopkins University
 
 **Fan Lab**  
   
-Department of Biomedical Engineering<br>
-School of Medicine<br>
-Johns Hopkins University  
+{{bme}}<br>
+{{wse}}<br>
+{{som}}<br>
+{{jhu}}
   
-&#9993; [challin1@jh.edu](mailto:challin1@jh.edu)  
+[challin1@jh.edu](mailto:challin1@jh.edu)  
 ::::
 
 ```
@@ -162,27 +81,141 @@ Johns Hopkins University
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Salzberg Lab**  
+**{ref}`Salzberg <stevenlsalzberg>` Lab**
   
-Department of Computer Science<br>
-Whiting School of Engineering<br>
-Johns Hopkins University  
+{{cs}}<br>
+{{wse}}<br>
+{{jhu}}
   
 [choh1@jhu.edu](mailto:choh1@jhu.edu)  
 ::::
 
 ```
 
+(davidbass)=
+### David Bass, Ph.D. student
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/David_Bass.webp
+:width: 240px
+:alt: David Bass
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**{ref}`Salzberg <stevenlsalzberg>` Lab**
+
+Cell, Molecular, Developmental Biology, and Biophysics (CMDB)<br>
+{{ksas}}
+  
+[dbass13@jh.edu](mailto:dbass13@jh.edu)  
+::::
+
+```
+
+(hyunjooji)=
+### Hyun Joo (Hayden) Ji, Ph.D. student 
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Hayden_Ji.webp
+:width: 240px
+:alt: Hyun Joo Ji
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**{ref}`Salzberg <stevenlsalzberg>` Lab**
+
+{{cs}}<br>
+{{wse}}<br>
+{{jhu}}
+
+[hji20@jh.edu](mailto:hji20@jh.edu)
+::::
+
+```
+
+
+(kalenclifton)=
+### Kalen Clifton, Ph.D. student 
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Kalen_Clifton.webp
+:width: 240px
+:alt: Kalen Clifton
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**Fan Lab**  
+  
+{{bme}}<br>
+{{wse}}<br>
+{{som}}<br>
+{{jhu}}
+  
+[kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
+::::
+
+```
+
+(nikolazadorozhny)=
 ### Nikola Zadorozhny, Ph.D. student  
 
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Nikola_Zadorozhny.webp
+:width: 240px
+:alt: Nikola Zadorozhny
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
+
+{{cs}}<br>
+{{wse}}<br>
+{{jhu}}
+
 [nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)
+::::
 
-### Peter Ge, Ph.D. student  
+```
 
-[yge15@jhmi.edu](mailto:yge15@jhmi.edu)
 
 (radhikajangi)=
-### Radhika Jangi
+### Radhika Jangi, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -200,17 +233,19 @@ Johns Hopkins University
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**AE GR Graduate Student in Battle Lab**  
+**Battle Lab**  
   
-Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins University  
+{{bio}}<br>
+{{ksas}}<br>
+{{jhu}}  
   
-&#9993; [rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
+[rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
 ::::
 
 ```
 
 (rafaeldossantospeixoto)=
-### Rafael dos Santos Peixoto
+### Rafael dos Santos Peixoto, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -228,11 +263,44 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**ME GR Grad Student in Fan Lab**  
+**Fan Lab**  
   
-Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+{{bme}}<br>
+{{wse}}<br>
+{{som}}<br>
+{{jhu}}
   
-&#9993; [rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
+[rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
+::::
+
+```
+
+(yuchenge)=
+### Yuchen (Peter) Ge, Ph.D. student  
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Peter_Ge.webp
+:width: 240px
+:alt: Peter Ge
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**{ref}`Salzberg <stevenlsalzberg>` Lab**
+
+{{bme}}<br>
+{{wse}}<br>
+{{som}}<br>
+{{jhu}}
+
+[yge15@jhmi.edu](mailto:yge15@jhmi.edu)
 ::::
 
 ```
@@ -256,10 +324,14 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**ME GR Grad Student in Pertea Lab**  
+**{ref}`Pertea <mihaelapertea>` Lab**
   
-Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+{{bme}}<br>
+{{wse}}<br>
+{{som}}<br>
+{{jhu}}
   
-&#9993; [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
+[zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
 ::::
 ```
+
