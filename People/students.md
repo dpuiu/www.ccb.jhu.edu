@@ -23,7 +23,7 @@
 
 {{bme}}
 
-&#x2709; [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
+<span>&#x2709;</span>[berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
 ::::
 
 ```
