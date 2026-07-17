@@ -1,11 +1,34 @@
 ## Students
 
-### Beril Erdogdu 
+(berilerdogdu)=
+### Beril Erdogdu, Ph.D. student
 
-&#9993; [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Beril_Erdogdu.webp
+:width: 240px
+:alt: Beril Erdogdu
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+Salzberg/Pertea Lab<br>
+Biomedical Engineering<br>
+
+[berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
+::::
+
+```
 
 (davidbass)=
-### David Bass
+### David Bass, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -23,18 +46,39 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**AE GR Graduate Student in Salzberg Lab**  
+**Salzberg Lab**<br>
+Cell, Molecular, Developmental Biology, and Biophysics (CMDB)
   
-Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins University  
-  
-&#9993; [dbass13@jh.edu](mailto:dbass13@jh.edu)  
+[dbass13@jh.edu](mailto:dbass13@jh.edu)  
 ::::
 
 ```
 
-### Hyun Joo Ji
+(hyunjooji)=
+### Hyun Joo Ji, Ph.D. student 
 
-&#9993; [hji20@jh.edu](mailto:hji20@jh.edu)
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/People/Hayden_Ji.webp
+:width: 240px
+:alt: Hyun Joo Ji
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+Computer Science
+
+[hji20@jh.edu](mailto:hji20@jh.edu)
+::::
+
+```
 
 
 (kalenclifton)=
@@ -56,9 +100,11 @@ Department of Biology<br>Krieger School of Arts and Sciences<br>Johns Hopkins Un
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**ME GR Grad Student in Fan Lab**  
+**Fan Lab**  
   
-Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+Department of Biomedical Engineering<br>
+School of Medicine<br>
+Johns Hopkins University  
   
 &#9993; [kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
 ::::
@@ -84,9 +130,11 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**ME GR Grad Student in Fan Lab**  
+**Fan Lab**  
   
-Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins University  
+Department of Biomedical Engineering<br>
+School of Medicine<br>
+Johns Hopkins University  
   
 &#9993; [challin1@jh.edu](mailto:challin1@jh.edu)  
 ::::
@@ -94,7 +142,7 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 ```
 
 (celinehoh)=
-### Celine Hoh
+### Celine Hoh, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -112,23 +160,24 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**AE GR Graduate Student in Salzberg Lab**  
+**Salzberg Lab**  
   
-Department of Computer Science<br>Whiting School of Engineering<br>Johns Hopkins University  
+Department of Computer Science<br>
+Whiting School of Engineering<br>
+Johns Hopkins University  
   
-&#9993; [choh1@jhu.edu](mailto:choh1@jhu.edu)  
+[choh1@jhu.edu](mailto:choh1@jhu.edu)  
 ::::
 
 ```
 
-### Nikola Zadorozhny 
+### Nikola Zadorozhny, Ph.D. student  
 
-&#9993; [nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)
+[nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)
 
-### Peter Ge 
+### Peter Ge, Ph.D. student  
 
-&#9993; [yge15@jhmi.edu](mailto:yge15@jhmi.edu)
-
+[yge15@jhmi.edu](mailto:yge15@jhmi.edu)
 
 (radhikajangi)=
 ### Radhika Jangi
@@ -186,8 +235,8 @@ Department of Biomedical Engineering<br>School of Medicine<br>Johns Hopkins Univ
 
 ```
 
-zoecatherinerudnick)=
-### Zoe Catherine Rudnick
+(zoecatherinerudnick)=
+### Zoe Catherine Rudnick, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
