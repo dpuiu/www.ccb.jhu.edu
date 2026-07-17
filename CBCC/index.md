@@ -57,7 +57,7 @@ Associate Professor
 McKusick-Nathans Institute of Genetic Medicine  
 Johns Hopkins University School of Medicine  
 
-**Address**: Welch Medical Library, Room 113 [1900 E. Monument St., Baltimore, MD 21205](https://www.google.com/maps/place/1900+E+Monument+Street+Baltimore+MD+21205)
+**Address**: Welch Medical Library, Room 113 [1900 E. Monument St., Baltimore, MD 21205](https://www.google.com/maps/place/1900+E+Monument+Street+Baltimore+MD+21205)  
 **Telephone**: <a href="tel:+14432875624">(443)287-5624</a>  
 **Email**: [florea@jhu.edu](mailto:florea@jhu.edu)  
 ```

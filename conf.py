@@ -39,7 +39,9 @@ myst_enable_extensions = [
     "dollarmath",
     "amsmath",
     "substitution",
-    "attrs_inline"
+    "attrs_inline",
+    "html_admonition",
+    "html_image"
 ]
 myst_substitutions = {
     "ARCH": "[ARCH](https://www.arch.jhu.edu/)",
