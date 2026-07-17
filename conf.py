@@ -43,6 +43,7 @@ myst_enable_extensions = [
 ]
 myst_substitutions = {
     "ARCH": "[ARCH](https://www.arch.jhu.edu/)",
+    "bio":  "[Department of Bilogy](https://bio.jhu.edu/)",
     "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
     "BME":  "[BME](https://www.bme.jhu.edu/)",
     "bsph" : "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
