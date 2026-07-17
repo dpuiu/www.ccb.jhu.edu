@@ -25,7 +25,7 @@ Department of Biomedical Engineering<br>
 Whiting School of Engineering<br>
 Johns Hopkins University  
   
-&#9993; [chall106@jh.edu](mailto:chall106@jh.edu)  
+[chall106@jh.edu](mailto:chall106@jh.edu)  
 ::::
 
 ```
@@ -55,7 +55,7 @@ Department of Biomedical Engineering<br>
 Whiting School of Engineering<br>
 Johns Hopkins University  
   
-&#9993; [hmustaf6@jh.edu](mailto:hmustaf6@jh.edu)  
+[hmustaf6@jh.edu](mailto:hmustaf6@jh.edu)  
 ::::
 
 ```
@@ -85,7 +85,7 @@ Department of Biomedical Engineering<br>
 Whiting School of Engineering<br>
 Johns Hopkins University  
   
-&#9993; [ssingh95@jhu.edu](mailto:ssingh95@jhu.edu)  
+[ssingh95@jhu.edu](mailto:ssingh95@jhu.edu)  
 ::::
 
 ```

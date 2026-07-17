@@ -25,7 +25,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 [Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/) 
  
 [Lab homepage](https://kingsfordlab.cbd.cmu.edu/)  
-&#9993; [carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)  
+[carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)  
 ::::
 
 ```
@@ -54,7 +54,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 [Rinn Lab](https://www.rinnlab.com)<br>The Broad Institute of MIT and Harvard<br>UW Genome Sciences  
   
 [Lab homepage](https://cole-trapnell-lab.github.io/)  
-&#9993; [coletrap@uw.edu](mailto:coletrap@uw.edu)  
+[coletrap@uw.edu](mailto:coletrap@uw.edu)  
 ::::
 
 ```
@@ -83,7 +83,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 Director of the Institute for Genome Sciences at the University of Maryland School of Medicine  
   
 [Lab homepage](https://fertiglab.com/)  
-&#9993; [ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)  
+[ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)  
 ::::
 
 ```
@@ -112,7 +112,7 @@ Director of the Institute for Genome Sciences at the University of Maryland Scho
 Institute for Physical Sciences and Technology<br>UMCP<br>University of Maryland  
   
 [Lab homepage](https://yorke.umd.edu/)  
-&#9993; [yorke@umd.edu](mailto:yorke@umd.edu)  
+[yorke@umd.edu](mailto:yorke@umd.edu)  
 ::::
 
 ```
@@ -142,7 +142,7 @@ Institute for Physical Sciences and Technology<br>UMCP<br>University of Maryland
 University of Maryland
   
 [Lab homepage](https://pop-lab.org/)  
-&#9993; [mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
+[mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
 ::::
 
 ```
@@ -171,7 +171,7 @@ University of Maryland
 Department of Cell Biology and Molecular Genetics<br>University of Maryland  
   
 [Lab homepage](https://www.najibelsayed.org/)  
-&#9993; [nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)  
+[nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)  
 ::::
 
 ```
@@ -203,7 +203,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 PineRefSeq:<br>Conifer Reference Genome Sequencing<br>An adaptive approach to the sequencing of the large genomes of multiple conifer species.  
   
 [Lab homepage](https://pinegenome.org/pinerefseq/)  
-&#9993; [email@jhu.edu](mailto:email@jhu.edu)  
+[email@jhu.edu](mailto:email@jhu.edu)  
 ::::
 
 ```
