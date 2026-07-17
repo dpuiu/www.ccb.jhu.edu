@@ -31,6 +31,28 @@ A program for filtering, converting and manipulating GFF files
 
 A program for comparing, annotating, merging and tracking transcripts in GFF files
 
+---
+
+## Newer Software
+
+### [TranSigner](https://github.com/haydenji0731/transigner)
+
+TranSigner improves transcriptome expression quantification through accurate
+assignment of long RNA sequencing reads.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC11343119/).
+
+
+### [SPIT](https://github.com/berilerdogdu/SPIT)
+
+SPIT detects differential transcript usage in complex diseases.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10985272/).
+
+
+### [PhyloCSF++](https://github.com/cpockrandt/PhyloCSFpp)
+
+PhyloCSF++ is a fast and user-friendly implementation of PhyloCSF with
+annotation tools.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9991890/).
 
 ---
 
@@ -50,7 +72,7 @@ experiments, using the output of StringTie or Cufflinks. The Ballgown package
 provides functions to organize, visualize, and analyze expression measurements.
 Ballgown is written in R and is part of Bioconductor.
 
-### [EDGE-pro](/EDGE-pro/index)
+### [EDGE-pro](https://github.com/dpuiu/edge-pro/wiki)
 
 EDGE-pro is a program for estimating gene expression from prokaryotic RNA-seq.
 EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks, does not

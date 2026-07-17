@@ -8,7 +8,7 @@ typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
 to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
 Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
 
-### [HISAT](/hisat/index)
+### [HISAT](https://github.com/dpuiu/hisat/wiki)
 
 HISAT is a highly efficient system for aligning RNA-seq reads. HISAT uses a
 novel indexing scheme, hierarchical indexing, which is inherently well-suited
@@ -46,7 +46,7 @@ high throughput (~1.5 to 2 million reads per second with the human reference
 genome in a 4-GPU computer), it is well suited to large-scale NGS data
 processing.
 
-### [Tophat](/_static/legacy/tophat/index.html)
+### [Tophat](https://github.com/dpuiu/tophat/wiki)
 
 A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
 exon-exon splice junctions and is extremely fast due to its use of the Bowtie2

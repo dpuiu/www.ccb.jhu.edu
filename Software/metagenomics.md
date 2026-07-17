@@ -55,3 +55,10 @@ with a special focus on infectious disease diagnosis.
 
 KrakenTools is a suite of scripts to be used alongside the Kraken, KrakenUniq, Kraken 2, or Bracken programs. 
 These scripts are designed to help Kraken users with downstream analysis of Kraken results.
+
+## Newer Software
+
+### [Bolotie](https://github.com/salzberg-lab/bolotie)
+
+Bolotie enables rapid detection of inter-clade recombination in SARS-CoV-2.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC8194586/).

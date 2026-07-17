@@ -1,23 +1,23 @@
 ## Other Sequence Analysis Tools
 
-### [BRCA gene testing](/BRCA-diagnostic/index)
+### [BRCA gene testing](https://github.com/dpuiu/BRCA-diagnostic/wiki)
 
 A computational screening test that takes the raw DNA sequence data from a
 whole-genome sequence of an individual human and tests for each of 68 known
 mutations in the BRCA1 and BRCA2 genes.
 
-### [DivE](/dive/index)
+### [DivE](https://github.com/dpuiu/dive/wiki)
 
 A software to find regions that evolve at a slower or faster rate than the
 neutral evolution rate in any clade of a phylogeny of a set of very closely
 related species.
 
-### [ELPH](/ELPH/index)
+### [ELPH](https://github.com/dpuiu/elph/wiki)
 
 A motif finder based on Gibbs sampling that can find ribosome binding sites,
 exon splicing enhancers, or regulatory sites.
 
-### [fqtrim](/fqtrim/index)
+### [fqtrim](https://github.com/dpuiu/fqtrim/wiki)
 
 A software utility for filtering and trimming high-throughput next-gen reads.
 
@@ -27,7 +27,7 @@ A comprehensive system for finding unique DNA sequences that can be used to
 identify any bacterial or virus species or strain. Currently has over 13,000
 species and strains in its database..
 
-### [PhymmBL](/software/phymmbl/index.shtml)
+### [PhymmBL](https://github.com/dpuiu/phymmbl/wiki)
 
 A one-stop system for taxonomically classifying metagenomic short reads.
 
@@ -46,3 +46,37 @@ Markov models.
 A highly accurate program that finds rho-independent transcription terminators
 in bacterial genomes. The site includes a database with pre-computed predictions
 for hundreds of species.
+
+---
+
+## Newer Software
+
+### [OpenSpliceAI](https://github.com/Kuanhao-Chao/OpenSpliceAI)
+
+OpenSpliceAI provides an efficient modular implementation of SpliceAI,
+enabling easy retraining across nonhuman species.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC12575001/).
+
+
+### [Splam](https://github.com/Kuanhao-Chao/splam) 
+
+Splam is a deep-learning-based splice site predictor that improves spliced
+alignments.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC11406845/).
+
+### [PSAURON](https://github.com/salzberg-lab/PSAURON)
+
+PSAURON assesses protein annotation quality across a broad range of species.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC11704789/).
+
+### [Conterminator](https://github.com/martin-steinegger/conterminator)
+
+Conterminator identifies contaminated entries in GenBank through large-scale
+sequence screening.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC7218494/).
+
+### [Wheeler Graph Toolkit (WGT)](https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit)
+
+WGT provides tools and algorithms for recognizing, visualizing, and generating
+Wheeler graphs.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10415921/).
