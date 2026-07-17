@@ -20,10 +20,10 @@
 :columns: 12 12 9 9
 
 **Salzberg/Pertea Lab**<br>
+**{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
 {{bme}}<br>
 
 [berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)
-::::
 
 ```
 
