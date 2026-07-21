@@ -1,18 +1,18 @@
 ## Other Sequence Analysis Tools
 
-### [BRCA gene testing](https://github.com/dpuiu/BRCA-diagnostic/wiki)
+### [BRCA gene testing](https://github.com/salzberg-lab/BRCA-diagnostic/wiki)
 
 A computational screening test that takes the raw DNA sequence data from a
 whole-genome sequence of an individual human and tests for each of 68 known
 mutations in the BRCA1 and BRCA2 genes.
 
-### [DivE](https://github.com/dpuiu/dive/wiki)
+### [DivE](https://github.com/salzberg-lab/dive/wiki)
 
 A software to find regions that evolve at a slower or faster rate than the
 neutral evolution rate in any clade of a phylogeny of a set of very closely
 related species.
 
-### [ELPH](https://github.com/dpuiu/elph/wiki)
+### [ELPH](https://github.com/salzberg-lab/elph/wiki)
 
 A motif finder based on Gibbs sampling that can find ribosome binding sites,
 exon splicing enhancers, or regulatory sites.
@@ -27,7 +27,7 @@ A comprehensive system for finding unique DNA sequences that can be used to
 identify any bacterial or virus species or strain. Currently has over 13,000
 species and strains in its database..
 
-### [PhymmBL](https://github.com/dpuiu/phymmbl/wiki)
+### [PhymmBL](https://github.com/salzberg-lab/phymmbl/wiki)
 
 A one-stop system for taxonomically classifying metagenomic short reads.
 

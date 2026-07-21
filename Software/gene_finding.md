@@ -6,7 +6,7 @@ A novel genome annotation software package based entirely on experimental eviden
 It derives protein-coding gene and long non-coding RNA (lncRNA) annotations from RNA-seq 
 data and/or transcript sequences, together with alignments of proteins from related species.
 
-### [Glimmer](https://github.com/dpuiu/glimmer/wiki)
+### [Glimmer](https://github.com/salzberg-lab/glimmer/wiki)
 
 A system that uses interpolated Markov models to find genes in microbial DNA.
 Used to annotate hundreds (possibly thousands) of bacterial, archaeal, and viral
@@ -38,7 +38,7 @@ ORFanage investigates open reading frames in known and novel transcripts.
 
 ## Older Software
 
-### [GlimmerHMM](https://github.com/dpuiu/glimmerhmm/wiki)
+### [GlimmerHMM](https://github.com/salzberg-lab/glimmerhmm/wiki)
 
 A Generalized Hidden Markov Model gene-finder which makes use of the techniques
 implemented previously by GlimmerM.
@@ -49,11 +49,11 @@ Glimmer-MG is a older system for finding genes in metagenomic shotgun DNA
 sequences, using the Glimmer algorithm plus the SCIMM system for clustering
 metagenomics data, and the now-outdated Phymm system for phylogenetic labeling.
 
-### [GeneSplicer](https://github.com/dpuiu/genesplicer/wiki)
+### [GeneSplicer](https://github.com/salzberg-lab/genesplicer/wiki)
 
 A fast system for detecting splice sites in genomic DNA of various eukaryotes.
 
-### [JIGSAW](https://github.com/dpuiu/jigsaw/wiki)
+### [JIGSAW](https://github.com/salzberg-lab/jigsaw/wiki)
 
 A program that predicts gene models using the output from multiple sources of
 evidence, including other gene finders, Blast searches, and other alignment
