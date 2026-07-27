@@ -139,7 +139,7 @@ Open the website in a browser:
 
 ## 6. Edit Website Content
 
-Pages are written in [Myst Markdown https://mystmd.org/]
+Pages are written in [Myst Markdown](https://mystmd.org/)
 
 Examples:
 
@@ -188,7 +188,7 @@ git push
 This project uses GitHub Actions to build the website automatically. 
 Updates triger page build
 
-  https://github.com/dpuiu/www.ccb.jhu.edu/settings/pages
+  https://github.com/dpuiu0/www.ccb.jhu.edu/settings/pages
 
 Set: Build and deployment, Source="GitHub Action"
 

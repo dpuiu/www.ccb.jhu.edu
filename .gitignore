@@ -6,3 +6,4 @@ make.log
 *.swp
 docs/
 Software.wiki/
+.venv/

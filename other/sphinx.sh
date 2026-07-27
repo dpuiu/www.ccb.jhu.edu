@@ -652,3 +652,6 @@ pip install rst-to-myst --break-system-packages
 #=>../OpenSpliceAI/docs/source/index.md 
 
 #pandoc -f html -t myst
+
+########
+cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g' > README.dpuiu0.md

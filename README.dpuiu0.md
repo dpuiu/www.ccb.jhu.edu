@@ -57,7 +57,7 @@ Authenticate the GitHub CLI, verify that you are logged in, get your GitHub user
 gh auth login
 
 GITHUB_USERNAME=$(gh api user --jq .login)
-echo dpuiu0
+echo $GITHUB_USERNAME
 
 git clone https://github.com/dpuiu0/www.ccb.jhu.edu.git
 
@@ -139,7 +139,7 @@ Open the website in a browser:
 
 ## 6. Edit Website Content
 
-Pages are written in [Myst Markdown https://mystmd.org/]
+Pages are written in [Myst Markdown](https://mystmd.org/)
 
 Examples:
 
