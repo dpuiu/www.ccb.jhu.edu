@@ -3,6 +3,5 @@ NEW/
 **/OLD/
 make.log
 *.swp
-docs/
 Software.wiki/
 .venv/

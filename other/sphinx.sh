@@ -657,3 +657,4 @@ pip install rst-to-myst --break-system-packages
 cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g'   > README.dpuiu0.md
 cat README.md | sed 's|\$GITHUB_USERNAME|sande125|g' > README.sande125.md
 
+git add README.*md ; git commit -m "multiple updates"; git push
