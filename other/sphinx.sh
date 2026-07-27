@@ -654,4 +654,6 @@ pip install rst-to-myst --break-system-packages
 #pandoc -f html -t myst
 
 ########
-cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g' > README.dpuiu0.md
+cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g'   > README.dpuiu0.md
+cat README.md | sed 's|\$GITHUB_USERNAME|sande125|g' > README.sande125.md
+

@@ -49,7 +49,7 @@ sudo apt install python3 python3-pip python3-venv python-is-python3 git gh
 ```
 ---
  
-## 3. Login to GitHub and Clone Your Fork
+## 3. Login to GitHub
 
 Authenticate the GitHub CLI, verify that you are logged in, get your GitHub username, clone your fork of the CCB website repository:
 
@@ -59,9 +59,21 @@ gh auth login
 GITHUB_USERNAME=$(gh api user --jq .login)
 echo $GITHUB_USERNAME
 
+---
+
+## 3a. Clone the Fork (1st Time)
+
 git clone https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu.git
 
 cd www.ccb.jhu.edu
+```
+
+---
+## 3b. Update the Fork (Before Any New Updates)
+
+```bash
+cd www.ccb.jhu.edu
+git pull
 ```
 
 ---
@@ -80,6 +92,7 @@ tree .
 ├── conf.py               # Sphinx configuration
 ├── Makefile              # Build commands
 ├── README.md             # Repository documentation
+    _templates/           # Sphinx templates
 
 ├── _static/              # Static files
 │   ├── custom.css        # Custom CSS
@@ -96,9 +109,8 @@ tree .
 ├── Education/            # PhD program and courses
 ├── CBCC/                 # Consulting Core
 
-├── Examples/             # MyST Markdown examples:
-│                         # tables, grids, images, layouts, etc.
-
+├── _build/                       # Build directory, contains html files
+├── .github/workflows/deploy.yml  # Automatic build pipeline
 ```
 
 ---
@@ -118,7 +130,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Build the website:
-make html
+make html                   # using the default pydata_sphinx_theme theme
+#make html html_theme=furo  # using another theme
 
 # View the generated files:
 tree _build
@@ -128,14 +141,14 @@ tree _build
  ├── _static/
  └── ...
 
-# Start a local web server:
-python -m http.server 8000 --bind 127.0.0.1 -d _build/html/
+# Start a local web server ona  local port:
+python -m http.server 8000 --bind 127.0.0.1 -d _build/pydata_sphinx_theme/
+#python -m http.server 8001 --bind 127.0.0.1 -d _build/furo/
 ```
 
 Open the website in a browser:
 
   http://127.0.0.1:8000/
-
 
 ## 6. Edit Website Content
 
@@ -156,12 +169,25 @@ nano People/faculty.md
 ```
 ---
 
-## 7 Update website
+## 7. Generate the Website
 
-In the terminal:
+In the terminal: 
 
 ```bash
 make html
+```
+
+In the browser:
+
+Refresh:
+  http://127.0.0.1:8000/index.html
+
+---
+
+## 7b. Manually Edit the Website
+
+```bash
+nano _build/pydata_sphinx_theme/<file_name>
 ```
 
 In the browser:
@@ -188,13 +214,16 @@ git push
 This project uses GitHub Actions to build the website automatically. 
 Updates triger page build
 
-  https://github.com/dpuiu0/www.ccb.jhu.edu/settings/pages
+  https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/settings/pages
 
 Set: Build and deployment, Source="GitHub Action"
 
 Monitor builds:
 
   https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions  
+
+Site:
+
   https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
 
 ---

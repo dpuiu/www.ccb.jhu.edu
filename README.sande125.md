@@ -57,13 +57,13 @@ Authenticate the GitHub CLI, verify that you are logged in, get your GitHub user
 gh auth login
 
 GITHUB_USERNAME=$(gh api user --jq .login)
-echo dpuiu0
+echo sande125
 
 ---
 
 ## 3a. Clone the Fork (1st Time)
 
-git clone https://github.com/dpuiu0/www.ccb.jhu.edu.git
+git clone https://github.com/sande125/www.ccb.jhu.edu.git
 
 cd www.ccb.jhu.edu
 ```
@@ -214,17 +214,17 @@ git push
 This project uses GitHub Actions to build the website automatically. 
 Updates triger page build
 
-  https://github.com/dpuiu0/www.ccb.jhu.edu/settings/pages
+  https://github.com/sande125/www.ccb.jhu.edu/settings/pages
 
 Set: Build and deployment, Source="GitHub Action"
 
 Monitor builds:
 
-  https://github.com/dpuiu0/www.ccb.jhu.edu/actions  
+  https://github.com/sande125/www.ccb.jhu.edu/actions  
 
 Site:
 
-  https://dpuiu0.github.io/www.ccb.jhu.edu/
+  https://sande125.github.io/www.ccb.jhu.edu/
 
 ---
 
