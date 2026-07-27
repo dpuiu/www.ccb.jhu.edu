@@ -132,17 +132,18 @@ pip install -r requirements.txt
 make html                   # using the default pydata_sphinx_theme theme
 #make html html_theme=furo  # using another theme
 
+# Copy the files to docs:
+cp -r _build/pydata_sphinx_theme/ docs/
+
 # View the generated files:
-tree _build
- _build/
- └── html/
+tree docs/
+ docs/
  ├── index.html
  ├── _static/
  └── ...
 
 # Start a local web server ona  local port:
-python -m http.server 8000 --bind 127.0.0.1 -d _build/pydata_sphinx_theme/
-#python -m http.server 8001 --bind 127.0.0.1 -d _build/furo/
+python -m http.server 8000 --bind 127.0.0.1 -d docs/
 ```
 
 Open the website in a browser:
@@ -158,19 +159,18 @@ Examples:
 ```text
 About/about.md
 People/faculty.md
-People/students.md
+Software/alignment.md
+...
+
 ```
 
-Edit with your preferred editor (Ex nano):
+Edit one page with your preferred editor (Ex nano):
 
 ```bash
-nano People/faculty.md
+nano Software/alignment.md
 ```
----
 
-## 7. Generate the Website
-
-In the terminal: 
+Rerun the make, copy commands
 
 ```bash
 make html
@@ -180,11 +180,11 @@ cp -r _build/pydata_sphinx_theme/ docs/
 In the browser:
 
 Refresh:
-  http://127.0.0.1:8000/index.html
+  http://127.0.0.1:8000/Software/alignment.html
 
 ---
 
-## 7b. Manually Edit the Website (should be avoided)
+## 7b. Edit the HTML pages (should be avoided)
 
 Example: The Alignment Software Website
 
@@ -200,7 +200,7 @@ nano docs/Software/alignment.html
 In the browser:
 
 Refresh:
-  http://127.0.0.1:8000/index.html
+  http://127.0.0.1:8000/Software/alignment.html
 
 ---
 
