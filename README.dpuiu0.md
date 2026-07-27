@@ -58,10 +58,11 @@ gh auth login
 
 GITHUB_USERNAME=$(gh api user --jq .login)
 echo dpuiu0
+```
 
 ---
 
-## 3a. Clone the Fork (1st Time)
+## 3a. Clone the Repo (1st time)
 
 git clone https://github.com/dpuiu0/www.ccb.jhu.edu.git
 
@@ -69,7 +70,7 @@ cd www.ccb.jhu.edu
 ```
 
 ---
-## 3b. Update the Fork (Before Any New Updates)
+## 3b. Bring The Local Repo Up To Date
 
 ```bash
 cd www.ccb.jhu.edu
@@ -184,7 +185,7 @@ Refresh:
 
 ---
 
-## 7b. Manually Edit the Website
+## 7b. Manually Edit the Website (should be avoided)
 
 ```bash
 nano _build/pydata_sphinx_theme/<file_name>
