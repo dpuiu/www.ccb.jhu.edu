@@ -1,6 +1,6 @@
 ## Metagenomics Classification, Abundance Estimation and Visualization
 
-### [How to Choose a Metagenomics Classifier](https://github.com/dpuiu/choosing-a-metagenomics-classifier/wiki)
+### [How to Choose a Metagenomics Classifier](https://github.com/salzberg-lab/choosing-a-metagenomics-classifier/wiki)
 
 Kraken, KrakenUniq, Kraken2, and Centrifuge are all metagenomic classifiers
 developed by researchers in the Center for Computational Biology. To help users

@@ -1,53 +1,73 @@
 # Contributing to the CCB Website
 
-This repository contains the source files for the Center for Computational
-Biology (CCB) website draft (Sphinx PyData Theme):\
+This repository contains the source files for the draft **Center for Computational
+Biology (CCB) website**, built with **Sphinx and the PyData Theme**:
+
 https://dpuiu.github.io/www.ccb.jhu.edu/
 
-Official CCB website:\
+The official CCB website is:
+
 https://ccb.jhu.edu/
 
-We welcome contributions from collaborators and lab members. You can improve the
-website by editing Markdown (`.md`) files and submitting a Pull Request.\
+We welcome contributions from CCB collaborators and lab members. You can help
+improve the website by editing MyST Markdown (`.md`) files and submitting a
+Pull Request.
+
 All changes are reviewed before being merged and published.
 
-______________________________________________________________________
+---
 
-## Workflow Overview
+# Workflow Overview
 
 1. Fork the repository
-1. Clone your fork locally
-1. Create a new branch
-1. Make your changes
-1. Commit and push your branch
-1. Open a Pull Request
-1. A CCB maintainer reviews and merges your changes
-1. The website is automatically rebuilt and deployed
+2. Clone your fork locally
+3. Create a new branch
+4. Edit website content
+5. Build and test the website locally
+6. Commit and push your changes
+7. Open a Pull Request
+8. A CCB maintainer reviews and merges your changes
+9. GitHub Actions automatically rebuilds and deploys the website
 
-______________________________________________________________________
+---
 
-## 1. Fork the Repository
+# 1. Fork the Repository
 
-Create your own fork of:\
-https://github.com/dpuiu/www.ccb.jhu.edu
+Using a web browser:
 
-______________________________________________________________________
+1. Login to GitHub
+2. Navigate to:
 
-## 2. Clone Your Fork
+   https://github.com/dpuiu/www.ccb.jhu.edu
+
+3. Click **Fork** to create your own copy of the repository.
+
+---
+
+# 2. Login to GitHub and Clone Your Fork
+
+In the terminal:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu.git
+gh auth login
+
+GITHUB_USERNAME=$(gh api user --jq .login)
+
+git clone https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu.git
+
 cd www.ccb.jhu.edu
 ```
 
 ______________________________________________________________________
 
-## 3. Create a Branch
+## 3. Create a Development Branch
 
 Always work on a separate branch (do not commit directly to main):
 
+In the terminal:
+
 ```bash
-git checkout -b update-my-page
+git checkout -b site-update
 ```
 
 ______________________________________________________________________
@@ -55,19 +75,28 @@ ______________________________________________________________________
 ## 4. Repository Structure
 
 The repository is organized by website section. Most content is written in
-Markdown (`.md`) using MyST.
+MyST Markdown (`.md`) .
 
-```text
-www.ccb.jhu.edu/
-├── index.md          # Website home page
-├── conf.py           # Sphinx configuration
-├── _static/          # Images, logos, PDFs, and other static files
-└── README.md         # This file
- 
+In the terminal:
+
+```bash
+tree www.ccb.jhu.edu/
+├── index.md            # Website home page
+├── conf.py             # Sphinx configuration
+├── Makefile            # Makefile
+├── README.md           # This file
+
+├── _static/            # static files
+├── _static/custom.css  # CSS
+├── _static/custom.js   # JavaScripts
+
+├── _static/Logos/      # JHU logos
+├── _static/Maps/       # campus maps
+├── _static/People      # faculty, students, ... pictures
+
 ├── About/            # About CCB, Publications, Contact
 ├── People/           # Faculty, staff, postdocs, students, alumni
-├── People/alekseyz/  # Individual profiles
-...
+├── People/alekseyz/  # Example: individual profiles
 ├── Software/         # Software developed by CCB
 ├── Data/             # Databases developed by CCB
 ├── Education/        # The Ph.D. program, courses
@@ -78,65 +107,119 @@ www.ccb.jhu.edu/
 
 ______________________________________________________________________
 
-## 5. Edit Website Content
+## 4 Build Website locally
 
-Pages are written in Markdown using MyST:\
+In the terminal:
+
+```bash
+
+# Check Python:
+python -v
+
+# Create a virtual environment:
+python -m venv .venv
+. .venv/bin/activate
+pip install -f requirements.txt 
+
+# Build the website:
+make html
+cd _build/pydata_sphinx_theme/
+
+# Launch a local server:
+python -m http.server 8000 --bind 127.0.0.1 &
+```
+
+In the browser:
+
+# Open 
+
+http://127.0.0.1:8000/index.html
+
+
+______________________________________________________________________
+
+## 6. Edit Website Content
+
+Pages are written in Myst Markdown:
+
 https://mystmd.org/
 
-Example files:
+Examples:
 
-```text
+
+```bash
 About/about.md
 People/faculty.md
 People/students.md
 ```
 
-Tested elements:
-[MD](https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt) =>
-[HTML](https://dpuiu.github.io/www.ccb.jhu.edu/Examples/)
+Edit with your preferred editor:
+
+```bash
+nano People/faculty.md
+```
+_____________________________________________________________________
+
+## 7 Test changes
+
+In the terminal:
+
+```bash
+make html
+```
+
+In the browser:
+
+Refresh:
+
+http://127.0.0.1:8000/index.html
 
 ______________________________________________________________________
 
-## 6. Commit Your Changes
+## 8. Commit Your Changes
+
+In the terminal:
+
 
 ```bash
+git status
 git add .
 git commit -m "Update website content"
 ```
 
 ______________________________________________________________________
 
-## 7. Push Your Branch
+## 9. Push Your Branch
+
+In the terminal:
 
 ```bash
-git push origin update-my-page
+git push origin site-update
 ```
 
 ______________________________________________________________________
 
-## 8. GitHub Actions (Automatic Deployment)
+## 10. GitHub Actions & Deployment
 
 This project uses GitHub Actions to build the website automatically.
 
 - Pull Requests trigger test builds
 - Merges into main trigger deployment
 
-Monitor builds:\
-https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions
+Monitor builds:
 
-______________________________________________________________________
-
-## 9. Website Deployment
+https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions
 
 After merging into main, the site is published automatically:
+(might take a few minutes to build)
 
-https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
+https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
 
 ______________________________________________________________________
 
-## 10. Open a Pull Request
+## 10. Merge changes
 
-If happy with the edits, open a PR here:\
+If happy with the edits, open a Pull Request here:\
 https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 
 Include a short description of your changes.
@@ -155,11 +238,13 @@ They may:
 
 ______________________________________________________________________
 
-## 12. Cleanup (Recommended)
+## 12. Cleanup After Merge
 
-After merge:
+Delete local & remote branch:
+
+In the terminal:
 
 ```bash
-git branch -d update-my-page
-git push origin --delete update-my-page
+git branch -d site-update
+git push origin --delete site-update
 ```
