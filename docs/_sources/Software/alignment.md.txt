@@ -1,11 +1,4 @@
-## Next-generation Sequence Alignment Software
-
-### [Arioc](https://github.com/rwilton/arioc)
-
-Arioc is a GPU-accelerated DNA short-read aligner for WGS and WGBS reads. With
-high throughput (~1.5 to 2 million reads per second with the human reference
-genome in a 4-GPU computer), it is well suited to large-scale NGS data
-processing.
+## Alignment
 
 ### [Bowtie](https://bowtie-bio.sf.net)
 
@@ -15,22 +8,7 @@ typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
 to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
 Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
 
-### [Tophat](/_static/legacy/tophat/index.html)
-
-A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
-exon-exon splice junctions and is extremely fast due to its use of the Bowtie2
-aligner. The last release, TopHat2, runs with either Bowtie1 or Bowtie2 and
-includes algorithms that significant enhance TopHat's sensitivity, particularly
-in the presence of pseudogenes. TopHat2 includes TopHat-Fusion as an option.
-TopHat2 includes TopHat-Fusion as an option.
-
-### [TopHat-Fusion](https://tophat-fusion.sourceforge.net)
-
-TopHat-Fusion is an enhanced version of TopHat with the ability to align reads
-across fusion points, which results from the breakage and re-joining of two
-different chromosomes, or from rearrangements within a chromosome.
-
-### [HISAT](/hisat/index)
+### [HISAT](https://github.com/dpuiu/hisat/wiki)
 
 HISAT is a highly efficient system for aligning RNA-seq reads. HISAT uses a
 novel indexing scheme, hierarchical indexing, which is inherently well-suited
@@ -57,23 +35,31 @@ discovery of novel HLA alleles, DNA fingerprinting analysis, and other
 functionalities. All HISAT programs were developed by Daehwan Kim and they are
 currently maintained at [kim-lab.org](https://kim-lab.org/).
 
+---
 
-### [TieBrush](https://github.com/alevar/tiebrush)
+## Older Software
 
-A utility for efficient merging redundant information from multiple alignment
-files designed to enable rapid manupulation of extremely large datasets
-(RNA-seq, whole genome, exome, etc.). Data representations built with TieBrush
-and TieCov can be used for easier programmatic and visual analysis and
-comparison of groups within large sequencing datasets.
+### [Arioc](https://github.com/rwilton/arioc)
 
-### [EASTR](/eastr/index)
+Arioc is a GPU-accelerated DNA short-read aligner for WGS and WGBS reads. With
+high throughput (~1.5 to 2 million reads per second with the human reference
+genome in a 4-GPU computer), it is well suited to large-scale NGS data
+processing.
 
-EASTR is a tool for detecting spuriously spliced alignments and junctions in
-RNA-seq datasets and reference annotations. It improves the accuracy of
-downstream analyses, such as transcriptome assembly, by dentifying and removing
-misaligned spliced alignments. The tool can process GTF, BED, and BAM files as
-input.
+### [Tophat](https://github.com/dpuiu/tophat/wiki)
 
+A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
+exon-exon splice junctions and is extremely fast due to its use of the Bowtie2
+aligner. The last release, TopHat2, runs with either Bowtie1 or Bowtie2 and
+includes algorithms that significant enhance TopHat's sensitivity, particularly
+in the presence of pseudogenes. TopHat2 includes TopHat-Fusion as an option.
+TopHat2 includes TopHat-Fusion as an option.
+
+### [TopHat-Fusion](https://tophat-fusion.sourceforge.net)
+
+TopHat-Fusion is an enhanced version of TopHat with the ability to align reads
+across fusion points, which results from the breakage and re-joining of two
+different chromosomes, or from rearrangements within a chromosome.
 
 ### [CloudBurst](https://cloudburst-bio.sf.net)
 
@@ -103,10 +89,3 @@ Diamund is an efficient algorithm for variant detection in family trios or pairs
 of closely related exome or whole-genome sequencing samples. It compares DNA
 sequences directly to one another, without aligning them to the reference
 genome.
-
-### [EDGE-pro](/EDGE-pro/index)
-
-EDGE-pro is a program for estimating gene expression from prokaryotic RNA-seq.
-EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks, does not
-allow spliced alignments. It also handles overlapping genes, a common phenomenon
-in bacteria that is largely absent in eukaryotes.

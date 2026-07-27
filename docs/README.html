@@ -27,24 +27,24 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=0790524f97105ba85085" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=0790524f97105ba85085" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=53567085" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="_static/scripts/fontawesome.js?digest=0790524f97105ba85085"></script>
+  <script defer src="_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=0790524f97105ba85085" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=0790524f97105ba85085" />
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
 
     <script src="_static/documentation_options.js?v=fc6fd62b"></script>
-    <script src="_static/doctools.js?v=9bcbadda"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="_static/design-tabs.js?v=f930bc37"></script>
@@ -396,126 +396,196 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-the-ccb-website">
 <h1>Contributing to the CCB Website<a class="headerlink" href="#contributing-to-the-ccb-website" title="Link to this heading">#</a></h1>
-<p>This repository contains the source files for the Center for Computational
-Biology (CCB) website draft (Sphinx PyData Theme):<br />
-https://dpuiu.github.io/www.ccb.jhu.edu/</p>
-<p>Official CCB website:<br />
-https://ccb.jhu.edu/</p>
-<p>We welcome contributions from collaborators and lab members. You can improve the
-website by editing Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) files and submitting a Pull Request.<br />
-All changes are reviewed before being merged and published.</p>
-<hr class="docutils" />
-<section id="workflow-overview">
-<h2>Workflow Overview<a class="headerlink" href="#workflow-overview" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p>Fork the repository</p></li>
-<li><p>Clone your fork locally</p></li>
-<li><p>Create a new branch</p></li>
-<li><p>Make your changes</p></li>
-<li><p>Commit and push your branch</p></li>
-<li><p>Open a Pull Request</p></li>
-<li><p>A CCB maintainer reviews and merges your changes</p></li>
-<li><p>The website is automatically rebuilt and deployed</p></li>
-</ol>
-</section>
+<p>This repository contains the source files for the <strong>Center for Computational Biology (CCB) website</strong>, built with <strong>Sphinx and the PyData Theme</strong>:</p>
+<p><a class="reference external" href="https://dpuiu.github.io/www.ccb.jhu.edu/">https://dpuiu.github.io/www.ccb.jhu.edu/</a></p>
+<p>The official CCB website is available at:</p>
+<p><a class="reference external" href="https://ccb.jhu.edu/">https://ccb.jhu.edu/</a></p>
+<p>We welcome contributions from CCB collaborators and lab members. You can help
+improve the website by editing MyST Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) files and submitting a
+pull request.</p>
+<p>All changes are reviewed before being merged and published to the website.</p>
 <hr class="docutils" />
 <section id="fork-the-repository">
 <h2>1. Fork the Repository<a class="headerlink" href="#fork-the-repository" title="Link to this heading">#</a></h2>
-<p>Create your own fork of:<br />
-https://github.com/dpuiu/www.ccb.jhu.edu</p>
+<p>Using a web browser:</p>
+<ol class="arabic">
+<li><p>Log in to GitHub.</p></li>
+<li><p>Navigate to the CCB website repository:</p>
+<p><a class="github reference external" href="https://github.com/dpuiu/www.ccb.jhu.edu">dpuiu/www.ccb.jhu.edu</a></p>
+</li>
+<li><p>Click <strong>Fork</strong> in the upper-right corner to create your own copy of the repository under your GitHub account.</p></li>
+</ol>
+<p>You can make changes in your fork and submit them back to the main repository through a pull request.</p>
 </section>
 <hr class="docutils" />
-<section id="clone-your-fork">
-<h2>2. Clone Your Fork<a class="headerlink" href="#clone-your-fork" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu.git
+<section id="check-if-python-git-and-github-cli-are-installed">
+<h2>2. Check if Python, Git, and GitHub CLI Are Installed<a class="headerlink" href="#check-if-python-git-and-github-cli-are-installed" title="Link to this heading">#</a></h2>
+<p>Open a terminal and check that the required tools are available:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>--version
+git<span class="w"> </span>--version
+gh<span class="w"> </span>--version
+</pre></div>
+</div>
+<p>If any of these tools are missing, install them (Ubuntu example):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>python3<span class="w"> </span>python3-pip<span class="w"> </span>python3-venv<span class="w"> </span>python-is-python3<span class="w"> </span>git<span class="w"> </span>gh
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="login-to-github">
+<h2>3. Login to GitHub<a class="headerlink" href="#login-to-github" title="Link to this heading">#</a></h2>
+<p>Authenticate the GitHub CLI, verify that you are logged in, get your GitHub username, clone your fork of the CCB website repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>gh<span class="w"> </span>auth<span class="w"> </span>login
+<span class="nv">GITHUB_USERNAME</span><span class="o">=</span><span class="k">$(</span>gh<span class="w"> </span>api<span class="w"> </span>user<span class="w"> </span>--jq<span class="w"> </span>.login<span class="k">)</span>
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="a-clone-the-repo-1st-time">
+<h2>3a. Clone the Repo (1st time)<a class="headerlink" href="#a-clone-the-repo-1st-time" title="Link to this heading">#</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/<span class="nv">$GITHUB_USERNAME</span>/www.ccb.jhu.edu.git
 <span class="nb">cd</span><span class="w"> </span>www.ccb.jhu.edu
 </pre></div>
 </div>
 </section>
 <hr class="docutils" />
-<section id="create-a-branch">
-<h2>3. Create a Branch<a class="headerlink" href="#create-a-branch" title="Link to this heading">#</a></h2>
-<p>Always work on a separate branch (do not commit directly to main):</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>update-my-page
+<section id="b-bring-the-local-repo-up-to-date">
+<h2>3b. Bring The Local Repo Up To Date<a class="headerlink" href="#b-bring-the-local-repo-up-to-date" title="Link to this heading">#</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>www.ccb.jhu.edu
+git<span class="w"> </span>pull
 </pre></div>
 </div>
 </section>
 <hr class="docutils" />
 <section id="repository-structure">
 <h2>4. Repository Structure<a class="headerlink" href="#repository-structure" title="Link to this heading">#</a></h2>
-<p>The repository is organized by website section. Most content is written in
-Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) using MyST.</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>www.ccb.jhu.edu/
-├── index.md          # Website home page
-├── conf.py           # Sphinx configuration
-├── _static/          # Images, logos, PDFs, and other static files
-└── README.md         # This file
- 
-├── About/            # About CCB, Publications, Contact
-├── People/           # Faculty, staff, postdocs, students, alumni
-├── People/alekseyz/  # Individual profiles
-...
-├── Software/         # Software developed by CCB
-├── Data/             # Databases developed by CCB
-├── Education/        # The Ph.D. program, courses
-├── CBCC/             # Consulting Core  
- 
-├── Examples/         # Markdown/MyST tested examples (tables,grids,images,layouts...)
+<p>The repository is organized by website section. Most content is written in MyST Markdown (<code class="docutils literal notranslate"><span class="pre">.md</span></code>) .</p>
+<p>In the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>tree<span class="w"> </span>.
+
+<span class="w"> </span>.
+<span class="w"> </span>├──<span class="w"> </span>index.md<span class="w">              </span><span class="c1"># Website home page</span>
+<span class="w"> </span>├──<span class="w"> </span>conf.py<span class="w">               </span><span class="c1"># Sphinx configuration</span>
+<span class="w"> </span>├──<span class="w"> </span>Makefile<span class="w">              </span><span class="c1"># Build commands</span>
+<span class="w"> </span>├──<span class="w"> </span>README.md<span class="w">             </span><span class="c1"># Repository documentation</span>
+<span class="w">     </span>_templates/<span class="w">           </span><span class="c1"># Sphinx templates</span>
+<span class="w"> </span>
+<span class="w"> </span>├──<span class="w"> </span>_static/<span class="w">              </span><span class="c1"># Static files</span>
+<span class="w"> </span>│<span class="w">   </span>├──<span class="w"> </span>custom.css<span class="w">        </span><span class="c1"># Custom CSS</span>
+<span class="w"> </span>│<span class="w">   </span>├──<span class="w"> </span>custom.js<span class="w">         </span><span class="c1"># Custom JavaScript</span>
+<span class="w"> </span>│<span class="w">   </span>├──<span class="w"> </span>Logos/<span class="w">            </span><span class="c1"># JHU logos</span>
+<span class="w"> </span>│<span class="w">   </span>├──<span class="w"> </span>Maps/<span class="w">             </span><span class="c1"># Campus maps</span>
+<span class="w"> </span>│<span class="w">   </span>└──<span class="w"> </span>People/<span class="w">           </span><span class="c1"># Faculty, staff, and student pictures</span>
+<span class="w"> </span>
+<span class="w"> </span>├──<span class="w"> </span>About/<span class="w">                </span><span class="c1"># About CCB, publications, contact</span>
+<span class="w"> </span>├──<span class="w"> </span>People/<span class="w">               </span><span class="c1"># Faculty, staff, postdocs, students, alumni</span>
+<span class="w"> </span>│<span class="w">   </span>└──<span class="w"> </span>alekseyz/<span class="w">         </span><span class="c1"># Example: individual profile</span>
+<span class="w"> </span>├──<span class="w"> </span>Software/<span class="w">             </span><span class="c1"># Software developed by CCB</span>
+<span class="w"> </span>├──<span class="w"> </span>Data/<span class="w">                 </span><span class="c1"># Databases developed by CCB</span>
+<span class="w"> </span>├──<span class="w"> </span>Education/<span class="w">            </span><span class="c1"># PhD program and courses</span>
+<span class="w"> </span>├──<span class="w"> </span>CBCC/<span class="w">                 </span><span class="c1"># Consulting Core</span>
+<span class="w"> </span>
+<span class="w"> </span>├──<span class="w"> </span>_build/<span class="w">                       </span><span class="c1"># Build directory, contains html files</span>
+<span class="w"> </span>├──<span class="w"> </span>.github/workflows/deploy.yml<span class="w">  </span><span class="c1"># Automatic build pipeline</span>
 </pre></div>
 </div>
 </section>
 <hr class="docutils" />
+<section id="build-the-website-locally">
+<h2>5. Build the Website Locally<a class="headerlink" href="#build-the-website-locally" title="Link to this heading">#</a></h2>
+<p>Before submitting changes, build and test the website locally.</p>
+<p>In the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create and activate a Python virtual environment:</span>
+python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+
+<span class="c1"># Install website dependencies:</span>
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+
+<span class="c1"># Build the website:</span>
+make<span class="w"> </span>html<span class="w">                   </span><span class="c1"># using the default pydata_sphinx_theme theme</span>
+<span class="c1">#make html html_theme=furo  # using another theme</span>
+
+<span class="c1"># View the generated files:</span>
+tree<span class="w"> </span>_build
+<span class="w"> </span>_build/
+<span class="w"> </span>└──<span class="w"> </span>html/
+<span class="w"> </span>├──<span class="w"> </span>index.html
+<span class="w"> </span>├──<span class="w"> </span>_static/
+<span class="w"> </span>└──<span class="w"> </span>...
+
+<span class="c1"># Start a local web server ona  local port:</span>
+python<span class="w"> </span>-m<span class="w"> </span>http.server<span class="w"> </span><span class="m">8000</span><span class="w"> </span>--bind<span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span>-d<span class="w"> </span>_build/pydata_sphinx_theme/
+<span class="c1">#python -m http.server 8001 --bind 127.0.0.1 -d _build/furo/</span>
+</pre></div>
+</div>
+<p>Open the website in a browser:</p>
+<p>http://127.0.0.1:8000/</p>
+</section>
 <section id="edit-website-content">
-<h2>5. Edit Website Content<a class="headerlink" href="#edit-website-content" title="Link to this heading">#</a></h2>
-<p>Pages are written in Markdown using MyST:<br />
-https://mystmd.org/</p>
-<p>Example files:</p>
+<h2>6. Edit Website Content<a class="headerlink" href="#edit-website-content" title="Link to this heading">#</a></h2>
+<p>Pages are written in <a class="reference external" href="https://mystmd.org/">Myst Markdown</a></p>
+<p>Examples:</p>
 <div class="highlight-text notranslate"><div class="highlight"><pre><span></span>About/about.md
 People/faculty.md
 People/students.md
 </pre></div>
 </div>
-<p>Tested elements:
-<a class="reference external" href="https://dpuiu.github.io/www.ccb.jhu.edu/_sources/Examples/index.md.txt">MD</a> =&gt;
-<a class="reference external" href="https://dpuiu.github.io/www.ccb.jhu.edu/Examples/">HTML</a></p>
+<p>Edit with your preferred editor (Ex nano):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nano<span class="w"> </span>People/faculty.md
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="generate-the-website">
+<h2>7. Generate the Website<a class="headerlink" href="#generate-the-website" title="Link to this heading">#</a></h2>
+<p>In the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>html
+</pre></div>
+</div>
+<p>In the browser:</p>
+<p>Refresh:
+http://127.0.0.1:8000/index.html</p>
+</section>
+<hr class="docutils" />
+<section id="b-manually-edit-the-website-should-be-avoided">
+<h2>7b. Manually Edit the Website (should be avoided)<a class="headerlink" href="#b-manually-edit-the-website-should-be-avoided" title="Link to this heading">#</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>nano<span class="w"> </span>_build/pydata_sphinx_theme/&lt;file_name&gt;
+</pre></div>
+</div>
+<p>In the browser:</p>
+<p>Refresh:
+http://127.0.0.1:8000/index.html</p>
 </section>
 <hr class="docutils" />
 <section id="commit-your-changes">
-<h2>6. Commit Your Changes<a class="headerlink" href="#commit-your-changes" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
+<h2>8. Commit Your Changes<a class="headerlink" href="#commit-your-changes" title="Link to this heading">#</a></h2>
+<p>In the terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>status
+git<span class="w"> </span>add<span class="w"> </span>.
 git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Update website content&quot;</span>
+git<span class="w"> </span>push
 </pre></div>
 </div>
 </section>
 <hr class="docutils" />
-<section id="push-your-branch">
-<h2>7. Push Your Branch<a class="headerlink" href="#push-your-branch" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>update-my-page
-</pre></div>
-</div>
+<section id="setting-github-actions-deployment">
+<h2>9. Setting GitHub Actions &amp; Deployment<a class="headerlink" href="#setting-github-actions-deployment" title="Link to this heading">#</a></h2>
+<p>This project uses GitHub Actions to build the website automatically.
+Updates triger page build</p>
+<p>https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/settings/pages</p>
+<p>Set: Build and deployment, Source=”GitHub Action”</p>
+<p>Monitor builds:</p>
+<p>https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions</p>
+<p>Site:</p>
+<p>https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/</p>
 </section>
 <hr class="docutils" />
-<section id="github-actions-automatic-deployment">
-<h2>8. GitHub Actions (Automatic Deployment)<a class="headerlink" href="#github-actions-automatic-deployment" title="Link to this heading">#</a></h2>
-<p>This project uses GitHub Actions to build the website automatically.</p>
-<ul class="simple">
-<li><p>Pull Requests trigger test builds</p></li>
-<li><p>Merges into main trigger deployment</p></li>
-</ul>
-<p>Monitor builds:<br />
-https://github.com/YOUR_GITHUB_USERNAME/www.ccb.jhu.edu/actions</p>
-</section>
-<hr class="docutils" />
-<section id="website-deployment">
-<h2>9. Website Deployment<a class="headerlink" href="#website-deployment" title="Link to this heading">#</a></h2>
-<p>After merging into main, the site is published automatically:</p>
-<p>https://YOUR_GITHUB_USERNAME.github.io/www.ccb.jhu.edu/</p>
-</section>
-<hr class="docutils" />
-<section id="open-a-pull-request">
-<h2>10. Open a Pull Request<a class="headerlink" href="#open-a-pull-request" title="Link to this heading">#</a></h2>
-<p>If happy with the edits, open a PR here:<br />
-https://github.com/dpuiu/www.ccb.jhu.edu/pulls</p>
+<section id="merge-changes">
+<h2>10. Merge changes<a class="headerlink" href="#merge-changes" title="Link to this heading">#</a></h2>
+<p>If happy with the edits, open a Pull Request here:</p>
+<p>https://github.com/dpuiu/www.ccb.jhu.edu/pulls</p>
 <p>Include a short description of your changes.</p>
 </section>
 <hr class="docutils" />
@@ -528,15 +598,6 @@ https://github.com/dpuiu/www.ccb.jhu.edu/pulls</p>
 <li><p>Request changes</p></li>
 <li><p>Suggest improvements</p></li>
 </ul>
-</section>
-<hr class="docutils" />
-<section id="cleanup-recommended">
-<h2>12. Cleanup (Recommended)<a class="headerlink" href="#cleanup-recommended" title="Link to this heading">#</a></h2>
-<p>After merge:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>branch<span class="w"> </span>-d<span class="w"> </span>update-my-page
-git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>--delete<span class="w"> </span>update-my-page
-</pre></div>
-</div>
 </section>
 </section>
 
@@ -569,19 +630,20 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-overview">Workflow Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fork-the-repository">1. Fork the Repository</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-your-fork">2. Clone Your Fork</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-branch">3. Create a Branch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#check-if-python-git-and-github-cli-are-installed">2. Check if Python, Git, and GitHub CLI Are Installed</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#login-to-github">3. Login to GitHub</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-clone-the-repo-1st-time">3a. Clone the Repo (1st time)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-bring-the-local-repo-up-to-date">3b. Bring The Local Repo Up To Date</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-structure">4. Repository Structure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#edit-website-content">5. Edit Website Content</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-your-changes">6. Commit Your Changes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#push-your-branch">7. Push Your Branch</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#github-actions-automatic-deployment">8. GitHub Actions (Automatic Deployment)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#website-deployment">9. Website Deployment</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-a-pull-request">10. Open a Pull Request</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build-the-website-locally">5. Build the Website Locally</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#edit-website-content">6. Edit Website Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-the-website">7. Generate the Website</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-manually-edit-the-website-should-be-avoided">7b. Manually Edit the Website (should be avoided)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#commit-your-changes">8. Commit Your Changes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-github-actions-deployment">9. Setting GitHub Actions &amp; Deployment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merge-changes">10. Merge changes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-process">11. Review Process</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cleanup-recommended">12. Cleanup (Recommended)</a></li>
 </ul>
   </nav></div>
 
@@ -607,8 +669,8 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="_static/scripts/bootstrap.js?digest=0790524f97105ba85085"></script>
-<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=0790524f97105ba85085"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
 
 <div class="site-footer">
         <div>

@@ -24,7 +24,7 @@
 Department of Biomedical Engineering, School of Medicine<br>Department of Computer Science, Whiting School of Engineering<br>Department of Biostatistics, Bloomberg School of Public Health  
   
 [Lab homepage](https://salzberg-lab.org)  
-&#9993; [salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
+[salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
 ::::
 
 ```
@@ -52,7 +52,7 @@ Department of Biomedical Engineering, School of Medicine<br>Department of Comput
   
 Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology<br>Johns Hopkins University School of Medicine  
   
-&#9993; [arking@jhmi.edu](mailto:arking@jhmi.edu)  
+[arking@jhmi.edu](mailto:arking@jhmi.edu)  
 ::::
 
 ```
@@ -81,7 +81,7 @@ Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology
 Department of Biomedical Engineering  
   
 [Lab homepage](https://www.baderzone.org)  
-&#9993; [joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)  
+[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)  
 ::::
 
 ```
@@ -110,7 +110,7 @@ Department of Biomedical Engineering
 Department of Biomedical Engineering<br>Department of Computer Science, by courtesy<br>Department of Genetic Medicine, by courtesy  
   
 [Lab homepage](https://battlelab.jhu.edu)  
-&#9993; [ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)  
+[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)  
 ::::
 
 ```
@@ -139,7 +139,7 @@ Department of Biomedical Engineering<br>Department of Computer Science, by court
 Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns Hopkins University School of Medicine  
   
 [Lab homepage](https://www.beerlab.org)  
-&#9993; [mbeer@jhu.edu](mailto:mbeer@jhu.edu)  
+[mbeer@jhu.edu](mailto:mbeer@jhu.edu)  
 ::::
 
 ```
@@ -168,7 +168,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 Department of Computer Science<br>Whiting School of Engineering  
   
 [Lab homepage](https://chitra-lab.github.io)  
-&#9993; [uthsav@jhu.edu](mailto:uthsav@jhu.edu)  
+[uthsav@jhu.edu](mailto:uthsav@jhu.edu)  
 ::::
 
 ```
@@ -197,7 +197,7 @@ Department of Computer Science<br>Whiting School of Engineering
 Department of Biomedical Engineering<br>Whiting School of Engineering  
   
 [Lab homepage](https://jef.works)  
-&#9993; [jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)  
+[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)  
 ::::
 
 ```
@@ -226,7 +226,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins University School of Medicine  
   
 [Lab homepage](https://florealab.org)  
-&#9993; [florea@jhu.edu](mailto:florea@jhu.edu)  
+[florea@jhu.edu](mailto:florea@jhu.edu)  
 ::::
 
 ```
@@ -255,7 +255,7 @@ Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins Univer
 Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Computational Biophysics<br>Johns Hopkins University  
   
 [Lab homepage](https://graylab.jhu.edu)  
-&#9993; [jgray@jhu.edu](mailto:jgray@jhu.edu)  
+[jgray@jhu.edu](mailto:jgray@jhu.edu)  
 ::::
 
 ```
@@ -284,7 +284,7 @@ Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Comp
 Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins School of Public Health  
   
 [Lab homepage](https://www.hansenlab.org)  
-&#9993; [kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)  
+[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)  
 ::::
 
 ```
@@ -313,7 +313,7 @@ Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins S
 Department of Biomedical Engineering<br>Whiting School of Engineering<br>Department of Biostatistics<br>School of Public Health<br>Malone Center for Engineering in Healthcare<br>Center for Imaging Science  
   
 [Lab homepage](https://www.stephaniehicks.com)  
-&#9993; [shicks19@jhu.edu](mailto:shicks19@jhu.edu)  
+[shicks19@jhu.edu](mailto:shicks19@jhu.edu)  
 ::::
 
 ```
@@ -342,7 +342,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Departm
 Department of Biostatistics<br>Johns Hopkins School of Public Health  
   
 [Lab homepage](https://jilab.org)  
-&#9993; [hji@jhsph.edu](mailto:hji@jhsph.edu)  
+[hji@jhsph.edu](mailto:hji@jhsph.edu)  
 ::::
 
 ```
@@ -371,7 +371,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 Department of Biomedical Engineering<br>Institute for Computational Medicine<br>Johns Hopkins University  
   
 [Lab homepage](https://www.karchinlab.org)  
-&#9993; [karchin@jhu.edu](mailto:karchin@jhu.edu)  
+[karchin@jhu.edu](mailto:karchin@jhu.edu)  
 ::::
 
 ```
@@ -400,7 +400,7 @@ Department of Biomedical Engineering<br>Institute for Computational Medicine<br>
 Department of Computer Science<br>Johns Hopkins University  
   
 [Lab homepage](https://langmead-lab.org)  
-&#9993; [langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)  
+[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)  
 ::::
 
 ```
@@ -428,7 +428,7 @@ Department of Computer Science<br>Johns Hopkins University
   
 Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA<br>1989-2017: Director, National Center for Biotechnology Information, NIH  
   
-&#9993; [dlipman4@jh.edu](mailto:dlipman4@jh.edu)  
+[dlipman4@jh.edu](mailto:dlipman4@jh.edu)  
 ::::
 
 ```
@@ -457,7 +457,7 @@ Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor f
 Department of Biology<br>Johns Hopkins University  
   
 [Lab homepage](https://mccoy-lab.org)  
-&#9993; [rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)  
+[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)  
 ::::
 
 ```
@@ -486,7 +486,7 @@ Department of Biology<br>Johns Hopkins University
 Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns Hopkins University School of Medicine  
   
 [Lab homepage](https://pertealab.org)  
-&#9993; [mpertea@jhu.edu](mailto:mpertea@jhu.edu)  
+[mpertea@jhu.edu](mailto:mpertea@jhu.edu)  
 ::::
 
 ```
@@ -515,7 +515,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 Department of Computer Science<br>Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns Hopkins University  
   
 [Lab homepage](https://genomeinformatics.github.io)  
-&#9993; [aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)  
+[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)  
 ::::
 
 ```
@@ -543,7 +543,7 @@ Department of Computer Science<br>Department of Biomedical Engineering<br>Depart
   
 Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer Science<br>Department of Health Policy & Management<br>Institute for Computational Medicine, Division of Informatics  
   
-&#9993; [ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)  
+[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)  
 ::::
 
 ```
@@ -572,7 +572,7 @@ Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer 
 Department of Oncology<br>Johns Hopkins University School of Medicine  
   
 [Lab homepage](https://rscharpf.github.io/index.html)  
-&#9993; [rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)  
+[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)  
 ::::
 
 ```
@@ -601,7 +601,7 @@ Department of Oncology<br>Johns Hopkins University School of Medicine
 Department of Computer Science  
   
 [Lab homepage](https://schatz-lab.org)  
-&#9993; [mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)  
+[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)  
 ::::
 
 ```
@@ -630,7 +630,7 @@ Department of Computer Science
 Department of Biostatistics<br>Johns Hopkins School of Public Health  
   
 [Lab homepage](https://www.biostat.jhsph.edu/~mtaub/About.html)  
-&#9993; [mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)  
+[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)  
 ::::
 
 ```
@@ -686,7 +686,7 @@ Department of Biology<br>Krieger School of Arts and Sciences
 Department of Biomedical Engineering<br>Whiting School of Engineering  
   
 [Lab homepage](https://www.timplab.org)  
-&#9993; [wtimp@jhu.edu](mailto:wtimp@jhu.edu)  
+[wtimp@jhu.edu](mailto:wtimp@jhu.edu)  
 ::::
 
 ```
@@ -715,7 +715,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 Department of Biomedical Engineering<br>Whiting School of Engineering  
   
 {doc}`/People/alekseyz/index`
-&#9993; [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)    
+[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)    
 ::::
 
 ```

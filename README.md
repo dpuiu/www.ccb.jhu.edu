@@ -201,6 +201,7 @@ Refresh:
 In the terminal:
 
 ```bash
+cp -r _build/pydata_sphinx_theme/ docs
 git status
 git add .
 git commit -m "Update website content"

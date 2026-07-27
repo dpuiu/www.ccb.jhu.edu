@@ -55,7 +55,6 @@ Authenticate the GitHub CLI, verify that you are logged in, get your GitHub user
 
 ```bash
 gh auth login
-
 GITHUB_USERNAME=$(gh api user --jq .login)
 ```
 
@@ -65,7 +64,6 @@ GITHUB_USERNAME=$(gh api user --jq .login)
 
 ```bash
 git clone https://github.com/sande125/www.ccb.jhu.edu.git
-
 cd www.ccb.jhu.edu
 ```
 
@@ -88,30 +86,30 @@ In the terminal:
 ```bash
 tree .
 
-.
-├── index.md              # Website home page
-├── conf.py               # Sphinx configuration
-├── Makefile              # Build commands
-├── README.md             # Repository documentation
-    _templates/           # Sphinx templates
-
-├── _static/              # Static files
-│   ├── custom.css        # Custom CSS
-│   ├── custom.js         # Custom JavaScript
-│   ├── Logos/            # JHU logos
-│   ├── Maps/             # Campus maps
-│   └── People/           # Faculty, staff, and student pictures
-
-├── About/                # About CCB, publications, contact
-├── People/               # Faculty, staff, postdocs, students, alumni
-│   └── alekseyz/         # Example: individual profile
-├── Software/             # Software developed by CCB
-├── Data/                 # Databases developed by CCB
-├── Education/            # PhD program and courses
-├── CBCC/                 # Consulting Core
-
-├── _build/                       # Build directory, contains html files
-├── .github/workflows/deploy.yml  # Automatic build pipeline
+ .
+ ├── index.md              # Website home page
+ ├── conf.py               # Sphinx configuration
+ ├── Makefile              # Build commands
+ ├── README.md             # Repository documentation
+     _templates/           # Sphinx templates
+ 
+ ├── _static/              # Static files
+ │   ├── custom.css        # Custom CSS
+ │   ├── custom.js         # Custom JavaScript
+ │   ├── Logos/            # JHU logos
+ │   ├── Maps/             # Campus maps
+ │   └── People/           # Faculty, staff, and student pictures
+ 
+ ├── About/                # About CCB, publications, contact
+ ├── People/               # Faculty, staff, postdocs, students, alumni
+ │   └── alekseyz/         # Example: individual profile
+ ├── Software/             # Software developed by CCB
+ ├── Data/                 # Databases developed by CCB
+ ├── Education/            # PhD program and courses
+ ├── CBCC/                 # Consulting Core
+ 
+ ├── _build/                       # Build directory, contains html files
+ ├── .github/workflows/deploy.yml  # Automatic build pipeline
 ```
 
 ---
@@ -203,6 +201,7 @@ Refresh:
 In the terminal:
 
 ```bash
+cp -r _build/pydata_sphinx_theme/ docs
 git status
 git add .
 git commit -m "Update website content"

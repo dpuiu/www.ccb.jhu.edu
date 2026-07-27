@@ -23,7 +23,7 @@
   
 Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns Hopkins University  
   
-&#9993; [rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
+[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
 ::::
 
 ```
@@ -51,7 +51,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
   
 Department of Biomedical Engineering<br>Johns Hopkins University School of Medicine  
   
-&#9993; [dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
+[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
 ::::
 
 ```
@@ -79,7 +79,7 @@ Department of Biomedical Engineering<br>Johns Hopkins University School of Medic
   
 Department of Biomedical Engineering<br>Johns Hopkins University  
   
-&#9993; [sande125@jhu.edu](mailto:sande125@jhu.edu)  
+[sande125@jhu.edu](mailto:sande125@jhu.edu)  
 ::::
 
 ```
