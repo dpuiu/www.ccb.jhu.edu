@@ -174,6 +174,7 @@ In the terminal:
 
 ```bash
 make html
+cp -r _build/pydata_sphinx_theme/ docs/
 ```
 
 In the browser:
@@ -185,8 +186,15 @@ Refresh:
 
 ## 7b. Manually Edit the Website (should be avoided)
 
+Example: The Alignment Software Website
+
 ```bash
-nano _build/pydata_sphinx_theme/<file_name>
+
+ls -ll Software/alignment.md docs/Software/alignment.html 
+-rw-rw-r-- 1 dpuiu dpuiu 27548 Jul 27 16:51 docs/Software/alignment.html   # much bigger than the MarkDown 
+-rw-rw-r-- 1 dpuiu dpuiu  4406 Jul 17 13:40 Software/alignment.md          
+
+nano docs/Software/alignment.html
 ```
 
 In the browser:
@@ -201,7 +209,6 @@ Refresh:
 In the terminal:
 
 ```bash
-cp -r _build/pydata_sphinx_theme/ docs
 git status
 git add .
 git commit -m "Update website content"
