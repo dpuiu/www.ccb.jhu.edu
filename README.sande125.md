@@ -57,13 +57,13 @@ Authenticate the GitHub CLI, verify that you are logged in, get your GitHub user
 gh auth login
 
 GITHUB_USERNAME=$(gh api user --jq .login)
-echo sande125
 ```
 
 ---
 
 ## 3a. Clone the Repo (1st time)
 
+```bash
 git clone https://github.com/sande125/www.ccb.jhu.edu.git
 
 cd www.ccb.jhu.edu
