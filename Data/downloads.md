@@ -9,6 +9,4 @@
 ```{include} /Data/drosophila.md
 ```
 
-## Older Bacterial Genomes (pre-2006)
-
-...
+<!--## Older Bacterial Genomes (pre-2006)--?

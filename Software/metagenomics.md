@@ -1,8 +1,8 @@
-## Metagenomics Classification, Abundance Estimation and Visualization
+## Metagenomics <!--Classification, Abundance Estimation and Visualization-->
 
 <!-- Newer Software -->
 
-## [Bolotie](https://github.com/salzberg-lab/bolotie)
+### [Bolotie](https://github.com/salzberg-lab/bolotie)
 
 Bolotie enables rapid detection of inter-clade recombination in SARS-CoV-2.
 [See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC8194586/).
