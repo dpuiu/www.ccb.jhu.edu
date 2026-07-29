@@ -1,5 +1,26 @@
 ## Transcriptome Assembly
 
+<!-- Newer Software -->
+
+### [TranSigner](https://github.com/haydenji0731/transigner)
+
+TranSigner improves transcriptome expression quantification through accurate
+assignment of long RNA sequencing reads.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC11343119/).
+
+### [SPIT](https://github.com/berilerdogdu/SPIT)
+
+SPIT detects differential transcript usage in complex diseases.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10985272/).
+
+### [PhyloCSF++](https://github.com/cpockrandt/PhyloCSFpp)
+
+PhyloCSF++ is a fast and user-friendly implementation of PhyloCSF with
+annotation tools.
+[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9991890/).
+
+<!----------------------->
+
 ### [StringTie](https://github.com/dpuiu/stringtie/wiki) <!--(https://github.com/gpertea/stringtie/wiki) -->
 
 A fast and accurate transcript assembler and abundance estimator for RNA-seq
@@ -31,32 +52,7 @@ A program for filtering, converting and manipulating GFF files
 
 A program for comparing, annotating, merging and tracking transcripts in GFF files
 
----
-
-## Newer Software
-
-### [TranSigner](https://github.com/haydenji0731/transigner)
-
-TranSigner improves transcriptome expression quantification through accurate
-assignment of long RNA sequencing reads.
-[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC11343119/).
-
-
-### [SPIT](https://github.com/berilerdogdu/SPIT)
-
-SPIT detects differential transcript usage in complex diseases.
-[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10985272/).
-
-
-### [PhyloCSF++](https://github.com/cpockrandt/PhyloCSFpp)
-
-PhyloCSF++ is a fast and user-friendly implementation of PhyloCSF with
-annotation tools.
-[See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9991890/).
-
----
-
-## Older Software
+<!-- Older Software -->
 
 ### [Cufflinks](https://cole-trapnell-lab.github.io/cufflinks/)
 

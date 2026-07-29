@@ -1,18 +1,12 @@
 ## Computational Gene Finding
 
+<!-- Newer Software -->
+
 ### [EviAnn](https://github.com/alekseyzimin/EviAnn_release)
 
 A novel genome annotation software package based entirely on experimental evidence. 
 It derives protein-coding gene and long non-coding RNA (lncRNA) annotations from RNA-seq 
 data and/or transcript sequences, together with alignments of proteins from related species.
-
-### [Glimmer](https://github.com/salzberg-lab/glimmer/wiki)
-
-A system that uses interpolated Markov models to find genes in microbial DNA.
-Used to annotate hundreds (possibly thousands) of bacterial, archaeal, and viral
-genomes. Current version is 3.02.
-
-## Newer Software
 
 ### [LiftOn](https://github.com/Kuanhao-Chao/LiftOn)
 
@@ -34,9 +28,15 @@ Balrog is a universal protein model for prokaryotic gene prediction.
 ORFanage investigates open reading frames in known and novel transcripts.
 [See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10718564/).
 
---- 
+<!-------------------->
 
-## Older Software
+<!-- Older Software -->
+
+### [Glimmer](https://github.com/salzberg-lab/glimmer/wiki)
+
+A system that uses interpolated Markov models to find genes in microbial DNA.
+Used to annotate hundreds (possibly thousands) of bacterial, archaeal, and viral
+genomes. Current version is 3.02.
 
 ### [GlimmerHMM](https://github.com/salzberg-lab/glimmerhmm/wiki)
 

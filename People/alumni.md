@@ -390,7 +390,7 @@ University of Toronto
 **Founder**<br>
 [Blackjack Biotechnologies](https://www.blackjackbiotech.com/)    
   
-[dwood@cs.umd.edu](mailto:dwood@cs.umd.edu)
+[dwood@cs.umd.edu](mailto:Wood.derrick@gmail.com)
 ::::
 
 ```

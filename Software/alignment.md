@@ -1,6 +1,6 @@
 ## Alignment
 
-### [Bowtie](https://bowtie-bio.sf.net)
+### [Bowtie](https://bowtie-bio.sourceforge.net/index.shtml)
 
 An ultrafast, memory-efficient short read aligner that aligns short DNA
 sequences to the human genome at a rate of about 25 million reads per hour on a
@@ -35,9 +35,7 @@ discovery of novel HLA alleles, DNA fingerprinting analysis, and other
 functionalities. All HISAT programs were developed by Daehwan Kim and they are
 currently maintained at [kim-lab.org](https://kim-lab.org/).
 
----
-
-## Older Software
+<!-- Older Software -->
 
 ### [Arioc](https://github.com/rwilton/arioc)
 
@@ -55,7 +53,7 @@ includes algorithms that significant enhance TopHat's sensitivity, particularly
 in the presence of pseudogenes. TopHat2 includes TopHat-Fusion as an option.
 TopHat2 includes TopHat-Fusion as an option.
 
-### [TopHat-Fusion](https://tophat-fusion.sourceforge.net)
+### [TopHat-Fusion](https://github.com/dpuiu/tophat/wiki/Fusion-Home)
 
 TopHat-Fusion is an enhanced version of TopHat with the ability to align reads
 across fusion points, which results from the breakage and re-joining of two
@@ -70,7 +68,7 @@ short read mapping problem to dozens or hundreds of computers. This enables
 CloudBurst to execute highly sensitive read mappings with any number of
 mutations or indels.
 
-### [Crossbow](https://bowtie-bio.sf.net/crossbow)
+### [Crossbow](https://bowtie-bio.sourceforge.net/crossbow/index.shtml)
 
 Crossbow is an early scalable software pipeline for whole genome resequencing
 analysis. It combines [Bowtie](https://bowtie-bio.sf.net), an ultrafast and
@@ -83,9 +81,10 @@ analyze 35x coverage of a human genome in 3 hours for about $100 using a
 40-node, 320-core cluster rented from [Amazon's EC2](https://aws.amazon.com)
 utility computing service.
 
-### [Diamund](/diamund/index)
+### [Diamund](https://github.com/salzberg-lab/diamund/wiki)
 
 Diamund is an efficient algorithm for variant detection in family trios or pairs
 of closely related exome or whole-genome sequencing samples. It compares DNA
 sequences directly to one another, without aligning them to the reference
 genome.
+
