@@ -15,5 +15,10 @@ Education/index
 Core <CBCC/index>
 ```
 
-```{include} /About/about.md
-```
+# The Center for Computational Biology
+
+**A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
+
+![CCB](_static/Maps/WPB.png)
+<!--```{include} /About/about.md
+```-->
