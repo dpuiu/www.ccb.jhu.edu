@@ -26,6 +26,7 @@ Using a web browser:
    <https://github.com/dpuiu/www.ccb.jhu.edu>
 
 3. Click **Fork** in the upper-right corner to create your own copy of the repository under your GitHub account.
+   If you have already created a fork, open your forked repository and click Sync fork to update it with the latest changes from the original repository.
 
 You can make changes in your fork and submit them back to the main repository through a pull request.
 
