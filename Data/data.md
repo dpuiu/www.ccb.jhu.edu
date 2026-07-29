@@ -2,7 +2,7 @@
 
 <!-- Newer Data -->
 
-## [**CHESS App **]https://web.idies.jhu.edu/chess_app
+## [**CHESS App **](https://web.idies.jhu.edu/chess_app)
 
 A unified resource for exploring the CHESS human genome annotation.
 
