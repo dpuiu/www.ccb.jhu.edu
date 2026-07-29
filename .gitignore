@@ -1,8 +1,7 @@
 OLD/
 NEW/
-_build/
 **/OLD/
 make.log
 *.swp
-docs/
 Software.wiki/
+.venv/
