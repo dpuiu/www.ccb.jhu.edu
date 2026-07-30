@@ -125,4 +125,7 @@ h4 { font-size: 1.1rem; }
   color: yellow;
 }
 
-
+/* remove right sidebar */
+.bd-sidebar-secondary {
+    display: none;
+}
