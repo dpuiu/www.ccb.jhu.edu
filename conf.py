@@ -23,15 +23,6 @@ extensions = [
     "sphinx.ext.mathjax",
 ]
 
-#redirects = {
-#    "index": "About/about.html",
-#    "About/index": "about.html",
-#    "People/index": "faculty.html",
-#    "Software/index": "alignment.html",
-#    "Data/index": "data.html",
-#    "Education/index" : "information.html",
-#}
-
 master_doc = "index"
 
 myst_enable_extensions = [
@@ -83,7 +74,9 @@ html_static_path = ["_static"]
 
 html_theme_options = {
         'header_links_before_dropdown': 10,
-        'announcement': "Welcome 2026 Summer Interns!!!"
+        'announcement': "Welcome 2026 Summer Interns!!!",
+        "show_prev_next": False,
+        "sticky_banners": True,
 }
 
 html_title = "Center for Computational Biology"

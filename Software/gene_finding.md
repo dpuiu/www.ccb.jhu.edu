@@ -1,6 +1,6 @@
 ## Computational Gene Finding
 
-<!-- Newer Software -->
+**Newer Software**
 
 ### [EviAnn](https://github.com/alekseyzimin/EviAnn_release)
 
@@ -28,11 +28,11 @@ Balrog is a universal protein model for prokaryotic gene prediction.
 ORFanage investigates open reading frames in known and novel transcripts.
 [See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10718564/).
 
-<!-------------------->
-
-<!-- Older Software -->
+<!----------------->
 
 ### [Glimmer](https://github.com/salzberg-lab/glimmer/wiki)
+
+**Older Software**  
 
 A system that uses interpolated Markov models to find genes in microbial DNA.
 Used to annotate hundreds (possibly thousands) of bacterial, archaeal, and viral

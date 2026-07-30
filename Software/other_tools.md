@@ -8,7 +8,7 @@ OpenSpliceAI provides an efficient modular implementation of SpliceAI,
 enabling easy retraining across nonhuman species.
 [See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC12575001/).
 
-### [Splam](https://github.com/Kuanhao-Chao/splam) 
+### [Splam](https://khchao.com/splam/) <!--(https://github.com/Kuanhao-Chao/splam) -->
 
 Splam is a deep-learning-based splice site predictor that improves spliced
 alignments.

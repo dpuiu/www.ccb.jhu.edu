@@ -658,3 +658,13 @@ cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g'   > README.dpuiu0.md
 cat README.md | sed 's|\$GITHUB_USERNAME|sande125|g' > README.sande125.md
 
 git add README.*md ; git commit -m "multiple updates"; git push
+
+#####
+
+#catch build errors
+sphinx-build \
+  --nitpicky \
+  --warning-is-error \
+  --keep-going \
+  --fresh-env \
+  --write-all

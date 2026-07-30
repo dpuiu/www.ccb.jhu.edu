@@ -8,7 +8,7 @@ typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
 to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
 Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
 
-### [HISAT](https://github.com/dpuiu/hisat/wiki)
+### [HISAT](https://github.com/DaehwanKimLab/hisat/wiki)
 
 HISAT is a highly efficient system for aligning RNA-seq reads. HISAT uses a
 novel indexing scheme, hierarchical indexing, which is inherently well-suited
@@ -35,7 +35,7 @@ discovery of novel HLA alleles, DNA fingerprinting analysis, and other
 functionalities. All HISAT programs were developed by Daehwan Kim and they are
 currently maintained at [kim-lab.org](https://kim-lab.org/).
 
-<!-- Older Software -->
+**Older Software**
 
 ### [Arioc](https://github.com/rwilton/arioc)
 
@@ -44,7 +44,7 @@ high throughput (~1.5 to 2 million reads per second with the human reference
 genome in a 4-GPU computer), it is well suited to large-scale NGS data
 processing.
 
-### [Tophat](https://github.com/dpuiu/tophat/wiki)
+### [Tophat](https://github.com/DaehwanKimLab/tophat/wiki)
 
 A spliced alignment system for RNA-seq experiments. TopHat finds known and novel
 exon-exon splice junctions and is extremely fast due to its use of the Bowtie2
@@ -53,7 +53,7 @@ includes algorithms that significant enhance TopHat's sensitivity, particularly
 in the presence of pseudogenes. TopHat2 includes TopHat-Fusion as an option.
 TopHat2 includes TopHat-Fusion as an option.
 
-### [TopHat-Fusion](https://github.com/dpuiu/tophat/wiki/Fusion-Home)
+### [TopHat-Fusion](https://github.com/DaehwanKimLab/tophat/wiki/Fusion-Home)
 
 TopHat-Fusion is an enhanced version of TopHat with the ability to align reads
 across fusion points, which results from the breakage and re-joining of two
