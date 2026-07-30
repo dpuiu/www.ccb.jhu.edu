@@ -8,7 +8,7 @@ copyright = "The Center for Computational Biology at Johns Hopkins University"
 project = "CCB"
 release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'Software.wiki' , 'Examples']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'Software.wiki' , 'Examples', '.venv', "README*md"]
 extensions = [
     "myst_parser",
     "sphinx_design",
@@ -77,9 +77,63 @@ html_theme_options = {
         'announcement': "Welcome 2026 Summer Interns!!!",
         "show_prev_next": False,
         "sticky_banners": True,
+        "article_footer_items": ["last-updated", "edit-this-page"],
+        "navbar_end": ["theme-switcher", "navbar-icon-links",],
+        "icon_links": [{"name": "GitHub", "url": "https://github.com/dpuiu/www.ccb.jhu.edu","icon": "fa-brands fa-github",},],
+#        "external_links": [{ "name": "JHU","url": "https://jhu.edu",}],
 }
 
 html_title = "Center for Computational Biology"
 html_use_index = True
 html_favicon = "_static/favicon.ico"
+html_permalinks = True
 
+redirects = {
+#    "chess/index": "/Data/data.html#chess",  
+#    "eastr/index": "/Software/transcriptome_assembly.html#EASTR",
+#    "software/tophat/index": "/Software/alignment.html#tophat",
+
+    "software/diamund/index" : "/Software/alignment.html#diamund",
+    "software/hisat2/index" : "/Software/alignment.html#hisat2",
+    "hisat-genotype/index" : "/Software/alignment.html#hisat-genotype", #!!!
+    "software/hisat/index" : "/Software/alignment.html#hisat",
+    "software/tophat/index" : "/Software/alignment.html#tophat",
+
+    "software/bracken/index" : "/Software/metagenomics.html#bracken",
+    "software/centrifuge/index" : "/Software/metagenomics.html#centrifuge",
+    "software/kraken2/index" : "/Software/metagenomics.html#kraken2",
+    "software/kraken/index" : "/Software/metagenomics.html#kraken",
+    "software/krakentools/index" : "/Software/metagenomics.html#krakentools",
+    "software/krakenuniq/index" : "/Software/metagenomics.html#krakenuniq",
+    "software/pavian/index" : "/Software/metagenomics.html#pavian",
+
+    "software/genesplicer/index" : "/Software/gene_finding.html#genesplicer",
+    "software/glimmerhmm/index" : "/Software/gene_finding.html#glimmerhmm",
+    "software/glimmer/index" : "/Software/gene_finding.html#glimmer",
+    "software/jigsaw/index" : "/Software/gene_finding.html#jigsaw",
+    "lifton/index" : "/Software/gene_finding.html#lifton",
+
+    "software/autoeditor/index" : "/Software/genome_assembly.html#autoeditor",  #!!!
+    "software/FLASH/index" : "/Software/genome_assembly.html#flash",
+    "gage_b/index" : "/Software/genome_assembly.html#gage-b",
+    "software/quake/index" : "/Software/genome_assembly.html#quake",
+
+    "eastr/index" : "/Software/transcriptome_assembly.html#eastr",
+    "software/EDGE-pro/index" : "/Software/transcriptome_assembly.html#edge-pro",
+    "software/stringtie/index" : "/Software/transcriptome_assembly.html#stringtie",
+    "software/tiebrush/index" : "/Software/transcriptome_assembly.html#tiebrush",
+
+    "software/BRCA-diagnostic/index" : "/Software/other_tools.html#brca-gene-testing",
+    "software/dive/index" : "/Software/other_tools.html#dive",
+    "software/ELPH/index" : "/Software/other_tools.html#elph",
+    "software/fqtrim/index" : "/Software/other_tools.html#fqtrim",
+    "OpenSpliceAI/index" : "/Software/other_tools.html#openspliceai",
+    "software/phymmbl/index" : "/Software/other_tools.html#phymmbl",
+    "splam/index" : "/Software/other_tools.html#splam",
+
+    "chess/index": "/Data/data.html#chess",   # !!!
+    "HIV_Atlas/index": "/Data/data.html#hiv_atlas",
+    "T2T.shtml": "/Data/data.html#T2T",		# !!!
+
+    "data/eupathDB/index": "/Data/data.html#eupathDB",  
+}

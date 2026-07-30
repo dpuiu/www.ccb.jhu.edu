@@ -1,7 +1,7 @@
-## Faculty
+# Faculty
 
 (stevenlsalzberg)=
-### [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
+## [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -30,7 +30,7 @@ Department of Biomedical Engineering, School of Medicine<br>Department of Comput
 ```
 
 (danarking)=
-### Dan Arking, Ph.D
+## Dan Arking, Ph.D
 
 ```{grid} 12
 :gutter: 1
@@ -58,7 +58,7 @@ Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology
 ```
 
 (joelbader)=
-### [Joel Bader, Ph.D.](https://www.baderzone.org)
+## [Joel Bader, Ph.D.](https://www.baderzone.org)
 
 ```{grid} 12
 :gutter: 1
@@ -87,7 +87,7 @@ Department of Biomedical Engineering
 ```
 
 (alexisbattle)=
-### [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
+## [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
 
 ```{grid} 12
 :gutter: 1
@@ -116,7 +116,7 @@ Department of Biomedical Engineering<br>Department of Computer Science, by court
 ```
 
 (michaelbeer)=
-### [Michael Beer, Ph.D.](https://www.beerlab.org)
+## [Michael Beer, Ph.D.](https://www.beerlab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -145,7 +145,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 ```
 
 (uthsavchitra)=
-### [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
+## [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
 
 ```{grid} 12
 :gutter: 1
@@ -174,7 +174,7 @@ Department of Computer Science<br>Whiting School of Engineering
 ```
 
 (jeanfan)=
-### [Jean Fan, Ph.D.](https://jef.works)
+## [Jean Fan, Ph.D.](https://jef.works)
 
 ```{grid} 12
 :gutter: 1
@@ -203,7 +203,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 ```
 
 (lilianaflorea)=
-### [Liliana Florea, Ph.D.](https://florealab.org)
+## [Liliana Florea, Ph.D.](https://florealab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -232,7 +232,7 @@ Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins Univer
 ```
 
 (jeffreyjgray)=
-### [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
+## [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
 
 ```{grid} 12
 :gutter: 1
@@ -261,7 +261,7 @@ Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Comp
 ```
 
 (kasperdhansen)=
-### [Kasper D. Hansen, Ph.D.](https://www.hansenlab.org)
+## [Kasper D. Hansen, Ph.D.](https://www.hansenlab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -290,7 +290,7 @@ Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins S
 ```
 
 (stephaniehicks)=
-### [Stephanie Hicks, Ph.D.](https://www.stephaniehicks.com)
+## [Stephanie Hicks, Ph.D.](https://www.stephaniehicks.com)
 
 ```{grid} 12
 :gutter: 1
@@ -319,7 +319,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Departm
 ```
 
 (hongkaiji)=
-### [Hongkai Ji, Ph.D.](https://jilab.org)
+## [Hongkai Ji, Ph.D.](https://jilab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -348,7 +348,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 ```
 
 (rachelkarchin)=
-### [Rachel Karchin, Ph.D.](https://www.karchinlab.org)
+## [Rachel Karchin, Ph.D.](https://www.karchinlab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -377,7 +377,7 @@ Department of Biomedical Engineering<br>Institute for Computational Medicine<br>
 ```
 
 (benlangmead)=
-### [Ben Langmead, Ph.D.](https://langmead-lab.org)
+## [Ben Langmead, Ph.D.](https://langmead-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -406,7 +406,7 @@ Department of Computer Science<br>Johns Hopkins University
 ```
 
 (davidjlipman)=
-### David J. Lipman, M.D
+## David J. Lipman, M.D
 
 ```{grid} 12
 :gutter: 1
@@ -434,7 +434,7 @@ Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor f
 ```
 
 (rajivmccoy)=
-### [Rajiv McCoy, Ph.D.](https://mccoy-lab.org)
+## [Rajiv McCoy, Ph.D.](https://mccoy-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -463,7 +463,7 @@ Department of Biology<br>Johns Hopkins University
 ```
 
 (mihaelapertea)=
-### [Mihaela Pertea, Ph.D.](https://pertealab.org)
+## [Mihaela Pertea, Ph.D.](https://pertealab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -492,7 +492,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 ```
 
 (adamphillippy)=
-### [Adam Phillippy, Ph.D.](https://genomeinformatics.github.io)
+## [Adam Phillippy, Ph.D.](https://genomeinformatics.github.io)
 
 ```{grid} 12
 :gutter: 1
@@ -521,7 +521,7 @@ Department of Computer Science<br>Department of Biomedical Engineering<br>Depart
 ```
 
 (suchisaria)=
-### Suchi Saria, Ph.D
+## Suchi Saria, Ph.D
 
 ```{grid} 12
 :gutter: 1
@@ -549,7 +549,7 @@ Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer 
 ```
 
 (robertscharpf)=
-### [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
+## [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
 
 ```{grid} 12
 :gutter: 1
@@ -578,7 +578,7 @@ Department of Oncology<br>Johns Hopkins University School of Medicine
 ```
 
 (michaelschatz)=
-### [Michael Schatz, Ph.D.](https://schatz-lab.org)
+## [Michael Schatz, Ph.D.](https://schatz-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -607,7 +607,7 @@ Department of Computer Science
 ```
 
 (margarettaub)=
-### [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
+## [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
 
 ```{grid} 12
 :gutter: 1
@@ -636,7 +636,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 ```
 
 (jamestaylor)=
-### James Taylor, Ph.D
+## James Taylor, Ph.D
 
 ```{grid} 12
 :gutter: 1
@@ -663,7 +663,7 @@ Department of Biology<br>Krieger School of Arts and Sciences
 ```
 
 (winstontimp)=
-### [Winston Timp, Ph.D.](https://www.timplab.org)
+## [Winston Timp, Ph.D.](https://www.timplab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -692,7 +692,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 ```
 
 (alekseyzimin)=
-### [Aleksey Zimin, Ph.D.](/People/alekseyz/index)
+## [Aleksey Zimin, Ph.D.](/People/alekseyz/index)
 
 ```{grid} 12
 :gutter: 1

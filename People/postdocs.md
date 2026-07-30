@@ -1,7 +1,7 @@
-## Postdocs
+# Postdocs
 
 (courtneyhall)=
-### Courtney Hall, Ph.D
+## Courtney Hall, Ph.D
 
 ```{grid} 12
 :gutter: 1
@@ -31,7 +31,7 @@ Johns Hopkins University
 ```
 
 (harunmustafa)=
-### Harun Mustafa, Ph.D
+## Harun Mustafa, Ph.D
 
 ```{grid} 12
 :gutter: 1
@@ -61,7 +61,7 @@ Johns Hopkins University
 ```
 
 (srujansingh)=
-### Srujan Singh, Ph.D
+## Srujan Singh, Ph.D
 
 ```{grid} 12
 :gutter: 1

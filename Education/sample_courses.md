@@ -1,4 +1,4 @@
-## Sample Courses
+# Sample Courses
 
 Below is a list of **Sample Course Offerings for Ph.D. students in Computational
 Biology**
@@ -8,7 +8,7 @@ for a list of current courses in computational biology offered by our faculty ac
 departments. Many of these courses count towards the Ph.D. programs in BME, CS,
 Biology, and others
 
-### Department of Biomedical Engineering, Whiting School of Engineering
+## Department of Biomedical Engineering, Whiting School of Engineering
 
 The Johns Hopkins Department of Biomedical Engineering (BME), widely regarded as
 the top program of its kind in the world and 
@@ -27,7 +27,7 @@ take the 1st-year Medical School curriculum to satisfy most of their course
 requirements. Many students choose this option, in which they sit side by side
 with the students in Hopkins' highly-ranked M.D. program.
 
-### Department of Computer Science, Whiting School of Engineering
+## Department of Computer Science, Whiting School of Engineering
 
 [Computer Science at Johns Hopkins University](https://www.cs.jhu.edu)
 is a diverse, collaborative, and intensely research-focused
@@ -59,7 +59,7 @@ training, see
 outside the Department.* These may include any of the courses in the BME,
 Biostatistics, and Biology programs listed on this page.
 
-### Department of Biostatistics, Bloomberg School of Public Health
+## Department of Biostatistics, Bloomberg School of Public Health
 
 Johns Hopkins Biostatistics is the oldest department of its kind in the world
 and has long been considered as one of the best. In 2022, it was
@@ -90,7 +90,7 @@ In addition, students in computational biology might take:
 Further courses might include 2-3 courses in Computer Science, BME, or Biology
 listed on this page.
 
-### Department of Biology, Krieger School of Arts and Sciences
+## Department of Biology, Krieger School of Arts and Sciences
 
 The Hopkins Biology Graduate Program, founded in 1876, is the oldest Biology
 graduate school in the country. People like Thomas Morgan, E. B. Wilson, Edwin

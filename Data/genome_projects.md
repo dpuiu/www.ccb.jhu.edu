@@ -1,4 +1,4 @@
-## Genome Projects
+# Genome Projects
 
 ```{list-table}
 :header-rows: 1

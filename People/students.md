@@ -1,7 +1,7 @@
-## Students
+# Students
 
 (berilerdogdu)=
-### Beril Erdogdu, Ph.D. student
+## Beril Erdogdu, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -29,7 +29,7 @@
 ```
 
 (calebhallinan)=
-### Caleb Hallinan, Ph.D. student
+## Caleb Hallinan, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -57,7 +57,7 @@
 ```
 
 (celinehoh)=
-### Celine Hoh, Ph.D. student
+## Celine Hoh, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -85,7 +85,7 @@
 ```
 
 (davidbass)=
-### David Bass, Ph.D. student
+## David Bass, Ph.D. student
 
 ```{grid} 12
 :gutter: 1
@@ -113,7 +113,7 @@
 ```
 
 (hyunjooji)=
-### Hyun Joo (Hayden) Ji, Ph.D. student 
+## Hyun Joo (Hayden) Ji, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -142,7 +142,7 @@
 
 
 (kalenclifton)=
-### Kalen Clifton, Ph.D. student 
+## Kalen Clifton, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -170,7 +170,7 @@
 ```
 
 (nikolazadorozhny)=
-### Nikola Zadorozhny, Ph.D. student  
+## Nikola Zadorozhny, Ph.D. student  
 
 ```{grid} 12
 :gutter: 1
@@ -199,7 +199,7 @@
 
 
 (radhikajangi)=
-### Radhika Jangi, Ph.D. student 
+## Radhika Jangi, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -228,7 +228,7 @@
 ```
 
 (rafaeldossantospeixoto)=
-### Rafael dos Santos Peixoto, Ph.D. student 
+## Rafael dos Santos Peixoto, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -256,7 +256,7 @@
 ```
 
 (yuchenge)=
-### Yuchen (Peter) Ge, Ph.D. student  
+## Yuchen (Peter) Ge, Ph.D. student  
 ```{grid} 12
 :gutter: 1
 
@@ -283,7 +283,7 @@
 ```
 
 (zoecatherinerudnick)=
-### Zoe Catherine Rudnick, Ph.D. student 
+## Zoe Catherine Rudnick, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1

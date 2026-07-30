@@ -8,10 +8,10 @@ html_theme.sidebar_secondary.remove: true
 :hidden:
 
 About <About/index>
-People/index
-Software/index
-Data/index
-Education/index
+People <People/index>
+Software <Software/index>
+Data <Data/index>
+Education <Education/index>
 Core <CBCC/index>
 ```
 

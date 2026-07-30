@@ -1,4 +1,4 @@
-## Drosophila (fruit fly) endosymbionts
+# Drosophila (fruit fly) endosymbionts
 
 Steven Salzberg and colleagues identified the sequence of the bacterial
 endosymbiont *Wolbachia* within the publicly available sequence data of several

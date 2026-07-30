@@ -1,11 +1,9 @@
-## Alumni
+# Alumni
 
----
-
-### Former Faculty
+## Former Faculty
 
 (rafaelirizarry)=
-#### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
+### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
 ```{grid} 12
 :gutter: 1
@@ -37,16 +35,16 @@ Harvard University
 
 ---
 
-### Former Postdocs
+## Former Postdocs
 
 (christopherpockrandt)=
-#### Christopher Pockrandt, Ph.D.
+### Christopher Pockrandt, Ph.D.
 
 Salzberg Lab @ JHU (until Feb. 2022)
 
 
 (florianbreitwieser)=
-#### Florian Breitwieser, Ph.D.
+### Florian Breitwieser, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -75,7 +73,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ```
 
 (iliaminkin)=
-#### [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
+### [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -104,7 +102,7 @@ Postdoctoral Associate<br>
 ```
 
 (martinsteinegger)=
-#### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
+### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
 
 ```{grid} 12
 :gutter: 1
@@ -133,7 +131,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ```
 
 (stefancanzar)=
-#### [Stefan Canzar, Ph.D.](https://canzarlab.com/)
+### [Stefan Canzar, Ph.D.](https://canzarlab.com/)
 
 ```{grid} 12
 :gutter: 1
@@ -160,7 +158,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ```
 
 (stephanpabinger)=
-#### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
+### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 ```{grid} 12
 :gutter: 1
@@ -188,7 +186,7 @@ McKusick-Nathans Institute of Genetic Medicine<br>
 ```
 
 (tanjamagoc)=
-#### [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
+### [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
 
 ```{grid} 12
 :gutter: 1
@@ -220,7 +218,7 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
 
 
 (toddjtreangen)=
-#### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
+### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
 
 ```{grid} 12
 :gutter: 1
@@ -253,11 +251,11 @@ National Biodefense Analysis and Countermeasures Center
 
 ---
 
-### Former Students
+## Former Students
 
 
 (alainashumate)=
-#### Alaina Shumate, Ph.D.
+### Alaina Shumate, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -284,7 +282,7 @@ National Biodefense Analysis and Countermeasures Center
 ```
 
 (alesvarabyou)=
-#### [Ales Varabyou, Ph.D.](https://alevar.github.io/)
+### [Ales Varabyou, Ph.D.](https://alevar.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -313,7 +311,7 @@ National Biodefense Analysis and Countermeasures Center
 ```
 
 (alyssafrazee)=
-#### [Alyssa Frazee, Ph.D.](https://alyssafrazee.com)
+### [Alyssa Frazee, Ph.D.](https://alyssafrazee.com)
 
 ```{grid} 12
 :gutter: 1
@@ -339,7 +337,7 @@ National Biodefense Analysis and Countermeasures Center
 ```
 
 (daehwankim)=
-#### [Daehwan Kim, Ph.D.](https://kim-lab.org/)
+### [Daehwan Kim, Ph.D.](https://kim-lab.org/)
 
 ```{grid} 12
 :gutter: 1
@@ -369,7 +367,7 @@ University of Toronto
 ```
 
 (derrickwood)=
-#### Derrick Wood, Ph.D.
+### Derrick Wood, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -396,7 +394,7 @@ University of Toronto
 ```
 
 (hilaryparker)=
-#### [Hilary Parker, Ph.D.](https://biostat.jhsph.edu/~hiparker/)
+### [Hilary Parker, Ph.D.](https://biostat.jhsph.edu/~hiparker/)
 
 ```{grid} 12
 :gutter: 1
@@ -423,7 +421,7 @@ Johns Hopkins Bloomberg School of Public Health
 ```
 
 (jenniferlu)=
-#### Jennifer Lu, Ph.D.
+### Jennifer Lu, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -450,18 +448,18 @@ Johns Hopkins Bloomberg School of Public Health
 ```
 
 
-### Ida Shinder 
+## Ida Shinder 
 
 [ishinde1@jhmi.edu](mailto:ishinde1@jhmi.edu)
 
 
-### Jakob Heinz 
+## Jakob Heinz 
 
 [jheinz3@jhu.edu](mailto:jheinz3@jhu.edu)
 
 
 (kuanhaochao)=
-#### [Kuan-Hao Chao, Ph.D.](https://khchao.com/)
+### [Kuan-Hao Chao, Ph.D.](https://khchao.com/)
 
 ```{grid} 12
 :gutter: 1
@@ -490,7 +488,7 @@ Salzberg Lab @ JHU (until 2025)<br>
 ```
 
 (lisong)=
-#### [Li Song, Ph.D.](https://mourisl.github.io/)
+### [Li Song, Ph.D.](https://mourisl.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -519,7 +517,7 @@ Florea Lab @ JHU (until 2018)<br>
 ```
 
 (markussommer)=
-#### [Markus Sommer, Ph.D.](https://www.markus.bio/)
+### [Markus Sommer, Ph.D.](https://www.markus.bio/)
 
 ```{grid} 12
 :gutter: 1
@@ -551,7 +549,7 @@ Salzberg Lab @ JHU (until 2024)<br>
 ```
 
 (rachelsherman)=
-#### Rachel Sherman, Ph.D.
+### Rachel Sherman, Ph.D.
 
 ```{grid} 12
 :gutter: 1

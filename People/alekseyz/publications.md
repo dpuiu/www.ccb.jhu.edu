@@ -1,4 +1,4 @@
-## Publications
+# Publications
 
 ```{note}
 73 total, 21 first or senior author; Google Scholar citations: 20,583, h-index:44

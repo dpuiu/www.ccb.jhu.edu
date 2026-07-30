@@ -1,4 +1,6 @@
-# Education
+---
+title: Education
+---
 
 ```{toctree}
 :maxdepth: 2

@@ -1,4 +1,4 @@
-## Information for prospective Ph.D. Students in Computational Biology or Bioinformatics
+# Information for prospective Ph.D. Students in Computational Biology or Bioinformatics
 
 *Note: every year, many students send applications directly to faculty members,
 but faculty members cannot accept students directly in any of our programs at

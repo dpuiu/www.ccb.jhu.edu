@@ -1,3 +1,7 @@
+---
+title: About
+---
+
 ```{toctree}
 :maxdepth: 2
 :hidden:
