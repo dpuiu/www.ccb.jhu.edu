@@ -47,14 +47,14 @@ Core <CBCC/index>
         <div class="carousel-caption d-none d-md-block"><br/><h5>CHESS</h5><p>Genome annotation and isoform discovery</p></div>
     </div>
     
-    <div class="carousel-item"	     ><img src="/_static/Images/2_chess-app-expression-2.webp"  class="d-block w-100" alt="Image 2"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/3_chess-app-isoforms-2.webp"  class="d-block w-100" alt="Image 3"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/4_hiv_atlas-2.webp" class="d-block w-100" alt="Image 4"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/5_CHM13_annotation-2.webp"  class="d-block w-100" alt="Image 5"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/6_LiftOn_human_mane_circos-2.webp"  class="d-block w-100" alt="Image 6"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/7_splam-2.webp"  class="d-block w-100" alt="Image 7"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/8_tcga-2.webp"  class="d-block w-100" alt="Image 8"></div>
-    <div class="carousel-item"       ><img src="/_static/Images/9_wbp-2.webp"  class="d-block w-100" alt="Image 9"></div>
+    <div class="carousel-item"	     ><img src="/_static/images/2_chess-app-expression-2.webp"  class="d-block w-100" alt="Image 2"></div>
+    <div class="carousel-item"       ><img src="/_static/images/3_chess-app-isoforms-2.webp"  class="d-block w-100" alt="Image 3"></div>
+    <div class="carousel-item"       ><img src="/_static/images/4_hiv_atlas-2.webp" class="d-block w-100" alt="Image 4"></div>
+    <div class="carousel-item"       ><img src="/_static/images/5_CHM13_annotation-2.webp"  class="d-block w-100" alt="Image 5"></div>
+    <div class="carousel-item"       ><img src="/_static/images/6_LiftOn_human_mane_circos-2.webp"  class="d-block w-100" alt="Image 6"></div>
+    <div class="carousel-item"       ><img src="/_static/images/7_splam-2.webp"  class="d-block w-100" alt="Image 7"></div>
+    <div class="carousel-item"       ><img src="/_static/images/8_tcga-2.webp"  class="d-block w-100" alt="Image 8"></div>
+    <div class="carousel-item"       ><img src="/_static/images/9_wbp-2.webp"  class="d-block w-100" alt="Image 9"></div>
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>

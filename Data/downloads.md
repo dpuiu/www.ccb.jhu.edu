@@ -1,4 +1,4 @@
-# Older Assembly Projects
+# Assembly Projects
 
 ```{include} /Data/genome_projects.md
 ```
