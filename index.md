@@ -19,9 +19,9 @@ Core <CBCC/index>
 
 **A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
 
-<!-- ![CCB](_static/Maps/WPB.png) -->
+![CCB](_static/Maps/WPB.png)
 <!-- ```{include} /About/about.md  ```-->
-
+<!--
 ::::{raw} html
 
 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -62,3 +62,4 @@ Core <CBCC/index>
 </div>
 
 ::::
+-->
