@@ -6,6 +6,7 @@ myst:
     "keywords": "CCB, WSE, JHU"
     "description": "Center for Computational Biology"
     "robots": "index, follow"
+orphan: true
 ---
 
 ```{contents}
@@ -210,3 +211,28 @@ Term 2 : Definition of term 2
 graph TD
     JHU[JHU] --> WSE[WSE] --> CCB[CCB]
 ```
+
+## Bootstrap carousel
+
+::::{raw} html
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active"><img src="/_static/People/Alaina_Shumate.webp" class="d-block w-100" alt="Image 1"></div>
+    <div class="carousel-item"><img src="/_static/People/Aleksey.webp" class="d-block w-100" alt="Image 2"></div>
+    <div class="carousel-item"><img src="/_static/People/Alexis-Battle-149x180.webp" class="d-block w-100" alt="Image 3"></div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+
+</div>
+
+::::
