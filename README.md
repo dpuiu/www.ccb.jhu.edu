@@ -98,8 +98,8 @@ tree .
  │   ├── custom.css        # Custom CSS
  │   ├── custom.js         # Custom JavaScript
  │   ├── Logos/            # JHU logos
- │   ├── Maps/             # Campus maps
- │   └── People/           # Faculty, staff, and student pictures
+ │   ├── maps/             # Campus maps
+ │   └── people/           # Faculty, staff, and student pictures
  
  ├── about/                # About CCB, publications, contact
  ├── people/               # Faculty, staff, postdocs, students, alumni
@@ -181,7 +181,7 @@ cp -r _build/pydata_sphinx_theme/ docs/
 In the browser:
 
 Refresh:
-  http://127.0.0.1:8000/Software/alignment.html
+  http://127.0.0.1:8000/software/alignment.html
 
 ---
 
@@ -201,7 +201,7 @@ nano docs/software/alignment.html
 In the browser:
 
 Refresh:
-  http://127.0.0.1:8000/Software/alignment.html
+  http://127.0.0.1:8000/software/alignment.html
 
 ---
 

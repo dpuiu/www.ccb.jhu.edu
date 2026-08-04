@@ -54,7 +54,7 @@ JHU
 
 ### Internal Page
 
-{doc}`About </About/about>`
+{doc}`About </about/about>`
 
 ### Section
 
@@ -103,7 +103,7 @@ This is the rest of the body text.
 
 ## Includes
 
-```{include} /About/contact.md
+```{include} /about/contact.md
 ```
 
 ## Image
@@ -147,7 +147,7 @@ Term 2 : Definition of term 2
 ## CSV Table
 
 ```{csv-table}
-:file: /People/collab.head.tsv
+:file: /people/collab.head.tsv
 :header-rows: 1
 :widths: 25 25 25 25
 :delim: tab
@@ -225,9 +225,9 @@ graph TD
   </div>
 
   <div class="carousel-inner">
-    <div class="carousel-item active"><img src="/_static/People/Alaina_Shumate.webp" class="d-block w-100" alt="Image 1"></div>
-    <div class="carousel-item"><img src="/_static/People/Aleksey.webp" class="d-block w-100" alt="Image 2"></div>
-    <div class="carousel-item"><img src="/_static/People/Alexis-Battle-149x180.webp" class="d-block w-100" alt="Image 3"></div>
+    <div class="carousel-item active"><img src="/_static/people/Alaina_Shumate.webp" class="d-block w-100" alt="Image 1"></div>
+    <div class="carousel-item"><img src="/_static/people/Aleksey.webp" class="d-block w-100" alt="Image 2"></div>
+    <div class="carousel-item"><img src="/_static/people/Alexis-Battle-149x180.webp" class="d-block w-100" alt="Image 3"></div>
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>

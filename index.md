@@ -7,20 +7,20 @@ html_theme.sidebar_secondary.remove: true
 :maxdepth: 1
 :hidden:
 
-About <About/index>
-People <People/index>
-Software <Software/index>
-Data <Data/index>
-Education <Education/index>
-Core <CBCC/index>
+About <about/index>
+People <people/index>
+Software <software/index>
+Data <data/index>
+Education <education/index>
+Core <cbcc/index>
 ```
 
 # The Center for Computational Biology
 
 **A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
 
-![CCB](_static/Maps/WPB.png)
-<!-- ```{include} /About/about.md  ```-->
+![CCB](_static/maps/WPB.png)
+<!-- ```{include} /about/about.md  ```-->
 <!--
 ::::{raw} html
 
@@ -40,10 +40,10 @@ Core <CBCC/index>
   </div>
 
   <div class="carousel-inner">
-    <div class="carousel-item active"><img src="/_static/Images/WPB-2.webp" class="d-block w-100" alt="Image 0"></div>
+    <div class="carousel-item active"><img src="/_static/images/WPB-2.webp" class="d-block w-100" alt="Image 0"></div>
 
     <div class="carousel-item">
-	<a href="/chess/"><img src="/_static/Images/1_chess-app-MT-2.webp" class="d-block w-100" alt="Image 1"></a>
+	<a href="/chess/"><img src="/_static/images/1_chess-app-MT-2.webp" class="d-block w-100" alt="Image 1"></a>
         <div class="carousel-caption d-none d-md-block"><br/><h5>CHESS</h5><p>Genome annotation and isoform discovery</p></div>
     </div>
     

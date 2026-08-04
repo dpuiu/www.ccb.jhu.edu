@@ -8,7 +8,7 @@ copyright = "The Center for Computational Biology at Johns Hopkins University"
 project = "CCB"
 release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'Software.wiki' ,  '.venv', "README*md"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'software.wiki' , 'examples', '.venv', "README*md"]
 extensions = [
     "myst_parser",
     "sphinx_design",
@@ -45,7 +45,7 @@ myst_substitutions = {
     "CCB":  "[CCB](https://ccb.jhu.edu/)",
     "cs":   "[Department of Computer Science](https://www.cs.jhu.edu/)",
     "CS":   "[CS](https://www.cs.jhu.edu/)",
-    "dsai": "[Data Science & AI Institute](https://ai.jhu.edu/)",
+    "dsai": "[data Science & AI Institute](https://ai.jhu.edu/)",
     "DSAI": "[DSAI](https://ai.jhu.edu/)",
     "igs":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
     "IGS":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
@@ -81,7 +81,6 @@ html_theme_options = {
         "navbar_end": ["theme-switcher", "navbar-icon-links",],
         "icon_links": [{"name": "GitHub", "url": "https://github.com/dpuiu/www.ccb.jhu.edu","icon": "fa-brands fa-github",},],
 #        "external_links": [{ "name": "JHU","url": "https://jhu.edu",}],
-        "navigation_depth": 1,
 }
 
 html_title = "Center for Computational Biology"
@@ -90,51 +89,55 @@ html_favicon = "_static/favicon.ico"
 html_permalinks = True
 
 redirects = {
-#    "chess/index": "/Data/data.html#chess",  
-#    "eastr/index": "/Software/transcriptome_assembly.html#EASTR",
-#    "software/tophat/index": "/Software/alignment.html#tophat",
+#    "chess/index": "/data/data.html#chess",  
+#    "eastr/index": "/software/transcriptome_assembly.html#EASTR",
+#    "software/tophat/index": "/software/alignment.html#tophat",
 
-    "software/diamund/index" : "/Software/alignment.html#diamund",
-    "software/hisat2/index" : "/Software/alignment.html#hisat2",
-    "hisat-genotype/index" : "/Software/alignment.html#hisat-genotype", #!!!
-    "software/hisat/index" : "/Software/alignment.html#hisat",
-    "software/tophat/index" : "/Software/alignment.html#tophat",
+    "software/diamund/index" : "/software/alignment.html#diamund",
+    "software/hisat2/index" : "/software/alignment.html#hisat2",
+    "hisat-genotype/index" : "/software/alignment.html#hisat-genotype", #!!!
+    "software/hisat/index" : "/software/alignment.html#hisat",
+    "software/tophat/index" : "/software/alignment.html#tophat",
 
-    "software/bracken/index" : "/Software/metagenomics.html#bracken",
-    "software/centrifuge/index" : "/Software/metagenomics.html#centrifuge",
-    "software/kraken2/index" : "/Software/metagenomics.html#kraken2",
-    "software/kraken/index" : "/Software/metagenomics.html#kraken",
-    "software/krakentools/index" : "/Software/metagenomics.html#krakentools",
-    "software/krakenuniq/index" : "/Software/metagenomics.html#krakenuniq",
-    "software/pavian/index" : "/Software/metagenomics.html#pavian",
+    "software/bracken/index" : "/software/metagenomics.html#bracken",
+    "software/centrifuge/index" : "/software/metagenomics.html#centrifuge",
+    "software/kraken2/index" : "/software/metagenomics.html#kraken2",
+    "software/kraken/index" : "/software/metagenomics.html#kraken",
+    "software/krakentools/index" : "/software/metagenomics.html#krakentools",
+    "software/krakenuniq/index" : "/software/metagenomics.html#krakenuniq",
+    "software/pavian/index" : "/software/metagenomics.html#pavian",
 
-    "software/genesplicer/index" : "/Software/gene_finding.html#genesplicer",
-    "software/glimmerhmm/index" : "/Software/gene_finding.html#glimmerhmm",
-    "software/glimmer/index" : "/Software/gene_finding.html#glimmer",
-    "software/jigsaw/index" : "/Software/gene_finding.html#jigsaw",
-    "lifton/index" : "/Software/gene_finding.html#lifton",
+    "software/genesplicer/index" : "/software/gene_finding.html#genesplicer",
+    "software/glimmerhmm/index" : "/software/gene_finding.html#glimmerhmm",
+    "software/glimmer/index" : "/software/gene_finding.html#glimmer",
+    "software/jigsaw/index" : "/software/gene_finding.html#jigsaw",
+    "lifton/index" : "/software/gene_finding.html#lifton",
 
-    "software/autoeditor/index" : "/Software/genome_assembly.html#autoeditor",  #!!!
-    "software/FLASH/index" : "/Software/genome_assembly.html#flash",
-    "gage_b/index" : "/Software/genome_assembly.html#gage-b",
-    "software/quake/index" : "/Software/genome_assembly.html#quake",
+    "software/autoeditor/index" : "/software/genome_assembly.html#autoeditor",  #!!!
+    "software/FLASH/index" : "/software/genome_assembly.html#flash",
+    "gage_b/index" : "/software/genome_assembly.html#gage-b",
+    "software/quake/index" : "/software/genome_assembly.html#quake",
 
-    "eastr/index" : "/Software/transcriptome_assembly.html#eastr",
-    "software/EDGE-pro/index" : "/Software/transcriptome_assembly.html#edge-pro",
-    "software/stringtie/index" : "/Software/transcriptome_assembly.html#stringtie",
-    "software/tiebrush/index" : "/Software/transcriptome_assembly.html#tiebrush",
+    "eastr/index" : "/software/transcriptome_assembly.html#eastr",
+    "software/EDGE-pro/index" : "/software/transcriptome_assembly.html#edge-pro",
+    "software/stringtie/index" : "/software/transcriptome_assembly.html#stringtie",
+    "software/tiebrush/index" : "/software/transcriptome_assembly.html#tiebrush",
 
-    "software/BRCA-diagnostic/index" : "/Software/other_tools.html#brca-gene-testing",
-    "software/dive/index" : "/Software/other_tools.html#dive",
-    "software/ELPH/index" : "/Software/other_tools.html#elph",
-    "software/fqtrim/index" : "/Software/other_tools.html#fqtrim",
-    "OpenSpliceAI/index" : "/Software/other_tools.html#openspliceai",
-    "software/phymmbl/index" : "/Software/other_tools.html#phymmbl",
-    "splam/index" : "/Software/other_tools.html#splam",
+    "software/BRCA-diagnostic/index" : "/software/other_tools.html#brca-gene-testing",
+    "software/dive/index" : "/software/other_tools.html#dive",
+    "software/ELPH/index" : "/software/other_tools.html#elph",
+    "software/fqtrim/index" : "/software/other_tools.html#fqtrim",
+    "OpenSpliceAI/index" : "/software/other_tools.html#openspliceai",
+    "software/phymmbl/index" : "/software/other_tools.html#phymmbl",
+    "splam/index" : "/software/other_tools.html#splam",
 
-    "chess/index": "/Data/data.html#chess",   # !!!
-    "HIV_Atlas/index": "/Data/data.html#hiv_atlas",
-    "T2T.shtml": "/Data/data.html#T2T",		# !!!
+    "chess/index": "/data/data.html#chess",
+    "HIV_Atlas/index": "/data/data.html#hiv_atlas",
+    "T2T.shtml": "/data/data.html#T2T",
 
-    "data/eupathDB/index": "/Data/data.html#eupathDB",  
+    "data/eupathDB/index": "/data/data.html#eupathDB",  #???
+
+    "people/florea/index:": "https://florealab.org",
+    "people/salzberg/index:": "https://salzberg-lab.org",
+    "people/mpertea/index:": "https://pertealab.org",
 }

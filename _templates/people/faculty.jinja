@@ -1,0 +1,43 @@
+# Faculty
+
+{% for person in faculty %}
+
+({{ person.id }})=
+## {{ person.name }}
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/{{ person.id }}.webp
+:width: 240px
+:alt: {{ person.name }}
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+{% for t in person.title %}
+**{{ t }}**  
+{% endfor %}
+
+{% for d in person.departments %}
+{{ d }}  
+{% endfor %}
+
+{% if person.homepage %}
+[Lab homepage]({{ person.homepage }})  
+{% endif %}
+
+{% if person.email %}
+[{{ person.email }}](mailto:{{ person.email }})
+{% endif %}
+
+::::
+```
+
+{% endfor %}

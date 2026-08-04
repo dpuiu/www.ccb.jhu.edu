@@ -690,3 +690,28 @@ convert 7_splam.webp -resize 1000x450! -bordercolor white  -border 100 7_splam-2
 convert 8_tcga.webp -resize 1000x450! -bordercolor white  -border 100 8_tcga-2.webp
 convert 9_wbp.webp -resize 1000x450! -bordercolor white  -border 100 9_wbp-2.webp
 
+###
+
+grep "About/" *md */*md
+grep "CBCC/" *md */*md
+grep "Data/" *md */*md
+grep "Education/" *md */*md
+grep "Examples/" *md */*md
+grep "People/" *md */*md
+grep "Software/" *md */*md
+grep "Maps/" *md */*md
+grep "Images/" *md */*md
+
+
+#####   
+
+sed -i 's|About/|about/|g' *md */*md
+sed -i 's|CBCC/|cbcc/|g' *md */*md
+sed -i 's|Data/|data/|g' *md */*md
+sed -i 's|Education/|education/|g' *md */*md
+sed -i 's|Examples/|examples/|g' *md */*md
+sed -i 's|People/|people/|g' *md */*md
+sed -i 's|Maps/|maps/|g' *md */*md
+sed -i 's|Images/|images/|g' *md */*md
+
+

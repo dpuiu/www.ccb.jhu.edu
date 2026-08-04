@@ -97,16 +97,16 @@ tree .
  │   ├── custom.css        # Custom CSS
  │   ├── custom.js         # Custom JavaScript
  │   ├── Logos/            # JHU logos
- │   ├── Maps/             # Campus maps
- │   └── People/           # Faculty, staff, and student pictures
+ │   ├── maps/             # Campus maps
+ │   └── people/           # Faculty, staff, and student pictures
  
- ├── About/                # About CCB, publications, contact
- ├── People/               # Faculty, staff, postdocs, students, alumni
+ ├── about/                # About CCB, publications, contact
+ ├── people/               # Faculty, staff, postdocs, students, alumni
  │   └── alekseyz/         # Example: individual profile
- ├── Software/             # Software developed by CCB
- ├── Data/                 # Databases developed by CCB
- ├── Education/            # PhD program and courses
- ├── CBCC/                 # Consulting Core
+ ├── software/             # Software developed by CCB
+ ├── data/                 # Databases developed by CCB
+ ├── education/            # PhD program and courses
+ ├── cbcc/                 # Consulting Core
  
  ├── _build/                       # Build directory, contains html files
  ├── .github/workflows/deploy.yml  # Automatic build pipeline
@@ -157,9 +157,9 @@ Pages are written in [Myst Markdown](https://mystmd.org/)
 Examples:
 
 ```text
-About/about.md
-People/faculty.md
-Software/alignment.md
+about/about.md
+people/faculty.md
+software/alignment.md
 ...
 
 ```
@@ -167,7 +167,7 @@ Software/alignment.md
 Edit one page with your preferred editor (Ex nano):
 
 ```bash
-nano Software/alignment.md
+nano software/alignment.md
 ```
 
 Rerun the make, copy commands
@@ -180,7 +180,7 @@ cp -r _build/pydata_sphinx_theme/ docs/
 In the browser:
 
 Refresh:
-  http://127.0.0.1:8000/Software/alignment.html
+  http://127.0.0.1:8000/software/alignment.html
 
 ---
 
@@ -190,17 +190,17 @@ Example: The Alignment Software Website
 
 ```bash
 
-ls -ll Software/alignment.md docs/Software/alignment.html 
--rw-rw-r-- 1 dpuiu dpuiu 27548 Jul 27 16:51 docs/Software/alignment.html   # much bigger than the MarkDown 
--rw-rw-r-- 1 dpuiu dpuiu  4406 Jul 17 13:40 Software/alignment.md          
+ls -ll software/alignment.md docs/software/alignment.html 
+-rw-rw-r-- 1 dpuiu dpuiu 27548 Jul 27 16:51 docs/software/alignment.html   # much bigger than the MarkDown 
+-rw-rw-r-- 1 dpuiu dpuiu  4406 Jul 17 13:40 software/alignment.md          
 
-nano docs/Software/alignment.html
+nano docs/software/alignment.html
 ```
 
 In the browser:
 
 Refresh:
-  http://127.0.0.1:8000/Software/alignment.html
+  http://127.0.0.1:8000/software/alignment.html
 
 ---
 
