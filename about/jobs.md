@@ -1,7 +1,7 @@
 # Open Positions at CCB
 
 Most of the {{CCB}} faculty members describe job openings on their individual
-websites. See the {doc}`/People/faculty` page for those sites.
+websites. See the {doc}`/people/faculty` page for those sites.
 
 ## Tenure-track faculty openings
 
@@ -16,7 +16,7 @@ Click on "Tenure-Track faculty" at that site for details.
 Many {{CCB}} faculty have postdoc positions, and these change too rapidly for us
 to keep this webpage up to date. If you are looking for a postdoc position,
 please contact the faculty member directly. Note that as of *March 2020*,
-{ref}`stevenlsalzberg` and {ref}`alexisbattle` have active postdoc searches.
+{ref}`steven-l-salzberg` and {ref}`alexis-battle` have active postdoc searches.
 
 ## Graduate student openings with CCB faculty
 
@@ -39,4 +39,4 @@ School of Medicine; {{BSPH}}, Bloomberg School of Public Health; {{KSAS}},
 Krieger School of Arts and Sciences.
 
 You can
-{doc}`find out more about our Ph.D. programs here </Education/information>`
+{doc}`find out more about our Ph.D. programs here </education/information>`

@@ -1,25 +1,29 @@
-#Kuan-Hao
+#Kuan-Hao: emailed...
 
-https://github.com/Kuanhao-Chao/OpenSpliceAI,https://ccb.jhu.edu/openspliceai/
-https://github.com/Kuanhao-Chao/LiftOn/
-https://github.com/Kuanhao-Chao/splam,https://github.com/Kuanhao-Chao/splam-analysis-results,https://pypi.org/project/splam/,https://ccb.jhu.edu/splam/
-https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit
+https://github.com/Kuanhao-Chao/OpenSpliceAI,https://ccb.jhu.edu/openspliceai/ -> https://Kuanhao-Chao.github.io/openspliceai
+https://github.com/Kuanhao-Chao/LiftOn/,https://ccb.jhu.edu/LiftOn             -> https://Kuanhao-Chao.github.io/LiftOn
+https://github.com/Kuanhao-Chao/splam, https://ccb.jhu.edu/splam               ->  https://Kuanhao-Chao.github.io/splam/
 
+##############
 
 # markus
 https://github.com/salzberg-lab/PSAURON
 https://www.isoform.io/
 https://github.com/salzberg-lab/Balrog
+https://github.com/Markusjsommer/TD2
 
 ########
 
 #ales(data)
 
-https://github.com/alevar/HIV_Atlas_Experiments, https://ccb.jhu.edu/HIV_Atlas/	!!!
+https://github.com/alevar/HIV_Atlas_Experiments, https://ccb.jhu.edu/HIV_Atlas/	; https://github.com/salzberg-lab/HIV_Atlas  => https://salzberg-lab.github.io/HIV_Atlas
+
 https://pypi.org/project/vira-av/,https://pypi.org/project/iris-av/,https://pypi.org/project/snapper-av/
-http://github.com/chess-genome/chess , http://ccb.jhu.edu/ches, https://github.com/alevar/chess3_construction
+https://github.com/chess-genome/chess ???
+https://ccb.jhu.edu/chess, https://github.com/alevar/chess3_construction
 https://github.com/alevar/ORFanage, https://github.com/alevar/ORFanage_tests
 https://github.com/salzberg-lab/bolotie
+
 
 #####
 
@@ -87,11 +91,12 @@ https://github.com/martin-steinegger/conterminator
 ####
 
 #to move:
-https://ccb.jhu.edu/openspliceai/, https://ccb.jhu.edu/spliceai-toolkit/
-https://ccb.jhu.edu/gage_b/ 
+#https://ccb.jhu.edu/openspliceai/, https://ccb.jhu.edu/spliceai-toolkit/
+#https://ccb.jhu.edu/chess/
+
+https://ccb.jhu.edu/gage_b/ ; https://salzberg-lab.github.io/GAGE_B/
 https://ccb.jhu.edu/chess/
-https://ccb.jhu.edu/splam/
-https://ccb.jhu.edu/HIV_Atlas: 626M, static Vite application , "could be moved" says chatGPT
+#https://ccb.jhu.edu/HIV_Atlas: 626M, static Vite application , "could be moved" says chatGPT
 https://ccb.jhu.edu/data/eupathDB/
 https://ccb.jhu.edu/data/kraken2_protocol/
 https://ccb.jhu.edu/chess_backup_08102022/index.shtml -> ./GBhub 
@@ -100,5 +105,7 @@ https://ccb.jhu.edu/chess_backup_08102022/index.shtml -> ./GBhub
                    /papers
                    /
 
-https://ccb.jhu.edu/nr_aa/,https://daehwankimlab.github.io/hisat-genotype/
+#https://ccb.jhu.edu/nr_aa/, #???
+https://daehwankimlab.github.io/hisat-genotype/
+
 

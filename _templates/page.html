@@ -1,36 +1,47 @@
 {% extends "!page.html" %}
 
-{% block header %}                
-<!--div style="display:flex;justify-content:space-between;align-items:center;background:#002D72;color:white;padding:0px;"-->
-<div class="site-header">
-	<div>
-		<a href="https://ccb.jhu.edu/" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/ccblogo_breathable_transparent_100.png" alt="CCB"></a>
-	</div>
+{% block header %}
+<header class="site-header">
+  <div class="site-header__logo">
+    <a href="https://ccb.jhu.edu/" title="Center for Computational Biology">
+      <img        src="{{ pathto('_static/logos/ccblogo_breathable_transparent_100.webp', 1) }}" alt="Center for Computational Biology">
+    </a>
+  </div>
 
-	<div>
-		<a href="https://engineering.jhu.edu/" alt="WSE"><img src="/www.ccb.jhu.edu/_static/Logos/WSE.logo.rgb_vertical.white_100.png"  alt="WSE"></a>
-	</div>
-</div>
+  <div class="site-header__logo">
+    <a href="https://engineering.jhu.edu/" title="Whiting School of Engineering" target="_blank" rel="noopener">
+      <img        src="{{ pathto('_static/logos/WSE.logo.rgb_vertical.white_100.webp', 1) }}" alt="Whiting School of Engineering">
+    </a>
+  </div>
+</header>
 {% endblock %}
 
-
 {% block footer %}
-<div class="site-footer">
-        <div>
-                <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/SOM.logo.rgb_vertical.white_100.png" alt="SOM"></a>
-        </div>
-        <div>
-		<div style="text-align: center;color: yellow;">
-	              	The Center for Computational Biology at Johns Hopkins University
-		</div>
-		<div style="text-align: center;">
-			<a href="/www.ccb.jhu.edu/index.html" alt="Home">Home</a>
-                        <a href="https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate" alt="Publications">Publications</a>
-                        <a href="/www.ccb.jhu.edu/About/contact.html" alt="Contact Us">Contact Us</a>
-                </div>
-	</div>
-        <div>
-                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="/www.ccb.jhu.edu/_static/Logos/BSPH.logo.rgb_vertical.white_100.png"  alt="BSPH"></a>
-        </div>
-</div>
+<footer class="site-footer">
+  <div class="site-footer__logo">
+    <a href="https://www.hopkinsmedicine.org/som/" title="School of Medicine" target="_blank" rel="noopener">
+      <img        src="{{ pathto('_static/logos/SOM.logo.rgb_vertical.white_100.webp', 1) }}" alt="Johns Hopkins School of Medicine">
+    </a>
+  </div>
+
+  <div class="site-footer__center" style="text-align: center;color: yellow;">
+    <div class="site-footer__title">
+      The Center for Computational Biology at Johns Hopkins University
+    </div>
+
+    <nav class="site-footer__links">
+      <a href="{{ pathto('index') }}">Home</a>
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate" target="_blank" rel="noopener">
+        Publications
+      </a>
+      <a href="{{ pathto('about/contact') }}">Contact Us</a>
+    </nav>
+  </div>
+
+  <div class="site-footer__logo">
+    <a href="https://publichealth.jhu.edu/" title="Bloomberg School of Public Health" target="_blank" rel="noopener">
+      <img src="{{ pathto('_static/logos/BSPH.logo.rgb_vertical.white_100.webp', 1) }}" alt="Bloomberg School of Public Health">
+    </a>
+  </div>
+</footer>
 {% endblock %}

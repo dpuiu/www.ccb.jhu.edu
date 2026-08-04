@@ -1,6 +1,6 @@
 # Staff
 
-(rebeccakeener)=
+(rebecca-keener)=
 ## Rebecca Keener, Ph.D
 
 ```{grid} 12
@@ -9,7 +9,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/R_keener.webp
+:::{image} /_static/people/rebecca-keener.webp
 :width: 240px
 :alt: Rebecca Keener, Ph.D.
 :::
@@ -28,7 +28,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 
 ```
 
-(danielapuiu)=
+(daniela-puiu)=
 ## Daniela Puiu, M.S
 
 ```{grid} 12
@@ -37,7 +37,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Daniela_puiu.webp
+:::{image} /_static/people/daniela-puiu.webp
 :width: 240px
 :alt: Daniela Puiu, M.S.
 :::
@@ -56,7 +56,7 @@ Department of Biomedical Engineering<br>Johns Hopkins University School of Medic
 
 ```
 
-(sarahbailey)=
+(sarah-bailey)=
 ## Sarah Bailey
 
 ```{grid} 12
@@ -65,7 +65,7 @@ Department of Biomedical Engineering<br>Johns Hopkins University School of Medic
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/S_bailey.webp
+:::{image} /_static/people/sarah-bailey.webp
 :width: 240px
 :alt: Sarah Bailey
 :::

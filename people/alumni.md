@@ -2,7 +2,7 @@
 
 ## Former Faculty
 
-(rafaelirizarry)=
+(rafaelir-izarry)=
 ### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
 ```{grid} 12
@@ -11,7 +11,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/IRIZARRY8.webp
+:::{image} /_static/people/rafael-irizarry.webp
 :width: 240px
 :alt: Rafael Irizarry, Ph.D.
 :::
@@ -37,13 +37,13 @@ Harvard University
 
 ## Former Postdocs
 
-(christopherpockrandt)=
+(christopher-pockrandt)=
 ### Christopher Pockrandt, Ph.D.
 
 Salzberg Lab @ JHU (until Feb. 2022)
 
 
-(florianbreitwieser)=
+(florian-breitwieser)=
 ### Florian Breitwieser, Ph.D.
 
 ```{grid} 12
@@ -52,7 +52,7 @@ Salzberg Lab @ JHU (until Feb. 2022)
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Florian_Breitwieser.webp
+:::{image} /_static/people/florian-breitwieser.webp
 :width: 240px
 :alt: Florian Breitwieser, Ph.D.
 :::
@@ -72,7 +72,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 ```
 
-(iliaminkin)=
+(ilia-minkin)=
 ### [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
 
 ```{grid} 12
@@ -81,7 +81,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Ilia_Minkin.webp
+:::{image} /_static/people/ilia-minkin.webp
 :width: 240px
 :alt: Ilia Minkin, Ph.D.
 :::
@@ -101,7 +101,7 @@ Postdoctoral Associate<br>
 
 ```
 
-(martinsteinegger)=
+(martin-steinegger)=
 ### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
 
 ```{grid} 12
@@ -110,7 +110,7 @@ Postdoctoral Associate<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Martin_steinegger.webp
+:::{image} /_static/people/martin-steinegger.webp
 :width: 240px
 :alt: Martin Steinegger, Ph.D.
 :::
@@ -130,7 +130,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 ```
 
-(stefancanzar)=
+(stefan-canzar)=
 ### [Stefan Canzar, Ph.D.](https://canzarlab.com/)
 
 ```{grid} 12
@@ -139,7 +139,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Stefan_Canzar.webp
+:::{image} /_static/people/stefan-canzar.webp
 :width: 240px
 :alt: Stefan Canzar, Ph.D.
 :::
@@ -157,7 +157,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 
 ```
 
-(stephanpabinger)=
+(stephan-pabinger)=
 ### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 ```{grid} 12
@@ -166,7 +166,7 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Stephan_pabinger2.webp
+:::{image} /_static/people/stephan-pabinger.webp
 :width: 240px
 :alt: Stephan Pabinger, Ph.D.
 :::
@@ -185,7 +185,7 @@ McKusick-Nathans Institute of Genetic Medicine<br>
 
 ```
 
-(tanjamagoc)=
+(tanja-magoc)=
 ### [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
 
 ```{grid} 12
@@ -194,7 +194,7 @@ McKusick-Nathans Institute of Genetic Medicine<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Tmagoc.webp
+:::{image} /_static/people/tanja-magoc.webp
 :width: 240px
 :alt: Tanja Magoc, Ph.D.
 :::
@@ -217,7 +217,7 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
 ```
 
 
-(toddjtreangen)=
+(todd-j-treangen)=
 ### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
 
 ```{grid} 12
@@ -226,7 +226,7 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Treangen.webp
+:::{image} /_static/people/todd-j-treangen.webp
 :width: 240px
 :alt: Todd J. Treangen, Ph.D.
 :::
@@ -254,7 +254,7 @@ National Biodefense Analysis and Countermeasures Center
 ## Former Students
 
 
-(alainashumate)=
+(alaina-shumate)=
 ### Alaina Shumate, Ph.D.
 
 ```{grid} 12
@@ -263,7 +263,7 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Alaina_Shumate.webp
+:::{image} /_static/people/alaina-shumate.webp
 :width: 240px
 :alt: Alaina Shumate, Ph.D.
 :::
@@ -281,7 +281,7 @@ National Biodefense Analysis and Countermeasures Center
 
 ```
 
-(alesvarabyou)=
+(ales-varabyou)=
 ### [Ales Varabyou, Ph.D.](https://alevar.github.io/)
 
 ```{grid} 12
@@ -290,7 +290,7 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Avaraby.webp
+:::{image} /_static/people/ales-varabyou.webp
 :width: 240px
 :alt: Ales Varabyou, Ph.D.
 :::
@@ -310,7 +310,7 @@ National Biodefense Analysis and Countermeasures Center
 
 ```
 
-(alyssafrazee)=
+(alyssa-frazee)=
 ### [Alyssa Frazee, Ph.D.](https://alyssafrazee.com)
 
 ```{grid} 12
@@ -319,7 +319,7 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Frazee.webp
+:::{image} /_static/people/alyssa-frazee.webp
 :width: 240px
 :alt: Alyssa Frazee, Ph.D.
 :::
@@ -336,7 +336,7 @@ National Biodefense Analysis and Countermeasures Center
 
 ```
 
-(daehwankim)=
+(daehwan-kim)=
 ### [Daehwan Kim, Ph.D.](https://kim-lab.org/)
 
 ```{grid} 12
@@ -345,7 +345,7 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Daehwan_Kim.webp
+:::{image} /_static/people/daehwan-kim.webp
 :width: 240px
 :alt: Daehwan Kim, Ph.D.
 :::
@@ -366,7 +366,7 @@ University of Toronto
 
 ```
 
-(derrickwood)=
+(derrick-wood)=
 ### Derrick Wood, Ph.D.
 
 ```{grid} 12
@@ -375,7 +375,7 @@ University of Toronto
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Derrick_Wood.webp
+:::{image} /_static/people/derrick-wood.webp
 :width: 240px
 :alt: Derrick Wood, Ph.D.
 :::
@@ -393,7 +393,7 @@ University of Toronto
 
 ```
 
-(hilaryparker)=
+(hilary-parker)=
 ### [Hilary Parker, Ph.D.](https://biostat.jhsph.edu/~hiparker/)
 
 ```{grid} 12
@@ -402,7 +402,7 @@ University of Toronto
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Hilary.webp
+:::{image} /_static/people/hilary-parker.webp
 :width: 240px
 :alt: Hilary Parker, Ph.D.
 :::
@@ -420,7 +420,7 @@ Johns Hopkins Bloomberg School of Public Health
 
 ```
 
-(jenniferlu)=
+(jennifer-lu)=
 ### Jennifer Lu, Ph.D.
 
 ```{grid} 12
@@ -429,7 +429,7 @@ Johns Hopkins Bloomberg School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Jennifer_Lu.webp
+:::{image} /_static/people/jennifer-lu.webp
 :width: 240px
 :alt: Jennifer Lu, Ph.D.
 :::
@@ -447,18 +447,18 @@ Johns Hopkins Bloomberg School of Public Health
 
 ```
 
-
-## Ida Shinder 
+(ida-shinder)=
+### Ida Shinder 
 
 [ishinde1@jhmi.edu](mailto:ishinde1@jhmi.edu)
 
 
-## Jakob Heinz 
+(jakob-heinz)-
+### Jakob Heinz 
 
 [jheinz3@jhu.edu](mailto:jheinz3@jhu.edu)
 
-
-(kuanhaochao)=
+(kuan-hao-chao)=
 ### [Kuan-Hao Chao, Ph.D.](https://khchao.com/)
 
 ```{grid} 12
@@ -467,7 +467,7 @@ Johns Hopkins Bloomberg School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Kuan-Hao_Chao.webp
+:::{image} /_static/people/kuan-hao-chao.webp
 :width: 240px
 :alt: Kuan-Hao Chao, Ph.D.
 :::
@@ -487,7 +487,7 @@ Salzberg Lab @ JHU (until 2025)<br>
 
 ```
 
-(lisong)=
+(li-song)=
 ### [Li Song, Ph.D.](https://mourisl.github.io/)
 
 ```{grid} 12
@@ -496,7 +496,7 @@ Salzberg Lab @ JHU (until 2025)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Li_Song.webp
+:::{image} /_static/people/li-song.webp
 :width: 240px
 :alt: Li Song, Ph.D.
 :::
@@ -516,7 +516,7 @@ Florea Lab @ JHU (until 2018)<br>
 
 ```
 
-(markussommer)=
+(markus-sommer)=
 ### [Markus Sommer, Ph.D.](https://www.markus.bio/)
 
 ```{grid} 12
@@ -525,7 +525,7 @@ Florea Lab @ JHU (until 2018)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Markus_Sommer.webp
+:::{image} /_static/people/markus-sommer.webp
 :width: 240px
 :alt: Markus Sommer, Ph.D.
 :::
@@ -548,7 +548,7 @@ Salzberg Lab @ JHU (until 2024)<br>
 
 ```
 
-(rachelsherman)=
+(rachel-sherman)=
 ### Rachel Sherman, Ph.D.
 
 ```{grid} 12
@@ -557,7 +557,7 @@ Salzberg Lab @ JHU (until 2024)<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rachel_Sherman.webp
+:::{image} /_static/people/rachel-sherman.webp
 :width: 240px
 :alt: Rachel Sherman, Ph.D.
 :::

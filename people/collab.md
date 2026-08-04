@@ -1,6 +1,6 @@
 # Collaborations
 
-(carlkingsford)=
+(carl-kingsford)=
 ## [Carl Kingsford, Ph.D.](https://kingsfordlab.cbd.cmu.edu/)
 
 ```{grid} 12
@@ -9,7 +9,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Carlk.webp
+:::{image} /_static/people/carl-kingsford.webp
 :width: 240px
 :alt: Carl Kingsford, Ph.D.
 :::
@@ -30,7 +30,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 
 ```
 
-(coletrapnell)=
+(cole-trapnell)=
 ## [Cole Trapnell, Ph.D.](https://cole-trapnell-lab.github.io/)
 
 ```{grid} 12
@@ -39,7 +39,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Cole.webp
+:::{image} /_static/people/cole-trapnell.webp
 :width: 240px
 :alt: Cole Trapnell, Ph.D.
 :::
@@ -59,7 +59,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 
 ```
 
-(elanafertig)=
+(elana-fertig)=
 ## [Elana Fertig, Ph.D.](https://fertiglab.com/)
 
 ```{grid} 12
@@ -68,7 +68,7 @@ Ray and Stephanie Lane Center for Computational Biology<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Elana122x140.webp
+:::{image} /_static/people/elana-fertig.webp
 :width: 240px
 :alt: Elana Fertig, Ph.D.
 :::
@@ -88,7 +88,7 @@ Director of the Institute for Genome Sciences at the University of Maryland Scho
 
 ```
 
-(jamesayorke)=
+(james-a-yorke)=
 ## [James A. Yorke, Ph.D.](https://yorke.umd.edu/)
 
 ```{grid} 12
@@ -97,7 +97,7 @@ Director of the Institute for Genome Sciences at the University of Maryland Scho
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Jyorke.webp
+:::{image} /_static/people/james-a-yorke.webp
 :width: 240px
 :alt: James A. Yorke, Ph.D.
 :::
@@ -117,7 +117,7 @@ Institute for Physical Sciences and Technology<br>UMCP<br>University of Maryland
 
 ```
 
-(mihaipop)=
+(mihai-pop)=
 ## [Mihai Pop, Ph.D.](https://pop-lab.org/)
 
 ```{grid} 12
@@ -126,7 +126,7 @@ Institute for Physical Sciences and Technology<br>UMCP<br>University of Maryland
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Mpop.webp
+:::{image} /_static/people/mihai-pop.webp
 :width: 240px
 :alt: Mihai Pop, Ph.D.
 :::
@@ -147,7 +147,7 @@ University of Maryland
 
 ```
 
-(najibel-sayed)=
+(najib-el-sayed)=
 ## [Najib El-Sayed, Ph.D.](https://www.najibelsayed.org/)
 
 ```{grid} 12
@@ -156,7 +156,7 @@ University of Maryland
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Najib.webp
+:::{image} /_static/people/najib-el-sayed.webp
 :width: 240px
 :alt: Najib El-Sayed, Ph.D.
 :::
@@ -179,7 +179,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 
 ## Collaboration Projects
 
-(thepinegenomeproject)=
+(the-pine-genome-project)=
 ### [The Pine Genome Project](https://pinegenome.org/pinerefseq/)
 
 ```{grid} 12
@@ -188,7 +188,7 @@ Department of Cell Biology and Molecular Genetics<br>University of Maryland
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Pinerefseq.webp
+:::{image} /_static/people/the-pine-genome-project.webp
 :width: 240px
 :alt: The Pine Genome Project
 :::

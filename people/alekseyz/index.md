@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # Alexey(Aleksey) V. Zimin
 
 ```{grid} 12
@@ -6,7 +10,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Aleksey.webp
+:::{image} /_static/people/Aleksey.webp
 :width: 240px
 :alt: Aleksey Zimin, Ph.D.
 :::
@@ -36,14 +40,14 @@ Baltimore, MD 21211
 
 ______________________________________________________________________
 
-```{include} /People/alekseyz/research.md
+```{include} /people/alekseyz/research.md
 ```
 
-```{include} /People/alekseyz/publications.md
+```{include} /people/alekseyz/publications.md
 ```
 
-```{include} /People/alekseyz/software.md
+```{include} /people/alekseyz/software.md
 ```
 
-```{include} /People/alekseyz/about.md
+```{include} /people/alekseyz/about.md
 ```

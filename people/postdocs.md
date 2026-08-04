@@ -1,6 +1,6 @@
 # Postdocs
 
-(courtneyhall)=
+(courtney-hall)=
 ## Courtney Hall, Ph.D
 
 ```{grid} 12
@@ -9,7 +9,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/C_hall.webp
+:::{image} /_static/people/courtney-hall.webp
 :width: 240px
 :alt: Courtney Hall, Ph.D.
 :::
@@ -30,7 +30,7 @@ Johns Hopkins University
 
 ```
 
-(harunmustafa)=
+(harun-mustafa)=
 ## Harun Mustafa, Ph.D
 
 ```{grid} 12
@@ -39,7 +39,7 @@ Johns Hopkins University
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Harun_Mustafa.webp
+:::{image} /_static/people/harun-mustafa.webp
 :width: 240px
 :alt: Harun Mustafa, Ph.D.
 :::
@@ -60,7 +60,7 @@ Johns Hopkins University
 
 ```
 
-(srujansingh)=
+(srujan-singh)=
 ## Srujan Singh, Ph.D
 
 ```{grid} 12
@@ -69,7 +69,7 @@ Johns Hopkins University
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Ssingh.webp
+:::{image} /_static/people/srujan-singh.webp
 :width: 240px
 :alt: Srujan Singh, Ph.D.
 :::

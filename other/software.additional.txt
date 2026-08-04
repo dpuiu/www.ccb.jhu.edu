@@ -3,13 +3,14 @@
 OpenSpliceAI provides an efficient modular implementation of SpliceAI enabling easy retraining across nonhuman species 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC12575001/
 https://github.com/Kuanhao-Chao/OpenSpliceAI
-https://ccb.jhu.edu/openspliceai/
+https://ccb.jhu.edu/openspliceai/	!!! doc
 
 #Kuan-Hao
 
 Combining DNA and protein alignments to improve genome annotation with LiftOn
 https://pubmed.ncbi.nlm.nih.gov/38798552/
 https://github.com/Kuanhao-Chao/LiftOn/
+https://ccb.jhu.edu/lifton/	!!! doc
 
 #Kuan-Hao
 
@@ -43,6 +44,10 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC9709962/
 Balrog: A universal protein model for prokaryotic gene prediction
 https://pmc.ncbi.nlm.nih.gov/articles/PMC7946324/
 https://github.com/salzberg-lab/Balrog
+
+#TD2
+https://github.com/Markusjsommer/TD2,https://github.com/Markusjsommer/TD2/wiki
+
 
 ########
 

@@ -1,6 +1,6 @@
 # Students
 
-(berilerdogdu)=
+(beril-erdogdu)=
 ## Beril Erdogdu, Ph.D. student
 
 ```{grid} 12
@@ -9,7 +9,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Beril_Erdogdu.webp
+:::{image} /_static/people/beril-erdogdu.webp
 :width: 240px
 :alt: Beril Erdogdu
 :::
@@ -19,7 +19,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
+**{ref}`Salzberg <steven-l-salzberg>`/{ref}`Pertea <mihaela-pertea>` Lab**
 
 {{bme}}
 
@@ -28,7 +28,7 @@
 
 ```
 
-(calebhallinan)=
+(caleb-hallinan)=
 ## Caleb Hallinan, Ph.D. student
 
 ```{grid} 12
@@ -37,7 +37,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Caleb_Hallinan.webp
+:::{image} /_static/people/caleb-hallinan.webp
 :width: 240px
 :alt: Caleb Hallinan
 :::
@@ -47,7 +47,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Fan <jeanfan>` Lab**
+**{ref}`Fan <jean-fan>` Lab**
   
 {{bme}}
   
@@ -56,7 +56,7 @@
 
 ```
 
-(celinehoh)=
+(celine-hoh)=
 ## Celine Hoh, Ph.D. student
 
 ```{grid} 12
@@ -65,7 +65,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Celine_Hoh.webp
+:::{image} /_static/people/celine-hoh.webp
 :width: 240px
 :alt: Celine Hoh
 :::
@@ -75,7 +75,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Salzberg <stevenlsalzberg>` Lab**
+**{ref}`Salzberg <steven-l-salzberg>` Lab**
   
 {{cs}}
   
@@ -84,7 +84,7 @@
 
 ```
 
-(davidbass)=
+(david-bass)=
 ## David Bass, Ph.D. student
 
 ```{grid} 12
@@ -93,7 +93,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/David_Bass.webp
+:::{image} /_static/people/david-bass.webp
 :width: 240px
 :alt: David Bass
 :::
@@ -103,7 +103,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Salzberg <stevenlsalzberg>` Lab**
+**{ref}`Salzberg <steven-l-salzberg>` Lab**
 
 [Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)
   
@@ -112,8 +112,8 @@
 
 ```
 
-(hyunjooji)=
-## Hyun Joo (Hayden) Ji, Ph.D. student 
+(hyun-joo-ji)=
+## Hyun Joo Ji, Ph.D. student 
 
 ```{grid} 12
 :gutter: 1
@@ -121,7 +121,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Hayden_Ji.webp
+:::{image} /_static/people/hyun-joo-ji.webp
 :width: 240px
 :alt: Hyun Joo Ji
 :::
@@ -131,7 +131,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Salzberg <stevenlsalzberg>` Lab**
+**{ref}`Salzberg <steven-l-salzberg>` Lab**
 
 {{cs}}
 
@@ -141,7 +141,7 @@
 ```
 
 
-(kalenclifton)=
+(kalen-clifton)=
 ## Kalen Clifton, Ph.D. student 
 
 ```{grid} 12
@@ -150,7 +150,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Kalen_Clifton.webp
+:::{image} /_static/people/kalen-clifton.webp
 :width: 240px
 :alt: Kalen Clifton
 :::
@@ -160,7 +160,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Fan <jeanfan>` Lab**
+**{ref}`Fan <jean-fan>` Lab**
   
 {{bme}}
   
@@ -169,7 +169,7 @@
 
 ```
 
-(nikolazadorozhny)=
+(nikola-zadorozhny)=
 ## Nikola Zadorozhny, Ph.D. student  
 
 ```{grid} 12
@@ -178,7 +178,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Nikola_Zadorozhny.webp
+:::{image} /_static/people/nikola-zadorozhny.webp
 :width: 240px
 :alt: Nikola Zadorozhny
 :::
@@ -188,7 +188,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Salzberg <stevenlsalzberg>`/{ref}`Pertea <mihaelapertea>` Lab**
+**{ref}`Salzberg <steven-l-salzberg>`/{ref}`Pertea <mihaela-pertea>` Lab**
 
 {{cs}}
 
@@ -198,7 +198,7 @@
 ```
 
 
-(radhikajangi)=
+(radhika-jangi)=
 ## Radhika Jangi, Ph.D. student 
 
 ```{grid} 12
@@ -207,7 +207,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Radhika_Jangi.webp
+:::{image} /_static/people/radhika-jangi.webp
 :width: 240px
 :alt: Radhika Jangi
 :::
@@ -217,7 +217,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Battle <alexisbattle>` Lab**
+**{ref}`Battle <alexis-battle>` Lab**
 
   
 {{bio}}
@@ -227,7 +227,7 @@
 
 ```
 
-(rafaeldossantospeixoto)=
+(rafael-dos-santos-peixoto)=
 ## Rafael dos Santos Peixoto, Ph.D. student 
 
 ```{grid} 12
@@ -236,7 +236,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rafael_dos_Santos_Peixoto_25pc.webp
+:::{image} /_static/people/rafael-dos-santos-peixoto.webp
 :width: 240px
 :alt: Rafael dos Santos Peixoto
 :::
@@ -246,7 +246,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Fan <jeanfan>` Lab**
+**{ref}`Fan <jean-fan>` Lab**
   
 {{bme}}
   
@@ -255,17 +255,17 @@
 
 ```
 
-(yuchenge)=
-## Yuchen (Peter) Ge, Ph.D. student  
+(yuchen-ge)=
+## Yuchen Ge, Ph.D. student  
 ```{grid} 12
 :gutter: 1
 
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Peter_Ge.webp
+:::{image} /_static/people/yuchen-ge.webp
 :width: 240px
-:alt: Peter Ge
+:alt: Yuchen Ge
 :::
 
 ::::
@@ -273,7 +273,7 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Salzberg <stevenlsalzberg>` Lab**
+**{ref}`Salzberg <steven-l-salzberg>` Lab**
 
 {{bme}}
 
@@ -282,7 +282,7 @@
 
 ```
 
-(zoecatherinerudnick)=
+(zoe-catherine-rudnick)=
 ## Zoe Catherine Rudnick, Ph.D. student 
 
 ```{grid} 12
@@ -291,7 +291,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Zoe_Rudnick.webp
+:::{image} /_static/people/zoe-catherine-rudnick.webp
 :width: 240px
 :alt: Zoe Catherine Rudnick
 :::
@@ -301,11 +301,10 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{ref}`Pertea <mihaelapertea>` Lab**
+**{ref}`Pertea <mihaela-pertea>` Lab**
   
 {{bme}}
   
 [zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
 ::::
 ```
-

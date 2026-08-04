@@ -5,7 +5,7 @@ For 2018 and after
 
 We no longer accept applications through CCB for summer interns. Some
 individual labs *may* be hiring student interns on an individual basis
-for the summer. Please see the {doc}'People' pages above and check if the
+for the summer. Please see the {doc}'people' pages above and check if the
 lab in which you're interested is offering internships. Inquiries
 should go directly to the Principal Investigator (PI) of the lab, not to
 this program.
@@ -77,27 +77,27 @@ the program.
 ## Faculty mentors
 
 2016:\
-{ref}`stevenlsalzberg`, {ref}`benlangmead`, Jeff Leek, {ref}`lilianaflorea`,
-{ref}`mihaelapertea`, {ref}`alexisbattle`, {ref}`daehwankim`,
-{ref}`danielapuiu`, {ref}`danarking`, Geo Pertea, {ref}`joelbader`
+{ref}`steven-l-salzberg`, {ref}`ben-langmead`, Jeff Leek, {ref}`liliana-florea`,
+{ref}`mihaela-pertea`, {ref}`alexis-battle`, {ref}`daehwan-kim`,
+{ref}`daniela-puiu`, {ref}`dan-arking`, Geo Pertea, {ref}`joel-bader`
 
 2015:\
-{ref}`jamestaylor`, {ref}`stevenlsalzberg`, {ref}`benlangmead`, Jeff Leek,
-{ref}`daehwankim`, {ref}`danielapuiu`, {ref}`danarking`,
-{ref}`florianbreitwieser`, {ref}`lilianaflorea`
+{ref}`james-taylor`, {ref}`steven-l-salzberg`, {ref}`ben-langmead`, Jeff Leek,
+{ref}`daehwan-kim`, {ref}`daniela-puiu`, {ref}`dan-arking`,
+{ref}`florian-breitwieser`, {ref}`liliana-florea`
 
 2014:\
-{ref}`stevenlsalzberg`, {ref}`lilianaflorea`, {ref}`danarking`,
-{ref}`joelbader`, {ref}`hongkaiji`, {ref}`benlangmead`, {ref}`danielapuiu`,
-{ref}`jamestaylor`
+{ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`,
+{ref}`joel-bader`, {ref}`hongkai-ji`, {ref}`ben-langmead`, {ref}`daniela-puiu`,
+{ref}`james-taylor`
 
 2013:\
-{ref}`stevenlsalzberg`, {ref}`lilianaflorea`, {ref}`danarking`,
-{ref}`benlangmead`, {ref}`danielapuiu`,
+{ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`,
+{ref}`ben-langmead`, {ref}`daniela-puiu`,
 
 2012:\
-{ref}`stevenlsalzberg`, {ref}`lilianaflorea`, {ref}`danarking`,
-{ref}`hongkaiji`, {ref}`tanjamagoc`, {ref}`danielapuiu`, {ref}`robertscharpf`
+{ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`,
+{ref}`hongkai-ji`, {ref}`tanja-magoc`, {ref}`daniela-puiu`, {ref}`robert-scharpf`
 
 ## Other information
 

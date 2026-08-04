@@ -20,7 +20,7 @@ HIV-1 genomes.
 
 <!---------------->
 
-## [CHESS](https://ccb.jhu.edu/chess/)
+## [CHESS](https://github.com/dpuiu/chess/wiki/) <!--(https://github.com/dpuiu/chess/wiki)(https://ccb.jhu.edu/chess/)-->
 
 A new catalog of human genes based on nearly 10,000 RNA sequencing experiments.
 For a full description of chess, see the paper in

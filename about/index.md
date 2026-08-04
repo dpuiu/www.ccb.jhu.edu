@@ -13,5 +13,5 @@ contact
 
 ```
 
-```{include} /About/about.md
+```{include} about.md
 ```

@@ -1,6 +1,6 @@
 # Faculty
 
-(stevenlsalzberg)=
+(steven-l-salzberg)=
 ## [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 
 ```{grid} 12
@@ -9,7 +9,7 @@
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Steven_salzberg_250x331.webp
+:::{image} /_static/people/steven-l-salzberg.webp
 :width: 240px
 :alt: Steven L. Salzberg, Ph.D.
 :::
@@ -29,7 +29,7 @@ Department of Biomedical Engineering, School of Medicine<br>Department of Comput
 
 ```
 
-(danarking)=
+(dan-arking)=
 ## Dan Arking, Ph.D
 
 ```{grid} 12
@@ -38,7 +38,7 @@ Department of Biomedical Engineering, School of Medicine<br>Department of Comput
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/DonArking.webp
+:::{image} /_static/people/dan-arking.webp
 :width: 240px
 :alt: Dan Arking, Ph.D.
 :::
@@ -57,7 +57,7 @@ Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology
 
 ```
 
-(joelbader)=
+(joel-bader)=
 ## [Joel Bader, Ph.D.](https://www.baderzone.org)
 
 ```{grid} 12
@@ -66,7 +66,7 @@ Department of Genetic Medicine<br>Department of Medicine, Division of Cardiology
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Joel_bader.webp
+:::{image} /_static/people/joel-bader.webp
 :width: 240px
 :alt: Joel Bader, Ph.D.
 :::
@@ -86,7 +86,7 @@ Department of Biomedical Engineering
 
 ```
 
-(alexisbattle)=
+(alexis-battle)=
 ## [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
 
 ```{grid} 12
@@ -95,7 +95,7 @@ Department of Biomedical Engineering
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Alexis-Battle-149x180.webp
+:::{image} /_static/people/alexis-battle.webp
 :width: 240px
 :alt: Alexis Battle, Ph.D.
 :::
@@ -115,7 +115,7 @@ Department of Biomedical Engineering<br>Department of Computer Science, by court
 
 ```
 
-(michaelbeer)=
+(michael-beer)=
 ## [Michael Beer, Ph.D.](https://www.beerlab.org)
 
 ```{grid} 12
@@ -124,7 +124,7 @@ Department of Biomedical Engineering<br>Department of Computer Science, by court
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/MikeBeer.webp
+:::{image} /_static/people/mike-beer.webp
 :width: 240px
 :alt: Michael Beer, Ph.D.
 :::
@@ -144,7 +144,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 
 ```
 
-(uthsavchitra)=
+(uthsav-chitra)=
 ## [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
 
 ```{grid} 12
@@ -153,7 +153,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/U_chitra.webp
+:::{image} /_static/people/uthsav-chitra.webp
 :width: 240px
 :alt: Uthsav Chitra, Ph.D.
 :::
@@ -173,7 +173,7 @@ Department of Computer Science<br>Whiting School of Engineering
 
 ```
 
-(jeanfan)=
+(jean-fan)=
 ## [Jean Fan, Ph.D.](https://jef.works)
 
 ```{grid} 12
@@ -182,7 +182,7 @@ Department of Computer Science<br>Whiting School of Engineering
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/JeanFan_132px.webp
+:::{image} /_static/people/jean-fan.webp
 :width: 240px
 :alt: Jean Fan, Ph.D.
 :::
@@ -202,7 +202,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 
 ```
 
-(lilianaflorea)=
+(liliana-florea)=
 ## [Liliana Florea, Ph.D.](https://florealab.org)
 
 ```{grid} 12
@@ -211,7 +211,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Florea.webp
+:::{image} /_static/people/liliana-florea.webp
 :width: 240px
 :alt: Liliana Florea, Ph.D.
 :::
@@ -231,7 +231,7 @@ Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins Univer
 
 ```
 
-(jeffreyjgray)=
+(jeffrey-j-gray)=
 ## [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
 
 ```{grid} 12
@@ -240,7 +240,7 @@ Department of Medicine<br>Department of Genetic Medicine<br>Johns Hopkins Univer
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Jjgray.webp
+:::{image} /_static/people/jefferey-j-gray.webp
 :width: 240px
 :alt: Jeffrey J. Gray, Ph.D.
 :::
@@ -260,7 +260,7 @@ Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Comp
 
 ```
 
-(kasperdhansen)=
+(kasper-d-hansen)=
 ## [Kasper D. Hansen, Ph.D.](https://www.hansenlab.org)
 
 ```{grid} 12
@@ -269,7 +269,7 @@ Department of Chemical & Biomolecular Engineering<br>Program in Molecular & Comp
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/KasperHansen250x264.webp
+:::{image} /_static/people/kasper-d-hansen.webp
 :width: 240px
 :alt: Kasper D. Hansen, Ph.D.
 :::
@@ -289,7 +289,7 @@ Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins S
 
 ```
 
-(stephaniehicks)=
+(stephanie-hicks)=
 ## [Stephanie Hicks, Ph.D.](https://www.stephaniehicks.com)
 
 ```{grid} 12
@@ -298,7 +298,7 @@ Department of Genetic Medicine<br>Department of Biostatistics<br>Johns Hopkins S
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/S_hicks.webp
+:::{image} /_static/people/stephanie-hicks.webp
 :width: 240px
 :alt: Stephanie Hicks, Ph.D.
 :::
@@ -318,7 +318,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Departm
 
 ```
 
-(hongkaiji)=
+(hongkai-ji)=
 ## [Hongkai Ji, Ph.D.](https://jilab.org)
 
 ```{grid} 12
@@ -327,7 +327,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Departm
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/HongkaiJi.webp
+:::{image} /_static/people/hongkai-ji.webp
 :width: 240px
 :alt: Hongkai Ji, Ph.D.
 :::
@@ -347,7 +347,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 
 ```
 
-(rachelkarchin)=
+(rachel-karchin)=
 ## [Rachel Karchin, Ph.D.](https://www.karchinlab.org)
 
 ```{grid} 12
@@ -356,7 +356,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rachel09Head.webp
+:::{image} /_static/people/rachel-karchin.webp
 :width: 240px
 :alt: Rachel Karchin, Ph.D.
 :::
@@ -376,7 +376,7 @@ Department of Biomedical Engineering<br>Institute for Computational Medicine<br>
 
 ```
 
-(benlangmead)=
+(ben-langmead)=
 ## [Ben Langmead, Ph.D.](https://langmead-lab.org)
 
 ```{grid} 12
@@ -385,7 +385,7 @@ Department of Biomedical Engineering<br>Institute for Computational Medicine<br>
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Ben_h140.webp
+:::{image} /_static/people/ben-langmead.webp
 :width: 240px
 :alt: Ben Langmead, Ph.D.
 :::
@@ -405,7 +405,7 @@ Department of Computer Science<br>Johns Hopkins University
 
 ```
 
-(davidjlipman)=
+(david-j-lipman)=
 ## David J. Lipman, M.D
 
 ```{grid} 12
@@ -414,7 +414,7 @@ Department of Computer Science<br>Johns Hopkins University
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/D_lipman.webp
+:::{image} /_static/people/david-j-lipman.webp
 :width: 240px
 :alt: David J. Lipman, M.D.
 :::
@@ -433,7 +433,7 @@ Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor f
 
 ```
 
-(rajivmccoy)=
+(rajiv-mccoy)=
 ## [Rajiv McCoy, Ph.D.](https://mccoy-lab.org)
 
 ```{grid} 12
@@ -442,7 +442,7 @@ Department of Biomedical Engineering, JHU<br>2021-2025: Senior Science Advisor f
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/R_mccoy.webp
+:::{image} /_static/people/rajiv-mccoy.webp
 :width: 240px
 :alt: Rajiv McCoy, Ph.D.
 :::
@@ -462,7 +462,7 @@ Department of Biology<br>Johns Hopkins University
 
 ```
 
-(mihaelapertea)=
+(mihaela-pertea)=
 ## [Mihaela Pertea, Ph.D.](https://pertealab.org)
 
 ```{grid} 12
@@ -471,7 +471,7 @@ Department of Biology<br>Johns Hopkins University
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Pertea.webp
+:::{image} /_static/people/mihaela-pertea.webp
 :width: 240px
 :alt: Mihaela Pertea, Ph.D.
 :::
@@ -491,7 +491,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 
 ```
 
-(adamphillippy)=
+(adam-phillippy)=
 ## [Adam Phillippy, Ph.D.](https://genomeinformatics.github.io)
 
 ```{grid} 12
@@ -500,7 +500,7 @@ Department of Biomedical Engineering<br>Department of Genetic Medicine<br>Johns 
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/A_phillippy.webp
+:::{image} /_static/people/adam-phillippy.webp
 :width: 240px
 :alt: Adam Phillippy, Ph.D.
 :::
@@ -520,7 +520,7 @@ Department of Computer Science<br>Department of Biomedical Engineering<br>Depart
 
 ```
 
-(suchisaria)=
+(suchi-saria)=
 ## Suchi Saria, Ph.D
 
 ```{grid} 12
@@ -529,7 +529,7 @@ Department of Computer Science<br>Department of Biomedical Engineering<br>Depart
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Suchi_saria.webp
+:::{image} /_static/people/suchi-saria.webp
 :width: 240px
 :alt: Suchi Saria, Ph.D.
 :::
@@ -548,7 +548,7 @@ Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer 
 
 ```
 
-(robertscharpf)=
+(robert-scharpf)=
 ## [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
 
 ```{grid} 12
@@ -557,7 +557,7 @@ Machine Learning, Biomedical & Health Informatics<br><br>Department of Computer 
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Rscharp1.webp
+:::{image} /_static/people/robert-scharpf.webp
 :width: 240px
 :alt: Robert Scharpf, Ph.D.
 :::
@@ -577,7 +577,7 @@ Department of Oncology<br>Johns Hopkins University School of Medicine
 
 ```
 
-(michaelschatz)=
+(michael-schatz)=
 ## [Michael Schatz, Ph.D.](https://schatz-lab.org)
 
 ```{grid} 12
@@ -586,7 +586,7 @@ Department of Oncology<br>Johns Hopkins University School of Medicine
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Mike_Schatz.webp
+:::{image} /_static/people/michael-schatz.webp
 :width: 240px
 :alt: Michael Schatz, Ph.D.
 :::
@@ -606,7 +606,7 @@ Department of Computer Science
 
 ```
 
-(margarettaub)=
+(margaret-taub)=
 ## [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
 
 ```{grid} 12
@@ -615,7 +615,7 @@ Department of Computer Science
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Margaret250x312.webp
+:::{image} /_static/people/margaret-taub.webp
 :width: 240px
 :alt: Margaret Taub, Ph.D.
 :::
@@ -635,7 +635,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 
 ```
 
-(jamestaylor)=
+(james-taylor)=
 ## James Taylor, Ph.D
 
 ```{grid} 12
@@ -644,7 +644,7 @@ Department of Biostatistics<br>Johns Hopkins School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/JamesTaylor.webp
+:::{image} /_static/people/james-taylor.webp
 :width: 240px
 :alt: James Taylor, Ph.D.
 :::
@@ -662,7 +662,7 @@ Department of Biology<br>Krieger School of Arts and Sciences
 
 ```
 
-(winstontimp)=
+(winston-timp)=
 ## [Winston Timp, Ph.D.](https://www.timplab.org)
 
 ```{grid} 12
@@ -671,7 +671,7 @@ Department of Biology<br>Krieger School of Arts and Sciences
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Winston_timp.webp
+:::{image} /_static/people/winston-timp.webp
 :width: 240px
 :alt: Winston Timp, Ph.D.
 :::
@@ -691,8 +691,8 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 
 ```
 
-(alekseyzimin)=
-## [Aleksey Zimin, Ph.D.](/People/alekseyz/index)
+(aleksey-zimin)=
+## [Aleksey Zimin, Ph.D.](/people/alekseyz/index)
 
 ```{grid} 12
 :gutter: 1
@@ -700,7 +700,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/People/Aleksey.webp
+:::{image} /_static/people/aleksey-zimin.webp
 :width: 240px
 :alt: Aleksey Zimin, Ph.D.
 :::
@@ -714,7 +714,7 @@ Department of Biomedical Engineering<br>Whiting School of Engineering
   
 Department of Biomedical Engineering<br>Whiting School of Engineering  
   
-{doc}`/People/alekseyz/index`
+{doc}`/people/alekseyz/index`
 [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)    
 ::::
 

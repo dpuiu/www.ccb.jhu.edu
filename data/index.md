@@ -12,5 +12,5 @@ downloads
 eupathdb
 ```
 
-```{include} /Data/data.md
+```{include} data.md
 ```

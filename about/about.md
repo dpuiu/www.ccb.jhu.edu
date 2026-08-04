@@ -33,8 +33,8 @@ and Engineering; (2) the {{cs}} in the {{wse}}, and (3) the {{bsph}} in the
 
 ## Leadership
 
-The Director of {{CCB}} is Prof. {ref}`stevenlsalzberg`, and the Associate
-Director is {ref}`mihaelapertea` See the {doc}`/People/faculty` page for a
+The Director of {{CCB}} is Prof. {ref}`steven-l-salzberg`, and the Associate
+Director is {ref}`mihaela-pertea` See the {doc}`/people/faculty` page for a
 complete list of our faculty.
 
 ## Computing infrastructure
@@ -56,13 +56,13 @@ the Homewood Campus.
 :gutter: 1
 
 ````{grid-item}
-```{button-link} ../_static/Maps/homewood_campus_map.pdf
+```{button-link} ../_static/maps/homewood_campus_map.pdf
 Homewood Campus Map (PDF)
 ```
 ````
 
 ````{grid-item}
-```{button-link} ../_static/Maps/JHH_Visitors_Guide_map_only.pdf
+```{button-link} ../_static/maps/JHH_Visitors_Guide_map_only.pdf
 Medical Campus Map (PDF)
 ```
 ````
