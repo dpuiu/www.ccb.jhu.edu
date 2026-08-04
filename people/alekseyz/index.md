@@ -10,7 +10,7 @@ orphan: true
 ::::{grid-item-card}
 :columns: 12 12 3 3
 
-:::{image} /_static/people/Aleksey.webp
+:::{image} /_static/people/aleksey-zimin.webp
 :width: 240px
 :alt: Aleksey Zimin, Ph.D.
 :::

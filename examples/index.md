@@ -214,7 +214,7 @@ graph TD
 
 ## Bootstrap carousel
 
-::::{raw} html
+```{raw} html
 
 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
 
@@ -225,14 +225,13 @@ graph TD
   </div>
 
   <div class="carousel-inner">
-    <div class="carousel-item active"><img src="/_static/people/Alaina_Shumate.webp" class="d-block w-100" alt="Image 1"></div>
-    <div class="carousel-item"><img src="/_static/people/Aleksey.webp" class="d-block w-100" alt="Image 2"></div>
-    <div class="carousel-item"><img src="/_static/people/Alexis-Battle-149x180.webp" class="d-block w-100" alt="Image 3"></div>
+    <div class="carousel-item active"><img src="/_static/people/alaina-shumate.webp" class="d-block w-100 img-fluid" alt="Image 1"></div>
+    <div class="carousel-item"><img src="/_static/people/aleksey-zimin.webp" class="d-block w-100 img-fluid" alt="Image 2"></div>
+    <div class="carousel-item"><img src="/_static/people/alexis-battle.webp" class="d-block w-100 img-fluid" alt="Image 3"></div>
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
 
 </div>
-
-::::
+```

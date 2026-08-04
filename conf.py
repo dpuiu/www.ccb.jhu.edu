@@ -8,7 +8,7 @@ copyright = "The Center for Computational Biology at Johns Hopkins University"
 project = "CCB"
 release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'software.wiki' , 'examples', '.venv', "README*md"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'software.wiki' , '.venv', "README*md"]
 extensions = [
     "myst_parser",
     "sphinx_design",
@@ -58,7 +58,12 @@ myst_substitutions = {
     "sph":  "[Bloomberg School of Public Health](https://publichealth.jhu.edu/)",
     "SPH":  "[SPH](https://publichealth.jhu.edu/)",
     "wse":  "[Whiting School of Engineering](https://engineering.jhu.edu/)",
-    "WSE":  "[WSE](https://engineering.jhu.edu/)"
+    "WSE":  "[WSE](https://engineering.jhu.edu/)",
+    "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
+}
+
+html_context = {
+    "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
 }
 
 templates_path = ['_templates']
@@ -89,10 +94,6 @@ html_favicon = "_static/favicon.ico"
 html_permalinks = True
 
 redirects = {
-#    "chess/index": "/data/data.html#chess",  
-#    "eastr/index": "/software/transcriptome_assembly.html#EASTR",
-#    "software/tophat/index": "/software/alignment.html#tophat",
-
     "software/diamund/index" : "/software/alignment.html#diamund",
     "software/hisat2/index" : "/software/alignment.html#hisat2",
     "hisat-genotype/index" : "/software/alignment.html#hisat-genotype", #!!!
@@ -133,7 +134,7 @@ redirects = {
 
     "chess/index": "/data/data.html#chess",
     "HIV_Atlas/index": "/data/data.html#hiv_atlas",
-    "T2T.shtml": "/data/data.html#T2T",
+    "T2T": "/data/data.html#T2T",
 
     "data/eupathDB/index": "/data/data.html#eupathDB",  #???
 

@@ -24,13 +24,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -U pip          
+          pip install -U pip
           pip install -r requirements.txt || true
 
+      - name: Fix GitHub Pages image paths
+        run: |
+          sed -i 's|img src="/_static/|img src="/www.ccb.jhu.edu/_static/|g' examples/index.md
+
       - name: Build Sphinx site
-        run: |          
-          make html html_theme=pydata_sphinx_theme          
-          cp -a _build/pydata_sphinx_theme/. docs/          
+        run: |
+          make html html_theme=pydata_sphinx_theme
+          cp -a _build/pydata_sphinx_theme/. docs/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
