@@ -19,7 +19,7 @@ Core <cbcc/index>
 
 **A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
 
-![CCB](_static/maps/WPB.png)
+![CCB](_static/maps/WPB.webp)
 <!-- ```{include} /about/about.md  ```-->
 <!--
 ::::{raw} html
