@@ -62,7 +62,7 @@ Jump to {ref}`links`.
 
 ### File Download
 
-[Download WEBP](/_static/Logos/logo.webp)
+[Download WEBP](/_static/logos/logo.webp)
 
 ## Footnotes
 
@@ -108,7 +108,7 @@ This is the rest of the body text.
 
 ## Image
 
-```{image} /_static/Logos/logo.webp
+```{image} /_static/logos/logo.webp
 :width: 300px
 :align: center
 :alt: Figure

@@ -660,38 +660,6 @@ Johns Hopkins University School of Medicine
 ```
 
 
-(robert-scharpf)=
-## Robert Scharpf, Ph.D.
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/robert-scharpf.webp
-:width: 240px
-:alt: Robert Scharpf, Ph.D.
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Associate Professor**  
-
-Department of Oncology  
-Johns Hopkins University School of Medicine  
-
-[Lab homepage](https://rscharpf.github.io/index.html)  
-
-[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)
-
-::::
-```
-
-
 (michael-schatz)=
 ## Michael Schatz, Ph.D.
 

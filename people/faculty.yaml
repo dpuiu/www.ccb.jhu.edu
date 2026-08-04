@@ -238,17 +238,6 @@ faculty:
     homepage: https://rscharpf.github.io/index.html
     email: rscharpf@jhsph.edu
 
-  - id: robert-scharpf
-    name: Robert Scharpf, Ph.D.
-    image: /_static/people/robert-scharpf.webp
-    title:
-      - Associate Professor
-    departments:
-      - Department of Oncology
-      - Johns Hopkins University School of Medicine
-    homepage: https://rscharpf.github.io/index.html
-    email: rscharpf@jhsph.edu
-
   - id: michael-schatz
     name: Michael Schatz, Ph.D.
     image: /_static/people/michael-schatz.webp
