@@ -11,6 +11,12 @@
   - BioProject / Assembly Name
   - Assembly Level / Submit Date
 
+* - Ocular Microbiome
+  - Bacteria/Viruses
+  - Bacteria/Viruses
+  - [https://www.ocular-microbiome.org/en/latest/)(Ocular Microbiome Consortium)
+  - Reads,contigs <br> 2024-2026
+
 * - Bacteria
   - Pseudomonas
   - Pseudomonas aeruginosa Pab1
@@ -132,10 +138,16 @@
   - Chromosome <br> 2022-06-02
 
 * - Animals
-  - Chinese Han
+  - Chinese Han Individual
   - Homo sapiens
   - [PRJNA863267](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA863267) <br> [Han1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_024586135.1)
   - Chromosome <br> 2022-08-09
+
+* - Animals
+  - Puerto Rican Individual
+  - Homo sapiens
+  - [GitHub](https://github.com/JHUCCB/PuertoRicanGenome)
+  - Chromosome <br> 2021-11-19
 
 * - Animals
   - Macaque

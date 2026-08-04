@@ -8,7 +8,7 @@ copyright = "The Center for Computational Biology at Johns Hopkins University"
 project = "CCB"
 release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'Software.wiki' , 'Examples', '.venv', "README*md"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'Software.wiki' ,  '.venv', "README*md"]
 extensions = [
     "myst_parser",
     "sphinx_design",
@@ -81,6 +81,7 @@ html_theme_options = {
         "navbar_end": ["theme-switcher", "navbar-icon-links",],
         "icon_links": [{"name": "GitHub", "url": "https://github.com/dpuiu/www.ccb.jhu.edu","icon": "fa-brands fa-github",},],
 #        "external_links": [{ "name": "JHU","url": "https://jhu.edu",}],
+        "navigation_depth": 1,
 }
 
 html_title = "Center for Computational Biology"

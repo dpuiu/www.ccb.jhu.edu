@@ -668,3 +668,25 @@ sphinx-build \
   --keep-going \
   --fresh-env \
   --write-all
+
+
+convert 1_chess-app-MT.webp -resize 1200x650^ 1_chess-app-MT-2.webp
+convert 2_chess-app-expression.webp -resize 1200x650^ 2_chess-app-expression-2.webp 
+convert 3_chess-app-isoforms.webp -resize 1200x650^ 3_chess-app-isoforms-2.webp 
+convert 4_hiv_atlas.webp  -resize 1200x650^ 4_hiv_atlas-2.webp
+convert 5_CHM13_annotation.webp -resize 1200x650^ 5_CHM13_annotation-2.webp
+convert 6_LiftOn_human_mane_circos.webp -resize 1200x650^ 6_LiftOn_human_mane_circos-2.webp
+convert 7_splam.webp -resize 1200x650^ 7_splam-2.webp
+convert 8_tcga.webp -resize 1200x650^ 8_tcga-2.webp
+convert 9_wbp.webp -resize 1200x650^ 9_wbp-2.webp
+
+convert 1_chess-app-MT.webp -resize 1000x450! -bordercolor white  -border 100  1_chess-app-MT-2.webp
+convert 2_chess-app-expression.webp -resize 1000x450! -bordercolor white  -border 100  2_chess-app-expression-2.webp 
+convert 3_chess-app-isoforms.webp -resize 1000x450! -bordercolor white  -border 100 3_chess-app-isoforms-2.webp 
+convert 4_hiv_atlas.webp  -resize 1000x450! -bordercolor white  -border 100 4_hiv_atlas-2.webp
+convert 5_CHM13_annotation.webp -resize 1000x450! -bordercolor white  -border 100 5_CHM13_annotation-2.webp
+convert 6_LiftOn_human_mane_circos.webp -resize 1000x450! -bordercolor white  -border 100 6_LiftOn_human_mane_circos-2.webp
+convert 7_splam.webp -resize 1000x450! -bordercolor white  -border 100 7_splam-2.webp
+convert 8_tcga.webp -resize 1000x450! -bordercolor white  -border 100 8_tcga-2.webp
+convert 9_wbp.webp -resize 1000x450! -bordercolor white  -border 100 9_wbp-2.webp
+
