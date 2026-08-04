@@ -1,0 +1,22 @@
+---
+html_theme.sidebar_primary.remove: true
+html_theme.sidebar_secondary.remove: true
+orpham: true
+---
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+About <about/index>
+People <people/index>
+Software <software/index>
+Data <data/index>
+Education <education/index>
+Core <cbcc/index>
+```
+
+# The Center for Computational Biology
+
+**A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
+
