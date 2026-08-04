@@ -19,9 +19,9 @@ Core <cbcc/index>
 
 **A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
 
-![CCB](_static/maps/WPB.webp)
+<!--![CCB](_static/maps/WPB.webp) -->
 <!-- ```{include} /about/about.md  ```-->
-<!--
+
 ::::{raw} html
 
 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -40,21 +40,21 @@ Core <cbcc/index>
   </div>
 
   <div class="carousel-inner">
-    <div class="carousel-item active"><img src="/_static/images/WPB-2.webp" class="d-block w-100" alt="Image 0"></div>
+    <div class="carousel-item active"><img src="/www.ccb.jhu.edu/_static/images/WPB-2.webp" class="d-block w-100" alt="Image 0"></div>
 
     <div class="carousel-item">
-	<a href="/chess/"><img src="/_static/images/1_chess-app-MT-2.webp" class="d-block w-100" alt="Image 1"></a>
+	<a href="/chess/"><img src="/www.ccb.jhu.edu/_static/images/1_chess-app-MT-2.webp" class="d-block w-100" alt="Image 1"></a>
         <div class="carousel-caption d-none d-md-block"><br/><h5>CHESS</h5><p>Genome annotation and isoform discovery</p></div>
     </div>
     
-    <div class="carousel-item"	     ><img src="/_static/images/2_chess-app-expression-2.webp"  class="d-block w-100" alt="Image 2"></div>
-    <div class="carousel-item"       ><img src="/_static/images/3_chess-app-isoforms-2.webp"  class="d-block w-100" alt="Image 3"></div>
-    <div class="carousel-item"       ><img src="/_static/images/4_hiv_atlas-2.webp" class="d-block w-100" alt="Image 4"></div>
-    <div class="carousel-item"       ><img src="/_static/images/5_CHM13_annotation-2.webp"  class="d-block w-100" alt="Image 5"></div>
-    <div class="carousel-item"       ><img src="/_static/images/6_LiftOn_human_mane_circos-2.webp"  class="d-block w-100" alt="Image 6"></div>
-    <div class="carousel-item"       ><img src="/_static/images/7_splam-2.webp"  class="d-block w-100" alt="Image 7"></div>
-    <div class="carousel-item"       ><img src="/_static/images/8_tcga-2.webp"  class="d-block w-100" alt="Image 8"></div>
-    <div class="carousel-item"       ><img src="/_static/images/9_wbp-2.webp"  class="d-block w-100" alt="Image 9"></div>
+    <div class="carousel-item"	     ><img src="/www.ccb.jhu.edu/_static/images/2_chess-app-expression-2.webp"  class="d-block w-100" alt="Image 2"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/3_chess-app-isoforms-2.webp"  class="d-block w-100" alt="Image 3"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/4_hiv_atlas-2.webp" class="d-block w-100" alt="Image 4"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/5_CHM13_annotation-2.webp"  class="d-block w-100" alt="Image 5"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/6_LiftOn_human_mane_circos-2.webp"  class="d-block w-100" alt="Image 6"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/7_splam-2.webp"  class="d-block w-100" alt="Image 7"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/8_tcga-2.webp"  class="d-block w-100" alt="Image 8"></div>
+    <div class="carousel-item"       ><img src="/www.ccb.jhu.edu/_static/images/9_wbp-2.webp"  class="d-block w-100" alt="Image 9"></div>
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
@@ -62,4 +62,4 @@ Core <cbcc/index>
 </div>
 
 ::::
--->
+
