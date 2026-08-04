@@ -29,7 +29,7 @@ jobs:
 
       - name: Fix GitHub Pages image paths
         run: |
-          sed -i 's|img src="/_static/|img src="/www.ccb.jhu.edu/_static/|g' examples/index.md
+          sed -i 's|img src="/_static/|img src="/www.ccb.jhu.edu/_static/|g' index.md examples/index.md
 
       - name: Build Sphinx site
         run: |
