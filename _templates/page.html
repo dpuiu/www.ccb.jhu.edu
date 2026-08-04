@@ -4,11 +4,12 @@
 <!--div style="display:flex;justify-content:space-between;align-items:center;background:#002D72;color:white;padding:0px;"-->
 <div class="site-header">
 	<div>
-		<a href="https://ccb.jhu.edu/" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/ccblogo_breathable_transparent_100.png" alt="CCB"></a>
+		<!--a href="https://ccb.jhu.edu/" alt="CCB"><img src="/www.ccb.jhu.edu/_static/logos/ccblogo_breathable_transparent_100.png" alt="CCB"></a-->
+                <img src="{{ pathto('_static/logos/ccblogo_breathable_transparent_100.png', 1) }}" alt="Chess App">
 	</div>
 
 	<div>
-		<a href="https://engineering.jhu.edu/" alt="WSE"><img src="/www.ccb.jhu.edu/_static/Logos/WSE.logo.rgb_vertical.white_100.png"  alt="WSE"></a>
+		<a href="https://engineering.jhu.edu/" alt="WSE"><img src="/www.ccb.jhu.edu/_static/logos/WSE.logo.rgb_vertical.white_100.png"  alt="WSE"></a>
 	</div>
 </div>
 {% endblock %}
@@ -17,7 +18,7 @@
 {% block footer %}
 <div class="site-footer">
         <div>
-                <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="/www.ccb.jhu.edu/_static/Logos/SOM.logo.rgb_vertical.white_100.png" alt="SOM"></a>
+                <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="/www.ccb.jhu.edu/_static/logos/SOM.logo.rgb_vertical.white_100.png" alt="SOM"></a>
         </div>
         <div>
 		<div style="text-align: center;color: yellow;">
@@ -30,7 +31,7 @@
                 </div>
 	</div>
         <div>
-                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="/www.ccb.jhu.edu/_static/Logos/BSPH.logo.rgb_vertical.white_100.png"  alt="BSPH"></a>
+                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="/www.ccb.jhu.edu/_static/logos/BSPH.logo.rgb_vertical.white_100.png"  alt="BSPH"></a>
         </div>
 </div>
 {% endblock %}
