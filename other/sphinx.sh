@@ -715,3 +715,32 @@ sed -i 's|Maps/|maps/|g' *md */*md
 sed -i 's|Images/|images/|g' *md */*md
 
 
+
+./scripts/make_students.py
+./scripts/make_faculty.py 
+#########
+
+pip install "jinja2-cli[yaml]"
+jinja2 template.j2 data.yaml
+jinja2 template.j2 -D name=Daniela -D lab=CCB
+jinja2 --format=yaml template.j2 data.yaml
+
+
+###########
+
+cat substitutions.yaml
+ ARCH: "[ARCH](https://www.arch.jhu.edu/)"
+ bio: "[Department of Biology](https://bio.jhu.edu/)"
+ bme: "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)"
+#
+cat conf.py
+ from pathlib import Path
+ import yaml
+
+ with open(Path(__file__).parent / "substitutions.yaml") as f:
+    myst_substitutions = yaml.safe_load(f)
+#or
+ import json
+
+ with open("substitutions.json") as f:
+    myst_substitutions = json.load(f)

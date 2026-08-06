@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pathlib import Path
 import yaml
 from jinja2 import Environment, FileSystemLoader

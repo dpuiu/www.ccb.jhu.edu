@@ -52,7 +52,7 @@ related species.
 A motif finder based on Gibbs sampling that can find ribosome binding sites,
 exon splicing enhancers, or regulatory sites.
 
-## [fqtrim](https://github.com/dpuiu/fqtrim/wiki)
+## [fqtrim](https://github.com/gpertea/fqtrim/wiki)
 
 A software utility for filtering and trimming high-throughput next-gen reads.
 

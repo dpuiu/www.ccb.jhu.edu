@@ -9,7 +9,7 @@ project = "CCB"
 release = "2026"
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'software.wiki' , '.venv', "README*md"]
-extensions = [
+extensions = [ 
     "myst_parser",
     "sphinx_design",
     "sphinx_reredirects",
@@ -41,18 +41,25 @@ myst_substitutions = {
     "BME":  "[BME](https://www.bme.jhu.edu/)",
     "bsph" : "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
     "BSPH" : "[BSPH](https://publichealth.jhu.edu/departments/biostatistics)",
+    "cardiology" : "[Department of Medicine, Division of Cardiology](https://www.hopkinsmedicine.org/heart-vascular-institute/cardiology)",
     "ccb":  "[Center for Computational Biology](https://ccb.jhu.edu/)",
     "CCB":  "[CCB](https://ccb.jhu.edu/)",
+    "chembe": "[Department of Chemical & Biomolecular Engineering](https://engineering.jhu.edu/chembe/)",
     "cs":   "[Department of Computer Science](https://www.cs.jhu.edu/)",
     "CS":   "[CS](https://www.cs.jhu.edu/)",
+    "dhpm": "[Department of Health Policy and Management](https://publichealth.jhu.edu/departments/health-policy-and-management)",
     "dsai": "[data Science & AI Institute](https://ai.jhu.edu/)",
     "DSAI": "[DSAI](https://ai.jhu.edu/)",
-    "igs":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
-    "IGS":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
+    "dgm":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
+    "DGM":  "[DGM](https://www.hopkinsmedicine.org/genetic-medicine/)",
+    "icm",  "[Institute for Computational Medicine](https://icm.jhu.edu/)",
     "jhu":  "[Johns Hopkins University](http://www.jhu.edu/)",
     "JHU":  "[JHU](http://www.jhu.edu/)",
     "ksas": "[Krieger School of Arts and Sciences](https://krieger.jhu.edu/)",
     "KSAS": "[KSAS](https://krieger.jhu.edu/)",
+    "mc"  : "[Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)",
+    "med" : "[Department of Medicine](https://www.hopkinsmedicine.org/medicine)",
+    "skcc": "[The Sidney Kimmel Comprehensive Cancer Center](https://www.hopkinsmedicine.org/kimmel-cancer-center)",
     "som":  "[School of Medicine](https://www.hopkinsmedicine.org/som)",
     "SOM":  "[SOM](https://www.hopkinsmedicine.org/som)",
     "sph":  "[Bloomberg School of Public Health](https://publichealth.jhu.edu/)",

@@ -1,12 +1,23 @@
+{# ========================================================== #}
+{# Faculty Section                                            #}
+{# Loops through all faculty members and creates one profile  #}
+{# ========================================================== #}
+
 # Faculty
 
 {% for person in faculty %}
 
+{# Create a MyST label so this faculty member can be referenced #}
 ({{ person.id }})=
+
 ## {{ person.name }}
 
 ```{grid} 12
 :gutter: 1
+
+{# ---------------------------------------------------------- #}
+{# Left column: faculty photo                                #}
+{# ---------------------------------------------------------- #}
 
 ::::{grid-item-card}
 :columns: 12 12 3 3
@@ -16,27 +27,42 @@
 :alt: {{ person.name }}
 :::
 
-::::
+:::
+
+{# ---------------------------------------------------------- #}
+{# Right column: faculty information                         #}
+{# ---------------------------------------------------------- #}
 
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
+{# Display one or more faculty titles #}
 {% for t in person.title %}
 **{{ t }}**  
 {% endfor %}
 
+{# Display department affiliations #}
 {% for d in person.departments %}
 {{ d }}  
 {% endfor %}
 
+{# Display lab homepage if available #}
 {% if person.homepage %}
 [Lab homepage]({{ person.homepage }})  
 {% endif %}
 
+{# Display email if available #}
 {% if person.email %}
 [{{ person.email }}](mailto:{{ person.email }})
 {% endif %}
 
+:::
+```
+
+{# End of one faculty profile #}
+{% endfor %}
+
+{# End Faculty Section #}
 ::::
 ```
 

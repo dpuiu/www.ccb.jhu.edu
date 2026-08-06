@@ -6,9 +6,9 @@ faculty:
       - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
       - Director, Center for Computational Biology
     departments:
-      - Department of Biomedical Engineering, School of Medicine
-      - Department of Computer Science, Whiting School of Engineering
-      - Department of Biostatistics, Bloomberg School of Public Health
+      - bme
+      - cs
+      - bsph
     homepage: https://salzberg-lab.org
     email: salzberg@jhu.edu
 
@@ -18,9 +18,9 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Genetic Medicine
-      - Department of Medicine, Division of Cardiology
-      - Johns Hopkins University School of Medicine
+      - dgm
+      - cardiology
+      - som
     email: arking@jhmi.edu
 
   - id: joel-bader
@@ -29,7 +29,7 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Biomedical Engineering
+      - bme
     homepage: https://www.baderzone.org
     email: joel.bader@jhu.edu
 
@@ -41,9 +41,9 @@ faculty:
       - Director, Malone Center for Engineering in Healthcare
       - Deputy Executive Director, AI-X Foundry
     departments:
-      - Department of Biomedical Engineering
-      - Department of Computer Science, by courtesy
-      - Department of Genetic Medicine, by courtesy
+      - bme
+      - cs
+      - dgm
     homepage: https://battlelab.jhu.edu
     email: ajbattle@jhu.edu
 
@@ -53,9 +53,9 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Biomedical Engineering
-      - Department of Genetic Medicine
-      - Johns Hopkins University School of Medicine
+      - bme
+      - dgm
+      - som
     homepage: https://www.beerlab.org
     email: mbeer@jhu.edu
 
@@ -65,8 +65,8 @@ faculty:
     title:
       - Assistant Professor
     departments:
-      - Department of Computer Science
-      - Whiting School of Engineering
+      - dgm
+      - wse
     homepage: https://chitra-lab.github.io
     email: uthsav@jhu.edu
 
@@ -76,8 +76,8 @@ faculty:
     title:
       - Associate Professor
     departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
+      - bme
+      - wse
     homepage: https://jef.works
     email: jeanfan@jhu.edu
 
@@ -87,9 +87,9 @@ faculty:
     title:
       - Associate Professor
     departments:
-      - Department of Medicine
-      - Department of Genetic Medicine
-      - Johns Hopkins University School of Medicine
+      - med
+      - dgm
+      - som
     homepage: https://florealab.org
     email: florea@jhu.edu
 
@@ -99,9 +99,8 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Chemical & Biomolecular Engineering
+      - chembe
       - Program in Molecular & Computational Biophysics
-      - Johns Hopkins University
     homepage: https://graylab.jhu.edu
     email: jgray@jhu.edu
 
@@ -111,9 +110,9 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Genetic Medicine
-      - Department of Biostatistics
-      - Johns Hopkins School of Public Health
+      - dgm
+      - bsph
+      - sph
     homepage: https://www.hansenlab.org
     email: kasperdanielhansen@gmail.com
 
@@ -123,11 +122,11 @@ faculty:
     title:
       - Associate Professor
     departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
-      - Department of Biostatistics
-      - School of Public Health
-      - Malone Center for Engineering in Healthcare
+      - bme
+      - wse
+      - bsph
+      - sph
+      - mc
       - Center for Imaging Science
     homepage: https://www.stephaniehicks.com
     email: shicks19@jhu.edu
@@ -138,8 +137,8 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Biostatistics
-      - Johns Hopkins School of Public Health
+      - bsph
+      - sph
     homepage: https://jilab.org
     email: hji@jhsph.edu
 
@@ -150,9 +149,8 @@ faculty:
       - Professor
       - The William R. Brody Faculty Scholar
     departments:
-      - Department of Biomedical Engineering
-      - Institute for Computational Medicine
-      - Johns Hopkins University
+      - bme
+      - dgm
     homepage: https://www.karchinlab.org
     email: karchin@jhu.edu
 
@@ -162,8 +160,7 @@ faculty:
     title:
       - Professor
     departments:
-      - Department of Computer Science
-      - Johns Hopkins University
+      - cs
     homepage: https://langmead-lab.org
     email: langmea@cs.jhu.edu
 
@@ -173,7 +170,7 @@ faculty:
     title:
       - Adjunct Research Scientist
     departments:
-      - Department of Biomedical Engineering, JHU
+      - bme
       - 2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA
       - 1989-2017: Director, National Center for Biotechnology Information, NIH
     email: dlipman4@jh.edu
@@ -184,8 +181,7 @@ faculty:
     title:
       - Assistant Professor
     departments:
-      - Department of Biology
-      - Johns Hopkins University
+      - bio
     homepage: https://mccoy-lab.org
     email: rajiv.mccoy@jhu.edu
 
@@ -196,9 +192,9 @@ faculty:
       - Associate Professor
       - Associate Director, Center for Computational Biology
     departments:
-      - Department of Biomedical Engineering
-      - Department of Genetic Medicine
-      - Johns Hopkins University School of Medicine
+      - bme
+      - dgm
+      - som
     homepage: https://pertealab.org
     email: mpertea@jhu.edu
 
@@ -208,10 +204,9 @@ faculty:
     title:
       - Bloomberg Distinguished Professor
     departments:
-      - Department of Computer Science
-      - Department of Biomedical Engineering
-      - Department of Genetic Medicine
-      - Johns Hopkins University
+      - cs
+      - bme
+      - dgm
     homepage: https://genomeinformatics.github.io
     email: aphillippy@jhu.edu
 
@@ -222,9 +217,9 @@ faculty:
       - Associate Professor
     departments:
       - Machine Learning, Biomedical & Health Informatics
-      - Department of Computer Science
+      - cs
       - Department of Health Policy & Management
-      - Institute for Computational Medicine, Division of Informatics
+      - ics
     email: ssaria@cs.jhu.edu
 
   - id: robert-scharpf
@@ -233,8 +228,8 @@ faculty:
     title:
       - Associate Professor
     departments:
-      - Department of Oncology
-      - Johns Hopkins University School of Medicine
+      - skcc
+      - som
     homepage: https://rscharpf.github.io/index.html
     email: rscharpf@jhsph.edu
 
@@ -244,7 +239,7 @@ faculty:
     title:
       - Bloomberg Distinguished Professor
     departments:
-      - Department of Computer Science
+      - cs
     homepage: https://schatz-lab.org
     email: mschatz@cs.jhu.edu
 
@@ -254,8 +249,8 @@ faculty:
     title:
       - Associate Scientist
     departments:
-      - Department of Biostatistics
-      - Johns Hopkins School of Public Health
+      - bsph
+      - sph
     homepage: https://www.biostat.jhsph.edu/~mtaub/About.html
     email: mtaub@jhsph.edu
 
@@ -265,8 +260,8 @@ faculty:
     title:
       - In memoriam: Professor of Biology
     departments:
-      - Department of Biology
-      - Krieger School of Arts and Sciences
+      - bio
+      - ksas
 
   - id: winston-timp
     name: Winston Timp, Ph.D.
@@ -274,8 +269,8 @@ faculty:
     title:
       - Associate Professor
     departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
+      - bme
+      - wse
     homepage: https://www.timplab.org
     email: wtimp@jhu.edu
 
@@ -285,7 +280,7 @@ faculty:
     title:
       - Research Scientist
     departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
+      - bme
+      - wse
     homepage: /people/alekseyz/index
     email: alekseyz@jhu.edu

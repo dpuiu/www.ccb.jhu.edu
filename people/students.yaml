@@ -1,302 +1,134 @@
 students:
-  - id: steven-l-salzberg
-    name: Steven L. Salzberg, Ph.D.
-    image: /_static/people/steven-l-salzberg.webp
+  - id: beril-erdogdu
+    name: Beril Erdogdu
+    alt: Beril Erdogdu
     title:
-      - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
-      - Director, Center for Computational Biology
+      - Ph.D. student
+    image: /_static/people/beril-erdogdu.webp
+    labs:
+      - steven-l-salzberg
+      - mihaela-pertea
     departments:
-      - Department of Biomedical Engineering, School of Medicine
-      - Department of Computer Science, Whiting School of Engineering
-      - Department of Biostatistics, Bloomberg School of Public Health
-    homepage: https://salzberg-lab.org
-    email: salzberg@jhu.edu
+      - bme
+    email: berdogd1@jhu.edu
 
-  - id: dan-arking
-    name: Dan Arking, Ph.D.
-    image: /_static/people/dan-arking.webp
+  - id: caleb-hallinan
+    name: Caleb Hallinan
+    alt: Caleb Hallinan
     title:
-      - Professor
+      - Ph.D. student
+    image: /_static/people/caleb-hallinan.webp
+    labs:
+      - jean-fan
     departments:
-      - Department of Genetic Medicine
-      - Department of Medicine, Division of Cardiology
-      - Johns Hopkins University School of Medicine
-    email: arking@jhmi.edu
+      - bme
+    email: challin1@jh.edu
 
-  - id: joel-bader
-    name: Joel Bader, Ph.D.
-    image: /_static/people/joel-bader.webp
+  - id: celine-hoh
+    name: Celine Hoh
+    alt: Celine Hoh
     title:
-      - Professor
+      - Ph.D. student
+    image: /_static/people/celine-hoh.webp
+    labs:
+      - steven-l-salzberg
     departments:
-      - Department of Biomedical Engineering
-    homepage: https://www.baderzone.org
-    email: joel.bader@jhu.edu
+      - cs
+    email: choh1@jhu.edu
 
-  - id: alexis-battle
-    name: Alexis Battle, Ph.D.
-    image: /_static/people/alexis-battle.webp
+  - id: david-bass
+    name: David Bass
+    alt: David Bass
     title:
-      - Wu & Zhang Professor
-      - Director, Malone Center for Engineering in Healthcare
-      - Deputy Executive Director, AI-X Foundry
+      - Ph.D. student
+    image: /_static/people/david-bass.webp
+    labs:
+      - steven-l-salzberg
     departments:
-      - Department of Biomedical Engineering
-      - Department of Computer Science, by courtesy
-      - Department of Genetic Medicine, by courtesy
-    homepage: https://battlelab.jhu.edu
-    email: ajbattle@jhu.edu
+     - Cell, Molecular, Developmental Biology, and Biophysics
+    program_url: https://cmdb.jhu.edu/
+    email: dbass13@jh.edu
 
-  - id: michael-beer
-    name: Michael Beer, Ph.D.
-    image: /_static/people/mike-beer.webp
+  - id: hyun-joo-ji
+    name: Hyun Joo Ji
+    alt: Hyun Joo Ji
     title:
-      - Professor
+      - Ph.D. student
+    image: /_static/people/hyun-joo-ji.webp
+    labs:
+      - steven-l-salzberg
     departments:
-      - Department of Biomedical Engineering
-      - Department of Genetic Medicine
-      - Johns Hopkins University School of Medicine
-    homepage: https://www.beerlab.org
-    email: mbeer@jhu.edu
+      - cs
+    email: hji20@jh.edu
 
-  - id: uthsav-chitra
-    name: Uthsav Chitra, Ph.D.
-    image: /_static/people/uthsav-chitra.webp
+  - id: kalen-clifton
+    name: Kalen Clifton
+    alt: Kalen Clifton
     title:
-      - Assistant Professor
+      - Ph.D. student
+    image: /_static/people/kalen-clifton.webp
+    labs:
+      - jean-fan
     departments:
-      - Department of Computer Science
-      - Whiting School of Engineering
-    homepage: https://chitra-lab.github.io
-    email: uthsav@jhu.edu
+      - bme
+    email: kclifto2@jh.edu
 
-  - id: jean-fan
-    name: Jean Fan, Ph.D.
-    image: /_static/people/jean-fan.webp
+  - id: nikola-zadorozhny
+    name: Nikola Zadorozhny
+    alt: Nikola Zadorozhny
     title:
-      - Associate Professor
+      - Ph.D. student
+    image: /_static/people/nikola-zadorozhny.webp
+    labs:
+      - steven-l-salzberg
+      - mihaela-pertea
     departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
-    homepage: https://jef.works
-    email: jeanfan@jhu.edu
+      - cs
+    email: nikola.zadorozhny@gmail.com
 
-  - id: liliana-florea
-    name: Liliana Florea, Ph.D.
-    image: /_static/people/liliana-florea.webp
+  - id: radhika-jangi
+    name: Radhika Jangi
+    alt: Radhika Jangi
     title:
-      - Associate Professor
+      - Ph.D. student
+    image: /_static/people/radhika-jangi.webp
+    labs:
+      - alexis-battle
     departments:
-      - Department of Medicine
-      - Department of Genetic Medicine
-      - Johns Hopkins University School of Medicine
-    homepage: https://florealab.org
-    email: florea@jhu.edu
+      - bio
+    email: rjangi1@jhu.edu
 
-  - id: jeffrey-j-gray
-    name: Jeffrey J. Gray, Ph.D.
-    image: /_static/people/jefferey-j-gray.webp
+  - id: rafael-dos-santos-peixoto
+    name: Rafael dos Santos Peixoto
+    alt: Rafael dos Santos Peixoto
     title:
-      - Professor
+      - Ph.D. student
+    image: /_static/people/rafael-dos-santos-peixoto.webp
+    labs:
+      - jean-fan
     departments:
-      - Department of Chemical & Biomolecular Engineering
-      - Program in Molecular & Computational Biophysics
-      - Johns Hopkins University
-    homepage: https://graylab.jhu.edu
-    email: jgray@jhu.edu
+      - bme
+    email: rpeixot1@jh.edu
 
-  - id: kasper-d-hansen
-    name: Kasper D. Hansen, Ph.D.
-    image: /_static/people/kasper-d-hansen.webp
-    title:
-      - Professor
+  - id: yuchen-ge
+    name: Yuchen Ge
+    alt: Yuchen Ge
+    title: Ph.D. student
+    image: /_static/people/yuchen-ge.webp
+    labs:
+      - steven-l-salzberg
     departments:
-      - Department of Genetic Medicine
-      - Department of Biostatistics
-      - Johns Hopkins School of Public Health
-    homepage: https://www.hansenlab.org
-    email: kasperdanielhansen@gmail.com
+      - bme
+    email: yge15@jhmi.edu
 
-  - id: stephanie-hicks
-    name: Stephanie Hicks, Ph.D.
-    image: /_static/people/stephanie-hicks.webp
+  - id: zoe-catherine-rudnick
+    name: Zoe Catherine Rudnick
+    alt: Zoe Catherine Rudnick
     title:
-      - Associate Professor
+      - Ph.D. student
+    image: /_static/people/zoe-catherine-rudnick.webp
+    labs:
+      - mihaela-pertea
     departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
-      - Department of Biostatistics
-      - School of Public Health
-      - Malone Center for Engineering in Healthcare
-      - Center for Imaging Science
-    homepage: https://www.stephaniehicks.com
-    email: shicks19@jhu.edu
-
-  - id: hongkai-ji
-    name: Hongkai Ji, Ph.D.
-    image: /_static/people/hongkai-ji.webp
-    title:
-      - Professor
-    departments:
-      - Department of Biostatistics
-      - Johns Hopkins School of Public Health
-    homepage: https://jilab.org
-    email: hji@jhsph.edu
-
-  - id: rachel-karchin
-    name: Rachel Karchin, Ph.D.
-    image: /_static/people/rachel-karchin.webp
-    title:
-      - Professor
-      - The William R. Brody Faculty Scholar
-    departments:
-      - Department of Biomedical Engineering
-      - Institute for Computational Medicine
-      - Johns Hopkins University
-    homepage: https://www.karchinlab.org
-    email: karchin@jhu.edu
-
-  - id: ben-langmead
-    name: Ben Langmead, Ph.D.
-    image: /_static/people/ben-langmead.webp
-    title:
-      - Professor
-    departments:
-      - Department of Computer Science
-      - Johns Hopkins University
-    homepage: https://langmead-lab.org
-    email: langmea@cs.jhu.edu
-
-  - id: david-j-lipman
-    name: David J. Lipman, M.D.
-    image: /_static/people/david-j-lipman.webp
-    title:
-      - Adjunct Research Scientist
-    departments:
-      - Department of Biomedical Engineering, JHU
-      - 2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA
-      - 1989-2017: Director, National Center for Biotechnology Information, NIH
-    email: dlipman4@jh.edu
-
-  - id: rajiv-mccoy
-    name: Rajiv McCoy, Ph.D.
-    image: /_static/people/rajiv-mccoy.webp
-    title:
-      - Assistant Professor
-    departments:
-      - Department of Biology
-      - Johns Hopkins University
-    homepage: https://mccoy-lab.org
-    email: rajiv.mccoy@jhu.edu
-
-  - id: mihaela-pertea
-    name: Mihaela Pertea, Ph.D.
-    image: /_static/people/mihaela-pertea.webp
-    title:
-      - Associate Professor
-      - Associate Director, Center for Computational Biology
-    departments:
-      - Department of Biomedical Engineering
-      - Department of Genetic Medicine
-      - Johns Hopkins University School of Medicine
-    homepage: https://pertealab.org
-    email: mpertea@jhu.edu
-
-  - id: adam-phillippy
-    name: Adam Phillippy, Ph.D.
-    image: /_static/people/adam-phillippy.webp
-    title:
-      - Bloomberg Distinguished Professor
-    departments:
-      - Department of Computer Science
-      - Department of Biomedical Engineering
-      - Department of Genetic Medicine
-      - Johns Hopkins University
-    homepage: https://genomeinformatics.github.io
-    email: aphillippy@jhu.edu
-
-  - id: suchi-saria
-    name: Suchi Saria, Ph.D.
-    image: /_static/people/suchi-saria.webp
-    title:
-      - Associate Professor
-    departments:
-      - Machine Learning, Biomedical & Health Informatics
-      - Department of Computer Science
-      - Department of Health Policy & Management
-      - Institute for Computational Medicine, Division of Informatics
-    email: ssaria@cs.jhu.edu
-
-  - id: robert-scharpf
-    name: Robert Scharpf, Ph.D.
-    image: /_static/people/robert-scharpf.webp
-    title:
-      - Associate Professor
-    departments:
-      - Department of Oncology
-      - Johns Hopkins University School of Medicine
-    homepage: https://rscharpf.github.io/index.html
-    email: rscharpf@jhsph.edu
-
-  - id: robert-scharpf
-    name: Robert Scharpf, Ph.D.
-    image: /_static/people/robert-scharpf.webp
-    title:
-      - Associate Professor
-    departments:
-      - Department of Oncology
-      - Johns Hopkins University School of Medicine
-    homepage: https://rscharpf.github.io/index.html
-    email: rscharpf@jhsph.edu
-
-  - id: michael-schatz
-    name: Michael Schatz, Ph.D.
-    image: /_static/people/michael-schatz.webp
-    title:
-      - Bloomberg Distinguished Professor
-    departments:
-      - Department of Computer Science
-    homepage: https://schatz-lab.org
-    email: mschatz@cs.jhu.edu
-
-  - id: margaret-taub
-    name: Margaret Taub, Ph.D.
-    image: /_static/people/margaret-taub.webp
-    title:
-      - Associate Scientist
-    departments:
-      - Department of Biostatistics
-      - Johns Hopkins School of Public Health
-    homepage: https://www.biostat.jhsph.edu/~mtaub/About.html
-    email: mtaub@jhsph.edu
-
-  - id: james-taylor
-    name: James Taylor, Ph.D.
-    image: /_static/people/james-taylor.webp
-    title:
-      - In memoriam: Professor of Biology
-    departments:
-      - Department of Biology
-      - Krieger School of Arts and Sciences
-
-  - id: winston-timp
-    name: Winston Timp, Ph.D.
-    image: /_static/people/winston-timp.webp
-    title:
-      - Associate Professor
-    departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
-    homepage: https://www.timplab.org
-    email: wtimp@jhu.edu
-
-  - id: aleksey-zimin
-    name: Aleksey Zimin, Ph.D.
-    image: /_static/people/aleksey-zimin.webp
-    title:
-      - Research Scientist
-    departments:
-      - Department of Biomedical Engineering
-      - Whiting School of Engineering
-    homepage: /people/alekseyz/index
-    email: alekseyz@jhu.edu
+      - bme
+    email: zrudnic1@jhu.edu

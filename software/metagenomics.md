@@ -50,17 +50,17 @@ DNA sequences from microbial samples, with better sensitivity than and
 comparable accuracy to other leading systems. Centrifuge requires a relatively
 small index (e.g., 4.3 GB for ~4,100 bacterial genomes).
 
-## [Bracken](https://github.com/dpuiu/Bracken/wiki) <!--(https://github.com/jenniferlu717/Bracken/wiki)-->
+## [Bracken](https://github.com/jenniferlu717/Bracken/wiki)
 
 Bracken statistical method that computes the abundance of species in DNA
 sequences from a metagenomics sample.
 
-## [Pavian](https://github.com/dpuiu/pavian/wiki) <!--(https://github.com/fbreitwieser/pavian/wiki)-->
+## [Pavian](https://github.com/salzberg-lab/pavian/wiki) <!--(https://github.com/fbreitwieser/pavian/wiki)-->
 
 Pavian is a web application for exploring metagenomics classification results,
 with a special focus on infectious disease diagnosis.
 
-## [KrakenTools](https://github.com/dpuiu/krakentools/wiki) <!--https://github.com/jenniferlu717/KrakenTools-->
+## [KrakenTools](https://github.com/jenniferlu717/KrakenTools/wiki)
 
 KrakenTools is a suite of scripts to be used alongside the Kraken, KrakenUniq, Kraken 2, or Bracken programs. 
 These scripts are designed to help Kraken users with downstream analysis of Kraken results.
