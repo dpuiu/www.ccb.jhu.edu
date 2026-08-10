@@ -27,6 +27,21 @@ jobs:
           pip install -U pip
           pip install -r requirements.txt || true
 
+     - name: Generate People Pages
+        run: |
+          check-jsonschema --schemafile _people/people.schema.json _people/faculty.yaml
+          check-jsonschema --schemafile _people/people.schema.json _people/students.yaml
+          check-jsonschema --schemafile _people/people.schema.json _people/alumni.yaml
+          check-jsonschema --schemafile _people/people.schema.json _people/collaborators.yaml
+          check-jsonschema --schemafile _people/people.schema.json _people/postdocs.yaml
+          check-jsonschema --schemafile _people/people.schema.json _people/staff.yaml
+          jinja2 _templates/people.jinja _people/faculty.yaml       -D title="Faculty"  > people/faculty.md
+          jinja2 _templates/people.jinja _people/students.yaml      -D title="Students" > people/students.md
+          jinja2 _templates/people.jinja _people/alumni.yaml        -D title="Alumni" > people/alumni.md
+          jinja2 _templates/people.jinja _people/collaborators.yaml -D title="Collaborators" > people/collaborators.md
+          jinja2 _templates/people.jinja _people/postdocs.yaml      -D title="Postdocs" > people/postdocs.md
+          jinja2 _templates/people.jinja _people/staff.yaml         -D title="Staff" > people/staff.md
+
       - name: Fix GitHub Pages image paths
         run: |
           sed -i 's|img src="/_static/|img src="/www.ccb.jhu.edu/_static/|g' index.md examples/index.md

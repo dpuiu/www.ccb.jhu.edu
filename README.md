@@ -158,6 +158,10 @@ The main directories and files are:
 │   ├── students.md                  # Generated; do not edit directly
 │   ├── collaborators.md             # Generated; do not edit directly
 │   └── alumni.md                    # Generated; do not edit directly
+|   ├── alekseyz                     # Personal pages
+│   │   ├── about.md
+│   │   ├── index.md
+|   |   | .....
 │
 ├── education/                       # Education and training
 │   ├── index.md
