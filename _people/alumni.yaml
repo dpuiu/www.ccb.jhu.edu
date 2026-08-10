@@ -12,8 +12,6 @@ people:
       - "JHU Biostatistics (until June 2013)"
       - "[Dana Farber Cancer Institute](https://www.dana-farber.org/)"
       - "Harvard University"
-    labs:
-      - "[Lab homepage](https://rafalab.dfci.harvard.edu/)"
     email: rafa@jhu.edu
 
 
@@ -54,8 +52,6 @@ people:
     affiliations:
       - "Salzberg Lab @ JHU (until Feb. 2020)"
       - "[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)"
-    labs:
-      - "[Lab homepage](https://steineggerlab.com)"
     email: martin.steinegger@snu.ac.kr
 
   - id: stefan-canzar
@@ -66,8 +62,6 @@ people:
       - Professor
     affiliations:
       - "[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)"
-    labs:
-      - "[Lab Homepage](https://canzarlab.com/)"
     email: stefan.canzar@ur.de
 
   - id: stephan-pabinger
@@ -143,8 +137,6 @@ people:
     affiliations:
       - "University of Toronto"
       - "[OMPHALOS Lifesciences](https://omphaloslifesci.com/)"
-    labs:
-      - "[Lab homepage](https://kim-lab.org)"
     email: infphilo@gmail.com
 
   - id: derrick-wood

@@ -1,4 +1,4 @@
-# Students 
+# Alumni 
 
 
 
@@ -28,8 +28,6 @@
  [Dana Farber Cancer Institute](https://www.dana-farber.org/)  
  Harvard University  
 
-
-**{ref}`[lab homepage](https://rafalab.dfci.harvard.edu/) <[Lab homepage](https://rafalab.dfci.harvard.edu/)>` Lab**  
 
 [Homepage](https://rafalab.dfci.harvard.edu/)  
 [rafa@jhu.edu](mailto:rafa@jhu.edu) 
@@ -166,8 +164,6 @@
  [Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)  
 
 
-**{ref}`[lab homepage](https://steineggerlab.com) <[Lab homepage](https://steineggerlab.com)>` Lab**  
-
 [Homepage](https://steineggerlab.com)  
 [martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr) 
 
@@ -201,8 +197,6 @@
 
  [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)  
 
-
-**{ref}`[lab homepage](https://canzarlab.com/) <[Lab Homepage](https://canzarlab.com/)>` Lab**  
 
 [Homepage](https://canzarlab.com/)  
 [stefan.canzar@ur.de](mailto:stefan.canzar@ur.de) 
@@ -445,8 +439,6 @@
  University of Toronto  
  [OMPHALOS Lifesciences](https://omphaloslifesci.com/)  
 
-
-**{ref}`Lab.org) <[Lab homepage](https://kim-lab.org)>` Lab**  
 
 [Homepage](https://kim-lab.org/)  
 [infphilo@gmail.com](mailto:infphilo@gmail.com) 
