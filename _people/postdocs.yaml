@@ -1,0 +1,36 @@
+people:
+
+  # Postdocs
+
+  - id: courtney-hall
+    name: Courtney Hall, Ph.D.
+    image: /_static/people/courtney-hall.webp
+    titles:
+      - Postdoc in the Timp Lab
+    affiliations:
+      - Department of Biomedical Engineering
+      - Whiting School of Engineering
+      - Johns Hopkins University
+    email: chall106@jh.edu
+
+  - id: harun-mustafa
+    name: Harun Mustafa, Ph.D.
+    image: /_static/people/harun-mustafa.webp
+    titles:
+      - Postdoc in the Salzberg Lab
+    affiliations:
+      - Department of Biomedical Engineering
+      - Whiting School of Engineering
+      - Johns Hopkins University
+    email: hmustaf6@jh.edu
+
+  - id: srujan-singh
+    name: Srujan Singh, Ph.D.
+    image: /_static/people/srujan-singh.webp
+    titles:
+      - Postdoc in the Fan Lab
+    affiliations:
+      - Department of Biomedical Engineering
+      - Whiting School of Engineering
+      - Johns Hopkins University
+    email: ssingh95@jhu.edu

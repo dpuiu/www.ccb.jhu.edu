@@ -9,7 +9,7 @@ project = "CCB"
 release = "2026"
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'software.wiki' , '.venv', "README*md"]
-extensions = [ 
+extensions = [
     "myst_parser",
     "sphinx_design",
     "sphinx_reredirects",
@@ -34,6 +34,7 @@ myst_enable_extensions = [
     "html_admonition",
     "html_image"
 ]
+
 myst_substitutions = {
     "ARCH": "[ARCH](https://www.arch.jhu.edu/)",
     "bio":  "[Department of Bilogy](https://bio.jhu.edu/)",
@@ -52,7 +53,7 @@ myst_substitutions = {
     "DSAI": "[DSAI](https://ai.jhu.edu/)",
     "dgm":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
     "DGM":  "[DGM](https://www.hopkinsmedicine.org/genetic-medicine/)",
-    "icm",  "[Institute for Computational Medicine](https://icm.jhu.edu/)",
+    "icm":  "[Institute for Computational Medicine](https://icm.jhu.edu/)",
     "jhu":  "[Johns Hopkins University](http://www.jhu.edu/)",
     "JHU":  "[JHU](http://www.jhu.edu/)",
     "ksas": "[Krieger School of Arts and Sciences](https://krieger.jhu.edu/)",

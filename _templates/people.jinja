@@ -1,0 +1,52 @@
+# {{ title }} 
+
+{% for person in people %}
+
+({{ person.id }})=
+## {{ person.name }}
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/{{ person.id }}.webp
+:width: 240px
+:alt: {{ person.name }}
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+{# Display one or more titles #}
+{%- for t in person.titles -%}
+**{{ t }}**  
+{% endfor %}
+
+{# Display one or more affiliations references #}
+{%- for a in person.affiliations -%}
+{% if a == a|lower %} {{ "{{ " }}{{ a }}{{ " }}" }}  {% else %} {{ a }}  {% endif %}
+{% endfor %}
+
+{# Display zero or more lab references #}
+{%- if person.labs -%}
+{%- for l in person.labs -%}
+**{ref}`{{ l.split("-")[-1] | capitalize }} <{{ l }}>` Lab**  
+{% endfor %}
+{% endif %}
+
+{%- if person.homepage -%}
+[Homepage]({{ person.homepage }})  
+{% endif %}
+
+{%- if person.email -%} 
+[{{ person.email }}](mailto:{{ person.email }}) 
+{% endif %}
+
+::::
+```
+
+{% endfor %}

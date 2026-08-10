@@ -1,0 +1,84 @@
+people:
+
+  # Collaborators
+
+  - id: carl-kingsford
+    name: Carl Kingsford, Ph.D.
+    homepage: https://kingsfordlab.cbd.cmu.edu/
+    image: /_static/people/carl-kingsford.webp
+    titles:
+      - Professor of Computer Science
+    affiliations:
+      - Ray and Stephanie Lane Center for Computational Biology
+      - "[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)"
+    email: carlk@cs.cmu.edu
+
+  - id: cole-trapnell
+    name: Cole Trapnell, Ph.D.
+    homepage: https://cole-trapnell-lab.github.io/
+    image: /_static/people/cole-trapnell.webp
+    titles:
+      - Associate Professor of Genome Sciences
+    affiliations:
+      - "[Rinn Lab](https://www.rinnlab.com)"
+      - The Broad Institute of MIT and Harvard
+      - UW Genome Sciences
+    email: coletrap@uw.edu
+
+  - id: elana-fertig
+    name: Elana Fertig, Ph.D.
+    homepage: https://fertiglab.com/
+    image: /_static/people/elana-fertig.webp
+    titles:
+      - Professor
+      - Director of the Institute for Genome Sciences at the University of Maryland School of Medicine
+    email: ejfertig@jhmi.edu
+
+  - id: james-a-yorke
+    name: James A. Yorke, Ph.D.
+    homepage: https://yorke.umd.edu/
+    image: /_static/people/james-a-yorke.webp
+    titles:
+      - Distinguished University Professor
+    affiliations:
+      - Institute for Physical Sciences and Technology
+      - UMCP
+      - University of Maryland
+    email: yorke@umd.edu
+
+  - id: mihai-pop
+    name: Mihai Pop, Ph.D.
+    homepage: https://pop-lab.org/
+    image: /_static/people/mihai-pop.webp
+    titles:
+      - Professor, Department of Computer Science
+      - Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)
+    affiliations:
+      - "[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)"
+      - University of Maryland
+    email: mpop@umiacs.umd.edu
+
+  - id: najib-el-sayed
+    name: Najib El-Sayed, Ph.D.
+    homepage: https://www.najibelsayed.org/
+    image: /_static/people/najib-el-sayed.webp
+    titles:
+      - Principal Investigator
+    affiliations:
+      - Department of Cell Biology and Molecular Genetics
+      - University of Maryland
+    email: nelsayed@umiacs.umd.edu
+
+
+  # Collaboration Projects
+
+  - id: the-pine-genome-project
+    name: The Pine Genome Project
+    homepage: https://pinegenome.org/pinerefseq/
+    image: /_static/people/the-pine-genome-project.webp
+    titles:
+      - Pine Reference Sequences Project
+    affiliations:
+      - "PineRefSeq: Conifer Reference Genome Sequencing"
+      - "An adaptive approach to the sequencing of the large genomes of multiple conifer species."
+    email: email@jhu.edu

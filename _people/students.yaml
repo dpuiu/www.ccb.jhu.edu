@@ -1,0 +1,134 @@
+people:
+  - id: beril-erdogdu
+    name: Beril Erdogdu
+    alt: Beril Erdogdu
+    titles:
+      - Ph.D. student
+    image: /_static/people/beril-erdogdu.webp
+    labs:
+      - steven-l-salzberg
+      - mihaela-pertea
+    affiliations:
+      - bme
+    email: berdogd1@jhu.edu
+
+  - id: caleb-hallinan
+    name: Caleb Hallinan
+    alt: Caleb Hallinan
+    titles:
+      - Ph.D. student
+    image: /_static/people/caleb-hallinan.webp
+    labs:
+      - jean-fan
+    affiliations:
+      - bme
+    email: challin1@jh.edu
+
+  - id: celine-hoh
+    name: Celine Hoh
+    alt: Celine Hoh
+    titles:
+      - Ph.D. student
+    image: /_static/people/celine-hoh.webp
+    labs:
+      - steven-l-salzberg
+    affiliations:
+      - cs
+    email: choh1@jhu.edu
+
+  - id: david-bass
+    name: David Bass
+    alt: David Bass
+    titles:
+      - Ph.D. student
+    image: /_static/people/david-bass.webp
+    labs:
+      - steven-l-salzberg
+    affiliations:
+      - "[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)"
+    email: dbass13@jh.edu
+
+  - id: hyun-joo-ji
+    name: Hyun Joo Ji
+    alt: Hyun Joo Ji
+    titles:
+      - Ph.D. student
+    image: /_static/people/hyun-joo-ji.webp
+    labs:
+      - steven-l-salzberg
+    affiliations:
+      - cs
+    email: hji20@jh.edu
+
+  - id: kalen-clifton
+    name: Kalen Clifton
+    alt: Kalen Clifton
+    titles:
+      - Ph.D. student
+    image: /_static/people/kalen-clifton.webp
+    labs:
+      - jean-fan
+    affiliations:
+      - bme
+    email: kclifto2@jh.edu
+
+  - id: nikola-zadorozhny
+    name: Nikola Zadorozhny
+    alt: Nikola Zadorozhny
+    titles:
+      - Ph.D. student
+    image: /_static/people/nikola-zadorozhny.webp
+    labs:
+      - steven-l-salzberg
+      - mihaela-pertea
+    affiliations:
+      - cs
+    email: nikola.zadorozhny@gmail.com
+
+  - id: radhika-jangi
+    name: Radhika Jangi
+    alt: Radhika Jangi
+    titles:
+      - Ph.D. student
+    image: /_static/people/radhika-jangi.webp
+    labs:
+      - alexis-battle
+    affiliations:
+      - bio
+    email: rjangi1@jhu.edu
+
+  - id: rafael-dos-santos-peixoto
+    name: Rafael dos Santos Peixoto
+    alt: Rafael dos Santos Peixoto
+    titles:
+      - Ph.D. student
+    image: /_static/people/rafael-dos-santos-peixoto.webp
+    labs:
+      - jean-fan
+    affiliations:
+      - bme
+    email: rpeixot1@jh.edu
+
+  - id: yuchen-ge
+    name: Yuchen Ge
+    alt: Yuchen Ge
+    titles:
+      - Ph.D. student
+    image: /_static/people/yuchen-ge.webp
+    labs:
+      - steven-l-salzberg
+    affiliations:
+      - bme
+    email: yge15@jhmi.edu
+
+  - id: zoe-catherine-rudnick
+    name: Zoe Catherine Rudnick
+    alt: Zoe Catherine Rudnick
+    titles:
+      - Ph.D. student
+    image: /_static/people/zoe-catherine-rudnick.webp
+    labs:
+      - mihaela-pertea
+    affiliations:
+      - bme
+    email: zrudnic1@jhu.edu

@@ -1,7 +1,9 @@
-# Staff
+# Staff 
+
+
 
 (rebecca-keener)=
-## Rebecca Keener, Ph.D
+## Rebecca Keener, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -20,16 +22,22 @@
 :columns: 12 12 9 9
 
 **Assistant Research Scientist, Battle Lab**  
-  
-Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns Hopkins University  
-  
-[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
-::::
 
+
+ {{ bme }}  
+ {{ wse }}  
+
+
+[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu) 
+
+
+::::
 ```
 
+
+
 (daniela-puiu)=
-## Daniela Puiu, M.S
+## Daniela Puiu, M.S.
 
 ```{grid} 12
 :gutter: 1
@@ -47,14 +55,20 @@ Department of Biomedical Engineering<br>Whiting School of Engineering<br>Johns H
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Bioinformatics Engineer &amp; Senior Software Engineer**  
-  
-Department of Biomedical Engineering<br>Johns Hopkins University School of Medicine  
-  
-[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
-::::
+**Bioinformatics Engineer & Senior Software Engineer**  
 
+
+ {{ bme }}  
+ {{ wse }}  
+
+
+[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu) 
+
+
+::::
 ```
+
+
 
 (sarah-bailey)=
 ## Sarah Bailey
@@ -76,10 +90,16 @@ Department of Biomedical Engineering<br>Johns Hopkins University School of Medic
 :columns: 12 12 9 9
 
 **Sr. Administrative Coordinator**  
-  
-Department of Biomedical Engineering<br>Johns Hopkins University  
-  
-[sande125@jhu.edu](mailto:sande125@jhu.edu)  
-::::
 
+
+ {{ bme }}  
+ {{ wse }}  
+
+
+[sande125@jhu.edu](mailto:sande125@jhu.edu) 
+
+
+::::
 ```
+
+

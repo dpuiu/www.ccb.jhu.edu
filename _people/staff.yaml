@@ -1,0 +1,33 @@
+people:
+
+  # Staff
+
+  - id: rebecca-keener
+    name: Rebecca Keener, Ph.D.
+    image: /_static/people/rebecca-keener.webp
+    titles:
+      - Assistant Research Scientist, Battle Lab
+    affiliations:
+      - bme
+      - wse
+    email: rkeener@jhmi.edu
+
+  - id: daniela-puiu
+    name: Daniela Puiu, M.S.
+    image: /_static/people/daniela-puiu.webp
+    titles:
+      - Bioinformatics Engineer & Senior Software Engineer
+    affiliations:
+      - bme
+      - wse
+    email: dpuiu@jhu.edu
+
+  - id: sarah-bailey
+    name: Sarah Bailey
+    image: /_static/people/sarah-bailey.webp
+    titles:
+      - Sr. Administrative Coordinator
+    affiliations:
+      - bme
+      - wse
+    email: sande125@jhu.edu

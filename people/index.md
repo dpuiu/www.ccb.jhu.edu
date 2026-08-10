@@ -11,7 +11,7 @@ postdocs
 staff
 students
 alumni
-collab
+collaborators
 ```
 
 ```{include} faculty.md

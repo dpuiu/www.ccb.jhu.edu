@@ -817,5 +817,32 @@ chmod a+x gh-md-toc
 
 ######
 
+
 #cat ../other/software.txt3 | grep ^h | grep wiki | sed 's|\/wiki|.wiki|' | perl -ane 'print "git clone $_";' | bash
 #cat ../other/software.txt3 | grep ^h | grep -v wiki                      | perl -ane 'print "git clone $F[0].wiki\n";' | bash
+
+pip install check-jsonschema
+check-jsonschema --schemafile people/people.schema.json people/faculty.yaml
+check-jsonschema --schemafile people/people.schema.json people/students.yaml
+check-jsonschema --schemafile people/people.schema.json people/alumni.yaml
+check-jsonschema --schemafile people/people.schema.json people/collaborators.yaml
+check-jsonschema --schemafile people/people.schema.json people/postdocs.yaml
+check-jsonschema --schemafile people/people.schema.json people/staff.yaml
+
+
+#######
+
+scripts/make_people.py people/people.jinja people/faculty.yaml
+
+head -20 _templates/people/people.jinja
+jinja2 _templates/people/people.jinja people/faculty.yaml  -D title="Faculty"  > people/faculty.md
+jinja2 _templates/people/people.jinja people/students.yaml -D title="Students" > people/students.md
+jinja2 _templates/people/people.jinja people/alumni.yaml   -D title="Students" > people/alumni.md
+jinja2 _templates/people/people.jinja people/collaborators.yaml   -D title="Collaborators" > people/collaborators.md
+jinja2 _templates/people/people.jinja people/postdocs.yaml   -D title="Postdocs" > people/postdocs.md 
+jinja2 _templates/people/people.jinja people/staff.yaml   -D title="Staff" > people/staff.md 
+
+####
+
+cat README.md | sed 's|\/\$GITHUB_USERNAME|\/dpuiu0|g'  > README.dpuiu0.md
+cat README.md | sed 's|\/\$GITHUB_USERNAME|sande125|g' > README.sande125.md

@@ -1,4 +1,5 @@
-# Faculty
+# Faculty 
+
 
 
 (steven-l-salzberg)=
@@ -23,16 +24,19 @@
 **Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
 **Director, Center for Computational Biology**  
 
-Department of Biomedical Engineering, School of Medicine  
-Department of Computer Science, Whiting School of Engineering  
-Department of Biostatistics, Bloomberg School of Public Health  
 
-[Lab homepage](https://salzberg-lab.org)  
+ {{ bme }}  
+ {{ cs }}  
+ {{ bsph }}  
 
-[salzberg@jhu.edu](mailto:salzberg@jhu.edu)
+
+[Homepage](https://salzberg-lab.org)  
+[salzberg@jhu.edu](mailto:salzberg@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (dan-arking)=
@@ -56,15 +60,18 @@ Department of Biostatistics, Bloomberg School of Public Health
 
 **Professor**  
 
-Department of Genetic Medicine  
-Department of Medicine, Division of Cardiology  
-Johns Hopkins University School of Medicine  
+
+ {{ dgm }}  
+ {{ cardiology }}  
+ {{ som }}  
 
 
-[arking@jhmi.edu](mailto:arking@jhmi.edu)
+[arking@jhmi.edu](mailto:arking@jhmi.edu) 
+
 
 ::::
 ```
+
 
 
 (joel-bader)=
@@ -88,14 +95,17 @@ Johns Hopkins University School of Medicine
 
 **Professor**  
 
-Department of Biomedical Engineering  
 
-[Lab homepage](https://www.baderzone.org)  
+ {{ bme }}  
 
-[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)
+
+[Homepage](https://www.baderzone.org)  
+[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (alexis-battle)=
@@ -121,16 +131,19 @@ Department of Biomedical Engineering
 **Director, Malone Center for Engineering in Healthcare**  
 **Deputy Executive Director, AI-X Foundry**  
 
-Department of Biomedical Engineering  
-Department of Computer Science, by courtesy  
-Department of Genetic Medicine, by courtesy  
 
-[Lab homepage](https://battlelab.jhu.edu)  
+ {{ bme }}  
+ {{ cs }}  
+ {{ dgm }}  
 
-[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)
+
+[Homepage](https://battlelab.jhu.edu)  
+[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (michael-beer)=
@@ -154,16 +167,19 @@ Department of Genetic Medicine, by courtesy
 
 **Professor**  
 
-Department of Biomedical Engineering  
-Department of Genetic Medicine  
-Johns Hopkins University School of Medicine  
 
-[Lab homepage](https://www.beerlab.org)  
+ {{ bme }}  
+ {{ dgm }}  
+ {{ som }}  
 
-[mbeer@jhu.edu](mailto:mbeer@jhu.edu)
+
+[Homepage](https://www.beerlab.org)  
+[mbeer@jhu.edu](mailto:mbeer@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (uthsav-chitra)=
@@ -187,15 +203,18 @@ Johns Hopkins University School of Medicine
 
 **Assistant Professor**  
 
-Department of Computer Science  
-Whiting School of Engineering  
 
-[Lab homepage](https://chitra-lab.github.io)  
+ {{ dgm }}  
+ {{ wse }}  
 
-[uthsav@jhu.edu](mailto:uthsav@jhu.edu)
+
+[Homepage](https://chitra-lab.github.io)  
+[uthsav@jhu.edu](mailto:uthsav@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (jean-fan)=
@@ -219,15 +238,18 @@ Whiting School of Engineering
 
 **Associate Professor**  
 
-Department of Biomedical Engineering  
-Whiting School of Engineering  
 
-[Lab homepage](https://jef.works)  
+ {{ bme }}  
+ {{ wse }}  
 
-[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)
+
+[Homepage](https://jef.works)  
+[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (liliana-florea)=
@@ -251,16 +273,19 @@ Whiting School of Engineering
 
 **Associate Professor**  
 
-Department of Medicine  
-Department of Genetic Medicine  
-Johns Hopkins University School of Medicine  
 
-[Lab homepage](https://florealab.org)  
+ {{ med }}  
+ {{ dgm }}  
+ {{ som }}  
 
-[florea@jhu.edu](mailto:florea@jhu.edu)
+
+[Homepage](https://florealab.org)  
+[florea@jhu.edu](mailto:florea@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (jeffrey-j-gray)=
@@ -284,16 +309,18 @@ Johns Hopkins University School of Medicine
 
 **Professor**  
 
-Department of Chemical & Biomolecular Engineering  
-Program in Molecular & Computational Biophysics  
-Johns Hopkins University  
 
-[Lab homepage](https://graylab.jhu.edu)  
+ {{ chembe }}  
+ Program in Molecular & Computational Biophysics  
 
-[jgray@jhu.edu](mailto:jgray@jhu.edu)
+
+[Homepage](https://graylab.jhu.edu)  
+[jgray@jhu.edu](mailto:jgray@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (kasper-d-hansen)=
@@ -317,16 +344,19 @@ Johns Hopkins University
 
 **Professor**  
 
-Department of Genetic Medicine  
-Department of Biostatistics  
-Johns Hopkins School of Public Health  
 
-[Lab homepage](https://www.hansenlab.org)  
+ {{ dgm }}  
+ {{ bsph }}  
+ {{ sph }}  
 
-[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)
+
+[Homepage](https://www.hansenlab.org)  
+[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com) 
+
 
 ::::
 ```
+
 
 
 (stephanie-hicks)=
@@ -350,19 +380,22 @@ Johns Hopkins School of Public Health
 
 **Associate Professor**  
 
-Department of Biomedical Engineering  
-Whiting School of Engineering  
-Department of Biostatistics  
-School of Public Health  
-Malone Center for Engineering in Healthcare  
-Center for Imaging Science  
 
-[Lab homepage](https://www.stephaniehicks.com)  
+ {{ bme }}  
+ {{ wse }}  
+ {{ bsph }}  
+ {{ sph }}  
+ {{ mc }}  
+ Center for Imaging Science  
 
-[shicks19@jhu.edu](mailto:shicks19@jhu.edu)
+
+[Homepage](https://www.stephaniehicks.com)  
+[shicks19@jhu.edu](mailto:shicks19@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (hongkai-ji)=
@@ -386,15 +419,18 @@ Center for Imaging Science
 
 **Professor**  
 
-Department of Biostatistics  
-Johns Hopkins School of Public Health  
 
-[Lab homepage](https://jilab.org)  
+ {{ bsph }}  
+ {{ sph }}  
 
-[hji@jhsph.edu](mailto:hji@jhsph.edu)
+
+[Homepage](https://jilab.org)  
+[hji@jhsph.edu](mailto:hji@jhsph.edu) 
+
 
 ::::
 ```
+
 
 
 (rachel-karchin)=
@@ -419,16 +455,18 @@ Johns Hopkins School of Public Health
 **Professor**  
 **The William R. Brody Faculty Scholar**  
 
-Department of Biomedical Engineering  
-Institute for Computational Medicine  
-Johns Hopkins University  
 
-[Lab homepage](https://www.karchinlab.org)  
+ {{ bme }}  
+ {{ dgm }}  
 
-[karchin@jhu.edu](mailto:karchin@jhu.edu)
+
+[Homepage](https://www.karchinlab.org)  
+[karchin@jhu.edu](mailto:karchin@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (ben-langmead)=
@@ -452,15 +490,17 @@ Johns Hopkins University
 
 **Professor**  
 
-Department of Computer Science  
-Johns Hopkins University  
 
-[Lab homepage](https://langmead-lab.org)  
+ {{ cs }}  
 
-[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)
+
+[Homepage](https://langmead-lab.org)  
+[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (david-j-lipman)=
@@ -484,15 +524,18 @@ Johns Hopkins University
 
 **Adjunct Research Scientist**  
 
-Department of Biomedical Engineering, JHU  
-{'2021-2025': 'Senior Science Advisor for Bioinformatics and Genomics, FDA'}  
-{'1989-2017': 'Director, National Center for Biotechnology Information, NIH'}  
+
+ {{ bme }}  
+ 2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA  
+ 1989-2017: Director, National Center for Biotechnology Information, NIH  
 
 
-[dlipman4@jh.edu](mailto:dlipman4@jh.edu)
+[dlipman4@jh.edu](mailto:dlipman4@jh.edu) 
+
 
 ::::
 ```
+
 
 
 (rajiv-mccoy)=
@@ -516,15 +559,17 @@ Department of Biomedical Engineering, JHU
 
 **Assistant Professor**  
 
-Department of Biology  
-Johns Hopkins University  
 
-[Lab homepage](https://mccoy-lab.org)  
+ {{ bio }}  
 
-[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)
+
+[Homepage](https://mccoy-lab.org)  
+[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (mihaela-pertea)=
@@ -549,16 +594,19 @@ Johns Hopkins University
 **Associate Professor**  
 **Associate Director, Center for Computational Biology**  
 
-Department of Biomedical Engineering  
-Department of Genetic Medicine  
-Johns Hopkins University School of Medicine  
 
-[Lab homepage](https://pertealab.org)  
+ {{ bme }}  
+ {{ dgm }}  
+ {{ som }}  
 
-[mpertea@jhu.edu](mailto:mpertea@jhu.edu)
+
+[Homepage](https://pertealab.org)  
+[mpertea@jhu.edu](mailto:mpertea@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (adam-phillippy)=
@@ -582,17 +630,19 @@ Johns Hopkins University School of Medicine
 
 **Bloomberg Distinguished Professor**  
 
-Department of Computer Science  
-Department of Biomedical Engineering  
-Department of Genetic Medicine  
-Johns Hopkins University  
 
-[Lab homepage](https://genomeinformatics.github.io)  
+ {{ cs }}  
+ {{ bme }}  
+ {{ dgm }}  
 
-[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)
+
+[Homepage](https://genomeinformatics.github.io)  
+[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (suchi-saria)=
@@ -616,16 +666,19 @@ Johns Hopkins University
 
 **Associate Professor**  
 
-Machine Learning, Biomedical & Health Informatics  
-Department of Computer Science  
-Department of Health Policy & Management  
-Institute for Computational Medicine, Division of Informatics  
+
+ Machine Learning, Biomedical & Health Informatics  
+ {{ cs }}  
+ Department of Health Policy & Management  
+ {{ ics }}  
 
 
-[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)
+[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (robert-scharpf)=
@@ -649,15 +702,18 @@ Institute for Computational Medicine, Division of Informatics
 
 **Associate Professor**  
 
-Department of Oncology  
-Johns Hopkins University School of Medicine  
 
-[Lab homepage](https://rscharpf.github.io/index.html)  
+ {{ skcc }}  
+ {{ som }}  
 
-[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)
+
+[Homepage](https://rscharpf.github.io/index.html)  
+[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu) 
+
 
 ::::
 ```
+
 
 
 (michael-schatz)=
@@ -681,14 +737,17 @@ Johns Hopkins University School of Medicine
 
 **Bloomberg Distinguished Professor**  
 
-Department of Computer Science  
 
-[Lab homepage](https://schatz-lab.org)  
+ {{ cs }}  
 
-[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)
+
+[Homepage](https://schatz-lab.org)  
+[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (margaret-taub)=
@@ -712,15 +771,18 @@ Department of Computer Science
 
 **Associate Scientist**  
 
-Department of Biostatistics  
-Johns Hopkins School of Public Health  
 
-[Lab homepage](https://www.biostat.jhsph.edu/~mtaub/About.html)  
+ {{ bsph }}  
+ {{ sph }}  
 
-[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)
+
+[Homepage](https://www.biostat.jhsph.edu/~mtaub/About.html)  
+[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu) 
+
 
 ::::
 ```
+
 
 
 (james-taylor)=
@@ -742,15 +804,18 @@ Johns Hopkins School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**{'In memoriam': 'Professor of Biology'}**  
+**In memoriam: Professor of Biology**  
 
-Department of Biology  
-Krieger School of Arts and Sciences  
+
+ {{ bio }}  
+ {{ ksas }}  
+
 
 
 
 ::::
 ```
+
 
 
 (winston-timp)=
@@ -774,15 +839,18 @@ Krieger School of Arts and Sciences
 
 **Associate Professor**  
 
-Department of Biomedical Engineering  
-Whiting School of Engineering  
 
-[Lab homepage](https://www.timplab.org)  
+ {{ bme }}  
+ {{ wse }}  
 
-[wtimp@jhu.edu](mailto:wtimp@jhu.edu)
+
+[Homepage](https://www.timplab.org)  
+[wtimp@jhu.edu](mailto:wtimp@jhu.edu) 
+
 
 ::::
 ```
+
 
 
 (aleksey-zimin)=
@@ -806,13 +874,16 @@ Whiting School of Engineering
 
 **Research Scientist**  
 
-Department of Biomedical Engineering  
-Whiting School of Engineering  
 
-[Lab homepage](/people/alekseyz/index)  
+ {{ bme }}  
+ {{ wse }}  
 
-[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)
+
+[Homepage](/people/alekseyz/index)  
+[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu) 
+
 
 ::::
 ```
+
 

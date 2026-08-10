@@ -1,9 +1,9 @@
-# Alumni
+# Students 
 
-## Former Faculty
 
-(rafaelir-izarry)=
-### [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
+
+(rafael-irizarry)=
+## Rafael Irizarry, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -22,29 +22,57 @@
 :columns: 12 12 9 9
 
 **Professor**  
-  
-JHU Biostatistics (until June 2013)<br>
-[Dana Farber Cancer Institute](https://www.dana-farber.org/)<br>
-Harvard University  
-  
-[Lab homepage](https://rafalab.dfci.harvard.edu/)  
-[rafa@jhu.edu](mailto:rafa@jhu.edu)  
-::::
 
+
+ JHU Biostatistics (until June 2013)  
+ [Dana Farber Cancer Institute](https://www.dana-farber.org/)  
+ Harvard University  
+
+
+**{ref}`[lab homepage](https://rafalab.dfci.harvard.edu/) <[Lab homepage](https://rafalab.dfci.harvard.edu/)>` Lab**  
+
+[Homepage](https://rafalab.dfci.harvard.edu/)  
+[rafa@jhu.edu](mailto:rafa@jhu.edu) 
+
+
+::::
 ```
 
----
 
-## Former Postdocs
 
 (christopher-pockrandt)=
-### Christopher Pockrandt, Ph.D.
+## Christopher Pockrandt, Ph.D.
 
-Salzberg Lab @ JHU (until Feb. 2022)
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/christopher-pockrandt.webp
+:width: 240px
+:alt: Christopher Pockrandt, Ph.D.
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+
+
+ Salzberg Lab @ JHU (until Feb. 2022)  
+
+
+
+
+::::
+```
+
 
 
 (florian-breitwieser)=
-### Florian Breitwieser, Ph.D.
+## Florian Breitwieser, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -62,18 +90,23 @@ Salzberg Lab @ JHU (until Feb. 2022)
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg Lab @ JHU (until Feb. 2020)<br>
+**Principal Software Engineer**  
 
-**Principal Software Engineer**<br>
-[SOPHiA GENETICS](https://www.sophiagenetics.com/)<br>
 
-[florian.bw@gmail.com](mailto:florian.bw@gmail.com)  
+ Salzberg Lab @ JHU (until Feb. 2020)  
+ [SOPHiA GENETICS](https://www.sophiagenetics.com/)  
+
+
+[florian.bw@gmail.com](mailto:florian.bw@gmail.com) 
+
+
 ::::
-
 ```
 
+
+
 (ilia-minkin)=
-### [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
+## Ilia Minkin, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -91,18 +124,24 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg Lab @ JHU (until 2025)<br>
+**Postdoctoral Associate**  
 
-Postdoctoral Associate<br>
-[Broad Institute](https://www.broadinstitute.org)<br>
 
-[iminkin@broadinstitute.org](mailto:iminkin@broadinstitute.org)  
+ Salzberg Lab @ JHU (until 2025)  
+ [Broad Institute](https://www.broadinstitute.org)  
+
+
+[Homepage](https://iminkin.github.io/)  
+[iminkin@broadinstitute.org](mailto:iminkin@broadinstitute.org) 
+
+
 ::::
-
 ```
 
+
+
 (martin-steinegger)=
-### [Martin Steinegger, Ph.D.](https://steineggerlab.com)
+## Martin Steinegger, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -120,18 +159,26 @@ Postdoctoral Associate<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg Lab @ JHU (until Feb. 2020)<br>
+**Assistant Professor**  
 
-**Assistant Professor**<br>
-[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)<br>  
-[Lab homepage](https://steineggerlab.com)
-[martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)  
+
+ Salzberg Lab @ JHU (until Feb. 2020)  
+ [Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)  
+
+
+**{ref}`[lab homepage](https://steineggerlab.com) <[Lab homepage](https://steineggerlab.com)>` Lab**  
+
+[Homepage](https://steineggerlab.com)  
+[martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr) 
+
+
 ::::
-
 ```
 
+
+
 (stefan-canzar)=
-### [Stefan Canzar, Ph.D.](https://canzarlab.com/)
+## Stefan Canzar, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -149,16 +196,25 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**<br>
-[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)<br>
-[Lab Homepage](https://canzarlab.com/)<br>
-[stefan.canzar​@ur.de](mailto:stefan.canzar​@ur.de)  
-::::
+**Professor**  
 
+
+ [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)  
+
+
+**{ref}`[lab homepage](https://canzarlab.com/) <[Lab Homepage](https://canzarlab.com/)>` Lab**  
+
+[Homepage](https://canzarlab.com/)  
+[stefan.canzar@ur.de](mailto:stefan.canzar@ur.de) 
+
+
+::::
 ```
 
+
+
 (stephan-pabinger)=
-### [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
+## Stephan Pabinger, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -176,17 +232,24 @@ Salzberg Lab @ JHU (until Feb. 2020)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Postdoctoral Research Fellow**<br>
-McKusick-Nathans Institute of Genetic Medicine<br>
-[Aldi](https://www.aldicareers.com.au/)
+**Postdoctoral Research Fellow**  
 
-[stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
+
+ McKusick-Nathans Institute of Genetic Medicine  
+ [Aldi](https://www.aldicareers.com.au/)  
+
+
+[Homepage](https://pabinger.site44.com)  
+[stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at) 
+
+
 ::::
-
 ```
 
+
+
 (tanja-magoc)=
-### [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
+## Tanja Magoc, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -205,20 +268,24 @@ McKusick-Nathans Institute of Genetic Medicine<br>
 :columns: 12 12 9 9
 
 **Postdoctoral Research Fellow**  
-  
-[HEPData](https://www.hepdata.com/)<br>
 
-Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
-[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)
 
-[t.magoc@gmail.com](mailto:t.magoc@gmail.com)  
+ [HEPData](https://www.hepdata.com/)  
+ Associate Director, AI/QI Program, Quality and Patient Safety Initiative  
+ [University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)  
+
+
+[Homepage](https://idr.ufhealth.org/profile/magoc-tanja/)  
+[t.magoc@gmail.com](mailto:t.magoc@gmail.com) 
+
+
 ::::
-
 ```
 
 
+
 (todd-j-treangen)=
-### [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
+## Todd J. Treangen, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -237,25 +304,24 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative<br>
 :columns: 12 12 9 9
 
 **Senior Bioinformatics Scientist**  
-  
-CCB UMD
 
-National Biodefense Analysis and Countermeasures Center
 
-[Rice University](https://profiles.rice.edu/faculty/todd-treangen)
+ CCB UMD  
+ National Biodefense Analysis and Countermeasures Center  
+ [Rice University](https://profiles.rice.edu/faculty/todd-treangen)  
 
-[treangen@gmail.com](mailto:treangen@gmail.com)  
+
+[Homepage](https://profiles.rice.edu/faculty/todd-treangen)  
+[treangen@gmail.com](mailto:treangen@gmail.com) 
+
+
 ::::
-
 ```
 
----
-
-## Former Students
 
 
 (alaina-shumate)=
-### Alaina Shumate, Ph.D.
+## Alaina Shumate, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -273,16 +339,22 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Research Scientist**<br>
-[Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)    
-  
-[ashumate@alumni.stanford.edu](mailto:ashumate@alumni.stanford.edu)
-::::
+**Research Scientist**  
 
+
+ [Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)  
+
+
+[ashumate@alumni.stanford.edu](mailto:ashumate@alumni.stanford.edu) 
+
+
+::::
 ```
 
+
+
 (ales-varabyou)=
-### [Ales Varabyou, Ph.D.](https://alevar.github.io/)
+## Ales Varabyou, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -300,18 +372,24 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Graduate Stydent and Postdoc in the Pertea Lab (until 2026)**
+**Genomics Scientist and Engineer**  
 
-**Genomics Scientist and Engineer**<br>
-[PacBio](https://www.pacb.com/)
-  
-[ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu)  
+
+ Graduate Stydent and Postdoc in the Pertea Lab (until 2026)  
+ [PacBio](https://www.pacb.com/)  
+
+
+[Homepage](https://alevar.github.io/)  
+[ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu) 
+
+
 ::::
-
 ```
 
+
+
 (alyssa-frazee)=
-### [Alyssa Frazee, Ph.D.](https://alyssafrazee.com)
+## Alyssa Frazee, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -329,15 +407,22 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-[Stripe](https://stripe.com)
-  
-[alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com)  
-::::
 
+
+ [Stripe](https://stripe.com)  
+
+
+[Homepage](https://alyssafrazee.com)  
+[alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com) 
+
+
+::::
 ```
 
+
+
 (daehwan-kim)=
-### [Daehwan Kim, Ph.D.](https://kim-lab.org/)
+## Daehwan Kim, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -355,19 +440,25 @@ National Biodefense Analysis and Countermeasures Center
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-University of Toronto
 
-[OMPHALOS Lifesciences](https://omphaloslifesci.com/)    
-  
-[Lab homepage]((https://kim-lab.org)  
 
-[infphilo@gmail.com](mailto:infphilo@gmail.com)
+ University of Toronto  
+ [OMPHALOS Lifesciences](https://omphaloslifesci.com/)  
+
+
+**{ref}`Lab.org) <[Lab homepage](https://kim-lab.org)>` Lab**  
+
+[Homepage](https://kim-lab.org/)  
+[infphilo@gmail.com](mailto:infphilo@gmail.com) 
+
+
 ::::
-
 ```
 
+
+
 (derrick-wood)=
-### Derrick Wood, Ph.D.
+## Derrick Wood, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -385,16 +476,22 @@ University of Toronto
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Founder**<br>
-[Blackjack Biotechnologies](https://www.blackjackbiotech.com/)    
-  
-[dwood@cs.umd.edu](mailto:Wood.derrick@gmail.com)
-::::
+**Founder**  
 
+
+ [Blackjack Biotechnologies](https://www.blackjackbiotech.com/)  
+
+
+[dwood@cs.umd.edu](mailto:dwood@cs.umd.edu) 
+
+
+::::
 ```
 
+
+
 (hilary-parker)=
-### [Hilary Parker, Ph.D.](https://biostat.jhsph.edu/~hiparker/)
+## Hilary Parker, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -412,16 +509,23 @@ University of Toronto
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Department of Biostatistics<br>
-Johns Hopkins Bloomberg School of Public Health  
-  
-[hilary@jhu.edu](mailto:hilary@jhu.edu)  
-::::
 
+
+ Department of Biostatistics  
+ Johns Hopkins Bloomberg School of Public Health  
+
+
+[Homepage](https://biostat.jhsph.edu/~hiparker/)  
+[hilary@jhu.edu](mailto:hilary@jhu.edu) 
+
+
+::::
 ```
 
+
+
 (jennifer-lu)=
-### Jennifer Lu, Ph.D.
+## Jennifer Lu, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -439,27 +543,84 @@ Johns Hopkins Bloomberg School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Staff Engineer**<br>
-[Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)
+**Staff Engineer**  
 
-[jennifer.lu717@gmail.com](mailto:jennifer.lu717@gmail.com)  
+
+ [Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)  
+
+
+[jennifer.lu717@gmail.com](mailto:jennifer.lu717@gmail.com) 
+
+
 ::::
-
 ```
 
+
+
 (ida-shinder)=
-### Ida Shinder 
+## Ida Shinder
 
-[ishinde1@jhmi.edu](mailto:ishinde1@jhmi.edu)
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/ida-shinder.webp
+:width: 240px
+:alt: Ida Shinder
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
 
 
-(jakob-heinz)-
-### Jakob Heinz 
 
-[jheinz3@jhu.edu](mailto:jheinz3@jhu.edu)
+
+
+[ishinde1@jhmi.edu](mailto:ishinde1@jhmi.edu) 
+
+
+::::
+```
+
+
+
+(jakob-heinz)=
+## Jakob Heinz
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/jakob-heinz.webp
+:width: 240px
+:alt: Jakob Heinz
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+
+
+
+
+[jheinz3@jhu.edu](mailto:jheinz3@jhu.edu) 
+
+
+::::
+```
+
+
 
 (kuan-hao-chao)=
-### [Kuan-Hao Chao, Ph.D.](https://khchao.com/)
+## Kuan-Hao Chao, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -477,18 +638,24 @@ Johns Hopkins Bloomberg School of Public Health
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg Lab @ JHU (until 2025)<br>
+**Senior Deep Learning Scientist**  
 
-**Senior Deep Learning Scientist**<br>
-[Illumina AI Lab](https://www.illumina.com/)
-  
-[kuanhao.chao@gmail.com](mailto:kuanhao.chao@gmail.com)  
+
+ Salzberg Lab @ JHU (until 2025)  
+ [Illumina AI Lab](https://www.illumina.com/)  
+
+
+[Homepage](https://khchao.com/)  
+[kuanhao.chao@gmail.com](mailto:kuanhao.chao@gmail.com) 
+
+
 ::::
-
 ```
 
+
+
 (li-song)=
-### [Li Song, Ph.D.](https://mourisl.github.io/)
+## Li Song, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -506,18 +673,24 @@ Salzberg Lab @ JHU (until 2025)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Florea Lab @ JHU (until 2018)<br>
+**Assistant Professor**  
 
-**Assistant Professor**<br>
-[Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)
-  
-[Li.Song@dartmouth.edu](mailto:Li.Song@dartmouth.edu)  
+
+ Florea Lab @ JHU (until 2018)  
+ [Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)  
+
+
+[Homepage](https://mourisl.github.io/)  
+[Li.Song@dartmouth.edu](mailto:Li.Song@dartmouth.edu) 
+
+
 ::::
-
 ```
 
+
+
 (markus-sommer)=
-### [Markus Sommer, Ph.D.](https://www.markus.bio/)
+## Markus Sommer, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -535,21 +708,26 @@ Florea Lab @ JHU (until 2018)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg Lab @ JHU (until 2024)<br>
+**Principal Scientist**  
+**Principal Investigator**  
 
-**Principal Scientist**<br>
-[Aletira Therapeutics](https://aletiratherapeutics.com)
-  
-**Principal Investigator**<br>
-[National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)
 
-[markusjsommer@gmail.com](mailto:markusjsommer@gmail.com)  
+ Salzberg Lab @ JHU (until 2024)  
+ [Aletira Therapeutics](https://aletiratherapeutics.com)  
+ [National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)  
+
+
+[Homepage](https://www.markus.bio/)  
+[markusjsommer@gmail.com](mailto:markusjsommer@gmail.com) 
+
+
 ::::
-
 ```
 
+
+
 (rachel-sherman)=
-### Rachel Sherman, Ph.D.
+## Rachel Sherman, Ph.D.
 
 ```{grid} 12
 :gutter: 1
@@ -567,12 +745,17 @@ Salzberg Lab @ JHU (until 2024)<br>
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-Salzberg Lab @ JHU (until 2020)<br>
+**Staff Bioinformatics Support Scientist**  
 
-**Staff Bioinformatics Support Scientist**<br>
-[Illumina](https://www.illumina.com/)
-  
-[rachel.sherman@illumina.com](mailto:rachel.sherman@illumina.com)  
+
+ Salzberg Lab @ JHU (until 2020)  
+ [Illumina](https://www.illumina.com/)  
+
+
+[rachel.sherman@illumina.com](mailto:rachel.sherman@illumina.com) 
+
+
 ::::
-
 ```
+
+
