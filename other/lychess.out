@@ -1,0 +1,210 @@
+ [ERROR] failed to verify TLS certificate: invalid peer certificate: certificate not valid for name "cmr.tigr.org"; certificate is only valid for DnsName("*.jcvi.org") or DnsName("jcvi.org")
+ [ERROR] failed to verify TLS certificate: invalid peer certificate: certificate not valid for name "genomebiology.com"; certificate is only valid for DnsName("*.springernature.com")
+ [ERROR] failed to verify TLS certificate: invalid peer certificate: UnknownIssuer
+ [ERROR] failed to verify TLS certificate: invalid peer certificate: UnknownIssuer
+ [ERROR] failed to verify TLS certificate: invalid peer certificate: certificate not valid for name "genomebiology.com"; certificate is only valid for DnsName("*.springernature.com")
+ [ERROR] failed to verify TLS certificate: invalid peer certificate: certificate not valid for name "www.oup.co.uk"; certificate is only valid for DnsName("*.oup.com") or DnsName("oup.com")
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] Host upload.wikimedia.org sent an unexpectedly big rate limit backoff duration of 10m. Capping the duration to 1m instead.
+  [WARN] There were issues with GitHub URLs. You could try setting a GitHub token and running lychee again.
+  [WARN] lychee detected 186 redirects. You might want to consider replacing redirecting URLs with the resolved URLs. Run lychee in verbose mode (-v/--verbose) to see details about the redirections.
+Issues found in 42 inputs. Find details below.
+
+[./ASprofile.wiki/Home.md]:
+[ERROR] https://f1000r.es/1p0 (at 84:42) | Connection failed. Check network connectivity and firewall settings
+
+[./bos_taurus_assembly.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/bos_taurus_assembly.wiki/bos_taurus_assembly.chromosome_lengths.png (at 57:1) | File not found. Check if file exists and path is correct
+[ERROR] http://blast.cbcb.umd.edu/bosblast.html (at 280:8) | Connection failed. Check network connectivity and firewall settings
+[ERROR] http://blast.cbcb.umd.edu/megablast.html (at 279:8) | Connection failed. Check network connectivity and firewall settings
+[404] http://genomebiology.com/2009/10/4/R42 (at 271:7) | Rejected status code: 404 Not Found (configurable with "accept" option)
+[ERROR] http://www.animalgenome.org/cgi-bin/gbrowse/bovine/ (at 48:81) | Connection refused - server may be down or port blocked
+[TIMEOUT] http://www.hgsc.bcm.tmc.edu/content/bovine-genome-project (at 274:7) | Request timed out
+
+[./bos_taurus_assembly/README.md]:
+[ERROR] http://blast.cbcb.umd.edu/bosblast.html (at 280:8) | Error (cached)
+[ERROR] http://blast.cbcb.umd.edu/megablast.html (at 279:8) | Error (cached)
+[404] http://genomebiology.com/2009/10/4/R42 (at 271:7) | Error (cached)
+[ERROR] http://www.animalgenome.org/cgi-bin/gbrowse/bovine/ (at 48:81) | Error (cached)
+[TIMEOUT] http://www.hgsc.bcm.tmc.edu/content/bovine-genome-project (at 274:7) | Request timed out
+
+[./BRCA-diagnostic.wiki/Home.md]:
+[ERROR] https://genomebiology.com/2010/11/10/404 (at 33:1) | SSL certificate error. Check certificate validity
+
+[./BRCA-diagnostic/brca_output_description.txt]:
+[404] http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=600185 (at 8:18) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 1 redirect. Redirects: http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=600185 --[301]--> https://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=600185
+
+[./centrifuge.wiki/_Sidebar.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/centrifuge.wiki/Home (at 3:1) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/centrifuge.wiki/Manual (at 4:1) | File not found. Check if file exists and path is correct
+[TIMEOUT] https://ccb.jhu.edu/software/hisat2 (at 40:3) | Request timed out | Followed 3 redirects. Redirects: https://ccb.jhu.edu/software/hisat2 --[301]--> http://ccb.jhu.edu/software/hisat2/ --[308]--> https://ccb.jhu.edu/software/hisat2/ --[301]--> http://ccb.jhu.edu/software/hisat2/
+[302] https://genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract (at 46:1) | Rejected status code: 302 Found (configurable with "accept" option) | Followed 10 redirects. Redirects: https://genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract --[301]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.MIUL2uoWLcSqB-4hpsQRClrNIAnchMdrD6clBQooC0ER9rEJryCdgoViMspx_ejIegz0MdtYXqm2JqKK1BOC2WHp43Yd4EikdJ-AL-v94Xfsdw3MXrQiusf7xBcYPVYfC0Z-ZYrHBxZr1AN3DQrI1HtLvEd1oAvlGvmaYvI1mVgDKu4nsXMn2hdmFbd61-PWDHXC7wXGWHLZOYmaC8uA86fItKE0q9mNZ4kZa67wXn0x6Th3wRKNJ9NyE0eXhjJvY6A2hgSVcmOqi2Yniak51kshqi1lGR9yPUYhPzMiPaxf9PG1y-ym4C6DRzlRj0MSTRUlAGw-bCWaVjnnLAszRw.D05tqQMuMLBN946B.op8gpA4SvJenCR2nq-Meic2XamsMIfQOOC2DrkdU68l0KB3JgQ64rHWT1fpavUyf0cO4PHo_9fMy-xGo6JRTKRu9efhetz-mZWSeo7fU-hmbRSxzpQ_aCmra2fp2hTnmBLPDM1pmgEcfIjl91G48go4FzFlPAa2ufMFFQDslR0p_vqznmG3W6QYQYTCzpEQzb77C82sScIs.HiaYSQxMEJ6F5xuYTKFcTw&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116&state=%257B%2522token%2522%253A%2522FAlnt10G93DSd3Mu0JTKYSEwcMRruGIWAOPnIazHASc%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522FAlnt10G93DSd3Mu0JTKYSEwcMRruGIWAOPnIazHASc%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26482 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.GT7iKoQyK5YhsZj9s3Yass6PoGphjMdkktATfm8ko8-YCEC1nSV3s0eLHP2S5-BbBn64ipp-zgDzja296WmBJpY5-AuzxBickcZ0jvuWM6C27RLDrs5Q-QRGPthE9-UE7cP4JNQyvgtWI4LWxNlNT8azqiAi_nIJeJoN438ISIHAz45EoQBoRgaYpYX2Uknc87yyloRR5OZwdKA7JZJGnJlXYWO6FhP-AgNckaxCX6fLz7-_Jjwdb7e8Tqy1xJVvBXGlFn35ckVm2PrcHMhLyYybyD6AgeTKCJj_JjrIe4SDqjxo78wc5AxPV07JY6iCwUR5e9ESa4wjgaoKC4Qeiw._5_ufx8esOdHqm-r.5JpzDP9gPCEL6f_bagFLAvVGbOqAEBea3Jty4JbJlXsMi9wUO6FSimGoHtjiSUCX9yVMTjV64vPz7VFXdX3Rgy8GQvsA6yGiH8JTAWi8To61uPRuwscZGh-rPR2ki8r52JH18eyVgqVDTuHB8upqR4YpN2gXcVHQJM9SxLAJx4TtDUTo5Igqs7csNE7HGNUlNzCFpNRhU4A.MfIHxy_JvZ1S5pU0bEvGxQ&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/openid-connect/sams-sigma&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116%3Fimplicit-login%3Dtrue%2526482&state=%257B%2522token%2522%253A%2522PnvQxzuGhs7pL4JeTmP8A227RhAISBPzY1_KTpQsTpk%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526482%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522PnvQxzuGhs7pL4JeTmP8A227RhAISBPzY1_KTpQsTpk%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526482%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26961 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.ZMORiATPvZjCUACauM1vLBHIzepSV53KIov4xDVnNdeDZLDi0EjswulFyn0lquCBtXVlzlJEiHl_tyt7ZLT7hpUMtiFsRHbN-X61ESVdUKg_SjdpFimimI9CCIN0xgABYUKdDws7jbMDHZr4fQEj7gbroJR9Wn1k8bMkIihrYScOPHjzBnyUpmW5F80CvaViNosvwaSkvHkmtVUS1WOLzm29aYHQMid0LgiUhbPuzqpG85cn7SWzKigEJ0N-NXsQsHy41dsyIMURD3gDkiAdAFUcmxJleEcJbr2udkMUyx7dT4yrVfcaIBmO5X4k8_dF1toIJeOVry_vw8ijvZd7tA.ZLbtigeoLnUIob_h.pwD-1GGaxpvRZ5mI1mGcpMOAgCtXA5XiAKj-nF8ZaJxrel6iybFS7ghxEamPQ-VIXR14vTDgHRqGGpcmmex5Bj8gHKWoP-d0yqW-4tZmbtdAqF_FktQtEkL4rAZH4kkx0ZPps0B42ayr2SCWw9TBILPK-Ue3QFUSEZnSY0eP7sdqui_aTrlZthdmYrrjo7vkURFOK-FZ6TA.Jrv2zQS2jRRjfYnHZxV3AQ&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/openid-connect/sams-sigma&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116%3Fimplicit-login%3Dtrue%2526961&state=%257B%2522token%2522%253A%2522wLUrxcw-m3xrdWPCCaonzzWQTz3gK4dxseI76Ah-k4U%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526961%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522wLUrxcw-m3xrdWPCCaonzzWQTz3gK4dxseI76Ah-k4U%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526961%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26933
+
+[./centrifuge.wiki/Home.md]:
+[302] http://genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract (at 56:4) | Rejected status code: 302 Found (configurable with "accept" option) | Followed 10 redirects. Redirects: http://genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract --[301]--> https://genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract --[301]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.OvHfLj00RulxDpiSwhuaw9y00GxSn02yG4hJnquXAI_Ol61V4TB1rRFdxTzVcLMDJZmiu5n2A4k4pcOfkZLD4R1zqxRkHmwSexHI6AhfL_5aMfyhP9qLOAPxWuDjXDqp36MCWlGo6LitUb-u6OJsArMjyzCSE7TOfuspJQH-gcc0HmF0VHdwJTgD9eJm4Dxglsg0xLoikSP9uCBVEYWRSe-Q1qWbZh9j-ldzv37-yWurjqVAKHr681WxmVlQNFbj-A191anV2fq8cdfIV1f8aCmR36Fa_t2h87P9eTfcwIKkKXiCky5HZws535StgW5lAKJAAQkTB5XEJTa2UDmThQ.dw8HgISy8W5Uba8O.rvMHkYD3MZ8vL7UlJGE8Ve6sCSiqooZfr0zw5LZdCOXUo1csvwtqibC1CdTiOIjiD-udl1fMOensZYNV8alFAZQislwlA1m2UIUJvQkWQaJY5WKfUJxmm1C5ipcA7wzuV7tadKbB44I46i9CFY5BuYNmQkZYIgpgzQ7fATkgAnz8FXqswESscxb1_GJe2Jm-02801Jn8Nnk.fHQFvfaHmg8cYz8r60V52w&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/content/early/2016/11/16/gr.210641.116.abstract&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116&state=%257B%2522token%2522%253A%2522eoM1QueW0UUxselUhMphcYgpISyqjewuNdQZLW610EI%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522eoM1QueW0UUxselUhMphcYgpISyqjewuNdQZLW610EI%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26739 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.S3ASZo_DiZgFj5dH5DVs3Ph3j9wNmgpfc1Riukw1_tedhcDt7Y-JNWxP3mPXYwQ-hLlVhTGfXpougvbQMmL3zMlO0HHOtse0LxgEyzTZ135LObcN2mP2B0Mf4cJ5CrkSKjYgIZRqdHRBpKxIfFur1Drg9FBS8A2dc0Frdeg8-yTYJ0anAzdxqjy7JSnzipCKvU7vbmUc1fYValyCQuTDvWNY15AELc4vKMwARVgA8V8XsdS3XKDI3sf3yi-832KyqgmCXsB-JyP5mw7RyhCa9EZcws2EUcG8e76nX5PXBL1SZHckEaJFwxqfvihsy7C_zjegmr6uH06hELqOLVSDQQ.aHDC8as9k6baWSLY._IMqz3sDLmo-wsY1RrHtuvNSis4zcm4XLJ7OIDMDzW0ftJps0xSqkXCNnr8P_QtenXD3XzkdqQDWrrLJqXAArAjzdk8JFIM8PWKOWNDAD9bPgpdmXJVX-6kDLdce0NJT0tnOCiUesbhlYUtjOdvgNnKSq3lYaVCO3BsgkRc9wCFEkK0LhXydMB6fB0DjbXR6A-ISS2QHFOw.N09aDNUMkzVZbpuhJ9izDg&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/openid-connect/sams-sigma&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116%3Fimplicit-login%3Dtrue%2526739&state=%257B%2522token%2522%253A%2522o4E80HHKYEZyw9KLduc-rK20baM39xEMp6yNuc_Rn2A%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526739%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522o4E80HHKYEZyw9KLduc-rK20baM39xEMp6yNuc_Rn2A%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526739%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26637 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.dKdk6FRjK6Atfd4cQnrpYzoAc-vioaJ6ZlrUCvPhFvIA6Sf50KMTguK8ZWPYuoOGwySbEKdwCrg61KC1D4XmEzc6Z8mgVlwSeA0n-P6AuR-kolOoc79bdLjEIBrdMLbIlwGe9-htqZ1o_PAFAoFJ2bJYGja8FpmtdYKgpw4Rf3t8Np-Gr8pzIFfeQ2fk7W8Xo8u37L4F-QAR8R0oyWW0B9KWAvZMN1tLjtWSGPZLOzk2rUXbCmhGOXUiCV-MVZXwvousZBfZdI8_B2LWcpK4BlRfeGEXY0CeQXo7IvTaOaVt0jFRpNC3zkGntPp4i86Wedvhuu6guvlNcsQKROJ7Kw.r9cjLb1SZoP851ZI.I-Cd0pGaPznZ1zIWrvIskIcOpCofElQNR6Bcp0XQ-4yoA58Y-__rwLZJPT5mfD5oyQcZAFDL6MlgYyKuf1yVRGJLWcW37Yi9C4nA0xptMI8ILMdVkSa4eHLdEdXi_eBUKCNet8Ywqud_GuCtC_XB07nWIJk8phmokBJeFXedi4x4imRbnxFi7yNxKB8jcFkUHkKiTccKLl0.eP9FVRCpQBbhbjjhjBJ8Bw&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/openid-connect/sams-sigma&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116%3Fimplicit-login%3Dtrue%2526637&state=%257B%2522token%2522%253A%2522DFcEJOmtSQLluMIhJoKS-KmzHCSS-yT1ql_wIqLhxMQ%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526637%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522DFcEJOmtSQLluMIhJoKS-KmzHCSS-yT1ql_wIqLhxMQ%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526637%2522%257D
+[ERROR] https://genexa.ch/sars2-bioinformatics-resources/ (at 33:3) | TLS handshake failed. Check SSL/TLS configuration
+
+[./centrifuge.wiki/Manual.md]:
+[403] http://portal.acm.org/citation.cfm?id=1314852 (at 687:21) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: http://portal.acm.org/citation.cfm?id=1314852 --[301]--> https://portal.acm.org/citation.cfm?id=1314852
+[403] http://portal.acm.org/citation.cfm?id=1314852 (at 704:41) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: http://portal.acm.org/citation.cfm?id=1314852 --[301]--> https://portal.acm.org/citation.cfm?id=1314852
+[403] http://www.ensembl.org/ (at 984:55) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: http://www.ensembl.org/ --[302]--> http://useast.ensembl.org/?redirectsrc=//www.ensembl.org%2F
+
+[./chess.wiki/_Sidebar.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/chess.wiki/CHESS2 (at 4:3) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/chess.wiki/CHESS3 (at 3:3) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/chess.wiki/Contact (at 7:3) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/chess.wiki/Publications (at 6:3) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/chess.wiki/Readme (at 5:3) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/chess.wiki/Releases (at 8:3) | File not found. Check if file exists and path is correct
+
+[./chess.wiki/CHESS2.md]:
+[404] https://github.com/chess-genome/chess/releases/download/v2.2/chess2.2.genes (at 31:200) | Rejected status code: 404 Not Found (configurable with "accept" option)
+[404] https://github.com/chess-genome/chess/releases/download/v2.2/chess2.2.mapfile.txt (at 37:79) | Rejected status code: 404 Not Found (configurable with "accept" option)
+
+[./chess.wiki/GBHub2/hub.txt]:
+[TIMEOUT] https://ccb.jhu.edu/chess (at 6:16) | Request timed out | Followed 1 redirect. Redirects: https://ccb.jhu.edu/chess --[301]--> http://ccb.jhu.edu/chess/
+
+[./choosing-a-metagenomics-classifier.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/choosing-a-metagenomics-classifier.wiki/!--http://liulab.dfci.harvard.edu/-- (at 251:14) | File not found. Check if file exists and path is correct
+[302] https://genome.cshlp.org/content/early/2016/11/16/gr.210641.116 (at 77:92) | Rejected status code: 302 Found (configurable with "accept" option) | Followed 10 redirects. Redirects: https://genome.cshlp.org/content/early/2016/11/16/gr.210641.116 --[301]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.N-l9-DQYFXtM7GTGeB8YW2IJaJEcoyxyES9XefqJxGmczAF9XpUt9XugXlCmeNrqVRCHNFQ__D_rRi_PY_bWPZ-k9kMETtpYzLNCCCkCb1F38qYT9zTbqQ4QoIgRi5X3bfFn_bMg9cE8nTjXJ4MbV8R5tAlN-fNsbSBMFmS0eP244pA97z85fhtzUriM0Gb4tTgDCW0c2xvZNnFirCH-RU5EVL_8DJq8yCHZo6TcZeNCr_SNrpo8wkT9rrsMTBIJLINEWcIZpH6IExOMG9govA_QdWMGY-PMKZjz3_ZZcJi4ANO-cqmzl-0Ptio_wtIcse_7YqIMemPC91YlAMrhvg.So0bJt1t82_IUM0d.SlGlQD6vHDo6zz_OO_eFDioMFw8qR4RWRH7rZK-q0RYZk0uXJfpWEXNF6WwLSr76Sow78WsngVCNY_DhukJ7LGaGsBjpxCgyrDRD5g0GnJiIdduiSJfFIC6pJDCHmE3Qq1FwPy2MryhzQwx5tJyit5UXTInjf9V0vRzuO3oKMfUqwF1FwHfjSfthbrVQ-jBuBcQlARO7EVLZDg.FSfRbqnXPtSqRCAMqeg57A&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/content/early/2016/11/16/gr.210641.116&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116&state=%257B%2522token%2522%253A%2522_eT2yPv64mbbwg_JjMA5SuJtFfpQWIBn6u7AxNZ2N-I%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522_eT2yPv64mbbwg_JjMA5SuJtFfpQWIBn6u7AxNZ2N-I%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26430 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.FmrZar9j3E4j3rdOr7Hx7OrnDVgQg7fK_RJRKITe7QJfbqBpePArBjJ9hJ8GzqqYSMiRo4Z_lXMQaEnbAKIQ50oshlp4_h-GadlEr69NmzUwSuWkp70JtXSqJX1bEbhc31PiTLLmeCL-4bELA6WiTyWczETDtxbcJPHBGMwrl4v37jxs3m37vt7ESYYhnvjqYD_vkfMuuSh3a370r184YvMamYg1Asq9TCDw7FNywK2u02h_rGdY0TAqrZ-y5iAXQ5mZo4g39GXFX_gkI1xRrpc0g7W-oLjiwmyYnRABNiA9lm42VIuj0yb3uJEsQBkkddO4SH5NBd-4nMA1Di6mVA.-ilMV-lV4Mk8NMyL.JlqRkVPwEn-nNz6bIyhwWH9x43ThpCPMiH6oZzBbkZMAgj4NIEPmJvmlDaidPkhinyPUQ4Gvck7Tj26iPZgUBmldQDm9dzdf0uCNuuDUN6S0OW2I9UJ7OagRxDrOnw1oJCkPLon1nJE3V1GQXs_izv4gUEc7qEDttaJg6L8AzBa2m3C3ZZlX335x35kFtxoMy_mL9NoLnuY.4vr3op58krASniwHNmwUEw&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/openid-connect/sams-sigma&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116%3Fimplicit-login%3Dtrue%2526430&state=%257B%2522token%2522%253A%2522ZzkZk2dR3So8XFfJoYOX9GxGHM5ShIxWO5MwKHabW_w%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526430%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522ZzkZk2dR3So8XFfJoYOX9GxGHM5ShIxWO5MwKHabW_w%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526430%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26918 --[302]--> https://idp.sams-sigma.com/authorize?client_id=CSHL&response_type=code&scope=openid%2Bprofile%2Bemail%2Blicense%2Bprofile_extended%2Boffline_access&redirect_uri=https%3A//genome.cshlp.org/openid-connect/sams-sigma&auth_token=eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMTI4R0NNIn0.SaHt10JubyGHyA_HKOWifn4O7x0OtfqTJC9Um33tajf8F_Lsq-NlAAAeEYZbNmEODJ_kudau849FPIP7JvaYHuMtr-wSys6N0TzI0MEZg-omKVgFGLBLmF8Tyw4sz9J2AVbBkQl2P95BWL3oH-xgmgR-unOlZiEeCx4CED-7Pbe0s6B5yTl1pzC_400j7m4kw9SeQQ4k3JtbfAuOVoZZ7xeJL7HfTk1sEiyaHNcKTG1aiqlLD0KwpbP82tJGU9NyvpxRhhDkB5IaScTMLt7ZjFkdt2bK_JBhwArIt85KjOcelX81-Wd9vv2OUEm_hY3zg1uzvIYaUixwks_nFA2udA.izh2fNVQn-z2Pjnb.2Wu4dtwXYNVXefRhW8BMTB5BrDrvQfClvn_8CgsR2rvaQkYcjI_wAORFVLe4eyl0qYzCnxTXoPI91taE35sO557AoR3R-J3M3v0IRsdpPVIzjYL4sNvkrtIYifIgA30eeteWpo0mQMbyxg0Twjmd7mvkH9hxRcrjjIHhLD4d8vskq3feNI7NBlIE_66yQjo8tlYptatRrzM.N6mUBhW0iGFadqIKtL8zcg&ip_address=71.163.246.103&referrer_url=https%3A//genome.cshlp.org/openid-connect/sams-sigma&prompt=none&openid_connect_destination=/content/early/2016/11/16/gr210641116%3Fimplicit-login%3Dtrue%2526918&state=%257B%2522token%2522%253A%2522NlMeKu7E6ISXjsWQUzeV_9a4laneM7QV5sdo8nOAXC8%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526918%2522%257D&shibboleth_dest=https%3A//genome.cshlp.org/openid-connect/sams-sigma/login-redirect&shibboleth=true --[302]--> https://genome.cshlp.org/openid-connect/sams-sigma?error=login_required&state=%257B%2522token%2522%253A%2522NlMeKu7E6ISXjsWQUzeV_9a4laneM7QV5sdo8nOAXC8%2522%252C%2522destination%2522%253A%2522%255C%252Fcontent%255C%252Fearly%255C%252F2016%255C%252F11%255C%252F16%255C%252Fgr210641116%253Fimplicit-login%253Dtrue%252526918%2522%257D --[302]--> https://genome.cshlp.org/content/early/2016/11/16/gr210641116?implicit-login=true%26676
+[403] https://peerj.com/articles/cs-104/ (at 78:113) | Rejected status code: 403 Forbidden (configurable with "accept" option)
+
+[./cidane.wiki/Home.md]:
+[ERROR] error: (at 70:43) | Cannot parse 'https://' into a URL: empty host
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/cidane.wiki/fluxsim_paras.tgz (at 68:1) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/cidane.wiki/gplv3-127x51.png (at 22:12) | File not found. Check if file exists and path is correct
+[404] https://uchicago.box.com/CIDANE-FluxSim (at 69:1) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 1 redirect. Redirects: https://uchicago.box.com/CIDANE-FluxSim --[301]--> https://uchicago.app.box.com/CIDANE-FluxSim
+
+[./edge-pro.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/edge-pro.wiki/MANUAL (at 26:118) | File not found. Check if file exists and path is correct
+
+[./edge-pro.wiki/MANUAL.md]:
+[503] http://www-huber.embl.de/users/anders/DESeq/ (at 100:46) | Rejected status code: 503 Service Unavailable (configurable with "accept" option) | Followed 1 redirect. Redirects: http://www-huber.embl.de/users/anders/DESeq/ --[302]--> https://www-huber.embl.de/users/anders/DESeq/
+
+[./elph.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/elph.wiki/manual (at 35:14) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/elph.wiki/manual (at 35:53) | File not found. Check if file exists and path is correct
+[ERROR] https://www.life.umd.edu/labs/mount/2010-splicing/ (at 44:2) | SSL certificate not trusted. Use --insecure if site is trusted
+
+[./eupathDB/README.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/eupathDB/dl/eupathDB.tar.gz (at 76:24) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/eupathDB/dl/eupathDB_kraken2.tar.gz (at 93:33) | File not found. Check if file exists and path is correct
+[TIMEOUT] http://ccb.jhu.edu/data/eupathDB/dl/AmoebaDB_Clean.tgz (at 113:171) | Request timed out | Followed 3 redirects. Redirects: http://ccb.jhu.edu/data/eupathDB/dl/AmoebaDB_Clean.tgz --[308]--> https://ccb.jhu.edu/data/eupathDB/dl/AmoebaDB_Clean.tgz --[308]--> https://ccb.jhu.edu/data/eupathDB/dl/AmoebaDB_Clean.tgz --[308]--> https://ccb.jhu.edu/data/eupathDB/dl/AmoebaDB_Clean.tgz
+
+[./GAGE_B/genomeAssemblers/index.html]:
+[TIMEOUT] http://soap.genomics.org.cn/soapdenovo.html (at 38:98) | Request timed out
+[404] http://www.chevreux.org/project_mira.html (at 35:20) | Rejected status code: 404 Not Found (configurable with "accept" option)
+[500] http://www.ebi.ac.uk/~zerbino/velvet/ (at 40:20) | Rejected status code: 500 Internal Server Error (configurable with "accept" option) | Followed 1 redirect. Redirects: http://www.ebi.ac.uk/~zerbino/velvet/ --[301]--> https://www.ebi.ac.uk/~zerbino/velvet/
+[TIMEOUT] http://www.genome.umd.edu/ (at 36:20) | Request timed out
+
+[./GAGE_B/index.html]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/img/ccblogo_ondark.png (at 8:23) | File not found. Check if file exists and path is correct
+
+[./glimmer.wiki/Glimmer2.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Glimmer3-vs-Glimmer2 (at 6:61) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Home (at 5:45) | File not found. Check if file exists and path is correct
+[ERROR] https://cmr.tigr.org/ (at 21:32) | SSL certificate error. Check certificate validity
+[429] https://upload.wikimedia.org/wikipedia/commons/c/c0/Osi_standard_logo.png (at 103:79) | Rejected status code: 429 Too Many Requests (configurable with "accept" option)
+
+[./glimmer.wiki/Glimmer3-vs-Glimmer2.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Glimmer2 (at 61:16) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Home (at 60:16) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Table1 (at 43:5) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Table2 (at 45:5) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Table3 (at 47:5) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Table4 (at 49:5) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Table5 (at 51:5) | File not found. Check if file exists and path is correct
+
+[./glimmer.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmer.wiki/Glimmer2 (at 32:100) | File not found. Check if file exists and path is correct
+
+[./glimmerm.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmerm.wiki/Manual (at 39:14) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/glimmerm.wiki/Manual (at 39:57) | File not found. Check if file exists and path is correct
+[404] https://ccb.jhu.edu/software/papers/glimmer-nar.pdf (at 57:2) | Rejected status code: 404 Not Found (configurable with "accept" option)
+[404] https://ccb.jhu.edu/software/papers/glimmer2.pdf (at 48:2) | Rejected status code: 404 Not Found (configurable with "accept" option)
+[ERROR] https://www.oup.co.uk/nar (at 57:235) | SSL certificate error. Check certificate validity
+
+[./glimmerm.wiki/Manual.md]:
+[ERROR] error: (at 35:17) | Cannot resolve root-relative link '/software/glimmer/': To resolve root-relative links in local files, provide a root dir
+[404] https://genes.mit.edu/GENSCAN.html (at 175:63) | Error (cached)
+[TIMEOUT] https://opal.biology.gatech.edu/GeneMark/ (at 175:1) | Request timed out
+
+[./jigsaw.wiki/Home.md]:
+[403] https://bioinformatics.oxfordjournals.org/cgi/reprint/21/18/3596.pdf (at 113:1) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: https://bioinformatics.oxfordjournals.org/cgi/reprint/21/18/3596.pdf --[301]--> https://academic.oup.com/bioinformatics/article/21/18/3596/202486
+[ERROR] https://genes.cs.wustl.edu/ (at 59:3) | SSL certificate not trusted. Use --insecure if site is trusted
+[404] https://genes.mit.edu/GENSCAN.html (at 61:3) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 1 redirect. Redirects: https://genes.mit.edu/GENSCAN.html --[301]--> https://www.genes.mit.edu/GENSCAN.html
+[ERROR] https://genomebiology.com/2006/7/S1/S9 (at 109:1) | SSL certificate error. Check certificate validity
+[TIMEOUT] https://opal.biology.gatech.edu/GeneMark (at 47:3) | Request timed out
+[TIMEOUT] https://opal.biology.gatech.edu/GeneMark (at 60:3) | Request timed out
+[TIMEOUT] https://www.softberry.com/ (at 46:3) | Request timed out
+[ERROR] https://www.tigr.org/software/glimmerm (at 62:3) | Network error: received fatal alert: HandshakeFailure
+[ERROR] https://www.tigr.org/tdb/tgi (at 70:1) | Network error: received fatal alert: HandshakeFailure
+
+[./Jutils/README.md]:
+[TIMEOUT] http://ccb.jhu.edu/software/MntJULiP/ (at 7:211) | Request timed out | Followed 3 redirects. Redirects: http://ccb.jhu.edu/software/MntJULiP/ --[308]--> https://ccb.jhu.edu/software/MntJULiP/ --[308]--> https://ccb.jhu.edu/software/MntJULiP/ --[308]--> https://ccb.jhu.edu/software/MntJULiP/
+[403] https://doi.org/10.1093/bioinformatics/btab401 (at 6:144) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: https://doi.org/10.1093/bioinformatics/btab401 --[302]--> https://academic.oup.com/bioinformatics/article/37/22/4272/6281071
+[403] https://doi.org/10.1093/nargab/lqaf140 (at 7:155) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: https://doi.org/10.1093/nargab/lqaf140 --[302]--> https://academic.oup.com/nargab/article/doi/10.1093/nargab/lqaf140/8313458
+
+[./kraken.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/kraken.wiki/Manual (at 64:3) | File not found. Check if file exists and path is correct
+[404] https://github.com/jenniferlu717/choosing-a-metagenomics-classifier/wiki/ (at 23:1) | Rejected status code: 404 Not Found (configurable with "accept" option)
+
+[./MntJULiP.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/MntJULiP.wiki/data (at 18:58) | File not found. Check if file exists and path is correct
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/MntJULiP.wiki/data_cov (at 15:60) | File not found. Check if file exists and path is correct
+
+[./pavian.wiki/Home.md]:
+[ERROR] http://127.0.0.1:5000/ (at 43:44) | Connection refused - server may be down or port blocked
+
+[./Quake.wiki/FAQ.md]:
+[404] https://hadoop.apache.org/common/docs/r0.15.2/streaming.html (at 44:1) | Rejected status code: 404 Not Found (configurable with "accept" option)
+
+[./Quake.wiki/Home.md]:
+[ERROR] file:///home/dpuiu/projects/www.ccb.jhu.edu/software.wiki3/Quake.wiki/manual (at 44:3) | File not found. Check if file exists and path is correct
+[404] https://www.cbcb.umd.edu/~dakelley (at 62:3) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 2 redirects. Redirects: https://www.cbcb.umd.edu/~dakelley --[302]--> http://www.cbcb.umd.edu/user.php?path=dakelley --[301]--> https://www.cbcb.umd.edu/user.php?path=dakelley
+[404] https://www.cbcb.umd.edu/~mschatz (at 63:3) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 2 redirects. Redirects: https://www.cbcb.umd.edu/~mschatz --[302]--> http://www.cbcb.umd.edu/user.php?path=mschatz --[301]--> https://www.cbcb.umd.edu/user.php?path=mschatz
+[404] https://www.cbcb.umd.edu/~salzberg (at 64:3) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 2 redirects. Redirects: https://www.cbcb.umd.edu/~salzberg --[302]--> http://www.cbcb.umd.edu/user.php?path=salzberg --[301]--> https://www.cbcb.umd.edu/user.php?path=salzberg
+[404] https://www.cs.unc.edu/Research/compgeom/gzstream/ (at 46:3) | Rejected status code: 404 Not Found (configurable with "accept" option)
+
+[./rddChecker.wiki/Home.md]:
+[404] https://bio.math.berkeley.edu/SysCall (at 62:58) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 1 redirect. Redirects: https://bio.math.berkeley.edu/SysCall --[301]--> https://math.berkeley.edu/SysCall
+[ERROR] https://precedings.nature.com/documents/5989/version/1/ (at 37:97) | Connection refused - server may be down or port blocked
+[404] https://www.cs.berkeley.edu/~meromit/SysCall (at 80:285) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 2 redirects. Redirects: https://www.cs.berkeley.edu/~meromit/SysCall --[301]--> https://eecs.berkeley.edu/cs//~meromit/SysCall --[301]--> https://people.eecs.berkeley.edu/~meromit/SysCall
+
+[./sim4cc.wiki/Home.md]:
+[403] https://nar.oxfordjournals.org/cgi/content/full/gkp319? (at 234:3) | Rejected status code: 403 Forbidden (configurable with "accept" option) | Followed 1 redirect. Redirects: https://nar.oxfordjournals.org/cgi/content/full/gkp319? --[301]--> https://academic.oup.com/nar?statusCode=404&404;http://nar.oxfordjournals.org:80/cgi/content/full/gkp319?
+[ERROR] https://pipmaker.bx.psu.edu/pipmaker/pip-instr.html#exons (at 140:13) | Connection refused - server may be down or port blocked
+[404] https://www.cbcb.umd.edu/~florea/research/SpacedSeeds/ (at 238:1) | Rejected status code: 404 Not Found (configurable with "accept" option) | Followed 2 redirects. Redirects: https://www.cbcb.umd.edu/~florea/research/SpacedSeeds/ --[302]--> http://www.cbcb.umd.edu/user.php?path=florea/research/SpacedSeeds/ --[301]--> https://www.cbcb.umd.edu/user.php?path=florea/research/SpacedSeeds/
+[TIMEOUT] https://www.ccb.jhu.edu/software/genesplicer/ (at 118:2) | Request timed out
+
+🔍 904 Total (in 34m 30s 752ms) 🔗 567 Unique ✅ 606 OK 🚫 89 Errors 👻 16 Excluded ⏳ 13 Timeouts ⛔ 180 Unsupported 🔀 186 Redirects
+

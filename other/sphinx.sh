@@ -744,3 +744,78 @@ cat conf.py
 
  with open("substitutions.json") as f:
     myst_substitutions = json.load(f)
+
+################
+
+
+ll -t1 ~/ftp.ccb.jhu.edu/pub/data/ | grep -i dpuiu
+#drwxrwsr-x.  2 dpuiu       salzberg_ifx  3 Aug  6 15:09 cidane
+#drwxrwsr-x.  2 dpuiu       salzberg_ifx  2 Aug  6 14:04 MntJULiP
+#drwxrwsr-x.  2 dpuiu       salzberg_ifx  4 Aug  6 13:09 asdb
+#drwxrwsr-x.  2 dpuiu       salzberg_ifx  6 Aug  6 12:39 eXAlu
+#drwxrwsr-x.  2 dpuiu       salzberg_ifx  7 Aug  6 12:28 Alubaster
+#drwxrwsr-x.  4 dpuiu       salzberg_ifx  4 Jul 20 14:19 gage_b
+
+mv  MntJULiP/ asdb/ eXAlu/ Alubaster/ gage_b/ ../software
+
+cd software
+mv EDGE_pro_v1.3.* EDGE-pro//
+
+#####
+
+#to email geo
+/ccb/salz7-data/ftp.ccb/pub/software/glimmer
+
+#####
+
+#copy of chess ftp
+/home/dpuiu/ftp.ccb.jhu.edu/pub/pdb_v1.3
+
+#######
+
+#ASprofile
+pandoc ~/www.ccb.jhu.edu.html/software/ASprofile/index.shtml -f html -t gfm --wrap=auto --columns=100 --strip-comments --lua-filter ~/www.ccb.jhu.edu.html/md/clean.lua | grep -v "div" > home.md
+pandoc ~/www.ccb.jhu.edu.html/software/ASprofile/data/index.shtml -f html -t gfm --wrap=auto --columns=100 --strip-comments --lua-filter ~/www.ccb.jhu.edu.html/md/clean.lua  > data.html
+
+#rddChecker
+pandoc ~/www.ccb.jhu.edu.html/software/rddChecker/index.shtml -f html -t gfm --wrap=auto --columns=100 --strip-comments --lua-filter ~/www.ccb.jhu.edu.html/md/clean.lua
+
+#cow
+pandoc ~/www.ccb.jhu.edu.html/bos_taurus_assembly.shtml -f html -t gfm --wrap=auto --columns=100 --strip-comments --lua-filter ~/www.ccb.jhu.edu.html/md/clean1.lua | sed 's|\\\[|[^|g'  | sed 's|\\\]|]|g' > home.md
+
+#####
+
+#eupathdb
+ pandoc ~/www.ccb.jhu.edu.html/data/eupathDB/index.shtml -f html -t gfm --wrap=auto --columns=100 --strip-comments --lua-filter ~/www.ccb.jhu.edu.html/md/clean1.lua | sed 's|\\\[|[^|g'  | sed 's|\\\]|]|g' | grep -v div > home.md
+
+https://github.com/dpuiu/eupathDB
+ll -d /ccb/salz7-data/ftp.ccb/pub/data/EuPathDB*  /ccb/salz7-data/www/ccb.jhu.edu/html/data/eupathDB/dl
+  drwxrwsr-x. 2 jlu26 salzberg_ifx 17 Jul 24  2024 /ccb/salz7-data/www/ccb.jhu.edu/html/data/eupathDB/dl
+  drwxrwsr-x. 4 jlu26 salzberg_ifx 18 Oct  3  2022 /ccb/salz7-data/ftp.ccb/pub/data/EuPathDB46	# 2020
+  drwxrwsr-x. 2 jlu26 salzberg_ifx  4 Jul 24  2024 /ccb/salz7-data/ftp.ccb/pub/data/EuPathDB54   # 2024
+
+ll /ccb/salz7-data/www/ccb.jhu.edu/html/data/eupathDB/dl/ -t1
+ -rw-rw-r--. 1 jlu26 salzberg_ifx   20136641 Jul 24  2024 seqid2taxid_eupathDB54.map
+ -rw-rw-r--. 1 jlu26 salzberg_ifx 4449177504 Jul 24  2024 eupathDB54_CLEAN.tar.gz
+ -rw-rw-r--. 1 jlu26 salzberg_ifx 2247339242 Feb 28  2019 eupathDB.tar.gz
+ ..
+
+ EuPathDB-28 (245 genomes)
+ EuPathDB46-Clean< (388)
+
+#######
+
+#gh-md-toc
+curl -O https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
+ll -d /ccb/salz7-data/ftp.ccb/pub/data/EuPathDB*  /ccb/salz7-data/www/ccb.jhu.edu/html/data/eupathDB/dl
+drwxrwsr-x. 4 jlu26 salzberg_ifx 18 Oct  3  2022 /ccb/salz7-data/ftp.ccb/pub/data/EuPathDB46
+drwxrwsr-x. 2 jlu26 salzberg_ifx  4 Jul 24  2024 /ccb/salz7-data/ftp.ccb/pub/data/EuPathDB54
+drwxrwsr-x. 2 jlu26 salzberg_ifx 17 Jul 24  2024 /ccb/salz7-data/www/ccb.jhu.edu/html/data/eupathDB/dl
+chmod a+x gh-md-toc
+
+./gh-md-toc README.md
+
+######
+
+#cat ../other/software.txt3 | grep ^h | grep wiki | sed 's|\/wiki|.wiki|' | perl -ane 'print "git clone $_";' | bash
+#cat ../other/software.txt3 | grep ^h | grep -v wiki                      | perl -ane 'print "git clone $F[0].wiki\n";' | bash
