@@ -25,10 +25,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
+          pip install check-jsonschema jinja2-cli pydata-sphinx-theme sphinx
           pip install -r requirements.txt || true
 
       - name: Generate People Pages
         run: |
+          mkdir -p people
           check-jsonschema --schemafile _people/people.schema.json _people/faculty.yaml
           check-jsonschema --schemafile _people/people.schema.json _people/students.yaml
           check-jsonschema --schemafile _people/people.schema.json _people/alumni.yaml
@@ -44,7 +46,7 @@ jobs:
 
       - name: Fix GitHub Pages image paths
         run: |
-          sed -i 's|img src="/_static/|img src="/www.ccb.jhu.edu/_static/|g' index.md examples/index.md
+          sed -i 's|img src="/_static/|img src="/www.ccb.jhu.edu/_static/|g' index.md examples/index.md || true
 
       - name: Build Sphinx site
         run: |
@@ -52,7 +54,7 @@ jobs:
           cp -a _build/pydata_sphinx_theme/. docs/
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: docs
 
@@ -70,3 +72,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+
