@@ -347,7 +347,7 @@ cat index.md
 ```
 
 ```text
-````{toctree}
+:::{toctree}
 :maxdepth: 1
 :hidden:
 
@@ -355,7 +355,7 @@ About <about/index>
 People <people/index>
 Software <software/index>
 ...
-````
+:::
 ```
 
 Individual sections can also have their own `index.md` files that define the pages belonging to that section.
@@ -384,7 +384,7 @@ For example:
 title: People
 ---
 
-````{toctree}
+:::{toctree}
 :maxdepth: 2
 :hidden:
 
@@ -392,7 +392,7 @@ faculty
 students
 alumni
 ...
-````
+:::
 ```
 
 The `toctree` defines the pages that belong to the **People** section. 
@@ -413,7 +413,7 @@ nano people/visitors.md
 Add the page to the section's `index.md` `toctree`:
 
 ```text
-```{toctree}
+:::{toctree}
 :maxdepth: 2
 :hidden:
 
@@ -422,7 +422,7 @@ postdocs
 students
 alumni
 visitors
-```
+:::
 ```
 
 ### 7.3 Edit a Markdown Page
