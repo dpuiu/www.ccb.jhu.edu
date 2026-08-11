@@ -18,7 +18,7 @@ All changes are **reviewed** before they are **merged and published to the websi
 
 # Note on Sphinx
 
-[**Sphinx**](https://www.sphinx-doc.org/) is the documentation generator used to build the CCB website from Markdown and configuration files. 
+**Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files. 
 It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
 
 For example, Sphinx automatically provides:
@@ -52,13 +52,9 @@ YAML + MyST Markdown + Jinja templates + conf.py + WebP
 
 Using a web browser:
 
-1. Log in to GitHub.
+1. Log in to **GitHub**.
 
-2. Navigate to the CCB website repository:
-
-```text
-https://github.com/dpuiu/www.ccb.jhu.edu
-```
+2. Navigate to the CCB website repository: `https://github.com/dpuiu/www.ccb.jhu.edu`
 
 3. Click **Fork** in the upper-right corner to create your own copy of the repository under your GitHub account.
 
@@ -84,7 +80,6 @@ If any of these tools are missing, you can install them on Ubuntu with:
 sudo apt update
 sudo apt install python3 python3-pip python3-venv python-is-python3 git gh
 ```
-
 ---
 
 ## 3. Log In to GitHub
@@ -93,7 +88,6 @@ Authenticate the GitHub CLI:
 
 ```bash
 gh auth login
-
 gh auth status
 ```
 
@@ -109,7 +103,6 @@ Set username and email:
 ```bash
 git config --global user.name "..."
 git config --global user.email "..."
-
 git config --list
 ```
 
