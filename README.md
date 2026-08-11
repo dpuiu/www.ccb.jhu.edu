@@ -448,7 +448,9 @@ head -n 40  people/faculty.md
 
 ::::
 ```
-> [!IMPORTANT] {{ \w+ }} corespond to substitutions defined in conf.py
+> [!IMPORTANT] 
+> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
+
 
 ```bash
 grep -A 5 myst_substitutions  conf.py 
@@ -461,6 +463,7 @@ myst_substitutions = {
     "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
     "BME":  "[BME](https://www.bme.jhu.edu/)",
     "bsph": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
+    ...
 ```
 
 ### 7.3 Edit Templates
@@ -482,19 +485,19 @@ _templates/people.jinja
 
 Important settings include:
 
-* `html_theme` — selects the Sphinx theme from the `html_theme` environment variable.
-* `templates_path` — specifies the custom Jinja/Sphinx templates.
-* `html_baseurl` — defines the base URL of the website.
-* `html_css_files` — loads custom CSS.
-* `html_js_files` — loads custom JavaScript.
-* `html_static_path` — makes files under `_static/` available to the build.
-* `html_extra_path` — copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
-* `html_title` — sets the website title.
-* `html_favicon` — specifies the favicon.
-* `html_search` — enables Sphinx's generated search functionality.
-* `html_permalinks` — enables section permalinks.
-* `html_context` — provides variables to Jinja templates.
-* `redirects` — defines redirects for URLs from the old website.
+* `html_theme` - selects the Sphinx theme from the `html_theme` environment variable.
+* `templates_path` - specifies the custom Jinja/Sphinx templates.
+* `html_baseurl` - defines the base URL of the website.
+* `html_css_files` - loads custom CSS.
+* `html_js_files` - loads custom JavaScript.
+* `html_static_path` - makes files under `_static/` available to the build.
+* `html_extra_path` - copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
+* `html_title` - sets the website title.
+* `html_favicon` - specifies the favicon.
+* `html_search` - enables Sphinx's generated search functionality.
+* `html_permalinks` - enables section permalinks.
+* `html_context` - provides variables to Jinja templates.
+* `redirects` - defines redirects for URLs from the old website.
 
 Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
 

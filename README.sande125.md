@@ -18,7 +18,7 @@ All changes are **reviewed** before they are **merged and published to the websi
 
 # Note on Sphinx
 
-[**Sphinx**](https://www.sphinx-doc.org/) is the documentation generator used to build the CCB website from Markdown and configuration files. 
+**Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files. 
 It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
 
 For example, Sphinx automatically provides:
@@ -52,13 +52,9 @@ YAML + MyST Markdown + Jinja templates + conf.py + WebP
 
 Using a web browser:
 
-1. Log in to GitHub.
+1. Log in to **GitHub**.
 
-2. Navigate to the CCB website repository:
-
-```text
-https://github.com/dpuiu/www.ccb.jhu.edu
-```
+2. Navigate to the CCB website repository: `https://github.com/dpuiu/www.ccb.jhu.edu`
 
 3. Click **Fork** in the upper-right corner to create your own copy of the repository under your GitHub account.
 
@@ -84,7 +80,6 @@ If any of these tools are missing, you can install them on Ubuntu with:
 sudo apt update
 sudo apt install python3 python3-pip python3-venv python-is-python3 git gh
 ```
-
 ---
 
 ## 3. Log In to GitHub
@@ -93,7 +88,6 @@ Authenticate the GitHub CLI:
 
 ```bash
 gh auth login
-
 gh auth status
 ```
 
@@ -109,7 +103,6 @@ Set username and email:
 ```bash
 git config --global user.name "..."
 git config --global user.email "..."
-
 git config --list
 ```
 
@@ -455,7 +448,9 @@ head -n 40  people/faculty.md
 
 ::::
 ```
-> [!IMPORTANT] {{ \w+ }} corespond to substitutions defined in conf.py
+> [!IMPORTANT] 
+> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
+
 
 ```bash
 grep -A 5 myst_substitutions  conf.py 
@@ -468,6 +463,7 @@ myst_substitutions = {
     "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
     "BME":  "[BME](https://www.bme.jhu.edu/)",
     "bsph": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
+    ...
 ```
 
 ### 7.3 Edit Templates
@@ -489,19 +485,19 @@ _templates/people.jinja
 
 Important settings include:
 
-* `html_theme` — selects the Sphinx theme from the `html_theme` environment variable.
-* `templates_path` — specifies the custom Jinja/Sphinx templates.
-* `html_baseurl` — defines the base URL of the website.
-* `html_css_files` — loads custom CSS.
-* `html_js_files` — loads custom JavaScript.
-* `html_static_path` — makes files under `_static/` available to the build.
-* `html_extra_path` — copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
-* `html_title` — sets the website title.
-* `html_favicon` — specifies the favicon.
-* `html_search` — enables Sphinx's generated search functionality.
-* `html_permalinks` — enables section permalinks.
-* `html_context` — provides variables to Jinja templates.
-* `redirects` — defines redirects for URLs from the old website.
+* `html_theme` - selects the Sphinx theme from the `html_theme` environment variable.
+* `templates_path` - specifies the custom Jinja/Sphinx templates.
+* `html_baseurl` - defines the base URL of the website.
+* `html_css_files` - loads custom CSS.
+* `html_js_files` - loads custom JavaScript.
+* `html_static_path` - makes files under `_static/` available to the build.
+* `html_extra_path` - copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
+* `html_title` - sets the website title.
+* `html_favicon` - specifies the favicon.
+* `html_search` - enables Sphinx's generated search functionality.
+* `html_permalinks` - enables section permalinks.
+* `html_context` - provides variables to Jinja templates.
+* `redirects` - defines redirects for URLs from the old website.
 
 Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
 
