@@ -31,8 +31,7 @@ A program for filtering, converting and manipulating GFF files
 
 A program for comparing, annotating, merging and tracking transcripts in GFF files
 
-
-**Newer Software**
+<!--**Newer Software**-->
 
 ## [TranSigner](https://github.com/haydenji0731/transigner)
 
@@ -51,8 +50,7 @@ PhyloCSF++ is a fast and user-friendly implementation of PhyloCSF with
 annotation tools.
 [See the paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9991890/).
 
-
-**Older Software**
+<!--**Older Software**-->
 
 ## [Cufflinks](https://cole-trapnell-lab.github.io/cufflinks/)
 

@@ -1,6 +1,6 @@
 # Computational Gene Finding
 
-**Newer Software**
+<!--**Newer Software**-->
 
 ## [EviAnn](https://github.com/alekseyzimin/EviAnn_release)
 
@@ -32,7 +32,7 @@ ORFanage investigates open reading frames in known and novel transcripts.
 
 ## [Glimmer](https://github.com/salzberg-lab/glimmer/wiki)
 
-**Older Software**  
+<!--**Older Software**-->
 
 A system that uses interpolated Markov models to find genes in microbial DNA.
 Used to annotate hundreds (possibly thousands) of bacterial, archaeal, and viral

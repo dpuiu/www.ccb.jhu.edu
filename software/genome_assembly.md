@@ -38,14 +38,14 @@ A fast, accurate program to increase the length of reads by overlapping and
 merging paired reads from fragments shorter than twice the length of reads.
 Primarily designed to merge Illumina paired reads.
 
-**Newer Software**
+<!--**Newer Software**-->
 
 ## [JASPER](https://github.com/alguoo314/JASPER)
 
 JASPER is a fast genome polishing tool that improves the accuracy of genome
 assemblies. [See the journal paper here](https://pmc.ncbi.nlm.nih.gov/articles/PMC10096238/).
 
-**Older Software**
+<!--**Older Software**-->
 
 ## [AMOS Assembler project](https://amos.sourceforge.net/)
 

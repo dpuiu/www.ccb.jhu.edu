@@ -1,153 +1,202 @@
-/* google fonts */
-body {
-  font-family: "Inter", sans-serif;
+/*======================================================================
+CCB Website Custom CSS
+======================================================================*/
+
+/*======================================================================
+Variables
+======================================================================*/
+
+:root {
+--ccb-blue: #002d72;
+--ccb-light-blue: #68ace5;
+--search-yellow: #ffeb3b;
+--table-gray: #d6d8da;
 }
+
+/*======================================================================
+Base
+======================================================================*/
+
+/* Google Fonts */
+body {
+font-family: "Inter", sans-serif;
+line-height: 1.6;
+}
+
+/*======================================================================
+Search
+======================================================================*/
 
 /* Highlight search matches */
 mark,
 .highlighted,
 .search li em,
 span.highlight {
-    background: #ffeb3b !important;
-    color: black !important;
-    padding: 2px 3px;
-    border-radius: 3px;
+background-color: var(--search-yellow) !important;
+color: #000 !important;
+padding: 2px 3px;
+border-radius: 3px;
 }
 
-/*--------------------------------------*/
-/* Hide on mobile */
-@media (max-width: 768px) {
-    .hide-mobile {
-        display: none !important;
-    }
-}
+/*======================================================================
+Header
+======================================================================*/
 
-/* Hide table columns 4,5 */
-@media (max-width: 768px) {
-  table.responsive-table th:nth-child(4),
-  table.responsive-table td:nth-child(4),
-  table.responsive-table th:nth-child(5),
-  table.responsive-table td:nth-child(5) {
-    display: none;
-  }
-}
-
-/*--------------------------------------*/
-/* Alternate table row colors */
-table.docutils tr:nth-child(even) {
-    background-color: #d6d8da;
-}
-
-table.docutils tr:nth-child(odd) {
-    background-color: white;
-}
-
-table.docutils {
-    margin-left: 0 !important;
-    margin-right: auto !important;
-    text-align: left;
-}
-
-table.docutils td,
-table.docutils th {
-    text-align: left;
-}
-
-/*--------------------------------------*/
-/* Smaller text in grid */
-.sd-card-text,
-.sd-card-text p {
-    font-size: 0.9rem !important;
-}
-	
-/*--------------------------------------*/
-.mermaid svg {
-    max-width: 400px;
-    height: auto;
-}
-
-/*--------------------------------------*/
-
-/* Header announcements color: light blue*/
+/* Header announcement */
 .bd-header-announcement {
-    background-color: #68ACE5 !important;
-    color: white !important;
+background-color: var(--ccb-light-blue) !important;
+color: #fff !important;
 }
 
+/* Announcement text */
+.bd-header-announcement__content,
+.announcement {
+color: yellow;
+}
 
-/* Header menu text: bold  */
+/* Header navigation */
 .bd-navbar-elements .nav-link,
 .nav-item.current .nav-link,
 .nav-item.active .nav-link {
-    font-weight: 1000;
+font-weight: 700;
 }
 
-/*--------------------------------------*/
-
-/* Justified text */
-@media (min-width: 1200px) {
-  .bd-content p {
-    text-align: justify;
-  }
-}
-
-/*-------------------------*/
+/*======================================================================
+Site Header / Footer
+======================================================================*/
 
 .site-header {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    background: #002D72 !important ;
-    color: white !important;
-    padding: 10px 20px !important;
-    margin-top: 2rem !important;
+display: flex !important;
+justify-content: space-between !important;
+align-items: center !important;
+background-color: var(--ccb-blue) !important;
+color: #fff !important;
+padding: 10px 20px !important;
+margin-top: 2rem !important;
 }
 
 .site-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #002D72;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: var(--ccb-blue);
+color: #fff;
+padding: 10px 20px;
+margin-top: 2rem;
 }
 
-/* Decrease H1 from 2rem to 1.85 ren */
-h1 { font-size: 1.85rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; }
+/*======================================================================
+Sidebar
+======================================================================*/
 
-/* make announcement yellow */
-.bd-header-announcement__content,
-.announcement {
-  color: yellow;
-}
-
-/* remove right sidebar
+/* Remove the secondary sidebar 
 .bd-sidebar-secondary {
-    display: none;
+display: none;
 }
 */
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {    filter: invert(1); }
+/*======================================================================
+Content
+======================================================================*/
 
-<!--
-.carousel-control-prev {    left: -100px;}
-.carousel-control-next {    right: -100px;}
--->
+/* Heading sizes */
+.bd-content h1 {
+font-size: 1.85rem;
+}
+
+.bd-content h2 {
+font-size: 1.5rem;
+}
+
+.bd-content h3 {
+font-size: 1.25rem;
+}
+
+.bd-content h4 {
+font-size: 1.1rem;
+}
+
+/* Justified text on large screens */
+@media (min-width: 1200px) {
+.bd-content p {
+text-align: justify;
+}
+}
+
+/*======================================================================
+Tables
+======================================================================*/
+
+/* Alternate table row colors */
+table.docutils tbody tr:nth-child(even) {
+background-color: var(--table-gray);
+}
+
+/* Table alignment */
+table.docutils {
+margin-inline: 0 auto !important;
+text-align: left;
+}
+
+table.docutils th,
+table.docutils td {
+text-align: left;
+vertical-align: top;
+}
+
+/*======================================================================
+Cards
+======================================================================*/
+
+/* Smaller text in grid cards */
+.sd-card-text,
+.sd-card-text p {
+font-size: 0.9rem !important;
+}
+
+/*======================================================================
+Mermaid
+======================================================================*/
+
+.mermaid svg {
+max-width: 400px;
+height: auto;
+}
+
+/*======================================================================
+Carousel
+======================================================================*/
 
 .carousel {
-    max-width: 720px;
-    margin: auto;
+width: 100%;
+max-width: 720px;
+margin-inline: auto;
 }
 
-<!--
-.carousel-item img {
-    width: 100%;
-    height: 650px;
-    object-fit: cover;
+/* Invert carousel navigation icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+filter: invert(1);
 }
--->
+
+/*======================================================================
+Responsive
+======================================================================*/
+
+/* Hide elements and selected table columns on mobile */
+@media (max-width: 768px) {
+.hide-mobile {
+display: none !important;
+}
+
+```
+/* Hide columns 4 and 5 on mobile */
+table.responsive-table th:nth-child(4),
+table.responsive-table td:nth-child(4),
+table.responsive-table th:nth-child(5),
+table.responsive-table td:nth-child(5) {
+    display: none;
+}
+```
+
+}

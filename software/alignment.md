@@ -35,7 +35,7 @@ discovery of novel HLA alleles, DNA fingerprinting analysis, and other
 functionalities. All HISAT programs were developed by Daehwan Kim and they are
 currently maintained at [kim-lab.org](https://kim-lab.org/).
 
-**Older Software**
+<!--**Older Software**-->
 
 ## [Arioc](https://github.com/rwilton/arioc)
 
