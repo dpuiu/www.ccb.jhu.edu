@@ -2,11 +2,15 @@
 
 This repository contains the source files for the **Center for Computational Biology (CCB) website**, built with **Sphinx** and the **PyData Sphinx Theme**:
 
+```text
 https://dpuiu.github.io/www.ccb.jhu.edu/
+```
 
 The official CCB website is available at:
 
+```text
 https://ccb.jhu.edu/
+```
 
 We welcome contributions from CCB collaborators and lab members. You can help improve the website by editing MyST Markdown (`.md`) files or structured data files and submitting a pull request.
 
@@ -89,6 +93,8 @@ Authenticate the GitHub CLI:
 
 ```bash
 gh auth login
+
+gh auth status
 ```
 
 Then get your GitHub username:
@@ -96,6 +102,15 @@ Then get your GitHub username:
 ```bash
 GITHUB_USERNAME=$(gh api user --jq .login)
 echo $GITHUB_USERNAME
+```
+
+Set username and email:
+
+```bash
+git config --global user.name "..."
+git config --global user.email "..."
+
+git config --list
 ```
 
 ---
@@ -226,13 +241,10 @@ The main directories and files are:
 └── _build/                          # Generated Sphinx output (not committed)
 ```
 
-### Important: Generated People Pages
-
-Files under `people/` such as `faculty.md`, `staff.md`, and `students.md` are generated from structured data stored under `_people/`.
-
-**Do not edit the generated people pages directly.**
-
-Instead, edit the corresponding YAML file under `_people/` and regenerate the Markdown page.
+> [!IMPORTANT] 
+> Files under `people/` such as `faculty.md`, `staff.md`, and `students.md` are generated from structured data stored under `_people/`.
+> **Do not edit the generated people pages directly.**
+> Instead, edit the corresponding YAML file under `_people/` and regenerate the Markdown page.
 
 ---
 
@@ -259,12 +271,6 @@ Install the required Python packages:
 pip install -r requirements.txt
 ```
 
-If the virtual environment already exists and you have activated it, you can simply run:
-
-```bash
-pip install -r requirements.txt
-```
-
 ### 6.3 Build the Website
 
 The default theme is the PyData Sphinx Theme:
@@ -285,8 +291,6 @@ You can inspect the generated files with:
 tree _build/pydata_sphinx_theme/
 ```
 
-For example:
-
 ```text
 _build/pydata_sphinx_theme/
 ├── index.html
@@ -294,7 +298,7 @@ _build/pydata_sphinx_theme/
 └── ...
 ```
 
-To build using the Furo theme instead:
+To build the website using a different theme (e.g., Furo):
 
 ```bash
 make html html_theme=furo
@@ -312,13 +316,9 @@ python -m http.server 8000 \
 
 Open the website in a browser:
 
+```text
 http://127.0.0.1:8000/
-
-For example:
-
-http://127.0.0.1:8000/software/alignment.html
-
-There is no need to copy the generated files to a separate `docs/` directory.
+```
 
 Keep the server running while you make changes. After rebuilding the website, refresh the browser to see the updated pages.
 
@@ -328,6 +328,10 @@ Keep the server running while you make changes. After rebuilding the website, re
 
 The CCB website is built with **Sphinx** using **MyST Markdown**. Most content should be edited in the source files rather than in the generated HTML files.
 
+> [!IMPORTANT]
+> Any update should be followed by a `make html` and website refresh
+> **Do not manually edit files under `_build/`**. They are generated files and will be overwritten by the next Sphinx build.
+
 ### 7.1 Edit a Markdown Page
 
 Website pages are stored as Markdown files:
@@ -335,37 +339,30 @@ Website pages are stored as Markdown files:
 ```text
 about/about.md
 about/contact.md
-people/faculty.md
 software/alignment.md
+...
 ```
 
 Edit a page with your preferred editor:
 
 ```bash
-nano about/contact.md
+head software/alignment.md 
 ```
-
-After making changes, rebuild the website:
-
-```bash
-make html
-```
-
-Start the local web server if it is not already running:
-
-```bash
-python -m http.server 8000 --directory _build/html
-```
-
-Then open the corresponding page in your browser:
 
 ```text
-http://127.0.0.1:8000/about/contact.html
+# Alignment
+
+## [Bowtie](https://bowtie-bio.sourceforge.net/index.shtml)
+
+An ultrafast, memory-efficient short read aligner that aligns short DNA
+sequences to the human genome at a rate of about 25 million reads per hour on a
+typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
+to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
+Bowtie2 were developed by Ben Langmead and are actively supported by his lab.  
+...
 ```
 
-Sphinx automatically generates the HTML, navigation, search index, table of contents, permalinks, and other site components during the build.
-
-### 7.2 Edit People Data
+### 7.2 Edit Raw Data
 
 People pages are generated from YAML data files stored under `_people/`. Do **not** edit the generated Markdown pages directly.
 
@@ -373,11 +370,29 @@ For example:
 
 ```text
 _people/faculty.yaml
-_people/staff.yaml
-_people/postdocs.yaml
 _people/students.yaml
-_people/collaborators.yaml
 _people/alumni.yaml
+...
+```
+
+```bash
+head _people/faculty.yaml -n 20
+```
+
+```text
+people:
+  - id: steven-l-salzberg
+    name: Steven L. Salzberg, Ph.D.
+    image: /_static/people/steven-l-salzberg.webp
+    titles:
+      - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
+      - Director, Center for Computational Biology
+    affiliations:
+      - bme
+      - cs
+      - bsph
+    homepage: https://salzberg-lab.org
+    email: salzberg@jhu.edu
 ```
 
 Edit the data:
@@ -402,43 +417,58 @@ jinja2 _templates/people.jinja _people/faculty.yaml \
     > people/faculty.md
 ```
 
-The generated Markdown file can then be processed by Sphinx:
-
 ```bash
-make html
+head -n 40  people/faculty.md 
 ```
-
-The workflow is:
 
 ```text
-_people/faculty.yaml
-        ↓
-   Jinja2 template
-        ↓
- people/faculty.md
-        ↓
-      Sphinx
-        ↓
- _build/html/people/faculty.html
+# Faculty 
+
+(steven-l-salzberg)=
+## Steven L. Salzberg, Ph.D.
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/steven-l-salzberg.webp
+:width: 240px
+:alt: Steven L. Salzberg, Ph.D.
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
+**Director, Center for Computational Biology**  
+
+{{ bme }}  
+{{ cs }}  
+{{ bsph }}  
+
+[Homepage](https://salzberg-lab.org)  
+[salzberg@jhu.edu](mailto:salzberg@jhu.edu) 
+
+::::
 ```
 
-The same process is used for all people categories.
 
 ### 7.3 Edit Templates
 
 Reusable page structures are implemented with **Jinja2 templates** under:
 
 ```text
-_templates/
-```
-
-For example:
-
-```text
+_templates/page.html
 _templates/people.jinja
 ```
 
-Templates should be modified when the structure or presentation of a group of generated pages needs to change. Individual data records should remain in the YAML files.
+> [!IMPORTANT]
+> Templates should be modified when the structure or presentation of a group of generated pages needs to change. 
+> Individual data records should remain in the YAML files.
 
 ### 7.4 Edit the Sphinx Configuration
 
@@ -472,8 +502,6 @@ _static/custom.css
 
 This file contains CSS classes and rules that customize the appearance of the selected Sphinx theme.
 
-For example, changes to layout, spacing, fonts, colors, navigation, or other visual elements should generally be made here rather than directly modifying the theme's files.
-
 ### 7.6 Edit JavaScript
 
 Custom client-side behavior is defined in:
@@ -483,32 +511,6 @@ _static/custom.js
 ```
 
 Use this file for JavaScript functionality specific to the CCB website.
-
-Both `custom.css` and `custom.js` are included through `conf.py`:
-
-```python
-html_css_files = [
-    "custom.css",
-]
-
-html_js_files = [
-    "custom.js",
-]
-```
-
-After changing `conf.py`, templates, CSS, JavaScript, or generated Markdown, rebuild the website:
-
-```bash
-make html
-```
-
-The generated website is placed under:
-
-```text
-_build/html/
-```
-
-**Do not manually edit files under `_build/html/`**. They are generated files and will be overwritten by the next Sphinx build.
 
 ---
 
@@ -524,20 +526,6 @@ Review the actual changes:
 
 ```bash
 git diff
-```
-
-Make sure that:
-
-* You modified the correct source files.
-* Generated files under `_build/` are not being committed.
-* You did not accidentally modify unrelated files.
-* The website builds without errors.
-* The modified pages look correct in the local website.
-
-You can check whether `_build/` is ignored by Git with:
-
-```bash
-git status --ignored
 ```
 
 ---
@@ -568,6 +556,12 @@ Push the changes to your GitHub fork:
 git push
 ```
 
+Undo the changes:
+- not pushed : `git reset` 
+- pushed : `git revert`
+
+```
+
 ---
 
 ## 10. GitHub Actions and Deployment
@@ -580,15 +574,17 @@ The workflow is defined in:
 .github/workflows/deploy.yml
 ```
 
-The main CCB repository is configured to build and deploy the website automatically. However, **GitHub Actions and GitHub Pages may not be enabled or configured automatically when you create a fork**.
+The main CCB repository is configured to build and deploy the website automatically. 
+However, **GitHub Actions and GitHub Pages may not be enabled or configured automatically when you create a fork**.
 
-If you want to build and publish your own fork as a GitHub Pages website, you may need to configure it first.
 
 ### 10.1 Enable GitHub Actions
 
 Open the **Actions** tab of your fork:
 
+```text
 https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions
+```
 
 If GitHub displays a message indicating that workflows are disabled, enable workflows for the repository.
 
@@ -596,7 +592,9 @@ The workflow should then appear under **Actions**.
 
 You can also open the workflow directly:
 
+```text
 https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions/workflows/deploy.yml
+```
 
 If necessary, click **Enable workflow**.
 
@@ -604,7 +602,9 @@ If necessary, click **Enable workflow**.
 
 Open the **Pages** settings for your fork:
 
+```text
 https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/settings/pages
+```
 
 Under **Build and deployment**, set:
 
@@ -612,33 +612,15 @@ Under **Build and deployment**, set:
 Source: GitHub Actions
 ```
 
-Do **not** select **Deploy from a branch** if the `deploy.yml` workflow is configured to deploy the site using GitHub Actions.
-
-### 10.3 Check Workflow Permissions
-
 GitHub Actions may also require permission to write to the repository or deploy to GitHub Pages.
-
-Open:
-
-https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/settings/actions
-
-Check the **Workflow permissions** section.
-
-If the workflow requires write access, select:
-
-```text
-Read and write permissions
-```
-
-and save the settings.
-
-The exact permissions required depend on the deployment configuration in `.github/workflows/deploy.yml`.
 
 ### 10.4 Run the Workflow
 
 After enabling Actions and configuring GitHub Pages, go to:
 
+```text
 https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions
+```
 
 Select the deployment workflow and click **Run workflow** if manual execution is available.
 
@@ -658,7 +640,9 @@ GitHub Actions will then build the website and, if the workflow and Pages settin
 
 You can monitor workflow runs at:
 
+```text
 https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions
+```
 
 A successful workflow should show a green check mark.
 
@@ -668,23 +652,14 @@ If the workflow fails, click the workflow run to see the build and deployment lo
 
 After a successful deployment, your fork should be available at:
 
-https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
-
-For example, if your GitHub username is `jsmith`:
-
 ```text
-https://jsmith.github.io/www.ccb.jhu.edu/
+https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
 ```
 
-The official CCB website is:
-
-https://ccb.jhu.edu/
-
-### Important
-
-The GitHub Pages site for your fork is useful for testing changes before submitting a pull request. **Publishing your fork does not change the official CCB website.**
-
-Only changes merged into the main CCB repository are deployed to the official website.
+> [!IMPORTANT]
+> The GitHub Pages site for your fork is useful for testing changes before submitting a pull request. 
+> **Publishing your fork does not change the official CCB website.**
+> Only changes merged into the main CCB repository are deployed to the official website.
 
 ---
 
@@ -692,24 +667,12 @@ Only changes merged into the main CCB repository are deployed to the official we
 
 After pushing your changes to your fork, open a pull request from your fork to the main CCB website repository:
 
-https://github.com/dpuiu/www.ccb.jhu.edu/pulls
-
-Include a short description of what you changed.
-
-For example:
-
 ```text
-Updated the software alignment page to add information
-about the latest versions of BWA and HISAT2.
+https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 ```
 
-Before submitting the pull request, make sure that:
-
-* The website builds successfully.
-* Your changes look correct in the local website.
-* You did not modify generated files unnecessarily.
-* You committed the intended files.
-* The pull request description clearly explains your changes.
+Include a short description of what you changed.  
+Before submitting the pull request, make sure that the website builds successfully and our changes look correct in the local website.
 
 ---
 
