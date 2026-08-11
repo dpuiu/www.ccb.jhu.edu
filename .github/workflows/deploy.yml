@@ -51,11 +51,12 @@ jobs:
       - name: Build Sphinx site
         run: |
           make html html_theme=pydata_sphinx_theme
+          cp -a _build/pydata_sphinx_theme/. docs/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: _build/pydata_sphinx_theme
+          path: docs
 
   deploy:
     needs: build
