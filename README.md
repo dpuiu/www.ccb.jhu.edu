@@ -10,7 +10,7 @@ The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the [**P
 The website content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) that provides additional features for technical and scientific documentation.
 The repository also contains [**YAML**](https://yaml.org/) files for structured website data and [**WebP**](https://developers.google.com/speed/webp) images used throughout the website.
 
-**We welcome contributions from CCB collaborators and lab members**.  
+**We welcome contributions from CCB collaborators and lab members**.
 You can help improve the website by editing files and submitting a **pull request**.
 All changes are **reviewed** before they are **merged and published to the website**.
 
@@ -18,19 +18,19 @@ All changes are **reviewed** before they are **merged and published to the websi
 
 # Note on Sphinx
 
-**Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files. 
+**Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files.
 It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
 
 For example, Sphinx automatically provides:
 
-* **Navigation** - builds the site structure from the document hierarchy and `toctree` directives.
-* **Search** - generates the search index and search interface.
-* **Table of contents** - creates navigation from document and section structure.
-* **Cross-references** - generates links between pages, sections, and other documented objects.
-* **Permalinks** - creates stable URLs for sections and pages.
-* **HTML pages** - converts the source Markdown files into the final HTML website.
-* **Theme integration** - applies the selected Sphinx theme to the generated pages.
-* **Static assets** - processes and copies CSS, JavaScript, images, and other static files.
+- **Navigation** - builds the site structure from the document hierarchy and `toctree` directives.
+- **Search** - generates the search index and search interface.
+- **Table of contents** - creates navigation from document and section structure.
+- **Cross-references** - generates links between pages, sections, and other documented objects.
+- **Permalinks** - creates stable URLs for sections and pages.
+- **HTML pages** - converts the source Markdown files into the final HTML website.
+- **Theme integration** - applies the selected Sphinx theme to the generated pages.
+- **Static assets** - processes and copies CSS, JavaScript, images, and other static files.
 
 The `_build/` directory contains the generated website. Source files should be edited instead of the generated HTML files.
 
@@ -79,6 +79,7 @@ sudo apt update
 sudo apt install python3 python3-pip python3-venv \
   python-is-python3 git gh yq
 ```
+
 ---
 
 ## 3. Log In to GitHub
@@ -233,7 +234,7 @@ The main directories and files are:
 └── _build/                          # Generated Sphinx output (not committed)
 ```
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Files under `people/` such as `faculty.md`, `staff.md`, and `students.md` are generated from structured data stored under `_people/`.
 > **Do not edit the generated people pages directly.**
 > Instead, edit the corresponding YAML file under `_people/` and regenerate the Markdown page.
@@ -322,9 +323,9 @@ The CCB website is built with **Sphinx** using **MyST Markdown**. Most content s
 
 > [!IMPORTANT]
 > Any update should be followed by a `make html` and website refresh
-> **Do not manually edit files under `_build/`**. They are generated files and will be overwritten by the next Sphinx build.
+> **Do not manually edit files under** **`_build/`**. They are generated files and will be overwritten by the next Sphinx build.
 
-### 7.1 Viewing the Structure
+### 7.1 View the Structure
 
 Sphinx uses `index.md` files as **landing pages** for the website and for individual sections.
 
@@ -340,7 +341,7 @@ software/index.md
 ... 
 ```
 
-The main `index.md` defines the top-level sections of the website using a hidden `toctree`. 
+The main `index.md` defines the top-level sections of the website using a hidden `toctree`.
 
 ```bash
 cat index.md 
@@ -395,12 +396,12 @@ alumni
 :::
 ```
 
-The `toctree` defines the pages that belong to the **People** section. 
+The `toctree` defines the pages that belong to the **People** section.
 The entries correspond to Markdown files in the same directory, so `faculty` refers to `faculty.md`, `students` refers to `students.md`, and so on.
 
 The `:hidden:` option makes these pages part of Sphinx's document tree and navigation structure without displaying the list of links directly on the `People` landing page.
 
-### 7.2 Adding a Markdown Page
+### 7.2 Add a Markdown Page
 
 To add a new page to a section:
 
@@ -455,7 +456,7 @@ Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
 ...
 ```
 
-### 7.4 Edit Raw Data
+### 7.4 Edit YAML Documents
 
 People pages are generated from YAML data files stored under `_people/`. Do **not** edit the generated Markdown pages directly.
 
@@ -514,7 +515,7 @@ jinja2 _templates/people.jinja _people/faculty.yaml \
 head -n 40  people/faculty.md 
 ```
 
-```text
+````text
 # Faculty 
 
 (steven-l-salzberg)=
@@ -547,10 +548,10 @@ head -n 40  people/faculty.md
 [salzberg@jhu.edu](mailto:salzberg@jhu.edu) 
 
 ::::
-```
-> [!IMPORTANT] 
-> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
+````
 
+> [!IMPORTANT]
+> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
 
 ```bash
 grep -A 5 myst_substitutions  conf.py 
@@ -589,7 +590,7 @@ _templates/people.jinja
 ```
 
 > [!IMPORTANT]
-> Templates should be modified when the structure or presentation of a group of generated pages needs to change. 
+> Templates should be modified when the structure or presentation of a group of generated pages needs to change.
 > Individual data records should remain in the YAML files.
 
 ### 7.6 Edit the Sphinx Configuration
@@ -598,19 +599,19 @@ _templates/people.jinja
 
 Important settings include:
 
-* `html_theme` - selects the Sphinx theme from the `html_theme` environment variable.
-* `templates_path` - specifies the custom Jinja/Sphinx templates.
-* `html_baseurl` - defines the base URL of the website.
-* `html_css_files` - loads custom CSS.
-* `html_js_files` - loads custom JavaScript.
-* `html_static_path` - makes files under `_static/` available to the build.
-* `html_extra_path` - copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
-* `html_title` - sets the website title.
-* `html_favicon` - specifies the favicon.
-* `html_search` - enables Sphinx's generated search functionality.
-* `html_permalinks` - enables section permalinks.
-* `html_context` - provides variables to Jinja templates.
-* `redirects` - defines redirects for URLs from the old website.
+- `html_theme` - selects the Sphinx theme from the `html_theme` environment variable.
+- `templates_path` - specifies the custom Jinja/Sphinx templates.
+- `html_baseurl` - defines the base URL of the website.
+- `html_css_files` - loads custom CSS.
+- `html_js_files` - loads custom JavaScript.
+- `html_static_path` - makes files under `_static/` available to the build.
+- `html_extra_path` - copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
+- `html_title` - sets the website title.
+- `html_favicon` - specifies the favicon.
+- `html_search` - enables Sphinx's generated search functionality.
+- `html_permalinks` - enables section permalinks.
+- `html_context` - provides variables to Jinja templates.
+- `redirects` - defines redirects for URLs from the old website.
 
 Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
 
@@ -647,7 +648,7 @@ git diff
 
 ---
 
-## 9. Commit Your Changes
+## 9. Commit/Undo Your Changes
 
 Add the files you want to commit:
 
@@ -675,9 +676,8 @@ git push
 
 To undo changes:
 
-* **Not pushed:** `git reset`
-* **Already pushed:** `git revert`
-
+- **Not pushed:** `git reset`
+- **Already pushed:** `git revert`
 
 ---
 
@@ -691,9 +691,8 @@ The workflow is defined in:
 .github/workflows/deploy.yml
 ```
 
-The main CCB repository is configured to build and deploy the website automatically.   
+The main CCB repository is configured to build and deploy the website automatically.
 However, **GitHub Actions and GitHub Pages may not be enabled or configured automatically when you create a fork**.
-
 
 ### 10.1 Enable GitHub Actions
 
@@ -711,7 +710,7 @@ Open the **Settings** tab of your fork and select **Actions/General**:
 
 ```text
 https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/settings/actions
-```	
+```
 
 Workflow permissions: click "Read and write permissions"
 
@@ -732,7 +731,7 @@ Source: GitHub Actions
 GitHub Actions may also require permission to write to the repository or deploy to GitHub Pages.
 
 ### 10.4 Run the Workflow
-	
+
 After enabling Actions and configuring GitHub Pages, go to:
 
 ```text
@@ -774,7 +773,7 @@ https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
 ```
 
 > [!IMPORTANT]
-> The GitHub Pages site for your fork is useful for testing changes before submitting a pull request. 
+> The GitHub Pages site for your fork is useful for testing changes before submitting a pull request.
 > **Publishing your fork does not change the official CCB website.**
 > Only changes merged into the main CCB repository are deployed to the official website.
 
@@ -788,7 +787,7 @@ After pushing your changes to your fork, open a pull request from your fork to t
 https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 ```
 
-Include a short description of what you changed.  
+Include a short description of what you changed.
 Before submitting the pull request, make sure that the website builds successfully and our changes look correct in the local website.
 
 ---
@@ -799,9 +798,9 @@ All changes are reviewed by the CCB website maintainers before they are merged.
 
 Maintainers may:
 
-* **Approve and merge** the pull request.
-* **Request changes**.
-* **Suggest improvements**.
-* Ask for additional information or clarification.
+- **Approve and merge** the pull request.
+- **Request changes**.
+- **Suggest improvements**.
+- Ask for additional information or clarification.
 
 Once the pull request is approved and merged, GitHub Actions will rebuild and deploy the website.
