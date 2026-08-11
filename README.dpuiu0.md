@@ -576,7 +576,7 @@ The workflow is defined in:
 .github/workflows/deploy.yml
 ```
 
-The main CCB repository is configured to build and deploy the website automatically. 
+The main CCB repository is configured to build and deploy the website automatically.   
 However, **GitHub Actions and GitHub Pages may not be enabled or configured automatically when you create a fork**.
 
 
