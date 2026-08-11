@@ -337,7 +337,7 @@ Sphinx uses `index.md` files as **landing pages** for the website and for indivi
   about/index.md
   people/index.md
   software/index.md
-... 
+  ... 
 ```
 
 The main `index.md` defines the top-level sections of the website using a hidden `toctree`. 
@@ -380,7 +380,7 @@ View the section's `index.md` with:
 
 For example:
 
-````markdown
+```text
   ---
   title: People
   ---
@@ -394,7 +394,7 @@ For example:
   alumni
   ...
   ```
-````
+```
 
 The `toctree` defines the pages that belong to the **People** section. The entries correspond to Markdown files in the same directory, so `faculty` refers to `faculty.md`, `students` refers to `students.md`, and so on.
 
@@ -412,7 +412,7 @@ Create the Markdown file. For example:
 
 Add the page to the section's `index.md` `toctree`:
 
-````markdown
+```text
   ```{toctree}
   :maxdepth: 2
   :hidden:
@@ -423,7 +423,7 @@ Add the page to the section's `index.md` `toctree`:
   alumni
   visitors
   ```
-````
+```
 
 ### 7.3 Edit a Markdown Page
 
