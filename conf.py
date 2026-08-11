@@ -8,7 +8,7 @@ copyright = "The Center for Computational Biology at Johns Hopkins University"
 project = "CCB"
 release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , 'other', 'software.wiki' , '.venv', "README*md"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , '.venv', "README*md"]
 extensions = [
     "myst_parser",
     "sphinx_design",
