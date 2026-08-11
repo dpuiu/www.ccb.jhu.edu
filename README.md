@@ -10,7 +10,7 @@ The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the [**P
 The website content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) that provides additional features for technical and scientific documentation.
 The repository also contains [**YAML**](https://yaml.org/) files for structured website data and [**WebP**](https://developers.google.com/speed/webp) images used throughout the website.
 
-**We welcome contributions from CCB collaborators and lab members**.
+**We welcome contributions from CCB collaborators and lab members**.  
 You can help improve the website by editing files and submitting a **pull request**.
 All changes are **reviewed** before they are **merged and published to the website**.
 
@@ -58,9 +58,7 @@ Using a web browser:
 
 3. Click **Fork** in the upper-right corner to create your own copy of the repository under your GitHub account.
 
-If you already have a fork, open your forked repository and click **Sync fork** to update it with the latest changes from the original repository.
-
-You can make changes in your fork and submit them back to the main repository through a pull request.
+If you already have a fork, open your forked repository and click **Sync fork** to update it with the latest changes from the original repository. You can make changes in your fork and submit them back to the main repository through a **pull request**.
 
 ---
 
@@ -529,11 +527,6 @@ Before committing your changes, check which files have been modified:
 
 ```bash
 git status
-```
-
-Review the actual changes:
-
-```bash
 git diff
 ```
 
@@ -565,11 +558,11 @@ Push the changes to your GitHub fork:
 git push
 ```
 
-Undo the changes:
-- not pushed : `git reset` 
-- pushed : `git revert`
+To undo changes:
 
-```
+* **Not pushed:** `git reset`
+* **Already pushed:** `git revert`
+
 
 ---
 
