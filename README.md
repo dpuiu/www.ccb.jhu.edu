@@ -1,51 +1,49 @@
 # Contributing to the CCB Website
 
-This repository contains the source files for the **Center for Computational Biology (CCB) website**, built with **Sphinx** and the **PyData Sphinx Theme**:
+This repository contains the source files for the new [**Center for Computational Biology (CCB)**](https://ccb.jhu.edu/) website
 
 ```text
 https://dpuiu.github.io/www.ccb.jhu.edu/
 ```
 
-The official CCB website is available at:
+The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the [**PyData Sphinx Theme**](https://pydata-sphinx-theme.readthedocs.io/).  
+The website content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) that provides additional features for technical and scientific documentation.  
+The repository also contains [**YAML**](https://yaml.org/) files for structured website data and [**WebP**](https://developers.google.com/speed/webp) images used throughout the website.  
 
-```text
-https://ccb.jhu.edu/
-```
-
-We welcome contributions from CCB collaborators and lab members. You can help improve the website by editing MyST Markdown (`.md`) files or structured data files and submitting a pull request.
-
-All changes are reviewed before they are merged and published to the website.
+We welcome contributions from CCB collaborators and lab members.  
+You can help improve the website by editing files and submitting a pull request.  
+All changes are reviewed before they are merged and published to the website.  
 
 ---
 
 # Note on Sphinx
 
-
-Sphinx is the documentation generator used to build the CCB website from Markdown and configuration files. It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
+[**Sphinx**](https://www.sphinx-doc.org/) is the documentation generator used to build the CCB website from Markdown and configuration files. 
+It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
 
 For example, Sphinx automatically provides:
 
-* **Navigation** — builds the site structure from the document hierarchy and `toctree` directives.
-* **Search** — generates the search index and search interface.
-* **Table of contents** — creates navigation from document and section structure.
-* **Cross-references** — generates links between pages, sections, and other documented objects.
-* **Permalinks** — creates stable URLs for sections and pages.
-* **HTML pages** — converts the source Markdown files into the final HTML website.
-* **Theme integration** — applies the selected Sphinx theme to the generated pages.
-* **Static assets** — processes and copies CSS, JavaScript, images, and other static files.
+* **Navigation** - builds the site structure from the document hierarchy and `toctree` directives.
+* **Search** - generates the search index and search interface.
+* **Table of contents** - creates navigation from document and section structure.
+* **Cross-references** - generates links between pages, sections, and other documented objects.
+* **Permalinks** - creates stable URLs for sections and pages.
+* **HTML pages** - converts the source Markdown files into the final HTML website.
+* **Theme integration** - applies the selected Sphinx theme to the generated pages.
+* **Static assets** - processes and copies CSS, JavaScript, images, and other static files.
 
-The `_build/html` directory contains the generated website. Source files should be edited instead of the generated HTML files.
+The `_build/` directory contains the generated website. Source files should be edited instead of the generated HTML files.
 
 The overall workflow is:
 
 ```text
-Markdown + Jinja templates + conf.py
-                  ↓
-                Sphinx
-                  ↓
-          _build/html/
-                  ↓
-             Web website
+YAML + MyST Markdown + Jinja templates + conf.py + WebP
+                           ↓
+                         Sphinx
+                           ↓
+                      _build/html/
+                           ↓
+                      Web website
 ```
 
 ---
@@ -58,7 +56,9 @@ Using a web browser:
 
 2. Navigate to the CCB website repository:
 
-   https://github.com/dpuiu/www.ccb.jhu.edu
+```text
+https://github.com/dpuiu/www.ccb.jhu.edu
+```
 
 3. Click **Fork** in the upper-right corner to create your own copy of the repository under your GitHub account.
 
@@ -455,7 +455,20 @@ head -n 40  people/faculty.md
 
 ::::
 ```
+> [!IMPORTANT] {{ \w+ }} corespond to substitutions defined in conf.py
 
+```bash
+grep -A 5 myst_substitutions  conf.py 
+```
+
+```text
+myst_substitutions = {
+    "ARCH": "[ARCH](https://www.arch.jhu.edu/)",
+    "bio":  "[Department of Bilogy](https://bio.jhu.edu/)",
+    "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
+    "BME":  "[BME](https://www.bme.jhu.edu/)",
+    "bsph": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
+```
 
 ### 7.3 Edit Templates
 
