@@ -588,21 +588,21 @@ Open the **Actions** tab of your fork:
 https://github.comsande125/www.ccb.jhu.edu/actions
 ```
 
-If GitHub displays a message indicating that workflows are disabled, enable workflows for the repository.
+If GitHub displays a message indicating that workflows are disabled, click **Enable workflow**.
 
-The workflow should then appear under **Actions**.
+### 10.2 Configure GitHub Actions
 
-You can also open the workflow directly:
+Open the **Settings** tab of your fork and select **Actions/General**:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions/workflows/deploy.yml
-```
+https://github.comsande125/www.ccb.jhu.edu/settings/actions
+```	
 
-If necessary, click **Enable workflow**.
+Workflow permissions: click "Read and write permissions"
 
-### 10.2 Configure GitHub Pages
+### 10.3 Configure GitHub Pages
 
-Open the **Pages** settings for your fork:
+Open the **Settings** tab  of your fork and select **Pages**:
 
 ```text
 https://github.comsande125/www.ccb.jhu.edu/settings/pages
@@ -617,7 +617,7 @@ Source: GitHub Actions
 GitHub Actions may also require permission to write to the repository or deploy to GitHub Pages.
 
 ### 10.4 Run the Workflow
-
+	
 After enabling Actions and configuring GitHub Pages, go to:
 
 ```text
