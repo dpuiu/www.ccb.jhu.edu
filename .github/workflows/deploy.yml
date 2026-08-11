@@ -54,7 +54,7 @@ jobs:
           cp -a _build/pydata_sphinx_theme/. docs/
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: docs
 
@@ -71,4 +71,4 @@ jobs:
 
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4.0.5
+        uses: actions/deploy-pages@v4
