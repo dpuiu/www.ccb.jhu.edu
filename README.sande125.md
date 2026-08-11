@@ -6,13 +6,13 @@ This repository contains the source files for the new [**Center for Computationa
 https://dpuiu.github.io/www.ccb.jhu.edu/
 ```
 
-The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the [**PyData Sphinx Theme**](https://pydata-sphinx-theme.readthedocs.io/).  
-The website content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) that provides additional features for technical and scientific documentation.  
-The repository also contains [**YAML**](https://yaml.org/) files for structured website data and [**WebP**](https://developers.google.com/speed/webp) images used throughout the website.  
+The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the [**PyData Sphinx Theme**](https://pydata-sphinx-theme.readthedocs.io/).
+The website content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) that provides additional features for technical and scientific documentation.
+The repository also contains [**YAML**](https://yaml.org/) files for structured website data and [**WebP**](https://developers.google.com/speed/webp) images used throughout the website.
 
-We welcome contributions from CCB collaborators and lab members.  
-You can help improve the website by editing files and submitting a pull request.  
-All changes are reviewed before they are merged and published to the website.  
+**We welcome contributions from CCB collaborators and lab members**.
+You can help improve the website by editing files and submitting a **pull request**.
+All changes are **reviewed** before they are **merged and published to the website**.
 
 ---
 
@@ -41,7 +41,7 @@ YAML + MyST Markdown + Jinja templates + conf.py + WebP
                            ↓
                          Sphinx
                            ↓
-                      _build/html/
+                        _build/
                            ↓
                       Web website
 ```
