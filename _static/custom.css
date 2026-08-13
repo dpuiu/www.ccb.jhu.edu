@@ -213,3 +213,34 @@ table.responsive-table td:nth-child(5) {
     font-size: 1rem;
   }
 }
+
+/*================================*/
+
+
+.bd-main {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.bd-content {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.bd-article-container {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+
+.full-width-image {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.full-width-image img {
+    width: 100%;
+    display: block;
+}
