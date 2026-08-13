@@ -5,7 +5,7 @@ For 2018 and after
 
 We no longer accept applications through CCB for summer interns. Some
 individual labs *may* be hiring student interns on an individual basis
-for the summer. Please see the {doc}'people' pages above and check if the
+for the summer. Please see the {doc}`people` pages above and check if the
 lab in which you're interested is offering internships. Inquiries
 should go directly to the Principal Investigator (PI) of the lab, not to
 this program.

@@ -4,7 +4,6 @@ people:
 
   - id: rebecca-keener
     name: Rebecca Keener, Ph.D.
-    image: /_static/people/rebecca-keener.webp
     titles:
       - Assistant Research Scientist, Battle Lab
     affiliations:
@@ -14,7 +13,6 @@ people:
 
   - id: daniela-puiu
     name: Daniela Puiu, M.S.
-    image: /_static/people/daniela-puiu.webp
     titles:
       - Bioinformatics Engineer & Senior Software Engineer
     affiliations:
@@ -24,7 +22,6 @@ people:
 
   - id: sarah-bailey
     name: Sarah Bailey
-    image: /_static/people/sarah-bailey.webp
     titles:
       - Sr. Administrative Coordinator
     affiliations:

@@ -21,7 +21,10 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinx.ext.mathjax",
+    "sphinxcontrib.bibtex"
 ]
+
+bibtex_bibfiles = ["_publications/pmc.bib"]
 
 master_doc = "index"
 

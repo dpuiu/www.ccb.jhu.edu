@@ -1,7 +1,6 @@
 people:
   - id: steven-l-salzberg
     name: Steven L. Salzberg, Ph.D.
-    image: /_static/people/steven-l-salzberg.webp
     titles:
       - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
       - Director, Center for Computational Biology
@@ -14,7 +13,6 @@ people:
 
   - id: dan-arking
     name: Dan Arking, Ph.D.
-    image: /_static/people/dan-arking.webp
     titles:
       - Professor
     affiliations:
@@ -25,7 +23,6 @@ people:
 
   - id: joel-bader
     name: Joel Bader, Ph.D.
-    image: /_static/people/joel-bader.webp
     titles:
       - Professor
     affiliations:
@@ -35,7 +32,6 @@ people:
 
   - id: alexis-battle
     name: Alexis Battle, Ph.D.
-    image: /_static/people/alexis-battle.webp
     titles:
       - Wu & Zhang Professor
       - Director, Malone Center for Engineering in Healthcare
@@ -49,7 +45,6 @@ people:
 
   - id: michael-beer
     name: Michael Beer, Ph.D.
-    image: /_static/people/mike-beer.webp
     titles:
       - Professor
     affiliations:
@@ -61,7 +56,6 @@ people:
 
   - id: uthsav-chitra
     name: Uthsav Chitra, Ph.D.
-    image: /_static/people/uthsav-chitra.webp
     titles:
       - Assistant Professor
     affiliations:
@@ -72,7 +66,6 @@ people:
 
   - id: jean-fan
     name: Jean Fan, Ph.D.
-    image: /_static/people/jean-fan.webp
     titles:
       - Associate Professor
     affiliations:
@@ -83,7 +76,6 @@ people:
 
   - id: liliana-florea
     name: Liliana Florea, Ph.D.
-    image: /_static/people/liliana-florea.webp
     titles:
       - Associate Professor
     affiliations:
@@ -95,7 +87,6 @@ people:
 
   - id: jeffrey-j-gray
     name: Jeffrey J. Gray, Ph.D.
-    image: /_static/people/jefferey-j-gray.webp
     titles:
       - Professor
     affiliations:
@@ -106,7 +97,6 @@ people:
 
   - id: kasper-d-hansen
     name: Kasper D. Hansen, Ph.D.
-    image: /_static/people/kasper-d-hansen.webp
     titles:
       - Professor
     affiliations:
@@ -118,7 +108,6 @@ people:
 
   - id: stephanie-hicks
     name: Stephanie Hicks, Ph.D.
-    image: /_static/people/stephanie-hicks.webp
     titles:
       - Associate Professor
     affiliations:
@@ -133,7 +122,6 @@ people:
 
   - id: hongkai-ji
     name: Hongkai Ji, Ph.D.
-    image: /_static/people/hongkai-ji.webp
     titles:
       - Professor
     affiliations:
@@ -144,7 +132,6 @@ people:
 
   - id: rachel-karchin
     name: Rachel Karchin, Ph.D.
-    image: /_static/people/rachel-karchin.webp
     titles:
       - Professor
       - The William R. Brody Faculty Scholar
@@ -156,7 +143,6 @@ people:
 
   - id: ben-langmead
     name: Ben Langmead, Ph.D.
-    image: /_static/people/ben-langmead.webp
     titles:
       - Professor
     affiliations:
@@ -166,7 +152,6 @@ people:
 
   - id: david-j-lipman
     name: David J. Lipman, M.D.
-    image: /_static/people/david-j-lipman.webp
     titles:
       - Adjunct Research Scientist
     affiliations:
@@ -177,7 +162,6 @@ people:
 
   - id: rajiv-mccoy
     name: Rajiv McCoy, Ph.D.
-    image: /_static/people/rajiv-mccoy.webp
     titles:
       - Assistant Professor
     affiliations:
@@ -187,7 +171,6 @@ people:
 
   - id: mihaela-pertea
     name: Mihaela Pertea, Ph.D.
-    image: /_static/people/mihaela-pertea.webp
     titles:
       - Associate Professor
       - Associate Director, Center for Computational Biology
@@ -200,7 +183,6 @@ people:
 
   - id: adam-phillippy
     name: Adam Phillippy, Ph.D.
-    image: /_static/people/adam-phillippy.webp
     titles:
       - Bloomberg Distinguished Professor
     affiliations:
@@ -212,7 +194,6 @@ people:
 
   - id: suchi-saria
     name: Suchi Saria, Ph.D.
-    image: /_static/people/suchi-saria.webp
     titles:
       - Associate Professor
     affiliations:
@@ -224,7 +205,6 @@ people:
 
   - id: robert-scharpf
     name: Robert Scharpf, Ph.D.
-    image: /_static/people/robert-scharpf.webp
     titles:
       - Associate Professor
     affiliations:
@@ -235,7 +215,6 @@ people:
 
   - id: michael-schatz
     name: Michael Schatz, Ph.D.
-    image: /_static/people/michael-schatz.webp
     titles:
       - Bloomberg Distinguished Professor
     affiliations:
@@ -245,7 +224,6 @@ people:
 
   - id: margaret-taub
     name: Margaret Taub, Ph.D.
-    image: /_static/people/margaret-taub.webp
     titles:
       - Associate Scientist
     affiliations:
@@ -256,7 +234,6 @@ people:
 
   - id: james-taylor
     name: James Taylor, Ph.D.
-    image: /_static/people/james-taylor.webp
     titles:
       - "In memoriam: Professor of Biology"
     affiliations:
@@ -265,7 +242,6 @@ people:
 
   - id: winston-timp
     name: Winston Timp, Ph.D.
-    image: /_static/people/winston-timp.webp
     titles:
       - Associate Professor
     affiliations:
@@ -276,7 +252,6 @@ people:
 
   - id: aleksey-zimin
     name: Aleksey Zimin, Ph.D.
-    image: /_static/people/aleksey-zimin.webp
     titles:
       - Research Scientist
     affiliations:

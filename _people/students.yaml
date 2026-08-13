@@ -4,7 +4,6 @@ people:
     alt: Beril Erdogdu
     titles:
       - Ph.D. student
-    image: /_static/people/beril-erdogdu.webp
     labs:
       - steven-l-salzberg
       - mihaela-pertea
@@ -17,7 +16,6 @@ people:
     alt: Caleb Hallinan
     titles:
       - Ph.D. student
-    image: /_static/people/caleb-hallinan.webp
     labs:
       - jean-fan
     affiliations:
@@ -29,7 +27,6 @@ people:
     alt: Celine Hoh
     titles:
       - Ph.D. student
-    image: /_static/people/celine-hoh.webp
     labs:
       - steven-l-salzberg
     affiliations:
@@ -41,7 +38,6 @@ people:
     alt: David Bass
     titles:
       - Ph.D. student
-    image: /_static/people/david-bass.webp
     labs:
       - steven-l-salzberg
     affiliations:
@@ -53,7 +49,6 @@ people:
     alt: Hyun Joo Ji
     titles:
       - Ph.D. student
-    image: /_static/people/hyun-joo-ji.webp
     labs:
       - steven-l-salzberg
     affiliations:
@@ -65,7 +60,6 @@ people:
     alt: Kalen Clifton
     titles:
       - Ph.D. student
-    image: /_static/people/kalen-clifton.webp
     labs:
       - jean-fan
     affiliations:
@@ -77,7 +71,6 @@ people:
     alt: Nikola Zadorozhny
     titles:
       - Ph.D. student
-    image: /_static/people/nikola-zadorozhny.webp
     labs:
       - steven-l-salzberg
       - mihaela-pertea
@@ -90,7 +83,6 @@ people:
     alt: Radhika Jangi
     titles:
       - Ph.D. student
-    image: /_static/people/radhika-jangi.webp
     labs:
       - alexis-battle
     affiliations:
@@ -102,7 +94,6 @@ people:
     alt: Rafael dos Santos Peixoto
     titles:
       - Ph.D. student
-    image: /_static/people/rafael-dos-santos-peixoto.webp
     labs:
       - jean-fan
     affiliations:
@@ -114,7 +105,6 @@ people:
     alt: Yuchen Ge
     titles:
       - Ph.D. student
-    image: /_static/people/yuchen-ge.webp
     labs:
       - steven-l-salzberg
     affiliations:
@@ -126,7 +116,6 @@ people:
     alt: Zoe Catherine Rudnick
     titles:
       - Ph.D. student
-    image: /_static/people/zoe-catherine-rudnick.webp
     labs:
       - mihaela-pertea
     affiliations:

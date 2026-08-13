@@ -222,9 +222,6 @@ The main directories and files are:
 │   ├── people/                      # People photos
 │   └── maps/                        # Campus/JHH maps
 │
-├── scripts/                         # Utility/build scripts
-│   └── make_people.py               # Process/validate people data
-│
 ├── .gitignore                       # Git files/directories to ignore
 │
 ├── .github/
@@ -512,7 +509,7 @@ jinja2 _templates/people.jinja _people/faculty.yaml \
 ```
 
 ```bash
-head -n 40  people/faculty.md 
+head -n 40 people/faculty.md 
 ```
 
 ````text
@@ -551,6 +548,7 @@ head -n 40  people/faculty.md
 ````
 
 > [!IMPORTANT]
+> People IDs are cross-referenced throughout the website and should follow the first_name-middle_initial-last_name format.
 > `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
 
 ```bash
@@ -569,6 +567,8 @@ myst_substitutions = {
 
 YAML advantages: validation, reformating, sorting, filtering ...
 
+Example: extract names
+
 ```bash
 yq '.people[].name' _people/faculty.yaml | head -n 3
 ```
@@ -578,6 +578,12 @@ yq '.people[].name' _people/faculty.yaml | head -n 3
 "Dan Arking, Ph.D."
 "Joel Bader, Ph.D."
 ...
+```
+
+Example: sort records and fields
+```bash
+yq -y '.people |= sort_by(.id)' _people/faculty.yaml
+yq -y '.people |= map({id, name, titles, affiliations, departments, labs})' _people/faculty.yaml 
 ```
 
 ### 7.5 Edit Templates

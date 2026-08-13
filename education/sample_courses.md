@@ -3,14 +3,13 @@
 Below is a list of **Sample Course Offerings for Ph.D. students in Computational
 Biology**
 
-See [this page](https://ccb.jhu.edu/courses.shtml)
-for a list of current courses in computational biology offered by our faculty across multiple
+See {doc}`courses` for a list of current courses in computational biology offered by our faculty across multiple
 departments. Many of these courses count towards the Ph.D. programs in BME, CS,
 Biology, and others
 
 ## Department of Biomedical Engineering, Whiting School of Engineering
 
-The Johns Hopkins Department of Biomedical Engineering (BME), widely regarded as
+The Johns Hopkins {{bme}} (BME), widely regarded as
 the top program of its kind in the world and 
 [ranked #1 in the nation by U.S. News](https://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings)
 , is dedicated to solving important
@@ -29,13 +28,12 @@ with the students in Hopkins' highly-ranked M.D. program.
 
 ## Department of Computer Science, Whiting School of Engineering
 
-[Computer Science at Johns Hopkins University](https://www.cs.jhu.edu)
+{{cs}} at Johns Hopkins University
 is a diverse, collaborative, and intensely research-focused
 department. In 2015, the Department moved into a brand new, state-of-the-art
 research building, Malone Hall, designed around the needs of students and
 faculty.
-[See the video highlighting the new building and some of our students](https://www.youtube.com/watch?v=1-b996AEkJg&feature=youtu.be)
-here.
+[See the video highlighting the new building and some of our students](https://www.youtube.com/watch?v=1-b996AEkJg&feature=youtu.be) here.
 
 The Department was recently ranked 20th in the nation among Computer Science
 programs.
@@ -45,15 +43,13 @@ science and many cross-disciplinary areas including Computational Biology and
 Medicine, Information Security, Machine Learning, Data Intensive Computing,
 Computer-Integrated Surgery, and Natural Language Processing.
 
-Ph.D. program
+**Ph.D. program**
 
 A total of 8 courses are required, and a typical load is 3 courses per semester.
 See 
 [the CS Department website](https://www.cs.jhu.edu/graduate-studies/)
 for details. For a look at courses that might be included in Ph.D.
-training, see 
-[this page](https://ccb.jhu.edu/courses.shtml)
-, though note that it is not a comprehensive list.
+training, see  {doc}`courses`, though note that it is not a comprehensive list.
 
 *For the Computer Science Ph.D., 2 out of the required 8 classes can be taken
 outside the Department.* These may include any of the courses in the BME,
@@ -61,14 +57,13 @@ Biostatistics, and Biology programs listed on this page.
 
 ## Department of Biostatistics, Bloomberg School of Public Health
 
-Johns Hopkins Biostatistics is the oldest department of its kind in the world
+Johns Hopkins {{bsph}} is the oldest department of its kind in the world
 and has long been considered as one of the best. In 2022, it was
 [ranked #1 in the nation by U.S. News](https://www.usnews.com/best-graduate-schools/top-science-schools/biostatistics-rankings?_sort=rank-asc).
 
-Ph.D. program
+**Ph.D. program**
 
-At least 18 credits required outside the Dept of Biostatistics, at least 9 of
-these in the School of Public Health. See
+At least 18 credits required outside the Dept of Biostatistics, at least 9 of these in the School of Public Health. See
 [the Department website](https://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd)
 for details.
 

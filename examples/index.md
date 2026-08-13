@@ -62,7 +62,7 @@ Jump to {ref}`links`.
 
 ### File Download
 
-[Download WEBP](/_static/logos/logo.webp)
+<!--[Download WEBP](/_static/logos/logo.webp)-->
 
 ## Footnotes
 
@@ -235,3 +235,12 @@ graph TD
 
 </div>
 ```
+
+# Bibliography test
+
+{cite}`PMC2690996`  
+
+```{bibliography}
+:all:
+```	
+

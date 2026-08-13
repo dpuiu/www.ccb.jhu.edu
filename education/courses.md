@@ -103,7 +103,7 @@ the DNA from a human microbiome sequencing experiment, and others. Topics may
 vary from year to year. In addition to computational data analysis, students
 will learn to do critical reading of the scientific iterature by reading
 high-profile research papers that generated groundbreaking or controversial
-results. [Applications] Recommended Course Background: Knowledge of the Unix
+results. Recommended Course Background: Knowledge of the Unix
 operating system and programming expertise in a language such as Perl or Python.
 
 (CCB_Courses-646)=
@@ -152,7 +152,8 @@ clustering and dimensionality reduction, data integration, and network
 reconstruction. There will be some programming and a project component.
 
 **Prerequisites:** EN.601.226 or other programming experience, probability and
-statistics, linear algebra or calculus. \*\*Note:\*\*Students may receive credit
+statistics, linear algebra or calculus. 
+**Note:** Students may receive credit
 for only one of EN.600.438, EN.600.638, EN.601.448, EN.601.648.
 
 (CCB_Courses-449)=
@@ -166,7 +167,7 @@ topics will include genome assembly & comparative genomics, variant
 identification & analysis, gene expression & regulation, personal genome
 analysis, and cancer genomics. The grading will be based on assignments, a
 midterm & final exam, class presentations, and a significant class project.
-[Applications] Expected course background: familiarity with UNIX scripting
+Expected course background: familiarity with UNIX scripting
 and/or programming.
 
 (CCB_Courses-744)=

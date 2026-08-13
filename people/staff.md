@@ -1,7 +1,5 @@
 # Staff 
 
-
-
 (rebecca-keener)=
 ## Rebecca Keener, Ph.D.
 
@@ -23,18 +21,14 @@
 
 **Assistant Research Scientist, Battle Lab**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu) 
-
+[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
 
 ::::
 ```
-
-
 
 (daniela-puiu)=
 ## Daniela Puiu, M.S.
@@ -57,18 +51,14 @@
 
 **Bioinformatics Engineer & Senior Software Engineer**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu) 
-
+[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
 
 ::::
 ```
-
-
 
 (sarah-bailey)=
 ## Sarah Bailey
@@ -91,15 +81,12 @@
 
 **Sr. Administrative Coordinator**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[sande125@jhu.edu](mailto:sande125@jhu.edu) 
-
+[sande125@jhu.edu](mailto:sande125@jhu.edu)  
 
 ::::
 ```
-
 

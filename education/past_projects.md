@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 # Summer internship in Bioinformatics and Computational Genomics
 
 ## List of past student projects

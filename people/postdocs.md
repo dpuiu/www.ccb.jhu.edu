@@ -1,7 +1,5 @@
 # Postdocs 
 
-
-
 (courtney-hall)=
 ## Courtney Hall, Ph.D.
 
@@ -21,21 +19,18 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Postdoc in the Timp Lab**  
+**Postdoc**  
 
+{ref}`Timp <winston-timp>` Lab 
 
- Department of Biomedical Engineering  
- Whiting School of Engineering  
- Johns Hopkins University  
+{{ bme }}  
 
+{{ wse }}  
 
-[chall106@jh.edu](mailto:chall106@jh.edu) 
-
+[chall106@jh.edu](mailto:chall106@jh.edu)  
 
 ::::
 ```
-
-
 
 (harun-mustafa)=
 ## Harun Mustafa, Ph.D.
@@ -56,21 +51,18 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Postdoc in the Salzberg Lab**  
+**Postdoc**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
 
- Department of Biomedical Engineering  
- Whiting School of Engineering  
- Johns Hopkins University  
+{{ bme }}  
 
+{{ wse }}  
 
-[hmustaf6@jh.edu](mailto:hmustaf6@jh.edu) 
-
+[hmustaf6@jh.edu](mailto:hmustaf6@jh.edu)  
 
 ::::
 ```
-
-
 
 (srujan-singh)=
 ## Srujan Singh, Ph.D.
@@ -91,18 +83,16 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Postdoc in the Fan Lab**  
+**Postdoc**  
 
+{ref}`Fan <jean-fan>` Lab 
 
- Department of Biomedical Engineering  
- Whiting School of Engineering  
- Johns Hopkins University  
+{{ bme }}  
 
+{{ wse }}  
 
-[ssingh95@jhu.edu](mailto:ssingh95@jhu.edu) 
-
+[ssingh95@jhu.edu](mailto:ssingh95@jhu.edu)  
 
 ::::
 ```
-
 

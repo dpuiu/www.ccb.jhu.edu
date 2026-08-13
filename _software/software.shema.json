@@ -2,16 +2,20 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "required": [
-    "people"
+    "software"
   ],
   "properties": {
-    "people": {
+    "software": {
       "type": "array",
       "items": {
         "type": "object",
         "required": [
           "id",
-          "name"
+          "name",
+          "status",
+          "category",
+          "url",
+          "description"
         ],
         "properties": {
           "id": {
@@ -20,34 +24,31 @@
           "name": {
             "type": "string"
           },
-         "alt": {
-            "type": "string"
-          },
-          "titles": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "affiliations": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "labs": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "homepage": {
-            "type": "string"
-          },
-          "email": {
+          "status": {
             "type": "string",
-            "format": "email"
-          }
+            "enum": [
+              "current",
+              "older",
+              "newer"
+            ]
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "description": {
+            "type": "string"
+          },
+          "pmcid": {
+	    "type": "string",
+	    "pattern": "^PMC[0-9]+$"
+	  }
         },
         "additionalProperties": false
       }

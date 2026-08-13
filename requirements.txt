@@ -9,3 +9,5 @@ sphinx-reredirects
 sphinxcontrib-mermaid
 jinja2-cli[yaml]
 check-jsonschema
+yq
+sphinxcontrib-bibtex

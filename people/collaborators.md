@@ -1,7 +1,5 @@
 # Collaborators 
 
-
-
 (carl-kingsford)=
 ## Carl Kingsford, Ph.D.
 
@@ -23,19 +21,17 @@
 
 **Professor of Computer Science**  
 
+ 
+Ray and Stephanie Lane Center for Computational Biology  
 
- Ray and Stephanie Lane Center for Computational Biology  
- [Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)  
+ 
+[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)  
 
-
-[Homepage](https://kingsfordlab.cbd.cmu.edu/)  
-[carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu) 
-
+[Homepage](https://kingsfordlab.cbd.cmu.edu/)   
+[carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)  
 
 ::::
 ```
-
-
 
 (cole-trapnell)=
 ## Cole Trapnell, Ph.D.
@@ -58,20 +54,20 @@
 
 **Associate Professor of Genome Sciences**  
 
+ 
+[Rinn Lab](https://www.rinnlab.com)  
 
- [Rinn Lab](https://www.rinnlab.com)  
- The Broad Institute of MIT and Harvard  
- UW Genome Sciences  
+ 
+The Broad Institute of MIT and Harvard  
 
+ 
+UW Genome Sciences  
 
-[Homepage](https://cole-trapnell-lab.github.io/)  
-[coletrap@uw.edu](mailto:coletrap@uw.edu) 
-
+[Homepage](https://cole-trapnell-lab.github.io/)   
+[coletrap@uw.edu](mailto:coletrap@uw.edu)  
 
 ::::
 ```
-
-
 
 (elana-fertig)=
 ## Elana Fertig, Ph.D.
@@ -95,17 +91,11 @@
 **Professor**  
 **Director of the Institute for Genome Sciences at the University of Maryland School of Medicine**  
 
-
-
-
-[Homepage](https://fertiglab.com/)  
-[ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu) 
-
+[Homepage](https://fertiglab.com/)   
+[ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)  
 
 ::::
 ```
-
-
 
 (james-a-yorke)=
 ## James A. Yorke, Ph.D.
@@ -128,20 +118,20 @@
 
 **Distinguished University Professor**  
 
+ 
+Institute for Physical Sciences and Technology  
 
- Institute for Physical Sciences and Technology  
- UMCP  
- University of Maryland  
+ 
+UMCP  
 
+ 
+University of Maryland  
 
-[Homepage](https://yorke.umd.edu/)  
-[yorke@umd.edu](mailto:yorke@umd.edu) 
-
+[Homepage](https://yorke.umd.edu/)   
+[yorke@umd.edu](mailto:yorke@umd.edu)  
 
 ::::
 ```
-
-
 
 (mihai-pop)=
 ## Mihai Pop, Ph.D.
@@ -165,19 +155,17 @@
 **Professor, Department of Computer Science**  
 **Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)**  
 
+ 
+[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)  
 
- [Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)  
- University of Maryland  
+ 
+University of Maryland  
 
-
-[Homepage](https://pop-lab.org/)  
-[mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu) 
-
+[Homepage](https://pop-lab.org/)   
+[mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
 
 ::::
 ```
-
-
 
 (najib-el-sayed)=
 ## Najib El-Sayed, Ph.D.
@@ -200,19 +188,17 @@
 
 **Principal Investigator**  
 
+ 
+Department of Cell Biology and Molecular Genetics  
 
- Department of Cell Biology and Molecular Genetics  
- University of Maryland  
+ 
+University of Maryland  
 
-
-[Homepage](https://www.najibelsayed.org/)  
-[nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu) 
-
+[Homepage](https://www.najibelsayed.org/)   
+[nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)  
 
 ::::
 ```
-
-
 
 (the-pine-genome-project)=
 ## The Pine Genome Project
@@ -235,16 +221,15 @@
 
 **Pine Reference Sequences Project**  
 
+ 
+PineRefSeq: Conifer Reference Genome Sequencing  
 
- PineRefSeq: Conifer Reference Genome Sequencing  
- An adaptive approach to the sequencing of the large genomes of multiple conifer species.  
+ 
+An adaptive approach to the sequencing of the large genomes of multiple conifer species.  
 
-
-[Homepage](https://pinegenome.org/pinerefseq/)  
-[email@jhu.edu](mailto:email@jhu.edu) 
-
+[Homepage](https://pinegenome.org/pinerefseq/)   
+[email@jhu.edu](mailto:email@jhu.edu)  
 
 ::::
 ```
-
 

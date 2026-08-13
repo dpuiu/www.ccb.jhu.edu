@@ -5,7 +5,6 @@ people:
   - id: rafael-irizarry
     name: Rafael Irizarry, Ph.D.
     homepage: https://rafalab.dfci.harvard.edu/
-    image: /_static/people/rafael-irizarry.webp
     titles:
       - Professor
     affiliations:
@@ -19,47 +18,48 @@ people:
 
   - id: christopher-pockrandt
     name: Christopher Pockrandt, Ph.D.
-    affiliations:
-      - "Salzberg Lab @ JHU (until Feb. 2022)"
+    labs:
+      - "steven-l-salzberg @ JHU (until Feb. 2022)"
 
   - id: florian-breitwieser
     name: Florian Breitwieser, Ph.D.
-    image: /_static/people/florian-breitwieser.webp
     titles:
       - Principal Software Engineer
+    labs:
+      - "steven-l-salzberg @ JHU (until Feb. 2020)"
     affiliations:
-      - "Salzberg Lab @ JHU (until Feb. 2020)"
       - "[SOPHiA GENETICS](https://www.sophiagenetics.com/)"
     email: florian.bw@gmail.com
 
   - id: ilia-minkin
     name: Ilia Minkin, Ph.D.
     homepage: https://iminkin.github.io/
-    image: /_static/people/ilia-minkin.webp
     titles:
       - Postdoctoral Associate
+    labs:
+      - "steven-l-salzberg @ JHU (until 2025)"
     affiliations:
-      - "Salzberg Lab @ JHU (until 2025)"
       - "[Broad Institute](https://www.broadinstitute.org)"
     email: iminkin@broadinstitute.org
 
   - id: martin-steinegger
     name: Martin Steinegger, Ph.D.
     homepage: https://steineggerlab.com
-    image: /_static/people/martin-steinegger.webp
     titles:
       - Assistant Professor
+    labs:
+      - "steven-l-salzberg @ JHU (until Feb. 2020)"
     affiliations:
-      - "Salzberg Lab @ JHU (until Feb. 2020)"
       - "[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)"
     email: martin.steinegger@snu.ac.kr
 
   - id: stefan-canzar
     name: Stefan Canzar, Ph.D.
     homepage: https://canzarlab.com/
-    image: /_static/people/stefan-canzar.webp
     titles:
       - Professor
+    labs:
+      - "steven-l-salzberg @ JHU"
     affiliations:
       - "[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)"
     email: stefan.canzar@ur.de
@@ -67,9 +67,10 @@ people:
   - id: stephan-pabinger
     name: Stephan Pabinger, Ph.D.
     homepage: https://pabinger.site44.com
-    image: /_static/people/stephan-pabinger.webp
     titles:
       - Postdoctoral Research Fellow
+    labs:
+      - "steven-l-salzberg @ JHU"
     affiliations:
       - "McKusick-Nathans Institute of Genetic Medicine"
       - "[Aldi](https://www.aldicareers.com.au/)"
@@ -78,9 +79,10 @@ people:
   - id: tanja-magoc
     name: Tanja Magoc, Ph.D.
     homepage: https://idr.ufhealth.org/profile/magoc-tanja/
-    image: /_static/people/tanja-magoc.webp
     titles:
       - Postdoctoral Research Fellow
+    labs:
+      - "steven-l-salzberg @ JHU"
     affiliations:
       - "[HEPData](https://www.hepdata.com/)"
       - "Associate Director, AI/QI Program, Quality and Patient Safety Initiative"
@@ -90,9 +92,10 @@ people:
   - id: todd-j-treangen
     name: Todd J. Treangen, Ph.D.
     homepage: https://profiles.rice.edu/faculty/todd-treangen
-    image: /_static/people/todd-j-treangen.webp
     titles:
       - Senior Bioinformatics Scientist
+    labs:
+      - "steven-l-salzberg @ JHU"
     affiliations:
       - "CCB UMD"
       - "National Biodefense Analysis and Countermeasures Center"
@@ -104,9 +107,10 @@ people:
 
   - id: alaina-shumate
     name: Alaina Shumate, Ph.D.
-    image: /_static/people/alaina-shumate.webp
     titles:
       - Research Scientist
+    labs:
+      - "steven-l-salzberg @ JHU"
     affiliations:
       - "[Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)"
     email: ashumate@alumni.stanford.edu
@@ -114,18 +118,17 @@ people:
   - id: ales-varabyou
     name: Ales Varabyou, Ph.D.
     homepage: https://alevar.github.io/
-    image: /_static/people/ales-varabyou.webp
     titles:
       - Genomics Scientist and Engineer
+    labs:
+      - "mihaela-pertea @ JHU (until 2026)"
     affiliations:
-      - "Graduate Stydent and Postdoc in the Pertea Lab (until 2026)"
       - "[PacBio](https://www.pacb.com/)"
     email: ales.varabyou@jhu.edu
 
   - id: alyssa-frazee
     name: Alyssa Frazee, Ph.D.
     homepage: https://alyssafrazee.com
-    image: /_static/people/alyssa-frazee.webp
     affiliations:
       - "[Stripe](https://stripe.com)"
     email: alyssa.frazee@gmail.com
@@ -133,25 +136,26 @@ people:
   - id: daehwan-kim
     name: Daehwan Kim, Ph.D.
     homepage: https://kim-lab.org/
-    image: /_static/people/daehwan-kim.webp
     affiliations:
       - "University of Toronto"
       - "[OMPHALOS Lifesciences](https://omphaloslifesci.com/)"
+    labs:
+      - "steven-l-salzberg @ JHU"
     email: infphilo@gmail.com
 
   - id: derrick-wood
     name: Derrick Wood, Ph.D.
-    image: /_static/people/derrick-wood.webp
     titles:
       - Founder
     affiliations:
       - "[Blackjack Biotechnologies](https://www.blackjackbiotech.com/)"
+    labs:
+      - "steven-l-salzberg @ JHU"
     email: dwood@cs.umd.edu
 
   - id: hilary-parker
     name: Hilary Parker, Ph.D.
     homepage: https://biostat.jhsph.edu/~hiparker/
-    image: /_static/people/hilary-parker.webp
     affiliations:
       - "Department of Biostatistics"
       - "Johns Hopkins Bloomberg School of Public Health"
@@ -159,11 +163,12 @@ people:
 
   - id: jennifer-lu
     name: Jennifer Lu, Ph.D.
-    image: /_static/people/jennifer-lu.webp
     titles:
       - Staff Engineer
     affiliations:
       - "[Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)"
+    labs:
+      - "steven-l-salzberg @ JHU"
     email: jennifer.lu717@gmail.com
 
   - id: ida-shinder
@@ -177,44 +182,45 @@ people:
   - id: kuan-hao-chao
     name: Kuan-Hao Chao, Ph.D.
     homepage: https://khchao.com/
-    image: /_static/people/kuan-hao-chao.webp
     titles:
       - Senior Deep Learning Scientist
     affiliations:
-      - "Salzberg Lab @ JHU (until 2025)"
       - "[Illumina AI Lab](https://www.illumina.com/)"
+    labs:
+      - "steven-l-salzberg @ JHU (until 2025)"
     email: kuanhao.chao@gmail.com
 
   - id: li-song
     name: Li Song, Ph.D.
     homepage: https://mourisl.github.io/
-    image: /_static/people/li-song.webp
     titles:
       - Assistant Professor
     affiliations:
-      - "Florea Lab @ JHU (until 2018)"
       - "[Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)"
+    labs:
+      - "liliana-florea @ JHU (until 2018)"
     email: Li.Song@dartmouth.edu
 
   - id: markus-sommer
     name: Markus Sommer, Ph.D.
     homepage: https://www.markus.bio/
-    image: /_static/people/markus-sommer.webp
     titles:
       - Principal Scientist
       - Principal Investigator
     affiliations:
-      - "Salzberg Lab @ JHU (until 2024)"
       - "[Aletira Therapeutics](https://aletiratherapeutics.com)"
       - "[National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)"
+    labs:
+      - "steven-l-salzberg @ JHU (until 2024)"
     email: markusjsommer@gmail.com
 
   - id: rachel-sherman
     name: Rachel Sherman, Ph.D.
-    image: /_static/people/rachel-sherman.webp
     titles:
       - Staff Bioinformatics Support Scientist
     affiliations:
       - "Salzberg Lab @ JHU (until 2020)"
       - "[Illumina](https://www.illumina.com/)"
+    labs:
+      - "steven-l-salzberg @ JHU (until 2020)"
     email: rachel.sherman@illumina.com

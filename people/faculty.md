@@ -1,7 +1,5 @@
 # Faculty 
 
-
-
 (steven-l-salzberg)=
 ## Steven L. Salzberg, Ph.D.
 
@@ -24,20 +22,17 @@
 **Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
 **Director, Center for Computational Biology**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ cs }}  
- {{ bsph }}  
+{{ cs }}  
 
+{{ bsph }}  
 
-[Homepage](https://salzberg-lab.org)  
-[salzberg@jhu.edu](mailto:salzberg@jhu.edu) 
-
+[Homepage](https://salzberg-lab.org)   
+[salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
 
 ::::
 ```
-
-
 
 (dan-arking)=
 ## Dan Arking, Ph.D.
@@ -60,19 +55,16 @@
 
 **Professor**  
 
+{{ dgm }}  
 
- {{ dgm }}  
- {{ cardiology }}  
- {{ som }}  
+{{ cardiology }}  
 
+{{ som }}  
 
-[arking@jhmi.edu](mailto:arking@jhmi.edu) 
-
+[arking@jhmi.edu](mailto:arking@jhmi.edu)  
 
 ::::
 ```
-
-
 
 (joel-bader)=
 ## Joel Bader, Ph.D.
@@ -95,18 +87,13 @@
 
 **Professor**  
 
+{{ bme }}  
 
- {{ bme }}  
-
-
-[Homepage](https://www.baderzone.org)  
-[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu) 
-
+[Homepage](https://www.baderzone.org)   
+[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)  
 
 ::::
 ```
-
-
 
 (alexis-battle)=
 ## Alexis Battle, Ph.D.
@@ -131,20 +118,17 @@
 **Director, Malone Center for Engineering in Healthcare**  
 **Deputy Executive Director, AI-X Foundry**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ cs }}  
- {{ dgm }}  
+{{ cs }}  
 
+{{ dgm }}  
 
-[Homepage](https://battlelab.jhu.edu)  
-[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu) 
-
+[Homepage](https://battlelab.jhu.edu)   
+[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)  
 
 ::::
 ```
-
-
 
 (michael-beer)=
 ## Michael Beer, Ph.D.
@@ -167,20 +151,17 @@
 
 **Professor**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ dgm }}  
- {{ som }}  
+{{ dgm }}  
 
+{{ som }}  
 
-[Homepage](https://www.beerlab.org)  
-[mbeer@jhu.edu](mailto:mbeer@jhu.edu) 
-
+[Homepage](https://www.beerlab.org)   
+[mbeer@jhu.edu](mailto:mbeer@jhu.edu)  
 
 ::::
 ```
-
-
 
 (uthsav-chitra)=
 ## Uthsav Chitra, Ph.D.
@@ -203,19 +184,15 @@
 
 **Assistant Professor**  
 
+{{ dgm }}  
 
- {{ dgm }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[Homepage](https://chitra-lab.github.io)  
-[uthsav@jhu.edu](mailto:uthsav@jhu.edu) 
-
+[Homepage](https://chitra-lab.github.io)   
+[uthsav@jhu.edu](mailto:uthsav@jhu.edu)  
 
 ::::
 ```
-
-
 
 (jean-fan)=
 ## Jean Fan, Ph.D.
@@ -238,19 +215,15 @@
 
 **Associate Professor**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[Homepage](https://jef.works)  
-[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu) 
-
+[Homepage](https://jef.works)   
+[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)  
 
 ::::
 ```
-
-
 
 (liliana-florea)=
 ## Liliana Florea, Ph.D.
@@ -273,20 +246,17 @@
 
 **Associate Professor**  
 
+{{ med }}  
 
- {{ med }}  
- {{ dgm }}  
- {{ som }}  
+{{ dgm }}  
 
+{{ som }}  
 
-[Homepage](https://florealab.org)  
-[florea@jhu.edu](mailto:florea@jhu.edu) 
-
+[Homepage](https://florealab.org)   
+[florea@jhu.edu](mailto:florea@jhu.edu)  
 
 ::::
 ```
-
-
 
 (jeffrey-j-gray)=
 ## Jeffrey J. Gray, Ph.D.
@@ -309,19 +279,16 @@
 
 **Professor**  
 
+{{ chembe }}  
 
- {{ chembe }}  
- Program in Molecular & Computational Biophysics  
+ 
+Program in Molecular & Computational Biophysics  
 
-
-[Homepage](https://graylab.jhu.edu)  
-[jgray@jhu.edu](mailto:jgray@jhu.edu) 
-
+[Homepage](https://graylab.jhu.edu)   
+[jgray@jhu.edu](mailto:jgray@jhu.edu)  
 
 ::::
 ```
-
-
 
 (kasper-d-hansen)=
 ## Kasper D. Hansen, Ph.D.
@@ -344,20 +311,17 @@
 
 **Professor**  
 
+{{ dgm }}  
 
- {{ dgm }}  
- {{ bsph }}  
- {{ sph }}  
+{{ bsph }}  
 
+{{ sph }}  
 
-[Homepage](https://www.hansenlab.org)  
-[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com) 
-
+[Homepage](https://www.hansenlab.org)   
+[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)  
 
 ::::
 ```
-
-
 
 (stephanie-hicks)=
 ## Stephanie Hicks, Ph.D.
@@ -380,23 +344,24 @@
 
 **Associate Professor**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
- {{ bsph }}  
- {{ sph }}  
- {{ mc }}  
- Center for Imaging Science  
+{{ wse }}  
 
+{{ bsph }}  
 
-[Homepage](https://www.stephaniehicks.com)  
-[shicks19@jhu.edu](mailto:shicks19@jhu.edu) 
+{{ sph }}  
 
+{{ mc }}  
+
+ 
+Center for Imaging Science  
+
+[Homepage](https://www.stephaniehicks.com)   
+[shicks19@jhu.edu](mailto:shicks19@jhu.edu)  
 
 ::::
 ```
-
-
 
 (hongkai-ji)=
 ## Hongkai Ji, Ph.D.
@@ -419,19 +384,15 @@
 
 **Professor**  
 
+{{ bsph }}  
 
- {{ bsph }}  
- {{ sph }}  
+{{ sph }}  
 
-
-[Homepage](https://jilab.org)  
-[hji@jhsph.edu](mailto:hji@jhsph.edu) 
-
+[Homepage](https://jilab.org)   
+[hji@jhsph.edu](mailto:hji@jhsph.edu)  
 
 ::::
 ```
-
-
 
 (rachel-karchin)=
 ## Rachel Karchin, Ph.D.
@@ -455,19 +416,15 @@
 **Professor**  
 **The William R. Brody Faculty Scholar**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ dgm }}  
+{{ dgm }}  
 
-
-[Homepage](https://www.karchinlab.org)  
-[karchin@jhu.edu](mailto:karchin@jhu.edu) 
-
+[Homepage](https://www.karchinlab.org)   
+[karchin@jhu.edu](mailto:karchin@jhu.edu)  
 
 ::::
 ```
-
-
 
 (ben-langmead)=
 ## Ben Langmead, Ph.D.
@@ -490,18 +447,13 @@
 
 **Professor**  
 
+{{ cs }}  
 
- {{ cs }}  
-
-
-[Homepage](https://langmead-lab.org)  
-[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu) 
-
+[Homepage](https://langmead-lab.org)   
+[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)  
 
 ::::
 ```
-
-
 
 (david-j-lipman)=
 ## David J. Lipman, M.D.
@@ -524,19 +476,18 @@
 
 **Adjunct Research Scientist**  
 
+{{ bme }}  
 
- {{ bme }}  
- 2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA  
- 1989-2017: Director, National Center for Biotechnology Information, NIH  
+ 
+2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA  
 
+ 
+1989-2017: Director, National Center for Biotechnology Information, NIH  
 
-[dlipman4@jh.edu](mailto:dlipman4@jh.edu) 
-
+[dlipman4@jh.edu](mailto:dlipman4@jh.edu)  
 
 ::::
 ```
-
-
 
 (rajiv-mccoy)=
 ## Rajiv McCoy, Ph.D.
@@ -559,18 +510,13 @@
 
 **Assistant Professor**  
 
+{{ bio }}  
 
- {{ bio }}  
-
-
-[Homepage](https://mccoy-lab.org)  
-[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu) 
-
+[Homepage](https://mccoy-lab.org)   
+[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)  
 
 ::::
 ```
-
-
 
 (mihaela-pertea)=
 ## Mihaela Pertea, Ph.D.
@@ -594,20 +540,17 @@
 **Associate Professor**  
 **Associate Director, Center for Computational Biology**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ dgm }}  
- {{ som }}  
+{{ dgm }}  
 
+{{ som }}  
 
-[Homepage](https://pertealab.org)  
-[mpertea@jhu.edu](mailto:mpertea@jhu.edu) 
-
+[Homepage](https://pertealab.org)   
+[mpertea@jhu.edu](mailto:mpertea@jhu.edu)  
 
 ::::
 ```
-
-
 
 (adam-phillippy)=
 ## Adam Phillippy, Ph.D.
@@ -630,20 +573,17 @@
 
 **Bloomberg Distinguished Professor**  
 
+{{ cs }}  
 
- {{ cs }}  
- {{ bme }}  
- {{ dgm }}  
+{{ bme }}  
 
+{{ dgm }}  
 
-[Homepage](https://genomeinformatics.github.io)  
-[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu) 
-
+[Homepage](https://genomeinformatics.github.io)   
+[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)  
 
 ::::
 ```
-
-
 
 (suchi-saria)=
 ## Suchi Saria, Ph.D.
@@ -666,20 +606,20 @@
 
 **Associate Professor**  
 
+ 
+Machine Learning, Biomedical & Health Informatics  
 
- Machine Learning, Biomedical & Health Informatics  
- {{ cs }}  
- Department of Health Policy & Management  
- {{ ics }}  
+{{ cs }}  
 
+ 
+Department of Health Policy & Management  
 
-[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu) 
+{{ ics }}  
 
+[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)  
 
 ::::
 ```
-
-
 
 (robert-scharpf)=
 ## Robert Scharpf, Ph.D.
@@ -702,19 +642,15 @@
 
 **Associate Professor**  
 
+{{ skcc }}  
 
- {{ skcc }}  
- {{ som }}  
+{{ som }}  
 
-
-[Homepage](https://rscharpf.github.io/index.html)  
-[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu) 
-
+[Homepage](https://rscharpf.github.io/index.html)   
+[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)  
 
 ::::
 ```
-
-
 
 (michael-schatz)=
 ## Michael Schatz, Ph.D.
@@ -737,18 +673,13 @@
 
 **Bloomberg Distinguished Professor**  
 
+{{ cs }}  
 
- {{ cs }}  
-
-
-[Homepage](https://schatz-lab.org)  
-[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu) 
-
+[Homepage](https://schatz-lab.org)   
+[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)  
 
 ::::
 ```
-
-
 
 (margaret-taub)=
 ## Margaret Taub, Ph.D.
@@ -771,19 +702,15 @@
 
 **Associate Scientist**  
 
+{{ bsph }}  
 
- {{ bsph }}  
- {{ sph }}  
+{{ sph }}  
 
-
-[Homepage](https://www.biostat.jhsph.edu/~mtaub/About.html)  
-[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu) 
-
+[Homepage](https://www.biostat.jhsph.edu/~mtaub/About.html)   
+[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)  
 
 ::::
 ```
-
-
 
 (james-taylor)=
 ## James Taylor, Ph.D.
@@ -806,17 +733,12 @@
 
 **In memoriam: Professor of Biology**  
 
+{{ bio }}  
 
- {{ bio }}  
- {{ ksas }}  
-
-
-
+{{ ksas }}  
 
 ::::
 ```
-
-
 
 (winston-timp)=
 ## Winston Timp, Ph.D.
@@ -839,19 +761,15 @@
 
 **Associate Professor**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[Homepage](https://www.timplab.org)  
-[wtimp@jhu.edu](mailto:wtimp@jhu.edu) 
-
+[Homepage](https://www.timplab.org)   
+[wtimp@jhu.edu](mailto:wtimp@jhu.edu)  
 
 ::::
 ```
-
-
 
 (aleksey-zimin)=
 ## Aleksey Zimin, Ph.D.
@@ -874,16 +792,13 @@
 
 **Research Scientist**  
 
+{{ bme }}  
 
- {{ bme }}  
- {{ wse }}  
+{{ wse }}  
 
-
-[Homepage](/people/alekseyz/index)  
-[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu) 
-
+[Homepage](/people/alekseyz/index)   
+[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)  
 
 ::::
 ```
-
 

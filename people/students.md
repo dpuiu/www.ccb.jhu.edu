@@ -1,7 +1,5 @@
 # Students 
 
-
-
 (beril-erdogdu)=
 ## Beril Erdogdu
 
@@ -23,20 +21,15 @@
 
 **Ph.D. student**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
+{ref}`Pertea <mihaela-pertea>` Lab 
 
- {{ bme }}  
+{{ bme }}  
 
-
-**{ref}`Salzberg <steven-l-salzberg>` Lab**  
-**{ref}`Pertea <mihaela-pertea>` Lab**  
-
-[berdogd1@jhu.edu](mailto:berdogd1@jhu.edu) 
-
+[berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)  
 
 ::::
 ```
-
-
 
 (caleb-hallinan)=
 ## Caleb Hallinan
@@ -59,19 +52,14 @@
 
 **Ph.D. student**  
 
+{ref}`Fan <jean-fan>` Lab 
 
- {{ bme }}  
+{{ bme }}  
 
-
-**{ref}`Fan <jean-fan>` Lab**  
-
-[challin1@jh.edu](mailto:challin1@jh.edu) 
-
+[challin1@jh.edu](mailto:challin1@jh.edu)  
 
 ::::
 ```
-
-
 
 (celine-hoh)=
 ## Celine Hoh
@@ -94,19 +82,14 @@
 
 **Ph.D. student**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
 
- {{ cs }}  
+{{ cs }}  
 
-
-**{ref}`Salzberg <steven-l-salzberg>` Lab**  
-
-[choh1@jhu.edu](mailto:choh1@jhu.edu) 
-
+[choh1@jhu.edu](mailto:choh1@jhu.edu)  
 
 ::::
 ```
-
-
 
 (david-bass)=
 ## David Bass
@@ -129,19 +112,15 @@
 
 **Ph.D. student**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
 
- [Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)  
+ 
+[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)  
 
-
-**{ref}`Salzberg <steven-l-salzberg>` Lab**  
-
-[dbass13@jh.edu](mailto:dbass13@jh.edu) 
-
+[dbass13@jh.edu](mailto:dbass13@jh.edu)  
 
 ::::
 ```
-
-
 
 (hyun-joo-ji)=
 ## Hyun Joo Ji
@@ -164,19 +143,14 @@
 
 **Ph.D. student**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
 
- {{ cs }}  
+{{ cs }}  
 
-
-**{ref}`Salzberg <steven-l-salzberg>` Lab**  
-
-[hji20@jh.edu](mailto:hji20@jh.edu) 
-
+[hji20@jh.edu](mailto:hji20@jh.edu)  
 
 ::::
 ```
-
-
 
 (kalen-clifton)=
 ## Kalen Clifton
@@ -199,19 +173,14 @@
 
 **Ph.D. student**  
 
+{ref}`Fan <jean-fan>` Lab 
 
- {{ bme }}  
+{{ bme }}  
 
-
-**{ref}`Fan <jean-fan>` Lab**  
-
-[kclifto2@jh.edu](mailto:kclifto2@jh.edu) 
-
+[kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
 
 ::::
 ```
-
-
 
 (nikola-zadorozhny)=
 ## Nikola Zadorozhny
@@ -234,20 +203,15 @@
 
 **Ph.D. student**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
+{ref}`Pertea <mihaela-pertea>` Lab 
 
- {{ cs }}  
+{{ cs }}  
 
-
-**{ref}`Salzberg <steven-l-salzberg>` Lab**  
-**{ref}`Pertea <mihaela-pertea>` Lab**  
-
-[nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com) 
-
+[nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)  
 
 ::::
 ```
-
-
 
 (radhika-jangi)=
 ## Radhika Jangi
@@ -270,19 +234,14 @@
 
 **Ph.D. student**  
 
+{ref}`Battle <alexis-battle>` Lab 
 
- {{ bio }}  
+{{ bio }}  
 
-
-**{ref}`Battle <alexis-battle>` Lab**  
-
-[rjangi1@jhu.edu](mailto:rjangi1@jhu.edu) 
-
+[rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
 
 ::::
 ```
-
-
 
 (rafael-dos-santos-peixoto)=
 ## Rafael dos Santos Peixoto
@@ -305,19 +264,14 @@
 
 **Ph.D. student**  
 
+{ref}`Fan <jean-fan>` Lab 
 
- {{ bme }}  
+{{ bme }}  
 
-
-**{ref}`Fan <jean-fan>` Lab**  
-
-[rpeixot1@jh.edu](mailto:rpeixot1@jh.edu) 
-
+[rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
 
 ::::
 ```
-
-
 
 (yuchen-ge)=
 ## Yuchen Ge
@@ -340,19 +294,14 @@
 
 **Ph.D. student**  
 
+{ref}`Salzberg <steven-l-salzberg>` Lab 
 
- {{ bme }}  
+{{ bme }}  
 
-
-**{ref}`Salzberg <steven-l-salzberg>` Lab**  
-
-[yge15@jhmi.edu](mailto:yge15@jhmi.edu) 
-
+[yge15@jhmi.edu](mailto:yge15@jhmi.edu)  
 
 ::::
 ```
-
-
 
 (zoe-catherine-rudnick)=
 ## Zoe Catherine Rudnick
@@ -375,16 +324,12 @@
 
 **Ph.D. student**  
 
+{ref}`Pertea <mihaela-pertea>` Lab 
 
- {{ bme }}  
+{{ bme }}  
 
-
-**{ref}`Pertea <mihaela-pertea>` Lab**  
-
-[zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu) 
-
+[zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
 
 ::::
 ```
-
 
