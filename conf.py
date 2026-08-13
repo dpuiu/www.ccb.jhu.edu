@@ -83,14 +83,14 @@ html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
 html_extra_path = ['_static/.nojekyll', '_static/google5ed79d6dabf65a2d.html', '_static/robots.txt']
 html_js_files = ["custom.js"]
-#html_logo = "_static/logo.png"  # keep the comments
+html_logo = "_static/logos/ccb_w_text_transparent_for_dark.webp"  # keep the comments
 html_search_language = "en"
 html_search = True
 html_static_path = ["_static"]
 
 html_theme_options = {
         'header_links_before_dropdown': 10,
-        'announcement': "Welcome 2026 Summer Interns!!!",
+#        'announcement': "Welcome 2026 Summer Interns!!!",
         "show_prev_next": False,
         "sticky_banners": True,
         "article_footer_items": ["last-updated", "edit-this-page"],

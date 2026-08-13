@@ -1,5 +1,6 @@
 sphinx==9.1.0
 furo
+shibuya
 myst-parser
 sphinx-copybutton
 sphinx-design

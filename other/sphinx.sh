@@ -936,3 +936,11 @@ PMC3319356
 PMC55324
 PMC4707948
 PMC7222032
+
+#######
+convert campus2.jpeg -crop 3963x1039+0+0 +repage campus2-top.web
+
+#########
+
+git clone -b design https://github.com/saranderson13/www.ccb.jhu.edu.git
+python -m http.server 8001 --bind 127.0.0.1 -d  _design/

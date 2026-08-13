@@ -1,7 +1,7 @@
 {% extends "!page.html" %}
 
 {% block header %}                
-<!--div style="display:flex;justify-content:space-between;align-items:center;background:#002D72;color:white;padding:0px;"-->
+<!--div style="display:flex;justify-content:space-between;align-items:center;background:#002D72;color:white;padding:0px;"
 <div class="site-header">
 	<div>
 		<a href="https://ccb.jhu.edu/" alt="CCB"><img src="{{ pathto('_static/logos/CCB.webp', 1) }}" alt="CCB"></a>
@@ -10,11 +10,11 @@
 	<div>
 		<a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.webp', 1) }}"  alt="WSE"></a>
 	</div>
-</div>
+</div-->
 {% endblock %}
 
 {% block footer %}
-<div class="site-footer">
+<!--div class="site-footer">
         <div>
                 <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="{{ pathto('_static/logos/SOM.webp', 1) }}" alt="SOM"></a>
         </div>
@@ -29,5 +29,21 @@
         <div>
                 <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="{{ pathto('_static/logos/BSPH.webp', 1) }}"  alt="BSPH"></a>
         </div>
+</div-->
+
+<div class="site-footer">
+        <div>
+                <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="{{ pathto('_static/logos/SOM.logos.rgb_horizontal.white.webp', 1) }}" alt="SOM" width="250"></a>
+                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="{{ pathto('_static/logos/BSPH.logo.rgb_horizontal.white.webp', 1) }}"  alt="BSPH" width="250"></a>
+                <a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.logo.rgb_horizontal.white.webp', 1) }}"  alt="WSE" width="250"></a>                
+        </div>
+       	<div> 		
+		<span>Johns Hopkins University<br>Center for Computational Biology<br>3400 N Charles St<br>Wyman Park Building, Suite S200<br>Baltimore, MD 21218</span>
+	        <span>ABOUT<br>DATA</span>
+                <span>PEOPLE<br>EDUCATION</span>
+                <span>SOFTWARE<br>CONSULTING CORE</span>
+        </div>
+
 </div>
+
 {% endblock %}
