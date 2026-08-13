@@ -96,6 +96,7 @@ html_theme_options = {
         "article_footer_items": ["last-updated", "edit-this-page"],
         "navbar_end": ["theme-switcher", "navbar-icon-links",],
         "icon_links": [{"name": "GitHub", "url": "https://github.com/dpuiu/www.ccb.jhu.edu","icon": "fa-brands fa-github",},],
+        "content_footer_items": ["last-updated"],
 #        "external_links": [{ "name": "JHU","url": "https://jhu.edu",}],
 }
 
