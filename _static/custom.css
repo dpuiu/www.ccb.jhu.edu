@@ -21,6 +21,7 @@ Base
 body {
 font-family: "Inter", sans-serif;
 line-height: 1.6;
+background-color: #eeeeee ;
 }
 
 /*======================================================================
@@ -199,4 +200,16 @@ table.responsive-table td:nth-child(5) {
 }
 ```
 
+}
+
+
+@media (max-width: 1440px) {
+  .navbar-brand {
+    font-size: 0;
+  }
+
+  .navbar-brand::after {
+    content: "CCB";
+    font-size: 1rem;
+  }
 }
