@@ -12,6 +12,7 @@ software:
       mutations observed in the genomes of cancer cells, and a database of
       pre-computed features of all possible amino acid substitutions at every
       position of the annotated human exome.
+    url: https://github.com/KarchinLab/CHASMplus
 
   - id: cravat
     name: CRAVAT

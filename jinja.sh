@@ -1,4 +1,8 @@
-set -x
+#!/usr/bin/env bash
+
+set -eux
+
+### people
 
 jq . _people/people.schema.json > /dev/null
 
@@ -9,6 +13,7 @@ check-jsonschema --schemafile _people/people.schema.json _people/collaborators.y
 check-jsonschema --schemafile _people/people.schema.json _people/postdocs.yaml
 check-jsonschema --schemafile _people/people.schema.json _people/staff.yaml
 
+mkdir -p people/
 jinja2 _templates/people.jinja _people/faculty.yaml       -D title="Faculty"  | uniq > people/faculty.md
 jinja2 _templates/people.jinja _people/students.yaml      -D title="Students" | uniq > people/students.md
 jinja2 _templates/people.jinja _people/alumni.yaml        -D title="Alumni"   | uniq > people/alumni.md
@@ -16,17 +21,18 @@ jinja2 _templates/people.jinja _people/collaborators.yaml -D title="Collaborator
 jinja2 _templates/people.jinja _people/postdocs.yaml      -D title="Postdocs"      | uniq > people/postdocs.md
 jinja2 _templates/people.jinja _people/staff.yaml         -D title="Staff"         | uniq > people/staff.md
 
-###
+### software
 
-jq . _software/software.shema.json > /dev/null
+jq . _software/software.schema.json > /dev/null
 
-check-jsonschema --schemafile  _software/software.shema.json  _software/alignment.yaml
-check-jsonschema --schemafile  _software/software.shema.json  _software/gene_finding.yaml
-check-jsonschema --schemafile  _software/software.shema.json  _software/genome_assembly.yaml
-check-jsonschema --schemafile  _software/software.shema.json  _software/metagenomics.yaml
-check-jsonschema --schemafile  _software/software.shema.json  _software/other_tools.yaml
-check-jsonschema --schemafile  _software/software.shema.json  _software/variant_analysis.yaml
+check-jsonschema --schemafile  _software/software.schema.json  _software/alignment.yaml
+check-jsonschema --schemafile  _software/software.schema.json  _software/gene_finding.yaml
+check-jsonschema --schemafile  _software/software.schema.json  _software/genome_assembly.yaml
+check-jsonschema --schemafile  _software/software.schema.json  _software/metagenomics.yaml
+check-jsonschema --schemafile  _software/software.schema.json  _software/other_tools.yaml
+check-jsonschema --schemafile  _software/software.schema.json  _software/variant_analysis.yaml
 
+mkdir -p software/
 jinja2 _templates/software.jinja _software/alignment.yaml       -D title="Alignment"  > software/alignment.md
 jinja2 _templates/software.jinja _software/gene_finding.yaml       -D title="Computational Gene Finding"  > software/gene_finding.md
 jinja2 _templates/software.jinja _software/genome_assembly.yaml       -D title="Genome Assembly"  > software/genome_assembly.md
@@ -35,3 +41,13 @@ jinja2 _templates/software.jinja _software/other_tools.yaml       -D title="Othe
 jinja2 _templates/software.jinja _software/transcriptome_assembly.yaml       -D title="Transcriptome Assembly"  > software/transcriptome_assembly.md
 jinja2 _templates/software.jinja _software/variant_analysis.yaml       -D title="Variant Analysis Tools"  > software/variant_analysis.md
 
+
+### data
+
+jq . _data/data.schema.json > /dev/null
+check-jsonschema --schemafile  _data/data.schema.json  _data/data.yaml
+check-jsonschema --schemafile  _data/data.schema.json  _data/eupathdb.yaml
+
+mkdir -p data/
+jinja2 _templates/data.jinja _data/data.yaml     -D title="Web Servers and Databases"  > data/data.md
+jinja2 _templates/data.jinja _data/eupathdb.yaml -D title="EuPathDB" >  data/eupathdb.md

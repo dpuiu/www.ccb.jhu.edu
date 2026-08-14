@@ -1,290 +1,48 @@
 /*======================================================================
-CCB Website Custom CSS
+  CCB Website Custom CSS
 ======================================================================*/
 
+
 /*======================================================================
-Variables
+  1. VARIABLES
 ======================================================================*/
 
 :root {
---ccb-blue: #002d72;
---ccb-light-blue: #68ace5;
---search-yellow: #ffeb3b;
---table-gray: #d6d8da;
+    --ccb-blue: #002d72;
+    --ccb-light-blue: #68ace5;
+    --ccb-white: 
+    --search-yellow: #ffeb3b;
+    --table-gray: #d6d8da;
+    --white: #ffffff;
 }
 
+
 /*======================================================================
-Base
+  2. BASE
 ======================================================================*/
 
-/* Google Fonts */
 body {
-font-family: "Inter", sans-serif;
-line-height: 1.6;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
 }
-/*background-color: #eeeeee ;*/
 
 
 /*======================================================================
-Search
+  3. HEADER / NAVBAR
 ======================================================================*/
 
-/* Highlight search matches */
-mark,
-.highlighted,
-.search li em,
-span.highlight {
-background-color: var(--search-yellow) !important;
-color: #000 !important;
-padding: 2px 3px;
-border-radius: 3px;
-}
-
-/*======================================================================
-Header
-======================================================================*/
-
-/* Header announcement */
-.bd-header-announcement {
-background-color: var(--ccb-light-blue) !important;
-color: #fff !important;
-}
-
-/* Announcement text */
-.bd-header-announcement__content,
-.announcement {
-color: yellow;
-}
-
-/* Header navigation */
-.bd-navbar-elements .nav-link,
-.nav-item.current .nav-link,
-.nav-item.active .nav-link {
-font-weight: 700;
-}
-
-/*======================================================================
-Site Header / Footer
-======================================================================*/
-
-.site-header {
-display: flex !important;
-justify-content: space-between !important;
-align-items: center !important;
-background-color: var(--ccb-blue) !important;
-color: #fff !important;
-padding: 10px 20px !important;
-margin-top: 2rem !important;
-}
-
-.site-footer {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: var(--ccb-blue);
-color: #fff;
-padding: 10px 20px;
-margin-top: 2rem;
-}
-
-/*======================================================================
-Sidebar
-======================================================================*/
-
-/* Remove the secondary sidebar 
-.bd-sidebar-secondary {
-display: none;
-}
-*/
-
-/*======================================================================
-Content
-======================================================================*/
-
-/* Heading sizes */
-.bd-content h1 {
-font-size: 1.85rem;
-}
-
-.bd-content h2 {
-font-size: 1.5rem;
-}
-
-.bd-content h3 {
-font-size: 1.25rem;
-}
-
-.bd-content h4 {
-font-size: 1.1rem;
-}
-
-/* Justified text on large screens */
-@media (min-width: 1200px) {
-.bd-content p {
-text-align: justify;
-}
-}
-
-/*======================================================================
-Tables
-======================================================================*/
-
-/* Alternate table row colors */
-table.docutils tbody tr:nth-child(even) {
-background-color: var(--table-gray);
-}
-
-/* Table alignment */
-table.docutils {
-margin-inline: 0 auto !important;
-text-align: left;
-}
-
-table.docutils th,
-table.docutils td {
-text-align: left;
-vertical-align: top;
-}
-
-/*======================================================================
-Cards
-======================================================================*/
-
-/* Smaller text in grid cards */
-.sd-card-text,
-.sd-card-text p {
-font-size: 0.9rem !important;
-}
-
-/*======================================================================
-Mermaid
-======================================================================*/
-
-.mermaid svg {
-max-width: 400px;
-height: auto;
-}
-
-/*======================================================================
-Carousel
-======================================================================*/
-
-/*
-.carousel {
-width: 100%;
-max-width: 720px;
-margin-inline: auto;
-}
-
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-filter: invert(1);
-}
-*/
-
-/*======================================================================
-Responsive
-======================================================================*/
-
-/* Hide elements and selected table columns on mobile */
-@media (max-width: 768px) {
-.hide-mobile {
-display: none !important;
-}
-
-```
-/* Hide columns 4 and 5 on mobile */
-table.responsive-table th:nth-child(4),
-table.responsive-table td:nth-child(4),
-table.responsive-table th:nth-child(5),
-table.responsive-table td:nth-child(5) {
-    display: none;
-}
-```
-
-}
-
-
-@media (max-width: 1440px) {
-  .navbar-brand {
-    font-size: 0;
-  }
-
-  .navbar-brand::after {
-    content: "CCB";
-    font-size: 1rem;
-  }
-}
-
-/*================================*/
-
-/*
-.bd-main {
-    width: 100% !important;
-    max-width: none !important;
-}
-
-.bd-content {
-    width: 100% !important;
-    max-width: none !important;
-}
-
-.bd-article-container {
-    width: 100% !important;
-    max-width: none !important;
-}
-
-
-.full-width-image {
-    width: 100vw;
-    max-width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-}
-
-.full-width-image img {
-    width: 100%;
-    display: block;
-}
-*/
-.bd-main {
-    width: 100% !important;
-    max-width: none !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.bd-content {
-    width: 100% !important;
-    max-width: none !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.bd-article-container {
-    width: 100% !important;
-    max-width: none !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.bd-article {
-    width: 100% !important;
-    max-width: none !important;
-}
-
-/*----------------------*/
-
+/* Main navbar */
 .navbar {
     background-color: var(--ccb-blue) !important;
 }
 
+/* Header navigation links */
 .bd-header .nav-item .nav-link {
     color: var(--ccb-light-blue) !important;
+    font-weight: 700;
 }
 
-
+/* Separators between navigation items */
 .bd-header .nav-item:not(:last-child) .nav-link::after {
     content: " |";
     color: white;
@@ -292,12 +50,198 @@ table.responsive-table td:nth-child(5) {
     white-space: nowrap;
 }
 
+/* Navbar logo */
 .bd-header .navbar-brand img {
     transform: scale(1.5);
 }
 
-/* ------------------------*/
+/* Header announcement */
+.bd-header-announcement {
+    background-color: var(--ccb-light-blue) !important;
+    color: var(--white) !important;
+}
 
+/* Announcement text */
+.bd-header-announcement__content,
+.announcement {
+    color: var(--search-yellow);
+}
+
+
+/*======================================================================
+  4. SITE HEADER / FOOTER
+======================================================================*/
+
+/* Site header */
+.site-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+
+    background-color: var(--ccb-blue) !important;
+    color: var(--white) !important;
+
+    padding: 10px 20px !important;
+    margin-top: 2rem !important;
+}
+
+
+.site-footer {
+    display: flex !important;
+    flex-direction: column !important;
+
+    width: 100% !important;
+
+    background-color: var(--ccb-blue);
+    color: var(--white);
+
+    padding: 10px 20px;
+    margin-top: 2rem;
+}
+
+.site-footer > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.site-footer > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 60px;
+    margin-top: 20px;
+
+    font-size: 0.85rem;
+    line-height: 1.25;
+}
+
+.site-footer > div:nth-child(2) > span {
+    display: block;
+    text-align: left;
+}
+
+/*======================================================================
+  5. SEARCH
+======================================================================*/
+
+/* Highlight search matches */
+mark,
+.highlighted,
+.search li em,
+span.highlight {
+    background-color: var(--search-yellow) !important;
+    color: var(--white) !important;
+
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+
+/*======================================================================
+  6. CONTENT WIDTH
+======================================================================*/
+
+/*
+  Remove PyData's default content width restrictions.
+  This allows full-width content and hero images.
+*/
+
+.bd-main,
+.bd-content,
+.bd-article-container,
+.bd-article {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.bd-main,
+.bd-content,
+.bd-article-container,
+.bd-article {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/*======================================================================
+  7. CONTENT / HEADINGS
+======================================================================*/
+
+.bd-content h1 {
+    font-size: 1.85rem;
+}
+
+.bd-content h2 {
+    font-size: 1.5rem;
+}
+
+.bd-content h3 {
+    font-size: 1.25rem;
+}
+
+.bd-content h4 {
+    font-size: 1.1rem;
+}
+
+/* Justify text on large screens */
+@media (min-width: 1200px) {
+    .bd-content p {
+        text-align: justify;
+    }
+}
+
+
+/*======================================================================
+  8. SIDEBAR
+======================================================================*/
+
+/*
+.bd-sidebar-secondary {
+    display: none;
+}
+*/
+
+
+/*======================================================================
+  9. TABLES
+======================================================================*/
+
+/* Alternate row colors */
+table.docutils tbody tr:nth-child(even) {
+    background-color: var(--table-gray);
+}
+
+/* Table alignment */
+table.docutils {
+    margin-inline: 0 auto !important;
+    text-align: left;
+}
+
+table.docutils th,
+table.docutils td {
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/*======================================================================
+  10. CARDS
+======================================================================*/
+
+.sd-card-text,
+.sd-card-text p {
+    font-size: 0.9rem !important;
+}
+
+
+/*======================================================================
+  11. HERO IMAGE
+======================================================================*/
 
 .hero-image {
     position: relative;
@@ -311,12 +255,16 @@ table.responsive-table td:nth-child(5) {
     height: auto;
 }
 
+/* Text overlay */
 .hero-text {
     position: absolute;
+
     top: 30%;
     left: 5%;
+
     width: 60%;
     max-width: 60%;
+
     box-sizing: border-box;
 
     color: white;
@@ -325,98 +273,92 @@ table.responsive-table td:nth-child(5) {
 
     text-align: left;
     white-space: normal;
+
     overflow-wrap: break-word;
     word-wrap: break-word;
 
     background: rgba(0, 45, 114, 0.5);
+
     border-left: 3px solid #fdb515;
     border-bottom: 3px solid #fdb515;
+
     padding: 8px 16px;
 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
-/*-----------
-.site-footer > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-} */
+
+
+/*======================================================================
+  12. MERMAID
+======================================================================*/
+
+.mermaid svg {
+    max-width: 400px;
+    height: auto;
+}
+
+
+/*======================================================================
+  13. CAROUSEL
+======================================================================*/
 
 /*
-.site-footer {
+.carousel {
     width: 100%;
-    text-align: center;
+    max-width: 720px;
+    margin-inline: auto;
 }
 
-.site-footer > div {
-    width: 100%;
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
 }
 */
-/*
-.site-footer img {
-    display: block;
+
+
+/*======================================================================
+  14. RESPONSIVE DESIGN
+======================================================================*/
+
+/*--------------------------------------------------
+  Medium / smaller screens
+--------------------------------------------------*/
+
+@media (max-width: 1400px) {
+
+    /* Shorten site title */
+    .navbar-brand {
+        font-size: 0;
+    }
+
+    .navbar-brand::after {
+        content: "CCB";
+        font-size: 1rem;
+    }
 }
 
 
-.site-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/*--------------------------------------------------
+  Mobile
+--------------------------------------------------*/
+
+@media (max-width: 768px) {
+
+    /* Hide elements marked for mobile */
+    .hide-mobile {
+        display: none !important;
+    }
+
+    /* Hide columns 4 and 5 */
+    table.responsive-table th:nth-child(4),
+    table.responsive-table td:nth-child(4),
+    table.responsive-table th:nth-child(5),
+    table.responsive-table td:nth-child(5) {
+        display: none;
+    }
 }
 
-.site-footer > div:first-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
 
-
-.site-footer > div:not(:first-child) {
-    text-align: left;
-    font-size: 0.85rem;
-    line-height: 1.25;
-    margin-top: 15px;
-}
-
-*/
-
-.site-footer {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-}
-
-/* First div: logos side by side */
-.site-footer > div:first-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-/* Second div: columns side by side */
-.site-footer > div:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 60px;
-    margin-top: 20px;
-
-    font-size: 0.85rem;
-    line-height: 1.25;
-}
-
-/* Each text column */
-.site-footer > div:nth-child(2) > span {
-    display: block;
-    text-align: left;
-}
-
+/*======================================================================
+  END
+======================================================================*/

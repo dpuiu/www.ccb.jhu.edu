@@ -1,14 +1,14 @@
 # {{ title }} 
 
-{% for package in software %}
-({{ package.id }})=
-## [{{ package.name }}]({{package.url}})
+{% for s in software %}
+({{ s.id }})=
+## [{{ s.name }}]({{s.url}})
 
-{{ package.description }}
+{{ s.description }}
 
-**Categories:** {{ package.category | join(", ") }}  
-{% if package.pmcid -%}
-**Publication:** [{{ package.pmcid }}](https://pmc.ncbi.nlm.nih.gov/articles/{{ package.pmcid }}/)
+**Categories:** {{ s.category | join(", ") }}  
+{% if s.pmcid -%}
+**Publication:** [{{ s.pmcid }}](https://pmc.ncbi.nlm.nih.gov/articles/{{ s.pmcid }}/)
 {% endif %}
 
 {% endfor %}

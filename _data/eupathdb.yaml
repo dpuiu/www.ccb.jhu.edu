@@ -1,0 +1,50 @@
+data:
+  - id: eupathdb54
+    name: EuPathDB54
+    status: current
+    category:
+      - eukaryotic-pathogens
+      - genome-database
+      - metagenomics
+      - kraken2-database
+    url: https://github.com/dpuiu/eupathDB/
+    description: >
+      Latest curated database of eukaryotic pathogen genomes.
+      Contains ~504 genomes from major eukaryotic pathogen
+      groups and has been processed to remove contaminating and
+      low-complexity sequences. A pre-built Kraken 2 database and the
+      individual genome collections are provided.
+    pmcid: PMC6034898
+
+  - id: eupathdb46
+    name: EuPathDB46
+    status: current
+    category:
+      - metagenomics
+      - eukaryotic-pathogens
+      - kraken2-database
+      - genome-database
+    url: https://github.com/dpuiu/eupathDB/
+    description: >
+      Curated database of eukaryotic pathogen genomes.
+      Contains 388 genomes from major eukaryotic pathogen
+      groups and has been processed to remove contaminating and
+      low-complexity sequences. A pre-built Kraken 2 database and the
+      individual genome collections are provided.
+    pmcid: PMC6034898
+
+  - id: eupathdb28
+    name: EuPathDB28
+    status: older
+    category:
+      - metagenomics
+      - eukaryotic-pathogens
+      - kraken2-database
+      - genome-database
+    url: https://github.com/dpuiu/eupathDB/
+    description: >
+      Earlier curated collection of eukaryotic pathogen genomes.
+      Contains 245 genomes processed to remove
+      contaminating and low-complexity sequences. The collection was
+      distributed as a genome library and a pre-built Kraken 2 database.
+    pmcid: PMC6034898

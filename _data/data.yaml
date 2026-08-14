@@ -1,0 +1,63 @@
+data:
+  - id: chess-app
+    name: CHESS App
+    status: newer
+    category:
+      - genome-annotation
+      - human-genome
+    url: https://web.idies.jhu.edu/chess_app
+    description: A unified resource for exploring the CHESS human genome annotation.
+    pmcid: PMC10614308
+
+  - id: isoform-io
+    name: Isoform.io
+    status: current
+    category:
+      - protein-structure
+      - structural-biology
+    url: https://www.isoform.io/
+    description: 3D-Beacons decreases the gap between protein sequences and structures through a federated network of protein structure data resources.
+    pmcid: PMC9709962
+
+  - id: hiv-atlas
+    name: HIV Atlas
+    status: current
+    category:
+      - viral-genomics
+      - transcriptomics
+      - hiv
+    url: https://ccb.jhu.edu/HIV_Atlas/
+    description: HIV Atlas provides comprehensive transcriptome annotation of thousands of HIV-1 genomes.
+    pmcid: PMC12485963
+
+  - id: chess
+    name: CHESS
+    status: current
+    category:
+      - genome-annotation
+      - transcriptomics
+      - rna-seq
+    url: https://github.com/dpuiu/chess/wiki/
+    description: A new catalog of human genes based on nearly 10,000 RNA sequencing experiments.
+    pmcid: PMC6260756
+
+  - id: t2t-chm13
+    name: T2T-CHM13 Annotation
+    status: current
+    category:
+      - genome-annotation
+      - human-genome
+      - reference-genome
+    url: https://github.com/salzberg-lab/T2T
+    description: RefSeq annotation of the CHM13 genome created using the Liftoff program.
+    pmcid: PMC8289374
+
+  - id: ardb
+    name: ARDB
+    status: older
+    category:
+      - antibiotic-resistance
+      - bacterial-genomics
+    url: https://ardb.cbcb.umd.edu/
+    description: Antibiotic Resistance Genes Database.
+    pmcid: PMC2686595

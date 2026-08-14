@@ -199,3 +199,13 @@ software:
       or pairs of closely related exome or whole-genome sequencing samples. It
       compares DNA sequences directly to one another, without aligning them to
       the reference genome.
+
+  - id: enterix
+    name: EnteriX
+    status: older
+    category:
+      - bacterial-genomics
+      - genome-annotation
+    url: https://enterix.cbcb.umd.edu/
+    description: Web servers for displaying alignments and annotations of bacterial genomes.
+    pmcid: PMC168958

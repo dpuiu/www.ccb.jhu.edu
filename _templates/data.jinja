@@ -1,0 +1,14 @@
+# {{ title }} 
+
+{% for d in data %}
+({{ d.id }})=
+## [{{ d.name }}]({{d.url}})
+
+{{ d.description }}
+
+**Categories:** {{ d.category | join(", ") }}  
+{% if d.pmcid -%}
+**Publication:** [{{ d.pmcid }}](https://pmc.ncbi.nlm.nih.gov/articles/{{ d.pmcid }}/)
+{% endif %}
+
+{% endfor %}
