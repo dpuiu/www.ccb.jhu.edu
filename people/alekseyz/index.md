@@ -37,17 +37,31 @@ Baltimore, MD 21211
 ::::
 
 ```
+---
 
-______________________________________________________________________
+::::{tab-set}
 
+:::{tab-item} Research
 ```{include} /people/alekseyz/research.md
 ```
+:::
 
-```{include} /people/alekseyz/publications.md
+:::{tab-item} Publications
+```{bibliography}
+:filter: author % "Zimin"
+:sort: year descending
 ```
+:::
 
+
+:::{tab-item} Software
 ```{include} /people/alekseyz/software.md
 ```
+:::
 
+:::{tab-item} About
 ```{include} /people/alekseyz/about.md
 ```
+:::
+
+::::

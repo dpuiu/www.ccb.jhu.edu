@@ -55,15 +55,15 @@
   - [Computing the Transcriptome](#CCB_Courses-658)
   - EN.580.458/658
   - {ref}`mihaela-pertea`
-* - Spring (2nd half)
+* - Spring<br>(2nd half)
   - [Systems Biology of the Cell](#CCB_Courses-248)
   - EN.580.248
   - {ref}`joel-bader`
-* - Spring (2nd half)
+* - Spring<br>(2nd half)
   - [Methods in Nucleic Acid Sequencing](#CCB_Courses-454)
   - EN.580.454
   - {ref}`winston-timp`
-* - Summer (1 week)
+* - Summer<br>(1 week)
   - [BCMB Computational Biology Bootcamp](#CCB_Courses-806)
   - ME.800.806
   - {ref}`winston-timp`

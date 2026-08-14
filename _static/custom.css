@@ -358,6 +358,11 @@ table.docutils td {
     }
 }
 
+/*----*/
+.responsive-table th,
+.responsive-table td {
+    text-align: left !important;
+}
 
 /*======================================================================
   END

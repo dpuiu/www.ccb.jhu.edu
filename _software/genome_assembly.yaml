@@ -69,10 +69,42 @@ software:
     pmcid: PMC3799473
     description: >
       MaSuRCA is a whole-genome assembler developed originally at the University
-      of Maryland by James Yorke, Aleksey Zimin, and their colleagues. Ongoing
-      development is a joint effort between JHU and UMD, with recent modules
+      of Maryland. Ongoing development is a joint effort between JHU and UMD, with recent modules
       designed to create hybrid assemblies using both short reads (Illumina) and
       long reads (PacBio/Oxford Nanopore).
+
+  - id: polca
+    name: POLCA
+    status: current
+    category:
+      - genome-assembly
+      - assembly-polishing
+      - hybrid-assembly
+      - short-read
+      - long-read
+    url: https://github.com/alekseyzimin/Polca
+    pmcid: PMC7347232
+    description: >
+      POLCA is a polishing tool for genome assemblies that uses short sequencing
+      reads to correct errors and improve the accuracy of assemblies generated
+      from long-read or hybrid sequencing data. It is part of the MaSuRCA genome
+      assembly toolkit.
+
+  - id: samba
+    name: SAMBA
+    status: current
+    category:
+      - genome-assembly
+      - scaffolding
+      - genome-scaffolding
+      - long-range-scaffolding
+    url: https://github.com/alekseyzimin/SAMBA
+    pmcid: PMC8849508
+    description: >
+      SAMBA is a genome scaffolding tool that uses long-range linkage information
+      to order and orient assembled contigs into chromosome-scale scaffolds. It
+      was developed by Aleksey Zimin and colleagues and is designed to improve
+      genome assemblies by incorporating long-range sequencing information.
 
   - id: flash
     name: FLASH
@@ -98,7 +130,7 @@ software:
     pmcid: PMC10096238
     description: >
       JASPER is a fast genome polishing tool that improves the accuracy of
-      genome assemblies. 
+      genome assemblies.
 
   - id: amos
     name: AMOS Assembler project

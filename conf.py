@@ -159,3 +159,15 @@ redirects = {
     "people/salzberg/index:": "https://salzberg-lab.org",
     "people/mpertea/index:": "https://pertealab.org",
 }
+
+
+#from pybtex.style.sorting import BaseSortingStyle
+#from pybtex.plugin import register_plugin
+#class YearDescendingSortingStyle(BaseSortingStyle):
+#    def sorting_key(self, entry):
+#        return -int(entry.fields.get("year", "0"))
+#register_plugin(
+#    "pybtex.style.sorting",
+#    "year_descending",
+#    YearDescendingSortingStyle,
+#)
