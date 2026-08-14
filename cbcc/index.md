@@ -5,8 +5,7 @@
 The Computational Biology Consulting Core (CBCC) was created to offer
 state-of-the-art computational biology services to biomedical researchers at the
 Johns Hopkins University. The Core is under the direction of
-[Liliana Florea](https://ccb.jhu.edu/people/florea). It builds on the expertise
-of faculty in the [Center for Computational Biology](https://ccb.jhu.edu), using
+{ref}`liliana-florea`. It builds on the expertise of faculty in the {{ccb}}, using
 best practices and the latest validated technologies to design solutions
 targeted to researchers' needs.
 
@@ -18,8 +17,10 @@ handle most types of sequencing data, including Illumina, PacBio, 454, and
 Sanger reads, and we have experience with a variety of sequencing protocols
 (RNA-seq, Chip-seq, whole-genome sequencing, whole-exome sequencing, etc). We
 use the very latest software, and we can work with you to design custom
-algorithms and analyses as needed.</p> Examples of analyses:
+algorithms and analyses as needed.
 
+Examples of analyses:
+<!--
 - transcriptome assembly (RNA-seq)
 - differential expression and differential splicing
 - SNP and structural variant detection
@@ -29,6 +30,17 @@ algorithms and analyses as needed.</p> Examples of analyses:
 - genome assembly
 - sequence alignment
 - comparative genomics
+-->
+
+- <abbr title="Assembling RNA-seq reads into transcripts.">transcriptome assembly</abbr>
+- <abbr title="Comparing gene expression and RNA splicing between conditions.">differential expression and splicing</abbr>
+- <abbr title="Detecting SNPs and larger genomic variants.">SNP and structural variant detection</abbr>
+- <abbr title="Profiling microbial communities using the 16S rRNA gene.">16S rRNA analysis</abbr>
+- <abbr title="Analyzing microbial communities from whole-genome sequencing data.">WGS microbiome analysis</abbr>
+- <abbr title="Mapping protein-DNA binding sites genome-wide.">ChIP-seq analysis</abbr>
+- <abbr title="Assembling sequencing reads into genomes.">genome assembly</abbr>
+- <abbr title="Finding similarities between biological sequences.">sequence alignment</abbr>
+- <abbr title="Comparing genomes across organisms.">comparative genomics</abbr>
 
 For all projects, we can arrange to transfer the data directly from the
 sequencing facility to our computers. We handle all data storage and computing
@@ -41,7 +53,7 @@ project, including the need for designing custom solutions. While we cannot
 estimate the needs for each type of analysis, some examples are listed
 <a href="./pricing.shtml"><b>here</b></a>. Please contact us for a more specific
 solution and pricing for your project. If you are preparing a grant proposal,
-please allow <b>at least one week</b> for a custom quote and to discuss your
+please allow **at least one week** for a custom quote and to discuss your
 specific needs and analyses.
 
 ## Contact us

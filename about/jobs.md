@@ -29,14 +29,17 @@ pages.
 Many students write to us directly asking if they can join the lab. While we
 appreciate your interest, this is not how Ph.D. applications are considered at
 Hopkins. Instead, you should apply directly to the Ph.D. program through one of
-the Departments that the faculty belong to. These include the {{bme}} ({{WSE}}
-and {{SOM}}), Computer Science ({{WSE}}), Biostatistics ({{BSPH}}), Genetic
-Engineering ({{SOM}}), and Biology ({{KSAS}}). Make sure to specify on your
-application the name of the specific faculty member (or members) with whom you
-are interested in studying, which will ensure that those professors see your
-application. Abbreviations: {{WSE}}, Whiting School of Engineering; {{SOM}},
-School of Medicine; {{BSPH}}, Bloomberg School of Public Health; {{KSAS}},
-Krieger School of Arts and Sciences.
+the Departments that the faculty belong to. 
+These include:
 
-You can
-{doc}`find out more about our Ph.D. programs here </education/information>`
+- {{bme}} ({{WSE}} and {{SOM}})
+- {{cs}} ({{WSE}})
+- {{bsph}} (({{BSPH}})
+- Genetic Engineering ({{SOM}})
+- {{bio}} ({{KSAS}})
+
+Make sure to specify on your application the name of the specific faculty member (or members) with whom you
+are interested in studying, which will ensure that those professors see your
+application. 
+
+You can find out more about our Ph.D. programs {doc}` here </education/information>`

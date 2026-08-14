@@ -17,19 +17,29 @@ Computational scientists in {{CCB}} develop novel software methods for analysis
 of sequencing data deriving from many different types of sequencing experiments,
 including:
 
-- whole genome sequencing and assembly
+<!-- - whole genome sequencing and assembly
 - transcriptome analysis (RNA-seq)
 - spatial transcriptomics
 - microbiome sequencing and analysis
 - human genome assembly and annotation
 - epigenetics and methylation analysis
-- single-cell expression analysis
+- single-cell expression analysis -->
 
-{{CCB}} is organized as a research center within the {{WSE}}, with faculty
-members spanning {{WSE}}, the {{som}}, the {{sph}}, and the {{ksas}}. The Center
-is closely affiliated with (1) the {{bme}}, which is in the Schools of Medicine
-and Engineering; (2) the {{cs}} in the {{wse}}, and (3) the {{bsph}} in the
-{{sph}}.
+- <abbr title="Sequencing and assembling an organism's entire genome.">whole-genome sequencing and assembly</abbr>
+- <abbr title="Analyzing RNA to measure gene expression.">transcriptome analysis (RNA-seq)</abbr>
+- <abbr title="Measuring gene expression while preserving its location within tissue.">spatial transcriptomics</abbr>
+- <abbr title="Characterizing microorganisms and their composition in a biological sample.">microbiome sequencing and analysis</abbr>
+- <abbr title="Assembling and annotating the human genome.">human genome assembly and annotation</abbr>
+- <abbr title="Studying DNA methylation and other changes that regulate gene activity.">epigenetics and methylation analysis</abbr>
+- <abbr title="Measuring gene expression in individual cells.">single-cell expression analysis</abbr>
+
+{{CCB}} is organized as a research center within the {{wse}} (WSE), with faculty
+members spanning {{WSE}}, the {{som}} (SOM), the {{sph}} (SPH), and the {{ksas}} (KSAS). 
+The Center is closely affiliated with:
+
+- {{bme}}, which is in the {{som}} and {{wse}}
+- {{cs}} in the {{wse}}
+- {{bsph}} in the {{sph}}
 
 ## Leadership
 
@@ -40,7 +50,7 @@ complete list of our faculty.
 ## Computing infrastructure
 
 {{CCB}} has a high-performance computing facility operated jointly with the
-{{dsai}} (IDIES), a {{JHU}} institute supporting scientific research ranging
+{{ides}} (IDIES), a JHU institute supporting scientific research ranging
 from medicine to astrophysics. The {{CCB}} computing facility includes
 large-scale data storage devices and multiple large-memory compute servers.
 {{CCB}} also relies on the campus-wide {{ARCH}} center, a computing grid with
@@ -50,21 +60,6 @@ over 34,000 core processors and 13 petabytes of storage.
 
 Since January 2020, {{CCB}} has been headquartered in the 
 [Wyman Park Building](https://www.google.com/maps/search/?api=1&query=3100+Wyman+Park+Drive+Baltimore+MD+21211) at 
-the Homewood Campus.
-
-`````{grid} 2
-:gutter: 1
-
-````{grid-item}
-```{button-link} ../_static/maps/homewood_campus_map.pdf
-Homewood Campus Map (PDF)
-```
-````
-
-````{grid-item}
-```{button-link} ../_static/maps/JHH_Visitors_Guide_map_only.pdf
-Medical Campus Map (PDF)
-```
-````
-
-`````
+the Homewood Campus. 
+Maps of the [Homewood Campus](../_static/maps/homewood_campus_map.pdf) and 
+[Johns Hopkins Medical Campus](../_static/maps/JHH_Visitors_Guide_map_only.pdf) can be found here.
