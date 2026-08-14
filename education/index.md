@@ -9,7 +9,6 @@ title: Education
 Information <information>
 Sample Courses  <sample_courses>
 Courses <courses>
-Internship <internship>
 ```
 
 ```{include} information.md

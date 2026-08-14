@@ -37,10 +37,8 @@ joined the program one month later and interned for 6 weeks. The stipend was
 approximately $4500 for the summer for undergraduates and $2500 for high school
 students.
 
-**Summer 2017**: the CCB internship program was organized jointly, for the third
-year in a row, with the
-[the Summer Research Expeditions (SRE)](https://www.cs.jhu.edu/sre/) program in
-the Computer Science Department at JHU.
+**Summer 2017**: the CCB internship program was organized jointly, for the third year in a row, with the
+[the Summer Research Expeditions (SRE)](https://www.cs.jhu.edu/sre/) program in the {{cs}} at JHU.
 
 ## Required background
 
@@ -76,42 +74,22 @@ the program.
 
 ## Faculty mentors
 
-2016:\
-{ref}`steven-l-salzberg`, {ref}`ben-langmead`, Jeff Leek, {ref}`liliana-florea`,
-{ref}`mihaela-pertea`, {ref}`alexis-battle`, {ref}`daehwan-kim`,
-{ref}`daniela-puiu`, {ref}`dan-arking`, Geo Pertea, {ref}`joel-bader`
-
-2015:\
-{ref}`james-taylor`, {ref}`steven-l-salzberg`, {ref}`ben-langmead`, Jeff Leek,
-{ref}`daehwan-kim`, {ref}`daniela-puiu`, {ref}`dan-arking`,
-{ref}`florian-breitwieser`, {ref}`liliana-florea`
-
-2014:\
-{ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`,
-{ref}`joel-bader`, {ref}`hongkai-ji`, {ref}`ben-langmead`, {ref}`daniela-puiu`,
-{ref}`james-taylor`
-
-2013:\
-{ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`,
-{ref}`ben-langmead`, {ref}`daniela-puiu`,
-
-2012:\
-{ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`,
-{ref}`hongkai-ji`, {ref}`tanja-magoc`, {ref}`daniela-puiu`, {ref}`robert-scharpf`
+- 2016: {ref}`steven-l-salzberg`, {ref}`ben-langmead`, Jeff Leek, {ref}`liliana-florea`,{ref}`mihaela-pertea`, {ref}`alexis-battle`, {ref}`daehwan-kim`,{ref}`daniela-puiu`, {ref}`dan-arking`, Geo Pertea, {ref}`joel-bader`
+- 2015: {ref}`james-taylor`, {ref}`steven-l-salzberg`, {ref}`ben-langmead`, Jeff Leek, {ref}`daehwan-kim`, {ref}`daniela-puiu`, {ref}`dan-arking`, {ref}`florian-breitwieser`, {ref}`liliana-florea`
+- 2014: {ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`, {ref}`joel-bader`, {ref}`hongkai-ji`, {ref}`ben-langmead`, {ref}`daniela-puiu`, {ref}`james-taylor`
+- 2013: {ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`, {ref}`ben-langmead`, {ref}`daniela-puiu`,
+- 2012: {ref}`steven-l-salzberg`, {ref}`liliana-florea`, {ref}`dan-arking`, {ref}`hongkai-ji`, {ref}`tanja-magoc`, {ref}`daniela-puiu`, {ref}`robert-scharpf`
 
 ## Other information
 
-You can read more about the genomics and bioinformatics research and activities
-at the JHU {{ccb}} on [our website](https://ccb.jhu.edu).
+You can read more about the genomics and bioinformatics research and activities on the {{CCB}} website
 
-[Frequent shuttle](https://www.parking.jhu.edu/shuttles_jhmi_homewood.html)
-service is available between Homewood (and Peabody) and JHMI.
+[Frequent shuttle](https://www.parking.jhu.edu/shuttles_jhmi_homewood.html) service is available between Homewood (and Peabody) and JHMI.
 
 Questions? See the Summer Research Expeditions site for more information. If you
-have questions about the CCB internships in particular, you can contact Ann
-Vukelich at avukeli1@jhmi.edu.
+have questions about the CCB internships in particular, you can contact 
+Ann Vukelich at avukeli1@jhmi.edu.
 
 ## Other related opportunities
 
-Summer undergraduate internships in bioinformatics at the University of
-Maryland's [CBCB](https://www.cbcb.umd.edu/summer-internships). ::: ::::
+Summer undergraduate internships in bioinformatics at the University of Maryland's [CBCB](https://www.cbcb.umd.edu/summer-internships).

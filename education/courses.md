@@ -86,9 +86,8 @@ implementations for analyzing data. Topics will include: string matching,
 sequence alignment and indexing, assembly, and sequence models. Course will
 involve significant programming projects.
 
-**Prerequisite(s):** EN.600.120/EN.601.220 AND EN.600.226/EN.601.226 **Note:**
-Students may receive credit for only one of EN.600.439, EN.600.639, EN.601.447,
-EN.601.647.
+**Prerequisite(s):** EN.600.120/EN.601.220 AND EN.600.226/EN.601.226  
+**Note:** Students may receive credit for only one of EN.600.439, EN.600.639, EN.601.447, EN.601.647.
 
 (CCB_Courses-350)=
 ### [EN.601.350 Genomic Data Science](https://e-catalogue.jhu.edu/search/?search=EN.601.350)
@@ -151,10 +150,8 @@ machine learning.Topics will include disease association, prediction tasks,
 clustering and dimensionality reduction, data integration, and network
 reconstruction. There will be some programming and a project component.
 
-**Prerequisites:** EN.601.226 or other programming experience, probability and
-statistics, linear algebra or calculus. 
-**Note:** Students may receive credit
-for only one of EN.600.438, EN.600.638, EN.601.448, EN.601.648.
+**Prerequisites:** EN.601.226 or other programming experience, probability and statistics, linear algebra or calculus.  
+**Note:** Students may receive credit for only one of EN.600.438, EN.600.638, EN.601.448, EN.601.648.
 
 (CCB_Courses-449)=
 ### [EN.601.449 Computational Genomics: Applied Comparative Genomics](https://e-catalogue.jhu.edu/search/?search=EN.601.449)
@@ -172,7 +169,7 @@ and/or programming.
 
 (CCB_Courses-744)=
 ### [ME.710.744 Genomic Technologies: Tools for Illuminating Biology and Dissecting Disease](https://e-catalogue.jhu.edu/search/?search=ME.710.744)
-...
+The course addresses the methodology, design, analysis and application of pivotal technologies whose use and power in genetics is essential for students to understand
 
 (CCB_Courses-244)=
 ### [EN.580.244 Nonlinear Dynamics of Biological Systems](https://e-catalogue.jhu.edu/search/?search=EN.580.244)
@@ -182,8 +179,7 @@ bifurcations (cell-fate decision), limit cycles (cell-cycle, neuronal
 excitations), chaos, and maps. Matlab will be used to simulate these systems and
 motivate nonlinear analytic tools and stability analysis.
 
-**Recommended course background:** AS.110.201 Linear Algebra, AS.110.302
-Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
+**Recommended course background:** AS.110.201 Linear Algebra, AS.110.302 Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
 
 (CCB_Courses-452)=
 ### [EN.601.452 / AS.020.415 Computational Biomedical Research & Advanced Biomedical Research](https://e-catalogue.jhu.edu/search/?search=EN.610.452)
@@ -198,7 +194,7 @@ to two 50-minute classes per week, students will commit to working approximately
 will work together to schedule the research project. Students will present their
 work at a symposium at the end of the semester.
 
-**Recommended course background:** AS.110.201 Linear Algebra, AS.110.302
+**Recommended course background:** AS.110.201 Linear Algebra, AS.110.302 
 Differential Equations, or EN.553.292 Linear Algebra and Differential Equations.
 
 (CCB_Courses-688)=
@@ -228,8 +224,7 @@ How do we reconstruct the splice variants that are transcribed in different cell
 types and conditions? How do we compute which genes are differentially expressed
 between different RNA-seq datasets?
 
-**Prerequisite(s):** (1) Familiarity with Python or Perl, (2) the Unix
-command-line environment, and (3) a basic understanding of programming in R
+**Prerequisite(s):** (1) Familiarity with Python or Perl, (2) the Unix command-line environment, and (3) a basic understanding of programming in R
 
 (CCB_Courses-248)=
 ### [EN.580.248 Systems Biology of the Cell](https://e-catalogue.jhu.edu/search/?search=EN.580.248)
@@ -246,8 +241,7 @@ positive and negative feedback, non-linearities introducted by saturation and
 cooperativity, information content and combinatorial regulation, and
 instabilities leading to cell fate specification.
 
-**Recommended Course Background:** Linear Algebra, Systems and Controls and
-programming.
+**Recommended Course Background:** Linear Algebra, Systems and Controls and programming.
 
 (CCB_Courses-454)=
 ### [EN.580.454 Methods in Nucleic Acid Sequencing](https://e-catalogue.jhu.edu/search/?search=EN.580.454)
@@ -260,8 +254,7 @@ Students will learn basic sequencing library preparation, perform sequencing
 experiments and analyze the resulting data. Experiments include human targeted
 sequencing, metagenomic sequencing and genome assembly.
 
-**Prerequisite(s):** Students must have completed Lab Safety training prior to
-registering for this class.
+**Prerequisite(s):** Students must have completed Lab Safety training prior to registering for this class.
 
 (CCB_Courses-806)=
 ### [ME.800.806 BCMB Computational Biology Bootcamp](https://e-catalogue.jhu.edu/search/?search=ME.800.806)
