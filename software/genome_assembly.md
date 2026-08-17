@@ -1,7 +1,7 @@
 # Genome Assembly 
 
 
-(mummer)=
+(mummer4)=
 ## [MUMmer](https://github.com/mummer4/mummer)
 
 A system for aligning whole genomes, chromosomes, and other very long DNA sequences. MUMmer is also widely used for comparing genome assemblies. MUMmer was hosted on SourceForge beginning in the early 2000s and moved to GitHub with the release of MUMmer4 in 2017.
@@ -48,11 +48,33 @@ An evaluation of contiguity and accuracy of assemblies of bacterial organisms ge
 (masurca)=
 ## [MaSuRCA](https://github.com/alekseyzimin/masurca)
 
-MaSuRCA is a whole-genome assembler developed originally at the University of Maryland by James Yorke, Aleksey Zimin, and their colleagues. Ongoing development is a joint effort between JHU and UMD, with recent modules designed to create hybrid assemblies using both short reads (Illumina) and long reads (PacBio/Oxford Nanopore).
+MaSuRCA is a whole-genome assembler developed originally at the University of Maryland. Ongoing development is a joint effort between JHU and UMD, with recent modules designed to create hybrid assemblies using both short reads (Illumina) and long reads (PacBio/Oxford Nanopore).
 
 
 **Categories:** genome-assembly, whole-genome-assembly, hybrid-assembly, short-read, long-read  
 **Publication:** [PMC3799473](https://pmc.ncbi.nlm.nih.gov/articles/PMC3799473/)
+
+
+
+(polca)=
+## [POLCA](https://github.com/alekseyzimin/Polca)
+
+POLCA is a polishing tool for genome assemblies that uses short sequencing reads to correct errors and improve the accuracy of assemblies generated from long-read or hybrid sequencing data. It is part of the MaSuRCA genome assembly toolkit.
+
+
+**Categories:** genome-assembly, assembly-polishing, hybrid-assembly, short-read, long-read  
+**Publication:** [PMC7347232](https://pmc.ncbi.nlm.nih.gov/articles/PMC7347232/)
+
+
+
+(samba)=
+## [SAMBA](https://github.com/alekseyzimin/SAMBA)
+
+SAMBA is a genome scaffolding tool that uses long-range linkage information to order and orient assembled contigs into chromosome-scale scaffolds. It was developed by Aleksey Zimin and colleagues and is designed to improve genome assemblies by incorporating long-range sequencing information.
+
+
+**Categories:** genome-assembly, scaffolding, genome-scaffolding, long-range-scaffolding  
+**Publication:** [PMC8849508](https://pmc.ncbi.nlm.nih.gov/articles/PMC8849508/)
 
 
 
@@ -70,7 +92,7 @@ A fast, accurate program to increase the length of reads by overlapping and merg
 (jasper)=
 ## [JASPER](https://github.com/alguoo314/JASPER)
 
-JASPER is a fast genome polishing tool that improves the accuracy of genome assemblies. 
+JASPER is a fast genome polishing tool that improves the accuracy of genome assemblies.
 
 
 **Categories:** genome-assembly, assembly-polishing  

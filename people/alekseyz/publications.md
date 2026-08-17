@@ -1,3 +1,7 @@
+---
+orphan: yes
+---
+
 # Publications
 
 ```{note}

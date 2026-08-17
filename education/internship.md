@@ -1,3 +1,7 @@
+---
+orphan: yes
+---
+
 # CCB Summer Internships
 
 ```{note}

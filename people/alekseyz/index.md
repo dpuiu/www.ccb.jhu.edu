@@ -49,7 +49,7 @@ Baltimore, MD 21211
 :::{tab-item} Publications
 ```{bibliography}
 :filter: author % "Zimin"
-:sort: year descending
+:style: plain
 ```
 :::
 

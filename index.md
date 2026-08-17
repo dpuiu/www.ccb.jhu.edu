@@ -1,5 +1,5 @@
 ---
-title: The Center for Computational Biology
+title: The Center for Computational Biology (CCB)
 html_theme.sidebar_primary.remove: true
 html_theme.sidebar_secondary.remove: true
 ---

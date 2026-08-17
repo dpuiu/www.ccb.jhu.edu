@@ -2,7 +2,7 @@
 
 
 (chasm-snvbox)=
-## [CHASM and SNVBox](https://wiki.chasmsoftware.org/)
+## [CHASM and SNVBox](https://github.com/KarchinLab/CHASMplus)
 
 Software to predict the functional significance of somatic missense mutations observed in the genomes of cancer cells, and a database of pre-computed features of all possible amino acid substitutions at every position of the annotated human exome.
 

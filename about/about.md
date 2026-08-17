@@ -50,7 +50,7 @@ complete list of our faculty.
 ## Computing infrastructure
 
 {{CCB}} has a high-performance computing facility operated jointly with the
-{{ides}} (IDIES), a JHU institute supporting scientific research ranging
+{{idies}} (IDIES), a JHU institute supporting scientific research ranging
 from medicine to astrophysics. The {{CCB}} computing facility includes
 large-scale data storage devices and multiple large-memory compute servers.
 {{CCB}} also relies on the campus-wide {{ARCH}} center, a computing grid with

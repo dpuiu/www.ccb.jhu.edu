@@ -12,7 +12,3 @@ Jobs <jobs>
 contact
 
 ```
-
-```{include} about.md
-```
-

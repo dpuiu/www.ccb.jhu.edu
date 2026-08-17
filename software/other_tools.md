@@ -165,3 +165,13 @@ Diamund is an efficient algorithm for variant detection in family trios or pairs
 
 
 
+(enterix)=
+## [EnteriX](https://enterix.cbcb.umd.edu/)
+
+Web servers for displaying alignments and annotations of bacterial genomes.
+
+**Categories:** bacterial-genomics, genome-annotation  
+**Publication:** [PMC168958](https://pmc.ncbi.nlm.nih.gov/articles/PMC168958/)
+
+
+

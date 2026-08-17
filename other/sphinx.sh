@@ -944,3 +944,37 @@ convert campus2.jpeg -crop 3963x1039+0+0 +repage campus2-top.web
 
 git clone -b design https://github.com/saranderson13/www.ccb.jhu.edu.git
 python -m http.server 8001 --bind 127.0.0.1 -d  _design/
+
+####
+
+csvsort -c "Publication Year"  _publications/pmc.csv   | csvcut -c "Publication Year"| tac | uniq -c
+    106 2026
+    201 2025
+    203 2024
+    181 2023
+    131 2022
+    150 2021
+...
+###
+(Steven L. Salzberg[au] OR Dan Arking[au] OR Joel Bader[au] OR Alexis Battle[au] OR Michael Beer[au] OR Jean Fan[au] OR Liliana Florea[au] OR Kasper D. Hansen[au] OR Stephanie Hicks[au] OR Hongkai Ji[au] OR Rachel Karchin[au] OR Ben Langmead[au] OR Rajiv McCoy[au] OR Mihaela Pertea[au] OR Suchi Saria[au] OR Robert Scharpf[au] OR Michael Schatz[au] OR Margaret Taub[au] OR Winston Timp[au] OR Aleksey Zimin[au]) AND 1900:2001[dp]
+#nothing
+
+Salzberg SL[au] AND 1900:2001[dp]
+works
+
+######
+
+cat  _software/*yaml  | grep PMC | sed 's|    pmcid: ||' | grep -f _publications/pmc.ids -v 
+PMC148753
+PMC29713
+PMC3072823
+PMC2639302
+PMC6238331
+PMC3319356
+PMC55324
+PMC4707948
+PMC7222032
+
+
+(Salzberg SL[au] OR Arking D[au] OR Bader J[au] OR Battle A[au] OR Beer M[au] OR Jean Fan [au] OR Florea L[au] OR Hansen KD[au] OR Hicks S[au] OR Ji H[au] OR Karchin R[au] OR Langmead B[au] OR McCoy R[au] OR Pertea M[au] OR Saria S[au] OR Scharpf R[au] OR Schatz M[au] OR Taub M[au] OR Timp W[au] OR Zimin A[au])
+(Salzberg SL[au] OR Arking D[au] OR Bader J[au] OR Battle A[au] OR Beer M[au] OR Jean Fan [au] OR Florea L[au] OR Hansen KD[au] OR Hicks S[au] OR Hongkai Ji[au] OR Karchin R[au] OR Langmead B[au] OR McCoy R[au] OR Pertea M[au] OR Saria S[au] OR Scharpf R[au] OR Schatz M[au] OR Taub M[au] OR Timp W[au] OR Zimin A[au])	

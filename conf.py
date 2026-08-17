@@ -75,11 +75,13 @@ myst_substitutions = {
     "SPH":  "[SPH](https://publichealth.jhu.edu/)",
     "wse":  "[Whiting School of Engineering](https://engineering.jhu.edu/)",
     "WSE":  "[WSE](https://engineering.jhu.edu/)",
-    "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
+    "PUB": "https://pmc.ncbi.nlm.nih.gov/search/?term=Salzberg+SL%5Bau%5D+OR+Steven+Salzberg%5Bau%5D+OR++Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate&size=10&display_snippets=show"
+#   "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
 }
 
 html_context = {
-    "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
+#    "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
+    "PUB": "https://pmc.ncbi.nlm.nih.gov/search/?term=Salzberg+SL%5Bau%5D+OR+Steven+Salzberg%5Bau%5D+OR++Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate&size=10&display_snippets=show"
 }
 
 templates_path = ['_templates']
@@ -111,12 +113,21 @@ html_favicon = "_static/favicon.ico"
 html_permalinks = True
 
 redirects = {
+    "about/index"     : "/about/about.html",
+    "people/index"    : "/people/faculty.html",
+    "software/index"  : "/software/alignment.html",
+    "data/index"      : "/data/data.html",
+    "education/index" : "/education/information.html",
+
+    "people/salzberg/index:": "https://salzberg-lab.org",
+    "people/mpertea/index:": "https://pertealab.org",
+    "people/florea/index:": "https://florealab.org",
+
     "software/diamund/index" : "/software/alignment.html#diamund",
     "software/hisat2/index" : "/software/alignment.html#hisat2",
     "hisat-genotype/index" : "/software/alignment.html#hisat-genotype", #!!!
     "software/hisat/index" : "/software/alignment.html#hisat",
     "software/tophat/index" : "/software/alignment.html#tophat",
-
     "software/bracken/index" : "/software/metagenomics.html#bracken",
     "software/centrifuge/index" : "/software/metagenomics.html#centrifuge",
     "software/kraken2/index" : "/software/metagenomics.html#kraken2",
@@ -124,23 +135,19 @@ redirects = {
     "software/krakentools/index" : "/software/metagenomics.html#krakentools",
     "software/krakenuniq/index" : "/software/metagenomics.html#krakenuniq",
     "software/pavian/index" : "/software/metagenomics.html#pavian",
-
     "software/genesplicer/index" : "/software/gene_finding.html#genesplicer",
     "software/glimmerhmm/index" : "/software/gene_finding.html#glimmerhmm",
     "software/glimmer/index" : "/software/gene_finding.html#glimmer",
     "software/jigsaw/index" : "/software/gene_finding.html#jigsaw",
     "lifton/index" : "/software/gene_finding.html#lifton",
-
     "software/autoeditor/index" : "/software/genome_assembly.html#autoeditor",  #!!!
     "software/FLASH/index" : "/software/genome_assembly.html#flash",
     "gage_b/index" : "/software/genome_assembly.html#gage-b",
     "software/quake/index" : "/software/genome_assembly.html#quake",
-
     "eastr/index" : "/software/transcriptome_assembly.html#eastr",
     "software/EDGE-pro/index" : "/software/transcriptome_assembly.html#edge-pro",
     "software/stringtie/index" : "/software/transcriptome_assembly.html#stringtie",
     "software/tiebrush/index" : "/software/transcriptome_assembly.html#tiebrush",
-
     "software/BRCA-diagnostic/index" : "/software/other_tools.html#brca-gene-testing",
     "software/dive/index" : "/software/other_tools.html#dive",
     "software/ELPH/index" : "/software/other_tools.html#elph",
@@ -152,12 +159,7 @@ redirects = {
     "chess/index": "/data/data.html#chess",
     "HIV_Atlas/index": "/data/data.html#hiv_atlas",
     "T2T": "/data/data.html#T2T",
-
     "data/eupathDB/index": "/data/data.html#eupathDB",  #???
-
-    "people/florea/index:": "https://florealab.org",
-    "people/salzberg/index:": "https://salzberg-lab.org",
-    "people/mpertea/index:": "https://pertealab.org",
 }
 
 

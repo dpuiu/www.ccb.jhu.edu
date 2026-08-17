@@ -10,6 +10,3 @@ Information <information>
 Sample Courses  <sample_courses>
 Courses <courses>
 ```
-
-```{include} information.md
-```

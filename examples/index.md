@@ -238,9 +238,10 @@ graph TD
 
 # Bibliography test
 
+<!--
 {cite}`PMC2690996`  
 
 ```{bibliography}
 :all:
 ```	
-
+-->

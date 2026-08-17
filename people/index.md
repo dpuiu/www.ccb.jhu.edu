@@ -13,6 +13,3 @@ students
 alumni
 collaborators
 ```
-
-```{include} faculty.md
-```

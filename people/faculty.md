@@ -57,7 +57,7 @@
 
 {{ dgm }}  
 
-{{ cardiology }}  
+{{ cardio }}  
 
 {{ som }}  
 
@@ -614,7 +614,7 @@ Machine Learning, Biomedical & Health Informatics
  
 Department of Health Policy & Management  
 
-{{ ics }}  
+{{ icm }}  
 
 [ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)  
 
