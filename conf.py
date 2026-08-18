@@ -24,7 +24,7 @@ extensions = [
     "sphinxcontrib.bibtex"
 ]
 
-bibtex_bibfiles = ["_publications/pmc.bib"]
+bibtex_bibfiles = ["_publications/pmc.bib","_publications/doi.bib"]
 
 master_doc = "index"
 

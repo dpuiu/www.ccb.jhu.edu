@@ -48,7 +48,10 @@
           "pmcid": {
 	    "type": "string",
 	    "pattern": "^PMC[0-9]+$"
-	  }
+	  },
+          "doi": {
+            "type": "string"
+          }
         },
         "additionalProperties": false
       }

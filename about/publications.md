@@ -1,0 +1,5 @@
+# Combined Publications
+
+```{bibliography}
+:all:
+```	

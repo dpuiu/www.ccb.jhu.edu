@@ -209,3 +209,21 @@ software:
     url: https://enterix.cbcb.umd.edu/
     description: Web servers for displaying alignments and annotations of bacterial genomes.
     pmcid: PMC168958
+
+  - id: pebls
+    name: PEBLS
+    status: older
+    category:
+      - machine-learning
+    description: "PEBLS: Parallel Exemplar-Based Learning System"
+    url: https://github.com/salzberg-lab/pebls/
+    doi: 10.1023/A:1022664626993
+
+  - id: oc1
+    name: OC1
+    status: older
+    category:
+      - machine-learning
+    description: The OC1 decision tree system
+    url: https://github.com/salzberg-lab/oc1
+    doi: 10.48550/arXiv.cs/9408103

@@ -175,3 +175,21 @@ Web servers for displaying alignments and annotations of bacterial genomes.
 
 
 
+(pebls)=
+## [PEBLS](https://github.com/salzberg-lab/pebls/)
+
+PEBLS: Parallel Exemplar-Based Learning System
+
+**Categories:** machine-learning  
+
+
+
+(oc1)=
+## [OC1](https://github.com/salzberg-lab/oc1)
+
+The OC1 decision tree system
+
+**Categories:** machine-learning  
+
+
+
