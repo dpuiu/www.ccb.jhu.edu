@@ -978,3 +978,21 @@ PMC7222032
 
 (Salzberg SL[au] OR Arking D[au] OR Bader J[au] OR Battle A[au] OR Beer M[au] OR Jean Fan [au] OR Florea L[au] OR Hansen KD[au] OR Hicks S[au] OR Ji H[au] OR Karchin R[au] OR Langmead B[au] OR McCoy R[au] OR Pertea M[au] OR Saria S[au] OR Scharpf R[au] OR Schatz M[au] OR Taub M[au] OR Timp W[au] OR Zimin A[au])
 (Salzberg SL[au] OR Arking D[au] OR Bader J[au] OR Battle A[au] OR Beer M[au] OR Jean Fan [au] OR Florea L[au] OR Hansen KD[au] OR Hicks S[au] OR Hongkai Ji[au] OR Karchin R[au] OR Langmead B[au] OR McCoy R[au] OR Pertea M[au] OR Saria S[au] OR Scharpf R[au] OR Schatz M[au] OR Taub M[au] OR Timp W[au] OR Zimin A[au])	
+
+#############
+
+yq -r '
+  ["id", "name", "status", "category", "url", "pmcid", "description"],
+  (.software[] | [
+    .id,
+    .name,
+    .status,
+    (.category | join(", ")),
+    .url,
+    .pmcid,
+    .description
+  ])
+  | @csv
+' _software/alignment.yaml | head -n 2
+"id","name","status","category","url","pmcid","description"
+"bowtie","Bowtie","current","alignment, short-read","https://bowtie-bio.sourceforge.net/index.shtml","PMC2690996","An ultrafast, memory-efficient short read aligner that aligns short DNA sequences to the human genome at a rate of about 25 million reads per hour on a typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
