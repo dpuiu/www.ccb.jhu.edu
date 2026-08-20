@@ -1,4 +1,5 @@
-# Combined Publications
+(publications)=
+# Publications
 
 ```{bibliography}
 :all:

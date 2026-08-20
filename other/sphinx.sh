@@ -52,16 +52,7 @@ pandoc -f html -t markdown -o md/cbcc.md -i cbcc.shtml
 ############
 
 convert jhu-wse-logo-white.png -resize x40 jhu-wse-logo-white_50.png
-convert ccbtext_wbg.png -resize x40 ccbtext_wbg_50.png
-convert ccblogo_wbg.png -resize x40 ccblogo_wbg_50.png
-convert ccblogo_wbg_50.png ccbtext_wbg_50.png +append ccblogotext_wbg_50.png
-convert jhsphlogo_wbg.png  -resize x40 jhsphlogo_wbg_50.png
-convert jhmilogo_wbg.png -resize x40 jhmilogo_wbg_50.png
-convert ccblogo_wbg.png ccbtext_wbg.png +append ccblogotext_wbg.png
-convert ccbtext_wbg.png -resize x100 ccbtext_wbg_100.png
-convert ccblogo_wbg.png -resize x100 ccblogo_wbg_100.png
-convert ccblogo_wbg_100.png ccbtext_wbg_100.png +append ccblogotext_wbg_100.png
-convert ccblogo_wbg.png ccbtext_wbg.png +append ccblogotext_wbg.png
+...
 
 make clean
 make html 
@@ -981,6 +972,13 @@ PMC7222032
 
 #############
 
+#bib
+
+grep -c "^\@" _publications/*bib 
+_publications/doi.bib:2
+_publications/pmc.bib:2148
+
+#doi2bib
 yq -r '
   ["id", "name", "status", "category", "url", "pmcid", "description"],
   (.software[] | [
@@ -996,3 +994,18 @@ yq -r '
 ' _software/alignment.yaml | head -n 2
 "id","name","status","category","url","pmcid","description"
 "bowtie","Bowtie","current","alignment, short-read","https://bowtie-bio.sourceforge.net/index.shtml","PMC2690996","An ultrafast, memory-efficient short read aligner that aligns short DNA sequences to the human genome at a rate of about 25 million reads per hour on a typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and Bowtie2 were developed by Ben Langmead and are actively supported by his lab.
+
+##########
+
+#bibl
+more _build/pydata_sphinx_theme/about/publications.html  | grep '<span class="label">'  | wc -l
+2150
+
+#software
+yq -s '[.[].software[]] | length' *.yaml # 79
+yq -s '.[].software[].id' *.yaml
+yq -y -s '{software: [.[].software[]]}' *.yaml  | grep -- '- id:' |wc -l # 79
+
+
+yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
+ yq -y '{software: [.software[] | select(.category | contains(["genome-assembly"]))]}' _software/all.yaml > _software/genome-assembly.yaml1

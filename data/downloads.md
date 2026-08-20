@@ -1,3 +1,4 @@
+(assembly-projects)=
 # Assembly Projects
 
 <!--## Older Bacterial Genomes (pre-2006)-->

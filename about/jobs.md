@@ -1,3 +1,4 @@
+(jobs)=
 # Open Positions at CCB
 
 Most of the {{CCB}} faculty members describe job openings on their individual
@@ -24,7 +25,7 @@ Most of the {{CCB}} faculty are looking for new Ph.D. students this year and
 every year. Much more information about our work can be found at individual lab
 pages.
 
-## How to Apply as a Ph.D. student
+## How to apply as a Ph.D. student
 
 Many students write to us directly asking if they can join the lab. While we
 appreciate your interest, this is not how Ph.D. applications are considered at

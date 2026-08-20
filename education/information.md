@@ -1,3 +1,4 @@
+(information)=
 # Information for prospective Ph.D. Students in Computational Biology or Bioinformatics
 
 ```{note}

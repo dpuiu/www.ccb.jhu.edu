@@ -4,130 +4,100 @@ software:
     status: newer
     category:
       - metagenomics
-      - classification
-      - recombination
-      - sars-cov-2
     url: https://github.com/salzberg-lab/bolotie
     pmcid: PMC8194586
-    description: >
-      Bolotie enables rapid detection of inter-clade recombination in SARS-CoV-2.
+    description: 'Bolotie enables rapid detection of inter-clade recombination in
+      SARS-CoV-2.'
 
   - id: choosing-a-metagenomics-classifier
     name: How to Choose a Metagenomics Classifier
     status: current
     category:
       - metagenomics
-      - classification
-      - benchmarking
     url: https://github.com/salzberg-lab/choosing-a-metagenomics-classifier/wiki
-    description: >
-      A guide to choosing among Kraken, KrakenUniq, Kraken2, and Centrifuge,
-      metagenomic classifiers developed by researchers in the Center for
-      Computational Biology. The page provides comparisons of the tools and
-      descriptions of the authors and their roles in software development.
+    description: 'A guide to choosing among Kraken, KrakenUniq, Kraken2, and Centrifuge,
+      metagenomic classifiers developed by researchers in the Center for Computational
+      Biology. The page provides comparisons of the tools and descriptions of the
+      authors and their roles in software development.'
 
   - id: kraken
     name: Kraken
     status: older
     category:
       - metagenomics
-      - classification
-      - taxonomic-classification
     url: https://github.com/dpuiu/kraken/wiki
     pmcid: PMC4053813
-    description: >
-      Kraken is a very fast system for taxonomic classification of short or long
-      DNA sequences from a microbiome or metagenomic sample.
-      KrakenUniq is a newer, more capable version of Kraken1, and users are
-      strongly recommended to upgrade to KrakenUniq or Kraken2.
+    description: 'Kraken is a very fast system for taxonomic classification of short
+      or long DNA sequences from a microbiome or metagenomic sample. KrakenUniq is
+      a newer, more capable version of Kraken1, and users are strongly recommended
+      to upgrade to KrakenUniq or Kraken2.'
 
   - id: krakenuniq
     name: KrakenUniq
     status: current
     category:
       - metagenomics
-      - classification
-      - taxonomic-classification
-      - abundance-estimation
     url: https://github.com/fbreitwieser/krakenuniq/wiki
     pmcid: PMC6238331
-    description: >
-      KrakenUniq is an update to Kraken 1 that runs as fast as Kraken and can
-      work with the same databases, but additionally counts the number of unique
-      k-mers using the stream sketching algorithm HyperLogLog. Using unique
-      k-mers, results can be filtered and ranked by genome coverage rather than
-      simple read counts. A newer version developed by Christopher Pockrandt can
-      run on low-memory machines, including laptops, even with very large
-      databases. It is also available through Bioconda at
-      https://anaconda.org/bioconda/krakenuniq.
+    description: 'KrakenUniq is an update to Kraken 1 that runs as fast as Kraken
+      and can work with the same databases, but additionally counts the number of
+      unique k-mers using the stream sketching algorithm HyperLogLog. Using unique
+      k-mers, results can be filtered and ranked by genome coverage rather than simple
+      read counts. A newer version developed by Christopher Pockrandt can run on low-memory
+      machines, including laptops, even with very large databases. It is also available
+      through Bioconda at https://anaconda.org/bioconda/krakenuniq.'
 
   - id: kraken2
     name: Kraken2
     status: current
     category:
       - metagenomics
-      - classification
-      - taxonomic-classification
     url: https://github.com/DerrickWood/kraken2/wiki
     pmcid: PMC6883579
-    description: >
-      Kraken2 is an improved version of Kraken, using the same classification
-      algorithm with improvements in speed and memory usage. Kraken2 provides
-      faster database build times, smaller database sizes, and faster
-      classification speeds.
+    description: 'Kraken2 is an improved version of Kraken, using the same classification
+      algorithm with improvements in speed and memory usage. Kraken2 provides faster
+      database build times, smaller database sizes, and faster classification speeds.'
 
   - id: centrifuge
     name: Centrifuge
     status: current
     category:
       - metagenomics
-      - classification
-      - taxonomic-classification
     url: https://github.com/DaehwanKimLab/centrifuge/wiki
     pmcid: PMC5131823
-    description: >
-      Centrifuge is a very rapid and memory-efficient system for the
-      classification of DNA sequences from microbial samples, with better
-      sensitivity than and comparable accuracy to other leading systems.
-      Centrifuge requires a relatively small index, such as 4.3 GB for about
-      4,100 bacterial genomes.
+    description: 'Centrifuge is a very rapid and memory-efficient system for the classification
+      of DNA sequences from microbial samples, with better sensitivity than and comparable
+      accuracy to other leading systems. Centrifuge requires a relatively small index,
+      such as 4.3 GB for about 4,100 bacterial genomes.'
 
   - id: bracken
     name: Bracken
     status: current
     category:
       - metagenomics
-      - abundance-estimation
-      - taxonomic-classification
     url: https://github.com/jenniferlu717/Bracken/wiki
     pmcid: PMC12016282
-    description: >
-      Bracken is a statistical method that computes the abundance of species
-      from DNA sequences in a metagenomics sample.
+    description: 'Bracken is a statistical method that computes the abundance of species
+      from DNA sequences in a metagenomics sample.'
 
   - id: pavian
     name: Pavian
     status: current
     category:
       - metagenomics
-      - visualization
-      - classification
     url: https://github.com/salzberg-lab/pavian/wiki
     pmcid: PMC8215911
-    description: >
-      Pavian is a web application for exploring metagenomics classification
-      results, with a special focus on infectious disease diagnosis.
+    description: 'Pavian is a web application for exploring metagenomics classification
+      results, with a special focus on infectious disease diagnosis.'
 
   - id: krakentools
     name: KrakenTools
     status: current
     category:
       - metagenomics
-      - classification
-      - downstream-analysis
     url: https://github.com/jenniferlu717/KrakenTools/wiki
     pmcid: PMC9725748
-    description: >
-      KrakenTools is a suite of scripts designed to be used alongside Kraken,
-      KrakenUniq, Kraken2, or Bracken. The scripts help Kraken users perform
-      downstream analysis of Kraken results.
+    description: 'KrakenTools is a suite of scripts designed to be used alongside
+      Kraken, KrakenUniq, Kraken2, or Bracken. The scripts help Kraken users perform
+      downstream analysis of Kraken results.'
+

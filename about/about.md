@@ -1,6 +1,9 @@
+(about)=
 # The Center for Computational Biology
 
-## A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences
+<p class="subtitle">
+A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences
+</p>
 
 The {{ccb}} (CCB) is a multidisciplinary center dedicated to research on
 genomics, genetics, DNA sequencing technology, and computational methods for DNA
@@ -41,12 +44,14 @@ The Center is closely affiliated with:
 - {{cs}} in the {{wse}}
 - {{bsph}} in the {{sph}}
 
+(leadership)=
 ## Leadership
 
 The Director of {{CCB}} is Prof. {ref}`steven-l-salzberg`, and the Associate
 Director is {ref}`mihaela-pertea` See the {doc}`/people/faculty` page for a
 complete list of our faculty.
 
+(computing-infrastructure)=
 ## Computing infrastructure
 
 {{CCB}} has a high-performance computing facility operated jointly with the
@@ -56,6 +61,7 @@ large-scale data storage devices and multiple large-memory compute servers.
 {{CCB}} also relies on the campus-wide {{ARCH}} center, a computing grid with
 over 34,000 core processors and 13 petabytes of storage.
 
+(directions)=
 ## Directions
 
 Since January 2020, {{CCB}} has been headquartered in the 

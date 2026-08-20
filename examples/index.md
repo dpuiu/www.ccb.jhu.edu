@@ -1,8 +1,8 @@
 ---
 title: MyST Markdown Examples
-author: Daniela Puiu
 myst:
   html_meta:
+    "author": "Daniela Puiu"
     "keywords": "CCB, WSE, JHU"
     "description": "Center for Computational Biology"
     "robots": "index, follow"
@@ -15,6 +15,7 @@ orphan: true
 ```
 
 # Examples
+
 
 ## Substritution
 

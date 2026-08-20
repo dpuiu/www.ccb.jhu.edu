@@ -1,3 +1,4 @@
+(courses)=
 # CCB Courses
 
 ## Selected Hopkins Courses in Genomics and Bioinformatics

@@ -1,6 +1,4 @@
----
-title: People
----
+# People
 
 ```{toctree}
 :maxdepth: 2

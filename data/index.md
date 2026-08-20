@@ -1,6 +1,4 @@
----
-title: Data
----
+# Data
 
 ```{toctree}
 :maxdepth: 2

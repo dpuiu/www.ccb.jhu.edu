@@ -1,32 +1,63 @@
 import os
 
-#html_theme = os.environ.get("html_theme", "furo")
-html_theme = os.environ.get("html_theme")
 
-author = "Daniela Puiu"
-copyright = "The Center for Computational Biology at Johns Hopkins University"
+# =============================================================================
+# Project information
+# =============================================================================
+
 project = "CCB"
+copyright = "The Center for Computational Biology at Johns Hopkins University"
 release = "2026"
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'OLD' , '.venv', "README*md"]
+# =============================================================================
+# General configuration
+# =============================================================================
+
+master_doc = "index"
+
+exclude_patterns = [
+    "_build",
+    "Thumbs.db",
+    ".DS_Store",
+    "OLD",
+    ".venv",
+    "README*md",
+]
+
 extensions = [
+    # Markdown
     "myst_parser",
+
+    # Sphinx extensions
+    "sphinx.ext.autodoc",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
+
+    # Third-party extensions
     "sphinx_design",
     "sphinx_reredirects",
-    "sphinx.ext.githubpages",
     "sphinx_sitemap",
     "sphinx_copybutton",
     "sphinxcontrib.mermaid",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.napoleon",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.mathjax",
-    "sphinxcontrib.bibtex"
+    "sphinxcontrib.bibtex",
 ]
 
-bibtex_bibfiles = ["_publications/pmc.bib","_publications/doi.bib"]
 
-master_doc = "index"
+# =============================================================================
+# Bibliography
+# =============================================================================
+
+bibtex_bibfiles = [
+    "_publications/pmc.bib",
+    "_publications/doi.bib",
+]
+
+
+# =============================================================================
+# MyST Markdown
+# =============================================================================
 
 myst_enable_extensions = [
     "colon_fence",
@@ -35,141 +66,270 @@ myst_enable_extensions = [
     "substitution",
     "attrs_inline",
     "html_admonition",
-    "html_image"
+    "html_image",
 ]
 
 myst_substitutions = {
     "arch": "[Advanced Research Computing at Hopkins](https://www.arch.jhu.edu/)",
     "ARCH": "[ARCH](https://www.arch.jhu.edu/)",
-    "bio":  "[Department of Bilogy](https://bio.jhu.edu/)",
-    "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
-    "BME":  "[BME](https://www.bme.jhu.edu/)",
+
+    "bio": "[Department of Biology](https://bio.jhu.edu/)",
+
+    "bme": "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
+    "BME": "[BME](https://www.bme.jhu.edu/)",
+
     "bsph": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
     "BSPH": "[BSPH](https://publichealth.jhu.edu/departments/biostatistics)",
+
     "cardio": "[Department of Medicine, Division of Cardiology](https://www.hopkinsmedicine.org/heart-vascular-institute/cardiology)",
-    "cbcc" : "Computational Biology Consulting Core",
-    "ccb":  "[Center for Computational Biology](https://ccb.jhu.edu/)",
-    "CCB":  "[CCB](https://ccb.jhu.edu/)",
+
+    "cbcc": "Computational Biology Consulting Core",
+
+    "ccb": "[Center for Computational Biology](https://ccb.jhu.edu/)",
+    "CCB": "[CCB](https://ccb.jhu.edu/)",
+
     "chembe": "[Department of Chemical & Biomolecular Engineering](https://engineering.jhu.edu/chembe/)",
-    "cs":   "[Department of Computer Science](https://www.cs.jhu.edu/)",
+
+    "cs": "[Department of Computer Science](https://www.cs.jhu.edu/)",
+    "CS": "[CS](https://www.cs.jhu.edu/)",
+
     "compbio": "[Computational Biology & Medicine](https://www.cs.jhu.edu/research/computational-biology-medicine/)",
-    "CS":   "[CS](https://www.cs.jhu.edu/)",
+
     "dhpm": "[Department of Health Policy and Management](https://publichealth.jhu.edu/departments/health-policy-and-management)",
+
     "dsai": "[Data Science & AI Institute](https://ai.jhu.edu/)",
     "DSAI": "[DSAI](https://ai.jhu.edu/)",
-    "dgm":  "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
-    "DGM":  "[DGM](https://www.hopkinsmedicine.org/genetic-medicine/)",
-    "icm":  "[Institute for Computational Medicine](https://icm.jhu.edu/)",
+
+    "dgm": "[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)",
+    "DGM": "[DGM](https://www.hopkinsmedicine.org/genetic-medicine/)",
+
+    "icm": "[Institute for Computational Medicine](https://icm.jhu.edu/)",
+
     "idies": "[Institute for Data-Intensive Engineering and Science](https://www.idies.jhu.edu/)",
     "IDES": "[IDES](https://www.idies.jhu.edu/)",
-    "jhu":  "[Johns Hopkins University](http://www.jhu.edu/)",
-    "JHU":  "[JHU](http://www.jhu.edu/)",
+
+    "jhu": "[Johns Hopkins University](http://www.jhu.edu/)",
+    "JHU": "[JHU](http://www.jhu.edu/)",
+
     "ksas": "[Krieger School of Arts and Sciences](https://krieger.jhu.edu/)",
     "KSAS": "[KSAS](https://krieger.jhu.edu/)",
-    "mc"  : "[Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)",
-    "med" : "[Department of Medicine](https://www.hopkinsmedicine.org/medicine)",
+
+    "mc": "[Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)",
+
+    "med": "[Department of Medicine](https://www.hopkinsmedicine.org/medicine)",
+
     "skcc": "[The Sidney Kimmel Comprehensive Cancer Center](https://www.hopkinsmedicine.org/kimmel-cancer-center)",
-    "som":  "[School of Medicine](https://www.hopkinsmedicine.org/som)",
-    "SOM":  "[SOM](https://www.hopkinsmedicine.org/som)",
-    "sph":  "[Bloomberg School of Public Health](https://publichealth.jhu.edu/)",
-    "SPH":  "[SPH](https://publichealth.jhu.edu/)",
-    "wse":  "[Whiting School of Engineering](https://engineering.jhu.edu/)",
-    "WSE":  "[WSE](https://engineering.jhu.edu/)",
-    "PUB": "https://pmc.ncbi.nlm.nih.gov/search/?term=Salzberg+SL%5Bau%5D+OR+Steven+Salzberg%5Bau%5D+OR++Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate&size=10&display_snippets=show"
-#   "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
+
+    "som": "[School of Medicine](https://www.hopkinsmedicine.org/som)",
+    "SOM": "[SOM](https://www.hopkinsmedicine.org/som)",
+
+    "sph": "[Bloomberg School of Public Health](https://publichealth.jhu.edu/)",
+    "SPH": "[SPH](https://publichealth.jhu.edu/)",
+
+    "wse": "[Whiting School of Engineering](https://engineering.jhu.edu/)",
+    "WSE": "[WSE](https://engineering.jhu.edu/)",
+
+    "PUB": (
+        "https://pmc.ncbi.nlm.nih.gov/search/?"
+        "term="
+        "Salzberg+SL%5Bau%5D+OR+Steven+Salzberg%5Bau%5D+OR+Steven+L.+Salzberg%5Bau%5D+OR+"
+        "Dan+Arking%5Bau%5D+OR+"
+        "Joel+Bader%5Bau%5D+OR+"
+        "Alexis+Battle%5Bau%5D+OR+"
+        "Michael+Beer%5Bau%5D+OR+"
+        "Jean+Fan%5Bau%5D+OR+"
+        "Liliana+Florea%5Bau%5D+OR+"
+        "Kasper+D.+Hansen%5Bau%5D+OR+"
+        "Stephanie+Hicks%5Bau%5D+OR+"
+        "Hongkai+Ji%5Bau%5D+OR+"
+        "Rachel+Karchin%5Bau%5D+OR+"
+        "Ben+Langmead%5Bau%5D+OR+"
+        "Rajiv+McCoy%5Bau%5D+OR+"
+        "Mihaela+Pertea%5Bau%5D+OR+"
+        "Suchi+Saria%5Bau%5D+OR+"
+        "Robert+Scharpf%5Bau%5D+OR+"
+        "Michael+Schatz%5Bau%5D+OR+"
+        "Margaret+Taub%5Bau%5D+OR+"
+        "Winston+Timp%5Bau%5D+OR+"
+        "Aleksey+Zimin%5Bau%5D"
+        "&sort=pubdate&size=10&display_snippets=show"
+    ),
 }
 
-html_context = {
-#    "PUB": "https://www.ncbi.nlm.nih.gov/pmc/?term=Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate"
-    "PUB": "https://pmc.ncbi.nlm.nih.gov/search/?term=Salzberg+SL%5Bau%5D+OR+Steven+Salzberg%5Bau%5D+OR++Steven+L.+Salzberg%5Bau%5D+OR+Dan+Arking%5Bau%5D+OR+Joel+Bader%5Bau%5D+OR+Alexis+Battle%5Bau%5D+OR+Michael+Beer%5Bau%5D+OR+Jean+Fan%5Bau%5D+OR+Liliana+Florea%5Bau%5D+OR+Kasper+D.+Hansen%5Bau%5D+OR+Stephanie+Hicks%5Bau%5D+OR+Hongkai+Ji%5Bau%5D+OR+Rachel+Karchin%5Bau%5D+OR+Ben+Langmead%5Bau%5D+OR+Rajiv+McCoy%5Bau%5D+OR+Mihaela+Pertea%5Bau%5D+OR+Suchi+Saria%5Bau%5D+OR+Robert+Scharpf%5Bau%5D+OR+Michael+Schatz%5Bau%5D+OR+Margaret+Taub%5Bau%5D+OR+Winston+Timp%5Bau%5D+OR+Aleksey+Zimin%5Bau%5D&sort=pubdate&size=10&display_snippets=show"
-}
 
-templates_path = ['_templates']
+# =============================================================================
+# Templates
+# =============================================================================
 
-html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
-html_css_files = [ "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", "custom.css", ]
-html_extra_path = ['_static/.nojekyll', '_static/google5ed79d6dabf65a2d.html', '_static/robots.txt']
-html_js_files = ["custom.js"]
-html_logo = "_static/logos/ccb_w_text_transparent_for_dark.webp"  # keep the comments
-html_search_language = "en"
-html_search = True
-html_static_path = ["_static"]
+templates_path = [
+    "_templates",
+]
 
-html_theme_options = {
-        'header_links_before_dropdown': 10,
-#        'announcement': "Welcome 2026 Summer Interns!!!",
-        "show_prev_next": False,
-        "sticky_banners": True,
-        "article_footer_items": ["last-updated", "edit-this-page"],
-        "navbar_end": ["theme-switcher", "navbar-icon-links",],
-        "icon_links": [{"name": "GitHub", "url": "https://github.com/dpuiu/www.ccb.jhu.edu","icon": "fa-brands fa-github",},],
-        "content_footer_items": ["last-updated"],
-#        "external_links": [{ "name": "JHU","url": "https://jhu.edu",}],
-}
+
+# =============================================================================
+# HTML output
+# =============================================================================
+
+# html_theme = os.environ.get("html_theme", "furo")
+html_theme = os.environ.get("html_theme","pydata_sphinx_theme")
 
 html_title = "Center for Computational Biology"
-html_use_index = True
+
+html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
+
+html_logo = "_static/logos/ccb_w_text_transparent_for_dark.webp"
 html_favicon = "_static/favicon.ico"
+
+html_static_path = [
+    "_static",
+]
+
+html_extra_path = [
+    "_static/.nojekyll",
+    "_static/google5ed79d6dabf65a2d.html",
+    "_static/robots.txt",
+]
+
+html_css_files = [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap",
+    "custom.css",
+]
+
+html_js_files = [
+    "custom.js",
+]
+
+html_search = True
+html_search_language = "en"
+
+html_use_index = True
 html_permalinks = True
 
+
+# =============================================================================
+# HTML metadata
+# =============================================================================
+
+html_meta = {
+    "author": "Daniela Puiu",
+    "description": (
+        "Center for Computational Biology at Johns Hopkins University."
+    ),
+    "keywords": (
+        "CCB, WSE, JHU, bioinformatics, "
+        "computational biology, genomics"
+    ),
+    "robots": "index, follow",
+}
+
+
+# =============================================================================
+# HTML context
+# =============================================================================
+
+html_context = {
+    "PUB": myst_substitutions["PUB"],
+}
+
+
+# =============================================================================
+# PyData Sphinx Theme
+# =============================================================================
+
+html_theme_options = {
+    "header_links_before_dropdown": 10,
+
+    # "announcement": "Welcome 2026 Summer Interns!!!",
+
+    "show_prev_next": False,
+    "sticky_banners": True,
+
+    "article_footer_items": [
+        "last-updated",
+        "edit-this-page",
+    ],
+
+    "content_footer_items": [
+        "last-updated",
+    ],
+
+    "navbar_end": [
+        "theme-switcher",
+        "navbar-icon-links",
+    ],
+
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/dpuiu/www.ccb.jhu.edu",
+            "icon": "fa-brands fa-github",
+        },
+    ],
+
+    # "external_links": [
+    #     {
+    #         "name": "JHU",
+    #         "url": "https://jhu.edu",
+    #     },
+    # ],
+}
+
+
+# =============================================================================
+# Redirects
+# =============================================================================
+
 redirects = {
-    "about/index"     : "/about/about.html",
-    "people/index"    : "/people/faculty.html",
-    "software/index"  : "/software/alignment.html",
-    "data/index"      : "/data/data.html",
-    "education/index" : "/education/information.html",
+    "about/index": "/about/about.html",
+    "people/index": "/people/faculty.html",
+    "software/index": "/software/all.html",
+    "data/index": "/data/data.html",
+    "education/index": "/education/information.html",
 
     "people/salzberg/index:": "https://salzberg-lab.org",
     "people/mpertea/index:": "https://pertealab.org",
     "people/florea/index:": "https://florealab.org",
 
-    "software/diamund/index" : "/software/alignment.html#diamund",
-    "software/hisat2/index" : "/software/alignment.html#hisat2",
-    "hisat-genotype/index" : "/software/alignment.html#hisat-genotype", #!!!
-    "software/hisat/index" : "/software/alignment.html#hisat",
-    "software/tophat/index" : "/software/alignment.html#tophat",
-    "software/bracken/index" : "/software/metagenomics.html#bracken",
-    "software/centrifuge/index" : "/software/metagenomics.html#centrifuge",
-    "software/kraken2/index" : "/software/metagenomics.html#kraken2",
-    "software/kraken/index" : "/software/metagenomics.html#kraken",
-    "software/krakentools/index" : "/software/metagenomics.html#krakentools",
-    "software/krakenuniq/index" : "/software/metagenomics.html#krakenuniq",
-    "software/pavian/index" : "/software/metagenomics.html#pavian",
-    "software/genesplicer/index" : "/software/gene_finding.html#genesplicer",
-    "software/glimmerhmm/index" : "/software/gene_finding.html#glimmerhmm",
-    "software/glimmer/index" : "/software/gene_finding.html#glimmer",
-    "software/jigsaw/index" : "/software/gene_finding.html#jigsaw",
-    "lifton/index" : "/software/gene_finding.html#lifton",
-    "software/autoeditor/index" : "/software/genome_assembly.html#autoeditor",  #!!!
-    "software/FLASH/index" : "/software/genome_assembly.html#flash",
-    "gage_b/index" : "/software/genome_assembly.html#gage-b",
-    "software/quake/index" : "/software/genome_assembly.html#quake",
-    "eastr/index" : "/software/transcriptome_assembly.html#eastr",
-    "software/EDGE-pro/index" : "/software/transcriptome_assembly.html#edge-pro",
-    "software/stringtie/index" : "/software/transcriptome_assembly.html#stringtie",
-    "software/tiebrush/index" : "/software/transcriptome_assembly.html#tiebrush",
-    "software/BRCA-diagnostic/index" : "/software/other_tools.html#brca-gene-testing",
-    "software/dive/index" : "/software/other_tools.html#dive",
-    "software/ELPH/index" : "/software/other_tools.html#elph",
-    "software/fqtrim/index" : "/software/other_tools.html#fqtrim",
-    "OpenSpliceAI/index" : "/software/other_tools.html#openspliceai",
-    "software/phymmbl/index" : "/software/other_tools.html#phymmbl",
-    "splam/index" : "/software/other_tools.html#splam",
+    "software/diamund/index": "/software/alignment.html#diamund",
+    "software/hisat2/index": "/software/alignment.html#hisat2",
+    "hisat-genotype/index": "/software/alignment.html#hisat-genotype",
+    "software/hisat/index": "/software/alignment.html#hisat",
+    "software/tophat/index": "/software/alignment.html#tophat",
+
+    "software/bracken/index": "/software/metagenomics.html#bracken",
+    "software/centrifuge/index": "/software/metagenomics.html#centrifuge",
+    "software/kraken2/index": "/software/metagenomics.html#kraken2",
+    "software/kraken/index": "/software/metagenomics.html#kraken",
+    "software/krakentools/index": "/software/metagenomics.html#krakentools",
+    "software/krakenuniq/index": "/software/metagenomics.html#krakenuniq",
+    "software/pavian/index": "/software/metagenomics.html#pavian",
+
+    "software/genesplicer/index": "/software/gene_finding.html#genesplicer",
+    "software/glimmerhmm/index": "/software/gene_finding.html#glimmerhmm",
+    "software/glimmer/index": "/software/gene_finding.html#glimmer",
+    "software/jigsaw/index": "/software/gene_finding.html#jigsaw",
+    "lifton/index": "/software/gene_finding.html#lifton",
+
+    "software/autoeditor/index": "/software/genome_assembly.html#autoeditor",
+    "software/FLASH/index": "/software/genome_assembly.html#flash",
+    "gage_b/index": "/software/genome_assembly.html#gage-b",
+    "software/quake/index": "/software/genome_assembly.html#quake",
+
+    "eastr/index": "/software/transcriptome_assembly.html#eastr",
+    "software/EDGE-pro/index": "/software/transcriptome_assembly.html#edge-pro",
+    "software/stringtie/index": "/software/transcriptome_assembly.html#stringtie",
+    "software/tiebrush/index": "/software/transcriptome_assembly.html#tiebrush",
+
+    "software/BRCA-diagnostic/index": "/software/other_tools.html#brca-gene-testing",
+    "software/dive/index": "/software/other_tools.html#dive",
+    "software/ELPH/index": "/software/other_tools.html#elph",
+    "software/fqtrim/index": "/software/other_tools.html#fqtrim",
+    "OpenSpliceAI/index": "/software/other_tools.html#openspliceai",
+    "software/phymmbl/index": "/software/other_tools.html#phymmbl",
+    "splam/index": "/software/other_tools.html#splam",
 
     "chess/index": "/data/data.html#chess",
     "HIV_Atlas/index": "/data/data.html#hiv_atlas",
     "T2T": "/data/data.html#T2T",
-    "data/eupathDB/index": "/data/data.html#eupathDB",  #???
+    "data/eupathDB/index": "/data/data.html#eupathDB",
 }
-
-
-#from pybtex.style.sorting import BaseSortingStyle
-#from pybtex.plugin import register_plugin
-#class YearDescendingSortingStyle(BaseSortingStyle):
-#    def sorting_key(self, entry):
-#        return -int(entry.fields.get("year", "0"))
-#register_plugin(
-#    "pybtex.style.sorting",
-#    "year_descending",
-#    YearDescendingSortingStyle,
-#)

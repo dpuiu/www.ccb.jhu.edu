@@ -1,5 +1,4 @@
 ---
-title: The Center for Computational Biology (CCB)
 html_theme.sidebar_primary.remove: true
 html_theme.sidebar_secondary.remove: true
 ---
@@ -35,6 +34,8 @@ CONSULTING CORE <cbcc/index>
 ::::
 
 ---
+(ccb)=
+# The Center for Computational Biology (CCB)
 
 ::::{grid} 1
 
@@ -51,19 +52,19 @@ CONSULTING CORE <cbcc/index>
 ::::{grid} 1 1 2 3
 
 :::{grid-item-card}
-### LEADERSHIP
+## LEADERSHIP
 
 Meet the faculty and scientific leadership guiding the Center for Computational Biology!
 :::
 
 :::{grid-item-card}
-### COMPUTING INFRASTRUCTURE
+## COMPUTING INFRASTRUCTURE
 
 Explore the high-performance computing, large-scale storage, and data resources supporting CCB research!
 :::
 
 :::{grid-item-card}
-### JOIN US!
+## JOIN US!
 
 Interested in computational biology, genomics, and bioinformatics? Explore opportunities to work with CCB faculty and researchers?
 :::

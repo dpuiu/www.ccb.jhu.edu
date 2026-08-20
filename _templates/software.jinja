@@ -1,8 +1,11 @@
+{%- if label -%}
+({{ label }})=
+{%- endif %}
 # {{ title }} 
 
 {% for s in software %}
 ({{ s.id }})=
-## [{{ s.name }}]({{s.url}})
+## {{ loop.index }}. [{{ s.name }}]({{s.url}})
 
 {{ s.description }}
 

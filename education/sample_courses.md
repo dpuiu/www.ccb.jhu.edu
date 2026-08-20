@@ -1,3 +1,4 @@
+(sample-courses)=
 # Sample Courses
 
 Below is a list of **Sample Course Offerings for Ph.D. students in Computational Biology**

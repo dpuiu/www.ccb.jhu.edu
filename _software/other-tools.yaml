@@ -1,0 +1,185 @@
+software:
+  - id: openspliceai
+    name: OpenSpliceAI
+    status: newer
+    category:
+      - other-tools
+#    url: https://github.com/Kuanhao-Chao/OpenSpliceAI
+    url: https://khchao.com/OpenSpliceAI/
+    pmcid: PMC12575001
+    description: 'OpenSpliceAI provides an efficient modular implementation of SpliceAI,
+      enabling easy retraining across nonhuman species.'
+
+  - id: splam
+    name: Splam
+    status: newer
+    category:
+      - other-tools
+    url: https://khchao.com/splam/
+    pmcid: PMC11406845
+    description: 'Splam is a deep-learning-based splice site predictor that improves
+      spliced alignments.'
+
+  - id: psauron
+    name: PSAURON
+    status: newer
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/PSAURON
+    pmcid: PMC11704789
+    description: 'PSAURON assesses protein annotation quality across a broad range
+      of species.'
+
+  - id: conterminator
+    name: Conterminator
+    status: newer
+    category:
+      - other-tools
+    url: https://github.com/martin-steinegger/conterminator
+    pmcid: PMC7218494
+    description: 'Conterminator identifies contaminated entries in GenBank through
+      large-scale sequence screening.'
+
+  - id: wheeler-graph-toolkit
+    name: Wheeler Graph Toolkit (WGT)
+    status: newer
+    category:
+      - other-tools
+    url: https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit
+    pmcid: PMC10415921
+    description: 'WGT provides tools and algorithms for recognizing, visualizing,
+      and generating Wheeler graphs.'
+
+  - id: brca-gene-testing
+    name: BRCA gene testing
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/BRCA-diagnostic/wiki
+    pmcid: PMC3218655
+    description: 'A computational screening test that takes raw DNA sequence data
+      from a whole-genome sequence of an individual human and tests for each of 68
+      known mutations in the BRCA1 and BRCA2 genes.'
+
+  - id: dive
+    name: DivE
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/dive/wiki
+    pmcid: PMC3143108
+    description: 'A software tool to find regions that evolve at a slower or faster
+      rate than the neutral evolution rate in any clade of a phylogeny of a set of
+      very closely related species.'
+
+  - id: elph
+    name: ELPH
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/elph/wiki
+    pmcid: PMC1892810
+    description: 'A motif finder based on Gibbs sampling that can find ribosome binding
+      sites, exon splicing enhancers, or regulatory sites.'
+
+  - id: fqtrim
+    name: fqtrim
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/gpertea/fqtrim/wiki
+    description: 'A software utility for filtering and trimming high-throughput next-generation
+      sequencing reads.'
+
+#  - id: insignia
+#    name: Insignia
+#    status: older
+#    category:
+#      - other-tools
+#    url: https://insignia.cbcb.umd.edu/
+#    pmcid: PMC1868776
+#    description: 'A comprehensive system for finding unique DNA sequences that can
+#      be used to identify any bacterial or virus species or strain. The database contains
+#      more than 13,000 species and strains.'
+
+  - id: phymmbl
+    name: PhymmBL
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/phymmbl/wiki
+    pmcid: PMC3319356
+    description: 'A one-stop system for taxonomically classifying metagenomic short
+      reads.'
+
+  - id: repeatfinder
+    name: RepeatFinder
+    status: older
+    category:
+      - other-tools
+#    url: https://www.cbcb.umd.edu/software/RepeatFinder/
+    url: https://github.com/salzberg-lab/RepeatFinder/
+    pmcid: PMC55324
+    description: 'An older system for finding and characterizing repetitive sequences
+      in complete and partial genomes.'
+
+  - id: scimm
+    name: SCIMM
+    status: older
+    category:
+      - other-tools
+    url: https://www.cbcb.umd.edu/software/scimm
+    pmcid: PMC3098094
+    description: 'A tool for unsupervised clustering of metagenomic sequences using
+      interpolated Markov models.'
+
+#  - id: transtermhp
+#    name: TransTermHP
+#    status: older
+#    category:
+#      - other-tools
+#    url: https://transterm.ccb.jhu.edu/
+#    pmcid: PMC1852404
+#    description: 'A highly accurate program that finds rho-independent transcription
+#      terminators in bacterial genomes. The site includes a database with pre-computed
+#      predictions for hundreds of species.'
+
+  - id: diamund
+    name: Diamund
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/diamund/wiki
+    pmcid: PMC4031744
+    description: 'Diamund is an efficient algorithm for variant detection in family
+      trios or pairs of closely related exome or whole-genome sequencing samples.
+      It compares DNA sequences directly to one another, without aligning them to
+      the reference genome.'
+
+  - id: enterix
+    name: EnteriX
+    status: older
+    category:
+      - other-tools
+    url: https://enterix.cbcb.umd.edu/
+    description: 'Web servers for displaying alignments and annotations of bacterial
+      genomes.'
+    pmcid: PMC168958
+
+  - id: pebls
+    name: PEBLS
+    status: older
+    category:
+      - other-tools
+    description: 'PEBLS: Parallel Exemplar-Based Learning System'
+    url: https://github.com/salzberg-lab/pebls/
+    doi: 10.1023/A:1022664626993
+
+  - id: oc1
+    name: OC1
+    status: older
+    category:
+      - other-tools
+    description: 'The OC1 decision tree system'
+    url: https://github.com/salzberg-lab/oc1
+    doi: 10.48550/arXiv.cs/9408103

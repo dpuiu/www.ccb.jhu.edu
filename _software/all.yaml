@@ -1,0 +1,751 @@
+software:
+  - id: amos
+    name: AMOS Assembler project
+    status: older
+    category:
+      - genome-assembly
+    url: https://amos.sourceforge.net/
+    pmcid: PMC3072823
+    description: A set of tools, libraries, and freestanding genome assemblers, all
+      open source. AMOS is an open consortium started at The Institute for Genomic
+      Research (TIGR) that grew to include the University of Maryland, Johns Hopkins
+      University, the Karolinska Institutet, the Marine Biological Laboratory, and
+      others.
+  - id: amoscmp
+    name: AMOScmp
+    status: older
+    category:
+      - genome-assembly
+    url: https://amos.sourceforge.net/docs/pipeline/AMOScmp.html
+    pmcid: PMC3603210
+    description: A comparative genome assembler that uses one genome as a reference
+      on which to assemble another, closely related species.
+  - id: arioc
+    name: Arioc
+    status: older
+    category:
+      - alignment
+    pmcid: PMC4358639
+    url: https://github.com/rwilton/arioc
+    description: Arioc is a GPU-accelerated DNA short-read aligner for WGS and WGBS
+      reads. With high throughput (~1.5 to 2 million reads per second with the human
+      reference genome in a 4-GPU computer), it is well suited to large-scale NGS
+      data processing.
+  - id: autoeditor
+    name: AutoEditor
+    status: older
+    category:
+      - genome-assembly
+    url: https://sourceforge.net/apps/mediawiki/amos/index.php?title=AutoEditor
+    pmcid: PMC373340
+    description: A tool for correcting sequencing and basecaller errors using sequence
+      assembly and chromatogram data from Sanger (first-generation) reads. On average,
+      AutoEditor corrects 80% of erroneous base calls, with an accuracy of 99.99%.
+  - id: ballgown
+    name: Ballgown
+    status: older
+    category:
+      - transcriptome-assembly
+    url: https://github.com/alyssafrazee/ballgown
+    pmcid: PMC4792117
+    description: A program for computing differentially expressed genes in two or
+      more RNA-seq experiments, using the output of StringTie or Cufflinks. The Ballgown
+      package provides functions to organize, visualize, and analyze expression measurements.
+      Ballgown is written in R and is part of Bioconductor.
+  - id: balrog
+    name: Balrog
+    status: newer
+    category:
+      - gene-finding
+    url: https://github.com/salzberg-lab/Balrog
+    pmcid: PMC7946324
+    description: Balrog is a universal protein model for prokaryotic gene prediction.
+  - id: bolotie
+    name: Bolotie
+    status: newer
+    category:
+      - metagenomics
+    url: https://github.com/salzberg-lab/bolotie
+    pmcid: PMC8194586
+    description: Bolotie enables rapid detection of inter-clade recombination in SARS-CoV-2.
+  - id: bowtie
+    name: Bowtie
+    status: current
+    category:
+      - alignment
+    pmcid: PMC2690996
+    url: https://bowtie-bio.sourceforge.net/index.shtml
+    description: 'An ultrafast, memory-efficient short read aligner that aligns short
+      DNA sequences to the human genome at a rate of about 25 million reads per hour
+      on a typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler
+      index to keep its memory footprint small: 2.3 GB for the human genome. Bowtie
+      and Bowtie2 were developed by Ben Langmead and are actively supported by his
+      lab.'
+  - id: bracken
+    name: Bracken
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/jenniferlu717/Bracken/wiki
+    pmcid: PMC12016282
+    description: Bracken is a statistical method that computes the abundance of species
+      from DNA sequences in a metagenomics sample.
+  - id: brca-gene-testing
+    name: BRCA gene testing
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/BRCA-diagnostic/wiki
+    pmcid: PMC3218655
+    description: A computational screening test that takes raw DNA sequence data from
+      a whole-genome sequence of an individual human and tests for each of 68 known
+      mutations in the BRCA1 and BRCA2 genes.
+  - id: celera-assembler
+    name: Celera Assembler
+    status: older
+    category:
+      - genome-assembly
+    url: https://wgs-assembler.sourceforge.net
+    pmcid: PMC2639302
+    description: A whole-genome assembler originally developed at Celera Genomics
+      for the assembly of the human genome. Celera Assembler is an open-source project
+      at SourceForge. The code has been actively maintained since 2005 by researchers
+      at CBCB and the Venter Institute, formerly known as TIGR, the Institute for
+      Genomic Research.
+  - id: centrifuge
+    name: Centrifuge
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/DaehwanKimLab/centrifuge/wiki
+    pmcid: PMC5131823
+    description: Centrifuge is a very rapid and memory-efficient system for the classification
+      of DNA sequences from microbial samples, with better sensitivity than and comparable
+      accuracy to other leading systems. Centrifuge requires a relatively small index,
+      such as 4.3 GB for about 4,100 bacterial genomes.
+  - id: chasm-snvbox
+    name: CHASM and SNVBox
+    status: current
+    category:
+      - variant-analysis
+    pmcid: PMC3137226
+    description: Software to predict the functional significance of somatic missense
+      mutations observed in the genomes of cancer cells, and a database of pre-computed
+      features of all possible amino acid substitutions at every position of the annotated
+      human exome.
+    url: https://github.com/KarchinLab/CHASMplus
+  - id: choosing-a-metagenomics-classifier
+    name: How to Choose a Metagenomics Classifier
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/salzberg-lab/choosing-a-metagenomics-classifier/wiki
+    description: A guide to choosing among Kraken, KrakenUniq, Kraken2, and Centrifuge,
+      metagenomic classifiers developed by researchers in the Center for Computational
+      Biology. The page provides comparisons of the tools and descriptions of the
+      authors and their roles in software development.
+  - id: cloudburst
+    name: CloudBurst
+    status: older
+    category:
+      - alignment
+    pmcid: PMC2682523
+    url: https://cloudburst-bio.sf.net
+    description: An older program for highly sensitive short read mapping using MapReduce.
+      CloudBurst, developed by Michael Schatz (now a faculty member at JHU Computer
+      Science), uses Hadoop to efficiently parallelize the short read mapping problem
+      to dozens or hundreds of computers. This enables CloudBurst to execute highly
+      sensitive read mappings with any number of mutations or indels.
+  - id: conterminator
+    name: Conterminator
+    status: newer
+    category:
+      - other-tools
+    url: https://github.com/martin-steinegger/conterminator
+    pmcid: PMC7218494
+    description: Conterminator identifies contaminated entries in GenBank through
+      large-scale sequence screening.
+  - id: cravat
+    name: CRAVAT
+    status: current
+    category:
+      - variant-analysis
+    url: https://www.cravat.us/
+    pmcid: PMC3582272
+    description: Cancer-related analysis of variants toolkit. Web tool for functional
+      predictions and annotations of both somatic and germline variants.
+  - id: crossbow
+    name: Crossbow
+    status: older
+    category:
+      - alignment
+    pmcid: PMC3091327
+    url: https://bowtie-bio.sourceforge.net/crossbow/index.shtml
+    description: Crossbow is an early scalable software pipeline for whole genome
+      resequencing analysis. It combines Bowtie, an ultrafast and memory efficient
+      short read aligner, and SoapSNP, an accurate genotyper, within Hadoop to distribute
+      and accelerate the computation with many nodes. In the CrossBow paper, we used
+      it to analyze 35x coverage of a human genome in 3 hours for about $100 using
+      a 40-node, 320-core cluster rented from Amazon's EC2 utility computing service.
+  - id: cufflinks
+    name: Cufflinks
+    status: older
+    category:
+      - transcriptome-assembly
+    url: https://cole-trapnell-lab.github.io/cufflinks/
+    pmcid: PMC3334321
+    description: A transcript assembler and abundance estimator for RNA-seq data.
+      Cufflinks assembles transcripts from the alignments produced by TopHat, including
+      novel isoforms, and quantifies those transcripts. Cufflinks was originally developed
+      by Cole Trapnell and is supported by his lab at the University of Washington.
+  - id: diamund
+    name: Diamund
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/diamund/wiki
+    pmcid: PMC4031744
+    description: Diamund is an efficient algorithm for variant detection in family
+      trios or pairs of closely related exome or whole-genome sequencing samples.
+      It compares DNA sequences directly to one another, without aligning them to
+      the reference genome.
+  - id: dive
+    name: DivE
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/dive/wiki
+    pmcid: PMC3143108
+    description: A software tool to find regions that evolve at a slower or faster
+      rate than the neutral evolution rate in any clade of a phylogeny of a set of
+      very closely related species.
+  - id: eastr
+    name: EASTR
+    status: current
+    category:
+      - transcriptome-assembly
+    url: https://github.com/salzberg-lab/EASTR/wiki
+    pmcid: PMC10632439
+    description: EASTR is a tool for detecting spuriously spliced alignments and junctions
+      in RNA-seq datasets and reference annotations. It improves the accuracy of downstream
+      analyses, such as transcriptome assembly, by identifying and removing misaligned
+      spliced alignments. The tool can process GTF, BED, and BAM files as input.
+  - id: edge-pro
+    name: EDGE-pro
+    status: older
+    category:
+      - transcriptome-assembly
+    url: https://github.com/salzberg-lab/edge-pro/wiki
+    pmcid: PMC3603529
+    description: EDGE-pro is a program for estimating gene expression from prokaryotic
+      RNA-seq. EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks,
+      does not allow spliced alignments. It also handles overlapping genes, a common
+      phenomenon in bacteria that is largely absent in eukaryotes.
+  - id: elph
+    name: ELPH
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/elph/wiki
+    pmcid: PMC1892810
+    description: A motif finder based on Gibbs sampling that can find ribosome binding
+      sites, exon splicing enhancers, or regulatory sites.
+  - id: enterix
+    name: EnteriX
+    status: older
+    category:
+      - other-tools
+    url: https://enterix.cbcb.umd.edu/
+    description: Web servers for displaying alignments and annotations of bacterial
+      genomes.
+    pmcid: PMC168958
+  - id: eviann
+    name: EviAnn
+    status: newer
+    category:
+      - gene-finding
+    url: https://github.com/alekseyzimin/EviAnn_release
+    pmcid: PMC12132231
+    description: A novel genome annotation software package based entirely on experimental
+      evidence. It derives protein-coding gene and long non-coding RNA (lncRNA) annotations
+      from RNA-seq data and/or transcript sequences, together with alignments of proteins
+      from related species.
+  - id: fast
+    name: FAST
+    status: current
+    category:
+      - variant-analysis
+    url: https://bitbucket.org/baderlab/fast/wiki/Home
+    pmcid: PMC3720833
+    description: An application for genome-wide studies by efficiently running several
+      gene-based analysis methods simultaneously on the same data set.
+  - id: flash
+    name: FLASH
+    status: older
+    category:
+      - genome-assembly
+    url: https://github.com/salzberg-lab/flash/wiki
+    pmcid: PMC3198573
+    description: A fast, accurate program to increase the length of reads by overlapping
+      and merging paired reads from fragments shorter than twice the length of reads.
+      Primarily designed to merge Illumina paired reads.
+  - id: fqtrim
+    name: fqtrim
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/gpertea/fqtrim/wiki
+    description: A software utility for filtering and trimming high-throughput next-generation
+      sequencing reads.
+  - id: gage
+    name: GAGE
+    status: older
+    category:
+      - genome-assembly
+    url: https://gage.cbcb.umd.edu/
+    pmcid: PMC3290791
+    description: A realistic assessment of genome assembly software in a rapidly changing
+      field of next-generation sequencing.
+  - id: gage-b
+    name: GAGE-B
+    status: older
+    category:
+      - genome-assembly
+    url: https://salzberg-lab.github.io/GAGE_B/
+    pmcid: PMC3702249
+    description: An evaluation of contiguity and accuracy of assemblies of bacterial
+      organisms generated by some of the most commonly used genome assemblers. GAGE-B
+      follows the standards set by GAGE.
+  - id: genesplicer
+    name: GeneSplicer
+    status: older
+    category:
+      - gene-finding
+    url: https://github.com/salzberg-lab/genesplicer/wiki
+    pmcid: PMC29713
+    description: A fast system for detecting splice sites in genomic DNA of various
+      eukaryotes.
+  - id: gffcompare
+    name: GffCompare
+    status: current
+    category:
+      - transcriptome-assembly
+    url: https://github.com/gpertea/gffcompare/wiki
+    pmcid: PMC7222032
+    description: A program for comparing, annotating, merging, and tracking transcripts
+      in GFF files.
+  - id: gffread
+    name: GffRead
+    status: current
+    category:
+      - transcriptome-assembly
+    url: https://github.com/gpertea/gffread/wiki
+    pmcid: PMC7222033
+    description: A program for filtering, converting, and manipulating GFF files.
+  - id: glimmer
+    name: Glimmer
+    status: older
+    category:
+      - gene-finding
+    url: https://github.com/salzberg-lab/glimmer/wiki
+    pmcid: PMC148753
+    description: A system that uses interpolated Markov models to find genes in microbial
+      DNA. Used to annotate hundreds (possibly thousands) of bacterial, archaeal,
+      and viral genomes. Current version is 3.02.
+  - id: glimmer-mg
+    name: Glimmer-MG
+    status: older
+    category:
+      - gene-finding
+    url: https://github.com/davek44/Glimmer-MG
+    pmcid: PMC3245904
+    description: Glimmer-MG is an older system for finding genes in metagenomic shotgun
+      DNA sequences, using the Glimmer algorithm plus the SCIMM system for clustering
+      metagenomics data, and the now-outdated Phymm system for phylogenetic labeling.
+  - id: glimmerhmm
+    name: GlimmerHMM
+    status: older
+    category:
+      - gene-finding
+    url: https://github.com/salzberg-lab/glimmerhmm/wiki
+    pmcid: PMC1810558
+    description: A Generalized Hidden Markov Model gene-finder which makes use of
+      the techniques implemented previously by GlimmerM.
+  - id: hisat
+    name: HISAT
+    status: current
+    category:
+      - alignment
+    pmcid: PMC4655817
+    url: https://github.com/DaehwanKimLab/hisat/wiki
+    description: 'HISAT is a highly efficient system for aligning RNA-seq reads. HISAT
+      uses a novel indexing scheme, hierarchical indexing, which is inherently well-suited
+      for aligning across introns. It employs two types of indexes for alignment:
+      (1) a whole-genome FM index to anchor each alignment, and (2) numerous local
+      FM indexes for very rapid extensions of these alignments. HISAT supports genomes
+      of any size, including those larger than 4 billion bases.'
+  - id: hisat-genotype
+    name: HISAT-genotype
+    status: current
+    category:
+      - alignment
+    pmcid: PMC7605509
+    url: https://daehwankimlab.github.io/hisat-genotype/
+    description: HISAT-genotype is a next-generation platform that enables rapid and
+      accurate genomic analysis of our genomes using next-generation sequencing data
+      on a desktop within a few hours. The platform currently supports HLA typing,
+      discovery of novel HLA alleles, DNA fingerprinting analysis, and other functionalities.
+      All HISAT programs were developed by Daehwan Kim and are currently maintained
+      at https://kim-lab.org/.
+  - id: hisat2
+    name: HISAT2
+    status: current
+    category:
+      - alignment
+    pmcid: PMC7605509
+    url: https://daehwankimlab.github.io/hisat2/
+    description: HISAT2 is a new, rapid and accurate system for aligning NGS reads
+      (both DNA and RNA) against a population of genomes. HISAT2 is a successor to
+      both HISAT and TopHat2. HISAT2 extends the Burrows-Wheeler transform (BWT) and
+      the Ferragina-Manzini (FM) index to incorporate genomic differences among individuals
+      into the reference genome. HISAT2 is currently maintained at https://kim-lab.org/.
+  - id: jasper
+    name: JASPER
+    status: newer
+    category:
+      - genome-assembly
+    url: https://github.com/alguoo314/JASPER
+    pmcid: PMC10096238
+    description: JASPER is a fast genome polishing tool that improves the accuracy
+      of genome assemblies.
+  - id: jigsaw
+    name: JIGSAW
+    status: older
+    category:
+      - gene-finding
+    url: https://github.com/salzberg-lab/jigsaw/wiki
+    pmcid: PMC1810558
+    description: A program that predicts gene models using the output from multiple
+      sources of evidence, including other gene finders, BLAST searches, and other
+      alignment data.
+  - id: kraken
+    name: Kraken
+    status: older
+    category:
+      - metagenomics
+    url: https://github.com/dpuiu/kraken/wiki
+    pmcid: PMC4053813
+    description: Kraken is a very fast system for taxonomic classification of short
+      or long DNA sequences from a microbiome or metagenomic sample. KrakenUniq is
+      a newer, more capable version of Kraken1, and users are strongly recommended
+      to upgrade to KrakenUniq or Kraken2.
+  - id: kraken2
+    name: Kraken2
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/DerrickWood/kraken2/wiki
+    pmcid: PMC6883579
+    description: Kraken2 is an improved version of Kraken, using the same classification
+      algorithm with improvements in speed and memory usage. Kraken2 provides faster
+      database build times, smaller database sizes, and faster classification speeds.
+  - id: krakentools
+    name: KrakenTools
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/jenniferlu717/KrakenTools/wiki
+    pmcid: PMC9725748
+    description: KrakenTools is a suite of scripts designed to be used alongside Kraken,
+      KrakenUniq, Kraken2, or Bracken. The scripts help Kraken users perform downstream
+      analysis of Kraken results.
+  - id: krakenuniq
+    name: KrakenUniq
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/fbreitwieser/krakenuniq/wiki
+    pmcid: PMC6238331
+    description: KrakenUniq is an update to Kraken 1 that runs as fast as Kraken and
+      can work with the same databases, but additionally counts the number of unique
+      k-mers using the stream sketching algorithm HyperLogLog. Using unique k-mers,
+      results can be filtered and ranked by genome coverage rather than simple read
+      counts. A newer version developed by Christopher Pockrandt can run on low-memory
+      machines, including laptops, even with very large databases. It is also available
+      through Bioconda at https://anaconda.org/bioconda/krakenuniq.
+  - id: liftoff
+    name: Liftoff
+    status: newer
+    category:
+      - gene-finding
+    url: https://github.com/agshumate/Liftoff
+    pmcid: PMC8289374
+    description: Liftoff provides accurate mapping of gene annotations between genome
+      assemblies.
+  - id: lifton
+    name: LiftOn
+    status: newer
+    category:
+      - gene-finding
+    url: https://khchao.com/LiftOn/
+    pmcid: PMC11874971
+    description: LiftOn combines DNA and protein alignments to improve genome annotation.
+  - id: ls-snp-pdb
+    name: LS-SNP/PDB
+    status: current
+    category:
+      - variant-analysis
+    url: https://ls-snp.icm.jhu.edu/
+    pmcid: PMC6276889
+    description: Web tool for structural annotations and visualizations of missense
+      variants in dbSNP.
+  - id: masurca
+    name: MaSuRCA
+    status: current
+    category:
+      - genome-assembly
+    url: https://github.com/alekseyzimin/masurca
+    pmcid: PMC3799473
+    description: MaSuRCA is a whole-genome assembler developed originally at the University
+      of Maryland. Ongoing development is a joint effort between JHU and UMD, with
+      recent modules designed to create hybrid assemblies using both short reads (Illumina)
+      and long reads (PacBio/Oxford Nanopore).
+  - id: minimus
+    name: MINIMUS
+    status: older
+    category:
+      - genome-assembly
+    url: https://amos.sourceforge.net/wiki/index.php/Minimus
+    pmcid: PMC1821043
+    description: A small, lightweight assembler for small jobs such as assembling
+      a viral genome, assembling a set of reads that match a single gene, or other
+      tasks that do not require the complex infrastructure of a large-genome assembler.
+  - id: mummer4
+    name: MUMmer
+    status: current
+    category:
+      - genome-assembly
+    url: https://github.com/mummer4/mummer
+    pmcid: PMC5802927
+    description: A system for aligning whole genomes, chromosomes, and other very
+      long DNA sequences. MUMmer is also widely used for comparing genome assemblies.
+      MUMmer was hosted on SourceForge beginning in the early 2000s and moved to GitHub
+      with the release of MUMmer4 in 2017.
+  - id: mummergpu
+    name: MUMmerGPU
+    status: older
+    category:
+      - genome-assembly
+    url: https://mummergpu.sourceforge.net/
+    pmcid: PMC2222658
+    description: An early attempt to use GPUs for alignment. MUMmerGPU uses a technique
+      called general-purpose GPU programming (GPGPU programming) to harness the extreme
+      parallelism of GPUs for non-graphics tasks.
+  - id: mupit
+    name: muPIT
+    status: current
+    category:
+      - variant-analysis
+    url: https://mupit.icm.jhu.edu/
+    pmcid: PMC3797853
+    description: Web tool for interactive structural annotations and visualizations
+      of non-synonymous variation and mutations on proteins.
+  - id: oc1
+    name: OC1
+    status: older
+    category:
+      - other-tools
+    description: The OC1 decision tree system
+    url: https://github.com/salzberg-lab/oc1
+    doi: 10.48550/arXiv.cs/9408103
+  - id: openspliceai
+    name: OpenSpliceAI
+    status: newer
+    category:
+      - other-tools
+    url: https://khchao.com/OpenSpliceAI/
+    pmcid: PMC12575001
+    description: OpenSpliceAI provides an efficient modular implementation of SpliceAI,
+      enabling easy retraining across nonhuman species.
+  - id: orfanage
+    name: ORFanage
+    status: newer
+    category:
+      - gene-finding
+    url: https://github.com/alevar/ORFanage
+    pmcid: PMC10718564
+    description: ORFanage investigates open reading frames in known and novel transcripts.
+  - id: pavian
+    name: Pavian
+    status: current
+    category:
+      - metagenomics
+    url: https://github.com/salzberg-lab/pavian/wiki
+    pmcid: PMC8215911
+    description: Pavian is a web application for exploring metagenomics classification
+      results, with a special focus on infectious disease diagnosis.
+  - id: pebls
+    name: PEBLS
+    status: older
+    category:
+      - other-tools
+    description: 'PEBLS: Parallel Exemplar-Based Learning System'
+    url: https://github.com/salzberg-lab/pebls/
+    doi: 10.1023/A:1022664626993
+  - id: phylocsf-plus-plus
+    name: PhyloCSF++
+    status: newer
+    category:
+      - transcriptome-assembly
+    url: https://github.com/cpockrandt/PhyloCSFpp
+    pmcid: PMC9991890
+    description: PhyloCSF++ is a fast and user-friendly implementation of PhyloCSF
+      with annotation tools.
+  - id: phymmbl
+    name: PhymmBL
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/phymmbl/wiki
+    pmcid: PMC3319356
+    description: A one-stop system for taxonomically classifying metagenomic short
+      reads.
+  - id: polca
+    name: POLCA
+    status: current
+    category:
+      - genome-assembly
+    url: https://github.com/alekseyzimin/masurca
+    pmcid: PMC7347232
+    description: POLCA is a polishing tool for genome assemblies that uses short sequencing
+      reads to correct errors and improve the accuracy of assemblies generated from
+      long-read or hybrid sequencing data. It is part of the MaSuRCA genome assembly
+      toolkit.
+  - id: psauron
+    name: PSAURON
+    status: newer
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/PSAURON
+    pmcid: PMC11704789
+    description: PSAURON assesses protein annotation quality across a broad range
+      of species.
+  - id: quake
+    name: Quake
+    status: older
+    category:
+      - genome-assembly
+    url: https://github.com/davek44/Quake/wiki
+    pmcid: PMC3156955
+    description: A software package to detect and correct substitution sequencing
+      errors in WGS data sets with deep coverage.
+  - id: repeatfinder
+    name: RepeatFinder
+    status: older
+    category:
+      - other-tools
+    url: https://github.com/salzberg-lab/RepeatFinder/
+    pmcid: PMC55324
+    description: An older system for finding and characterizing repetitive sequences
+      in complete and partial genomes.
+  - id: samba
+    name: SAMBA
+    status: current
+    category:
+      - genome-assembly
+    url: https://github.com/alekseyzimin/masurca
+    pmcid: PMC8849508
+    description: SAMBA is a genome scaffolding tool that uses long-range linkage information
+      to order and orient assembled contigs into chromosome-scale scaffolds. It was
+      developed by Aleksey Zimin and colleagues and is designed to improve genome
+      assemblies by incorporating long-range sequencing information.
+  - id: scimm
+    name: SCIMM
+    status: older
+    category:
+      - other-tools
+    url: https://www.cbcb.umd.edu/software/scimm
+    pmcid: PMC3098094
+    description: A tool for unsupervised clustering of metagenomic sequences using
+      interpolated Markov models.
+  - id: spit
+    name: SPIT
+    status: newer
+    category:
+      - transcriptome-assembly
+    url: https://github.com/berilerdogdu/SPIT
+    pmcid: PMC10985272
+    description: SPIT detects differential transcript usage in complex diseases.
+  - id: splam
+    name: Splam
+    status: newer
+    category:
+      - other-tools
+    url: https://khchao.com/splam/
+    pmcid: PMC11406845
+    description: Splam is a deep-learning-based splice site predictor that improves
+      spliced alignments.
+  - id: stringtie
+    name: StringTie
+    status: current
+    category:
+      - transcriptome-assembly
+    url: https://github.com/gpertea/stringtie/wiki
+    pmcid: PMC4707948
+    description: A fast and accurate transcript assembler and abundance estimator
+      for RNA-seq data. Designed as a successor to Cufflinks, StringTie assembles
+      transcripts from the alignments produced by TopHat2, HISAT, or other spliced
+      aligners, and quantifies those transcripts.
+  - id: tiebrush
+    name: TieBrush
+    status: current
+    category:
+      - transcriptome-assembly
+    url: https://github.com/alevar/tiebrush
+    pmcid: PMC8545345
+    description: A utility for efficiently merging redundant information from multiple
+      alignment files, designed to enable rapid manipulation of extremely large datasets
+      (RNA-seq, whole-genome, exome, etc.). Data representations built with TieBrush
+      and TieCov can be used for easier programmatic and visual analysis and comparison
+      of groups within large sequencing datasets.
+  - id: tophat
+    name: TopHat
+    status: older
+    category:
+      - alignment
+    pmcid: PMC2672628
+    url: https://github.com/DaehwanKimLab/tophat/wiki
+    description: A spliced alignment system for RNA-seq experiments. TopHat finds
+      known and novel exon-exon splice junctions and is extremely fast due to its
+      use of the Bowtie2 aligner. The last release, TopHat2, runs with either Bowtie1
+      or Bowtie2 and includes algorithms that significantly enhance TopHat's sensitivity,
+      particularly in the presence of pseudogenes. TopHat2 includes TopHat-Fusion
+      as an option.
+  - id: tophat-fusion
+    name: TopHat-Fusion
+    status: older
+    category:
+      - alignment
+    pmcid: PMC3245612
+    url: https://github.com/DaehwanKimLab/tophat/wiki/Fusion-Home
+    description: TopHat-Fusion is an enhanced version of TopHat with the ability to
+      align reads across fusion points, which results from the breakage and re-joining
+      of two different chromosomes, or from rearrangements within a chromosome.
+  - id: transigner
+    name: TranSigner
+    status: newer
+    category:
+      - transcriptome-assembly
+    url: https://github.com/haydenji0731/transigner
+    pmcid: PMC11343119
+    description: TranSigner improves transcriptome expression quantification through
+      accurate assignment of long RNA sequencing reads.
+  - id: wheeler-graph-toolkit
+    name: Wheeler Graph Toolkit (WGT)
+    status: newer
+    category:
+      - other-tools
+    url: https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit
+    pmcid: PMC10415921
+    description: WGT provides tools and algorithms for recognizing, visualizing, and
+      generating Wheeler graphs.
