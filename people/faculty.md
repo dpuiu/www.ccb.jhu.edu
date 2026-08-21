@@ -2,7 +2,7 @@
 # Faculty 
 
 (steven-l-salzberg)=
-## Steven L. Salzberg, Ph.D.
+## [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -29,14 +29,13 @@
 
 {{ bsph }}  
 
-[Homepage](https://salzberg-lab.org)   
 [salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
 
 ::::
 ```
 
 (dan-arking)=
-## Dan Arking, Ph.D.
+## [Dan Arking, Ph.D.](https://github.com/TMAGOC/edge-pro/wiki)
 
 ```{grid} 12
 :gutter: 1
@@ -68,7 +67,7 @@
 ```
 
 (joel-bader)=
-## Joel Bader, Ph.D.
+## [Joel Bader, Ph.D.](https://www.baderzone.org)
 
 ```{grid} 12
 :gutter: 1
@@ -90,14 +89,13 @@
 
 {{ bme }}  
 
-[Homepage](https://www.baderzone.org)   
 [joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)  
 
 ::::
 ```
 
 (alexis-battle)=
-## Alexis Battle, Ph.D.
+## [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
 
 ```{grid} 12
 :gutter: 1
@@ -125,14 +123,13 @@
 
 {{ dgm }}  
 
-[Homepage](https://battlelab.jhu.edu)   
 [ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)  
 
 ::::
 ```
 
 (michael-beer)=
-## Michael Beer, Ph.D.
+## [Michael Beer, Ph.D.](https://www.beerlab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -158,14 +155,13 @@
 
 {{ som }}  
 
-[Homepage](https://www.beerlab.org)   
 [mbeer@jhu.edu](mailto:mbeer@jhu.edu)  
 
 ::::
 ```
 
 (uthsav-chitra)=
-## Uthsav Chitra, Ph.D.
+## [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
 
 ```{grid} 12
 :gutter: 1
@@ -189,14 +185,13 @@
 
 {{ wse }}  
 
-[Homepage](https://chitra-lab.github.io)   
 [uthsav@jhu.edu](mailto:uthsav@jhu.edu)  
 
 ::::
 ```
 
 (jean-fan)=
-## Jean Fan, Ph.D.
+## [Jean Fan, Ph.D.](https://jef.works)
 
 ```{grid} 12
 :gutter: 1
@@ -220,14 +215,13 @@
 
 {{ wse }}  
 
-[Homepage](https://jef.works)   
 [jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)  
 
 ::::
 ```
 
 (liliana-florea)=
-## Liliana Florea, Ph.D.
+## [Liliana Florea, Ph.D.](https://florealab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -253,14 +247,13 @@
 
 {{ som }}  
 
-[Homepage](https://florealab.org)   
 [florea@jhu.edu](mailto:florea@jhu.edu)  
 
 ::::
 ```
 
 (jeffrey-j-gray)=
-## Jeffrey J. Gray, Ph.D.
+## [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
 
 ```{grid} 12
 :gutter: 1
@@ -285,14 +278,13 @@
  
 Program in Molecular & Computational Biophysics  
 
-[Homepage](https://graylab.jhu.edu)   
 [jgray@jhu.edu](mailto:jgray@jhu.edu)  
 
 ::::
 ```
 
 (kasper-d-hansen)=
-## Kasper D. Hansen, Ph.D.
+## [Kasper D. Hansen, Ph.D.](https://www.hansenlab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -318,14 +310,13 @@ Program in Molecular & Computational Biophysics
 
 {{ sph }}  
 
-[Homepage](https://www.hansenlab.org)   
 [kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)  
 
 ::::
 ```
 
 (stephanie-hicks)=
-## Stephanie Hicks, Ph.D.
+## [Stephanie Hicks, Ph.D.](https://www.stephaniehicks.com)
 
 ```{grid} 12
 :gutter: 1
@@ -358,14 +349,13 @@ Program in Molecular & Computational Biophysics
  
 Center for Imaging Science  
 
-[Homepage](https://www.stephaniehicks.com)   
 [shicks19@jhu.edu](mailto:shicks19@jhu.edu)  
 
 ::::
 ```
 
 (hongkai-ji)=
-## Hongkai Ji, Ph.D.
+## [Hongkai Ji, Ph.D.](https://jilab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -389,14 +379,13 @@ Center for Imaging Science
 
 {{ sph }}  
 
-[Homepage](https://jilab.org)   
 [hji@jhsph.edu](mailto:hji@jhsph.edu)  
 
 ::::
 ```
 
 (rachel-karchin)=
-## Rachel Karchin, Ph.D.
+## [Rachel Karchin, Ph.D.](https://www.karchinlab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -421,14 +410,13 @@ Center for Imaging Science
 
 {{ dgm }}  
 
-[Homepage](https://www.karchinlab.org)   
 [karchin@jhu.edu](mailto:karchin@jhu.edu)  
 
 ::::
 ```
 
 (ben-langmead)=
-## Ben Langmead, Ph.D.
+## [Ben Langmead, Ph.D.](https://langmead-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -450,7 +438,6 @@ Center for Imaging Science
 
 {{ cs }}  
 
-[Homepage](https://langmead-lab.org)   
 [langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)  
 
 ::::
@@ -491,7 +478,7 @@ Center for Imaging Science
 ```
 
 (rajiv-mccoy)=
-## Rajiv McCoy, Ph.D.
+## [Rajiv McCoy, Ph.D.](https://mccoy-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -513,14 +500,13 @@ Center for Imaging Science
 
 {{ bio }}  
 
-[Homepage](https://mccoy-lab.org)   
 [rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)  
 
 ::::
 ```
 
 (mihaela-pertea)=
-## Mihaela Pertea, Ph.D.
+## [Mihaela Pertea, Ph.D.](https://pertealab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -547,14 +533,13 @@ Center for Imaging Science
 
 {{ som }}  
 
-[Homepage](https://pertealab.org)   
 [mpertea@jhu.edu](mailto:mpertea@jhu.edu)  
 
 ::::
 ```
 
 (adam-phillippy)=
-## Adam Phillippy, Ph.D.
+## [Adam Phillippy, Ph.D.](https://genomeinformatics.github.io)
 
 ```{grid} 12
 :gutter: 1
@@ -580,14 +565,13 @@ Center for Imaging Science
 
 {{ dgm }}  
 
-[Homepage](https://genomeinformatics.github.io)   
 [aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)  
 
 ::::
 ```
 
 (suchi-saria)=
-## Suchi Saria, Ph.D.
+## [Suchi Saria, Ph.D.](https://engineering.jhu.edu/faculty/suchi-saria/)
 
 ```{grid} 12
 :gutter: 1
@@ -623,7 +607,7 @@ Department of Health Policy & Management
 ```
 
 (robert-scharpf)=
-## Robert Scharpf, Ph.D.
+## [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
 
 ```{grid} 12
 :gutter: 1
@@ -647,14 +631,13 @@ Department of Health Policy & Management
 
 {{ som }}  
 
-[Homepage](https://rscharpf.github.io/index.html)   
 [rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)  
 
 ::::
 ```
 
 (michael-schatz)=
-## Michael Schatz, Ph.D.
+## [Michael Schatz, Ph.D.](https://schatz-lab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -676,14 +659,13 @@ Department of Health Policy & Management
 
 {{ cs }}  
 
-[Homepage](https://schatz-lab.org)   
 [mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)  
 
 ::::
 ```
 
 (margaret-taub)=
-## Margaret Taub, Ph.D.
+## [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
 
 ```{grid} 12
 :gutter: 1
@@ -707,7 +689,6 @@ Department of Health Policy & Management
 
 {{ sph }}  
 
-[Homepage](https://www.biostat.jhsph.edu/~mtaub/About.html)   
 [mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)  
 
 ::::
@@ -742,7 +723,7 @@ Department of Health Policy & Management
 ```
 
 (winston-timp)=
-## Winston Timp, Ph.D.
+## [Winston Timp, Ph.D.](https://www.timplab.org)
 
 ```{grid} 12
 :gutter: 1
@@ -766,14 +747,13 @@ Department of Health Policy & Management
 
 {{ wse }}  
 
-[Homepage](https://www.timplab.org)   
 [wtimp@jhu.edu](mailto:wtimp@jhu.edu)  
 
 ::::
 ```
 
 (aleksey-zimin)=
-## Aleksey Zimin, Ph.D.
+## [Aleksey Zimin, Ph.D.](/people/alekseyz/index)
 
 ```{grid} 12
 :gutter: 1
@@ -797,7 +777,6 @@ Department of Health Policy & Management
 
 {{ wse }}  
 
-[Homepage](/people/alekseyz/index)   
 [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)  
 
 ::::

@@ -222,7 +222,7 @@ EASTR is a tool for detecting spuriously spliced alignments and junctions in RNA
 
 
 (edge-pro)=
-## 23. [EDGE-pro](https://github.com/salzberg-lab/edge-pro/wiki)
+## 23. [EDGE-pro](https://github.com/TMAGOC/edge-pro/wiki)
 
 EDGE-pro is a program for estimating gene expression from prokaryotic RNA-seq. EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks, does not allow spliced alignments. It also handles overlapping genes, a common phenomenon in bacteria that is largely absent in eukaryotes.
 
@@ -272,7 +272,7 @@ An application for genome-wide studies by efficiently running several gene-based
 
 
 (flash)=
-## 28. [FLASH](https://github.com/salzberg-lab/flash/wiki)
+## 28. [FLASH](https://github.com/TMAGOC/flash/wiki)
 
 A fast, accurate program to increase the length of reads by overlapping and merging paired reads from fragments shorter than twice the length of reads. Primarily designed to merge Illumina paired reads.
 

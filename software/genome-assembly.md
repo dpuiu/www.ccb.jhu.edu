@@ -73,7 +73,7 @@ SAMBA is a genome scaffolding tool that uses long-range linkage information to o
 
 
 (flash)=
-## 8. [FLASH](https://github.com/salzberg-lab/flash/wiki)
+## 8. [FLASH](https://github.com/TMAGOC/flash/wiki)
 
 A fast, accurate program to increase the length of reads by overlapping and merging paired reads from fragments shorter than twice the length of reads. Primarily designed to merge Illumina paired reads.
 

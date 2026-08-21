@@ -2,7 +2,7 @@
 # Collaborators 
 
 (carl-kingsford)=
-## Carl Kingsford, Ph.D.
+## [Carl Kingsford, Ph.D.](https://kingsfordlab.cbd.cmu.edu/)
 
 ```{grid} 12
 :gutter: 1
@@ -28,14 +28,13 @@ Ray and Stephanie Lane Center for Computational Biology
  
 [Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)  
 
-[Homepage](https://kingsfordlab.cbd.cmu.edu/)   
 [carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)  
 
 ::::
 ```
 
 (cole-trapnell)=
-## Cole Trapnell, Ph.D.
+## [Cole Trapnell, Ph.D.](https://cole-trapnell-lab.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -64,14 +63,13 @@ The Broad Institute of MIT and Harvard
  
 UW Genome Sciences  
 
-[Homepage](https://cole-trapnell-lab.github.io/)   
 [coletrap@uw.edu](mailto:coletrap@uw.edu)  
 
 ::::
 ```
 
 (elana-fertig)=
-## Elana Fertig, Ph.D.
+## [Elana Fertig, Ph.D.](https://fertiglab.com/)
 
 ```{grid} 12
 :gutter: 1
@@ -92,14 +90,13 @@ UW Genome Sciences
 **Professor**  
 **Director of the Institute for Genome Sciences at the University of Maryland School of Medicine**  
 
-[Homepage](https://fertiglab.com/)   
 [ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)  
 
 ::::
 ```
 
 (james-a-yorke)=
-## James A. Yorke, Ph.D.
+## [James A. Yorke, Ph.D.](https://yorke.umd.edu/)
 
 ```{grid} 12
 :gutter: 1
@@ -128,14 +125,13 @@ UMCP
  
 University of Maryland  
 
-[Homepage](https://yorke.umd.edu/)   
 [yorke@umd.edu](mailto:yorke@umd.edu)  
 
 ::::
 ```
 
 (mihai-pop)=
-## Mihai Pop, Ph.D.
+## [Mihai Pop, Ph.D.](https://pop-lab.org/)
 
 ```{grid} 12
 :gutter: 1
@@ -162,14 +158,13 @@ University of Maryland
  
 University of Maryland  
 
-[Homepage](https://pop-lab.org/)   
 [mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
 
 ::::
 ```
 
 (najib-el-sayed)=
-## Najib El-Sayed, Ph.D.
+## [Najib El-Sayed, Ph.D.](https://www.najibelsayed.org/)
 
 ```{grid} 12
 :gutter: 1
@@ -195,14 +190,13 @@ Department of Cell Biology and Molecular Genetics
  
 University of Maryland  
 
-[Homepage](https://www.najibelsayed.org/)   
 [nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)  
 
 ::::
 ```
 
 (the-pine-genome-project)=
-## The Pine Genome Project
+## [The Pine Genome Project](https://pinegenome.org/pinerefseq/)
 
 ```{grid} 12
 :gutter: 1
@@ -228,7 +222,6 @@ PineRefSeq: Conifer Reference Genome Sequencing
  
 An adaptive approach to the sequencing of the large genomes of multiple conifer species.  
 
-[Homepage](https://pinegenome.org/pinerefseq/)   
 [email@jhu.edu](mailto:email@jhu.edu)  
 
 ::::

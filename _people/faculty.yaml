@@ -19,6 +19,7 @@ people:
       - dgm
       - cardio
       - som
+    homepage: https://github.com/TMAGOC/edge-pro/wiki
     email: arking@jhmi.edu
 
   - id: joel-bader
@@ -201,6 +202,7 @@ people:
       - cs
       - Department of Health Policy & Management
       - icm
+    homepage: https://engineering.jhu.edu/faculty/suchi-saria/
     email: ssaria@cs.jhu.edu
 
   - id: robert-scharpf

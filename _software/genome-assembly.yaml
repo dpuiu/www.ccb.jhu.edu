@@ -86,7 +86,7 @@ software:
     status: older
     category:
       - genome-assembly
-    url: https://github.com/salzberg-lab/flash/wiki
+    url: https://github.com/TMAGOC/flash/wiki
     pmcid: PMC3198573
     description: 'A fast, accurate program to increase the length of reads by overlapping
       and merging paired reads from fragments shorter than twice the length of reads.

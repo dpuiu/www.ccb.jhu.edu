@@ -103,7 +103,7 @@ A program for computing differentially expressed genes in two or more RNA-seq ex
 
 
 (edge-pro)=
-## 11. [EDGE-pro](https://github.com/salzberg-lab/edge-pro/wiki)
+## 11. [EDGE-pro](https://github.com/TMAGOC/edge-pro/wiki)
 
 EDGE-pro is a program for estimating gene expression from prokaryotic RNA-seq. EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks, does not allow spliced alignments. It also handles overlapping genes, a common phenomenon in bacteria that is largely absent in eukaryotes.
 

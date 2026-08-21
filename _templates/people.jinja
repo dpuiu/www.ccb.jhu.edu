@@ -6,7 +6,11 @@
 {% for person in people %}
 
 ({{ person.id }})=
+{%- if person.homepage %}
+## [{{ person.name }}]({{ person.homepage }})
+{%- else %}
 ## {{ person.name }}
+{%- endif %}
 
 ```{grid} 12
 :gutter: 1
@@ -50,10 +54,6 @@
 {{ a }}  
 {% endif %}
 {% endfor %}
-
-{%- if person.homepage -%}
-[Homepage]({{ person.homepage }})   
-{% endif %}
 
 {%- if person.email -%} 
 [{{ person.email }}](mailto:{{ person.email }})  

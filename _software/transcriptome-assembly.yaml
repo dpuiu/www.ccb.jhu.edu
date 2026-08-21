@@ -114,7 +114,7 @@ software:
     status: older
     category:
       - transcriptome-assembly
-    url: https://github.com/salzberg-lab/edge-pro/wiki
+    url: https://github.com/TMAGOC/edge-pro/wiki
     pmcid: PMC3603529
     description: 'EDGE-pro is a program for estimating gene expression from prokaryotic
       RNA-seq. EDGE-pro uses Bowtie2 for alignment but, unlike TopHat and Cufflinks,

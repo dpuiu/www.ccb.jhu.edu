@@ -2,7 +2,7 @@
 # Alumni 
 
 (rafael-irizarry)=
-## Rafael Irizarry, Ph.D.
+## [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
 
 ```{grid} 12
 :gutter: 1
@@ -31,7 +31,6 @@ JHU Biostatistics (until June 2013)
  
 Harvard University  
 
-[Homepage](https://rafalab.dfci.harvard.edu/)   
 [rafa@jhu.edu](mailto:rafa@jhu.edu)  
 
 ::::
@@ -93,7 +92,7 @@ Harvard University
 ```
 
 (ilia-minkin)=
-## Ilia Minkin, Ph.D.
+## [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -118,14 +117,13 @@ Harvard University
  
 [Broad Institute](https://www.broadinstitute.org)  
 
-[Homepage](https://iminkin.github.io/)   
 [iminkin@broadinstitute.org](mailto:iminkin@broadinstitute.org)  
 
 ::::
 ```
 
 (martin-steinegger)=
-## Martin Steinegger, Ph.D.
+## [Martin Steinegger, Ph.D.](https://steineggerlab.com)
 
 ```{grid} 12
 :gutter: 1
@@ -150,14 +148,13 @@ Harvard University
  
 [Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)  
 
-[Homepage](https://steineggerlab.com)   
 [martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)  
 
 ::::
 ```
 
 (stefan-canzar)=
-## Stefan Canzar, Ph.D.
+## [Stefan Canzar, Ph.D.](https://canzarlab.com/)
 
 ```{grid} 12
 :gutter: 1
@@ -182,14 +179,13 @@ Harvard University
  
 [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)  
 
-[Homepage](https://canzarlab.com/)   
 [stefan.canzar@ur.de](mailto:stefan.canzar@ur.de)  
 
 ::::
 ```
 
 (stephan-pabinger)=
-## Stephan Pabinger, Ph.D.
+## [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 ```{grid} 12
 :gutter: 1
@@ -217,14 +213,13 @@ McKusick-Nathans Institute of Genetic Medicine
  
 [Aldi](https://www.aldicareers.com.au/)  
 
-[Homepage](https://pabinger.site44.com)   
 [stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)  
 
 ::::
 ```
 
 (tanja-magoc)=
-## Tanja Magoc, Ph.D.
+## [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
 
 ```{grid} 12
 :gutter: 1
@@ -255,14 +250,13 @@ Associate Director, AI/QI Program, Quality and Patient Safety Initiative
  
 [University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)  
 
-[Homepage](https://idr.ufhealth.org/profile/magoc-tanja/)   
 [t.magoc@gmail.com](mailto:t.magoc@gmail.com)  
 
 ::::
 ```
 
 (todd-j-treangen)=
-## Todd J. Treangen, Ph.D.
+## [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
 
 ```{grid} 12
 :gutter: 1
@@ -293,7 +287,6 @@ National Biodefense Analysis and Countermeasures Center
  
 [Rice University](https://profiles.rice.edu/faculty/todd-treangen)  
 
-[Homepage](https://profiles.rice.edu/faculty/todd-treangen)   
 [treangen@gmail.com](mailto:treangen@gmail.com)  
 
 ::::
@@ -331,7 +324,7 @@ National Biodefense Analysis and Countermeasures Center
 ```
 
 (ales-varabyou)=
-## Ales Varabyou, Ph.D.
+## [Ales Varabyou, Ph.D.](https://alevar.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -356,14 +349,13 @@ National Biodefense Analysis and Countermeasures Center
  
 [PacBio](https://www.pacb.com/)  
 
-[Homepage](https://alevar.github.io/)   
 [ales.varabyou@jhu.edu](mailto:ales.varabyou@jhu.edu)  
 
 ::::
 ```
 
 (alyssa-frazee)=
-## Alyssa Frazee, Ph.D.
+## [Alyssa Frazee, Ph.D.](https://alyssafrazee.com)
 
 ```{grid} 12
 :gutter: 1
@@ -384,14 +376,13 @@ National Biodefense Analysis and Countermeasures Center
  
 [Stripe](https://stripe.com)  
 
-[Homepage](https://alyssafrazee.com)   
 [alyssa.frazee@gmail.com](mailto:alyssa.frazee@gmail.com)  
 
 ::::
 ```
 
 (daehwan-kim)=
-## Daehwan Kim, Ph.D.
+## [Daehwan Kim, Ph.D.](https://kim-lab.org/)
 
 ```{grid} 12
 :gutter: 1
@@ -417,7 +408,6 @@ University of Toronto
  
 [OMPHALOS Lifesciences](https://omphaloslifesci.com/)  
 
-[Homepage](https://kim-lab.org/)   
 [infphilo@gmail.com](mailto:infphilo@gmail.com)  
 
 ::::
@@ -455,7 +445,7 @@ University of Toronto
 ```
 
 (hilary-parker)=
-## Hilary Parker, Ph.D.
+## [Hilary Parker, Ph.D.](https://biostat.jhsph.edu/~hiparker/)
 
 ```{grid} 12
 :gutter: 1
@@ -479,7 +469,6 @@ Department of Biostatistics
  
 Johns Hopkins Bloomberg School of Public Health  
 
-[Homepage](https://biostat.jhsph.edu/~hiparker/)   
 [hilary@jhu.edu](mailto:hilary@jhu.edu)  
 
 ::::
@@ -565,7 +554,7 @@ Johns Hopkins Bloomberg School of Public Health
 ```
 
 (kuan-hao-chao)=
-## Kuan-Hao Chao, Ph.D.
+## [Kuan-Hao Chao, Ph.D.](https://khchao.com/)
 
 ```{grid} 12
 :gutter: 1
@@ -590,14 +579,13 @@ Johns Hopkins Bloomberg School of Public Health
  
 [Illumina AI Lab](https://www.illumina.com/)  
 
-[Homepage](https://khchao.com/)   
 [kuanhao.chao@gmail.com](mailto:kuanhao.chao@gmail.com)  
 
 ::::
 ```
 
 (li-song)=
-## Li Song, Ph.D.
+## [Li Song, Ph.D.](https://mourisl.github.io/)
 
 ```{grid} 12
 :gutter: 1
@@ -622,14 +610,13 @@ Johns Hopkins Bloomberg School of Public Health
  
 [Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)  
 
-[Homepage](https://mourisl.github.io/)   
 [Li.Song@dartmouth.edu](mailto:Li.Song@dartmouth.edu)  
 
 ::::
 ```
 
 (markus-sommer)=
-## Markus Sommer, Ph.D.
+## [Markus Sommer, Ph.D.](https://www.markus.bio/)
 
 ```{grid} 12
 :gutter: 1
@@ -658,7 +645,6 @@ Johns Hopkins Bloomberg School of Public Health
  
 [National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)  
 
-[Homepage](https://www.markus.bio/)   
 [markusjsommer@gmail.com](mailto:markusjsommer@gmail.com)  
 
 ::::
