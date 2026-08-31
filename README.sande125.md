@@ -769,9 +769,9 @@ After enabling Actions and configuring GitHub Pages, go to:
 https://github.comsande125/www.ccb.jhu.edu/actions
 ```
 
-Select the deployment workflow and click **Run workflow** if manual execution is available.
+Select **Build and Deplow Shinx** and click **Run workflow** if manual execution is available.
 
-You can also trigger the workflow by pushing a change to the branch configured in `.github/workflows/deploy.yml`.
+You can also trigger the workflow by pushing a changes `.github/workflows/deploy.yml`.
 
 For example:
 
@@ -809,6 +809,10 @@ https:/sande125.github.io/www.ccb.jhu.edu/
 > Only changes merged into the main CCB repository are deployed to the official website.
 > Make sure that the website builds successfully and our changes look correct in the local website.
 ---
+
+To bookmark the website from the GitHub forked repository web page:  
+Locate the `About` section on the right side of the main page, 
+click the gear icon, and check the box for `Use your GitHub Pages website` under the Website section.
 
 ## 11. Submit a Pull Request
 
