@@ -485,7 +485,7 @@ _data/data.yaml
 head _people/faculty.yaml -n 20
 ```
 
-```text
+```yaml
 people:
   - id: steven-l-salzberg
     name: Steven L. Salzberg, Ph.D.
@@ -500,7 +500,7 @@ people:
     email: salzberg@jhu.edu
 ```
 
-> [!IMPORTANT]
+> [!NOTE]
 > Lowercase values in `affiliations` (e.g., `bme`) correspond to `myst_substitutions` defined in `conf.py`.
 > The `ids` and `labs` are cross-references to the Faculty page.
 
@@ -556,7 +556,7 @@ head -n 40 people/faculty.md
   ::::
 ```
 
-> [!IMPORTANT]
+> [!NOTE]
 > People IDs are cross-referenced throughout the website and should follow the first_name-middle_initial-last_name format.
 > `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. 
 > These substitutions use common names for values such as department names and URLs that are reused throughout the website.
