@@ -465,13 +465,10 @@ nano about/jobs.md
 ```
 
 > [!IMPORTANT]
-> The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, 
-> respectively, using the corresponding Jinja templates in `_templates/`.
+> The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, respectively, using the corresponding Jinja templates in `_templates/`.
+> Edit the YAML files, not the generated Markdown files, and validate them against the appropriate JSON schema before conversion.
 > **Do not edit the generated Markdown files directly.**
->
-> The YAML files should also be validated against a JSON schema before conversion.
->
-> You can run `./jinja.sh` to validate and regenerate the Markdown pages.
+>`./jinja.sh` contains the code for validating the YAML files and updating the Markdown pages.
 
 ### 7.4 Edit YAML Documents
 
@@ -624,7 +621,6 @@ _templates/people.jinja
 
 > [!IMPORTANT]
 > Templates should be modified when the structure or presentation of a group of generated pages needs to change.
-> Individual data records should remain in the YAML files.
 
 ### 7.6 Edit the Sphinx Configuration
 
