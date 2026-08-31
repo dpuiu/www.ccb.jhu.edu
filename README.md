@@ -809,25 +809,36 @@ https://$GITHUB_USERNAME.github.io/www.ccb.jhu.edu/
 > The GitHub Pages site for your fork is useful for testing changes before submitting a pull request.
 > **Publishing your fork does not change the official CCB website.**
 > Only changes merged into the main CCB repository are deployed to the official website.
-
+> Make sure that the website builds successfully and our changes look correct in the local website.
 ---
 
 ## 11. Submit a Pull Request
 
-After pushing your changes to your fork, open a pull request from your fork to the main CCB website repository:
+Go to your GitHub repository:
+
+```text
+https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu
+```
+
+You should see a message similar to:
+
+This branch is 1 commit ahead of `dpuiu/www.ccb.jhu.edu:main`.
+
+Click on this message. GitHub will show that the branches can be automatically merged.
+
+Click `Create pull request`. Include a short description of the changes you made.
+
+All the active pull requests should be listed at:
 
 ```text
 https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 ```
 
-Include a short description of what you changed.
-Before submitting the pull request, make sure that the website builds successfully and our changes look correct in the local website.
-
 ---
 
 ## 12. Review Process
 
-All changes are reviewed by the CCB website maintainers before they are merged.
+THe changes are reviewed by the CCB website maintainers before they are merged.
 
 Maintainers may:
 

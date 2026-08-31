@@ -159,34 +159,55 @@ tree .
 ├── jinja.sh                         # YAML -> Markdown conversion script
 │
 ├── about/                           # General CCB information
-│   ├── index.md
-│   ├── about.md
-│   ├── contact.md
-│   └── jobs.md
+│   ├── index.md                     # Index page, defines the structure
+│   ├── about.md
+│   ├── contact.md
+│   ├── index.md
+│   ├── jobs.md
+│   └── publications.md
 │
-├── people/                          # People pages
+│── _publications
+│   ├── pmc.csv                      # PMC Publications in CSV format
+│   ├── pmc.bib                      # PMC Publications in converted to BIB format
+│   └── doi.bib                      # Other Publications in BIB format
+│ 
+├── _people/                         # People data (YAML)
+│   ├── faculty.yaml                 # Edit this file
+│   ├── staff.yaml
+│   ├── postdocs.yaml
+│   ├── students.yaml
+│   ├── collaborators.yaml
+│   ├── alumni.yaml
+│   └── people.schema.json           # JSON Schema for validation
+│ 
+├── people/                          # People pages (Markdown)
 │   ├── index.md
 │   ├── faculty.md                   # Generated; do not edit directly
 │   ├── staff.md                     # Generated; do not edit directly
 │   ├── postdocs.md                  # Generated; do not edit directly
 │   ├── students.md                  # Generated; do not edit directly
 │   ├── collaborators.md             # Generated; do not edit directly
-│   └── alumni.md                    # Generated; do not edit directly
-|   ├── alekseyz                     # Personal pages
+│   ├── alumni.md                    # Generated; do not edit directly
+│   ├── alekseyz                     # Personal pages
 │   │   ├── about.md
 │   │   ├── index.md
-|   |   | .....
+│   └── └──  .....
 │
-├── education/                       # Education and training
-│   ├── index.md
-│   ├── courses.md
-│   ├── information.md
-│   ├── internship.md
-│   ├── past_projects.md
-│   └── sample_courses.md
+├── _software                        # Software data (YAML)
+│   ├── all.yaml                     
+│   ├── alignment.yaml
+│   ├── gene-finding.yaml
+│   ├── genome-assembly.yaml
+│   ├── metagenomics.yaml
+│   ├── other-tools.yaml
+│   ├── software.schema.json
+│   ├── transcriptome-assembly.yaml
+│   ├── variant-analysis.yaml
+│   └── software.schema.json         # JSON Schema for validation
 │
-├── software/                        # Software documentation
+├── software/                        # Software pages (Markdown)  
 │   ├── index.md
+│   ├── all.md
 │   ├── alignment.md
 │   ├── gene_finding.md
 │   ├── genome_assembly.md
@@ -195,27 +216,34 @@ tree .
 │   ├── variant_analysis.md
 │   └── other_tools.md
 │
-├── data/                            # Data resources and downloads
+│── _data/                           # Data list (YAML)
+│   ├── data.schema.json
+│   ├── data.yaml
+│   └── eupathdb.yaml
+│ 
+├── data/                            # Data pages (Markdown) 
 │   ├── index.md
 │   ├── data.md
 │   ├── downloads.md
-│   └── eupathdb.md
+│   ├── eupathdb.md
+│   └── data.schema.json             # JSON Schema for validation
 │
+├── education/                       # Education and training
+│   ├── index.md
+│   ├── courses.md
+│   ├── information.md
+│   ├── internship.md
+│   ├── past_projects.md
+│   └── sample_courses.md
+│ 
 ├── cbcc/                            # CBCC information
 │   └── index.md
 │
-├── _people/                         # Structured people data
-│   ├── faculty.yaml                 # Edit this file
-│   ├── staff.yaml
-│   ├── postdocs.yaml
-│   ├── students.yaml
-│   ├── collaborators.yaml
-│   ├── alumni.yaml
-│   └── people.schema.json           # JSON Schema for validation
-│
-├── _templates/                      # Jinja/Sphinx templates
-│   ├── page.html                    # Custom page template
-│   └── people.jinja                 # People page template
+├── _templates/                      # Jinja/Sphinx templates for YAML->Markdown conversion
+│   ├── page.html                    # Custom page template, feader & footer
+│   ├── people.jinja                 # People page template
+│   ├── software.html                # Software page template
+│   └── data.jinja                   # Data page template
 │
 ├── _static/                         # Static files copied to the website
 │   ├── custom.css                   # Custom CSS
@@ -223,10 +251,11 @@ tree .
 │   ├── favicon.ico                  # Website favicon
 │   ├── google5ed79d6dabf65a2d.html  # Google site verification
 │   ├── robots.txt                   # Search-engine instructions
-│   ├── images/                      # Website and carousel images
+|   ├── images
+│   │   ├── campus2.jpeg             
+│   │   └── campus2-top.webp         # Website hero logo
 │   ├── logos/                       # CCB/JHU logos
-│   ├── people/                      # People photos
-│   └── maps/                        # Campus/JHH maps
+│   └── people/                      # People photos
 │
 ├── .gitignore                       # Git files/directories to ignore
 │
@@ -236,12 +265,6 @@ tree .
 │
 └── _build/                          # Generated Sphinx output (not committed)
 ```
-
-> [!IMPORTANT]
-> The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, 
-> respectively, using the corresponding Jinja templates in `_templates/`.
-> **Do not edit the generated Markdown files directly.**
-> Instead, edit the corresponding YAML file and regenerate the Markdown page using the `./jinja.sh`.
 
 ---
 
@@ -441,11 +464,16 @@ nano about/jobs.md
   ...
 ```
 
-### 7.4 Edit YAML Documents
-
 > [!IMPORTANT]
-> The People, Software, and Data pages are generated from YAML data files. 
-> Do **not** edit the generated Markdown pages directly.
+> The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, 
+> respectively, using the corresponding Jinja templates in `_templates/`.
+> **Do not edit the generated Markdown files directly.**
+>
+> The YAML files should also be validated against a JSON schema before conversion.
+>
+> You can run `./jinja.sh` to validate and regenerate the Markdown pages.
+
+### 7.4 Edit YAML Documents
 
 For example:
 
@@ -478,9 +506,6 @@ people:
 > [!IMPORTANT]
 > Lowercase values in `affiliations` (e.g., `bme`) correspond to `myst_substitutions` defined in `conf.py`.
 > The `ids` and `labs` are cross-references to the Faculty page.
-
-> [!IMPORTANT]
-> The YAML files should be validated against a JSON schema before conversion.
 
 
 ```bash
@@ -536,7 +561,8 @@ head -n 40 people/faculty.md
 
 > [!IMPORTANT]
 > People IDs are cross-referenced throughout the website and should follow the first_name-middle_initial-last_name format.
-> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
+> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. 
+> These substitutions use common names for values such as department names and URLs that are reused throughout the website.
 
 ```bash
 grep -A 5 myst_substitutions  conf.py 
@@ -783,25 +809,36 @@ https://sande125.github.io/www.ccb.jhu.edu/
 > The GitHub Pages site for your fork is useful for testing changes before submitting a pull request.
 > **Publishing your fork does not change the official CCB website.**
 > Only changes merged into the main CCB repository are deployed to the official website.
-
+> Make sure that the website builds successfully and our changes look correct in the local website.
 ---
 
 ## 11. Submit a Pull Request
 
-After pushing your changes to your fork, open a pull request from your fork to the main CCB website repository:
+Go to your GitHub repository:
+
+```text
+https://github.com/sande125/www.ccb.jhu.edu
+```
+
+You should see a message similar to:
+
+This branch is 1 commit ahead of `dpuiu/www.ccb.jhu.edu:main`.
+
+Click on this message. GitHub will show that the branches can be automatically merged.
+
+Click `Create pull request`. Include a short description of the changes you made.
+
+All the active pull requests should be listed at:
 
 ```text
 https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 ```
 
-Include a short description of what you changed.
-Before submitting the pull request, make sure that the website builds successfully and our changes look correct in the local website.
-
 ---
 
 ## 12. Review Process
 
-All changes are reviewed by the CCB website maintainers before they are merged.
+THe changes are reviewed by the CCB website maintainers before they are merged.
 
 Maintainers may:
 
