@@ -1,3 +1,42 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Contributing to the CCB Website](#contributing-to-the-ccb-website)
+  - [1. Fork the Repository](#1-fork-the-repository)
+  - [2. Install the Required Tools](#2-install-the-required-tools)
+  - [3. Authenticate with GitHub](#3-authenticate-with-github)
+  - [4. Clone Your Fork](#4-clone-your-fork)
+    - [4.1 Clone the Repository](#41-clone-the-repository)
+    - [4.2 Update an Existing Clone](#42-update-an-existing-clone)
+  - [5. Repository Structure](#5-repository-structure)
+  - [6. Build the Website Locally](#6-build-the-website-locally)
+    - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
+    - [6.2 Build the Website](#62-build-the-website)
+    - [6.3 Start a Local Web Server](#63-start-a-local-web-server)
+  - [7. Edit Website Content](#7-edit-website-content)
+    - [7.1 Explore the Website Structure](#71-explore-the-website-structure)
+    - [7.2 Add a Markdown Page](#72-add-a-markdown-page)
+    - [7.3 Edit a Markdown Page](#73-edit-a-markdown-page)
+    - [7.4 Edit YAML Documents](#74-edit-yaml-documents)
+    - [7.5 Edit Templates](#75-edit-templates)
+    - [7.6 Edit the Sphinx Configuration](#76-edit-the-sphinx-configuration)
+    - [7.7 Edit CSS](#77-edit-css)
+    - [7.8 Edit JavaScript](#78-edit-javascript)
+  - [8. Review Your Changes](#8-review-your-changes)
+  - [9. Commit or Undo Your Changes](#9-commit-or-undo-your-changes)
+  - [10. GitHub Actions and Deployment](#10-github-actions-and-deployment)
+    - [10.1 Enable GitHub Actions](#101-enable-github-actions)
+    - [10.2 Configure GitHub Actions](#102-configure-github-actions)
+    - [10.3 Configure GitHub Pages](#103-configure-github-pages)
+    - [10.4 Run the Workflow](#104-run-the-workflow)
+    - [10.5 Monitor the Deployment](#105-monitor-the-deployment)
+    - [10.6 View the GitHub Pages Website](#106-view-the-github-pages-website)
+  - [11. Submit a Pull Request](#11-submit-a-pull-request)
+  - [12. Review Process](#12-review-process)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Contributing to the CCB Website
 
 This repository contains the source files for the new [**Center for Computational Biology (CCB)**](https://ccb.jhu.edu/) website
@@ -14,34 +53,18 @@ The repository also contains [**YAML**](https://yaml.org/) files for structured 
 You can help improve the website by editing files and submitting a **pull request**.
 All changes are **reviewed** before they are **merged and published to the website**.
 
----
-
-# Note on Sphinx
-
-**Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files.
-It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
-
-For example, Sphinx automatically provides:
-
-- **Navigation** - builds the site structure from the document hierarchy and `toctree` directives.
-- **Search** - generates the search index and search interface.
-- **Table of contents** - creates navigation from document and section structure.
-- **Cross-references** - generates links between pages, sections, and other documented objects.
-- **Permalinks** - creates stable URLs for sections and pages.
-- **HTML pages** - converts the source Markdown files into the final HTML website.
-- **Theme integration** - applies the selected Sphinx theme to the generated pages.
-- **Static assets** - processes and copies CSS, JavaScript, images, and other static files.
-
-The `_build/` directory contains the generated website. Source files should be edited instead of the generated HTML files.
-
-The overall workflow is:
+> [!NOTE]
+> **Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files.
+> It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
+> **Sphinx + MyST + extensions** provide navigation, search, table of contents, cross-references, permalinks, theme integration, static assets, redirects, substitutions, sitemaps, bibliographies, templates, and other documentation features.
+> Source files should be edited instead of the generated HTML files.
 
 ```text
-YAML + MyST Markdown + Jinja templates + conf.py + WebP
+YAML + MyST Markdown + Jinja templates + conf.py + WebP   # source files
                          ↓
                        Sphinx
                          ↓
-                      _build/
+                      _build/                             # HTML files
                          ↓
                     Web website
 ```
@@ -62,7 +85,7 @@ If you already have a fork, open your forked repository and click **Sync fork** 
 
 ---
 
-## 2. Check That Required Tools Are Installed
+## 2. Install the Required Tools
 
 Open a terminal and check that Python, Git, and the GitHub CLI are available:
 
@@ -76,50 +99,34 @@ If any of these tools are missing, you can install them on Ubuntu with:
 
 ```bash
 sudo apt update
-sudo apt install python3 python3-pip python3-venv \
-  python-is-python3 git gh yq
+sudo apt install python3 python3-pip python3-venv python-is-python3 git gh
 ```
 
 ---
 
-## 3. Log In to GitHub
+## 3. Authenticate with GitHub
 
-Authenticate the GitHub CLI:
+Authenticate the GitHub CLI and get username:
 
 ```bash
 gh auth login
-gh auth status
-```
-
-Then get your GitHub username:
-
-```bash
 GITHUB_USERNAME=$(gh api user --jq .login)
 echo $GITHUB_USERNAME
 ```
-
-Set username and email:
-
-```bash
-git config --global user.name "..."
-git config --global user.email "..."
-git config --list
-```
-
 ---
 
 ## 4. Clone Your Fork
 
-### 4.1 First Time: Clone the Repository
+### 4.1 Clone the Repository
 
 If you have not cloned the repository before:
 
 ```bash
-git clone https://github.comsande125/www.ccb.jhu.edu.git
+git clone https://github.com/sande125/www.ccb.jhu.edu.git
 cd www.ccb.jhu.edu
 ```
 
-### 4.2 Existing Clone: Update Your Local Repository
+### 4.2 Update an Existing Clone
 
 If you already have a local clone:
 
@@ -142,8 +149,6 @@ You can view the structure with:
 tree .
 ```
 
-The main directories and files are:
-
 ```text
 .
 ├── index.md                         # Main website page
@@ -151,6 +156,7 @@ The main directories and files are:
 ├── Makefile                         # Build commands
 ├── requirements.txt                 # Python/Sphinx dependencies
 ├── README.md                        # Project documentation
+├── jinja.sh                         # YAML -> Markdown conversion script
 │
 ├── about/                           # General CCB information
 │   ├── index.md
@@ -222,9 +228,6 @@ The main directories and files are:
 │   ├── people/                      # People photos
 │   └── maps/                        # Campus/JHH maps
 │
-├── scripts/                         # Utility/build scripts
-│   └── make_people.py               # Process/validate people data
-│
 ├── .gitignore                       # Git files/directories to ignore
 │
 ├── .github/
@@ -235,9 +238,10 @@ The main directories and files are:
 ```
 
 > [!IMPORTANT]
-> Files under `people/` such as `faculty.md`, `staff.md`, and `students.md` are generated from structured data stored under `_people/`.
-> **Do not edit the generated people pages directly.**
-> Instead, edit the corresponding YAML file under `_people/` and regenerate the Markdown page.
+> The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, 
+> respectively, using the corresponding Jinja templates in `_templates/`.
+> **Do not edit the generated Markdown files directly.**
+> Instead, edit the corresponding YAML file and regenerate the Markdown page using the `./jinja.sh`.
 
 ---
 
@@ -252,23 +256,17 @@ From the repository root:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 The virtual environment only needs to be created once.
 
-### 6.2 Install Website Dependencies
-
-Install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6.3 Build the Website
+### 6.2 Build the Website
 
 The default theme is the PyData Sphinx Theme:
 
 ```bash
+make clean  
 make html
 ```
 
@@ -284,27 +282,18 @@ You can inspect the generated files with:
 tree _build/pydata_sphinx_theme/
 ```
 
-```text
-_build/pydata_sphinx_theme/
-├── index.html
-├── _static/
-└── ...
-```
-
 To build the website using a different theme (e.g., Furo):
 
 ```bash
 make html html_theme=furo
 ```
 
-### 6.4 Start a Local Web Server
+### 6.3 Start a Local Web Server
 
 Serve the generated website directly from `_build/pydata_sphinx_theme`:
 
 ```bash
-python -m http.server 8000 \
-    --bind 127.0.0.1 \
-    -d _build/pydata_sphinx_theme/
+python -m http.server 8000 --bind 127.0.0.1 -d _build/pydata_sphinx_theme/
 ```
 
 Open the website in a browser:
@@ -325,7 +314,7 @@ The CCB website is built with **Sphinx** using **MyST Markdown**. Most content s
 > Any update should be followed by a `make html` and website refresh
 > **Do not manually edit files under** **`_build/`**. They are generated files and will be overwritten by the next Sphinx build.
 
-### 7.1 View the Structure
+### 7.1 Explore the Website Structure
 
 Sphinx uses `index.md` files as **landing pages** for the website and for individual sections.
 
@@ -440,32 +429,30 @@ software/alignment.md
 Edit a page with your preferred editor:
 
 ```bash
-head software/alignment.md 
+nano about/jobs.md
 ```
 
 ```text
-# Alignment
+  (jobs)=
+  # Open Positions at CCB
 
-## [Bowtie](https://bowtie-bio.sourceforge.net/index.shtml)
-
-An ultrafast, memory-efficient short read aligner that aligns short DNA
-sequences to the human genome at a rate of about 25 million reads per hour on a
-typical desktop computer. Bowtie indexes the genome with a Burrows-Wheeler index
-to keep its memory footprint small: 2.3 GB for the human genome. Bowtie and
-Bowtie2 were developed by Ben Langmead and are actively supported by his lab.  
-...
+  Most of the {{ CCB }} faculty members describe job openings on their individual
+  websites. See the {doc}`/people/faculty` page for those sites.
+  ...
 ```
 
 ### 7.4 Edit YAML Documents
 
-People pages are generated from YAML data files stored under `_people/`. Do **not** edit the generated Markdown pages directly.
+> [!IMPORTANT]
+> The People, Software, and Data pages are generated from YAML data files. 
+> Do **not** edit the generated Markdown pages directly.
 
 For example:
 
 ```text
 _people/faculty.yaml
-_people/students.yaml
-_people/alumni.yaml
+_software/alignment.yaml
+_data/data.yaml
 ...
 ```
 
@@ -477,7 +464,6 @@ head _people/faculty.yaml -n 20
 people:
   - id: steven-l-salzberg
     name: Steven L. Salzberg, Ph.D.
-    image: /_static/people/steven-l-salzberg.webp
     titles:
       - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
       - Director, Center for Computational Biology
@@ -489,13 +475,13 @@ people:
     email: salzberg@jhu.edu
 ```
 
-Edit the data:
+> [!IMPORTANT]
+> Lowercase values in `affiliations` (e.g., `bme`) correspond to `myst_substitutions` defined in `conf.py`.
+> The `ids` and `labs` are cross-references to the Faculty page.
 
-```bash
-nano _people/faculty.yaml
-```
+> [!IMPORTANT]
+> The YAML files should be validated against a JSON schema before conversion.
 
-Validate the YAML against the schema:
 
 ```bash
 check-jsonschema \
@@ -512,45 +498,44 @@ jinja2 _templates/people.jinja _people/faculty.yaml \
 ```
 
 ```bash
-head -n 40  people/faculty.md 
+head -n 40 people/faculty.md 
 ```
 
-````text
-# Faculty 
+```text
+  # Faculty 
 
-(steven-l-salzberg)=
-## Steven L. Salzberg, Ph.D.
+  (steven-l-salzberg)=
+  ## [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 
-```{grid} 12
-:gutter: 1
+  ```{grid} 12
+  :gutter: 1
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+  ::::{grid-item-card}
+  :columns: 12 12 3 3
 
-:::{image} /_static/people/steven-l-salzberg.webp
-:width: 240px
-:alt: Steven L. Salzberg, Ph.D.
-:::
+  :::{image} /_static/people/steven-l-salzberg.webp
+  :width: 240px
+  :alt: Steven L. Salzberg, Ph.D.
+  :::
+  ::::
 
-::::
+  ::::{grid-item-card}
+  :columns: 12 12 9 9
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+  **Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
+  **Director, Center for Computational Biology**  
 
-**Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
-**Director, Center for Computational Biology**  
+  {{ bme }}  
+  {{ cs }}  
+  {{ bs }}  
 
-{{ bme }}  
-{{ cs }}  
-{{ bsph }}  
+  [salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
 
-[Homepage](https://salzberg-lab.org)  
-[salzberg@jhu.edu](mailto:salzberg@jhu.edu) 
-
-::::
-````
+  ::::
+```
 
 > [!IMPORTANT]
+> People IDs are cross-referenced throughout the website and should follow the first_name-middle_initial-last_name format.
 > `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. These substitutions use common names for values such as department names and URLs that are reused throughout the website.
 
 ```bash
@@ -563,12 +548,12 @@ myst_substitutions = {
   "bio":  "[Department of Bilogy](https://bio.jhu.edu/)",
   "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
   "BME":  "[BME](https://www.bme.jhu.edu/)",
-  "bsph": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
   ...
 ```
 
-YAML advantages: validation, reformating, sorting, filtering ...
+YAML provides advantages such as validation, reformatting, sorting, filtering, and easy management of structured data.
 
+Example: extract names
 ```bash
 yq '.people[].name' _people/faculty.yaml | head -n 3
 ```
@@ -580,9 +565,31 @@ yq '.people[].name' _people/faculty.yaml | head -n 3
 ...
 ```
 
+Example: sort records and fields
+```bash
+yq -y '.people |= sort_by(.id)' _people/faculty.yaml
+yq -y '.people |= map({id, name, titles, affiliations, departments, labs})' _people/faculty.yaml 
+```
+
+Example: merge and filter records
+```bash
+
+yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
+
+cat _software/all.yaml | \
+  yq -y '.software |= map(select(.status != "older" )  )' | \
+  yq -y '.software |= map(select(.category | contains(["genome-assembly"]))  )' 
+```
+
+To convert all YAML files to Markdown, simply run:
+```bash
+./jinja.sh
+```
+
+
 ### 7.5 Edit Templates
 
-Reusable page structures are implemented with **Jinja2 templates** under:
+Reusable page structures are implemented with **Jinja2 templates**:
 
 ```text
 _templates/page.html
@@ -648,7 +655,7 @@ git diff
 
 ---
 
-## 9. Commit/Undo Your Changes
+## 9. Commit or Undo Your Changes
 
 Add the files you want to commit:
 
@@ -699,7 +706,7 @@ However, **GitHub Actions and GitHub Pages may not be enabled or configured auto
 Open the **Actions** tab of your fork:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions
+https://github.com/sande125/www.ccb.jhu.edu/actions
 ```
 
 If GitHub displays a message indicating that workflows are disabled, click **Enable workflow**.
@@ -709,7 +716,7 @@ If GitHub displays a message indicating that workflows are disabled, click **Ena
 Open the **Settings** tab of your fork and select **Actions/General**:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/settings/actions
+https://github.com/sande125/www.ccb.jhu.edu/settings/actions
 ```
 
 Workflow permissions: click "Read and write permissions"
@@ -719,7 +726,7 @@ Workflow permissions: click "Read and write permissions"
 Open the **Settings** tab  of your fork and select **Pages**:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/settings/pages
+https://github.com/sande125/www.ccb.jhu.edu/settings/pages
 ```
 
 Under **Build and deployment**, set:
@@ -735,7 +742,7 @@ GitHub Actions may also require permission to write to the repository or deploy 
 After enabling Actions and configuring GitHub Pages, go to:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions
+https://github.com/sande125/www.ccb.jhu.edu/actions
 ```
 
 Select the deployment workflow and click **Run workflow** if manual execution is available.
@@ -757,19 +764,19 @@ GitHub Actions will then build the website and, if the workflow and Pages settin
 You can monitor workflow runs at:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions
+https://github.com/sande125/www.ccb.jhu.edu/actions
 ```
 
 A successful workflow should show a green check mark.
 
 If the workflow fails, click the workflow run to see the build and deployment logs.
 
-### 10.6 Your GitHub Pages Website
+### 10.6 View the GitHub Pages Website
 
 After a successful deployment, your fork should be available at:
 
 ```text
-https:/sande125.github.io/www.ccb.jhu.edu/
+https://sande125.github.io/www.ccb.jhu.edu/
 ```
 
 > [!IMPORTANT]
