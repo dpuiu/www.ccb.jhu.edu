@@ -311,12 +311,14 @@ To build the website using a different theme (e.g., Furo):
 make html html_theme=furo
 ```
 
-### 6.3 Start a Local Web Server
+### 6.3 Start a Local Web Server on a free Port
 
 Serve the generated website directly from `_build/pydata_sphinx_theme`:
 
 ```bash
-python -m http.server 8000 --bind 127.0.0.1 -d _build/pydata_sphinx_theme/
+netstat -tulnp 2>/dev/null | grep :8000         # should be empty
+python -m http.server 8000 --bind 127.0.0.1 \
+  -d _build/pydata_sphinx_theme/
 ```
 
 Open the website in a browser:
