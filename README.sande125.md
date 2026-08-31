@@ -122,7 +122,7 @@ echo $GITHUB_USERNAME
 If you have not cloned the repository before:
 
 ```bash
-git clone https://github.com/sande125/www.ccb.jhu.edu.git
+git clone https://github.comsande125/www.ccb.jhu.edu.git
 cd www.ccb.jhu.edu
 ```
 
@@ -311,12 +311,14 @@ To build the website using a different theme (e.g., Furo):
 make html html_theme=furo
 ```
 
-### 6.3 Start a Local Web Server
+### 6.3 Start a Local Web Server on a free Port
 
 Serve the generated website directly from `_build/pydata_sphinx_theme`:
 
 ```bash
-python -m http.server 8000 --bind 127.0.0.1 -d _build/pydata_sphinx_theme/
+netstat -tulnp 2>/dev/null | grep :8000         # should be empty
+python -m http.server 8000 --bind 127.0.0.1 \
+  -d _build/pydata_sphinx_theme/
 ```
 
 Open the website in a browser:
@@ -728,7 +730,7 @@ However, **GitHub Actions and GitHub Pages may not be enabled or configured auto
 Open the **Actions** tab of your fork:
 
 ```text
-https://github.com/sande125/www.ccb.jhu.edu/actions
+https://github.comsande125/www.ccb.jhu.edu/actions
 ```
 
 If GitHub displays a message indicating that workflows are disabled, click **Enable workflow**.
@@ -738,7 +740,7 @@ If GitHub displays a message indicating that workflows are disabled, click **Ena
 Open the **Settings** tab of your fork and select **Actions/General**:
 
 ```text
-https://github.com/sande125/www.ccb.jhu.edu/settings/actions
+https://github.comsande125/www.ccb.jhu.edu/settings/actions
 ```
 
 Workflow permissions: click "Read and write permissions"
@@ -748,7 +750,7 @@ Workflow permissions: click "Read and write permissions"
 Open the **Settings** tab  of your fork and select **Pages**:
 
 ```text
-https://github.com/sande125/www.ccb.jhu.edu/settings/pages
+https://github.comsande125/www.ccb.jhu.edu/settings/pages
 ```
 
 Under **Build and deployment**, set:
@@ -764,12 +766,12 @@ GitHub Actions may also require permission to write to the repository or deploy 
 After enabling Actions and configuring GitHub Pages, go to:
 
 ```text
-https://github.com/sande125/www.ccb.jhu.edu/actions
+https://github.comsande125/www.ccb.jhu.edu/actions
 ```
 
-Select the deployment workflow and click **Run workflow** if manual execution is available.
+Select **Build and Deplow Shinx** and click **Run workflow** if manual execution is available.
 
-You can also trigger the workflow by pushing a change to the branch configured in `.github/workflows/deploy.yml`.
+You can also trigger the workflow by pushing a changes `.github/workflows/deploy.yml`.
 
 For example:
 
@@ -786,7 +788,7 @@ GitHub Actions will then build the website and, if the workflow and Pages settin
 You can monitor workflow runs at:
 
 ```text
-https://github.com/sande125/www.ccb.jhu.edu/actions
+https://github.comsande125/www.ccb.jhu.edu/actions
 ```
 
 A successful workflow should show a green check mark.
@@ -798,7 +800,7 @@ If the workflow fails, click the workflow run to see the build and deployment lo
 After a successful deployment, your fork should be available at:
 
 ```text
-https://sande125.github.io/www.ccb.jhu.edu/
+https:/sande125.github.io/www.ccb.jhu.edu/
 ```
 
 > [!IMPORTANT]
@@ -808,12 +810,16 @@ https://sande125.github.io/www.ccb.jhu.edu/
 > Make sure that the website builds successfully and our changes look correct in the local website.
 ---
 
+To bookmark the website from the GitHub forked repository web page:  
+Locate the `About` section on the right side of the main page, 
+click the gear icon, and check the box for `Use your GitHub Pages website` under the Website section.
+
 ## 11. Submit a Pull Request
 
 Go to your GitHub repository:
 
 ```text
-https://github.com/sande125/www.ccb.jhu.edu
+https://github.comsande125/www.ccb.jhu.edu
 ```
 
 You should see a message similar to:

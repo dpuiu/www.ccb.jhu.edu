@@ -311,12 +311,14 @@ To build the website using a different theme (e.g., Furo):
 make html html_theme=furo
 ```
 
-### 6.3 Start a Local Web Server
+### 6.3 Start a Local Web Server on a free Port
 
 Serve the generated website directly from `_build/pydata_sphinx_theme`:
 
 ```bash
-python -m http.server 8000 --bind 127.0.0.1 -d _build/pydata_sphinx_theme/
+netstat -tulnp 2>/dev/null | grep :8000         # should be empty
+python -m http.server 8000 --bind 127.0.0.1 \
+  -d _build/pydata_sphinx_theme/
 ```
 
 Open the website in a browser:
@@ -767,9 +769,9 @@ After enabling Actions and configuring GitHub Pages, go to:
 https://github.com/dpuiu0/www.ccb.jhu.edu/actions
 ```
 
-Select the deployment workflow and click **Run workflow** if manual execution is available.
+Select **Build and Deplow Shinx** and click **Run workflow** if manual execution is available.
 
-You can also trigger the workflow by pushing a change to the branch configured in `.github/workflows/deploy.yml`.
+You can also trigger the workflow by pushing a changes `.github/workflows/deploy.yml`.
 
 For example:
 
@@ -807,6 +809,10 @@ https://dpuiu0.github.io/www.ccb.jhu.edu/
 > Only changes merged into the main CCB repository are deployed to the official website.
 > Make sure that the website builds successfully and our changes look correct in the local website.
 ---
+
+To bookmark the website from the GitHub forked repository web page:  
+Locate the `About` section on the right side of the main page, 
+click the gear icon, and check the box for `Use your GitHub Pages website` under the Website section.
 
 ## 11. Submit a Pull Request
 
