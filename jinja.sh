@@ -33,13 +33,13 @@ check-jsonschema --schemafile  _software/software.schema.json  _software/other-t
 check-jsonschema --schemafile  _software/software.schema.json  _software/variant-analysis.yaml
 
 mkdir -p software/
-jinja2 _templates/software.jinja _software/alignment.yaml       	-D title="Alignment" -D label="alignment"  > software/alignment.md
-jinja2 _templates/software.jinja _software/gene-finding.yaml       	-D title="Computational Gene Finding" -D label="gene-finding" > software/gene-finding.md
-jinja2 _templates/software.jinja _software/genome-assembly.yaml       	-D title="Genome Assembly" -D label="genome-assembly" > software/genome-assembly.md
-jinja2 _templates/software.jinja _software/metagenomics.yaml       	-D title="Metagenomics" -D label="metagenomics" > software/metagenomics.md
-jinja2 _templates/software.jinja _software/other-tools.yaml       	-D title="Other Sequence Analysis Tools" -D label="other-tools" > software/other-tools.md
-jinja2 _templates/software.jinja _software/transcriptome-assembly.yaml  -D title="Transcriptome Assembly" -D label="transcriptome-assembly" > software/transcriptome-assembly.md
-jinja2 _templates/software.jinja _software/variant-analysis.yaml       	-D title="Variant Analysis Tools" -D label="variant-analysis" > software/variant-analysis.md
+jinja2 _templates/software.jinja _software/alignment.yaml       	-D title="Alignment" -D label="alignment"  | uniq > software/alignment.md
+jinja2 _templates/software.jinja _software/gene-finding.yaml       	-D title="Computational Gene Finding" -D label="gene-finding" | uniq > software/gene-finding.md
+jinja2 _templates/software.jinja _software/genome-assembly.yaml       	-D title="Genome Assembly" -D label="genome-assembly"  | uniq > software/genome-assembly.md
+jinja2 _templates/software.jinja _software/metagenomics.yaml       	-D title="Metagenomics" -D label="metagenomics" | uniq > software/metagenomics.md
+jinja2 _templates/software.jinja _software/other-tools.yaml       	-D title="Other Sequence Analysis Tools" -D label="other-tools" | uniq > software/other-tools.md
+jinja2 _templates/software.jinja _software/transcriptome-assembly.yaml  -D title="Transcriptome Assembly" -D label="transcriptome-assembly" | uniq > software/transcriptome-assembly.md
+jinja2 _templates/software.jinja _software/variant-analysis.yaml       	-D title="Variant Analysis Tools" -D label="variant-analysis" | uniq > software/variant-analysis.md
 
 
 ### software (all)
@@ -56,5 +56,6 @@ check-jsonschema --schemafile  _data/data.schema.json  _data/data.yaml
 check-jsonschema --schemafile  _data/data.schema.json  _data/eupathdb.yaml
 
 mkdir -p data/
-jinja2 _templates/data.jinja _data/data.yaml     -D title="Web Servers and Databases" 	-D label="web" 		> data/data.md
-jinja2 _templates/data.jinja _data/eupathdb.yaml -D title="EuPathDB" 			-D label="eupathdb" 	> data/eupathdb.md
+jinja2 _templates/data.jinja _data/data.yaml     -D title="Web Servers and Databases" 	-D label="web" 		| uniq > data/data.md
+jinja2 _templates/data.jinja _data/eupathdb.yaml -D title="EuPathDB" 			-D label="eupathdb" 	| uniq > data/eupathdb.md
+ 

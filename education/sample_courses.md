@@ -10,7 +10,7 @@ departments. Many of these courses count towards the Ph.D. programs in BME, CS, 
 
 ```{dropdown} Department of Biomedical Engineering, Whiting School of Engineering
 
-The Johns Hopkins {{bme}} (BME), widely regarded as the top program of its kind in the world and 
+The Johns Hopkins {{ bme }} (BME), widely regarded as the top program of its kind in the world and 
 [ranked #1 in the nation by U.S. News](https://www.usnews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings){:rel="nofollow"}
 , is dedicated to solving important
 scientific problems at the intersection of multiple disciplines and that have
@@ -30,7 +30,7 @@ with the students in Hopkins' highly-ranked M.D. program.
 
 ```{dropdown} Department of Computer Science, Whiting School of Engineering
 
-{{cs}} at Johns Hopkins University
+{{ cs }} at Johns Hopkins University
 is a diverse, collaborative, and intensely research-focused
 department. In 2015, the Department moved into a brand new, state-of-the-art
 research building, Malone Hall, designed around the needs of students and faculty. 
@@ -57,7 +57,7 @@ These may include any of the courses in the BME, Biostatistics, and Biology prog
 
 ```{dropdown} Department of Biostatistics, Bloomberg School of Public Health
 
-Johns Hopkins {{bsph}} is the oldest department of its kind in the world
+Johns Hopkins {{ bs }} is the oldest department of its kind in the world
 and has long been considered as one of the best. In 2022, it was
 [ranked #1 in the nation by U.S. News](https://www.usnews.com/best-graduate-schools/top-science-schools/biostatistics-rankings?_sort=rank-asc){:rel="nofollow"}.
 

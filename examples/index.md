@@ -19,8 +19,8 @@ orphan: true
 
 ## Substritution
 
-{{CCB}}\
-{{ccb}}
+{{ CCB }}\
+{{ ccb }}
 
 ## Basic Markdown
 
@@ -75,11 +75,11 @@ MyST supports footnotes.[^1]
 
 Inline math:
 
-$E = mc^2$
+<!--$E = mc^2$-->
 
 Display math:
 
-$$ \\int\_{0}^{1} x^2 dx = \\frac{1}{3} $$
+<!--$$ \\int\_{0}^{1} x^2 dx = \\frac{1}{3} $$-->
 
 ## Code Blocks
 
@@ -159,15 +159,15 @@ Term 2 : Definition of term 2
 ```{grid} 1 1 3 3
 
 :::{grid-item-card}
-{{ccb}}
+{{ ccb }}
 :::
 
 :::{grid-item-card}
-{{wse}}
+{{ wse }}
 :::
 
 :::{grid-item-card}
-{{jhu}}
+{{ jhu }}
 :::
 
 ```
@@ -178,12 +178,12 @@ Term 2 : Definition of term 2
 
 :::{grid-item-card}
 :columns: 12 12 4 4
-{{ccb}}
+{{ ccb }}
 :::
 
 :::{grid-item-card}
 :columns: 12 12 8 8
-{{wse}}
+{{ wse }}
 :::
 
 ```
@@ -193,28 +193,31 @@ Term 2 : Definition of term 2
 ```{tab-set}
 
 :::{tab-item} CCB
-{{CCB}}
+{{ CCB }}
 :::
 
 :::{tab-item} WSE
-{{WSE}}
+{{ WSE }}
 :::
 
 :::{tab-item} JHU
-{{JHU}}
+{{ JHU }}
 :::
 
 ```
 
 ## Mermaid Diagrams
 
+<!--
 ```{mermaid}
 graph TD
     JHU[JHU] --> WSE[WSE] --> CCB[CCB]
 ```
+-->
 
 ## Bootstrap carousel
 
+<!--
 ```{raw} html
 
 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -236,6 +239,7 @@ graph TD
 
 </div>
 ```
+-->
 
 # Bibliography test
 

@@ -7,7 +7,7 @@ people:
     affiliations:
       - bme
       - cs
-      - bsph
+      - bs
     homepage: https://salzberg-lab.org
     email: salzberg@jhu.edu
 
@@ -102,7 +102,7 @@ people:
       - Professor
     affiliations:
       - dgm
-      - bsph
+      - bs
       - sph
     homepage: https://www.hansenlab.org
     email: kasperdanielhansen@gmail.com
@@ -114,7 +114,7 @@ people:
     affiliations:
       - bme
       - wse
-      - bsph
+      - bs
       - sph
       - mc
       - Center for Imaging Science
@@ -126,7 +126,7 @@ people:
     titles:
       - Professor
     affiliations:
-      - bsph
+      - bs
       - sph
     homepage: https://jilab.org
     email: hji@jhsph.edu
@@ -229,7 +229,7 @@ people:
     titles:
       - Associate Scientist
     affiliations:
-      - bsph
+      - bs
       - sph
     homepage: https://www.biostat.jhsph.edu/~mtaub/About.html
     email: mtaub@jhsph.edu

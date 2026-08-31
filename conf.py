@@ -29,18 +29,18 @@ extensions = [
     "myst_parser",
 
     # Sphinx extensions
-    "sphinx.ext.autodoc",
+    # "sphinx.ext.autodoc",
     "sphinx.ext.githubpages",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.napoleon",
-    "sphinx.ext.viewcode",
+    #"sphinx.ext.mathjax",
+    #"sphinx.ext.napoleon",
+    #"sphinx.ext.viewcode",
 
     # Third-party extensions
     "sphinx_design",
     "sphinx_reredirects",
     "sphinx_sitemap",
     "sphinx_copybutton",
-    "sphinxcontrib.mermaid",
+    #"sphinxcontrib.mermaid",
     "sphinxcontrib.bibtex",
 ]
 
@@ -61,10 +61,11 @@ bibtex_bibfiles = [
 
 myst_enable_extensions = [
     "colon_fence",
-    "dollarmath",
-    "amsmath",
+#    "dollarmath",
+#    "amsmath",
     "substitution",
     "attrs_inline",
+    "attrs_block",
     "html_admonition",
     "html_image",
 ]
@@ -78,8 +79,8 @@ myst_substitutions = {
     "bme": "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
     "BME": "[BME](https://www.bme.jhu.edu/)",
 
-    "bsph": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
-    "BSPH": "[BSPH](https://publichealth.jhu.edu/departments/biostatistics)",
+    "bs": "[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)",
+    "BS": "[BS](https://publichealth.jhu.edu/departments/biostatistics)",
 
     "cardio": "[Department of Medicine, Division of Cardiology](https://www.hopkinsmedicine.org/heart-vascular-institute/cardiology)",
 
@@ -201,7 +202,6 @@ html_js_files = [
 
 html_search = True
 html_search_language = "en"
-
 html_use_index = True
 html_permalinks = True
 

@@ -9,7 +9,7 @@
 
 {{ d.description }}
 
-**Categories:** {{ d.category | join(", ") }}  
+{#**Categories:** {{ d.category | join(", ") }}  #}
 {% if d.pmcid -%}
 **Publication:** [{{ d.pmcid }}](https://pmc.ncbi.nlm.nih.gov/articles/{{ d.pmcid }}/)
 {% endif %}

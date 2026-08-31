@@ -15,5 +15,5 @@ Administrative Coordinator, Center for Computational Biology
 ```
 
 For a visitor map of the Johns Hopkins Homewood Campus, please see the
-[Homewood Campus](../_static/maps/homewood_campus_map.pdf) visitor map.
+[Homewood Campus](https://www.jhu.edu/assets/uploads/2025/10/Digital-and-Kiosk-Campus-Map-Update-Rev.pdf) visitor map.
 CCB is located on the second floor of the Wyman Park Building.

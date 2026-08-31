@@ -6,7 +6,7 @@
 The Computational Biology Consulting Core (CBCC) was created to offer
 state-of-the-art computational biology services to biomedical researchers at the
 Johns Hopkins University. The Core is under the direction of
-{ref}`liliana-florea`. It builds on the expertise of faculty in the {{ccb}}, using
+{ref}`liliana-florea`. It builds on the expertise of faculty in the {{ ccb }}, using
 best practices and the latest validated technologies to design solutions
 targeted to researchers' needs.
 
@@ -70,7 +70,7 @@ Associate Professor
 McKusick-Nathans Institute of Genetic Medicine  
 Johns Hopkins University School of Medicine  
 
-**Address**: Welch Medical Library, Room 113 [1900 E. Monument St., Baltimore, MD 21205](https://www.google.com/maps/place/1900+E+Monument+Street+Baltimore+MD+21205)  
+**Address**: [Welch Medical Library, Room 113, 1900 E. Monument St., Baltimore, MD 21205](https://www.google.com/maps/place/1900+E+Monument+Street+Baltimore+MD+21205)  
 **Telephone**: <a href="tel:+14432875624">(443)287-5624</a>  
 **Email**: [florea@jhu.edu](mailto:florea@jhu.edu)  
 ```

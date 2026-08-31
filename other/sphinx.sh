@@ -1009,3 +1009,48 @@ yq -y -s '{software: [.[].software[]]}' *.yaml  | grep -- '- id:' |wc -l # 79
 
 yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
  yq -y '{software: [.software[] | select(.category | contains(["genome-assembly"]))]}' _software/all.yaml > _software/genome-assembly.yaml1
+
+####
+
+#reduce image size
+identify _static/images/campus2-top.webp 
+_static/images/campus2-top.webp WEBP 3963x1039 3963x1039+0+0 8-bit sRGB 844790B 0.000u 0:00.000
+
+convert _static/images/campus2-top.webp \
+  -resize 1600x \
+  _static/images/campus2-top-small.webp
+
+
+ll _static/images/campus2*
+-rw-rw-r-- 1 dpuiu dpuiu 2274511 Aug 15 08:50 _static/images/campus2.jpeg
+-rw-rw-r-- 1 dpuiu dpuiu  844790 Aug 15 08:50 _static/images/campus2-top.webp
+-rw-rw-r-- 1 dpuiu dpuiu  213276 Aug 28 10:41 _static/images/campus2-top-small.webp
+
+mv _static/images/campus2-top-small.webp _static/images/campus2-top.webp
+
+cwebp  ~/Downloads/campus2-top.webp       -o ~/Downloads/campus2-top-cwebp.webp	
+
+###########
+
+https://www.jhu.edu/assets/uploads/2025/10/Digital-and-Kiosk-Campus-Map-Update-Rev.pdf
+https://www.hopkinsmedicine.org/-/media/jhm/documents/location-maps/jhh-campus-map-english.pdf
+
+
+cat _software/all.yaml | yq -y '.software |= map(select(.status != "older" and (.category | contains(["genome-assembly"])))  )' _software/all.yaml
+cat _software/all.yaml | yq -y '.software |= map(select(.status != "older" )  )' 
+cat _software/all.yaml | yq -y '.software |= map(select(.category | contains(["genome-assembly"]))  )' 
+cat _software/all.yaml | yq -y '.software |= map(select(.status != "older" )  )' | yq -y '.software |= map(select(.category | contains(["genome-assembly"]))  )'
+
+########
+
+#add section numbers
+grep ^# README.md
+pip install markdown-heading-numbering --break-system-packages
+markdown-heading-numbering  README.md
+
+#add toc
+doctoc README.md 
+
+#####
+
+ git status | egrep -v 'dele|\ssoft|\sdata|\speo' | more

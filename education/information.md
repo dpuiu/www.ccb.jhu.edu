@@ -8,7 +8,7 @@ Hopkins. You must apply to the Ph.D. programs through the Department websites
 given below
 ```
 
-The Ph.D. programs in Computational Biology at {{jhu}} span four Departments and
+The Ph.D. programs in Computational Biology at {{ jhu }} span four Departments and
 a wide range of research topics. Our programs provide interdisciplinary training
 in computational and quantitative approaches to scientific problems that include
 questions in genomics, medicine, genome engineering, sequencing technology,
@@ -35,7 +35,7 @@ Ph.D. programs. These include
 Hopkins is also ranked #4 in the nation in Bioinformatics, a ranking that just
 started appearing in 2022.
 
-{{CCB}} faculty have appointments in each of these programs, and some of us maintain
+{{ CCB }} faculty have appointments in each of these programs, and some of us maintain
 appointments in multiple programs. To determine which program fits your
 interests and background, browse the course lists below. Each program has a
 separate application process; please apply specifically to the departments

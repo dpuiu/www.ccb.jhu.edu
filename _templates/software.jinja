@@ -10,6 +10,7 @@
 {{ s.description }}
 
 **Categories:** {{ s.category | join(", ") }}  
+**Status:** {{ s.status }}  
 {% if s.pmcid -%}
 **Publication:** [{{ s.pmcid }}](https://pmc.ncbi.nlm.nih.gov/articles/{{ s.pmcid }}/)
 {% endif %}

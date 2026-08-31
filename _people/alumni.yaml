@@ -1,7 +1,5 @@
 people:
-
-  # Former Faculty
-
+    # Former Faculty
   - id: rafael-irizarry
     name: Rafael Irizarry, Ph.D.
     homepage: https://rafalab.dfci.harvard.edu/
@@ -13,9 +11,7 @@ people:
       - "Harvard University"
     email: rafa@jhu.edu
 
-
   # Former Postdocs
-
   - id: christopher-pockrandt
     name: Christopher Pockrandt, Ph.D.
     labs:
@@ -102,9 +98,7 @@ people:
       - "[Rice University](https://profiles.rice.edu/faculty/todd-treangen)"
     email: treangen@gmail.com
 
-
-  # Former Students
-
+    # Former Students
   - id: alaina-shumate
     name: Alaina Shumate, Ph.D.
     titles:
