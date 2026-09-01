@@ -167,6 +167,8 @@ people:
 
   - id: ida-shinder
     name: Ida Shinder
+    labs:
+      - "steven-l-salzberg @ JHU (until 2025)"
     email: ishinde1@jhmi.edu
 
   - id: jakob-heinz
