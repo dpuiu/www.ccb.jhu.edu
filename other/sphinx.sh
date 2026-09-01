@@ -645,8 +645,8 @@ pip install rst-to-myst --break-system-packages
 #pandoc -f html -t myst
 
 ########
-cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g'   > README.dpuiu0.md
-cat README.md | sed 's|\$GITHUB_USERNAME|sande125|g' > README.sande125.md
+#cat README.md | sed 's|\$GITHUB_USERNAME|dpuiu0|g'   > README.dpuiu0.md
+#cat README.md | sed 's|\$GITHUB_USERNAME|sande125|g' > README.sande125.md
 
 git add README.*md ; git commit -m "multiple updates"; git push
 
@@ -835,8 +835,8 @@ jinja2 _templates/people/people.jinja people/staff.yaml   -D title="Staff" > peo
 
 ####
 
-cat README.md | sed 's|\/\$GITHUB_USERNAME|\/dpuiu0|g'  > README.dpuiu0.md
-cat README.md | sed 's|\/\$GITHUB_USERNAME|sande125|g' > README.sande125.md
+cat README.md | sed 's|\/\$GITHUB_USERNAME|\/dpuiu0|g'   > README.dpuiu0.md
+cat README.md | sed 's|\/\$GITHUB_USERNAME|\/sande125|g' > README.sande125.md
 
 yq '.'  _people/faculty.yaml  > /dev/null
 yq . .github/workflows/deploy.yml  > /dev/null
@@ -1053,4 +1053,6 @@ doctoc README.md
 
 #####
 
- git status | egrep -v 'dele|\ssoft|\sdata|\speo' | more
+git status | egrep -v 'dele|\ssoft|\sdata|\speo' | more
+
+# to check meta and rss
