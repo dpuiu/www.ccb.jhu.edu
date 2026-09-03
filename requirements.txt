@@ -12,3 +12,5 @@ sphinxcontrib-bibtex
 jinja2-cli[yaml]
 check-jsonschema
 yq
+mathplotlib
+sphinx-plotly-directive

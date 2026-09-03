@@ -211,7 +211,7 @@ Term 2 : Definition of term 2
 <!--
 ```{mermaid}
 graph TD
-    JHU[JHU] --> WSE[WSE] --> CCB[CCB]
+    JHU[JHU] - -> WSE[WSE] - -> CCB[CCB]
 ```
 -->
 
@@ -241,7 +241,7 @@ graph TD
 ```
 -->
 
-# Bibliography test
+## Bibliography test
 
 <!--
 {cite}`PMC2690996`  
@@ -250,3 +250,23 @@ graph TD
 :all:
 ```	
 -->
+
+## Test Plot
+
+```{plot}
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [1, 4, 9, 16]
+
+plt.plot(x, y)
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.title("My Plot")
+```
+
+:::{plot}
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
+:::

@@ -42,6 +42,7 @@ extensions = [
     "sphinx_copybutton",
     #"sphinxcontrib.mermaid",
     "sphinxcontrib.bibtex",
+    "sphinx_plotly_directive",
 ]
 
 
@@ -333,3 +334,6 @@ redirects = {
     "T2T": "/data/data.html#T2T",
     "data/eupathDB/index": "/data/data.html#eupathDB",
 }
+
+#plot_formats = ['svg']
+#plot_rcparams = {    "figure.figsize": (8, 5),}
