@@ -163,9 +163,7 @@ myst_substitutions = {
 # Templates
 # =============================================================================
 
-templates_path = [
-    "_templates",
-]
+templates_path = [    "_templates",]
 
 
 # =============================================================================
@@ -182,9 +180,7 @@ html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 html_logo = "_static/logos/ccb_w_text_transparent_for_dark.webp"
 html_favicon = "_static/favicon.ico"
 
-html_static_path = [
-    "_static",
-]
+html_static_path = [    "_static",]
 
 html_extra_path = [
     "_static/.nojekyll",
@@ -197,9 +193,7 @@ html_css_files = [
     "custom.css",
 ]
 
-html_js_files = [
-    "custom.js",
-]
+html_js_files = [    "custom.js",]
 
 html_search = True
 html_search_language = "en"
@@ -243,7 +237,7 @@ html_theme_options = {
     # "announcement": "Welcome 2026 Summer Interns!!!",
 
     "show_prev_next": False,
-    "sticky_banners": True,
+    # "sticky_banners": True,
 
     "article_footer_items": [
         "last-updated",

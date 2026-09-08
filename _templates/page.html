@@ -1,36 +1,23 @@
 {% extends "!page.html" %}
 
-{% block header %}                
-<!--div style="display:flex;justify-content:space-between;align-items:center;background:#002D72;color:white;padding:0px;"
-<div class="site-header">
-	<div>
-		<a href="https://ccb.jhu.edu/" alt="CCB"><img src="{{ pathto('_static/logos/CCB.webp', 1) }}" alt="CCB"></a>
-	</div>
+{% block docs_navbar %}
+    {{ super() }}
 
-	<div>
-		<a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.webp', 1) }}"  alt="WSE"></a>
-	</div>
-</div-->
-{% endblock %}
+    {% if pagename == "index" %}
+    <div class="hero-banner">
+        <img src="{{ pathto('_static/images/campus2-top.webp', 1) }}" alt="Hero banner">
+
+        <div class="hero-text">
+          <b>JOHNS HOPKINS UNIVERSITY</b><br>
+          Center for Computational Biology
+        </div>
+
+    </div>
+    {% endif %}
+{% endblock docs_navbar %}
+
 
 {% block footer %}
-<!--div class="site-footer">
-        <div>
-                <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="{{ pathto('_static/logos/SOM.webp', 1) }}" alt="SOM"></a>
-        </div>
-        <div>
-		<div style="text-align: center;color: yellow;">The Center for Computational Biology at Johns Hopkins University</div>
-		<div style="text-align: center;">
-			<a href="{{ pathto('index.html',1) }}" alt="Home">Home</a>
-                        <a href="{{ PUB }}" alt="Publications">Publications</a>
-                        <a href="{{ pathto('about/contact.html', 1) }}" alt="Contact Us">Contact Us</a>
-                </div>
-	</div>
-        <div>
-                <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="{{ pathto('_static/logos/BSPH.webp', 1) }}"  alt="BSPH"></a>
-        </div>
-</div-->
-
 <div class="site-footer">
         <div>
                 <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="{{ pathto('_static/logos/SOM.logos.rgb_horizontal.white.webp', 1) }}" alt="SOM" width="250"></a>
@@ -38,13 +25,4 @@
                 <a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.logo.rgb_horizontal.white.webp', 1) }}"  alt="WSE" width="250"></a>                
         </div>
 </div>
-<!--
-       	<div> 		
-		<span>Johns Hopkins University<br>Center for Computational Biology<br>3400 N Charles St<br>Wyman Park Building, Suite S200<br>Baltimore, MD 21218</span>
-	        <span>ABOUT<br>DATA</span>
-                <span>PEOPLE<br>EDUCATION</span>
-                <span>SOFTWARE<br>CONSULTING CORE</span>
-        </div>
-
-</div-->
-{% endblock %}
+{% endblock footer %}

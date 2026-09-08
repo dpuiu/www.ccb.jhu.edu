@@ -15,37 +15,9 @@ EDUCATION <education/index>
 CONSULTING CORE <cbcc/index>
 ```
 
-::::{grid} 1
-
-:::{grid-item}
-
-<div class="hero-image">
-  <img src="_static/images/campus2-top.webp"
-       alt="Center for Computational Biology">
-
-  <div class="hero-text">
-    <b>JOHNS HOPKINS UNIVERSITY</b><br>
-    Center for Computational Biology
-  </div>
-</div>
-
-:::
-
-::::
-
 ---
-(ccb)=
-# The Center for Computational Biology (CCB)
 
-::::{grid} 1
-
-:::{grid-item}
-
-**A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences**
-
-:::
-
-::::
+## A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences
 
 ---
 
