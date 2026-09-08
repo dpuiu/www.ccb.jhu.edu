@@ -13,7 +13,7 @@
   - [6. Build the Website Locally](#6-build-the-website-locally)
     - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
     - [6.2 Build the Website](#62-build-the-website)
-    - [6.3 Start a Local Web Server](#63-start-a-local-web-server)
+    - [6.3 View the Website](#63-view-the-website)
   - [7. Edit Website Content](#7-edit-website-content)
     - [7.1 Explore the Website Structure](#71-explore-the-website-structure)
     - [7.2 Add a Markdown Page](#72-add-a-markdown-page)
@@ -87,7 +87,7 @@ If you already have a fork, open your forked repository and click **Sync fork** 
 
 ## 2. Install the Required Tools
 
-Open a terminal and check that Python, Git, and the GitHub CLI are available:
+Open a Linux terminal and check that Python, Git, and the GitHub CLI are available:
 
 ```bash
 python --version
@@ -311,23 +311,13 @@ To build the website using a different theme (e.g., Furo):
 make html html_theme=furo
 ```
 
-### 6.3 Start a Local Web Server on a free Port
+### 6.3 View the Website
 
-Serve the generated website directly from `_build/pydata_sphinx_theme`:
+Open the main index page in your web browser:
 
 ```bash
-netstat -tulnp 2>/dev/null | grep :8000         # should be empty
-python -m http.server 8000 --bind 127.0.0.1 \
-  -d _build/pydata_sphinx_theme/
+xdg-open _build/pydata_sphinx_theme/index.html
 ```
-
-Open the website in a browser:
-
-```text
-http://127.0.0.1:8000/
-```
-
-Keep the server running while you make changes. After rebuilding the website, refresh the browser to see the updated pages.
 
 ---
 
@@ -590,6 +580,21 @@ yq '.people[].name' _people/faculty.yaml | head -n 3
 ...
 ```
 
+Example: get Faculty publication query
+```bash
+{
+    echo '    "PUB": ('
+    echo '        "https://pmc.ncbi.nlm.nih.gov/search/?"'
+    echo '        "term="'
+    yq -r '.people[].name' _people/faculty.yaml |
+        cut -d',' -f1 |
+        sed 's/ /+/g; s/$/%5Bau%5D+OR+/' |
+        sed '$ s/+OR+$//' |
+        sed 's/^/        "/; s/$/"/'
+    echo '    ),'
+} 
+```
+
 Example: sort records and fields
 ```bash
 yq -y '.people |= sort_by(.id)' _people/faculty.yaml
@@ -705,10 +710,11 @@ Push the changes to your GitHub fork:
 git push
 ```
 
-To undo changes:
+Undoing Changes:
 
-- **Not pushed:** `git reset`
-- **Already pushed:** `git revert`
+* **Uncommitted changes:** `git restore <file>`
+* **Committed but not pushed:** `git reset HEAD~1`
+* **Already pushed:** `git revert <commit>`
 
 ---
 
