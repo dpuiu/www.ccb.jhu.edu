@@ -503,6 +503,8 @@ check-jsonschema \
     _people/faculty.yaml
 ```
 
+### 7.5 Convert YAML to Markdown
+
 Generate the corresponding Markdown page using the Jinja2 template:
 
 ```bash
@@ -568,9 +570,19 @@ myst_substitutions = {
 
 YAML provides advantages such as validation, reformatting, sorting, filtering, and easy management of structured data.
 
-Example: extract names
+To convert all YAML files to Markdown, simply run:
+
 ```bash
-yq '.people[].name' _people/faculty.yaml | head -n 3
+./jinja.sh
+```
+
+
+### 7.6 YAML Examples
+
+#### Extract Faculty names
+
+```bash
+yq '.people[].name' _people/faculty.yaml
 ```
 
 ```text
@@ -580,7 +592,42 @@ yq '.people[].name' _people/faculty.yaml | head -n 3
 ...
 ```
 
-Example: get Faculty publication query
+#### Sort Faculty by id
+
+```bash
+yq -y '.people |= sort_by(.id)' _people/faculty.yaml
+```
+
+#### Filter Faculty id, name and email 
+
+Generate either YAML or CSV output
+
+```bash
+yq -y '.people   |= map({id, name, email})'       _people/faculty.yaml 
+yq -r '.people[] | [.id, .name, .email]  | @csv ' _people/faculty.yaml
+```
+
+#### Nerge all Software
+
+```bash
+rm -f _software/all.yaml
+yq -y -s '{software: [.[].software[]]}' _software/*.yaml  > _software/all.yaml
+```
+
+#### Filter older Software
+
+```bash
+yq -y '.software |= map(select(.status == "older" ))' _software/all.yaml  > _software/older.yaml
+```
+
+#### Filter genome-assembly Software 
+
+```bash
+yq -y '.software |= map(select(.category | contains(["genome-assembly"])))' _software/all.yaml  
+```
+
+#### Get Faculty publication query
+
 ```bash
 {
     echo '    "PUB": ('
@@ -594,28 +641,6 @@ Example: get Faculty publication query
     echo '    ),'
 } 
 ```
-
-Example: sort records and fields
-```bash
-yq -y '.people |= sort_by(.id)' _people/faculty.yaml
-yq -y '.people |= map({id, name, titles, affiliations, departments, labs})' _people/faculty.yaml 
-```
-
-Example: merge and filter records
-```bash
-
-yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
-
-cat _software/all.yaml | \
-  yq -y '.software |= map(select(.status != "older" )  )' | \
-  yq -y '.software |= map(select(.category | contains(["genome-assembly"]))  )' 
-```
-
-To convert all YAML files to Markdown, simply run:
-```bash
-./jinja.sh
-```
-
 
 ### 7.5 Edit Templates
 

@@ -8,12 +8,14 @@
 ======================================================================*/
 
 :root {
+    /* CCB colors */
     --ccb-blue: #002d72;
     --ccb-light-blue: #68ace5;
-    --ccb-white: 
+
+    /* Other site colors */
+    --ccb-white: #ffffff;
     --search-yellow: #ffeb3b;
     --table-gray: #d6d8da;
-    --white: #ffffff;
 }
 
 
@@ -21,6 +23,7 @@
   2. BASE
 ======================================================================*/
 
+/* Default page font and line spacing */
 body {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
@@ -31,34 +34,33 @@ body {
   3. HEADER / NAVBAR
 ======================================================================*/
 
-/* Main navbar */
+/* Main navigation bar */
 .navbar {
     background-color: var(--ccb-blue) !important;
 }
 
-/* Header navigation links */
+/* Navigation links */
 .bd-header .nav-item .nav-link {
     color: var(--ccb-light-blue) !important;
     font-weight: 700;
 }
 
-/* Separators between navigation items */
+/* Add separators between navigation links */
 .bd-header .nav-item:not(:last-child) .nav-link::after {
     content: " |";
-    color: white;
+    color: var(--ccb-white);
     margin-left: 10px;
-    white-space: nowrap;
 }
 
-/* Navbar logo */
+/* Enlarge the navbar logo */
 .bd-header .navbar-brand img {
     transform: scale(1.5);
 }
 
-/* Header announcement */
+/* Announcement bar */
 .bd-header-announcement {
     background-color: var(--ccb-light-blue) !important;
-    color: var(--white) !important;
+    color: var(--ccb-white) !important;
 }
 
 /* Announcement text */
@@ -72,20 +74,20 @@ body {
   4. SITE HEADER / FOOTER
 ======================================================================*/
 
-/* Site header */
+/* Additional site header */
 .site-header {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
 
     background-color: var(--ccb-blue) !important;
-    color: var(--white) !important;
+    color: var(--ccb-white) !important;
 
-    padding: 10px 20px !important;
-    margin-top: 2rem !important;
+    /*padding: 10px 20px !important;
+    margin-top: 2rem !important;*/
 }
 
-
+/* Footer container */
 .site-footer {
     display: flex !important;
     flex-direction: column !important;
@@ -93,12 +95,13 @@ body {
     width: 100% !important;
 
     background-color: var(--ccb-blue);
-    color: var(--white);
+    color: var(--ccb-white);
 
-    padding: 10px 20px;
-    margin-top: 2rem;
+    /*padding: 10px 20px;
+    margin-top: 2rem;*/
 }
 
+/* Footer top row */
 .site-footer > div:first-child {
     display: flex;
     justify-content: center;
@@ -108,6 +111,7 @@ body {
     flex-wrap: wrap;
 }
 
+/* Footer bottom row */
 .site-footer > div:nth-child(2) {
     display: flex;
     justify-content: center;
@@ -120,37 +124,24 @@ body {
     line-height: 1.25;
 }
 
+/* Footer text */
 .site-footer > div:nth-child(2) > span {
     display: block;
     text-align: left;
 }
 
-/*======================================================================
-  5. SEARCH
-======================================================================*/
-
-/* Highlight search matches */
-mark,
-.highlighted,
-.search li em,
-span.highlight {
-    background-color: var(--search-yellow) !important;
-    color: var(--white) !important;
-
-    padding: 2px 3px;
-    border-radius: 3px;
+.site-footer img {
+    width: clamp(80px, 25vw, 200px);
+    height: auto;
 }
 
-
 /*======================================================================
-  6. CONTENT WIDTH
+  5. CONTENT
 ======================================================================*/
 
 /*
-  Remove PyData's default content width restrictions.
-  This allows full-width content and hero images.
+   Remove PyData's default content width restrictions.
 */
-
 .bd-main,
 .bd-content,
 .bd-article-container,
@@ -159,24 +150,18 @@ span.highlight {
     max-width: none !important;
 }
 
-.bd-main,
-.bd-content,
-.bd-article-container,
-.bd-article {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-
 /*======================================================================
-  7. CONTENT / HEADINGS
+  6. TYPOGRAPHY
 ======================================================================*/
 
+/* Subtitle */
 .subtitle {
-    font-size: 1.25rem;
+    /*font-size: 1.25rem;*/
+    font-size: clamp(0.8rem, 2vw, 1.25rem);
     font-weight: bold;
 }
 
+/* Heading sizes 
 .bd-content h1 {
     font-size: 1.85rem;
 }
@@ -192,8 +177,9 @@ span.highlight {
 .bd-content h4 {
     font-size: 1.1rem;
 }
+*/
 
-/* Justify text on large screens */
+/* Justify paragraphs on large screens */
 @media (min-width: 1200px) {
     .bd-content p {
         text-align: justify;
@@ -202,143 +188,111 @@ span.highlight {
 
 
 /*======================================================================
-  8. SIDEBAR
+  7. SEARCH
 ======================================================================*/
 
-/*
-.bd-sidebar-secondary {
-    display: none;
+/* Highlight matching search terms */
+mark,
+.highlighted,
+.search li em,
+span.highlight {
+    background-color: var(--search-yellow) !important;
+    color: var(--ccb-white) !important;
+
+    padding: 2px 3px;
+    border-radius: 3px;
 }
-*/
 
 
 /*======================================================================
-  9. TABLES
+  8. TABLES
 ======================================================================*/
 
-/* Alternate row colors */
-table.docutils tbody tr:nth-child(even) {
-    background-color: var(--table-gray);
-}
-
-/* Table alignment */
+/* Table layout and alignment */
 table.docutils {
     margin-inline: 0 auto !important;
     text-align: left;
 }
 
+/* Align table content to the top-left */
 table.docutils th,
-table.docutils td {
-    text-align: left;
+table.docutils td,
+.responsive-table th,
+.responsive-table td {
+    text-align: left !important;
     vertical-align: top;
 }
 
-
-/*======================================================================
-  10. CARDS
-======================================================================*/
-
-.sd-card-text,
-.sd-card-text p {
-    font-size: 0.9rem !important;
+/* Alternate row background color */
+table.docutils tbody tr:nth-child(even) {
+    background-color: var(--table-gray);
 }
 
 
 /*======================================================================
-  11. HERO IMAGE
+  9. CARDS
 ======================================================================*/
 
+/* Reduce text size inside cards */
+.sd-card-text,
+.sd-card-text p {
+    /*font-size: 0.9rem !important;*/
+    font-size: clamp(0.7rem, 2vw, 0.9rem);
+}
 
-.hero-banner  {
+
+/*======================================================================
+  10. HERO
+======================================================================*/
+
+/* Hero image container */
+.hero-banner {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
+/* Hero image */
 .hero-banner img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-/*
-.hero-banner {
-    width: 100%;
-    margin: 0 0 2rem 0;
-}
-
-.hero-banner img {
-    display: block;
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-*/
-
-
-/* Text overlay */
+/* Text displayed over the hero image */
 .hero-text {
     position: absolute;
 
     top: 30%;
     left: 5%;
-
     width: 60%;
-    max-width: 60%;
 
     box-sizing: border-box;
 
-    color: white;
+    color: var(--ccb-white);
     font-size: clamp(0.8rem, 3vw, 2rem);
     line-height: 1.2;
-
     text-align: left;
-    white-space: normal;
 
+    /* Prevent long words from overflowing */
     overflow-wrap: break-word;
-    word-wrap: break-word;
 
+    /* Semi-transparent CCB blue background */
     background: rgba(0, 45, 114, 0.5);
 
+    /* CCB-style accent borders */
     border-left: 3px solid #fdb515;
     border-bottom: 3px solid #fdb515;
 
-    padding: 8px 16px;
+    /*padding: 8px 16px;*/
 
+    /* Improve readability over the image */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 
 /*======================================================================
-  12. MERMAID
-======================================================================*/
-
-.mermaid svg {
-    max-width: 400px;
-    height: auto;
-}
-
-
-/*======================================================================
-  13. CAROUSEL
-======================================================================*/
-
-/*
-.carousel {
-    width: 100%;
-    max-width: 720px;
-    margin-inline: auto;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    filter: invert(1);
-}
-*/
-
-
-/*======================================================================
-  14. RESPONSIVE DESIGN
+  11. RESPONSIVE DESIGN
 ======================================================================*/
 
 /*--------------------------------------------------
@@ -347,7 +301,7 @@ table.docutils td {
 
 @media (max-width: 1400px) {
 
-    /* Shorten site title */
+    /* Replace the full site title with "CCB" */
     .navbar-brand {
         font-size: 0;
     }
@@ -365,12 +319,17 @@ table.docutils td {
 
 @media (max-width: 768px) {
 
-    /* Hide elements marked for mobile */
+    /* Hide elements specifically marked for mobile */
     .hide-mobile {
         display: none !important;
     }
 
-    /* Hide columns 4 and 5 */
+    /* Make hero text wider on small screens */
+    .hero-text {
+        width: 80%;
+    }
+
+    /* Hide columns 4 and 5 in responsive tables */
     table.responsive-table th:nth-child(4),
     table.responsive-table td:nth-child(4),
     table.responsive-table th:nth-child(5),
@@ -379,18 +338,17 @@ table.docutils td {
     }
 }
 
-/*----*/
-.responsive-table th,
-.responsive-table td {
-    text-align: left !important;
-}
 
 /*======================================================================
-  END
+  12. MISCELLANEOUS
 ======================================================================*/
 
-
+/* Hide paragraphs containing links to Python source files */
 p:has(a[href$=".py"]) {
     display: none;
 }
 
+
+/*======================================================================
+  END
+======================================================================*/

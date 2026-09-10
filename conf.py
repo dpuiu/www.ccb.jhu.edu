@@ -29,18 +29,13 @@ extensions = [
     "myst_parser",
 
     # Sphinx extensions
-    # "sphinx.ext.autodoc",
     "sphinx.ext.githubpages",
-    #"sphinx.ext.mathjax",
-    #"sphinx.ext.napoleon",
-    #"sphinx.ext.viewcode",
 
     # Third-party extensions
     "sphinx_design",
     "sphinx_reredirects",
     "sphinx_sitemap",
     "sphinx_copybutton",
-    #"sphinxcontrib.mermaid",
     "sphinxcontrib.bibtex",
     "sphinx_plotly_directive",
 ]
@@ -62,8 +57,6 @@ bibtex_bibfiles = [
 
 myst_enable_extensions = [
     "colon_fence",
-#    "dollarmath",
-#    "amsmath",
     "substitution",
     "attrs_inline",
     "attrs_block",
@@ -328,6 +321,3 @@ redirects = {
     "T2T": "/data/data.html#T2T",
     "data/eupathDB/index": "/data/data.html#eupathDB",
 }
-
-#plot_formats = ['svg']
-#plot_rcparams = {    "figure.figsize": (8, 5),}

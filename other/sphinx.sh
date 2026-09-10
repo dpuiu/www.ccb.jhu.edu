@@ -1056,3 +1056,18 @@ doctoc README.md
 git status | egrep -v 'dele|\ssoft|\sdata|\speo' | more
 
 # to check meta and rss
+
+#######
+
+git show origin/main:conf.py
+
+mkdir OLD
+mv -i \
+#Makefile
+? _static/custom.css 
+#conf.py 
+#examples/index.md 
+#requirements.txt 
+
+
+yq -r '  .people[]  | [.name, .email]  | @csv ' _people/faculty.yaml

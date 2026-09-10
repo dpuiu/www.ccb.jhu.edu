@@ -1,6 +1,4 @@
 sphinx==9.1.0
-#furo
-#shibuya
 myst-parser
 sphinx-copybutton
 sphinx-design
@@ -8,9 +6,7 @@ pydata-sphinx-theme
 sphinx-sitemap
 sphinx-reredirects
 sphinxcontrib-bibtex
-#sphinxcontrib-mermaid
 jinja2-cli[yaml]
 check-jsonschema
 yq
-#mathplotlib
 sphinx-plotly-directive
