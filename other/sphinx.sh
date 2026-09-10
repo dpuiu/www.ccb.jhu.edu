@@ -1205,3 +1205,41 @@ grep url new.yaml
     url: https://github.com/haydenji0731/transigner
     url: https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit
 
+##########
+
+
+yq -r ' .software[].url' all.yaml  | sed 's|/wiki||' | sort | more | grep '\/$'
+
+
+yq -r ' .software[].url' all.yaml  | sed 's|/wiki||'  | grep github | perl -ane 'print "$1\n" if(/(.+)\//);' | sort | uniq -c
+      1 https://cole-trapnell-lab.github.io
+      2 https://daehwankimlab.github.io
+      1 https://github.com/agshumate
+      4 https://github.com/alekseyzimin
+      2 https://github.com/alevar
+      1 https://github.com/alguoo314
+      1 https://github.com/alyssafrazee
+      1 https://github.com/berilerdogdu
+      1 https://github.com/cpockrandt
+      3 https://github.com/DaehwanKimLab
+      1 https://github.com/DaehwanKimLab/tophat
+      2 https://github.com/davek44
+      2 https://github.com/DerrickWood
+      1 https://github.com/fbreitwieser
+      4 https://github.com/gpertea
+      1 https://github.com/haydenji0731
+      2 https://github.com/jenniferlu717
+      1 https://github.com/KarchinLab
+      1 https://github.com/Kuanhao-Chao
+      1 https://github.com/martin-steinegger
+      1 https://github.com/mummer4
+      1 https://github.com/rwilton
+     18 https://github.com/salzberg-lab
+      2 https://github.com/TMAGOC
+      1 https://salzberg-lab.github.io
+
+######
+
+gh repo list dpuiu   --json name |   in2csv -f json   | sort | perl -ane 'print "gh repo archive -y $_";' | grep -v test
+gh repo archive -y dpuiu/ASprofile
+...
