@@ -44,6 +44,8 @@ jinja2 _templates/software.jinja _software/variant-analysis.yaml       	-D title
 
 ### software (all)
 
+rm -f _software/all.yaml _software/new.yaml _software/current.yaml _software/archived.yaml
+
 yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
 check-jsonschema --schemafile  _software/software.schema.json  _software/all.yaml
 jinja2 _templates/software.jinja _software/all.yaml       -D title="All" -D label="software" > software/all.md
