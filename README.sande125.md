@@ -13,16 +13,26 @@
   - [6. Build the Website Locally](#6-build-the-website-locally)
     - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
     - [6.2 Build the Website](#62-build-the-website)
-    - [6.3 Start a Local Web Server](#63-start-a-local-web-server)
+    - [6.3 View the Website](#63-view-the-website)
   - [7. Edit Website Content](#7-edit-website-content)
     - [7.1 Explore the Website Structure](#71-explore-the-website-structure)
     - [7.2 Add a Markdown Page](#72-add-a-markdown-page)
     - [7.3 Edit a Markdown Page](#73-edit-a-markdown-page)
     - [7.4 Edit YAML Documents](#74-edit-yaml-documents)
-    - [7.5 Edit Templates](#75-edit-templates)
-    - [7.6 Edit the Sphinx Configuration](#76-edit-the-sphinx-configuration)
-    - [7.7 Edit CSS](#77-edit-css)
-    - [7.8 Edit JavaScript](#78-edit-javascript)
+    - [7.5 Convert YAML to Markdown](#75-convert-yaml-to-markdown)
+    - [7.6 YAML Examples](#76-yaml-examples)
+      - [7.6.1 Extract Faculty Names](#761-extract-faculty-names)
+      - [7.6.2 Count Faculty Members](#762-count-faculty-members)
+      - [7.6.3 Sort Faculty by ID](#763-sort-faculty-by-id)
+      - [7.6.4 Select Specific Fields](#764-select-specific-fields)
+      - [7.6.5 Convert to CSV](#765-convert-to-csv)
+      - [7.6.6 Merge YAML Files](#766-merge-yaml-files)
+      - [7.6.7 Filter Faculty](#767-filter-faculty)
+      - [7.6.8 Generate a Faculty Publication Query](#768-generate-a-faculty-publication-query)
+    - [7.7 Edit Templates](#77-edit-templates)
+    - [7.8 Edit the Sphinx Configuration](#78-edit-the-sphinx-configuration)
+    - [7.9 Edit CSS](#79-edit-css)
+    - [7.10 Edit JavaScript](#710-edit-javascript)
   - [8. Review Your Changes](#8-review-your-changes)
   - [9. Commit or Undo Your Changes](#9-commit-or-undo-your-changes)
   - [10. GitHub Actions and Deployment](#10-github-actions-and-deployment)
@@ -87,7 +97,7 @@ If you already have a fork, open your forked repository and click **Sync fork** 
 
 ## 2. Install the Required Tools
 
-Open a terminal and check that Python, Git, and the GitHub CLI are available:
+Open a Linux terminal and check that Python, Git, and the GitHub CLI are available:
 
 ```bash
 python --version
@@ -122,7 +132,7 @@ echo $GITHUB_USERNAME
 If you have not cloned the repository before:
 
 ```bash
-git clone https://github.comsande125/www.ccb.jhu.edu.git
+git clone https://github.com/sande125/www.ccb.jhu.edu.git
 cd www.ccb.jhu.edu
 ```
 
@@ -311,23 +321,13 @@ To build the website using a different theme (e.g., Furo):
 make html html_theme=furo
 ```
 
-### 6.3 Start a Local Web Server on a free Port
+### 6.3 View the Website
 
-Serve the generated website directly from `_build/pydata_sphinx_theme`:
+Open the main index page in your web browser:
 
 ```bash
-netstat -tulnp 2>/dev/null | grep :8000         # should be empty
-python -m http.server 8000 --bind 127.0.0.1 \
-  -d _build/pydata_sphinx_theme/
+xdg-open _build/pydata_sphinx_theme/index.html
 ```
-
-Open the website in a browser:
-
-```text
-http://127.0.0.1:8000/
-```
-
-Keep the server running while you make changes. After rebuilding the website, refresh the browser to see the updated pages.
 
 ---
 
@@ -500,6 +500,7 @@ people:
       - bsph
     homepage: https://salzberg-lab.org
     email: salzberg@jhu.edu
+    role: faculty
 ```
 
 > [!NOTE]
@@ -512,6 +513,8 @@ check-jsonschema \
     --schemafile _people/people.schema.json \
     _people/faculty.yaml
 ```
+
+### 7.5 Convert YAML to Markdown
 
 Generate the corresponding Markdown page using the Jinja2 template:
 
@@ -578,10 +581,24 @@ myst_substitutions = {
 
 YAML provides advantages such as validation, reformatting, sorting, filtering, and easy management of structured data.
 
-Example: extract names
+To convert all YAML files to Markdown, simply run:
+
 ```bash
-yq '.people[].name' _people/faculty.yaml | head -n 3
+./jinja.sh
 ```
+
+
+### 7.6 YAML Examples
+
+#### 7.6.1 Extract Faculty Names
+
+Extract the names of all faculty members:
+
+```bash
+yq '.people[].name' _people/faculty.yaml
+```
+
+Example output:
 
 ```text
 "Steven L. Salzberg, Ph.D."
@@ -590,29 +607,97 @@ yq '.people[].name' _people/faculty.yaml | head -n 3
 ...
 ```
 
-Example: sort records and fields
+#### 7.6.2 Count Faculty Members
+
+Count the number of faculty members:
+
+```bash
+yq '.people | length' _people/faculty.yaml
+```
+
+Example output:
+
+```text
+25
+```
+
+#### 7.6.3 Sort Faculty by ID
+
+Sort the `people` list by `id`:
+
 ```bash
 yq -y '.people |= sort_by(.id)' _people/faculty.yaml
-yq -y '.people |= map({id, name, titles, affiliations, departments, labs})' _people/faculty.yaml 
 ```
 
-Example: merge and filter records
+#### 7.6.4 Select Specific Fields
+
+Keep only the `id`, `name`, and `email` fields:
+
 ```bash
-
-yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
-
-cat _software/all.yaml | \
-  yq -y '.software |= map(select(.status != "older" )  )' | \
-  yq -y '.software |= map(select(.category | contains(["genome-assembly"]))  )' 
+yq -y '.people |= map({id, name, email})' _people/faculty.yaml
 ```
 
-To convert all YAML files to Markdown, simply run:
+This produces YAML output. The same data can also be converted to CSV.
+
+#### 7.6.5 Convert to CSV
+
+Using `yq` directly:
+
 ```bash
-./jinja.sh
+yq -r '.people[] | [.name, .email] | @csv' _people/faculty.yaml
 ```
 
+Or, convert the selected data to JSON first and then use `csvkit`:
 
-### 7.5 Edit Templates
+```bash
+yq -j '.people | map({name, email})' _people/faculty.yaml |
+    in2csv -f json
+```
+
+#### 7.6.6 Merge YAML Files
+
+Merge all YAML files in `_people/` into a single file:
+
+```bash
+rm -f _people/all.yaml
+yq -y -s '{people: [.[].people[]]}' _people/*.yaml > _people/all.yaml
+```
+
+The resulting `all.yaml` contains all entries under a single `people` key.
+
+#### 7.6.7 Filter Faculty
+
+Select only entries whose `role` is `faculty`:
+
+```bash
+yq -y '.people |= map(select(.role == "faculty"))' \
+    _people/all.yaml > _people/faculty.yaml
+```
+
+#### 7.6.8 Generate a Faculty Publication Query
+
+Generate a PubMed Central search query containing all faculty names:
+
+```bash
+{
+    echo '    "PUB": ('
+    echo '        "https://pmc.ncbi.nlm.nih.gov/search/?"'
+    echo '        "term="'
+
+    yq -r '.people[].name' _people/faculty.yaml |
+        cut -d',' -f1 |
+        sed 's/ /+/g; s/$/%5Bau%5D+OR+/' |
+        sed '$ s/+OR+$//' |
+        sed 's/^/        "/; s/$/"/'
+
+    echo '    ),'
+}
+```
+
+This extracts each faculty member's name, removes the academic credentials after the comma, URL-encodes spaces as `+`, and adds the PubMed Central `[au]` author field.
+
+
+### 7.7 Edit Templates
 
 Reusable page structures are implemented with **Jinja2 templates**:
 
@@ -624,7 +709,7 @@ _templates/people.jinja
 > [!IMPORTANT]
 > Templates should be modified when the structure or presentation of a group of generated pages needs to change.
 
-### 7.6 Edit the Sphinx Configuration
+### 7.8 Edit the Sphinx Configuration
 
 `conf.py` contains the main Sphinx configuration and controls how the website is generated.
 
@@ -646,7 +731,7 @@ Important settings include:
 
 Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
 
-### 7.7 Edit CSS
+### 7.9 Edit CSS
 
 Custom site styling is defined in:
 
@@ -656,7 +741,7 @@ _static/custom.css
 
 This file contains CSS classes and rules that customize the appearance of the selected Sphinx theme.
 
-### 7.8 Edit JavaScript
+### 7.10 Edit JavaScript
 
 Custom client-side behavior is defined in:
 
@@ -705,10 +790,11 @@ Push the changes to your GitHub fork:
 git push
 ```
 
-To undo changes:
+Undoing Changes:
 
-- **Not pushed:** `git reset`
-- **Already pushed:** `git revert`
+* **Uncommitted changes:** `git restore <file>`
+* **Committed but not pushed:** `git reset HEAD~1`
+* **Already pushed:** `git revert <commit>`
 
 ---
 
@@ -730,7 +816,7 @@ However, **GitHub Actions and GitHub Pages may not be enabled or configured auto
 Open the **Actions** tab of your fork:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions
+https://github.com/sande125/www.ccb.jhu.edu/actions
 ```
 
 If GitHub displays a message indicating that workflows are disabled, click **Enable workflow**.
@@ -740,7 +826,7 @@ If GitHub displays a message indicating that workflows are disabled, click **Ena
 Open the **Settings** tab of your fork and select **Actions/General**:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/settings/actions
+https://github.com/sande125/www.ccb.jhu.edu/settings/actions
 ```
 
 Workflow permissions: click "Read and write permissions"
@@ -750,7 +836,7 @@ Workflow permissions: click "Read and write permissions"
 Open the **Settings** tab  of your fork and select **Pages**:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/settings/pages
+https://github.com/sande125/www.ccb.jhu.edu/settings/pages
 ```
 
 Under **Build and deployment**, set:
@@ -766,7 +852,7 @@ GitHub Actions may also require permission to write to the repository or deploy 
 After enabling Actions and configuring GitHub Pages, go to:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions
+https://github.com/sande125/www.ccb.jhu.edu/actions
 ```
 
 Select **Build and Deplow Shinx** and click **Run workflow** if manual execution is available.
@@ -788,7 +874,7 @@ GitHub Actions will then build the website and, if the workflow and Pages settin
 You can monitor workflow runs at:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu/actions
+https://github.com/sande125/www.ccb.jhu.edu/actions
 ```
 
 A successful workflow should show a green check mark.
@@ -800,7 +886,7 @@ If the workflow fails, click the workflow run to see the build and deployment lo
 After a successful deployment, your fork should be available at:
 
 ```text
-https:/sande125.github.io/www.ccb.jhu.edu/
+https://sande125.github.io/www.ccb.jhu.edu/
 ```
 
 > [!IMPORTANT]
@@ -819,7 +905,7 @@ click the gear icon, and check the box for `Use your GitHub Pages website` under
 Go to your GitHub repository:
 
 ```text
-https://github.comsande125/www.ccb.jhu.edu
+https://github.com/sande125/www.ccb.jhu.edu
 ```
 
 You should see a message similar to:

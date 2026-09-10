@@ -19,10 +19,20 @@
     - [7.2 Add a Markdown Page](#72-add-a-markdown-page)
     - [7.3 Edit a Markdown Page](#73-edit-a-markdown-page)
     - [7.4 Edit YAML Documents](#74-edit-yaml-documents)
-    - [7.5 Edit Templates](#75-edit-templates)
-    - [7.6 Edit the Sphinx Configuration](#76-edit-the-sphinx-configuration)
-    - [7.7 Edit CSS](#77-edit-css)
-    - [7.8 Edit JavaScript](#78-edit-javascript)
+    - [7.5 Convert YAML to Markdown](#75-convert-yaml-to-markdown)
+    - [7.6 YAML Examples](#76-yaml-examples)
+      - [7.6.1 Extract Faculty Names](#761-extract-faculty-names)
+      - [7.6.2 Count Faculty Members](#762-count-faculty-members)
+      - [7.6.3 Sort Faculty by ID](#763-sort-faculty-by-id)
+      - [7.6.4 Select Specific Fields](#764-select-specific-fields)
+      - [7.6.5 Convert to CSV](#765-convert-to-csv)
+      - [7.6.6 Merge YAML Files](#766-merge-yaml-files)
+      - [7.6.7 Filter Faculty](#767-filter-faculty)
+      - [7.6.8 Generate a Faculty Publication Query](#768-generate-a-faculty-publication-query)
+    - [7.7 Edit Templates](#77-edit-templates)
+    - [7.8 Edit the Sphinx Configuration](#78-edit-the-sphinx-configuration)
+    - [7.9 Edit CSS](#79-edit-css)
+    - [7.10 Edit JavaScript](#710-edit-javascript)
   - [8. Review Your Changes](#8-review-your-changes)
   - [9. Commit or Undo Your Changes](#9-commit-or-undo-your-changes)
   - [10. GitHub Actions and Deployment](#10-github-actions-and-deployment)
@@ -490,6 +500,7 @@ people:
       - bsph
     homepage: https://salzberg-lab.org
     email: salzberg@jhu.edu
+    role: faculty
 ```
 
 > [!NOTE]
@@ -579,11 +590,15 @@ To convert all YAML files to Markdown, simply run:
 
 ### 7.6 YAML Examples
 
-#### Extract Faculty names
+#### 7.6.1 Extract Faculty Names
+
+Extract the names of all faculty members:
 
 ```bash
 yq '.people[].name' _people/faculty.yaml
 ```
+
+Example output:
 
 ```text
 "Steven L. Salzberg, Ph.D."
@@ -592,57 +607,97 @@ yq '.people[].name' _people/faculty.yaml
 ...
 ```
 
-#### Sort Faculty by id
+#### 7.6.2 Count Faculty Members
+
+Count the number of faculty members:
+
+```bash
+yq '.people | length' _people/faculty.yaml
+```
+
+Example output:
+
+```text
+25
+```
+
+#### 7.6.3 Sort Faculty by ID
+
+Sort the `people` list by `id`:
 
 ```bash
 yq -y '.people |= sort_by(.id)' _people/faculty.yaml
 ```
 
-#### Filter Faculty id, name and email 
+#### 7.6.4 Select Specific Fields
 
-Generate either YAML or CSV output
-
-```bash
-yq -y '.people   |= map({id, name, email})'       _people/faculty.yaml 
-yq -r '.people[] | [.id, .name, .email]  | @csv ' _people/faculty.yaml
-```
-
-#### Nerge all Software
+Keep only the `id`, `name`, and `email` fields:
 
 ```bash
-rm -f _software/all.yaml
-yq -y -s '{software: [.[].software[]]}' _software/*.yaml  > _software/all.yaml
+yq -y '.people |= map({id, name, email})' _people/faculty.yaml
 ```
 
-#### Filter older Software
+This produces YAML output. The same data can also be converted to CSV.
+
+#### 7.6.5 Convert to CSV
+
+Using `yq` directly:
 
 ```bash
-yq -y '.software |= map(select(.status == "older" ))' _software/all.yaml  > _software/older.yaml
+yq -r '.people[] | [.name, .email] | @csv' _people/faculty.yaml
 ```
 
-#### Filter genome-assembly Software 
+Or, convert the selected data to JSON first and then use `csvkit`:
 
 ```bash
-yq -y '.software |= map(select(.category | contains(["genome-assembly"])))' _software/all.yaml  
+yq -j '.people | map({name, email})' _people/faculty.yaml |
+    in2csv -f json
 ```
 
-#### Get Faculty publication query
+#### 7.6.6 Merge YAML Files
+
+Merge all YAML files in `_people/` into a single file:
+
+```bash
+rm -f _people/all.yaml
+yq -y -s '{people: [.[].people[]]}' _people/*.yaml > _people/all.yaml
+```
+
+The resulting `all.yaml` contains all entries under a single `people` key.
+
+#### 7.6.7 Filter Faculty
+
+Select only entries whose `role` is `faculty`:
+
+```bash
+yq -y '.people |= map(select(.role == "faculty"))' \
+    _people/all.yaml > _people/faculty.yaml
+```
+
+#### 7.6.8 Generate a Faculty Publication Query
+
+Generate a PubMed Central search query containing all faculty names:
 
 ```bash
 {
     echo '    "PUB": ('
     echo '        "https://pmc.ncbi.nlm.nih.gov/search/?"'
     echo '        "term="'
+
     yq -r '.people[].name' _people/faculty.yaml |
         cut -d',' -f1 |
         sed 's/ /+/g; s/$/%5Bau%5D+OR+/' |
         sed '$ s/+OR+$//' |
         sed 's/^/        "/; s/$/"/'
+
     echo '    ),'
-} 
+}
 ```
 
-### 7.5 Edit Templates
+This extracts each faculty member's name, removes the academic credentials after the comma, URL-encodes spaces as `+`, and adds the PubMed Central `[au]` author field.
+
+
+### 7.7 Edit Templates
 
 Reusable page structures are implemented with **Jinja2 templates**:
 
@@ -654,7 +709,7 @@ _templates/people.jinja
 > [!IMPORTANT]
 > Templates should be modified when the structure or presentation of a group of generated pages needs to change.
 
-### 7.6 Edit the Sphinx Configuration
+### 7.8 Edit the Sphinx Configuration
 
 `conf.py` contains the main Sphinx configuration and controls how the website is generated.
 
@@ -676,7 +731,7 @@ Important settings include:
 
 Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
 
-### 7.7 Edit CSS
+### 7.9 Edit CSS
 
 Custom site styling is defined in:
 
@@ -686,7 +741,7 @@ _static/custom.css
 
 This file contains CSS classes and rules that customize the appearance of the selected Sphinx theme.
 
-### 7.8 Edit JavaScript
+### 7.10 Edit JavaScript
 
 Custom client-side behavior is defined in:
 
