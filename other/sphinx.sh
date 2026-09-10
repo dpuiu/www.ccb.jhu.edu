@@ -1071,3 +1071,65 @@ mv -i \
 
 
 yq -r '  .people[]  | [.name, .email]  | @csv ' _people/faculty.yaml
+
+######
+
+# to check meta and rss
+
+#######
+
+git status
+
+# to check meta and rss
+find $(python -c "import pydata_sphinx_theme, os; print(os.path.dirname(pydata_sphinx_theme.__file__))")     -name "*.html"
+
+#######
+
+git restore --source=origin/main -- .
+
+########
+
+gh repo list salzberg-lab --limit 200 --json name,description,url,repositoryTopics | in2csv  -f json
+yq '.software' _software/alignment.yaml | in2csv  -f json | csvcut -c name
+
+#######
+
+yq -i -y '.people |= map(if has("role") then . else . + {role: "faculty"} end)' faculty.yaml 
+alumni.yaml
+collaborators.yaml
+faculty.yaml
+postdocs.yaml
+staff.yaml
+students.yaml
+
+yq -i -y '.people |= map(. + {role: "alumni"})' alumni.yaml
+yq -i -y '.people |= map(. + {role: "collaborators"})' collaborators.yaml
+yq -i -y '.people |= map(. + {role: "faculty"})'  faculty.yaml
+yq -i -y '.people |= map(. + {role: "postdocs"})' postdocs.yaml
+yq -i -y '.people |= map(. + {role: "staff"})'    staff.yaml
+yq -i -y '.people |= map(. + {role: "students"})' students.yaml
+
+##########
+YAML->JSON->CSV
+
+yq -j "." faculty.yaml  > faculty.json
+yq -y "." faculty.json  > faculty.yaml2
+yq -j '.people' faculty.yaml | in2csv  -f json
+
+ll /home/dpuiu/Documents/JHU/www.ccb.jhu.edu/.venv/bin/*q
+
+########
+
+#mikefarah/yq ; Go
+#sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 \  -O /usr/local/bin/yq
+#sudo chmod +x /usr/local/bin/yq
+
+#####
+
+yq '.people | map({id,name,titles: (.titles | join("; ")),affiliations: (.affiliations | join("; "))})' faculty.yaml > faculty2.yaml
+
+######
+
+#/home/dpuiu/sw/packages/gh-md-toc README.md
+npx doctoc README.md
+
