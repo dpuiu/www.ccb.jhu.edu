@@ -58,7 +58,7 @@ software:
 
   - id: transigner
     name: TranSigner
-    status: newer
+    status: new
     category:
       - transcriptome-assembly
     url: https://github.com/haydenji0731/transigner
@@ -68,7 +68,7 @@ software:
 
   - id: spit
     name: SPIT
-    status: newer
+    status: new
     category:
       - transcriptome-assembly
     url: https://github.com/berilerdogdu/SPIT
@@ -77,7 +77,7 @@ software:
 
   - id: phylocsf-plus-plus
     name: PhyloCSF++
-    status: newer
+    status: current
     category:
       - transcriptome-assembly
     url: https://github.com/cpockrandt/PhyloCSFpp
@@ -87,10 +87,10 @@ software:
 
   - id: cufflinks
     name: Cufflinks
-    status: older
+    status: archived
     category:
       - transcriptome-assembly
-    url: https://cole-trapnell-lab.github.io/cufflinks/
+    url: https://cole-trapnell-lab.github.io/cufflinks
     pmcid: PMC3334321
     description: 'A transcript assembler and abundance estimator for RNA-seq data.
       Cufflinks assembles transcripts from the alignments produced by TopHat, including
@@ -99,7 +99,7 @@ software:
 
   - id: ballgown
     name: Ballgown
-    status: older
+    status: archived
     category:
       - transcriptome-assembly
     url: https://github.com/alyssafrazee/ballgown
@@ -111,7 +111,7 @@ software:
 
   - id: edge-pro
     name: EDGE-pro
-    status: older
+    status: archived
     category:
       - transcriptome-assembly
     url: https://github.com/TMAGOC/edge-pro/wiki

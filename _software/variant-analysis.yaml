@@ -16,7 +16,7 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://www.cravat.us/
+    url: https://www.cravat.us
     pmcid: PMC3582272
     description: 'Cancer-related analysis of variants toolkit. Web tool for functional
       predictions and annotations of both somatic and germline variants.'
@@ -36,7 +36,7 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://ls-snp.icm.jhu.edu/
+    url: https://ls-snp.icm.jhu.edu
     pmcid: PMC6276889
     description: 'Web tool for structural annotations and visualizations of missense
       variants in dbSNP.'
@@ -46,7 +46,7 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://mupit.icm.jhu.edu/
+    url: https://mupit.icm.jhu.edu
     pmcid: PMC3797853
     description: 'Web tool for interactive structural annotations and visualizations
       of non-synonymous variation and mutations on proteins.'

@@ -1,7 +1,7 @@
 software:
   - id: bolotie
     name: Bolotie
-    status: newer
+    status: current
     category:
       - metagenomics
     url: https://github.com/salzberg-lab/bolotie
@@ -22,10 +22,10 @@ software:
 
   - id: kraken
     name: Kraken
-    status: older
+    status: archived
     category:
       - metagenomics
-    url: https://github.com/dpuiu/kraken/wiki
+    url: https://github.com/DerrickWood/kraken
     pmcid: PMC4053813
     description: 'Kraken is a very fast system for taxonomic classification of short
       or long DNA sequences from a microbiome or metagenomic sample. KrakenUniq is

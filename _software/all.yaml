@@ -1,10 +1,10 @@
 software:
   - id: amos
     name: AMOS Assembler project
-    status: older
+    status: archived
     category:
       - genome-assembly
-    url: https://amos.sourceforge.net/
+    url: https://amos.sourceforge.net
     pmcid: PMC3072823
     description: A set of tools, libraries, and freestanding genome assemblers, all
       open source. AMOS is an open consortium started at The Institute for Genomic
@@ -13,7 +13,7 @@ software:
       others.
   - id: amoscmp
     name: AMOScmp
-    status: older
+    status: archived
     category:
       - genome-assembly
     url: https://amos.sourceforge.net/docs/pipeline/AMOScmp.html
@@ -22,7 +22,7 @@ software:
       on which to assemble another, closely related species.
   - id: arioc
     name: Arioc
-    status: older
+    status: archived
     category:
       - alignment
     pmcid: PMC4358639
@@ -33,7 +33,7 @@ software:
       data processing.
   - id: autoeditor
     name: AutoEditor
-    status: older
+    status: archived
     category:
       - genome-assembly
     url: https://sourceforge.net/apps/mediawiki/amos/index.php?title=AutoEditor
@@ -43,7 +43,7 @@ software:
       AutoEditor corrects 80% of erroneous base calls, with an accuracy of 99.99%.
   - id: ballgown
     name: Ballgown
-    status: older
+    status: archived
     category:
       - transcriptome-assembly
     url: https://github.com/alyssafrazee/ballgown
@@ -54,7 +54,7 @@ software:
       Ballgown is written in R and is part of Bioconductor.
   - id: balrog
     name: Balrog
-    status: newer
+    status: current
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/Balrog
@@ -62,7 +62,7 @@ software:
     description: Balrog is a universal protein model for prokaryotic gene prediction.
   - id: bolotie
     name: Bolotie
-    status: newer
+    status: current
     category:
       - metagenomics
     url: https://github.com/salzberg-lab/bolotie
@@ -92,7 +92,7 @@ software:
       from DNA sequences in a metagenomics sample.
   - id: brca-gene-testing
     name: BRCA gene testing
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://github.com/salzberg-lab/BRCA-diagnostic/wiki
@@ -102,7 +102,7 @@ software:
       mutations in the BRCA1 and BRCA2 genes.
   - id: celera-assembler
     name: Celera Assembler
-    status: older
+    status: archived
     category:
       - genome-assembly
     url: https://wgs-assembler.sourceforge.net
@@ -146,7 +146,7 @@ software:
       authors and their roles in software development.
   - id: cloudburst
     name: CloudBurst
-    status: older
+    status: archived
     category:
       - alignment
     pmcid: PMC2682523
@@ -158,7 +158,7 @@ software:
       sensitive read mappings with any number of mutations or indels.
   - id: conterminator
     name: Conterminator
-    status: newer
+    status: current
     category:
       - other-tools
     url: https://github.com/martin-steinegger/conterminator
@@ -170,13 +170,13 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://www.cravat.us/
+    url: https://www.cravat.us
     pmcid: PMC3582272
     description: Cancer-related analysis of variants toolkit. Web tool for functional
       predictions and annotations of both somatic and germline variants.
   - id: crossbow
     name: Crossbow
-    status: older
+    status: archived
     category:
       - alignment
     pmcid: PMC3091327
@@ -189,10 +189,10 @@ software:
       a 40-node, 320-core cluster rented from Amazon's EC2 utility computing service.
   - id: cufflinks
     name: Cufflinks
-    status: older
+    status: archived
     category:
       - transcriptome-assembly
-    url: https://cole-trapnell-lab.github.io/cufflinks/
+    url: https://cole-trapnell-lab.github.io/cufflinks
     pmcid: PMC3334321
     description: A transcript assembler and abundance estimator for RNA-seq data.
       Cufflinks assembles transcripts from the alignments produced by TopHat, including
@@ -200,7 +200,7 @@ software:
       by Cole Trapnell and is supported by his lab at the University of Washington.
   - id: diamund
     name: Diamund
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://github.com/salzberg-lab/diamund/wiki
@@ -211,7 +211,7 @@ software:
       the reference genome.
   - id: dive
     name: DivE
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://github.com/salzberg-lab/dive/wiki
@@ -232,7 +232,7 @@ software:
       spliced alignments. The tool can process GTF, BED, and BAM files as input.
   - id: edge-pro
     name: EDGE-pro
-    status: older
+    status: archived
     category:
       - transcriptome-assembly
     url: https://github.com/TMAGOC/edge-pro/wiki
@@ -243,7 +243,7 @@ software:
       phenomenon in bacteria that is largely absent in eukaryotes.
   - id: elph
     name: ELPH
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://github.com/salzberg-lab/elph/wiki
@@ -252,16 +252,16 @@ software:
       sites, exon splicing enhancers, or regulatory sites.
   - id: enterix
     name: EnteriX
-    status: older
+    status: archived
     category:
       - other-tools
-    url: https://enterix.cbcb.umd.edu/
+    url: https://enterix.cbcb.umd.edu
     description: Web servers for displaying alignments and annotations of bacterial
       genomes.
     pmcid: PMC168958
   - id: eviann
     name: EviAnn
-    status: newer
+    status: new
     category:
       - gene-finding
     url: https://github.com/alekseyzimin/EviAnn_release
@@ -281,7 +281,7 @@ software:
       gene-based analysis methods simultaneously on the same data set.
   - id: flash
     name: FLASH
-    status: older
+    status: archived
     category:
       - genome-assembly
     url: https://github.com/TMAGOC/flash/wiki
@@ -291,7 +291,7 @@ software:
       Primarily designed to merge Illumina paired reads.
   - id: fqtrim
     name: fqtrim
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://github.com/gpertea/fqtrim/wiki
@@ -299,26 +299,26 @@ software:
       sequencing reads.
   - id: gage
     name: GAGE
-    status: older
+    status: archived
     category:
       - genome-assembly
-    url: https://gage.cbcb.umd.edu/
+    url: https://gage.cbcb.umd.edu
     pmcid: PMC3290791
     description: A realistic assessment of genome assembly software in a rapidly changing
       field of next-generation sequencing.
   - id: gage-b
     name: GAGE-B
-    status: older
+    status: archived
     category:
       - genome-assembly
-    url: https://salzberg-lab.github.io/GAGE_B/
+    url: https://salzberg-lab.github.io/GAGE_B
     pmcid: PMC3702249
     description: An evaluation of contiguity and accuracy of assemblies of bacterial
       organisms generated by some of the most commonly used genome assemblers. GAGE-B
       follows the standards set by GAGE.
   - id: genesplicer
     name: GeneSplicer
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/genesplicer/wiki
@@ -344,7 +344,7 @@ software:
     description: A program for filtering, converting, and manipulating GFF files.
   - id: glimmer
     name: Glimmer
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/glimmer/wiki
@@ -354,7 +354,7 @@ software:
       and viral genomes. Current version is 3.02.
   - id: glimmer-mg
     name: Glimmer-MG
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/davek44/Glimmer-MG
@@ -364,7 +364,7 @@ software:
       metagenomics data, and the now-outdated Phymm system for phylogenetic labeling.
   - id: glimmerhmm
     name: GlimmerHMM
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/glimmerhmm/wiki
@@ -390,7 +390,7 @@ software:
     category:
       - alignment
     pmcid: PMC7605509
-    url: https://daehwankimlab.github.io/hisat-genotype/
+    url: https://daehwankimlab.github.io/hisat-genotype
     description: HISAT-genotype is a next-generation platform that enables rapid and
       accurate genomic analysis of our genomes using next-generation sequencing data
       on a desktop within a few hours. The platform currently supports HLA typing,
@@ -403,7 +403,7 @@ software:
     category:
       - alignment
     pmcid: PMC7605509
-    url: https://daehwankimlab.github.io/hisat2/
+    url: https://daehwankimlab.github.io/hisat2
     description: HISAT2 is a new, rapid and accurate system for aligning NGS reads
       (both DNA and RNA) against a population of genomes. HISAT2 is a successor to
       both HISAT and TopHat2. HISAT2 extends the Burrows-Wheeler transform (BWT) and
@@ -411,7 +411,7 @@ software:
       into the reference genome. HISAT2 is currently maintained at https://kim-lab.org/.
   - id: jasper
     name: JASPER
-    status: newer
+    status: new
     category:
       - genome-assembly
     url: https://github.com/alguoo314/JASPER
@@ -420,7 +420,7 @@ software:
       of genome assemblies.
   - id: jigsaw
     name: JIGSAW
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/jigsaw/wiki
@@ -430,10 +430,10 @@ software:
       alignment data.
   - id: kraken
     name: Kraken
-    status: older
+    status: archived
     category:
       - metagenomics
-    url: https://github.com/dpuiu/kraken/wiki
+    url: https://github.com/DerrickWood/kraken
     pmcid: PMC4053813
     description: Kraken is a very fast system for taxonomic classification of short
       or long DNA sequences from a microbiome or metagenomic sample. KrakenUniq is
@@ -475,7 +475,7 @@ software:
       through Bioconda at https://anaconda.org/bioconda/krakenuniq.
   - id: liftoff
     name: Liftoff
-    status: newer
+    status: current
     category:
       - gene-finding
     url: https://github.com/agshumate/Liftoff
@@ -484,10 +484,10 @@ software:
       assemblies.
   - id: lifton
     name: LiftOn
-    status: newer
+    status: new
     category:
       - gene-finding
-    url: https://khchao.com/LiftOn/
+    url: https://khchao.com/LiftOn
     pmcid: PMC11874971
     description: LiftOn combines DNA and protein alignments to improve genome annotation.
   - id: ls-snp-pdb
@@ -495,7 +495,7 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://ls-snp.icm.jhu.edu/
+    url: https://ls-snp.icm.jhu.edu
     pmcid: PMC6276889
     description: Web tool for structural annotations and visualizations of missense
       variants in dbSNP.
@@ -512,7 +512,7 @@ software:
       and long reads (PacBio/Oxford Nanopore).
   - id: minimus
     name: MINIMUS
-    status: older
+    status: archived
     category:
       - genome-assembly
     url: https://amos.sourceforge.net/wiki/index.php/Minimus
@@ -533,10 +533,10 @@ software:
       with the release of MUMmer4 in 2017.
   - id: mummergpu
     name: MUMmerGPU
-    status: older
+    status: archived
     category:
       - genome-assembly
-    url: https://mummergpu.sourceforge.net/
+    url: https://mummergpu.sourceforge.net
     pmcid: PMC2222658
     description: An early attempt to use GPUs for alignment. MUMmerGPU uses a technique
       called general-purpose GPU programming (GPGPU programming) to harness the extreme
@@ -546,13 +546,13 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://mupit.icm.jhu.edu/
+    url: https://mupit.icm.jhu.edu
     pmcid: PMC3797853
     description: Web tool for interactive structural annotations and visualizations
       of non-synonymous variation and mutations on proteins.
   - id: oc1
     name: OC1
-    status: older
+    status: archived
     category:
       - other-tools
     description: The OC1 decision tree system
@@ -560,16 +560,16 @@ software:
     doi: 10.48550/arXiv.cs/9408103
   - id: openspliceai
     name: OpenSpliceAI
-    status: newer
+    status: new
     category:
       - other-tools
-    url: https://khchao.com/OpenSpliceAI/
+    url: https://khchao.com/OpenSpliceAI
     pmcid: PMC12575001
     description: OpenSpliceAI provides an efficient modular implementation of SpliceAI,
       enabling easy retraining across nonhuman species.
   - id: orfanage
     name: ORFanage
-    status: newer
+    status: current
     category:
       - gene-finding
     url: https://github.com/alevar/ORFanage
@@ -586,15 +586,15 @@ software:
       results, with a special focus on infectious disease diagnosis.
   - id: pebls
     name: PEBLS
-    status: older
+    status: archived
     category:
       - other-tools
     description: 'PEBLS: Parallel Exemplar-Based Learning System'
-    url: https://github.com/salzberg-lab/pebls/
+    url: https://github.com/salzberg-lab/pebls
     doi: 10.1023/A:1022664626993
   - id: phylocsf-plus-plus
     name: PhyloCSF++
-    status: newer
+    status: current
     category:
       - transcriptome-assembly
     url: https://github.com/cpockrandt/PhyloCSFpp
@@ -603,7 +603,7 @@ software:
       with annotation tools.
   - id: phymmbl
     name: PhymmBL
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://github.com/salzberg-lab/phymmbl/wiki
@@ -623,7 +623,7 @@ software:
       toolkit.
   - id: psauron
     name: PSAURON
-    status: newer
+    status: new
     category:
       - other-tools
     url: https://github.com/salzberg-lab/PSAURON
@@ -632,7 +632,7 @@ software:
       of species.
   - id: quake
     name: Quake
-    status: older
+    status: archived
     category:
       - genome-assembly
     url: https://github.com/davek44/Quake/wiki
@@ -641,10 +641,10 @@ software:
       errors in WGS data sets with deep coverage.
   - id: repeatfinder
     name: RepeatFinder
-    status: older
+    status: archived
     category:
       - other-tools
-    url: https://github.com/salzberg-lab/RepeatFinder/
+    url: https://github.com/salzberg-lab/RepeatFinder
     pmcid: PMC55324
     description: An older system for finding and characterizing repetitive sequences
       in complete and partial genomes.
@@ -661,7 +661,7 @@ software:
       assemblies by incorporating long-range sequencing information.
   - id: scimm
     name: SCIMM
-    status: older
+    status: archived
     category:
       - other-tools
     url: https://www.cbcb.umd.edu/software/scimm
@@ -670,7 +670,7 @@ software:
       interpolated Markov models.
   - id: spit
     name: SPIT
-    status: newer
+    status: new
     category:
       - transcriptome-assembly
     url: https://github.com/berilerdogdu/SPIT
@@ -678,10 +678,10 @@ software:
     description: SPIT detects differential transcript usage in complex diseases.
   - id: splam
     name: Splam
-    status: newer
+    status: new
     category:
       - other-tools
-    url: https://khchao.com/splam/
+    url: https://khchao.com/splam
     pmcid: PMC11406845
     description: Splam is a deep-learning-based splice site predictor that improves
       spliced alignments.
@@ -710,7 +710,7 @@ software:
       of groups within large sequencing datasets.
   - id: tophat
     name: TopHat
-    status: older
+    status: archived
     category:
       - alignment
     pmcid: PMC2672628
@@ -723,7 +723,7 @@ software:
       as an option.
   - id: tophat-fusion
     name: TopHat-Fusion
-    status: older
+    status: archived
     category:
       - alignment
     pmcid: PMC3245612
@@ -733,7 +733,7 @@ software:
       of two different chromosomes, or from rearrangements within a chromosome.
   - id: transigner
     name: TranSigner
-    status: newer
+    status: new
     category:
       - transcriptome-assembly
     url: https://github.com/haydenji0731/transigner
@@ -742,7 +742,7 @@ software:
       accurate assignment of long RNA sequencing reads.
   - id: wheeler-graph-toolkit
     name: Wheeler Graph Toolkit (WGT)
-    status: newer
+    status: new
     category:
       - other-tools
     url: https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit

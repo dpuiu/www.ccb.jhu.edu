@@ -27,9 +27,9 @@
           "status": {
             "type": "string",
             "enum": [
+              "archived",
               "current",
-              "older",
-              "newer"
+              "new"
             ]
           },
           "category": {

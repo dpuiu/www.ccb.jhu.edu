@@ -1,7 +1,7 @@
 software:
   - id: eviann
     name: EviAnn
-    status: newer
+    status: new
     category:
       - gene-finding
     url: https://github.com/alekseyzimin/EviAnn_release
@@ -13,17 +13,17 @@ software:
 
   - id: lifton
     name: LiftOn
-    status: newer
+    status: new
     category:
       - gene-finding
 #   url: https://github.com/Kuanhao-Chao/LiftOn
-    url: https://khchao.com/LiftOn/
+    url: https://khchao.com/LiftOn
     pmcid: PMC11874971
     description: 'LiftOn combines DNA and protein alignments to improve genome annotation.'
 
   - id: liftoff
     name: Liftoff
-    status: newer
+    status: current
     category:
       - gene-finding
     url: https://github.com/agshumate/Liftoff
@@ -33,7 +33,7 @@ software:
 
   - id: balrog
     name: Balrog
-    status: newer
+    status: current
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/Balrog
@@ -42,7 +42,7 @@ software:
 
   - id: orfanage
     name: ORFanage
-    status: newer
+    status: current
     category:
       - gene-finding
     url: https://github.com/alevar/ORFanage
@@ -51,7 +51,7 @@ software:
 
   - id: glimmer
     name: Glimmer
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/glimmer/wiki
@@ -62,7 +62,7 @@ software:
 
   - id: glimmerhmm
     name: GlimmerHMM
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/glimmerhmm/wiki
@@ -72,7 +72,7 @@ software:
 
   - id: glimmer-mg
     name: Glimmer-MG
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/davek44/Glimmer-MG
@@ -83,7 +83,7 @@ software:
 
   - id: genesplicer
     name: GeneSplicer
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/genesplicer/wiki
@@ -93,7 +93,7 @@ software:
 
   - id: jigsaw
     name: JIGSAW
-    status: older
+    status: archived
     category:
       - gene-finding
     url: https://github.com/salzberg-lab/jigsaw/wiki
