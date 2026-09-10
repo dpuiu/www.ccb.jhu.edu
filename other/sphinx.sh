@@ -1133,3 +1133,75 @@ yq '.people | map({id,name,titles: (.titles | join("; ")),affiliations: (.affili
 #/home/dpuiu/sw/packages/gh-md-toc README.md
 npx doctoc README.md
 
+########
+
+sed -i 's|status: older|status: archived|g' * 
+########
+
+yq -y '.software |= map(select(.status == "archived"))' all.yaml  > archived.yaml
+
+#######
+
+gh repo list salzberg-lab   --json name,description,url,isArchived,repositoryTopics |   in2csv -f json |   egrep -i 'description|brca'
+description,isArchived,name,repositoryTopics,url
+,True,BRCA-diagnostic,,https://github.com/salzberg-lab/BRCA-diagnostic
+
+##########
+
+gh repo archive salzberg-lab/BRCA-diagnostic --yes
+
+
+
+#######
+
+yq -y '.software |= map(select(.status == "archived"))' all.yaml > archived.yaml
+yq -y '.software |= map(select(.status == "new"))' all.yaml  > new.yaml
+yq -y '.software |= map(select(.status == "current"))' all.yaml  > current.yaml
+
+cat archived.yaml  | grep salz
+  url: https://github.com/salzberg-lab/BRCA-diagnostic/wiki
+  ...
+
+gh repo archive salzberg-lab/BRCA-diagnostic --yes
+...
+
+cat archived.yaml  | grep '\/salzberg-lab\/' | sed 's|\/wiki||' | sed 's|  url: https://github.com/|gh repo archive -y |'
+  gh repo archive -y salzberg-lab/BRCA-diagnostic
+  gh repo archive -y salzberg-lab/diamund
+  gh repo archive -y salzberg-lab/dive
+  gh repo archive -y salzberg-lab/elph
+  gh repo archive -y salzberg-lab/genesplicer
+  gh repo archive -y salzberg-lab/glimmer
+  gh repo archive -y salzberg-lab/glimmerhmm
+  gh repo archive -y salzberg-lab/jigsaw
+  gh repo archive -y salzberg-lab/oc1
+  gh repo archive -y salzberg-lab/pebls/
+  gh repo archive -y salzberg-lab/phymmbl
+  gh repo archive -y salzberg-lab/RepeatFinder/
+
+gh repo archive -y salzberg-lab/GAGE_B
+gh repo archive -y salzberg-lab/bos_taurus_assembly
+gh repo archive -y salzberg-lab/autoeditor
+gh repo archive -y salzberg-lab/glimmerm
+gh repo archive -y salzberg-lab/edge-pro
+gh repo archive -y salzberg-lab/flash
+
+######
+
+grep url new.yaml 
+#    url: https://github.com/salzberg-lab/Balrog
+#    url: https://github.com/salzberg-lab/bolotie
+#    url: https://github.com/martin-steinegger/conterminator
+    url: https://github.com/alekseyzimin/EviAnn_release
+    url: https://github.com/alguoo314/JASPER
+    url: https://github.com/agshumate/Liftoff
+#    url: https://khchao.com/LiftOn/
+    url: https://khchao.com/OpenSpliceAI/
+#    url: https://github.com/alevar/ORFanage
+#    url: https://github.com/cpockrandt/PhyloCSFpp
+    url: https://github.com/salzberg-lab/PSAURON
+    url: https://github.com/berilerdogdu/SPIT
+    url: https://khchao.com/splam/
+    url: https://github.com/haydenji0731/transigner
+    url: https://github.com/Kuanhao-Chao/Wheeler_Graph_Toolkit
+
