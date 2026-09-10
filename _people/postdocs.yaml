@@ -9,7 +9,7 @@ people:
       - bme
       - wse
     email: chall106@jh.edu
-
+    role: postdocs
   - id: harun-mustafa
     name: Harun Mustafa, Ph.D.
     titles:
@@ -20,7 +20,7 @@ people:
       - bme
       - wse
     email: hmustaf6@jh.edu
-
+    role: postdocs
   - id: srujan-singh
     name: Srujan Singh, Ph.D.
     titles:
@@ -31,3 +31,4 @@ people:
       - bme
       - wse
     email: ssingh95@jhu.edu
+    role: postdocs

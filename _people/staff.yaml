@@ -7,7 +7,7 @@ people:
       - bme
       - wse
     email: rkeener@jhmi.edu
-
+    role: staff
   - id: daniela-puiu
     name: Daniela Puiu, M.S.
     titles:
@@ -16,7 +16,7 @@ people:
       - bme
       - wse
     email: dpuiu@jhu.edu
-
+    role: staff
   - id: sarah-bailey
     name: Sarah Bailey
     titles:
@@ -25,3 +25,4 @@ people:
       - bme
       - wse
     email: sande125@jhu.edu
+    role: staff

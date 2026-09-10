@@ -2,7 +2,8 @@ people:
   - id: steven-l-salzberg
     name: Steven L. Salzberg, Ph.D.
     titles:
-      - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics
+      - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science,
+        and Biostatistics
       - Director, Center for Computational Biology
     affiliations:
       - bme
@@ -10,7 +11,7 @@ people:
       - bs
     homepage: https://salzberg-lab.org
     email: salzberg@jhu.edu
-
+    role: faculty
   - id: dan-arking
     name: Dan Arking, Ph.D.
     titles:
@@ -21,7 +22,7 @@ people:
       - som
     homepage: https://github.com/TMAGOC/edge-pro/wiki
     email: arking@jhmi.edu
-
+    role: faculty
   - id: joel-bader
     name: Joel Bader, Ph.D.
     titles:
@@ -30,7 +31,7 @@ people:
       - bme
     homepage: https://www.baderzone.org
     email: joel.bader@jhu.edu
-
+    role: faculty
   - id: alexis-battle
     name: Alexis Battle, Ph.D.
     titles:
@@ -43,7 +44,7 @@ people:
       - dgm
     homepage: https://battlelab.jhu.edu
     email: ajbattle@jhu.edu
-
+    role: faculty
   - id: michael-beer
     name: Michael Beer, Ph.D.
     titles:
@@ -54,7 +55,7 @@ people:
       - som
     homepage: https://www.beerlab.org
     email: mbeer@jhu.edu
-
+    role: faculty
   - id: uthsav-chitra
     name: Uthsav Chitra, Ph.D.
     titles:
@@ -64,7 +65,7 @@ people:
       - wse
     homepage: https://chitra-lab.github.io
     email: uthsav@jhu.edu
-
+    role: faculty
   - id: jean-fan
     name: Jean Fan, Ph.D.
     titles:
@@ -74,7 +75,7 @@ people:
       - wse
     homepage: https://jef.works
     email: jeanfan@jhu.edu
-
+    role: faculty
   - id: liliana-florea
     name: Liliana Florea, Ph.D.
     titles:
@@ -85,7 +86,7 @@ people:
       - som
     homepage: https://florealab.org
     email: florea@jhu.edu
-
+    role: faculty
   - id: jeffrey-j-gray
     name: Jeffrey J. Gray, Ph.D.
     titles:
@@ -95,7 +96,7 @@ people:
       - Program in Molecular & Computational Biophysics
     homepage: https://graylab.jhu.edu
     email: jgray@jhu.edu
-
+    role: faculty
   - id: kasper-d-hansen
     name: Kasper D. Hansen, Ph.D.
     titles:
@@ -106,7 +107,7 @@ people:
       - sph
     homepage: https://www.hansenlab.org
     email: kasperdanielhansen@gmail.com
-
+    role: faculty
   - id: stephanie-hicks
     name: Stephanie Hicks, Ph.D.
     titles:
@@ -120,7 +121,7 @@ people:
       - Center for Imaging Science
     homepage: https://www.stephaniehicks.com
     email: shicks19@jhu.edu
-
+    role: faculty
   - id: hongkai-ji
     name: Hongkai Ji, Ph.D.
     titles:
@@ -130,7 +131,7 @@ people:
       - sph
     homepage: https://jilab.org
     email: hji@jhsph.edu
-
+    role: faculty
   - id: rachel-karchin
     name: Rachel Karchin, Ph.D.
     titles:
@@ -141,7 +142,7 @@ people:
       - dgm
     homepage: https://www.karchinlab.org
     email: karchin@jhu.edu
-
+    role: faculty
   - id: ben-langmead
     name: Ben Langmead, Ph.D.
     titles:
@@ -150,17 +151,17 @@ people:
       - cs
     homepage: https://langmead-lab.org
     email: langmea@cs.jhu.edu
-
+    role: faculty
   - id: david-j-lipman
     name: David J. Lipman, M.D.
     titles:
       - Adjunct Research Scientist
     affiliations:
       - bme
-      - "2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA"
-      - "1989-2017: Director, National Center for Biotechnology Information, NIH"
+      - '2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA'
+      - '1989-2017: Director, National Center for Biotechnology Information, NIH'
     email: dlipman4@jh.edu
-
+    role: faculty
   - id: rajiv-mccoy
     name: Rajiv McCoy, Ph.D.
     titles:
@@ -169,7 +170,7 @@ people:
       - bio
     homepage: https://mccoy-lab.org
     email: rajiv.mccoy@jhu.edu
-
+    role: faculty
   - id: mihaela-pertea
     name: Mihaela Pertea, Ph.D.
     titles:
@@ -181,7 +182,7 @@ people:
       - som
     homepage: https://pertealab.org
     email: mpertea@jhu.edu
-
+    role: faculty
   - id: adam-phillippy
     name: Adam Phillippy, Ph.D.
     titles:
@@ -192,7 +193,7 @@ people:
       - dgm
     homepage: https://genomeinformatics.github.io
     email: aphillippy@jhu.edu
-
+    role: faculty
   - id: suchi-saria
     name: Suchi Saria, Ph.D.
     titles:
@@ -204,7 +205,7 @@ people:
       - icm
     homepage: https://engineering.jhu.edu/faculty/suchi-saria/
     email: ssaria@cs.jhu.edu
-
+    role: faculty
   - id: robert-scharpf
     name: Robert Scharpf, Ph.D.
     titles:
@@ -214,7 +215,7 @@ people:
       - som
     homepage: https://rscharpf.github.io/index.html
     email: rscharpf@jhsph.edu
-
+    role: faculty
   - id: michael-schatz
     name: Michael Schatz, Ph.D.
     titles:
@@ -223,7 +224,7 @@ people:
       - cs
     homepage: https://schatz-lab.org
     email: mschatz@cs.jhu.edu
-
+    role: faculty
   - id: margaret-taub
     name: Margaret Taub, Ph.D.
     titles:
@@ -233,15 +234,15 @@ people:
       - sph
     homepage: https://www.biostat.jhsph.edu/~mtaub/About.html
     email: mtaub@jhsph.edu
-
+    role: faculty
   - id: james-taylor
     name: James Taylor, Ph.D.
     titles:
-      - "In memoriam: Professor of Biology"
+      - 'In memoriam: Professor of Biology'
     affiliations:
       - bio
       - ksas
-
+    role: faculty
   - id: winston-timp
     name: Winston Timp, Ph.D.
     titles:
@@ -251,7 +252,7 @@ people:
       - wse
     homepage: https://www.timplab.org
     email: wtimp@jhu.edu
-
+    role: faculty
   - id: aleksey-zimin
     name: Aleksey Zimin, Ph.D.
     titles:
@@ -261,3 +262,4 @@ people:
       - wse
     homepage: /people/alekseyz/index
     email: alekseyz@jhu.edu
+    role: faculty

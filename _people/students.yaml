@@ -10,7 +10,7 @@ people:
     affiliations:
       - bme
     email: berdogd1@jhu.edu
-
+    role: students
   - id: caleb-hallinan
     name: Caleb Hallinan
     alt: Caleb Hallinan
@@ -21,7 +21,7 @@ people:
     affiliations:
       - bme
     email: challin1@jh.edu
-
+    role: students
   - id: celine-hoh
     name: Celine Hoh
     alt: Celine Hoh
@@ -32,7 +32,7 @@ people:
     affiliations:
       - cs
     email: choh1@jhu.edu
-
+    role: students
   - id: david-bass
     name: David Bass
     alt: David Bass
@@ -41,9 +41,9 @@ people:
     labs:
       - steven-l-salzberg
     affiliations:
-      - "[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)"
+      - '[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)'
     email: dbass13@jh.edu
-
+    role: students
   - id: hyun-joo-ji
     name: Hyun Joo Ji
     alt: Hyun Joo Ji
@@ -54,7 +54,7 @@ people:
     affiliations:
       - cs
     email: hji20@jh.edu
-
+    role: students
   - id: kalen-clifton
     name: Kalen Clifton
     alt: Kalen Clifton
@@ -65,7 +65,7 @@ people:
     affiliations:
       - bme
     email: kclifto2@jh.edu
-
+    role: students
   - id: nikola-zadorozhny
     name: Nikola Zadorozhny
     alt: Nikola Zadorozhny
@@ -77,7 +77,7 @@ people:
     affiliations:
       - cs
     email: nikola.zadorozhny@gmail.com
-
+    role: students
   - id: radhika-jangi
     name: Radhika Jangi
     alt: Radhika Jangi
@@ -88,7 +88,7 @@ people:
     affiliations:
       - bio
     email: rjangi1@jhu.edu
-
+    role: students
   - id: rafael-dos-santos-peixoto
     name: Rafael dos Santos Peixoto
     alt: Rafael dos Santos Peixoto
@@ -99,7 +99,7 @@ people:
     affiliations:
       - bme
     email: rpeixot1@jh.edu
-
+    role: students
   - id: yuchen-ge
     name: Yuchen Ge
     alt: Yuchen Ge
@@ -110,7 +110,7 @@ people:
     affiliations:
       - bme
     email: yge15@jhmi.edu
-
+    role: students
   - id: zoe-catherine-rudnick
     name: Zoe Catherine Rudnick
     alt: Zoe Catherine Rudnick
@@ -121,3 +121,4 @@ people:
     affiliations:
       - bme
     email: zrudnic1@jhu.edu
+    role: students

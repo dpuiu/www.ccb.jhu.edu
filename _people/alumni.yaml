@@ -1,202 +1,199 @@
 people:
-    # Former Faculty
   - id: rafael-irizarry
     name: Rafael Irizarry, Ph.D.
     homepage: https://rafalab.dfci.harvard.edu/
     titles:
       - Professor
     affiliations:
-      - "JHU Biostatistics (until June 2013)"
-      - "[Dana Farber Cancer Institute](https://www.dana-farber.org/)"
-      - "Harvard University"
+      - JHU Biostatistics (until June 2013)
+      - '[Dana Farber Cancer Institute](https://www.dana-farber.org/)'
+      - Harvard University
     email: rafa@jhu.edu
-
-  # Former Postdocs
+    role: alumni
   - id: christopher-pockrandt
     name: Christopher Pockrandt, Ph.D.
     labs:
-      - "steven-l-salzberg @ JHU (until Feb. 2022)"
-
+      - steven-l-salzberg @ JHU (until Feb. 2022)
+    role: alumni
   - id: florian-breitwieser
     name: Florian Breitwieser, Ph.D.
     titles:
       - Principal Software Engineer
     labs:
-      - "steven-l-salzberg @ JHU (until Feb. 2020)"
+      - steven-l-salzberg @ JHU (until Feb. 2020)
     affiliations:
-      - "[SOPHiA GENETICS](https://www.sophiagenetics.com/)"
+      - '[SOPHiA GENETICS](https://www.sophiagenetics.com/)'
     email: florian.bw@gmail.com
-
+    role: alumni
   - id: ilia-minkin
     name: Ilia Minkin, Ph.D.
     homepage: https://iminkin.github.io/
     titles:
       - Postdoctoral Associate
     labs:
-      - "steven-l-salzberg @ JHU (until 2025)"
+      - steven-l-salzberg @ JHU (until 2025)
     affiliations:
-      - "[Broad Institute](https://www.broadinstitute.org)"
+      - '[Broad Institute](https://www.broadinstitute.org)'
     email: iminkin@broadinstitute.org
-
+    role: alumni
   - id: martin-steinegger
     name: Martin Steinegger, Ph.D.
     homepage: https://steineggerlab.com
     titles:
       - Assistant Professor
     labs:
-      - "steven-l-salzberg @ JHU (until Feb. 2020)"
+      - steven-l-salzberg @ JHU (until Feb. 2020)
     affiliations:
-      - "[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)"
+      - '[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)'
     email: martin.steinegger@snu.ac.kr
-
+    role: alumni
   - id: stefan-canzar
     name: Stefan Canzar, Ph.D.
     homepage: https://canzarlab.com/
     titles:
       - Professor
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     affiliations:
-      - "[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)"
+      - '[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)'
     email: stefan.canzar@ur.de
-
+    role: alumni
   - id: stephan-pabinger
     name: Stephan Pabinger, Ph.D.
     homepage: https://pabinger.site44.com
     titles:
       - Postdoctoral Research Fellow
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     affiliations:
-      - "McKusick-Nathans Institute of Genetic Medicine"
-      - "[Aldi](https://www.aldicareers.com.au/)"
+      - McKusick-Nathans Institute of Genetic Medicine
+      - '[Aldi](https://www.aldicareers.com.au/)'
     email: stephan.pabinger@i-med.ac.at
-
+    role: alumni
   - id: tanja-magoc
     name: Tanja Magoc, Ph.D.
     homepage: https://idr.ufhealth.org/profile/magoc-tanja/
     titles:
       - Postdoctoral Research Fellow
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     affiliations:
-      - "[HEPData](https://www.hepdata.com/)"
-      - "Associate Director, AI/QI Program, Quality and Patient Safety Initiative"
-      - "[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)"
+      - '[HEPData](https://www.hepdata.com/)'
+      - Associate Director, AI/QI Program, Quality and Patient Safety Initiative
+      - '[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)'
     email: t.magoc@gmail.com
-
+    role: alumni
   - id: todd-j-treangen
     name: Todd J. Treangen, Ph.D.
     homepage: https://profiles.rice.edu/faculty/todd-treangen
     titles:
       - Senior Bioinformatics Scientist
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     affiliations:
-      - "CCB UMD"
-      - "National Biodefense Analysis and Countermeasures Center"
-      - "[Rice University](https://profiles.rice.edu/faculty/todd-treangen)"
+      - CCB UMD
+      - National Biodefense Analysis and Countermeasures Center
+      - '[Rice University](https://profiles.rice.edu/faculty/todd-treangen)'
     email: treangen@gmail.com
-
-    # Former Students
+    role: alumni
   - id: alaina-shumate
     name: Alaina Shumate, Ph.D.
     titles:
       - Research Scientist
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     affiliations:
-      - "[Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)"
+      - '[Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)'
     email: ashumate@alumni.stanford.edu
-
+    role: alumni
   - id: ales-varabyou
     name: Ales Varabyou, Ph.D.
     homepage: https://alevar.github.io/
     titles:
       - Genomics Scientist and Engineer
     labs:
-      - "mihaela-pertea @ JHU (until 2026)"
+      - mihaela-pertea @ JHU (until 2026)
     affiliations:
-      - "[PacBio](https://www.pacb.com/)"
+      - '[PacBio](https://www.pacb.com/)'
     email: ales.varabyou@jhu.edu
-
+    role: alumni
   - id: alyssa-frazee
     name: Alyssa Frazee, Ph.D.
     homepage: https://alyssafrazee.com
     affiliations:
-      - "[Stripe](https://stripe.com)"
+      - '[Stripe](https://stripe.com)'
     email: alyssa.frazee@gmail.com
-
+    role: alumni
   - id: daehwan-kim
     name: Daehwan Kim, Ph.D.
     homepage: https://kim-lab.org/
     affiliations:
-      - "University of Toronto"
-      - "[OMPHALOS Lifesciences](https://omphaloslifesci.com/)"
+      - University of Toronto
+      - '[OMPHALOS Lifesciences](https://omphaloslifesci.com/)'
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     email: infphilo@gmail.com
-
+    role: alumni
   - id: derrick-wood
     name: Derrick Wood, Ph.D.
     titles:
       - Founder
     affiliations:
-      - "[Blackjack Biotechnologies](https://www.blackjackbiotech.com/)"
+      - '[Blackjack Biotechnologies](https://www.blackjackbiotech.com/)'
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     email: dwood@cs.umd.edu
-
+    role: alumni
   - id: hilary-parker
     name: Hilary Parker, Ph.D.
     homepage: https://biostat.jhsph.edu/~hiparker/
     affiliations:
-      - "Department of Biostatistics"
-      - "Johns Hopkins Bloomberg School of Public Health"
+      - Department of Biostatistics
+      - Johns Hopkins Bloomberg School of Public Health
     email: hilary@jhu.edu
-
+    role: alumni
   - id: jennifer-lu
     name: Jennifer Lu, Ph.D.
     titles:
       - Staff Engineer
     affiliations:
-      - "[Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)"
+      - '[Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)'
     labs:
-      - "steven-l-salzberg @ JHU"
+      - steven-l-salzberg @ JHU
     email: jennifer.lu717@gmail.com
-
+    role: alumni
   - id: ida-shinder
     name: Ida Shinder
     labs:
-      - "steven-l-salzberg @ JHU (until 2025)"
+      - steven-l-salzberg @ JHU (until 2025)
     email: ishinde1@jhmi.edu
-
+    role: alumni
   - id: jakob-heinz
     name: Jakob Heinz
     email: jheinz3@jhu.edu
-
+    role: alumni
   - id: kuan-hao-chao
     name: Kuan-Hao Chao, Ph.D.
     homepage: https://khchao.com/
     titles:
       - Senior Deep Learning Scientist
     affiliations:
-      - "[Illumina AI Lab](https://www.illumina.com/)"
+      - '[Illumina AI Lab](https://www.illumina.com/)'
     labs:
-      - "steven-l-salzberg @ JHU (until 2025)"
+      - steven-l-salzberg @ JHU (until 2025)
     email: kuanhao.chao@gmail.com
-
+    role: alumni
   - id: li-song
     name: Li Song, Ph.D.
     homepage: https://mourisl.github.io/
     titles:
       - Assistant Professor
     affiliations:
-      - "[Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)"
+      - '[Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)'
     labs:
-      - "liliana-florea @ JHU (until 2018)"
+      - liliana-florea @ JHU (until 2018)
     email: Li.Song@dartmouth.edu
-
+    role: alumni
   - id: markus-sommer
     name: Markus Sommer, Ph.D.
     homepage: https://www.markus.bio/
@@ -204,19 +201,20 @@ people:
       - Principal Scientist
       - Principal Investigator
     affiliations:
-      - "[Aletira Therapeutics](https://aletiratherapeutics.com)"
-      - "[National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)"
+      - '[Aletira Therapeutics](https://aletiratherapeutics.com)'
+      - '[National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)'
     labs:
-      - "steven-l-salzberg @ JHU (until 2024)"
+      - steven-l-salzberg @ JHU (until 2024)
     email: markusjsommer@gmail.com
-
+    role: alumni
   - id: rachel-sherman
     name: Rachel Sherman, Ph.D.
     titles:
       - Staff Bioinformatics Support Scientist
     affiliations:
-      - "Salzberg Lab @ JHU (until 2020)"
-      - "[Illumina](https://www.illumina.com/)"
+      - Salzberg Lab @ JHU (until 2020)
+      - '[Illumina](https://www.illumina.com/)'
     labs:
-      - "steven-l-salzberg @ JHU (until 2020)"
+      - steven-l-salzberg @ JHU (until 2020)
     email: rachel.sherman@illumina.com
+    role: alumni
