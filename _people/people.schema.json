@@ -11,7 +11,8 @@
         "type": "object",
         "required": [
           "id",
-          "name"
+          "name",
+          "role"
         ],
         "properties": {
           "id": {
@@ -47,7 +48,18 @@
           "email": {
             "type": "string",
             "format": "email"
-          }
+          },
+	  "role": {
+	    "type": "string",
+	    "enum": [
+	      "alumni",
+	      "collaborators",
+	      "faculty",
+	      "postdocs",
+	      "staff",
+	      "students"
+	    ]
+	  }
         },
         "additionalProperties": false
       }
