@@ -43,11 +43,8 @@
 
 # CCB Website Documentation
 
-This repository contains the source files for the new Johns Hopkins [**Center for Computational Biology (CCB)**](https://ccb.jhu.edu/) website.
-
-```text
+This repository contains the source files for the new Johns Hopkins [**Center for Computational Biology (CCB)**](https://ccb.jhu.edu/) website:
 https://dpuiu.github.io/www.ccb.jhu.edu/
-```
 
 The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the modern, responsive [**PyData Sphinx Theme**](https://pydata-sphinx-theme.readthedocs.io/).
 
