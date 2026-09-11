@@ -2,13 +2,14 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [CCB Website Documentation](#ccb-website-documentation)
-  - [1. Fork the Repository](#1-fork-the-repository)
+  - [1. Get a GitHub Copy](#1-get-a-github-copy)
   - [2. Install the Required Tools](#2-install-the-required-tools)
-  - [3. Authenticate with GitHub](#3-authenticate-with-github)
-  - [4. Clone Your Fork](#4-clone-your-fork)
+  - [3. Sign In to GitHub](#3-sign-in-to-github)
+  - [4. Get a Local Copy](#4-get-a-local-copy)
     - [4.1 Clone the Repository](#41-clone-the-repository)
     - [4.2 Update an Existing Clone](#42-update-an-existing-clone)
   - [5. Repository Structure](#5-repository-structure)
+  - [5. Repository Structure](#5-repository-structure-1)
   - [6. Build the Website Locally](#6-build-the-website-locally)
     - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
     - [6.2 Build the Website](#62-build-the-website)
@@ -29,15 +30,15 @@
     - [7.11 Edit JavaScript](#711-edit-javascript)
   - [8. Review Your Changes](#8-review-your-changes)
   - [9. Commit or Undo Your Changes](#9-commit-or-undo-your-changes)
-  - [10. GitHub Actions and Deployment](#10-github-actions-and-deployment)
+  - [10. Automated Build and Deployment](#10-automated-build-and-deployment)
     - [10.1 Enable GitHub Actions](#101-enable-github-actions)
     - [10.2 Configure GitHub Actions](#102-configure-github-actions)
     - [10.3 Configure GitHub Pages](#103-configure-github-pages)
     - [10.4 Run the Workflow](#104-run-the-workflow)
     - [10.5 Monitor the Deployment](#105-monitor-the-deployment)
     - [10.6 View the GitHub Pages Website](#106-view-the-github-pages-website)
-  - [11. Submit a Pull Request](#11-submit-a-pull-request)
-  - [12. Review Process](#12-review-process)
+  - [11. Submit Your Updates](#11-submit-your-updates)
+  - [12. Aprove the Updates](#12-aprove-the-updates)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -78,23 +79,22 @@ YAML + MyST Markdown + Jinja templates + conf.py + WebP   # source files
 
 ---
 
-## 1. Fork the Repository
+## 1. Get a GitHub Copy
 
 Using a web browser:
 
-1. Log in to **GitHub**.
+1. Sign in to **GitHub**.
+2. Open the [CCB website repository](https://github.com/dpuiu/www.ccb.jhu.edu).
+3. Click **Fork** in the upper-right corner to create your own copy of the repository on GitHub.
 
-2. Navigate to the CCB website repository: `https://github.com/dpuiu/www.ccb.jhu.edu`
-
-3. Click **Fork** in the upper-right corner to create your own copy of the repository under your GitHub account.
-
-If you already have a fork, open your forked repository and click **Sync fork** to update it with the latest changes from the original repository. You can make changes in your fork and submit them back to the main repository through a **pull request**.
+If you already have a fork, open it and click **Sync fork** to bring it up to date with the original repository.  
+You can make changes in your copy and submit them to the original repository through a **pull request**.
 
 ---
 
 ## 2. Install the Required Tools
 
-Open a Linux terminal and check that Python, Git, and the GitHub CLI are available:
+Open a Linux terminal and check that **Python**, **Git**, and the **GitHub CLI** are installed:
 
 ```bash
 python --version
@@ -102,7 +102,7 @@ git --version
 gh --version
 ```
 
-If any of these tools are missing, you can install them on Ubuntu with:
+If any are missing, install them on Ubuntu with:
 
 ```bash
 sudo apt update
@@ -111,18 +111,21 @@ sudo apt install python3 python3-pip python3-venv python-is-python3 git gh
 
 ---
 
-## 3. Authenticate with GitHub
+## 3. Sign In to GitHub
 
-Authenticate the GitHub CLI and get username:
+Authenticate the GitHub CLI and get your GitHub username:
 
 ```bash
 gh auth login
 GITHUB_USERNAME=$(gh api user --jq .login)
-echo $GITHUB_USERNAME
+echo "$GITHUB_USERNAME"
 ```
+
+The `gh auth login` command will guide you through the authentication process.
+
 ---
 
-## 4. Clone Your Fork
+## 4. Get a Local Copy
 
 ### 4.1 Clone the Repository
 
@@ -135,14 +138,14 @@ cd www.ccb.jhu.edu
 
 ### 4.2 Update an Existing Clone
 
-If you already have a local clone:
+If you already have a local copy:
 
 ```bash
 cd www.ccb.jhu.edu
 git pull
 ```
 
-It is a good idea to update your local repository before starting new work.
+It is a good idea to update your local copy before starting new work.
 
 ---
 
@@ -278,6 +281,140 @@ tree .
 
 ---
 
+## 5. Repository Structure
+
+The repository is organized by website section. Most website content is written in **MyST Markdown** (`.md`), while structured data is maintained in **YAML** (`.yaml`) files.
+
+You can view the repository structure with:
+
+
+```bash
+tree .
+```
+
+```text
+.
+├── index.md                         # Main website page
+├── conf.py                          # Sphinx configuration
+├── Makefile                         # Website build commands
+├── requirements.txt                 # Python/Sphinx dependencies
+├── README.*md                       # Project documentation
+│
+├── about/                           # General CCB information
+│   ├── index.md                     # About section
+│   ├── about.md                     # About CCB
+│   ├── contact.md                   # Contact information
+│   ├── jobs.md                      # Job opportunities
+│   └── publications.md              # Publications
+│
+├── _publications/                   # Publication data
+│   ├── pmc.csv                      # PMC publications
+│   ├── pmc.bib                      # PMC publications in BibTeX
+│   └── doi.bib                      # Other publications in BibTeX
+│
+├── _people/                         # People data
+│   ├── all.yaml                     # All people
+│   ├── faculty.yaml                 # Faculty
+│   ├── staff.yaml                   # Staff
+│   ├── postdocs.yaml                # Postdoctoral researchers
+│   ├── students.yaml                # Students
+│   ├── collaborators.yaml           # Collaborators
+│   ├── alumni.yaml                  # Alumni
+│   └── people.schema.json           # People data schema
+│
+├── people/                          # People pages
+│   ├── index.md                     # People section
+│   ├── faculty.md                   # Faculty listing
+│   ├── staff.md                     # Staff listing
+│   ├── postdocs.md                  # Postdoctoral researchers
+│   ├── students.md                  # Students
+│   ├── collaborators.md             # Collaborators
+│   ├── alumni.md                    # Alumni
+│   └── alekseyz/                    # Individual people pages
+│       ├── index.md                 # Front page
+│       └── about.md                 # Additional pages
+│
+├── _software/                       # Software data
+│   ├── all.yaml                     # All software
+│   ├── alignment.yaml               # Alignment software
+│   ├── gene-finding.yaml            # Gene-finding software
+│   ├── genome-assembly.yaml         # Genome assembly software
+│   ├── metagenomics.yaml            # Metagenomics software
+│   ├── other-tools.yaml             # Other software
+│   ├── transcriptome-assembly.yaml  # Transcriptome assembly software
+│   ├── variant-analysis.yaml        # Variant analysis software
+│   └── software.schema.json         # Software data schema
+│
+├── software/                        # Software pages
+│   ├── index.md                     # Software section
+│   ├── all.md                       # All software
+│   ├── alignment.md                 # Alignment software
+│   ├── gene_finding.md              # Gene-finding software
+│   ├── genome_assembly.md           # Genome assembly software
+│   ├── metagenomics.md              # Metagenomics software
+│   ├── transcriptome_assembly.md    # Transcriptome assembly software
+│   ├── variant_analysis.md          # Variant analysis software
+│   └── other_tools.md               # Other software
+│
+├── _data/                           # Data metadata
+│   ├── data.yaml                    # Data collections
+│   ├── eupathdb.yaml                # EuPathDB data
+│   └── data.schema.json             # Data schema
+│
+├── data/                            # Data pages
+│   ├── index.md                     # Data section
+│   ├── data.md                      # Data overview
+│   ├── downloads.md                 # Data downloads
+│   └── microbial.rst                # Microbial2025 database (RST format)
+│   └── microbial.csv                # Microbial2025 statistics
+│
+├── education/                       # Education and training
+│   ├── index.md                     # Education section
+│   ├── courses.md                   # Courses
+│   ├── information.md               # Program information
+│   ├── internship.md                # Internships
+│   ├── past_projects.md             # Past projects
+│   └── sample_courses.md            # Sample courses
+│
+├── cbcc/                            # CBCC information
+│   └── index.md                     # CBCC section
+│
+├── _templates/                      # Page templates
+│   ├── page.html                    # Page layout and header/footer
+│   ├── people.jinja                 # People page template
+│   ├── software.html                # Software page template
+│   └── data.jinja                   # Data page template
+│
+├── _static/                         # Static website files
+│   ├── custom.css                   # Custom CSS
+│   ├── custom.js                    # Custom JavaScript
+│   ├── favicon.ico                  # Website favicon
+│   ├── google5ed79d6dabf65a2d.html   # Google site verification
+│   ├── robots.txt                   # Search-engine instructions
+│   ├── images/                      # Website images
+│   │   ├── campus2.jpeg             # Campus image
+│   │   └── campus2-top.webp         # Website hero image
+│   ├── logos/                       # CCB and JHU logos
+│   └── people/                      # People photographs
+│
+├── .gitignore                       # Git ignore rules
+│
+├── .github/
+│   └── workflows/
+│       └── build-and-deploy.yml     # Build and deployment workflow
+│
+├── scripts/                         # Website automation scripts
+│   └── build_markdown_pages.sh      # YAML validation and Markdown generation
+│
+└── _build/                          # Generated Sphinx output
+```
+
+> [!IMPORTANT]
+> Some Markdown pages, including people, software and data listings, are generated automatically from YAML data. 
+> **Do not edit generated files directly.** Edit the corresponding YAML source files instead.
+
+---
+
 ## 6. Build the Website Locally
 
 Before submitting changes, build and test the website locally.
@@ -328,9 +465,8 @@ Open the main index page in your web browser:
 ```bash
 xdg-open _build/pydata_sphinx_theme/index.html
 ```
-
 ---
-
+	
 ## 7. Edit Website Content
 
 The CCB website is built with **Sphinx** using **MyST Markdown**. Most content should be edited in the source files rather than in the generated HTML files.
@@ -729,18 +865,17 @@ Undoing Changes:
 
 ---
 
-## 10. GitHub Actions and Deployment
+## 10. Automated Build and Deployment
 
-The project uses **GitHub Actions** to build and deploy the website to GitHub Pages.
+The project uses **GitHub Actions** to automatically build and deploy the website to GitHub Pages.
 
 The workflow is defined in:
 
 ```text
-.github/workflows/deploy.yml
+.github/workflows/build-and-deploy.yml
 ```
 
 The main CCB repository is configured to build and deploy the website automatically.
-However, **GitHub Actions and GitHub Pages may not be enabled or configured automatically when you create a fork**.
 
 ### 10.1 Enable GitHub Actions
 
@@ -788,7 +923,7 @@ https://github.com/$GITHUB_USERNAME/www.ccb.jhu.edu/actions
 
 Select **Build and Deplow Shinx** and click **Run workflow** if manual execution is available.
 
-You can also trigger the workflow by pushing a changes `.github/workflows/deploy.yml`.
+You can also trigger the workflow by pushing a changes `.github/workflows/build-and-deploy.yml`.
 
 For example:
 
@@ -831,7 +966,7 @@ To bookmark the website from the GitHub forked repository web page:
 Locate the `About` section on the right side of the main page, 
 click the gear icon, and check the box for `Use your GitHub Pages website` under the Website section.
 
-## 11. Submit a Pull Request
+## 11. Submit Your Updates
 
 Go to your GitHub repository:
 
@@ -855,9 +990,9 @@ https://github.com/dpuiu/www.ccb.jhu.edu/pulls
 
 ---
 
-## 12. Review Process
+## 12. Aprove the Updates
 
-THe changes are reviewed by the CCB website maintainers before they are merged.
+The changes are reviewed by the CCB website maintainers before they are merged.
 
 Maintainers may:
 
