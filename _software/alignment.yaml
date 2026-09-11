@@ -31,7 +31,7 @@ software:
     category:
       - alignment
     pmcid: PMC7605509
-    url: https://daehwankimlab.github.io/hisat2
+    url: https://github.com/DaehwanKimLab/hisat2
     description: 'HISAT2 is a new, rapid and accurate system for aligning NGS reads
       (both DNA and RNA) against a population of genomes. HISAT2 is a successor to
       both HISAT and TopHat2. HISAT2 extends the Burrows-Wheeler transform (BWT) and
@@ -43,7 +43,7 @@ software:
     category:
       - alignment
     pmcid: PMC7605509
-    url: https://daehwankimlab.github.io/hisat-genotype
+    url: https://github.com/DaehwanKimLab/hisat-genotype
     description: 'HISAT-genotype is a next-generation platform that enables rapid
       and accurate genomic analysis of our genomes using next-generation sequencing
       data on a desktop within a few hours. The platform currently supports HLA typing,

@@ -90,7 +90,7 @@ software:
     status: archived
     category:
       - transcriptome-assembly
-    url: https://cole-trapnell-lab.github.io/cufflinks
+    url: https://github.com/cole-trapnell-lab/cufflinks
     pmcid: PMC3334321
     description: 'A transcript assembler and abundance estimator for RNA-seq data.
       Cufflinks assembles transcripts from the alignments produced by TopHat, including
