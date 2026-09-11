@@ -2,49 +2,6 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Contributing to the CCB Website](#contributing-to-the-ccb-website)
-  - [1. Fork the Repository](#1-fork-the-repository)
-  - [2. Install the Required Tools](#2-install-the-required-tools)
-  - [3. Authenticate with GitHub](#3-authenticate-with-github)
-  - [4. Clone Your Fork](#4-clone-your-fork)
-    - [4.1 Clone the Repository](#41-clone-the-repository)
-    - [4.2 Update an Existing Clone](#42-update-an-existing-clone)
-  - [5. Repository Structure](#5-repository-structure)
-  - [6. Build the Website Locally](#6-build-the-website-locally)
-    - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
-    - [6.2 Build the Website](#62-build-the-website)
-    - [6.3 View the Website](#63-view-the-website)
-  - [7. Edit Website Content](#7-edit-website-content)
-    - [7.1 Explore the Website Structure](#71-explore-the-website-structure)
-    - [7.2 Add a Markdown Page](#72-add-a-markdown-page)
-    - [7.3 Edit a Markdown Page](#73-edit-a-markdown-page)
-    - [7.4 Edit YAML Documents](#74-edit-yaml-documents)
-    - [7.5 Convert YAML to Markdown](#75-convert-yaml-to-markdown)
-    - [7.6 YAML Examples](#76-yaml-examples)
-      - [7.6.1 Extract Faculty Names](#761-extract-faculty-names)
-      - [7.6.2 Count Faculty Members](#762-count-faculty-members)
-      - [7.6.3 Sort Faculty by ID](#763-sort-faculty-by-id)
-      - [7.6.4 Select Specific Fields](#764-select-specific-fields)
-      - [7.6.5 Convert to CSV](#765-convert-to-csv)
-      - [7.6.6 Merge YAML Files](#766-merge-yaml-files)
-      - [7.6.7 Filter Faculty](#767-filter-faculty)
-      - [7.6.8 Generate a Faculty Publication Query](#768-generate-a-faculty-publication-query)
-    - [7.7 Edit Templates](#77-edit-templates)
-    - [7.8 Edit the Sphinx Configuration](#78-edit-the-sphinx-configuration)
-    - [7.9 Edit CSS](#79-edit-css)
-    - [7.10 Edit JavaScript](#710-edit-javascript)
-  - [8. Review Your Changes](#8-review-your-changes)
-  - [9. Commit or Undo Your Changes](#9-commit-or-undo-your-changes)
-  - [10. GitHub Actions and Deployment](#10-github-actions-and-deployment)
-    - [10.1 Enable GitHub Actions](#101-enable-github-actions)
-    - [10.2 Configure GitHub Actions](#102-configure-github-actions)
-    - [10.3 Configure GitHub Pages](#103-configure-github-pages)
-    - [10.4 Run the Workflow](#104-run-the-workflow)
-    - [10.5 Monitor the Deployment](#105-monitor-the-deployment)
-    - [10.6 View the GitHub Pages Website](#106-view-the-github-pages-website)
-  - [11. Submit a Pull Request](#11-submit-a-pull-request)
-  - [12. Review Process](#12-review-process)
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Contributing to the CCB Website
@@ -166,7 +123,7 @@ tree .
 ├── Makefile                         # Build commands
 ├── requirements.txt                 # Python/Sphinx dependencies
 ├── README.md                        # Project documentation
-├── jinja.sh                         # YAML -> Markdown conversion script
+├── build_markdown_pages.sh          # YAML -> Markdown conversion script
 │
 ├── about/                           # General CCB information
 │   ├── index.md                     # Index page, defines the structure
@@ -181,8 +138,9 @@ tree .
 │   ├── pmc.bib                      # PMC Publications in converted to BIB format
 │   └── doi.bib                      # Other Publications in BIB format
 │ 
-├── _people/                         # People data (YAML)
-│   ├── faculty.yaml                 # Edit this file
+├── _people/                         
+│   ├── all.yaml                     # Members and associates in YAML foramt
+│   ├── faculty.yaml                 
 │   ├── staff.yaml
 │   ├── postdocs.yaml
 │   ├── students.yaml
@@ -203,8 +161,8 @@ tree .
 │   │   ├── index.md
 │   └── └──  .....
 │
-├── _software                        # Software data (YAML)
-│   ├── all.yaml                     
+├── _software                        
+│   ├── all.yaml                     # All software in YAML format
 │   ├── alignment.yaml
 │   ├── gene-finding.yaml
 │   ├── genome-assembly.yaml
@@ -227,9 +185,9 @@ tree .
 │   └── other_tools.md
 │
 │── _data/                           # Data list (YAML)
-│   ├── data.schema.json
 │   ├── data.yaml
-│   └── eupathdb.yaml
+│   ├── eupathdb.yaml
+│   └── data.schema.json
 │ 
 ├── data/                            # Data pages (Markdown) 
 │   ├── index.md
@@ -271,7 +229,7 @@ tree .
 │
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml               # GitHub Actions build/deployment
+│       └── build-and-deploy.yml    # GitHub Actions build/deployment
 │
 └── _build/                          # Generated Sphinx output (not committed)
 ```
@@ -470,11 +428,11 @@ nano about/jobs.md
 > The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, respectively, using the corresponding Jinja templates in `_templates/`.
 > Edit the YAML files, not the generated Markdown files, and validate them against the appropriate JSON schema before conversion.
 > **Do not edit the generated Markdown files directly.**
->`./jinja.sh` contains the code for validating the YAML files and updating the Markdown pages.
+>`./build_markdown_pages.sh` contains the code for validating the YAML files and updating the Markdown pages.
 
-### 7.4 Edit YAML Documents
+### 7.4 Edit and Query YAML Documents
 
-For example:
+Most of the website structured content is stored in YAML files organized by type:
 
 ```text
 _people/faculty.yaml
@@ -483,9 +441,13 @@ _data/data.yaml
 ...
 ```
 
+Edit a YAML file directly with a text editor, for example:
+
 ```bash
-head _people/faculty.yaml -n 20
+nano _people/faculty.yaml
 ```
+
+A typical People record looks like this:
 
 ```yaml
 people:
@@ -504,15 +466,28 @@ people:
 ```
 
 > [!NOTE]
-> Lowercase values in `affiliations` (e.g., `bme`) correspond to `myst_substitutions` defined in `conf.py`.
-> The `ids` and `labs` are cross-references to the Faculty page.
+> Lowercase values in `affiliations` (such as `bme`, `cs`, and `bsph`) correspond to substitutions defined by `myst_substitutions` in `conf.py`.
+> The `id` values are used as cross-reference labels throughout the website. Follow the documented ID naming convention when adding or modifying records.
 
+#### Validate YAML
+
+After editing a YAML file, validate it against the appropriate JSON Schema:
 
 ```bash
 check-jsonschema \
     --schemafile _people/people.schema.json \
     _people/faculty.yaml
 ```
+
+Validation should be performed before committing changes.
+
+#### Query YAML Data
+
+The YAML files can also be queried from the command line using `yq`. Examples of common queries are provided in separate reference documents:
+
+* [People YAML Queries](README.People.md)
+* [Software YAML Queries](README.Software.md)
+
 
 ### 7.5 Convert YAML to Markdown
 
@@ -545,159 +520,73 @@ head -n 40 people/faculty.md
   :alt: Steven L. Salzberg, Ph.D.
   :::
   ::::
-
-  ::::{grid-item-card}
-  :columns: 12 12 9 9
-
-  **Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
-  **Director, Center for Computational Biology**  
-
-  {{ bme }}  
-  {{ cs }}  
-  {{ bs }}  
-
-  [salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
-
-  ::::
+  ...
 ```
 
-> [!NOTE]
-> People IDs are cross-referenced throughout the website and should follow the first_name-middle_initial-last_name format.
-> `{{ \w+ }}` corresponds to substitutions defined in `conf.py`. 
-> These substitutions use common names for values such as department names and URLs that are reused throughout the website.
+> [!IMPORTANT]
+> YAML provides advantages such as validation, reformatting, sorting, filtering, and easy management of structured data.
+
+To convert all YAML files to Markdown, simply run:
 
 ```bash
-grep -A 5 myst_substitutions  conf.py 
+./build_markdown_pages.sh
+```
+
+### 7.6 Cross-references
+
+YAML IDs and Markdown labels are used as cross-reference targets throughout the website. IDs should follow the `first-name-middle-initial-last-name` format and remain consistent across the YAML data and generated pages.
+
+For example:
+
+```markdown
+(steven-l-salzberg)=
+```
+
+This creates a MyST label that can be referenced from other pages using `{ref}`:
+
+```text
+{ref}`steven-l-salzberg`
+{ref}`Salzberg <steven-l-salzberg>` Lab
+```
+
+The first form uses the label text as the link text. The second form provides custom link text.
+
+### 7.7 Substitutions
+
+`{{ \w+ }}` denotes a substitution defined in `conf.py`.  
+Substitutions provide reusable names and URLs for departments, programs, organizations, and other values that appear throughout the website.
+
+The substitutions follow a naming convention:  
+* **Lowercase keys** — full name with a link
+* **Uppercase keys** — abbreviation with a link
+
+For example:
+
+```bash
+grep -A 5 myst_substitutions conf.py
 ```
 
 ```text
 myst_substitutions = {
   "ARCH": "[ARCH](https://www.arch.jhu.edu/)",
-  "bio":  "[Department of Bilogy](https://bio.jhu.edu/)",
+  "bio":  "[Department of Biology](https://bio.jhu.edu/)",
   "bme":  "[Department of Biomedical Engineering](https://www.bme.jhu.edu/)",
   "BME":  "[BME](https://www.bme.jhu.edu/)",
   ...
-```
-
-YAML provides advantages such as validation, reformatting, sorting, filtering, and easy management of structured data.
-
-To convert all YAML files to Markdown, simply run:
-
-```bash
-./jinja.sh
-```
-
-
-### 7.6 YAML Examples
-
-#### 7.6.1 Extract Faculty Names
-
-Extract the names of all faculty members:
-
-```bash
-yq '.people[].name' _people/faculty.yaml
-```
-
-Example output:
-
-```text
-"Steven L. Salzberg, Ph.D."
-"Dan Arking, Ph.D."
-"Joel Bader, Ph.D."
-...
-```
-
-#### 7.6.2 Count Faculty Members
-
-Count the number of faculty members:
-
-```bash
-yq '.people | length' _people/faculty.yaml
-```
-
-Example output:
-
-```text
-25
-```
-
-#### 7.6.3 Sort Faculty by ID
-
-Sort the `people` list by `id`:
-
-```bash
-yq -y '.people |= sort_by(.id)' _people/faculty.yaml
-```
-
-#### 7.6.4 Select Specific Fields
-
-Keep only the `id`, `name`, and `email` fields:
-
-```bash
-yq -y '.people |= map({id, name, email})' _people/faculty.yaml
-```
-
-This produces YAML output. The same data can also be converted to CSV.
-
-#### 7.6.5 Convert to CSV
-
-Using `yq` directly:
-
-```bash
-yq -r '.people[] | [.name, .email] | @csv' _people/faculty.yaml
-```
-
-Or, convert the selected data to JSON first and then use `csvkit`:
-
-```bash
-yq -j '.people | map({name, email})' _people/faculty.yaml |
-    in2csv -f json
-```
-
-#### 7.6.6 Merge YAML Files
-
-Merge all YAML files in `_people/` into a single file:
-
-```bash
-rm -f _people/all.yaml
-yq -y -s '{people: [.[].people[]]}' _people/*.yaml > _people/all.yaml
-```
-
-The resulting `all.yaml` contains all entries under a single `people` key.
-
-#### 7.6.7 Filter Faculty
-
-Select only entries whose `role` is `faculty`:
-
-```bash
-yq -y '.people |= map(select(.role == "faculty"))' \
-    _people/all.yaml > _people/faculty.yaml
-```
-
-#### 7.6.8 Generate a Faculty Publication Query
-
-Generate a PubMed Central search query containing all faculty names:
-
-```bash
-{
-    echo '    "PUB": ('
-    echo '        "https://pmc.ncbi.nlm.nih.gov/search/?"'
-    echo '        "term="'
-
-    yq -r '.people[].name' _people/faculty.yaml |
-        cut -d',' -f1 |
-        sed 's/ /+/g; s/$/%5Bau%5D+OR+/' |
-        sed '$ s/+OR+$//' |
-        sed 's/^/        "/; s/$/"/'
-
-    echo '    ),'
 }
 ```
 
-This extracts each faculty member's name, removes the academic credentials after the comma, URL-encodes spaces as `+`, and adds the PubMed Central `[au]` author field.
+A substitution can then be used in a Markdown or MyST page:
+
+```markdown
+{{ BME }}
+{{ bme }}
+```
+
+This keeps names and URLs consistent across the website and allows them to be updated in one place.
 
 
-### 7.7 Edit Templates
+### 7.8 Edit Templates
 
 Reusable page structures are implemented with **Jinja2 templates**:
 
@@ -709,7 +598,7 @@ _templates/people.jinja
 > [!IMPORTANT]
 > Templates should be modified when the structure or presentation of a group of generated pages needs to change.
 
-### 7.8 Edit the Sphinx Configuration
+### 7.9 Edit the Sphinx Configuration
 
 `conf.py` contains the main Sphinx configuration and controls how the website is generated.
 
@@ -731,7 +620,7 @@ Important settings include:
 
 Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
 
-### 7.9 Edit CSS
+### 7.10 Edit CSS
 
 Custom site styling is defined in:
 
@@ -741,7 +630,7 @@ _static/custom.css
 
 This file contains CSS classes and rules that customize the appearance of the selected Sphinx theme.
 
-### 7.10 Edit JavaScript
+### 7.11 Edit JavaScript
 
 Custom client-side behavior is defined in:
 
