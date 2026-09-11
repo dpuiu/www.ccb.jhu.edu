@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate People Pages
         run: |
-          ./jinja.sh
+          ./scripts/build_markdown_pages.sh
 
       - name: Fix GitHub Pages image paths
         run: |
