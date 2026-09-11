@@ -1,30 +1,74 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [CCB Website Documentation](#ccb-website-documentation)
+  - [1. Fork the Repository](#1-fork-the-repository)
+  - [2. Install the Required Tools](#2-install-the-required-tools)
+  - [3. Authenticate with GitHub](#3-authenticate-with-github)
+  - [4. Clone Your Fork](#4-clone-your-fork)
+    - [4.1 Clone the Repository](#41-clone-the-repository)
+    - [4.2 Update an Existing Clone](#42-update-an-existing-clone)
+  - [5. Repository Structure](#5-repository-structure)
+  - [6. Build the Website Locally](#6-build-the-website-locally)
+    - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
+    - [6.2 Build the Website](#62-build-the-website)
+    - [6.3 View the Website](#63-view-the-website)
+  - [7. Edit Website Content](#7-edit-website-content)
+    - [7.1 Explore the Website Structure](#71-explore-the-website-structure)
+    - [7.2 Add a Markdown Page](#72-add-a-markdown-page)
+    - [7.3 Edit a Markdown Page](#73-edit-a-markdown-page)
+    - [7.4 Edit and Query YAML Documents](#74-edit-and-query-yaml-documents)
+      - [7.4.1 Validate YAML Data](#741-validate-yaml-data)
+      - [7.4.2 Query YAML Data](#742-query-yaml-data)
+    - [7.5 Convert YAML to Markdown](#75-convert-yaml-to-markdown)
+    - [7.6 Cross-references](#76-cross-references)
+    - [7.7 Substitutions](#77-substitutions)
+    - [7.8 Edit Templates](#78-edit-templates)
+    - [7.9 Edit the Sphinx Configuration](#79-edit-the-sphinx-configuration)
+    - [7.10 Edit CSS](#710-edit-css)
+    - [7.11 Edit JavaScript](#711-edit-javascript)
+  - [8. Review Your Changes](#8-review-your-changes)
+  - [9. Commit or Undo Your Changes](#9-commit-or-undo-your-changes)
+  - [10. GitHub Actions and Deployment](#10-github-actions-and-deployment)
+    - [10.1 Enable GitHub Actions](#101-enable-github-actions)
+    - [10.2 Configure GitHub Actions](#102-configure-github-actions)
+    - [10.3 Configure GitHub Pages](#103-configure-github-pages)
+    - [10.4 Run the Workflow](#104-run-the-workflow)
+    - [10.5 Monitor the Deployment](#105-monitor-the-deployment)
+    - [10.6 View the GitHub Pages Website](#106-view-the-github-pages-website)
+  - [11. Submit a Pull Request](#11-submit-a-pull-request)
+  - [12. Review Process](#12-review-process)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Contributing to the CCB Website
+# CCB Website Documentation
 
-This repository contains the source files for the new [**Center for Computational Biology (CCB)**](https://ccb.jhu.edu/) website
+This repository contains the source files for the new Johns Hopkins [**Center for Computational Biology (CCB)**](https://ccb.jhu.edu/) website.
 
 ```text
 https://dpuiu.github.io/www.ccb.jhu.edu/
 ```
 
-The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the [**PyData Sphinx Theme**](https://pydata-sphinx-theme.readthedocs.io/).
-The website content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) that provides additional features for technical and scientific documentation.
-The repository also contains [**YAML**](https://yaml.org/) files for structured website data and [**WebP**](https://developers.google.com/speed/webp) images used throughout the website.
+The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the modern, responsive [**PyData Sphinx Theme**](https://pydata-sphinx-theme.readthedocs.io/).
 
-**We welcome contributions from CCB collaborators and lab members**.
-You can help improve the website by editing files and submitting a **pull request**.
-All changes are **reviewed** before they are **merged and published to the website**.
+**Sphinx** builds the CCB website from Markdown, YAML data, templates, and configuration files. 
+**Sphinx** and the **extensions** provide navigation, search, tables of contents, cross-references, permalinks, redirects, substitutions, sitemaps, bibliographies, templates, and other documentation features.
+
+Content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) designed for technical and scientific documentation. 
+The repository also contains [**YAML**](https://yaml.org/) data files and [**WebP**](https://developers.google.com/speed/webp) images.
+
+Development and maintenance use [**yq**](https://github.com/kislyuk/yq) for YAML processing, 
+[**csvkit**](https://csvkit.readthedocs.io/) for CSV data, 
+[**doctoc**](https://github.com/thlorenz/doctoc) for Markdown tables of contents, 
+[**lychee**](https://lychee.cli.rs/) for link checking.
 
 > [!NOTE]
-> **Sphinx**  is the documentation generator used to build the CCB website from Markdown and configuration files.
-> It automatically generates many parts of the website, so navigation and common site functionality do not need to be maintained manually.
-> **Sphinx + MyST + extensions** provide navigation, search, table of contents, cross-references, permalinks, theme integration, static assets, redirects, substitutions, sitemaps, bibliographies, templates, and other documentation features.
-> Source files should be edited instead of the generated HTML files.
+> No HTML editing is necessary; the HTML is generated automatically from the source files.
+
+
+**We welcome contributions from CCB collaborators and lab members**.
+You can help improve the website by editing files and submitting GitHub **pull requests**.
+All changes are **reviewed** before they are **merged and published to the website**.
 
 ```text
 YAML + MyST Markdown + Jinja templates + conf.py + WebP   # source files
@@ -122,8 +166,7 @@ tree .
 ├── conf.py                          # Sphinx configuration
 ├── Makefile                         # Build commands
 ├── requirements.txt                 # Python/Sphinx dependencies
-├── README.md                        # Project documentation
-├── build_markdown_pages.sh          # YAML -> Markdown conversion script
+├── README.*md                       # Project documentation
 │
 ├── about/                           # General CCB information
 │   ├── index.md                     # Index page, defines the structure
@@ -229,7 +272,10 @@ tree .
 │
 ├── .github/
 │   └── workflows/
-│       └── build-and-deploy.yml    # GitHub Actions build/deployment
+│       └── build-and-deploy.yml     # GitHub Actions build/deployment
+│
+│── scripts/                         # scripts                
+│   ├── build_markdown_pages.sh      # YAML vaidation and  Markdown conversion script
 │
 └── _build/                          # Generated Sphinx output (not committed)
 ```
@@ -428,7 +474,7 @@ nano about/jobs.md
 > The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, respectively, using the corresponding Jinja templates in `_templates/`.
 > Edit the YAML files, not the generated Markdown files, and validate them against the appropriate JSON schema before conversion.
 > **Do not edit the generated Markdown files directly.**
->`./build_markdown_pages.sh` contains the code for validating the YAML files and updating the Markdown pages.
+>`scripts/build_markdown_pages.sh` contains the code for validating the YAML files and updating the Markdown pages.
 
 ### 7.4 Edit and Query YAML Documents
 
@@ -469,7 +515,7 @@ people:
 > Lowercase values in `affiliations` (such as `bme`, `cs`, and `bsph`) correspond to substitutions defined by `myst_substitutions` in `conf.py`.
 > The `id` values are used as cross-reference labels throughout the website. Follow the documented ID naming convention when adding or modifying records.
 
-#### Validate YAML
+#### 7.4.1 Validate YAML Data
 
 After editing a YAML file, validate it against the appropriate JSON Schema:
 
@@ -481,7 +527,7 @@ check-jsonschema \
 
 Validation should be performed before committing changes.
 
-#### Query YAML Data
+#### 7.4.2 Query YAML Data
 
 The YAML files can also be queried from the command line using `yq`. Examples of common queries are provided in separate reference documents:
 
@@ -529,7 +575,7 @@ head -n 40 people/faculty.md
 To convert all YAML files to Markdown, simply run:
 
 ```bash
-./build_markdown_pages.sh
+./scripts/build_markdown_pages.sh
 ```
 
 ### 7.6 Cross-references
