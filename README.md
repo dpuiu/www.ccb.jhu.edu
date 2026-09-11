@@ -62,13 +62,12 @@ Development and maintenance use [**yq**](https://github.com/kislyuk/yq) for YAML
 [**doctoc**](https://github.com/thlorenz/doctoc) for Markdown tables of contents, 
 [**lychee**](https://lychee.cli.rs/) for link checking.
 
-> [!NOTE]
-> No HTML editing is necessary; the HTML is generated automatically from the source files.
+**No HTML editing is necessary; HTML files are generated automatically from the source files.**
 
+**Contributions from CCB collaborators and lab members are welcome.** 
+You can help improve the website by editing the source files and submitting GitHub **pull requests**. 
+All changes are **reviewed before being merged and published** to the website.
 
-**We welcome contributions from CCB collaborators and lab members**.
-You can help improve the website by editing files and submitting GitHub **pull requests**.
-All changes are **reviewed** before they are **merged and published to the website**.
 
 ```text
 YAML + MyST Markdown + Jinja templates + conf.py + WebP   # source files
