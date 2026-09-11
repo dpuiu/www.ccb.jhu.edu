@@ -2,14 +2,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [CCB Website Documentation](#ccb-website-documentation)
-  - [1. Get a GitHub Copy](#1-get-a-github-copy)
+  - [1. Create a Copy](#1-create-a-copy)
   - [2. Install the Required Tools](#2-install-the-required-tools)
-  - [3. Sign In to GitHub](#3-sign-in-to-github)
+  - [3. Sing In to GitHub](#3-sing-in-to-github)
   - [4. Get a Local Copy](#4-get-a-local-copy)
     - [4.1 Clone the Repository](#41-clone-the-repository)
     - [4.2 Update an Existing Clone](#42-update-an-existing-clone)
   - [5. Repository Structure](#5-repository-structure)
-  - [5. Repository Structure](#5-repository-structure-1)
   - [6. Build the Website Locally](#6-build-the-website-locally)
     - [6.1 Create a Python Virtual Environment](#61-create-a-python-virtual-environment)
     - [6.2 Build the Website](#62-build-the-website)
@@ -53,7 +52,7 @@ The website is built with [**Sphinx**](https://www.sphinx-doc.org/) and the mode
 **Sphinx** and the **extensions** provide navigation, search, tables of contents, cross-references, permalinks, redirects, substitutions, sitemaps, bibliographies, templates, and other documentation features.
 
 Content is written in [**MyST Markdown**](https://mystmd.org/), an enhanced version of [**Markdown**](https://www.markdownguide.org/) designed for technical and scientific documentation. 
-The repository also contains [**YAML**](https://yaml.org/) data files and [**WebP**](https://developers.google.com/speed/webp) images.
+The repository also contains [**YAML**](https://yaml.org/) data files, [**Jinja templates**](https://jinja.palletsprojects.com/en/stable/) and [**WebP**](https://developers.google.com/speed/webp) images.
 
 Development and maintenance use [**yq**](https://github.com/kislyuk/yq) for YAML processing, 
 [**csvkit**](https://csvkit.readthedocs.io/) for CSV data, 
@@ -151,138 +150,6 @@ It is a good idea to update your local copy before starting new work.
 
 ## 5. Repository Structure
 
-The repository is organized by website section. Most website content is written in MyST Markdown (`.md`).
-
-You can view the structure with:
-
-```bash
-tree .
-```
-
-```text
-.
-├── index.md                         # Main website page
-├── conf.py                          # Sphinx configuration
-├── Makefile                         # Build commands
-├── requirements.txt                 # Python/Sphinx dependencies
-├── README.*md                       # Project documentation
-│
-├── about/                           # General CCB information
-│   ├── index.md                     # Index page, defines the structure
-│   ├── about.md
-│   ├── contact.md
-│   ├── index.md
-│   ├── jobs.md
-│   └── publications.md
-│
-│── _publications
-│   ├── pmc.csv                      # PMC Publications in CSV format
-│   ├── pmc.bib                      # PMC Publications in converted to BIB format
-│   └── doi.bib                      # Other Publications in BIB format
-│ 
-├── _people/                         
-│   ├── all.yaml                     # Members and associates in YAML foramt
-│   ├── faculty.yaml                 
-│   ├── staff.yaml
-│   ├── postdocs.yaml
-│   ├── students.yaml
-│   ├── collaborators.yaml
-│   ├── alumni.yaml
-│   └── people.schema.json           # JSON Schema for validation
-│ 
-├── people/                          # People pages (Markdown)
-│   ├── index.md
-│   ├── faculty.md                   # Generated; do not edit directly
-│   ├── staff.md                     # Generated; do not edit directly
-│   ├── postdocs.md                  # Generated; do not edit directly
-│   ├── students.md                  # Generated; do not edit directly
-│   ├── collaborators.md             # Generated; do not edit directly
-│   ├── alumni.md                    # Generated; do not edit directly
-│   ├── alekseyz                     # Personal pages
-│   │   ├── about.md
-│   │   ├── index.md
-│   └── └──  .....
-│
-├── _software                        
-│   ├── all.yaml                     # All software in YAML format
-│   ├── alignment.yaml
-│   ├── gene-finding.yaml
-│   ├── genome-assembly.yaml
-│   ├── metagenomics.yaml
-│   ├── other-tools.yaml
-│   ├── software.schema.json
-│   ├── transcriptome-assembly.yaml
-│   ├── variant-analysis.yaml
-│   └── software.schema.json         # JSON Schema for validation
-│
-├── software/                        # Software pages (Markdown)  
-│   ├── index.md
-│   ├── all.md
-│   ├── alignment.md
-│   ├── gene_finding.md
-│   ├── genome_assembly.md
-│   ├── metagenomics.md
-│   ├── transcriptome_assembly.md
-│   ├── variant_analysis.md
-│   └── other_tools.md
-│
-│── _data/                           # Data list (YAML)
-│   ├── data.yaml
-│   ├── eupathdb.yaml
-│   └── data.schema.json
-│ 
-├── data/                            # Data pages (Markdown) 
-│   ├── index.md
-│   ├── data.md
-│   ├── downloads.md
-│   ├── eupathdb.md
-│   └── data.schema.json             # JSON Schema for validation
-│
-├── education/                       # Education and training
-│   ├── index.md
-│   ├── courses.md
-│   ├── information.md
-│   ├── internship.md
-│   ├── past_projects.md
-│   └── sample_courses.md
-│ 
-├── cbcc/                            # CBCC information
-│   └── index.md
-│
-├── _templates/                      # Jinja/Sphinx templates for YAML->Markdown conversion
-│   ├── page.html                    # Custom page template, feader & footer
-│   ├── people.jinja                 # People page template
-│   ├── software.html                # Software page template
-│   └── data.jinja                   # Data page template
-│
-├── _static/                         # Static files copied to the website
-│   ├── custom.css                   # Custom CSS
-│   ├── custom.js                    # Custom JavaScript
-│   ├── favicon.ico                  # Website favicon
-│   ├── google5ed79d6dabf65a2d.html  # Google site verification
-│   ├── robots.txt                   # Search-engine instructions
-|   ├── images
-│   │   ├── campus2.jpeg             
-│   │   └── campus2-top.webp         # Website hero logo
-│   ├── logos/                       # CCB/JHU logos
-│   └── people/                      # People photos
-│
-├── .gitignore                       # Git files/directories to ignore
-│
-├── .github/
-│   └── workflows/
-│       └── build-and-deploy.yml     # GitHub Actions build/deployment
-│
-│── scripts/                         # scripts                
-│   ├── build_markdown_pages.sh      # YAML vaidation and  Markdown conversion script
-│
-└── _build/                          # Generated Sphinx output (not committed)
-```
-
----
-
-## 5. Repository Structure
-
 The repository is organized by website section. Most website content is written in **MyST Markdown** (`.md`), while structured data is maintained in **YAML** (`.yaml`) files.
 
 You can view the repository structure with:
@@ -332,7 +199,7 @@ tree .
 │   ├── alumni.md                    # Alumni
 │   └── alekseyz/                    # Individual people pages
 │       ├── index.md                 # Front page
-│       └── about.md                 # Additional pages
+│       └── about.md                 # Additional pages ...
 │
 ├── _software/                       # Software data
 │   ├── all.yaml                     # All software
@@ -472,7 +339,7 @@ xdg-open _build/pydata_sphinx_theme/index.html
 The CCB website is built with **Sphinx** using **MyST Markdown**. Most content should be edited in the source files rather than in the generated HTML files.
 
 > [!IMPORTANT]
-> Any update should be followed by a `make html` and website refresh
+> Any update should be followed by a website build and refresh 
 > **Do not manually edit files under** **`_build/`**. They are generated files and will be overwritten by the next Sphinx build.
 
 ### 7.1 Explore the Website Structure
@@ -576,6 +443,9 @@ visitors
 :::
 ```
 
+---
+
+
 ### 7.3 Edit a Markdown Page
 
 Website pages are stored as Markdown files:
@@ -587,30 +457,37 @@ software/alignment.md
 ...
 ```
 
-Edit a page with your preferred editor:
+To edit a Markdown page, open it with your preferred editor. For example:
 
 ```bash
 nano about/jobs.md
 ```
 
-```text
-  (jobs)=
-  # Open Positions at CCB
+A Markdown page may contain MyST syntax, such as labels, headings, substitutions, and cross-references:
 
-  Most of the {{ CCB }} faculty members describe job openings on their individual
-  websites. See the {doc}`/people/faculty` page for those sites.
-  ...
+```markdown
+(jobs)=
+# Open Positions at CCB
+
+Most of the {{ CCB }} faculty members describe job openings on their
+individual websites. See the {doc}`/people/faculty` page for those sites.
+...
 ```
 
 > [!IMPORTANT]
-> The Markdown files under `people/`, `software/`, and `data/` are generated from structured YAML data stored in `_people/`, `_software/`, and `_data/`, respectively, using the corresponding Jinja templates in `_templates/`.
-> Edit the YAML files, not the generated Markdown files, and validate them against the appropriate JSON schema before conversion.
-> **Do not edit the generated Markdown files directly.**
->`scripts/build_markdown_pages.sh` contains the code for validating the YAML files and updating the Markdown pages.
+> The Markdown files under `people/`, `software/`, and `data/` are **generated files**. They are created from structured YAML data stored in `_people/`, `_software/`, and `_data/`, respectively, using the corresponding Jinja templates in `_templates/`.
+>
+> **Do not edit these generated Markdown files directly.** Instead, edit the appropriate YAML source file, validate it against the corresponding JSON schema, and regenerate the Markdown pages.
+>
+> The script `scripts/build_markdown_pages.sh` contains the commands for validating the YAML files and generating the Markdown pages.
+
+For pages that are **not generated**, such as pages under `about/`, edit the Markdown file directly.
+
+---
 
 ### 7.4 Edit and Query YAML Documents
 
-Most of the website structured content is stored in YAML files organized by type:
+Structured website content is stored in YAML files organized by type:
 
 ```text
 _people/faculty.yaml
@@ -619,7 +496,7 @@ _data/data.yaml
 ...
 ```
 
-Edit a YAML file directly with a text editor, for example:
+Edit a YAML file directly with a text editor. For example:
 
 ```bash
 nano _people/faculty.yaml
@@ -645,7 +522,8 @@ people:
 
 > [!NOTE]
 > Lowercase values in `affiliations` (such as `bme`, `cs`, and `bsph`) correspond to substitutions defined by `myst_substitutions` in `conf.py`.
-> The `id` values are used as cross-reference labels throughout the website. Follow the documented ID naming convention when adding or modifying records.
+>
+> The `id` value is used as a cross-reference label throughout the website. Follow the documented ID naming convention when adding or modifying records.
 
 #### 7.4.1 Validate YAML Data
 
@@ -657,19 +535,25 @@ check-jsonschema \
     _people/faculty.yaml
 ```
 
-Validation should be performed before committing changes.
+Always validate YAML files before committing changes. Schema validation helps catch missing fields, invalid values, and structural errors before the website is built.
 
 #### 7.4.2 Query YAML Data
 
-The YAML files can also be queried from the command line using `yq`. Examples of common queries are provided in separate reference documents:
+YAML files can also be inspected and queried from the command line using `yq`.
+
+Examples of common queries are provided in the following reference documents:
 
 * [People YAML Queries](README.People.md)
 * [Software YAML Queries](README.Software.md)
 
 
+--- 
 ### 7.5 Convert YAML to Markdown
 
-Generate the corresponding Markdown page using the Jinja2 template:
+The YAML files are the source for the generated People, Software and Data pages. 
+Use the appropriate **Jinja** template to convert a **YAML** file into a **MyST Markdown** page.
+
+For example, generate the Faculty page with:
 
 ```bash
 jinja2 _templates/people.jinja _people/faculty.yaml \
@@ -677,9 +561,13 @@ jinja2 _templates/people.jinja _people/faculty.yaml \
     > people/faculty.md
 ```
 
+Inspect the generated Markdown:
+
 ```bash
 head -n 40 people/faculty.md 
 ```
+
+The generated file will contain content similar to:
 
 ```text
   # Faculty 
@@ -702,41 +590,56 @@ head -n 40 people/faculty.md
 ```
 
 > [!IMPORTANT]
-> YAML provides advantages such as validation, reformatting, sorting, filtering, and easy management of structured data.
+> YAML is used as the source data because it makes structured content easier to **validate, format, sort, filter, and maintain**. 
+> The Markdown pages are generated from this source data and should not be edited manually.
 
-To convert all YAML files to Markdown, simply run:
+To regenerate all the pages, run:
 
 ```bash
 ./scripts/build_markdown_pages.sh
 ```
 
+---
+
 ### 7.6 Cross-references
 
-YAML IDs and Markdown labels are used as cross-reference targets throughout the website. IDs should follow the `first-name-middle-initial-last-name` format and remain consistent across the YAML data and generated pages.
+YAML IDs and MyST Markdown labels are used as cross-reference targets throughout the website. Each ID should follow the `first-name-middle-initial-last-name` format and remain consistent between the YAML source data and the generated Markdown pages.
 
-For example:
+For example, the YAML record might use:
+
+```yaml
+id: steven-l-salzberg
+```
+
+The generated Markdown page uses the same ID as a label:
 
 ```markdown
 (steven-l-salzberg)=
+## [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
 ```
 
-This creates a MyST label that can be referenced from other pages using `{ref}`:
+The label can then be referenced from other MyST Markdown pages using `{ref}`:
 
 ```text
 {ref}`steven-l-salzberg`
 {ref}`Salzberg <steven-l-salzberg>` Lab
 ```
 
-The first form uses the label text as the link text. The second form provides custom link text.
+The first form uses the text associated with the target label as the link text. The second form specifies custom link text.
+
+> [!IMPORTANT]
+> Keep IDs stable once they are used as cross-reference targets. Changing an ID requires updating all references to that ID throughout the website.
+
+---
 
 ### 7.7 Substitutions
 
-`{{ \w+ }}` denotes a substitution defined in `conf.py`.  
-Substitutions provide reusable names and URLs for departments, programs, organizations, and other values that appear throughout the website.
+`{{ key }}` denotes a substitution defined in `conf.py`. Substitutions provide reusable names and URLs for departments, programs, organizations, and other values that appear throughout the website.
 
-The substitutions follow a naming convention:  
-* **Lowercase keys** — full name with a link
-* **Uppercase keys** — abbreviation with a link
+The substitution keys follow a simple naming convention:
+
+* **Lowercase keys** - full name with a link
+* **Uppercase keys** - abbreviation with a link
 
 For example:
 
@@ -754,23 +657,30 @@ myst_substitutions = {
 }
 ```
 
-A substitution can then be used in a Markdown or MyST page:
+A substitution can then be used in any Markdown or MyST page:
 
 ```markdown
 {{ BME }}
 {{ bme }}
 ```
 
-This keeps names and URLs consistent across the website and allows them to be updated in one place.
+For example, `{{ BME }}` renders as **BME**, while `{{ bme }}` renders as **Department of Biomedical Engineering**. Both link to the URL defined in `conf.py`.
 
+Using substitutions keeps names and URLs **consistent throughout the website** and allows them to be updated in a single location.
+
+---
 
 ### 7.8 Edit Templates
 
 Reusable page structures are implemented with **Jinja2 templates**:
+Templates define the layout and presentation of generated pages, allowing the same structure to be applied consistently to multiple YAML data files.
 
 ```text
 _templates/page.html
+
 _templates/people.jinja
+_templates/software.jinja
+_templates/data.jinja
 ```
 
 > [!IMPORTANT]
@@ -782,22 +692,23 @@ _templates/people.jinja
 
 Important settings include:
 
-- `html_theme` - selects the Sphinx theme from the `html_theme` environment variable.
-- `templates_path` - specifies the custom Jinja/Sphinx templates.
+- `html_theme` - selects the Sphinx theme.
 - `html_baseurl` - defines the base URL of the website.
+- `html_title` - sets the website title.
+- `extensions` — enables Sphinx extensions used by the website.
+- `myst_enable_extensions` - enables additional MyST Markdown features.
+- `myst_substitutions` - defines reusable substitutions for names, organizations, URLs, and other values.
+- `templates_path` - specifies the custom Jinja/Sphinx templates.
 - `html_css_files` - loads custom CSS.
 - `html_js_files` - loads custom JavaScript.
 - `html_static_path` - makes files under `_static/` available to the build.
 - `html_extra_path` - copies files such as `.nojekyll`, `robots.txt`, and Google verification files directly to the output.
-- `html_title` - sets the website title.
-- `html_favicon` - specifies the favicon.
-- `html_search` - enables Sphinx's generated search functionality.
-- `html_permalinks` - enables section permalinks.
-- `html_context` - provides variables to Jinja templates.
 - `redirects` - defines redirects for URLs from the old website.
 
-Site-wide behavior should be configured here rather than duplicated in individual Markdown pages.
+> [!IMPORTANT]
+> Use `conf.py` for **site-wide configuration and behavior**. Avoid duplicating the same configuration in individual Markdown pages when it can be defined once globally.
 
+---
 ### 7.10 Edit CSS
 
 Custom site styling is defined in:
@@ -828,7 +739,6 @@ Before committing your changes, check which files have been modified:
 git status
 git diff
 ```
-
 ---
 
 ## 9. Commit or Undo Your Changes
