@@ -64,8 +64,7 @@ and has long been considered as one of the best. In 2022, it was
 **Ph.D. program**
 
 At least 18 credits required outside the Dept of Biostatistics, at least 9 of these in the School of Public Health. See the
-[Department](https://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd){:rel="nofollow"} website
-for details.
+[Department]( https://publichealth.jhu.edu/academics/phd-dept-of-biostatistics){:rel="nofollow"} website for details.
 
 All students in the Biostatistics Ph.D. program have to complete the core requirements:
 
@@ -75,10 +74,10 @@ All students in the Biostatistics Ph.D. program have to complete the core requir
 
 In addition, students in computational biology might take:
 
-- [140.776.01 Statistical Computing](https://www.jhsph.edu/courses/course/18994/2014/140.776.01/statistical-computing){:rel="nofollow"} (3 credits)
-- [140.638.01 Analysis of Biological Sequences](https://www.jhsph.edu/courses/course/19246/2014/140.638.01/analysis-of-biological-sequences){:rel="nofollow"} (3 credits)
-- [140.644.01 Statistica machine learning: methods, theory, and applications](https://www.jhsph.edu/courses/course/20026/2014/140.644.01/statistical-machine-learning-methods-theory-and-ap){:rel="nofollow"} (4 credits)
-- [140.688.01 Statistics for Genomics](https://www.jhsph.edu/courses/course/20168/2014/140.688.01/statistics-for-genomics){:rel="nofollow"} (3 credits)
+- [140.776.01 Statistical Computing](https://publichealth.jhu.edu/course/44507){:rel="nofollow"} (3 credits)
+- 140.638.01 Analysis of Biological Sequences (3 credits)
+- [140.644.01 Statistica machine learning: methods, theory, and applications](https://publichealth.jhu.edu/course/44689){:rel="nofollow"} (4 credits)
+- [140.688.01 Statistics for Genomics](https://publichealth.jhu.edu/course/45554){:rel="nofollow"} (3 credits)
 
 Further courses might include 2-3 courses in Computer Science, BME, or Biology
 listed on this page.
