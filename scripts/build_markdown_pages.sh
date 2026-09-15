@@ -21,6 +21,14 @@ jinja2 _templates/people.jinja _people/collaborators.yaml -D title="Collaborator
 jinja2 _templates/people.jinja _people/postdocs.yaml      -D title="Postdocs"      -D label="postdocs"		| uniq > people/postdocs.md
 jinja2 _templates/people.jinja _people/staff.yaml         -D title="Staff"         -D label="staff"		| uniq > people/staff.md
 
+### people (all)
+
+rm -f _people/all.yaml 
+
+yq -y -s '{people: [.[].people[]] | sort_by(.id)}' _people/*.yaml  > _people/all.yaml
+check-jsonschema --schemafile  _people/people.schema.json  _people/all.yaml
+jinja2 _templates/people.jinja _people/all.yaml       -D title="All" -D label="people" > people/all.md
+
 ### software
 
 jq . _software/software.schema.json > /dev/null
@@ -44,7 +52,7 @@ jinja2 _templates/software.jinja _software/variant-analysis.yaml       	-D title
 
 ### software (all)
 
-rm -f _software/all.yaml _software/new.yaml _software/current.yaml _software/archived.yaml
+rm -f _software/all.yaml
 
 yq -y -s '{software: [.[].software[]] | sort_by(.id)}' _software/*.yaml  > _software/all.yaml
 check-jsonschema --schemafile  _software/software.schema.json  _software/all.yaml

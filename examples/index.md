@@ -11,7 +11,7 @@ orphan: true
 
 ```{contents}
 :local:
-:depth: 2
+:depth: 1
 ```
 
 # Examples
@@ -40,7 +40,7 @@ italic *Italic*
 
 ## Buttons
 
-```{button-link} https://jhu.edu
+```{button-link} https://www.jhu.edu
 :color: primary
 
 JHU
@@ -64,6 +64,13 @@ Jump to {ref}`links`.
 ### File Download
 
 <!--[Download WEBP](/_static/logos/logo.webp)-->
+
+:::{container} example-container
+
+<h2>Backgroud Image</h2>
+
+:::
+
 
 ## Footnotes
 
@@ -104,8 +111,8 @@ This is the rest of the body text.
 
 ## Includes
 
-```{include} /about/contact.md
-```
+<!--```{include} /about/contact.md
+```-->
 
 ## Image
 

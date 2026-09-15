@@ -1,101 +1,15 @@
 people:
-  - id: rafael-irizarry
-    name: Rafael Irizarry, Ph.D.
-    homepage: https://rafalab.dfci.harvard.edu/
+  - id: adam-phillippy
+    name: Adam Phillippy, Ph.D.
     titles:
-      - Professor
+      - Bloomberg Distinguished Professor
     affiliations:
-      - JHU Biostatistics (until June 2013)
-      - '[Dana Farber Cancer Institute](https://www.dana-farber.org/)'
-      - Harvard University
-    email: rafa@jhu.edu
-    role: alumni
-  - id: christopher-pockrandt
-    name: Christopher Pockrandt, Ph.D.
-    labs:
-      - steven-l-salzberg @ JHU (until Feb. 2022)
-    role: alumni
-  - id: florian-breitwieser
-    name: Florian Breitwieser, Ph.D.
-    titles:
-      - Principal Software Engineer
-    labs:
-      - steven-l-salzberg @ JHU (until Feb. 2020)
-    affiliations:
-      - '[SOPHiA GENETICS](https://www.sophiagenetics.com/)'
-    email: florian.bw@gmail.com
-    role: alumni
-  - id: ilia-minkin
-    name: Ilia Minkin, Ph.D.
-    homepage: https://iminkin.github.io/
-    titles:
-      - Postdoctoral Associate
-    labs:
-      - steven-l-salzberg @ JHU (until 2025)
-    affiliations:
-      - '[Broad Institute](https://www.broadinstitute.org)'
-    email: iminkin@broadinstitute.org
-    role: alumni
-  - id: martin-steinegger
-    name: Martin Steinegger, Ph.D.
-    homepage: https://steineggerlab.com
-    titles:
-      - Assistant Professor
-    labs:
-      - steven-l-salzberg @ JHU (until Feb. 2020)
-    affiliations:
-      - '[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)'
-    email: martin.steinegger@snu.ac.kr
-    role: alumni
-  - id: stefan-canzar
-    name: Stefan Canzar, Ph.D.
-    homepage: https://canzarlab.com/
-    titles:
-      - Professor
-    labs:
-      - steven-l-salzberg @ JHU
-    affiliations:
-      - '[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)'
-    email: stefan.canzar@ur.de
-    role: alumni
-  - id: stephan-pabinger
-    name: Stephan Pabinger, Ph.D.
-    homepage: https://pabinger.site44.com
-    titles:
-      - Postdoctoral Research Fellow
-    labs:
-      - steven-l-salzberg @ JHU
-    affiliations:
-      - McKusick-Nathans Institute of Genetic Medicine
-      - '[Aldi](https://www.aldicareers.com.au/)'
-    email: stephan.pabinger@i-med.ac.at
-    role: alumni
-  - id: tanja-magoc
-    name: Tanja Magoc, Ph.D.
-    homepage: https://idr.ufhealth.org/profile/magoc-tanja/
-    titles:
-      - Postdoctoral Research Fellow
-    labs:
-      - steven-l-salzberg @ JHU
-    affiliations:
-      - '[HEPData](https://www.hepdata.com/)'
-      - Associate Director, AI/QI Program, Quality and Patient Safety Initiative
-      - '[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)'
-    email: t.magoc@gmail.com
-    role: alumni
-  - id: todd-j-treangen
-    name: Todd J. Treangen, Ph.D.
-    homepage: https://profiles.rice.edu/faculty/todd-treangen
-    titles:
-      - Senior Bioinformatics Scientist
-    labs:
-      - steven-l-salzberg @ JHU
-    affiliations:
-      - CCB UMD
-      - National Biodefense Analysis and Countermeasures Center
-      - '[Rice University](https://profiles.rice.edu/faculty/todd-treangen)'
-    email: treangen@gmail.com
-    role: alumni
+      - cs
+      - bme
+      - dgm
+    homepage: https://genomeinformatics.github.io
+    email: aphillippy@jhu.edu
+    role: faculty
   - id: alaina-shumate
     name: Alaina Shumate, Ph.D.
     titles:
@@ -106,6 +20,16 @@ people:
       - '[Dana Farber Cancer Institute](https://labs.dana-farber.org/meyersonlab/people/alaina-shumate-phd)'
     email: ashumate@alumni.stanford.edu
     role: alumni
+  - id: aleksey-zimin
+    name: Aleksey Zimin, Ph.D.
+    titles:
+      - Research Scientist
+    affiliations:
+      - bme
+      - wse
+    homepage: /people/alekseyz/index
+    email: alekseyz@jhu.edu
+    role: faculty
   - id: ales-varabyou
     name: Ales Varabyou, Ph.D.
     homepage: https://alevar.github.io/
@@ -117,213 +41,6 @@ people:
       - '[PacBio](https://www.pacb.com/)'
     email: ales.varabyou@jhu.edu
     role: alumni
-  - id: alyssa-frazee
-    name: Alyssa Frazee, Ph.D.
-    homepage: https://alyssafrazee.com
-    affiliations:
-      - '[Stripe](https://stripe.com)'
-    email: alyssa.frazee@gmail.com
-    role: alumni
-  - id: daehwan-kim
-    name: Daehwan Kim, Ph.D.
-    homepage: https://kim-lab.org/
-    affiliations:
-      - University of Toronto
-      - '[OMPHALOS Lifesciences](https://omphaloslifesci.com/)'
-    labs:
-      - steven-l-salzberg @ JHU
-    email: infphilo@gmail.com
-    role: alumni
-  - id: derrick-wood
-    name: Derrick Wood, Ph.D.
-    titles:
-      - Founder
-    affiliations:
-      - '[Blackjack Biotechnologies](https://www.blackjackbiotech.com/)'
-    labs:
-      - steven-l-salzberg @ JHU
-    email: dwood@cs.umd.edu
-    role: alumni
-  - id: hilary-parker
-    name: Hilary Parker, Ph.D.
-    homepage: https://biostat.jhsph.edu/~hiparker/
-    affiliations:
-      - Department of Biostatistics
-      - Johns Hopkins Bloomberg School of Public Health
-    email: hilary@jhu.edu
-    role: alumni
-  - id: jennifer-lu
-    name: Jennifer Lu, Ph.D.
-    titles:
-      - Staff Engineer
-    affiliations:
-      - '[Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)'
-    labs:
-      - steven-l-salzberg @ JHU
-    email: jennifer.lu717@gmail.com
-    role: alumni
-  - id: ida-shinder
-    name: Ida Shinder
-    labs:
-      - steven-l-salzberg @ JHU (until 2025)
-    email: ishinde1@jhmi.edu
-    role: alumni
-  - id: jakob-heinz
-    name: Jakob Heinz
-    email: jheinz3@jhu.edu
-    role: alumni
-  - id: kuan-hao-chao
-    name: Kuan-Hao Chao, Ph.D.
-    homepage: https://khchao.com/
-    titles:
-      - Senior Deep Learning Scientist
-    affiliations:
-      - '[Illumina AI Lab](https://www.illumina.com/)'
-    labs:
-      - steven-l-salzberg @ JHU (until 2025)
-    email: kuanhao.chao@gmail.com
-    role: alumni
-  - id: li-song
-    name: Li Song, Ph.D.
-    homepage: https://mourisl.github.io/
-    titles:
-      - Assistant Professor
-    affiliations:
-      - '[Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)'
-    labs:
-      - liliana-florea @ JHU (until 2018)
-    email: Li.Song@dartmouth.edu
-    role: alumni
-  - id: markus-sommer
-    name: Markus Sommer, Ph.D.
-    homepage: https://www.markus.bio/
-    titles:
-      - Principal Scientist
-      - Principal Investigator
-    affiliations:
-      - '[Aletira Therapeutics](https://aletiratherapeutics.com)'
-      - '[National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)'
-    labs:
-      - steven-l-salzberg @ JHU (until 2024)
-    email: markusjsommer@gmail.com
-    role: alumni
-  - id: rachel-sherman
-    name: Rachel Sherman, Ph.D.
-    titles:
-      - Staff Bioinformatics Support Scientist
-    affiliations:
-      - Salzberg Lab @ JHU (until 2020)
-      - '[Illumina](https://www.illumina.com/)'
-    labs:
-      - steven-l-salzberg @ JHU (until 2020)
-    email: rachel.sherman@illumina.com
-    role: alumni
-  - id: carl-kingsford
-    name: Carl Kingsford, Ph.D.
-    homepage: https://kingsfordlab.cbd.cmu.edu/
-    titles:
-      - Professor of Computer Science
-    affiliations:
-      - Ray and Stephanie Lane Center for Computational Biology
-      - '[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)'
-    email: carlk@cs.cmu.edu
-    role: collaborators
-  - id: cole-trapnell
-    name: Cole Trapnell, Ph.D.
-    homepage: https://cole-trapnell-lab.github.io/
-    titles:
-      - Associate Professor of Genome Sciences
-    affiliations:
-      - '[Rinn Lab](https://www.rinnlab.com)'
-      - The Broad Institute of MIT and Harvard
-      - UW Genome Sciences
-    email: coletrap@uw.edu
-    role: collaborators
-  - id: elana-fertig
-    name: Elana Fertig, Ph.D.
-    homepage: https://fertiglab.com/
-    titles:
-      - Professor
-      - Director of the Institute for Genome Sciences at the University of Maryland
-        School of Medicine
-    email: ejfertig@jhmi.edu
-    role: collaborators
-  - id: james-a-yorke
-    name: James A. Yorke, Ph.D.
-    homepage: https://yorke.umd.edu/
-    titles:
-      - Distinguished University Professor
-    affiliations:
-      - Institute for Physical Sciences and Technology
-      - UMCP
-      - University of Maryland
-    email: yorke@umd.edu
-    role: collaborators
-  - id: mihai-pop
-    name: Mihai Pop, Ph.D.
-    homepage: https://pop-lab.org/
-    titles:
-      - Professor, Department of Computer Science
-      - Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)
-    affiliations:
-      - '[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)'
-      - University of Maryland
-    email: mpop@umiacs.umd.edu
-    role: collaborators
-  - id: najib-el-sayed
-    name: Najib El-Sayed, Ph.D.
-    homepage: https://www.najibelsayed.org/
-    titles:
-      - Principal Investigator
-    affiliations:
-      - Department of Cell Biology and Molecular Genetics
-      - University of Maryland
-    email: nelsayed@umiacs.umd.edu
-    role: collaborators
-  - id: the-pine-genome-project
-    name: The Pine Genome Project
-    homepage: https://pinegenome.org/pinerefseq/
-    titles:
-      - Pine Reference Sequences Project
-    affiliations:
-      - 'PineRefSeq: Conifer Reference Genome Sequencing'
-      - An adaptive approach to the sequencing of the large genomes of multiple conifer
-        species.
-    email: email@jhu.edu
-    role: collaborators
-  - id: steven-l-salzberg
-    name: Steven L. Salzberg, Ph.D.
-    titles:
-      - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science,
-        and Biostatistics
-      - Director, Center for Computational Biology
-    affiliations:
-      - bme
-      - cs
-      - bs
-    homepage: https://salzberg-lab.org
-    email: salzberg@jhu.edu
-    role: faculty
-  - id: dan-arking
-    name: Dan Arking, Ph.D.
-    titles:
-      - Professor
-    affiliations:
-      - dgm
-      - cardio
-      - som
-    homepage: https://github.com/TMAGOC/edge-pro/wiki
-    email: arking@jhmi.edu
-    role: faculty
-  - id: joel-bader
-    name: Joel Bader, Ph.D.
-    titles:
-      - Professor
-    affiliations:
-      - bme
-    homepage: https://www.baderzone.org
-    email: joel.bader@jhu.edu
-    role: faculty
   - id: alexis-battle
     name: Alexis Battle, Ph.D.
     titles:
@@ -337,104 +54,13 @@ people:
     homepage: https://battlelab.jhu.edu
     email: ajbattle@jhu.edu
     role: faculty
-  - id: michael-beer
-    name: Michael Beer, Ph.D.
-    titles:
-      - Professor
+  - id: alyssa-frazee
+    name: Alyssa Frazee, Ph.D.
+    homepage: https://alyssafrazee.com
     affiliations:
-      - bme
-      - dgm
-      - som
-    homepage: https://www.beerlab.org
-    email: mbeer@jhu.edu
-    role: faculty
-  - id: uthsav-chitra
-    name: Uthsav Chitra, Ph.D.
-    titles:
-      - Assistant Professor
-    affiliations:
-      - dgm
-      - wse
-    homepage: https://chitra-lab.github.io
-    email: uthsav@jhu.edu
-    role: faculty
-  - id: jean-fan
-    name: Jean Fan, Ph.D.
-    titles:
-      - Associate Professor
-    affiliations:
-      - bme
-      - wse
-    homepage: https://jef.works
-    email: jeanfan@jhu.edu
-    role: faculty
-  - id: liliana-florea
-    name: Liliana Florea, Ph.D.
-    titles:
-      - Associate Professor
-    affiliations:
-      - med
-      - dgm
-      - som
-    homepage: https://florealab.org
-    email: florea@jhu.edu
-    role: faculty
-  - id: jeffrey-j-gray
-    name: Jeffrey J. Gray, Ph.D.
-    titles:
-      - Professor
-    affiliations:
-      - chembe
-      - Program in Molecular & Computational Biophysics
-    homepage: https://graylab.jhu.edu
-    email: jgray@jhu.edu
-    role: faculty
-  - id: kasper-d-hansen
-    name: Kasper D. Hansen, Ph.D.
-    titles:
-      - Professor
-    affiliations:
-      - dgm
-      - bs
-      - sph
-    homepage: https://www.hansenlab.org
-    email: kasperdanielhansen@gmail.com
-    role: faculty
-  - id: stephanie-hicks
-    name: Stephanie Hicks, Ph.D.
-    titles:
-      - Associate Professor
-    affiliations:
-      - bme
-      - wse
-      - bs
-      - sph
-      - mc
-      - Center for Imaging Science
-    homepage: https://www.stephaniehicks.com
-    email: shicks19@jhu.edu
-    role: faculty
-  - id: hongkai-ji
-    name: Hongkai Ji, Ph.D.
-    titles:
-      - Professor
-    affiliations:
-      - bs
-      - sph
-    homepage: https://jilab.org
-    email: hji@jhsph.edu
-    role: faculty
-  - id: rachel-karchin
-    name: Rachel Karchin, Ph.D.
-    titles:
-      - Professor
-      - The William R. Brody Faculty Scholar
-    affiliations:
-      - bme
-      - dgm
-    homepage: https://www.karchinlab.org
-    email: karchin@jhu.edu
-    role: faculty
+      - '[Stripe](https://stripe.com)'
+    email: alyssa.frazee@gmail.com
+    role: alumni
   - id: ben-langmead
     name: Ben Langmead, Ph.D.
     titles:
@@ -444,177 +70,6 @@ people:
     homepage: https://langmead-lab.org
     email: langmea@cs.jhu.edu
     role: faculty
-  - id: david-j-lipman
-    name: David J. Lipman, M.D.
-    titles:
-      - Adjunct Research Scientist
-    affiliations:
-      - bme
-      - '2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA'
-      - '1989-2017: Director, National Center for Biotechnology Information, NIH'
-    email: dlipman4@jh.edu
-    role: faculty
-  - id: rajiv-mccoy
-    name: Rajiv McCoy, Ph.D.
-    titles:
-      - Assistant Professor
-    affiliations:
-      - bio
-    homepage: https://mccoy-lab.org
-    email: rajiv.mccoy@jhu.edu
-    role: faculty
-  - id: mihaela-pertea
-    name: Mihaela Pertea, Ph.D.
-    titles:
-      - Associate Professor
-      - Associate Director, Center for Computational Biology
-    affiliations:
-      - bme
-      - dgm
-      - som
-    homepage: https://pertealab.org
-    email: mpertea@jhu.edu
-    role: faculty
-  - id: adam-phillippy
-    name: Adam Phillippy, Ph.D.
-    titles:
-      - Bloomberg Distinguished Professor
-    affiliations:
-      - cs
-      - bme
-      - dgm
-    homepage: https://genomeinformatics.github.io
-    email: aphillippy@jhu.edu
-    role: faculty
-  - id: suchi-saria
-    name: Suchi Saria, Ph.D.
-    titles:
-      - Associate Professor
-    affiliations:
-      - Machine Learning, Biomedical & Health Informatics
-      - cs
-      - Department of Health Policy & Management
-      - icm
-    homepage: https://engineering.jhu.edu/faculty/suchi-saria/
-    email: ssaria@cs.jhu.edu
-    role: faculty
-  - id: robert-scharpf
-    name: Robert Scharpf, Ph.D.
-    titles:
-      - Associate Professor
-    affiliations:
-      - skcc
-      - som
-    homepage: https://rscharpf.github.io/index.html
-    email: rscharpf@jhsph.edu
-    role: faculty
-  - id: michael-schatz
-    name: Michael Schatz, Ph.D.
-    titles:
-      - Bloomberg Distinguished Professor
-    affiliations:
-      - cs
-    homepage: https://schatz-lab.org
-    email: mschatz@cs.jhu.edu
-    role: faculty
-  - id: margaret-taub
-    name: Margaret Taub, Ph.D.
-    titles:
-      - Associate Scientist
-    affiliations:
-      - bs
-      - sph
-    homepage: https://www.biostat.jhsph.edu/~mtaub/About.html
-    email: mtaub@jhsph.edu
-    role: faculty
-  - id: james-taylor
-    name: James Taylor, Ph.D.
-    titles:
-      - 'In memoriam: Professor of Biology'
-    affiliations:
-      - bio
-      - ksas
-    role: faculty
-  - id: winston-timp
-    name: Winston Timp, Ph.D.
-    titles:
-      - Associate Professor
-    affiliations:
-      - bme
-      - wse
-    homepage: https://www.timplab.org
-    email: wtimp@jhu.edu
-    role: faculty
-  - id: aleksey-zimin
-    name: Aleksey Zimin, Ph.D.
-    titles:
-      - Research Scientist
-    affiliations:
-      - bme
-      - wse
-    homepage: /people/alekseyz/index
-    email: alekseyz@jhu.edu
-    role: faculty
-  - id: courtney-hall
-    name: Courtney Hall, Ph.D.
-    titles:
-      - Postdoc
-    labs:
-      - winston-timp
-    affiliations:
-      - bme
-      - wse
-    email: chall106@jh.edu
-    role: postdocs
-  - id: harun-mustafa
-    name: Harun Mustafa, Ph.D.
-    titles:
-      - Postdoc
-    labs:
-      - steven-l-salzberg
-    affiliations:
-      - bme
-      - wse
-    email: hmustaf6@jh.edu
-    role: postdocs
-  - id: srujan-singh
-    name: Srujan Singh, Ph.D.
-    titles:
-      - Postdoc
-    labs:
-      - jean-fan
-    affiliations:
-      - bme
-      - wse
-    email: ssingh95@jhu.edu
-    role: postdocs
-  - id: rebecca-keener
-    name: Rebecca Keener, Ph.D.
-    titles:
-      - Assistant Research Scientist, Battle Lab
-    affiliations:
-      - bme
-      - wse
-    email: rkeener@jhmi.edu
-    role: staff
-  - id: daniela-puiu
-    name: Daniela Puiu, M.S.
-    titles:
-      - Bioinformatics Engineer & Senior Software Engineer
-    affiliations:
-      - bme
-      - wse
-    email: dpuiu@jhu.edu
-    role: staff
-  - id: sarah-bailey
-    name: Sarah Bailey
-    titles:
-      - Sr. Administrative Coordinator
-    affiliations:
-      - bme
-      - wse
-    email: sande125@jhu.edu
-    role: staff
   - id: beril-erdogdu
     name: Beril Erdogdu
     alt: Beril Erdogdu
@@ -638,6 +93,16 @@ people:
       - bme
     email: challin1@jh.edu
     role: students
+  - id: carl-kingsford
+    name: Carl Kingsford, Ph.D.
+    homepage: https://kingsfordlab.cbd.cmu.edu/
+    titles:
+      - Professor of Computer Science
+    affiliations:
+      - Ray and Stephanie Lane Center for Computational Biology
+      - '[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)'
+    email: carlk@cs.cmu.edu
+    role: collaborators
   - id: celine-hoh
     name: Celine Hoh
     alt: Celine Hoh
@@ -649,6 +114,63 @@ people:
       - cs
     email: choh1@jhu.edu
     role: students
+  - id: christopher-pockrandt
+    name: Christopher Pockrandt, Ph.D.
+    labs:
+      - steven-l-salzberg @ JHU (until Feb. 2022)
+    role: alumni
+  - id: cole-trapnell
+    name: Cole Trapnell, Ph.D.
+    homepage: https://cole-trapnell-lab.github.io/
+    titles:
+      - Associate Professor of Genome Sciences
+    affiliations:
+      - '[Rinn Lab](https://www.rinnlab.com)'
+      - The Broad Institute of MIT and Harvard
+      - UW Genome Sciences
+    email: coletrap@uw.edu
+    role: collaborators
+  - id: courtney-hall
+    name: Courtney Hall, Ph.D.
+    titles:
+      - Postdoc
+    labs:
+      - winston-timp
+    affiliations:
+      - bme
+      - wse
+    email: chall106@jh.edu
+    role: postdocs
+  - id: daehwan-kim
+    name: Daehwan Kim, Ph.D.
+    homepage: https://kim-lab.org/
+    affiliations:
+      - University of Toronto
+      - '[OMPHALOS Lifesciences](https://omphaloslifesci.com/)'
+    labs:
+      - steven-l-salzberg @ JHU
+    email: infphilo@gmail.com
+    role: alumni
+  - id: dan-arking
+    name: Dan Arking, Ph.D.
+    titles:
+      - Professor
+    affiliations:
+      - dgm
+      - cardio
+      - som
+    homepage: https://github.com/TMAGOC/edge-pro/wiki
+    email: arking@jhmi.edu
+    role: faculty
+  - id: daniela-puiu
+    name: Daniela Puiu, M.S.
+    titles:
+      - Bioinformatics Engineer & Senior Software Engineer
+    affiliations:
+      - bme
+      - wse
+    email: dpuiu@jhu.edu
+    role: staff
   - id: david-bass
     name: David Bass
     alt: David Bass
@@ -660,6 +182,73 @@ people:
       - '[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)'
     email: dbass13@jh.edu
     role: students
+  - id: david-j-lipman
+    name: David J. Lipman, M.D.
+    titles:
+      - Adjunct Research Scientist
+    affiliations:
+      - bme
+      - '2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA'
+      - '1989-2017: Director, National Center for Biotechnology Information, NIH'
+    email: dlipman4@jh.edu
+    role: faculty
+  - id: derrick-wood
+    name: Derrick Wood, Ph.D.
+    titles:
+      - Founder
+    affiliations:
+      - '[Blackjack Biotechnologies](https://www.blackjackbiotech.com/)'
+    labs:
+      - steven-l-salzberg @ JHU
+    email: dwood@cs.umd.edu
+    role: alumni
+  - id: elana-fertig
+    name: Elana Fertig, Ph.D.
+    homepage: https://www.medschool.umaryland.edu/profiles/fertig-elana/
+    titles:
+      - Professor
+      - Director of the Institute for Genome Sciences at the University of Maryland
+        School of Medicine
+    email: ejfertig@jhmi.edu
+    role: collaborators
+  - id: florian-breitwieser
+    name: Florian Breitwieser, Ph.D.
+    titles:
+      - Principal Software Engineer
+    labs:
+      - steven-l-salzberg @ JHU (until Feb. 2020)
+    affiliations:
+      - '[SOPHiA GENETICS](https://www.sophiagenetics.com/)'
+    email: florian.bw@gmail.com
+    role: alumni
+  - id: harun-mustafa
+    name: Harun Mustafa, Ph.D.
+    titles:
+      - Postdoc
+    labs:
+      - steven-l-salzberg
+    affiliations:
+      - bme
+      - wse
+    email: hmustaf6@jh.edu
+    role: postdocs
+  - id: hilary-parker
+    name: Hilary Parker, Ph.D.
+    affiliations:
+      - Department of Biostatistics
+      - Johns Hopkins Bloomberg School of Public Health
+    email: hilary@jhu.edu
+    role: alumni
+  - id: hongkai-ji
+    name: Hongkai Ji, Ph.D.
+    titles:
+      - Professor
+    affiliations:
+      - bs
+      - sph
+    homepage: https://jilab.org
+    email: hji@jhsph.edu
+    role: faculty
   - id: hyun-joo-ji
     name: Hyun Joo Ji
     alt: Hyun Joo Ji
@@ -671,6 +260,85 @@ people:
       - cs
     email: hji20@jh.edu
     role: students
+  - id: ida-shinder
+    name: Ida Shinder
+    labs:
+      - steven-l-salzberg @ JHU (until 2025)
+    email: ishinde1@jhmi.edu
+    role: alumni
+  - id: ilia-minkin
+    name: Ilia Minkin, Ph.D.
+    homepage: https://iminkin.github.io/
+    titles:
+      - Postdoctoral Associate
+    labs:
+      - steven-l-salzberg @ JHU (until 2025)
+    affiliations:
+      - '[Broad Institute](https://www.broadinstitute.org)'
+    email: iminkin@broadinstitute.org
+    role: alumni
+  - id: jakob-heinz
+    name: Jakob Heinz
+    email: jheinz3@jhu.edu
+    role: alumni
+  - id: james-a-yorke
+    name: James A. Yorke, Ph.D.
+    homepage: https://ipst.umd.edu/people/james-a-yorke
+    titles:
+      - Distinguished University Professor
+    affiliations:
+      - Institute for Physical Sciences and Technology
+      - UMCP
+      - University of Maryland
+    email: yorke@umd.edu
+    role: collaborators
+  - id: james-taylor
+    name: James Taylor, Ph.D.
+    titles:
+      - 'In memoriam: Professor of Biology'
+    affiliations:
+      - bio
+      - ksas
+    role: faculty
+  - id: jean-fan
+    name: Jean Fan, Ph.D.
+    titles:
+      - Associate Professor
+    affiliations:
+      - bme
+      - wse
+    homepage: https://jef.works
+    email: jeanfan@jhu.edu
+    role: faculty
+  - id: jeffrey-j-gray
+    name: Jeffrey J. Gray, Ph.D.
+    titles:
+      - Professor
+    affiliations:
+      - chembe
+      - Program in Molecular & Computational Biophysics
+    homepage: https://engineering.jhu.edu/faculty/jeffrey-gray/
+    email: jgray@jhu.edu
+    role: faculty
+  - id: jennifer-lu
+    name: Jennifer Lu, Ph.D.
+    titles:
+      - Staff Engineer
+    affiliations:
+      - '[Johns Hopkins Medicine, Division of Infectious Diseases](https://www.hopkinsmedicine.org/infectious-diseases)'
+    labs:
+      - steven-l-salzberg @ JHU
+    email: jennifer.lu717@gmail.com
+    role: alumni
+  - id: joel-bader
+    name: Joel Bader, Ph.D.
+    titles:
+      - Professor
+    affiliations:
+      - bme
+    homepage: https://www.baderzone.org
+    email: joel.bader@jhu.edu
+    role: faculty
   - id: kalen-clifton
     name: Kalen Clifton
     alt: Kalen Clifton
@@ -682,6 +350,137 @@ people:
       - bme
     email: kclifto2@jh.edu
     role: students
+  - id: kasper-d-hansen
+    name: Kasper D. Hansen, Ph.D.
+    titles:
+      - Professor
+    affiliations:
+      - dgm
+      - bs
+      - sph
+    homepage: https://www.hansenlab.org
+    email: kasperdanielhansen@gmail.com
+    role: faculty
+  - id: kuan-hao-chao
+    name: Kuan-Hao Chao, Ph.D.
+    homepage: https://khchao.com/
+    titles:
+      - Senior Deep Learning Scientist
+    affiliations:
+      - '[Illumina AI Lab](https://www.illumina.com/)'
+    labs:
+      - steven-l-salzberg @ JHU (until 2025)
+    email: kuanhao.chao@gmail.com
+    role: alumni
+  - id: li-song
+    name: Li Song, Ph.D.
+    homepage: https://mourisl.github.io/
+    titles:
+      - Assistant Professor
+    affiliations:
+      - '[Dartmouth Geisel School of Medicine](https://geiselmed.dartmouth.edu/bmds/)'
+    labs:
+      - liliana-florea @ JHU (until 2018)
+    email: Li.Song@dartmouth.edu
+    role: alumni
+  - id: liliana-florea
+    name: Liliana Florea, Ph.D.
+    titles:
+      - Associate Professor
+    affiliations:
+      - med
+      - dgm
+      - som
+    homepage: https://florealab.org
+    email: florea@jhu.edu
+    role: faculty
+  - id: margaret-taub
+    name: Margaret Taub, Ph.D.
+    titles:
+      - Associate Scientist
+    affiliations:
+      - bs
+      - sph
+    homepage: https://publichealth.jhu.edu/faculty/2744/margaret-taub
+    email: mtaub@jhsph.edu
+    role: faculty
+  - id: markus-sommer
+    name: Markus Sommer, Ph.D.
+    homepage: https://www.markus.bio/
+    titles:
+      - Principal Scientist
+      - Principal Investigator
+    affiliations:
+      - '[Aletira Therapeutics](https://aletiratherapeutics.com)'
+      - '[National Biodefense Analysis and Countermeasures Center](https://www.dhs.gov/science-and-technology/national-biodefense-analysis-and-countermeasures-center)'
+    labs:
+      - steven-l-salzberg @ JHU (until 2024)
+    email: markusjsommer@gmail.com
+    role: alumni
+  - id: martin-steinegger
+    name: Martin Steinegger, Ph.D.
+    homepage: https://steineggerlab.com
+    titles:
+      - Assistant Professor
+    labs:
+      - steven-l-salzberg @ JHU (until Feb. 2020)
+    affiliations:
+      - '[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)'
+    email: martin.steinegger@snu.ac.kr
+    role: alumni
+  - id: michael-beer
+    name: Michael Beer, Ph.D.
+    titles:
+      - Professor
+    affiliations:
+      - bme
+      - dgm
+      - som
+    homepage: https://www.beerlab.org
+    email: mbeer@jhu.edu
+    role: faculty
+  - id: michael-schatz
+    name: Michael Schatz, Ph.D.
+    titles:
+      - Bloomberg Distinguished Professor
+    affiliations:
+      - cs
+    homepage: https://schatz-lab.org
+    email: mschatz@cs.jhu.edu
+    role: faculty
+  - id: mihaela-pertea
+    name: Mihaela Pertea, Ph.D.
+    titles:
+      - Associate Professor
+      - Associate Director, Center for Computational Biology
+    affiliations:
+      - bme
+      - dgm
+      - som
+    homepage: https://pertealab.org
+    email: mpertea@jhu.edu
+    role: faculty
+  - id: mihai-pop
+    name: Mihai Pop, Ph.D.
+    homepage: https://pop-lab.org/
+    titles:
+      - Professor, Department of Computer Science
+      - Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)
+    affiliations:
+      - '[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)'
+      - University of Maryland
+    email: mpop@umiacs.umd.edu
+    role: collaborators
+  - id: najib-el-sayed
+    name: Najib El-Sayed, Ph.D.
+    homepage: http://www.najibelsayed.org/
+    titles:
+      - Principal Investigator
+    affiliations:
+      - Department of Cell Biology and Molecular Genetics
+      - University of Maryland
+    email: nelsayed@umiacs.umd.edu
+    role: collaborators
   - id: nikola-zadorozhny
     name: Nikola Zadorozhny
     alt: Nikola Zadorozhny
@@ -694,6 +493,28 @@ people:
       - cs
     email: nikola.zadorozhny@gmail.com
     role: students
+  - id: rachel-karchin
+    name: Rachel Karchin, Ph.D.
+    titles:
+      - Professor
+      - The William R. Brody Faculty Scholar
+    affiliations:
+      - bme
+      - dgm
+    homepage: https://www.karchinlab.org
+    email: karchin@jhu.edu
+    role: faculty
+  - id: rachel-sherman
+    name: Rachel Sherman, Ph.D.
+    titles:
+      - Staff Bioinformatics Support Scientist
+    affiliations:
+      - Salzberg Lab @ JHU (until 2020)
+      - '[Illumina](https://www.illumina.com/)'
+    labs:
+      - steven-l-salzberg @ JHU (until 2020)
+    email: rachel.sherman@illumina.com
+    role: alumni
   - id: radhika-jangi
     name: Radhika Jangi
     alt: Radhika Jangi
@@ -716,6 +537,184 @@ people:
       - bme
     email: rpeixot1@jh.edu
     role: students
+  - id: rafael-irizarry
+    name: Rafael Irizarry, Ph.D.
+    homepage: https://rafalab.dfci.harvard.edu/
+    titles:
+      - Professor
+    affiliations:
+      - JHU Biostatistics (until June 2013)
+      - '[Dana Farber Cancer Institute](https://www.dana-farber.org/)'
+      - Harvard University
+    email: rafa@jhu.edu
+    role: alumni
+  - id: rajiv-mccoy
+    name: Rajiv McCoy, Ph.D.
+    titles:
+      - Assistant Professor
+    affiliations:
+      - bio
+    homepage: https://mccoy-lab.org
+    email: rajiv.mccoy@jhu.edu
+    role: faculty
+  - id: rebecca-keener
+    name: Rebecca Keener, Ph.D.
+    titles:
+      - Assistant Research Scientist, Battle Lab
+    affiliations:
+      - bme
+      - wse
+    email: rkeener@jhmi.edu
+    role: staff
+  - id: robert-scharpf
+    name: Robert Scharpf, Ph.D.
+    titles:
+      - Associate Professor
+    affiliations:
+      - skcc
+      - som
+    homepage: https://rscharpf.github.io/index.html
+    email: rscharpf@jhsph.edu
+    role: faculty
+  - id: sarah-bailey
+    name: Sarah Bailey
+    titles:
+      - Sr. Administrative Coordinator
+    affiliations:
+      - bme
+      - wse
+    email: sande125@jhu.edu
+    role: staff
+  - id: srujan-singh
+    name: Srujan Singh, Ph.D.
+    titles:
+      - Postdoc
+    labs:
+      - jean-fan
+    affiliations:
+      - bme
+      - wse
+    email: ssingh95@jhu.edu
+    role: postdocs
+  - id: stefan-canzar
+    name: Stefan Canzar, Ph.D.
+    homepage: https://canzarlab.com/
+    titles:
+      - Professor
+    labs:
+      - steven-l-salzberg @ JHU
+    affiliations:
+      - '[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)'
+    email: stefan.canzar@ur.de
+    role: alumni
+  - id: stephan-pabinger
+    name: Stephan Pabinger, Ph.D.
+    homepage: https://pabinger.site44.com
+    titles:
+      - Postdoctoral Research Fellow
+    labs:
+      - steven-l-salzberg @ JHU
+    affiliations:
+      - McKusick-Nathans Institute of Genetic Medicine
+      - '[Aldi](https://www.aldicareers.com.au/)'
+    email: stephan.pabinger@i-med.ac.at
+    role: alumni
+  - id: stephanie-hicks
+    name: Stephanie Hicks, Ph.D.
+    titles:
+      - Associate Professor
+    affiliations:
+      - bme
+      - wse
+      - bs
+      - sph
+      - mc
+      - Center for Imaging Science
+    homepage: https://www.stephaniehicks.com
+    email: shicks19@jhu.edu
+    role: faculty
+  - id: steven-l-salzberg
+    name: Steven L. Salzberg, Ph.D.
+    titles:
+      - Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science,
+        and Biostatistics
+      - Director, Center for Computational Biology
+    affiliations:
+      - bme
+      - cs
+      - bs
+    homepage: https://salzberg-lab.org
+    email: salzberg@jhu.edu
+    role: faculty
+  - id: suchi-saria
+    name: Suchi Saria, Ph.D.
+    titles:
+      - Associate Professor
+    affiliations:
+      - Machine Learning, Biomedical & Health Informatics
+      - cs
+      - Department of Health Policy & Management
+      - icm
+    homepage: https://engineering.jhu.edu/faculty/suchi-saria/
+    email: ssaria@cs.jhu.edu
+    role: faculty
+  - id: tanja-magoc
+    name: Tanja Magoc, Ph.D.
+    homepage: https://idr.ufhealth.org/profile/magoc-tanja/
+    titles:
+      - Postdoctoral Research Fellow
+    labs:
+      - steven-l-salzberg @ JHU
+    affiliations:
+      - '[HEPData](https://hepdata.com/)'
+      - Associate Director, AI/QI Program, Quality and Patient Safety Initiative
+      - '[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)'
+    email: t.magoc@gmail.com
+    role: alumni
+  - id: the-pine-genome-project
+    name: The Pine Genome Project
+    homepage: https://nealelab.ucdavis.edu/pinerefseq/
+    titles:
+      - Pine Reference Sequences Project
+    affiliations:
+      - 'PineRefSeq: Conifer Reference Genome Sequencing'
+      - An adaptive approach to the sequencing of the large genomes of multiple conifer
+        species.
+    email: email@jhu.edu
+    role: collaborators
+  - id: todd-j-treangen
+    name: Todd J. Treangen, Ph.D.
+    homepage: https://profiles.rice.edu/faculty/todd-treangen
+    titles:
+      - Senior Bioinformatics Scientist
+    labs:
+      - steven-l-salzberg @ JHU
+    affiliations:
+      - CCB UMD
+      - National Biodefense Analysis and Countermeasures Center
+      - '[Rice University](https://profiles.rice.edu/faculty/todd-treangen)'
+    email: treangen@gmail.com
+    role: alumni
+  - id: uthsav-chitra
+    name: Uthsav Chitra, Ph.D.
+    titles:
+      - Assistant Professor
+    affiliations:
+      - dgm
+      - wse
+    homepage: https://chitra-lab.github.io
+    email: uthsav@jhu.edu
+    role: faculty
+  - id: winston-timp
+    name: Winston Timp, Ph.D.
+    titles:
+      - Associate Professor
+    affiliations:
+      - bme
+      - wse
+    homepage: https://www.timplab.org
+    email: wtimp@jhu.edu
+    role: faculty
   - id: yuchen-ge
     name: Yuchen Ge
     alt: Yuchen Ge

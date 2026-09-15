@@ -26,20 +26,20 @@ software:
     status: current
     category:
       - variant-analysis
-    url: https://bitbucket.org/baderlab/fast/wiki/Home
+    url: https://bitbucket.org/baderlab/fast/downloads/
     pmcid: PMC3720833
     description: 'An application for genome-wide studies by efficiently running several
       gene-based analysis methods simultaneously on the same data set.'
 
-  - id: ls-snp-pdb
-    name: LS-SNP/PDB
-    status: current
-    category:
-      - variant-analysis
-    url: https://ls-snp.icm.jhu.edu
-    pmcid: PMC6276889
-    description: 'Web tool for structural annotations and visualizations of missense
-      variants in dbSNP.'
+#  - id: ls-snp-pdb
+#    name: LS-SNP/PDB
+#    status: current
+#    category:
+#      - variant-analysis
+#    url: https://ls-snp.icm.jhu.edu
+#    pmcid: PMC6276889
+#    description: 'Web tool for structural annotations and visualizations of missense
+#      variants in dbSNP.'
 
   - id: mupit
     name: muPIT

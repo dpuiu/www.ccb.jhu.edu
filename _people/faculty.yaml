@@ -94,7 +94,7 @@ people:
     affiliations:
       - chembe
       - Program in Molecular & Computational Biophysics
-    homepage: https://graylab.jhu.edu
+    homepage: https://engineering.jhu.edu/faculty/jeffrey-gray/
     email: jgray@jhu.edu
     role: faculty
   - id: kasper-d-hansen
@@ -232,7 +232,7 @@ people:
     affiliations:
       - bs
       - sph
-    homepage: https://www.biostat.jhsph.edu/~mtaub/About.html
+    homepage: https://publichealth.jhu.edu/faculty/2744/margaret-taub
     email: mtaub@jhsph.edu
     role: faculty
   - id: james-taylor

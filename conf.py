@@ -22,6 +22,7 @@ exclude_patterns = [
     "OLD",
     ".venv",
     "README*md",
+    ".lycheecache"
 ]
 
 extensions = [
@@ -103,8 +104,8 @@ myst_substitutions = {
     "idies": "[Institute for Data-Intensive Engineering and Science](https://www.idies.jhu.edu/)",
     "IDES": "[IDES](https://www.idies.jhu.edu/)",
 
-    "jhu": "[Johns Hopkins University](http://www.jhu.edu/)",
-    "JHU": "[JHU](http://www.jhu.edu/)",
+    "jhu": "[Johns Hopkins University](https://www.jhu.edu/)",
+    "JHU": "[JHU](https://www.jhu.edu/)",
 
     "ksas": "[Krieger School of Arts and Sciences](https://krieger.jhu.edu/)",
     "KSAS": "[KSAS](https://krieger.jhu.edu/)",
@@ -122,33 +123,7 @@ myst_substitutions = {
     "SPH": "[SPH](https://publichealth.jhu.edu/)",
 
     "wse": "[Whiting School of Engineering](https://engineering.jhu.edu/)",
-    "WSE": "[WSE](https://engineering.jhu.edu/)",
-
-    "PUB": (
-        "https://pmc.ncbi.nlm.nih.gov/search/?"
-        "term="
-        "Salzberg+SL%5Bau%5D+OR+Steven+Salzberg%5Bau%5D+OR+Steven+L.+Salzberg%5Bau%5D+OR+"
-        "Dan+Arking%5Bau%5D+OR+"
-        "Joel+Bader%5Bau%5D+OR+"
-        "Alexis+Battle%5Bau%5D+OR+"
-        "Michael+Beer%5Bau%5D+OR+"
-        "Jean+Fan%5Bau%5D+OR+"
-        "Liliana+Florea%5Bau%5D+OR+"
-        "Kasper+D.+Hansen%5Bau%5D+OR+"
-        "Stephanie+Hicks%5Bau%5D+OR+"
-        "Hongkai+Ji%5Bau%5D+OR+"
-        "Rachel+Karchin%5Bau%5D+OR+"
-        "Ben+Langmead%5Bau%5D+OR+"
-        "Rajiv+McCoy%5Bau%5D+OR+"
-        "Mihaela+Pertea%5Bau%5D+OR+"
-        "Suchi+Saria%5Bau%5D+OR+"
-        "Robert+Scharpf%5Bau%5D+OR+"
-        "Michael+Schatz%5Bau%5D+OR+"
-        "Margaret+Taub%5Bau%5D+OR+"
-        "Winston+Timp%5Bau%5D+OR+"
-        "Aleksey+Zimin%5Bau%5D"
-        "&sort=pubdate&size=10&display_snippets=show"
-    ),
+    "WSE": "[WSE](https://engineering.jhu.edu/)"
 }
 
 
@@ -182,7 +157,6 @@ html_extra_path = [
 ]
 
 html_css_files = [
-    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap",
     "custom.css",
 ]
 
@@ -215,9 +189,9 @@ html_meta = {
 # HTML context
 # =============================================================================
 
-html_context = {
-    "PUB": myst_substitutions["PUB"],
-}
+#html_context = {
+#    "PUB": myst_substitutions["PUB"],
+#}
 
 
 # =============================================================================
@@ -254,12 +228,12 @@ html_theme_options = {
         },
     ],
 
-    # "external_links": [
-    #     {
-    #         "name": "JHU",
-    #         "url": "https://jhu.edu",
-    #     },
-    # ],
+#    "external_links": [
+#     {
+#         "name": "JHU",
+#         "url": "https://www.jhu.edu",
+#     },
+# ],
 }
 
 

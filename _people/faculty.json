@@ -1,0 +1,367 @@
+{
+  "people": [
+    {
+      "id": "steven-l-salzberg",
+      "name": "Steven L. Salzberg, Ph.D.",
+      "titles": [
+        "Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics",
+        "Director, Center for Computational Biology"
+      ],
+      "affiliations": [
+        "bme",
+        "cs",
+        "bs"
+      ],
+      "homepage": "https://salzberg-lab.org",
+      "email": "salzberg@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "dan-arking",
+      "name": "Dan Arking, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "dgm",
+        "cardio",
+        "som"
+      ],
+      "homepage": "https://github.com/TMAGOC/edge-pro/wiki",
+      "email": "arking@jhmi.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "joel-bader",
+      "name": "Joel Bader, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "bme"
+      ],
+      "homepage": "https://www.baderzone.org",
+      "email": "joel.bader@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "alexis-battle",
+      "name": "Alexis Battle, Ph.D.",
+      "titles": [
+        "Wu & Zhang Professor",
+        "Director, Malone Center for Engineering in Healthcare",
+        "Deputy Executive Director, AI-X Foundry"
+      ],
+      "affiliations": [
+        "bme",
+        "cs",
+        "dgm"
+      ],
+      "homepage": "https://battlelab.jhu.edu",
+      "email": "ajbattle@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "michael-beer",
+      "name": "Michael Beer, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "bme",
+        "dgm",
+        "som"
+      ],
+      "homepage": "https://www.beerlab.org",
+      "email": "mbeer@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "uthsav-chitra",
+      "name": "Uthsav Chitra, Ph.D.",
+      "titles": [
+        "Assistant Professor"
+      ],
+      "affiliations": [
+        "dgm",
+        "wse"
+      ],
+      "homepage": "https://chitra-lab.github.io",
+      "email": "uthsav@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "jean-fan",
+      "name": "Jean Fan, Ph.D.",
+      "titles": [
+        "Associate Professor"
+      ],
+      "affiliations": [
+        "bme",
+        "wse"
+      ],
+      "homepage": "https://jef.works",
+      "email": "jeanfan@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "liliana-florea",
+      "name": "Liliana Florea, Ph.D.",
+      "titles": [
+        "Associate Professor"
+      ],
+      "affiliations": [
+        "med",
+        "dgm",
+        "som"
+      ],
+      "homepage": "https://florealab.org",
+      "email": "florea@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "jeffrey-j-gray",
+      "name": "Jeffrey J. Gray, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "chembe",
+        "Program in Molecular & Computational Biophysics"
+      ],
+      "homepage": "https://graylab.jhu.edu",
+      "email": "jgray@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "kasper-d-hansen",
+      "name": "Kasper D. Hansen, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "dgm",
+        "bs",
+        "sph"
+      ],
+      "homepage": "https://www.hansenlab.org",
+      "email": "kasperdanielhansen@gmail.com",
+      "role": "faculty"
+    },
+    {
+      "id": "stephanie-hicks",
+      "name": "Stephanie Hicks, Ph.D.",
+      "titles": [
+        "Associate Professor"
+      ],
+      "affiliations": [
+        "bme",
+        "wse",
+        "bs",
+        "sph",
+        "mc",
+        "Center for Imaging Science"
+      ],
+      "homepage": "https://www.stephaniehicks.com",
+      "email": "shicks19@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "hongkai-ji",
+      "name": "Hongkai Ji, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "bs",
+        "sph"
+      ],
+      "homepage": "https://jilab.org",
+      "email": "hji@jhsph.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "rachel-karchin",
+      "name": "Rachel Karchin, Ph.D.",
+      "titles": [
+        "Professor",
+        "The William R. Brody Faculty Scholar"
+      ],
+      "affiliations": [
+        "bme",
+        "dgm"
+      ],
+      "homepage": "https://www.karchinlab.org",
+      "email": "karchin@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "ben-langmead",
+      "name": "Ben Langmead, Ph.D.",
+      "titles": [
+        "Professor"
+      ],
+      "affiliations": [
+        "cs"
+      ],
+      "homepage": "https://langmead-lab.org",
+      "email": "langmea@cs.jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "david-j-lipman",
+      "name": "David J. Lipman, M.D.",
+      "titles": [
+        "Adjunct Research Scientist"
+      ],
+      "affiliations": [
+        "bme",
+        "2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA",
+        "1989-2017: Director, National Center for Biotechnology Information, NIH"
+      ],
+      "email": "dlipman4@jh.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "rajiv-mccoy",
+      "name": "Rajiv McCoy, Ph.D.",
+      "titles": [
+        "Assistant Professor"
+      ],
+      "affiliations": [
+        "bio"
+      ],
+      "homepage": "https://mccoy-lab.org",
+      "email": "rajiv.mccoy@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "mihaela-pertea",
+      "name": "Mihaela Pertea, Ph.D.",
+      "titles": [
+        "Associate Professor",
+        "Associate Director, Center for Computational Biology"
+      ],
+      "affiliations": [
+        "bme",
+        "dgm",
+        "som"
+      ],
+      "homepage": "https://pertealab.org",
+      "email": "mpertea@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "adam-phillippy",
+      "name": "Adam Phillippy, Ph.D.",
+      "titles": [
+        "Bloomberg Distinguished Professor"
+      ],
+      "affiliations": [
+        "cs",
+        "bme",
+        "dgm"
+      ],
+      "homepage": "https://genomeinformatics.github.io",
+      "email": "aphillippy@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "suchi-saria",
+      "name": "Suchi Saria, Ph.D.",
+      "titles": [
+        "Associate Professor"
+      ],
+      "affiliations": [
+        "Machine Learning, Biomedical & Health Informatics",
+        "cs",
+        "Department of Health Policy & Management",
+        "icm"
+      ],
+      "homepage": "https://engineering.jhu.edu/faculty/suchi-saria/",
+      "email": "ssaria@cs.jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "robert-scharpf",
+      "name": "Robert Scharpf, Ph.D.",
+      "titles": [
+        "Associate Professor"
+      ],
+      "affiliations": [
+        "skcc",
+        "som"
+      ],
+      "homepage": "https://rscharpf.github.io/index.html",
+      "email": "rscharpf@jhsph.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "michael-schatz",
+      "name": "Michael Schatz, Ph.D.",
+      "titles": [
+        "Bloomberg Distinguished Professor"
+      ],
+      "affiliations": [
+        "cs"
+      ],
+      "homepage": "https://schatz-lab.org",
+      "email": "mschatz@cs.jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "margaret-taub",
+      "name": "Margaret Taub, Ph.D.",
+      "titles": [
+        "Associate Scientist"
+      ],
+      "affiliations": [
+        "bs",
+        "sph"
+      ],
+      "homepage": "https://www.biostat.jhsph.edu/~mtaub/About.html",
+      "email": "mtaub@jhsph.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "james-taylor",
+      "name": "James Taylor, Ph.D.",
+      "titles": [
+        "In memoriam: Professor of Biology"
+      ],
+      "affiliations": [
+        "bio",
+        "ksas"
+      ],
+      "role": "faculty"
+    },
+    {
+      "id": "winston-timp",
+      "name": "Winston Timp, Ph.D.",
+      "titles": [
+        "Associate Professor"
+      ],
+      "affiliations": [
+        "bme",
+        "wse"
+      ],
+      "homepage": "https://www.timplab.org",
+      "email": "wtimp@jhu.edu",
+      "role": "faculty"
+    },
+    {
+      "id": "aleksey-zimin",
+      "name": "Aleksey Zimin, Ph.D.",
+      "titles": [
+        "Research Scientist"
+      ],
+      "affiliations": [
+        "bme",
+        "wse"
+      ],
+      "homepage": "/people/alekseyz/index",
+      "email": "alekseyz@jhu.edu",
+      "role": "faculty"
+    }
+  ]
+}

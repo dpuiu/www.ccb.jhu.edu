@@ -78,7 +78,7 @@ people:
     labs:
       - steven-l-salzberg @ JHU
     affiliations:
-      - '[HEPData](https://www.hepdata.com/)'
+      - '[HEPData](https://hepdata.com/)'
       - Associate Director, AI/QI Program, Quality and Patient Safety Initiative
       - '[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)'
     email: t.magoc@gmail.com
@@ -146,7 +146,6 @@ people:
     role: alumni
   - id: hilary-parker
     name: Hilary Parker, Ph.D.
-    homepage: https://biostat.jhsph.edu/~hiparker/
     affiliations:
       - Department of Biostatistics
       - Johns Hopkins Bloomberg School of Public Health

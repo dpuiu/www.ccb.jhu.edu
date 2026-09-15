@@ -352,3 +352,13 @@ p:has(a[href$=".py"]) {
 /*======================================================================
   END
 ======================================================================*/
+
+/*
+.example-container {
+    background-image: url("images/campus2-top.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 3rem;
+    color: white;
+}
+*/

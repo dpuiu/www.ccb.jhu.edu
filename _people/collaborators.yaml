@@ -22,7 +22,7 @@ people:
     role: collaborators
   - id: elana-fertig
     name: Elana Fertig, Ph.D.
-    homepage: https://fertiglab.com/
+    homepage: https://www.medschool.umaryland.edu/profiles/fertig-elana/
     titles:
       - Professor
       - Director of the Institute for Genome Sciences at the University of Maryland
@@ -31,7 +31,7 @@ people:
     role: collaborators
   - id: james-a-yorke
     name: James A. Yorke, Ph.D.
-    homepage: https://yorke.umd.edu/
+    homepage: https://ipst.umd.edu/people/james-a-yorke
     titles:
       - Distinguished University Professor
     affiliations:
@@ -53,7 +53,7 @@ people:
     role: collaborators
   - id: najib-el-sayed
     name: Najib El-Sayed, Ph.D.
-    homepage: https://www.najibelsayed.org/
+    homepage: http://www.najibelsayed.org/
     titles:
       - Principal Investigator
     affiliations:
@@ -63,7 +63,7 @@ people:
     role: collaborators
   - id: the-pine-genome-project
     name: The Pine Genome Project
-    homepage: https://pinegenome.org/pinerefseq/
+    homepage: https://nealelab.ucdavis.edu/pinerefseq/
     titles:
       - Pine Reference Sequences Project
     affiliations:

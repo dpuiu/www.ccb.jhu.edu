@@ -1243,3 +1243,116 @@ yq -r ' .software[].url' all.yaml  | sed 's|/wiki||'  | grep github | perl -ane 
 gh repo list dpuiu   --json name |   in2csv -f json   | sort | perl -ane 'print "gh repo archive -y $_";' | grep -v test
 gh repo archive -y dpuiu/ASprofile
 ...
+
+lychee -u 'curl' '_people/*yaml' > _people.lychee.out 
+lychee  -u 'curl' 'people/*md' >& people.lychee.out 
+
+more  _people.lychee.out   | grep -P '\|' | grep -v '200 OK' | awk '{print $1,$2}' | sort | uniq -c | sort -nr
+#no   2 [TIMEOUT] https://yorke.umd.edu/	-> https://ipst.umd.edu/people/james-a-yorke
+#?    2 [TIMEOUT] https://www.biostat.jhsph.edu/~mtaub/About.html -> https://publichealth.jhu.edu/faculty/2744/margaret-taub 
+#      2 [TIMEOUT] https://graylab.jhu.edu/ -> https://engineering.jhu.edu/faculty/jeffrey-gray/
+#      2 [TIMEOUT] https://fertiglab.com/ -> https://www.medschool.umaryland.edu/profiles/fertig-elana/
+#     2 [TIMEOUT] https://biostat.jhsph.edu/~hiparker/ delete
+#     2 [ERROR] https://www.najibelsayed.org/ -> http://www.najibelsayed.org/
+#no   2 [404] https://pinegenome.org/pinerefseq/ -> https://nealelab.ucdavis.edu/pinerefseq/
+
+#?Biostats change?
+#https://publichealth.jhu.edu/departments/biostatistics
+########
+
+cat conf.py | grep -v "#" | grep "](" | sed 's|](|\t|' | sed 's|)|\t|' | cut -f2 | sort -u > conf.urls
+cat conf.py | grep -v "#" | grep -P ":\s+\"htt" | sed 's|": "|\t|' | sed 's|",||' | cut -f2 >> conf.urls
+lychee --accept 200,403 -u 'curl' -vv conf.urls 
+lychee --accept 200,403           -vv conf.urls
+
+####
+#cat conf.urls | xargs -n1 curl -I
+#lychee --no-progress --no-follow conf.urls
+
+######
+lychee --cache --accept 200,301,403         --max-redirects 0 -vv conf.py
+lychee --cache --accept 200,301,302,403,406 --max-redirects 0 -vv _people/all.yaml
+lychee --cache --accept 200,301,302,403,406 --max-redirects 0 -vv _software/all.yaml
+lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv _software/all.yaml > /dev/null 
+
+cat conf.py         | grep -v ^# | grep http | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv -
+cat _people/*yaml   | grep -v ^# | grep http | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv -
+cat _software/*yaml | grep -v ^# | grep http | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv -
+cat _data/*yaml     | grep -v ^# | grep http | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv -
+
+cat education/*md   | egrep -v '^#|usnews.com' | grep http | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv  --host-concurrency 1  -
+# [ERROR] https://www.usnews.com/best-graduate-schools/top-science-schools/biological-sciences-rankings?_sort=rank-asc (at 17:63) | HTTP/2 protocol error. Server may not support HTTP/2 properly
+# [ERROR] https://www.usnews.com/best-graduate-schools/top-science-schools/biostatistics-rankings?_sort=rank-asc (at 8:40) | HTTP/2 protocol error. Server may not support HTTP/2 properly
+# [ERROR] https://www.usnews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings (at 4:40) | HTTP/2 protocol error. Server may not support HTTP/2 properly
+#[TIMEOUT] https://www.jhsph.edu/departments/biostatistics/academics-and-student-life/degree-programs/phd (at 9:14) | Request timed out
+#OK        https://publichealth.jhu.edu/academics/phd-dept-of-biostatistics
+#[TIMEOUT] https://www.jhsph.edu/courses/course/20168/2014/140.688.01/statistics-for-genomics (at 16:40) | Request timed out
+#          https://publichealth.jhu.edu/course/45554
+#[TIMEOUT] https://www.jhsph.edu/courses/course/19246/2014/140.638.01/analysis-of-biological-sequences (at 14:49) | Request timed out
+#?
+#[TIMEOUT] https://www.jhsph.edu/courses/course/20026/2014/140.644.01/statistical-machine-learning-methods-theory-and-ap (at 15:79) | Request timed out
+#          https://publichealth.jhu.edu/course/44689
+#[TIMEOUT] https://www.jhsph.edu/courses/course/18994/2014/140.776.01/statistical-computing (at 13:38) | Request timed out
+#          https://publichealth.jhu.edu/course/44507
+
+#https://e-catalogue.jhu.edu/
+#PH.140.776
+
+cat about/*md | egrep -v '^#|usnews.com' | grep http | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv  --host-concurrency 1  -
+cat cbcc/*md  | lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv  --host-concurrency 1  -
+
+##########
+
+lychee --cache --insecure --accept 200,301,302,403,406 --max-redirects 0 -vv _build/pydata_sphinx_theme/  >& _build.lychee &
+
+more _build.lychee | egrep -v '200|301|302|403|406|EXCLUDED|\en\' | sort -u
+[404] https://arxiv.org/abs/9408103 (at 5315:175) | Rejected status code: 404 Not Found
+[404] https://doi.org/10.1101/gr.281294.125 (at 6339:298) | Rejected status code: 404 Not Found
+#[404] https://dpuiu.github.io/www.ccb.jhu.edu/people/all.html (at 53:33) | Rejected status code: 404 Not Found
+# [TIMEOUT] https://jhu.edu/ (at 43:18) | Request timed out
+# [TIMEOUT] https://jhu.edu/ (at 460:94) | Request timed out
+
+
+more _build.lychee | egrep -v '200|301|302|403|406|EXCLUDED|/en/|usnews' | sort -u
+
+#########
+
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   _people/all.yaml
+	modified:   _people/alumni.yaml
+	modified:   _people/collaborators.yaml
+	modified:   _people/faculty.yaml
+	modified:   _publications/doi.bib
+	modified:   _software/all.yaml
+	modified:   _software/variant-analysis.yaml
+	modified:   _static/custom.css
+	modified:   conf.py
+
+	modified:   scripts/build_markdown_pages.sh
+	modified:   scripts/sphinx.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.github/workflows/deploy.yml0
+	_build.lychee
+	_people/faculty.json
+	_people/faculty2.json
+	_publications/doi.bib0
+	_static/images/campus2.webp
+	_static/images/campus3.webp
+	conf.py0
+	education/sample_courses.md0
+	examples/index.rst2
+	examples/index.rst3
+	examples/taxa.csv
+	other/
+	people/all.md
+	scripts/lychee.sh
+
