@@ -198,34 +198,35 @@ html_permalinks = True
 # =============================================================================
 
 html_theme_options = {
-    "header_links_before_dropdown": 10,
+    #"header_links_before_dropdown": 10,
 
     # "announcement": "Welcome 2026 Summer Interns!!!",
 
     "show_prev_next": False,
+    "default_mode": "light",
     # "sticky_banners": True,
 
-    "article_footer_items": [
-        "last-updated",
-        "edit-this-page",
-    ],
+    #"article_footer_items": [
+    #    "last-updated",
+    #    "edit-this-page",
+    #],
 
-    "content_footer_items": [
-        "last-updated",
-    ],
+    #"content_footer_items": [
+    #    "last-updated",
+    #],
 
-    "navbar_end": [
-        "theme-switcher",
-        "navbar-icon-links",
-    ],
+    #"navbar_end": [
+    #    "theme-switcher",
+    #    "navbar-icon-links",
+    #],
 
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/dpuiu/www.ccb.jhu.edu",
-            "icon": "fa-brands fa-github",
-        },
-    ],
+    #"icon_links": [
+    #    {
+    #        "name": "GitHub",
+    #        "url": "https://github.com/dpuiu/www.ccb.jhu.edu",
+    #        "icon": "fa-brands fa-github",
+    #    },
+    #],
 
 #    "external_links": [
 #     {

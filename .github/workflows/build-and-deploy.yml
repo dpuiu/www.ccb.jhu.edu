@@ -43,6 +43,7 @@ jobs:
       - name: Build Sphinx site
         run: |
           make html html_theme=pydata_sphinx_theme
+          ./scripts/fix_build.sh
           cp -a _build/pydata_sphinx_theme/. docs/
 
       - name: Upload Pages artifact
