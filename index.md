@@ -1,5 +1,4 @@
 ---
-title: CCB
 html_theme.sidebar_primary.remove: true
 html_theme.sidebar_secondary.remove: true
 ---
@@ -15,6 +14,16 @@ DATA <data/index>
 EDUCATION <education/index>
 CONSULTING CORE <cbcc/index>
 ```
+
+---
+
+```{raw} html
+<style> 
+h1 {display: none;} 
+</style>
+```
+
+# CCB
 
 :::{div} subtitle
 A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences

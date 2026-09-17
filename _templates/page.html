@@ -1,11 +1,22 @@
 {% extends "!page.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  <meta name="description" content="Center for Computational Biology at Johns Hopkins University supporting research, computing, and collaboration.">
+  <meta name="author" content="Daniela Puiu">
+  <meta name="robots" content="index, follow">
+{% endblock %}
+
 {% block docs_navbar %}
     {{ super() }}
 
     {% if pagename == "index" %}
     <div class="hero-banner">
-        <img src="{{ pathto('_static/images/campus2-top.webp', 1) }}" alt="Hero banner">
+	<picture>
+          <source media="(max-width: 400px)" srcset="{{ pathto('_static/images/campus2-phone.webp', 1) }}">
+	  <source media="(max-width: 800px)" srcset="{{ pathto('_static/images/campus2-tablet.webp', 1) }}">
+  	  <img src="{{ pathto('_static/images/campus2-desktop.webp', 1) }}" alt="Johns Hopkins campus">
+	</picture>
 
         <div class="hero-text">
           <b>JOHNS HOPKINS UNIVERSITY</b><br>

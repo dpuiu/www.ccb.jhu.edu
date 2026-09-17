@@ -169,21 +169,20 @@ html_permalinks = True
 
 
 # =============================================================================
-# HTML metadata
+# HTML metadata: moved to _templates/page.html
 # =============================================================================
 
-html_meta = {
-    "author": "Daniela Puiu",
-    "description": (
-        "Center for Computational Biology at Johns Hopkins University."
-    ),
-    "keywords": (
-        "CCB, WSE, JHU, bioinformatics, "
-        "computational biology, genomics"
-    ),
-    "robots": "index, follow",
-}
-
+#html_meta = {
+#    "author": "Daniela Puiu",
+#    "description": (
+#        "Center for Computational Biology at Johns Hopkins University."
+#    ),
+#    "keywords": (
+#        "CCB, WSE, JHU, bioinformatics, "
+#        "computational biology, genomics"
+#    ),
+#    "robots": "index, follow",
+#}
 
 # =============================================================================
 # HTML context
