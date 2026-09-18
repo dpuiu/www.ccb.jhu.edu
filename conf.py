@@ -145,7 +145,7 @@ html_title = "Center for Computational Biology"
 
 html_baseurl = "https://dpuiu.github.io/www.ccb.jhu.edu/"
 
-html_logo = "_static/logos/ccb_w_text_transparent_for_dark.webp"
+html_logo = "_static/logos/CCB.webp"
 html_favicon = "_static/favicon.ico"
 
 html_static_path = [    "_static",]
@@ -156,10 +156,7 @@ html_extra_path = [
     "_static/robots.txt",
 ]
 
-html_css_files = [
-    "custom.css",
-]
-
+html_css_files = [    "custom.css",]
 html_js_files = [    "custom.js",]
 
 html_search = True
@@ -203,7 +200,7 @@ html_theme_options = {
     # "announcement": "Welcome 2026 Summer Interns!!!",
 
     "show_prev_next": False,
-    "default_mode": "light",
+    #"default_mode": "light",
     # "sticky_banners": True,
 
     #"article_footer_items": [
@@ -220,13 +217,13 @@ html_theme_options = {
     #    "navbar-icon-links",
     #],
 
-    #"icon_links": [
-    #    {
-    #        "name": "GitHub",
-    #        "url": "https://github.com/dpuiu/www.ccb.jhu.edu",
-    #        "icon": "fa-brands fa-github",
-    #    },
-    #],
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/dpuiu/www.ccb.jhu.edu",
+            "icon": "fa-brands fa-github",
+        },
+    ],
 
 #    "external_links": [
 #     {

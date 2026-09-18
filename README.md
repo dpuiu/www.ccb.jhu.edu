@@ -271,7 +271,7 @@ tree .
 │       └── build-and-deploy.yml     # Build and deployment workflow
 │
 ├── scripts/                         # Website automation scripts
-│   └── build_markdown_pages.sh      # YAML validation and Markdown generation
+│   └── generate_markdown.sh         # YAML validation and Markdown generation
 │
 └── _build/                          # Generated Sphinx output
 ```
@@ -479,7 +479,7 @@ individual websites. See the {doc}`/people/faculty` page for those sites.
 >
 > **Do not edit these generated Markdown files directly.** Instead, edit the appropriate YAML source file, validate it against the corresponding JSON schema, and regenerate the Markdown pages.
 >
-> The script `scripts/build_markdown_pages.sh` contains the commands for validating the YAML files and generating the Markdown pages.
+> The script `scripts/generate_markdown.sh` contains the commands for validating the YAML files and generating the Markdown pages.
 
 For pages that are **not generated**, such as pages under `about/`, edit the Markdown file directly.
 
@@ -596,7 +596,7 @@ The generated file will contain content similar to:
 To regenerate all the pages, run:
 
 ```bash
-./scripts/build_markdown_pages.sh
+./scripts/generate_markdown.sh
 ```
 
 ---

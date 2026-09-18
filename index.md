@@ -3,33 +3,6 @@ html_theme.sidebar_primary.remove: true
 html_theme.sidebar_secondary.remove: true
 ---
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-
-ABOUT <about/index>
-PEOPLE <people/index>
-SOFTWARE <software/index>
-DATA <data/index>
-EDUCATION <education/index>
-CONSULTING CORE <cbcc/index>
-```
-
----
-
-```{raw} html
-<style> 
-h1 {display: none;} 
-</style>
-```
-
-# CCB
-
-:::{div} subtitle
-A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences
-:::
-
-
 ::::{grid} 1 1 3 3
 
 :::{grid-item-card}
@@ -51,3 +24,23 @@ Interested in computational biology, genomics, and bioinformatics? Explore oppor
 :::
 
 ::::
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+ABOUT <about/index>
+PEOPLE <people/index>
+SOFTWARE <software/index>
+DATA <data/index>
+EDUCATION <education/index>
+CONSULTING CORE <cbcc/index>
+```
+
+```{raw} html
+<style> 
+h1 {display: none;} 
+</style>
+```
+
+# CCB

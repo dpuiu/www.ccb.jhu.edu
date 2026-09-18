@@ -1317,42 +1317,203 @@ more _build.lychee | egrep -v '200|301|302|403|406|EXCLUDED|/en/|usnews' | sort 
 
 #########
 
+#2026-09-16
+git stash push conf.py
+gut pull
+
+git mv _templates/page.html  _templates/page.html0
+git mv _templates/page.html0 _templates/page.html
+
+#/home/dpuiu/www.ccb.jhu.edu/_build/pydata_sphinx_theme/index.html
+#grep fontaw _build/pydata_sphinx_theme/genindex.html _build/pydata_sphinx_theme/index.html _build/pydata_sphinx_theme/search.html
+
+find _build/pydata_sphinx_theme -name '*.html' -exec grep -c 'fontawesome.js'    {} + | grep -v ":0"
+find _build/pydata_sphinx_theme -name '*.html' -exec sed  -i '/fontawesome.js/d' {} +
+
+########
+
+npm install -g lighthouse
+
+lighthouse http://0.0.0.0:8000/   --output=json --output-path=lighthouse.json
+jq '.categories | {
+  performance: .performance.score,
+  accessibility: .accessibility.score,
+  best_practices: .["best-practices"].score,
+  seo: .seo.score
+}' lighthouse.json
+{
+  "performance": 0.59,
+  "accessibility": 1,
+  "best_practices": 0.74,
+  "seo": 0.92
+}
+
+###########
+
+sudo apt install nginx
+
+nano  /tmp/sphinx-nginx.conf
+sudo nginx -t -c /tmp/sphinx-nginx.conf       # test
+sudo nginx -c /tmp/sphinx-nginx.conf -p /tmp/ # start
+sudo nginx -s stop -c /tmp/sphinx-nginx.conf  # stop
+
+https://localhost:8443/index.html
+https://localhost:8443/_static/styles/pydata-sphinx-theme.css
+
+curl -kI --http2 https://localhost:8443/index.html
+
+########
+
+find . -name "*css" | xargs ls -l | sort -k5,5nr
+-rw-rw-r-- 1 dpuiu dpuiu 376426 Sep  2 16:31 ./pydata_sphinx_theme/_static/styles/pydata-sphinx-theme.css
+-rw-rw-r-- 1 dpuiu dpuiu  49351 Sep 16 14:17 ./pydata_sphinx_theme/_sphinx_design_static/sphinx-design.min.css
+-rw-rw-r-- 1 dpuiu dpuiu  49351 Sep 16 14:17 ./pydata_sphinx_theme/_static/sphinx-design.min.css
+-rw-rw-r-- 1 dpuiu dpuiu  14685 Sep 16 14:18 ./pydata_sphinx_theme/_static/basic.css
+-rw-rw-r-- 1 dpuiu dpuiu  12755 Sep 16 14:18 ./pydata_sphinx_theme/_static/pygments.css
+-rw-rw-r-- 1 dpuiu dpuiu   8066 Sep 16 12:56 ./pydata_sphinx_theme/_static/custom.css
+-rw-rw-r-- 1 dpuiu dpuiu   2060 Sep  2 16:31 ./pydata_sphinx_theme/_static/copybutton.css
+-rw-rw-r-- 1 dpuiu dpuiu    106 Sep  2 16:31 ./pydata_sphinx_theme/_static/styles/theme.css
+
+find . -name "*html" | xargs cat | grep "\.css" | sort | uniq -c | sort -nr | grep -v static
+#all static
+
+############
+
+git stash list
+git stash show stash@{0}
+git stash show -p
+
+git stash push conf.py index.md
+
+#########
+
+# 2026-09-18
+convert campus2-top.webp[0] -crop 1600x400+0+0 +repage campus2-1600.webp
+
+convert campus2-1600.webp -resize 1440x campus2-desktop.webp
+convert campus2-1600.webp -resize 800x campus2-tablet.webp
+convert campus2-1600.webp -resize 400x campus2-phone.webp
+
+lighthouse https://dpuiu.github.io/www.ccb.jhu.edu/index.html --view		# 69-100-93-92 => 85-100-96-100 
+lighthouse https://dpuiu.github.io/www.ccb.jhu.edu/people/faculty.html --view
+lighthouse https://dpuiu.github.io/www.ccb.jhu.edu/people/students.html --view
+lighthouse https://dpuiu.github.io/www.ccb.jhu.edu/software/all.html --view
+
+
 git status
-On branch main
-Your branch is up to date with 'origin/main'.
+git add -u
 
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   .gitignore
-	modified:   _people/all.yaml
-	modified:   _people/alumni.yaml
-	modified:   _people/collaborators.yaml
-	modified:   _people/faculty.yaml
-	modified:   _publications/doi.bib
-	modified:   _software/all.yaml
-	modified:   _software/variant-analysis.yaml
-	modified:   _static/custom.css
-	modified:   conf.py
 
-	modified:   scripts/build_markdown_pages.sh
-	modified:   scripts/sphinx.sh
+make clean; make html; ./scripts/fix_build.sh 
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	.github/workflows/deploy.yml0
-	_build.lychee
-	_people/faculty.json
-	_people/faculty2.json
-	_publications/doi.bib0
-	_static/images/campus2.webp
-	_static/images/campus3.webp
-	conf.py0
-	education/sample_courses.md0
-	examples/index.rst2
-	examples/index.rst3
-	examples/taxa.csv
-	other/
-	people/all.md
-	scripts/lychee.sh
+index.html
+ 85:
+  cache lifetime?
+  image deliv
+  blocking
+
+ 96:
+  grep body _build/pydata_sphinx_theme/index.html 
+   <body data-default-mode="">
+
+Todo:
+Disable font awsome ? 
+  egrep 'fa-solid|fa-brands|fa-regular'  _build/pydata_sphinx_theme/index.html 
+most;y light/dark ...
+
+Reduce logo sizes
+defer js
+hero; fetch priority=high
+
+
+
+############
+#html
+| Feature               | What it does                              |       JS needed? | Main use             | Example                                         |
+| --------------------- | ----------------------------------------- | ---------------: | -------------------- | ----------------------------------------------- |
+| `data-*`              | Store custom data                         |                ❌ | IDs, values, state   | `<div data-id="42">`                            |
+| `class` / `classList` | Add/remove CSS classes                    | ❌ / JS to change | Styling/UI state     | `el.classList.add("active")`                    |
+| `hidden`              | Hide/show an element                      |                ❌ | Simple show/hide     | `<p hidden>Secret</p>`                          |
+| `<details>/<summary>` | Expand/collapse                           |                ❌ | FAQ, more info       | `<details><summary>More</summary>...</details>` |
+| `<dialog>`            | Native dialog/modal                       |        Sometimes | Dialogs/forms        | `<dialog id="info">Hello</dialog>`              |
+| `popover`             | Native popup                              |                ❌ | Help/info popups     | `<button popovertarget="help">Help</button>`    |
+| `aria-*`              | Describe UI state to assistive technology |                ❌ | Accessibility        | `<button aria-expanded="false">`                |
+| `role`                | Defines an element's semantic role        |                ❌ | Accessibility        | `<div role="alert">Error</div>`                 |
+| `loading="lazy"`      | Delay loading off-screen images           |                ❌ | Performance          | `<img loading="lazy" src="photo.jpg">`          |
+| `fetchpriority`       | Tell browser resource importance          |                ❌ | Performance          | `<img fetchpriority="high">`                    |
+| `defer`               | Run script after HTML is parsed           |                ❌ | JS performance       | `<script defer src="app.js">`                   |
+| `<template>`          | Store HTML for later use                  |       Usually JS | Dynamic UI           | `<template><div>...</div></template>`           |
+| CSS variables         | Reuse CSS values                          |                ❌ | Themes/design system | `--main-color: blue;`                           |
+| `:has()`              | Select an element based on its contents   |                ❌ | Conditional styling  | `.card:has(img) { ... }`                        |
+
+#########
+
+cat index.md
+git show :index.md
+git show main:index.md
+git show stash@{0}:index.md
+
+##########
+
+#home desktop
+which lighthouse
+lighthouse --version
+which google-chrome
+google-chrome --version
+node --version
+npm --version
+
+/home/dpuiu/.nvm/versions/node/v24.19.0/bin/lighthouse
+13.4.1
+google-chrome: command not found
+v24.19.0
+12.0.2
+
+
+######
+#header
+file ...
+_static/images/campus2-top.webp:     RIFF (little-endian) data, Web/P image, VP8 encoding, 1600x419, Scaling: [none]x[none], YUV color, decoders should clamp
+_static/images/campus2-desktop.webp: RIFF (little-endian) data, Web/P image, VP8 encoding, 1440x360, Scaling: [none]x[none], YUV color, decoders should clamp
+_static/images/campus2-tablet.webp:  RIFF (little-endian) data, Web/P image, VP8 encoding, 800x200, Scaling: [none]x[none], YUV color, decoders should clamp
+_static/images/campus2-phone.webp:   RIFF (little-endian) data, Web/P image, VP8 encoding, 400x100, Scaling: [none]x[none], YUV color, decoders should clamp
+
+ll _static/images/*webp | sort -k5,5nr
+-rw-rw-r-- 1 dpuiu dpuiu 199948 Sep  2 16:30 _static/images/campus2-top.webp
+-rw-rw-r-- 1 dpuiu dpuiu 154624 Sep 18 10:11 _static/images/campus2-desktop.webp
+-rw-rw-r-- 1 dpuiu dpuiu  52194 Sep 18 10:11 _static/images/campus2-tablet.webp
+-rw-rw-r-- 1 dpuiu dpuiu  13060 Sep 18 10:11 _static/images/campus2-phone.webp
+
+#####
+#logos
+identify _static/logos/*rgb_horizontal*
+_static/logos/BSPH.logo.rgb_horizontal.white.webp WEBP 5496x1940 5496x1940+0+0 8-bit sRGB 71226B 0.000u 0:00.000
+_static/logos/SOM.logos.rgb_horizontal.white.webp WEBP 5496x1625 5496x1625+0+0 8-bit sRGB 60118B 0.000u 0:00.000
+_static/logos/WSE.logo.rgb_horizontal.white.webp WEBP  5496x1940 5496x1940+0+0 8-bit sRGB 70792B 0.000u 0:00.000
+
+
+ll _static/logos/*rgb_horizontal*
+-rw-rw-r-- 1 dpuiu dpuiu 71226 Sep  2 16:30 _static/logos/BSPH.logo.rgb_horizontal.white.webp
+-rw-rw-r-- 1 dpuiu dpuiu 60118 Sep  2 16:30 _static/logos/SOM.logos.rgb_horizontal.white.webp
+-rw-rw-r-- 1 dpuiu dpuiu 70792 Sep  2 16:30 _static/logos/WSE.logo.rgb_horizontal.white.webp
+
+
+######
+cd ~/sw
+npm install -D purgecss
+cd -
+
+npx purgecss   --css "_build/**/*.css"   --content "_build/**/*.html"   --output "_build/purged/"
+
+
+####
+/*---not helping
+.pst-nav-bar-icon {
+    color: var(--ccb-light-blue) !important;
+}
+
+.navbar-brand {
+    color: var(--ccb-light-blue) !important;
+}
+*/
 

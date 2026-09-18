@@ -11,13 +11,12 @@
     /* CCB colors */
     --ccb-blue: #002d72;
     --ccb-light-blue: #68ace5;
+    --ccb-white: #ffffff;
 
     /* Other site colors */
-    --ccb-white: #ffffff;
     --search-yellow: #ffeb3b;
     --table-gray: #d6d8da;
 }
-
 
 /*======================================================================
   2. BASE
@@ -28,7 +27,6 @@ body {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
 }
-
 
 /*======================================================================
   3. HEADER / NAVBAR
@@ -69,6 +67,10 @@ body {
     color: var(--search-yellow);
 }
 
+.svg-inline--fa {
+    color: var(--ccb-light-blue);
+}
+
 
 /*======================================================================
   4. SITE HEADER / FOOTER
@@ -82,9 +84,6 @@ body {
 
     background-color: var(--ccb-blue) !important;
     color: var(--ccb-white) !important;
-
-    /*padding: 10px 20px !important;
-    margin-top: 2rem !important;*/
 }
 
 /* Footer container */
@@ -96,9 +95,6 @@ body {
 
     background-color: var(--ccb-blue);
     color: var(--ccb-white);
-
-    /*padding: 10px 20px;
-    margin-top: 2rem;*/
 }
 
 /* Footer top row */
@@ -153,32 +149,6 @@ body {
 /*======================================================================
   6. TYPOGRAPHY
 ======================================================================*/
-
-
-/* Subtitle */
-.subtitle {
-    font-size: clamp(0.8rem, 2vw, 1.25rem);
-    font-weight: bold;
-}
-
-
-/* Heading sizes 
-.bd-content h1 {
-    font-size: 1.85rem;
-}
-
-.bd-content h2 {
-    font-size: 1.5rem;
-}
-
-.bd-content h3 {
-    font-size: 1.25rem;
-}
-
-.bd-content h4 {
-    font-size: 1.1rem;
-}
-*/
 
 /* Justify paragraphs on large screens */
 @media (min-width: 1200px) {
@@ -238,9 +208,8 @@ table.docutils tbody tr:nth-child(even) {
 .sd-card-text p {
     /*font-size: 0.9rem !important;*/
     /*font-size: clamp(0.7rem, 2vw, 0.9rem);*/ /*11.2px fonts* too small*/
-    font-size: clamp(0.8rem, 2vw, 0.9rem);*/
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
 }
-
 
 /*======================================================================
   10. HERO
@@ -264,7 +233,7 @@ table.docutils tbody tr:nth-child(even) {
 .hero-text {
     position: absolute;
 
-    top: 30%;
+    top: 20%;
     left: 5%;
     width: 60%;
 
@@ -296,28 +265,7 @@ table.docutils tbody tr:nth-child(even) {
   11. RESPONSIVE DESIGN
 ======================================================================*/
 
-/*--------------------------------------------------
-  Medium / smaller screens
---------------------------------------------------*/
-
-@media (max-width: 1400px) {
-
-    /* Replace the full site title with "CCB" */
-    .navbar-brand {
-        font-size: 0;
-    }
-
-    .navbar-brand::after {
-        content: "CCB";
-        font-size: 1rem;
-    }
-}
-
-
-/*--------------------------------------------------
-  Mobile
---------------------------------------------------*/
-
+/* Mobile */
 @media (max-width: 768px) {
 
     /* Hide elements specifically marked for mobile */
@@ -353,13 +301,3 @@ p:has(a[href$=".py"]) {
 /*======================================================================
   END
 ======================================================================*/
-
-/*
-.example-container {
-    background-image: url("images/campus2-top.webp");
-    background-size: cover;
-    background-position: center;
-    padding: 5rem 3rem;
-    color: white;
-}
-*/

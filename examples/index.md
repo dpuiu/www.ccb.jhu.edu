@@ -154,12 +154,14 @@ Term 2 : Definition of term 2
 
 ## CSV Table
 
+<!--
 ```{csv-table}
 :file: /people/collab.head.tsv
 :header-rows: 1
 :widths: 25 25 25 25
 :delim: tab
 ```
+-->
 
 ## Grid_Equal
 
