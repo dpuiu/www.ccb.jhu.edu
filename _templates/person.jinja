@@ -1,0 +1,66 @@
+{%- if label -%}
+({{ label }})=
+{%- endif %}
+# {{ title }} 
+
+({{ person.id }})=
+{%- if person.homepage %}
+## [{{ person.name }}]({{ person.homepage }})
+{%- else %}
+## {{ person.name }}
+{%- endif %}
+
+```{grid} 12
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/{{ person.id }}.webp
+:width: 240px
+:alt: {{ person.name }}
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+{# Display one or more titles #}
+{%- for t in person.titles -%}
+**{{ t }}**  
+{% endfor %}
+
+{# Display zero or more lab references #}
+{%- if person.labs -%}
+{%- for l in person.labs -%}
+{#**{ref}`{{ l.split("-")[-1] | capitalize }} <{{ l }}>` Lab**#}
+{%- set f = l.split()[0] -%}
+{%- if "-" in f -%}
+{ref}`{{ f.split("-")[-1] | capitalize }} <{{ f }}>` Lab {{ l[f|length:] }}   
+{%- else -%}
+**{{ l }}**   
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{# Display one or more affiliations references #}
+{%- for a in person.affiliations -%}
+{%- if a == a|lower -%}
+{{ "{{ " }}{{ a }}{{ " }}" }}  
+{% else %} 
+{{ a }}  
+{% endif %}
+{% endfor %}
+
+{%- if person.email -%} 
+[{{ person.email }}](mailto:{{ person.email }})  
+{% endif %}
+
+{%- if person.contact -%}
+Contact:  
+{{ person.contact }}
+{% endif %}
+
+::::
+```

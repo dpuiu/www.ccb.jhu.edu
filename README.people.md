@@ -126,6 +126,13 @@ Example output:
 
 #### Filter Faculty
 
+Select a faculty by id:
+
+```bash
+yq -y '{"person": (.people | map(select(.id == "steven-l-salzberg"))[0])}' \
+  _people/faculty.yaml > _people/steven-l-salzberg.yaml
+```
+
 Select only entries whose `role` is `faculty`:
 
 ```bash

@@ -1517,3 +1517,10 @@ npx purgecss   --css "_build/**/*.css"   --content "_build/**/*.html"   --output
 }
 */
 
+
+yq -y '{"person": (.people | map(select(.id == "aleksey-zimin"))[0])}' _people/faculty.yaml > _people/aleksey-zimin.yaml
+jinja2 _templates/person.jinja _people/aleksey-zimin.yaml       -D title="Aleksey Zimin"         -D label="Aleksey Zimin"     | uniq
+
+jinja2 _templates/person.jinja _people/aleksey-zimin.yaml       -D title="Aleksey Zimin"         -D label="Aleksey Zimin"      > people/alekseyz/person.md
+######
+
