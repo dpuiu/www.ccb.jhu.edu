@@ -49,6 +49,9 @@
             "type": "string",
             "format": "email"
           },
+          "contact": {
+            "type": "string"
+          },
 	  "role": {
 	    "type": "string",
 	    "enum": [
