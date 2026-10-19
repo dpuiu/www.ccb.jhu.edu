@@ -9,13 +9,57 @@ myst:
 orphan: true
 ---
 
+Contents:
+
 ```{contents}
 :local:
-:depth: 1
+:depth: 2
 ```
 
 # Examples
 
+{.my-example-class}
+## My Styled Heading 
+
+My regular paragrahn
+
+## My Default Heading 
+
+{.my-example-class}
+My styled paragrahn
+
+## My Styled Grid Element
+
+```{grid} 12
+:gutter: 1
+:class-container: my-example-class
+
+::::{grid-item-card}
+:columns: 12 12 3 3
+
+:::{image} /_static/people/steven-l-salzberg.webp
+:width: 240px
+:alt: Steven L. Salzberg, Ph.D.
+:::
+
+::::
+
+::::{grid-item-card}
+:columns: 12 12 9 9
+
+**Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
+**Director, Center for Computational Biology**  
+
+{{ bme }}  
+
+{{ cs }}  
+
+{{ bs }}  
+
+[salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
+
+::::
+```
 
 ## Substritution
 
@@ -114,13 +158,29 @@ This is the rest of the body text.
 <!--```{include} /about/contact.md
 ```-->
 
-## Image
+## Image 1
 
 ```{image} /_static/logos/logo.webp
 :width: 300px
 :align: center
 :alt: Figure
 ```
+
+## Image 2
+
+```{raw} html
+<img src="../_images/logo.webp" alt="image">
+```
+
+
+## Image 10
+
+```{raw} html
+<div class="hero-banner">
+<img src="../_images/campus2-top.webp" alt="Johns Hopkins campus">
+</div>
+```
+
 
 ## Definition Lists
 
@@ -249,7 +309,6 @@ graph TD
 </div>
 ```
 -->
-
 ## Bibliography test
 
 <!--
