@@ -21,12 +21,12 @@ Contents:
 {.my-example-class}
 ## My Styled Heading 
 
-My regular paragrahn
+My regular paragraph
 
 ## My Default Heading 
 
 {.my-example-class}
-My styled paragrahn
+My styled paragraph
 
 ## My Styled Grid Element
 
